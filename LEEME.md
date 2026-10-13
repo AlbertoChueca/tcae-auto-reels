@@ -1,0 +1,110 @@
+# Aprueba TCAE – Reels automáticos
+
+Publica sola **2 reels al día**, a la vez en **Instagram, TikTok y YouTube Shorts**, con su **Story** en Instagram y
+TikTok, para llevar opositores de TCAE del SALUD a **apruebatcae.com**.
+
+| Hora (España) | Hueco |
+|---|---|
+| 14:30 | `mediodia` |
+| 21:30 | `noche` |
+
+El workflow arranca ~30 min antes (generar, verificar y revisar lleva 15-25 min) y, si acaba antes, espera a la hora
+(máx. 15 min, variable `PUBLISH_MAX_WAIT_MIN`). El cambio de horario verano/invierno se gestiona solo. Si alguien relanza
+el workflow de un hueco ya publicado, no se publica dos veces (salvo `FORCE=true`).
+
+## Qué se publica en cada hueco (todo a la vez; si un destino falla, los demás siguen)
+| Red | Qué |
+|---|---|
+| Instagram | **Reel** (portada = fotograma del gancho, ubicación opcional) + **Story** propia de 12 s |
+| TikTok | **El mismo vídeo**, publicado a la vez (vía Zernio) |
+| TikTok | **Carrusel de fotos** con los fotogramas clave (gancho, pregunta, solución, explicación, cierre), 1 al día |
+| TikTok | **Story**: la API de TikTok no permite publicar Stories directamente; la story se envía a tu **buzón de TikTok como borrador** y desde la notificación la publicas como Story con un toque |
+| YouTube | **Short** (no "made for kids") |
+
+La **Story** (12 s) muestra la pregunta del reel como una vista previa con esquinas redondeadas, cuenta atrás, "¿A, B, C o
+D?" y "La solución, en el reel de hoy" (sin desvelar la respuesta): lleva tráfico al reel y se entiende sin sonido.
+Interruptores en **Variables**: `IG_STORY`, `TIKTOK`, `TIKTOK_CARRUSEL` (por defecto `mediodia`), `TIKTOK_STORY_BORRADOR`,
+`YOUTUBE` → `true`, `false`, `mediodia` o `noche`. En TikTok la web se nombra tal cual (el enlace de la bio de TikTok no
+es clicable hasta tener seguidores suficientes).
+
+## Qué sale en cada reel
+Sin mascota: tarjeta de test con la marca (teal + ámbar) y voz en off en español de España.
+**Gancho → pregunta (la voz la lee y las palabras se iluminan) → cuenta atrás → respuesta correcta en verde →
+explicación breve con su referencia → cierre con apruebatcae.com.** Formatos que rota el piloto automático:
+
+| Formato | Qué es |
+|---|---|
+| `pregunta_del_dia` | Una pregunta del banco con su explicación |
+| `examen_real` | Pregunta de los exámenes oficiales (15/03/2026 y 14/05/2026) con su fecha |
+| `error_tipico` | Marca en rojo la opción trampa y explica por qué engaña |
+| `truco_memorizar` | Pregunta + regla mnemotécnica sacada solo del material |
+| `mito_realidad` | Afirmación, cuenta atrás y sello MITO / REALIDAD |
+| `simulacro_3` | 3 preguntas cortas seguidas; "¿cuántas has acertado?" |
+| `legislacion_30s` | 3 ideas clave de una norma + pregunta rápida |
+| `caso_practico` | Escena de turno ilustrada ("Estás de turno en Medicina Interna…") que lleva a la pregunta |
+| `flashcards_express` | 4 fichas de la app del mismo tema que se giran; "¿cuántas sabías?" |
+
+### Series fijas (hueco de las 14:30)
+Cada día tiene su cita, con número de capítulo en pantalla y el avance de mañana en la tarjeta final (motivo para seguir la cuenta):
+lunes **legislación** · martes **trampas** · miércoles **simulacro** · jueves **casos prácticos** · viernes **mitos** ·
+sábado **repaso exprés** · domingo **examen real**. El reel de las 21:30 lo elige el piloto automático.
+
+### Estilos visuales
+`clasico` (marca teal) · `cuaderno` (libreta con subrayador) · `examen` (hoja de respuestas con aspa de boli) ·
+`noche` (estudiando de noche, neón) · `minimal` (editorial) · `ilustrado` (ilustración original de fondo).
+El piloto automático los prueba y se queda con los que más guardan/comparten. Se puede forzar uno al lanzar el workflow.
+
+## Estudio creativo: 10 agentes (estudio.py)
+| Agente | Qué hace |
+|---|---|
+| Directora creativa | Concepto visual del reel e idea de la ilustración, sin repetir las recientes |
+| Ilustradora | Genera la imagen ORIGINAL (Gemini) para el gancho, el caso práctico y el estilo ilustrado |
+| Revisora visual | Rechaza imágenes con texto, errores de higiene/EPI, manos o caras deformes o algo sensible (1 redibujo) |
+| Narradora de casos | Convierte la pregunta en una escena de turno, sin añadir datos |
+| Memoria | "Guárdalo y repásalo mañana" + técnica de estudio en la descripción (más guardados) |
+| Viralidad | Reto en pantalla durante la cuenta atrás ("¿Tu compi la acierta?"), línea para compartir y para etiquetar |
+| Series | Nombre y número de la serie del día y avance real de mañana |
+| Embudo a la app | Cierre con el número REAL de preguntas/fichas de ese tema en la app (se comprueba en código) |
+| SEO | Título de YouTube y frase con lo que busca un opositor (TikTok/YouTube/Instagram) |
+| Ritmo | Velocidad de voz y energía de la música según la retención real |
+
+Se suman a la sala de 5 agentes (gancho, guion, diseño, crecimiento, comunidad) y cada uno tiene su cuaderno diario en
+`agents/estudio_*.md`. Todo lo que escriben pasa por el verificador antes de publicarse. Las imágenes aprobadas se
+guardan junto al vídeo (`*_ilustracion.jpg`) y el registro en `image_log.jsonl`.
+
+## Cómo se evita publicar un error (lo más importante)
+1. **Solo preguntas propias**: el banco sale del `index.html` de tu web app (1.822 preguntas, 220 de examen oficial, 2.718 fichas). El enunciado y las opciones salen tal cual; la IA nunca los reescribe.
+2. **Verificador** (`verifier.py`): antes de usar una pregunta comprueba que la respuesta marcada es la correcta y la única. En **legislación y plazos** exige una **cita literal** del texto real de la norma (`fuentes/`, descargado del BOE) y el código comprueba que esa cita existe de verdad; sin cita, esa pregunta no sale.
+3. **Verificación del guion**: todo lo que escriben los agentes (explicación, trampa, truco, mito, puntos) se contrasta con la pregunta, la explicación de la app, las fichas y la cita. Si no pasa, se reescribe una vez; si sigue sin pasar, se cambia de formato.
+4. Si no hay nada verificado, **ese día no se publica** (mejor no publicar que publicar un error).
+
+El informe `banco/informe_verificacion.md` lista las preguntas dudosas y los posibles errores del banco; sirve también para corregir la web app.
+
+## Puesta en marcha (una vez)
+1. Crea un repositorio **privado** en GitHub y sube todo el contenido de esta carpeta.
+2. **Settings → Secrets and variables → Actions → Secrets**:
+   - `GEMINI_API_KEY` (obligatorio: guion, verificador, voz).
+   - `IG_TOKEN`: token de **página** de Facebook (empieza por `EAA`) de la página vinculada a @apruebatcae (cuenta profesional), con `instagram_basic`, `instagram_content_publish`, `pages_show_list`, `pages_read_engagement`, `instagram_manage_insights`, `instagram_manage_comments`. Generado desde un token de usuario de larga duración, no caduca (igual que en StreakChess).
+   - `ZERNIO_API_KEY`: conecta en Zernio la cuenta de TikTok @apruebatcae y el canal de YouTube (sin ella solo se publica en Instagram).
+3. **Actions → Descargar fuentes → Run workflow.** Mira `fuentes/estado.md`. Tres normas solo están en el BOA (Decreto Legislativo 2/2004, Decreto 174/2010 y Decreto 39/2024): pega su texto en el archivo que indica. Mientras falten, las preguntas de esos temas no se publican.
+4. **Actions → Verificar banco → Run workflow** (pon 200). Después se verifica una tanda cada noche sola.
+5. **Actions → Muestras de voz**: descarga las muestras, elige una y ponla en **Variables → `GEMINI_VOICE`** (por defecto `Kore`).
+6. **Actions → Reels diarios → Run workflow** con "Solo generar el vídeo" marcado: descarga el vídeo en *Artifacts* y revísalo.
+7. **Actions → Comprobar conexiones**: debe salir todo en verde (tokens, cuentas, Gemini, reserva de preguntas). Se repite cada lunes y, si algo crítico falla, GitHub te avisa por correo.
+8. Desde ese momento publica solo a las 14:30 y 21:30. Para pausar: *Reels diarios → … → Disable workflow*.
+
+## Minutos de GitHub (repositorio privado)
+Estimación: reels ~1.500 min/mes, verificación nocturna ~250, bot de comentarios (cada 2 h, de 8:00 a 0:00) ~270 →
+**~2.000 min/mes**, justo el límite del plan gratuito. Si te quedas corto: plan Pro (3.000 min), `PUBLISH_MAX_WAIT_MIN=0`
+(ahorra ~300) o espaciar el bot de comentarios.
+
+## Actualizar las preguntas
+Sube la nueva versión de la web app a `webapp/index.html`: el workflow **Importar banco** la lee sola. Las preguntas ya verificadas o publicadas se recuerdan (cada una tiene un id estable).
+
+## Lo demás
+- **Bot de comentarios** (Instagram, cada 2 h): detecta A/B/C/D, "1a 2c 3b" o "mito/realidad", felicita a quien acierta y anima a quien falla sin desvelar la respuesta. Los DM están desactivados (`BOT_SEND_DMS=true` para activarlos).
+- **Aprendizaje**: `performance.json` (views, guardados, compartidos, comentarios, visitas al perfil), `strategy_report.md` (qué formato y gancho ganan), `playbook.md` (estratega semanal) y `agents/*.md` (cuadernos diarios de los 5 agentes).
+- **Ubicación**: rellena el `id` de Zaragoza, Huesca y Teruel en `locations.json` (id de la página de Facebook del lugar). Vacío = sin ubicación.
+- **Hechos de la app**: `assets/app/facts.md`. Los agentes solo afirman lo que pone ahí (edítalo si algo cambia, p. ej. si deja de ser gratis).
+- **Portada**: el reel usa como portada el fotograma del gancho (`thumb_offset`).
+- **Prueba local sin red**: `QUIZ_MOCK=1 VOICE_ENGINE=mock python make_quiz.py simulacro_3 out/prueba.mp4 cuaderno`.
