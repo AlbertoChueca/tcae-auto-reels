@@ -1,0 +1,33 @@
+{
+ "_info": "Normas que el verificador usa como fuente. 'boe' = id del BOE (se descarga sola con el workflow 'Descargar fuentes'); 'buscar' = título para buscarla en el BOE; 'manual' = solo publicada en el BOA: pega su texto en fuentes/<archivo> (txt). 'clave' = palabras que debe contener el título descargado (comprobación).",
+ "normas": {
+  "ce":       {"titulo": "Constitución Española de 1978", "boe": "BOE-A-1978-31229", "clave": ["Constitución"], "archivo": "ce.txt"},
+  "lgs":      {"titulo": "Ley 14/1986, General de Sanidad", "boe": "BOE-A-1986-10499", "clave": ["14/1986"], "archivo": "ley14_1986.txt"},
+  "ley41":    {"titulo": "Ley 41/2002, básica reguladora de la autonomía del paciente", "boe": "BOE-A-2002-22188", "clave": ["41/2002"], "archivo": "ley41_2002.txt"},
+  "em":       {"titulo": "Ley 55/2003, del Estatuto Marco del personal estatutario", "boe": "BOE-A-2003-23101", "clave": ["55/2003"], "archivo": "ley55_2003.txt"},
+  "lpac":     {"titulo": "Ley 39/2015, del Procedimiento Administrativo Común", "boe": "BOE-A-2015-10565", "clave": ["39/2015"], "archivo": "ley39_2015.txt"},
+  "lrjsp":    {"titulo": "Ley 40/2015, de Régimen Jurídico del Sector Público", "boe": "BOE-A-2015-10566", "clave": ["40/2015"], "archivo": "ley40_2015.txt"},
+  "loi":      {"titulo": "Ley Orgánica 3/2007, para la igualdad efectiva de mujeres y hombres", "boe": "BOE-A-2007-6115", "clave": ["3/2007"], "archivo": "lo3_2007.txt"},
+  "lcsp":     {"titulo": "Ley 9/2017, de Contratos del Sector Público", "boe": "BOE-A-2017-12902", "clave": ["9/2017"], "archivo": "ley9_2017.txt"},
+  "lopdgdd":  {"titulo": "Ley Orgánica 3/2018, de Protección de Datos Personales", "boe": "BOE-A-2018-16673", "clave": ["3/2018"], "archivo": "lo3_2018.txt"},
+  "ltransp":  {"titulo": "Ley 19/2013, de transparencia, acceso a la información pública y buen gobierno", "boe": "BOE-A-2013-12887", "clave": ["19/2013"], "archivo": "ley19_2013.txt"},
+  "eaa":      {"titulo": "Ley Orgánica 5/2007, de reforma del Estatuto de Autonomía de Aragón", "boe": "BOE-A-2007-8444", "clave": ["5/2007", "Aragón"], "archivo": "estatuto_aragon.txt"},
+  "lsa":      {"titulo": "Ley 6/2002, de 15 de abril, de Salud de Aragón", "buscar": "Ley 6/2002 Salud de Aragón", "clave": ["6/2002", "Aragón"], "archivo": "ley6_2002_salud_aragon.txt"},
+  "ltrans_ar":{"titulo": "Ley 4/2018, de identidad y expresión de género e igualdad social y no discriminación de Aragón", "buscar": "Ley 4/2018 identidad expresión de género Aragón", "clave": ["4/2018", "Aragón"], "archivo": "ley4_2018_aragon.txt"},
+  "lviol_ar": {"titulo": "Ley 4/2007, de prevención y protección integral a las mujeres víctimas de violencia en Aragón", "buscar": "Ley 4/2007 mujeres víctimas de violencia Aragón", "clave": ["4/2007", "Aragón"], "archivo": "ley4_2007_aragon.txt"},
+  "lorg_ar":  {"titulo": "Ley 5/2021, de Organización y Régimen Jurídico del Sector Público Autonómico de Aragón", "buscar": "Ley 5/2021 Organización Régimen Jurídico Sector Público Autonómico Aragón", "clave": ["5/2021", "Aragón"], "archivo": "ley5_2021_aragon.txt"},
+  "ligu_ar":  {"titulo": "Ley 7/2018, de igualdad de oportunidades entre mujeres y hombres en Aragón", "buscar": "Ley 7/2018 igualdad de oportunidades mujeres hombres Aragón", "clave": ["7/2018", "Aragón"], "archivo": "ley7_2018_aragon.txt"},
+  "salud_ar": {"titulo": "Decreto Legislativo 2/2004, texto refundido de la Ley del Servicio Aragonés de Salud", "manual": true, "archivo": "dleg2_2004_salud.txt"},
+  "areas_ar": {"titulo": "Decreto 174/2010, Reglamento de la estructura y funcionamiento de las áreas y sectores del Sistema de Salud de Aragón", "manual": true, "archivo": "decreto174_2010.txt"},
+  "depto_ar": {"titulo": "Decreto 39/2024, estructura orgánica del Departamento de Sanidad", "manual": true, "archivo": "decreto39_2024.txt"}
+ },
+ "temas": {
+  "constitucionEspanola": ["ce"], "leyGeneralSanidad": ["lgs"], "ley41": ["ley41"], "estatutoMarco": ["em"],
+  "procedimientoAdministrativo": ["lpac"], "regimenJuridicoSectorPublico": ["lrjsp"], "principioIgualdad": ["loi", "ce", "eaa"],
+  "contratacionPublica": ["lcsp"], "proteccionDatosSanitarios": ["lopdgdd", "ley41"], "transparencia": ["ltransp"],
+  "estatutoAutonomiaVII_IX": ["eaa"], "leySaludAragon": ["lsa"], "leyTransAragon": ["ltrans_ar"],
+  "violenciaMujeresAragon": ["lviol_ar"], "organosGobiernoCAA": ["lorg_ar", "eaa"], "igualdadAragon": ["ligu_ar"],
+  "saludOrganosSuperiores": ["salud_ar"], "areasSectoresSalud": ["areas_ar"], "deptoSanidadAragon": ["depto_ar"],
+  "nombramientosMayorias": ["ce", "eaa", "lorg_ar"], "fechasPlazos": ["lpac", "ce", "em", "eaa"]
+ }
+}
