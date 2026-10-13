@@ -1,7 +1,8 @@
 """Estilos visuales de los reels. Cada estilo cambia fondo, tarjetas, tipografía, forma de marcar la respuesta y colores,
 pero todos respetan la zona segura y la marca (Aprueba TCAE). El piloto automático prueba cuál funciona mejor.
 
-  clasico   tarjetas blancas sobre teal profundo (marca)
+  marca     como la web app: fondo claro, tarjetas blancas, teal #1a9e8f y dorado (por defecto)
+  clasico   tarjetas blancas sobre teal oscuro de la marca
   cuaderno  hoja de libreta con renglones, subrayador amarillo y post-it
   examen    hoja de examen oficial sobre la mesa: casillas que se marcan con bolígrafo azul
   noche     "estudiando de noche": azul marino, estrellas y acentos neón (ideal a las 21:30)
@@ -13,9 +14,9 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFilter, ImageEnhance
 
 import fx
-from fx import W, H, TEAL, TEAL_D, TEAL_M, MINT, AMBER, INK, PAPER, GREEN, RED, WHITE
+from fx import W, H, TEAL, TEAL_D, TEAL_M, MINT, AMBER, INK, PAPER, GREEN, RED, WHITE, BG, BORDER, MUTED, TEAL_DEEP
 
-STYLES = ["clasico", "cuaderno", "examen", "noche", "minimal", "ilustrado"]
+STYLES = ["marca", "clasico", "cuaderno", "examen", "noche", "minimal", "ilustrado"]
 
 
 # ------------------------------------------------------------------ fondos
@@ -97,96 +98,85 @@ class ImageBG:
         return src.crop((int(x0), int(y0), int(x0 + vw), int(y0 + vh))).resize((W, H), Image.BILINEAR).convert("RGBA")
 
 
-# ------------------------------------------------------------------ temas
+# ------------------------------------------------------------------ temas (todos con los colores de apruebatcae.com)
 class Theme:
     def __init__(self, name, **kw):
         self.name = name
-        # valores por defecto = clásico
-        self.card_fill, self.card_outline, self.card_radius, self.shadow = PAPER, None, 46, True
-        self.ink, self.dim, self.label = INK, (170, 186, 182), TEAL
+        # valores por defecto = clásico (teal oscuro de la marca + tarjetas blancas)
+        self.card_fill, self.card_outline, self.card_radius, self.shadow = PAPER, None, 40, True
+        self.ink, self.dim, self.label = INK, (176, 186, 198), TEAL
         self.accent, self.accent_fg = TEAL, WHITE
-        self.row_fill, self.row_active, self.row_outline, self.row_radius = (236, 244, 242), (222, 242, 237), TEAL, 28
+        self.row_fill, self.row_active, self.row_outline, self.row_radius = BG, MINT, TEAL, 24
         self.ok_mode, self.ok_col, self.ok_text = "fill", GREEN, WHITE
-        self.bad_col, self.bad_fill = RED, (253, 232, 232)
-        self.faded = (238, 238, 238)
+        self.bad_col, self.bad_fill = RED, (253, 236, 236)
+        self.faded = (226, 231, 236)
         self.letter = "circle"
         self.title_bg, self.title_fg = AMBER, INK
-        self.badge_bg, self.badge_fg, self.chip_bg, self.chip_fg = AMBER, INK, (255, 255, 255, 40), WHITE
-        self.head_col, self.head_hot, self.head_stroke, self.head_stroke_col, self.head_shadow = WHITE, AMBER, 9, TEAL_D, True
-        self.sub_band, self.sub_ink, self.sub_dim = (6, 30, 27, 120), WHITE, (150, 190, 182)
-        self.ring_bg, self.ring_col, self.ring_fg = (6, 30, 27, 230), AMBER, WHITE
-        self.pill_bg, self.pill_fg, self.pill_outline = TEAL_D, WHITE, MINT
-        self.big_col = TEAL_M
-        self.ref_bg, self.ref_fg = (226, 240, 236), TEAL_M
+        self.badge_bg, self.badge_fg, self.chip_bg, self.chip_fg = AMBER, INK, (255, 255, 255, 46), WHITE
+        self.head_col, self.head_hot, self.head_stroke, self.head_stroke_col, self.head_shadow = WHITE, AMBER, 9, TEAL_DEEP, True
+        self.sub_band, self.sub_ink, self.sub_dim = (8, 60, 54, 150), WHITE, (160, 205, 198)
+        self.ring_bg, self.ring_col, self.ring_fg = (8, 60, 54, 235), AMBER, WHITE
+        self.pill_bg, self.pill_fg, self.pill_outline = TEAL_DEEP, WHITE, MINT
+        self.big_col = TEAL_D
+        self.ref_bg, self.ref_fg = MINT, TEAL_D
         self.burst = [GREEN, AMBER, MINT, WHITE]
-        self.brand_bg = PAPER
+        self.web_bg, self.web_fg = (255, 255, 255, 60), WHITE      # marca de agua con la web (arriba)
         self.header = None                   # texto de cabecera de la hoja (estilo examen)
         self.music_bpm = 88
         self.__dict__.update(kw)
 
     def background(self, seed, image=None):
         n = self.name
+        if n == "marca":
+            return GradientBG(BG, MINT, "dots", blobs=(TEAL, AMBER, (180, 230, 222)), blob_alpha=30, seed=seed,
+                              pat_col=(26, 158, 143, 26))
         if n == "cuaderno":
-            return GradientBG((252, 249, 240), (246, 241, 228), "lines", blobs=((255, 236, 150), (190, 220, 255)), blob_alpha=40, seed=seed)
+            return GradientBG((252, 250, 243), (246, 243, 232), "lines", blobs=((232, 201, 61), (180, 230, 222)), blob_alpha=38, seed=seed)
         if n == "examen":
-            return GradientBG((214, 220, 229), (186, 196, 210), "grid", blobs=((255, 255, 255), (200, 210, 230)), blob_alpha=50,
+            return GradientBG((222, 230, 232), (196, 210, 212), "grid", blobs=((255, 255, 255), MINT), blob_alpha=50,
                               seed=seed, pat_col=(255, 255, 255, 40))
         if n == "noche":
-            return GradientBG((8, 12, 34), (30, 24, 72), "stars", blobs=((120, 90, 255), (40, 200, 220), (255, 200, 120)),
-                              blob_alpha=45, seed=seed)
+            return GradientBG((3, 26, 24), (10, 66, 60), "stars", blobs=((26, 158, 143), (95, 211, 196), (232, 201, 61)),
+                              blob_alpha=42, seed=seed)
         if n == "minimal":
-            return GradientBG((246, 244, 239), (240, 237, 230), "none", blobs=((255, 200, 180),), blob_alpha=25, seed=seed)
+            return GradientBG((250, 251, 251), (243, 246, 246), "none", blobs=(MINT,), blob_alpha=40, seed=seed)
         if n == "ilustrado" and image is not None:
             return ImageBG(image)
-        return GradientBG(TEAL_D, tuple(int(a * 0.55 + b * 0.45) for a, b in zip(TEAL, TEAL_D)), "dots", seed=seed)
+        return GradientBG(TEAL_DEEP, TEAL_D, "dots", blobs=(MINT, TEAL, AMBER), seed=seed)
 
 
 def get(name):
+    light = dict(head_col=INK, head_hot=TEAL, head_stroke=6, head_stroke_col=WHITE, head_shadow=False,
+                 sub_band=(255, 255, 255, 235), sub_ink=INK, sub_dim=(170, 180, 190),
+                 ring_bg=(255, 255, 255, 245), ring_col=TEAL, ring_fg=INK, pill_bg=TEAL, pill_fg=WHITE, pill_outline=None,
+                 chip_bg=(255, 255, 255, 255), chip_fg=TEAL_D, web_bg=(255, 255, 255, 220), web_fg=TEAL_D)
+    if name == "marca":
+        return Theme("marca", card_outline=BORDER, card_radius=32, badge_bg=TEAL, badge_fg=WHITE,
+                     burst=[GREEN, TEAL, AMBER], **light)
     if name == "cuaderno":
-        navy, blue = (28, 38, 84), (46, 86, 196)
-        return Theme("cuaderno", card_fill=(255, 255, 255), card_outline=(214, 222, 236), card_radius=18,
-                     ink=navy, dim=(178, 186, 206), label=blue, accent=blue, row_fill=(244, 247, 253),
-                     row_active=(232, 240, 255), row_outline=blue, row_radius=14, ok_mode="marker",
-                     ok_col=(255, 226, 70), ok_text=navy, letter="circle_outline", title_bg=(255, 226, 70), title_fg=navy,
-                     badge_bg=(255, 226, 70), badge_fg=navy, chip_bg=(255, 255, 255, 230), chip_fg=blue,
-                     head_col=navy, head_hot=(229, 72, 77), head_stroke=8, head_stroke_col=(255, 255, 255), head_shadow=False,
-                     sub_band=(255, 255, 255, 225), sub_ink=navy, sub_dim=(170, 178, 200),
-                     ring_bg=(255, 255, 255, 240), ring_col=blue, ring_fg=navy,
-                     pill_bg=(255, 255, 255), pill_fg=navy, pill_outline=blue, big_col=blue,
-                     ref_bg=(236, 242, 255), ref_fg=blue, burst=[(255, 226, 70), blue, (229, 72, 77)], music_bpm=84)
+        return Theme("cuaderno", card_outline=BORDER, card_radius=16, label=TEAL_D, row_fill=(248, 250, 250),
+                     row_radius=12, ok_mode="marker", ok_col=AMBER, ok_text=INK, letter="circle_outline",
+                     badge_bg=AMBER, badge_fg=INK, burst=[AMBER, TEAL, RED], music_bpm=84, **light)
     if name == "examen":
-        ink, pen = (24, 26, 32), (31, 64, 186)
-        return Theme("examen", card_fill=(255, 255, 255), card_outline=(205, 210, 220), card_radius=8,
-                     ink=ink, dim=(176, 180, 190), label=(90, 96, 110), accent=ink, accent_fg=ink,
-                     row_fill=(255, 255, 255), row_active=(240, 244, 255), row_outline=pen, row_radius=6,
-                     ok_mode="pen", ok_col=pen, ok_text=pen, letter="box", title_bg=pen, title_fg=WHITE,
-                     badge_bg=ink, badge_fg=WHITE, chip_bg=(255, 255, 255, 235), chip_fg=ink,
-                     head_col=ink, head_hot=pen, head_stroke=0, head_stroke_col=WHITE, head_shadow=False,
-                     sub_band=(255, 255, 255, 230), sub_ink=ink, sub_dim=(170, 174, 186),
-                     ring_bg=(255, 255, 255, 245), ring_col=pen, ring_fg=ink, pill_bg=ink, pill_fg=WHITE, pill_outline=None,
-                     big_col=pen, ref_bg=(238, 241, 248), ref_fg=ink, burst=[pen, (229, 72, 77), (60, 60, 70)],
-                     header="OPOSICIÓN TCAE · SALUD ARAGÓN", music_bpm=80)
+        return Theme("examen", card_outline=(205, 212, 220), card_radius=8, label=MUTED, accent=INK, accent_fg=INK,
+                     row_fill=PAPER, row_active=MINT, row_outline=TEAL_D, row_radius=6, ok_mode="pen", ok_col=TEAL_D,
+                     ok_text=TEAL_D, letter="box", title_bg=TEAL_D, title_fg=WHITE, badge_bg=INK, badge_fg=WHITE,
+                     big_col=TEAL_D, ref_bg=BG, ref_fg=INK, burst=[TEAL_D, RED, INK],
+                     header="OPOSICIÓN TCAE · SALUD ARAGÓN", music_bpm=80,
+                     **{**light, "ring_col": TEAL_D, "pill_bg": INK})
     if name == "noche":
-        neon, glass = (122, 162, 255), (24, 30, 64)
-        return Theme("noche", card_fill=glass + (238,), card_outline=(90, 110, 200), card_radius=40,
-                     ink=WHITE, dim=(110, 120, 168), label=neon, accent=neon, accent_fg=(10, 14, 40),
-                     row_fill=(38, 46, 92), row_active=(50, 62, 124), row_outline=neon,
-                     ok_col=(64, 224, 150), ok_text=(8, 30, 20), bad_fill=(80, 30, 50), faded=(70, 76, 110),
-                     title_bg=neon, title_fg=(10, 14, 40), badge_bg=neon, badge_fg=(10, 14, 40),
-                     chip_bg=(255, 255, 255, 35), chip_fg=WHITE, head_hot=(255, 210, 120), head_stroke_col=(10, 14, 40),
-                     sub_band=(8, 10, 30, 150), sub_dim=(120, 130, 190), ring_bg=(10, 14, 40, 230), ring_col=neon,
-                     pill_bg=(10, 14, 40), pill_outline=neon, big_col=neon, ref_bg=(44, 54, 104), ref_fg=neon,
-                     burst=[(64, 224, 150), neon, (255, 210, 120), WHITE], brand_bg=PAPER, music_bpm=82)
+        neon = (95, 211, 196)
+        return Theme("noche", card_fill=(10, 44, 41, 240), card_outline=(40, 120, 110), ink=WHITE, dim=(110, 150, 145),
+                     label=neon, accent=neon, accent_fg=TEAL_DEEP, row_fill=(18, 62, 58), row_active=(26, 84, 78),
+                     row_outline=neon, ok_col=(70, 210, 140), ok_text=(6, 32, 20), bad_fill=(80, 30, 34), faded=(60, 92, 88),
+                     badge_bg=neon, badge_fg=TEAL_DEEP, sub_band=(2, 20, 18, 160), ring_bg=(2, 24, 22, 235), ring_col=AMBER,
+                     pill_bg=(2, 24, 22), pill_outline=neon, big_col=neon, ref_bg=(22, 70, 64), ref_fg=neon,
+                     burst=[(70, 210, 140), neon, AMBER, WHITE], music_bpm=82)
     if name == "minimal":
-        blk, coral = (17, 17, 17), (255, 94, 58)
-        return Theme("minimal", card_fill=(255, 255, 255), card_outline=(225, 222, 214), card_radius=30, shadow=False,
-                     ink=blk, dim=(190, 186, 178), label=coral, accent=blk, row_fill=(246, 244, 239), row_active=(255, 236, 228),
-                     row_outline=coral, ok_col=blk, ok_text=WHITE, letter="square", title_bg=coral, title_fg=WHITE,
-                     badge_bg=blk, badge_fg=WHITE, chip_bg=(0, 0, 0, 0), chip_fg=blk,
-                     head_col=blk, head_hot=coral, head_stroke=0, head_stroke_col=WHITE, head_shadow=False,
-                     sub_band=(255, 255, 255, 0), sub_ink=blk, sub_dim=(190, 186, 178), ring_bg=(17, 17, 17, 255),
-                     ring_col=coral, pill_bg=blk, pill_fg=WHITE, pill_outline=None, big_col=coral,
-                     ref_bg=(246, 244, 239), ref_fg=blk, burst=[coral, blk, (255, 190, 170)], music_bpm=92)
+        return Theme("minimal", card_outline=BORDER, card_radius=28, shadow=False, label=TEAL, accent=INK,
+                     row_fill=(246, 248, 248), ok_col=TEAL, letter="square", title_bg=TEAL, title_fg=WHITE,
+                     badge_bg=INK, badge_fg=WHITE, burst=[TEAL, INK, AMBER], music_bpm=92,
+                     **{**light, "head_stroke": 0, "sub_band": (255, 255, 255, 0), "pill_bg": INK})
     if name == "ilustrado":
         return Theme("ilustrado", card_fill=PAPER + (246,), sub_band=(0, 0, 0, 140))
     return Theme("clasico")

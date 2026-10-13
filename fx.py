@@ -17,9 +17,11 @@ F800 = os.path.join(HERE, "fonts", "Nunito-800.ttf")
 FPOP = os.path.join(HERE, "fonts", "Poppins-Bold.ttf")
 
 # ---- marca (teal de apruebatcae.com: #1a9e8f)
-TEAL = (26, 158, 143); TEAL_D = (11, 59, 54); TEAL_M = (16, 104, 94); MINT = (170, 236, 222)
-AMBER = (255, 200, 87); INK = (18, 49, 45); PAPER = (251, 250, 247); MUTED = (150, 168, 164)
-GREEN = (43, 182, 115); RED = (229, 72, 77); WHITE = (255, 255, 255)
+# colores de apruebatcae.com (CSS de la web app): teal, teal-dark, teal-light, text, muted, bg, green, red y dorado
+TEAL = (26, 158, 143); TEAL_D = (15, 122, 109); TEAL_M = (15, 122, 109); MINT = (230, 247, 245)
+AMBER = (232, 201, 61); INK = (31, 41, 55); PAPER = (255, 255, 255); MUTED = (107, 114, 128)
+GREEN = (46, 158, 91); RED = (214, 69, 69); WHITE = (255, 255, 255)
+BG = (247, 249, 250); BORDER = (226, 232, 240); TEAL_DEEP = (8, 72, 64)
 
 _FONTS = {}
 

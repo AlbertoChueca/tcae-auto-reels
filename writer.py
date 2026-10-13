@@ -179,7 +179,7 @@ def template(fmt, items):
              "flashcards_express": ("4 fichas de repaso", f"Repaso exprés de {P.get('tema', 'temario')}. ¿Cuántas sabes?")}
     sh, hl = hooks[fmt]
     return {"screen_hook": sh, "hook_line": hl, "reveal_line": f"La correcta es la {letra}.",
-            "explicacion": ex, "cta_line": "Practica gratis con más de 1.800 preguntas en apruebatcae.com. Tienes el link en la bio.",
+            "explicacion": ex, "cta_line": f"Practica gratis con {__import__('marca').PREGUNTAS_FRASE} en apruebatcae.com. Tienes el link en la bio.",
             "caption_hook": {"examen_real": "Esta cayó en el examen oficial de TCAE 📝"}.get(fmt, "¿Sabrías responderla en el examen? 📝"),
             "comment_prompt": ("Comenta cuántas sabías, del 0 al 4" if fmt == "flashcards_express"
                                else "Comenta A, B, C o D antes de ver la solución"),

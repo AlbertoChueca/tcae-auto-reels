@@ -19,6 +19,8 @@ Todo es opcional: si un agente falla, el reel sigue con lo que ya tenía.
 """
 import datetime, json, os, re
 
+import marca as M
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 NB_DIR = os.path.join(HERE, "agents")
 STAMP = os.path.join(NB_DIR, "estudio_last_update.txt")
@@ -315,13 +317,13 @@ def embudo(fmt, items, S):
     try:
         res = _ask(f"""{brief('embudo_app')}
 DATOS REALES de la app (usa solo estos números): tema "{c['tema']}": {c['preguntas_tema']} preguntas tipo test y
-{c['fichas_tema']} flashcards. En total más de 1.800 preguntas, simulacros y estadísticas. Se practica gratis en apruebatcae.com.
+{c['fichas_tema']} flashcards. En total {M.PREGUNTAS_FRASE}, simulacros y estadísticas. Se practica gratis en apruebatcae.com.
 Escribe:
 - cta_line: cierre hablado (10-22 palabras) que invite a practicar ESTE tema en la app; nombra "apruebatcae.com".
 - app_caption: línea de la descripción (máx. 22 palabras) con el número real de preguntas o fichas de este tema.
 Devuelve JSON: {{"cta_line": str, "app_caption": str}}""", 0.7)
         out = {}
-        allowed = {str(c["preguntas_tema"]), str(c["fichas_tema"]), "1.800", "1800"}
+        allowed = {str(c["preguntas_tema"]), str(c["fichas_tema"]), M.PREGUNTAS, M.PREGUNTAS.replace(".", "")}
         for k, lo, hi in (("cta_line", 8, 24), ("app_caption", 5, 24)):
             v = _w(res.get(k), lo, hi)
             nums = re.findall(r"\d[\d.]*", v or "")

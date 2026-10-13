@@ -23,7 +23,7 @@ MIN_AGE_DAYS = 3
 DEFAULT_ARMS = {
     "formato": ["pregunta_del_dia", "examen_real", "error_tipico", "truco_memorizar", "mito_realidad", "simulacro_3",
                 "legislacion_30s", "caso_practico", "flashcards_express"],
-    "estilo": ["clasico", "cuaderno", "examen", "noche", "minimal", "ilustrado"],
+    "estilo": ["marca", "clasico", "cuaderno", "examen", "noche", "minimal", "ilustrado"],
     "hook_style": [
         "reto: retar directamente ('¿la acertarías en el examen?')",
         "trampa: avisar de que la pregunta tiene trampa o confunde",

@@ -203,7 +203,7 @@ def verify_script(items, script, fmt):
         import estudio
         c = estudio.app_counts(items)
         ctx.append(f"Datos reales de la app: el tema {c['tema']} tiene {c['preguntas_tema']} preguntas y {c['fichas_tema']} "
-                   f"flashcards; en total más de 1.800 preguntas; se practica gratis en apruebatcae.com.")
+                   f"flashcards; en total {__import__('marca').PREGUNTAS_FRASE}; se practica gratis en apruebatcae.com.")
     except Exception:
         pass
     keys = ("hook_line", "screen_hook", "reveal_line", "explicacion", "trampa", "trampa_porque", "truco", "truco_line",

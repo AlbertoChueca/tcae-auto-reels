@@ -43,6 +43,8 @@ def build(base_png, out, fmt="pregunta_del_dia"):
     sticker = fx.pill("NUEVO REEL · " + HANDLE, 40, AMBER, INK, padx=30, pady=12)
     ask = fx.headline(ASK.get(fmt, "¿A, B, C O D?"), 84, 980, 1, hot_words=())
     sol = fx.pill("LA SOLUCIÓN, EN EL REEL DE HOY", 40, WHITE, INK, padx=30, pady=14)
+    import marca
+    web = fx.pill(marca.WEB, 32, (0, 0, 0, 120), WHITE, padx=22, pady=8, path=fx.F800)
     ask_y = 300 + ph + 30 + ask.height / 2 - 20             # medido: el titular nunca pisa la pegatina de abajo
     sol_y = min(1800, ask_y + ask.height / 2 + sol.height / 2 + 10)
     n = int(DUR * FPS)
@@ -66,6 +68,7 @@ def build(base_png, out, fmt="pregunta_del_dia"):
             fx.paste_center(fr, _ring(remain, 1 - lt / 10), W / 2 + pw / 2 - 10, 360, 1 + 0.1 * max(0, 1 - (lt % 1) * 5))
         fx.paste_center(fr, ask, W / 2, ask_y, eob((t - 0.4) / 0.35) * (1 + 0.03 * math.sin(t * 5)))
         fx.paste_center(fr, sol, W / 2, sol_y, eob((t - 0.9) / 0.35))
+        fx.paste_center(fr, web, W / 2, min(1760, sol_y + 78), min(1, t / 0.5))
         proc.stdin.write(fr.convert("RGB").tobytes())
     proc.stdin.close(); proc.wait(); os.remove(wav)
     if proc.returncode:

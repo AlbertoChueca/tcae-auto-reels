@@ -101,6 +101,21 @@ Estimación: reels ~1.500 min/mes, verificación nocturna ~250, bot de comentari
 ## Actualizar las preguntas
 Sube la nueva versión de la web app a `webapp/index.html`: el workflow **Importar banco** la lee sola. Las preguntas ya verificadas o publicadas se recuerdan (cada una tiene un id estable).
 
+## Voz
+Por defecto, voz femenina de Gemini (`Sulafat`), grabada por bloques de una sola toma (pregunta + opciones,
+solución + explicación) para que la entonación fluya como una persona real, con acento de España.
+- **Elegir otra voz de Gemini**: *Actions → Muestras de voz* y pon la elegida en la variable `GEMINI_VOICE`.
+- **La voz más humana (opcional, de pago)**: crea una cuenta en **elevenlabs.io**, elige en la *Voice Library* una voz
+  femenina en español de España y copia su *Voice ID*. Guarda el secreto `ELEVENLABS_API_KEY` y la variable
+  `ELEVENLABS_VOICE_ID`. Con eso se usa ElevenLabs y, si falla, Gemini. Para comparar varias, pon varias IDs separadas por
+  comas en `ELEVENLABS_VOICE_IDS` y lanza *Muestras de voz*. Un reel son ~700-900 caracteres → ~50.000 al mes con 2 al día.
+
+## Marca
+Colores del CSS de apruebatcae.com (teal #1a9e8f, teal oscuro #0f7a6d, teal claro, dorado #e8c93d, verde y rojo de la
+app). Estilo por defecto `marca` (claro, como la web) y la web en pequeño arriba en todos los fotogramas y stories.
+La cifra que se anuncia ("más de 10.000 preguntas") se cambia con la variable `APP_PREGUNTAS`. "Comprobar conexiones"
+avisa si esa cifra es mayor que el banco importado (sube el `index.html` actual a `webapp/`).
+
 ## Lo demás
 - **Guardado sin choques**: todos los workflows guardan su estado con `sincronizar.py`, que descarga la última versión
   y FUSIONA verificaciones, preguntas usadas y registros antes de subir (aunque dos workflows terminen a la vez).

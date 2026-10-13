@@ -48,7 +48,8 @@ def notebook(name):
 
 def facts():
     try:
-        return "\n".join(l.strip() for l in open(FACTS) if l.strip().startswith("-"))
+        import marca
+        return "\n".join(l.strip().replace("{PREGUNTAS}", marca.PREGUNTAS) for l in open(FACTS) if l.strip().startswith("-"))
     except Exception:
         return ""
 

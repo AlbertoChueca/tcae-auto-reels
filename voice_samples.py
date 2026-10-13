@@ -4,13 +4,31 @@ import os, subprocess
 import numpy as np, soundfile as sf
 import voice
 
-VOICES = ["Kore", "Aoede", "Leda", "Despina", "Sulafat", "Callirrhoe", "Achernar", "Charon", "Orus", "Puck"]
+VOICES = ["Sulafat", "Achernar", "Vindemiatrix", "Despina", "Aoede", "Callirrhoe", "Leda", "Autonoe", "Gacrux", "Kore"]   # femeninas
 TEXTS = ["¿Te sabes esta pregunta del temario de TCAE?",
          "Según la Ley 41/2002, la información al paciente se dará, por regla general, de forma verbal.",
          "La correcta es la B. Y ojo con la trampa de la opción C.",
          "Practica gratis en apruebatcae.com. Tienes el link en la bio."]
 STYLES = ["enérgica y cercana", "didáctica y clara", "segura, con una sonrisa", "cálida y motivadora"]
 os.makedirs("out/voices", exist_ok=True)
+
+
+def save(name, clips):
+    a = np.concatenate([np.concatenate([c, np.zeros(int(voice.SR * .3), np.float32)]) for c in clips])
+    sf.write("out/voices/tmp.wav", a, voice.SR)
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", "out/voices/tmp.wav", "-b:a", "128k", f"out/voices/{name}.mp3"], check=True)
+
+
+if os.environ.get("ELEVENLABS_API_KEY"):           # voces de ElevenLabs (las IDs separadas por comas en ELEVENLABS_VOICE_IDS)
+    ids = [x.strip() for x in os.environ.get("ELEVENLABS_VOICE_IDS", os.environ.get("ELEVENLABS_VOICE_ID", "")).split(",") if x.strip()]
+    for vid in ids or [None]:
+        try:
+            if vid: os.environ["ELEVENLABS_VOICE_ID"] = vid
+            voice._EVOICE.clear()
+            save(f"ElevenLabs_{vid or 'auto'}", voice._eleven_many(TEXTS)); print("ok elevenlabs", vid, flush=True)
+        except Exception as e:
+            print("FALLÓ elevenlabs", vid, e, flush=True)
+os.environ.pop("ELEVENLABS_API_KEY", None)        # el resto de muestras, con Gemini
 for v in VOICES:
     voice.GEMINI_VOICE = v
     voice.reset()

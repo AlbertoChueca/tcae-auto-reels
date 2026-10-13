@@ -19,15 +19,15 @@ CB_PY = os.environ.get("CHATTERBOX_PY", os.path.join(HERE, ".venv-cb", "bin", "p
 REF_LINE = ("¿Te sabes esta pregunta del temario? Vamos a comprobarlo. "
             "Lee bien las cuatro opciones antes de contestar.")
 
-GEMINI_VOICE = os.environ.get("GEMINI_VOICE", "Kore")
+GEMINI_VOICE = os.environ.get("GEMINI_VOICE", "Sulafat")          # voz femenina cálida (elige otra con "Muestras de voz")
 API = "https://generativelanguage.googleapis.com/v1beta"
 TTS_PREFERRED = ["gemini-3.8-flash-tts", "gemini-3.8-flash-tts-preview", "gemini-3.1-flash-tts-preview",
                  "gemini-3.1-flash-tts", "gemini-2.5-flash-preview-tts", "gemini-2.5-pro-preview-tts"]
-NARRATOR = ("Eres la voz de Aprueba TCAE, un canal para personas adultas que preparan la oposición de Técnico en "
-            "Cuidados Auxiliares de Enfermería del SALUD de Aragón. Hablas en español de España, con acento peninsular "
-            "neutro (castellano), cercana, motivadora y con seguridad de profesional sanitaria que explica a una compañera. "
-            "Ritmo natural, respiración relajada, entonación viva. Nunca robótica, nunca locutora de anuncio, nunca infantil. "
-            "Pronuncia bien siglas y números: TCAE se dice 'te ce a e', SALUD se dice 'salud'.")
+NARRATOR = ("Eres una mujer española de unos 30 años, técnica en cuidados de enfermería, que graba un audio para una "
+            "compañera que prepara la oposición de TCAE del SALUD de Aragón. Hablas en español de España con acento "
+            "peninsular neutro, de forma natural y espontánea, como en una conversación real: entonación variada, pequeñas "
+            "pausas para respirar, sonrisa en la voz cuando toca, sin exagerar. NO suenes a locutora de anuncio, ni a "
+            "asistente virtual, ni a lectura plana. Pronuncia TCAE como 'te ce a e' y SALUD como 'salud'.")
 ENGINE_USED = None
 LOCK = None          # engine chosen for the current reel: every line of one reel uses the same voice
 
@@ -173,7 +173,7 @@ def _trim(a):
     return a[max(0, nz[0] - 240): nz[-1] + 1600] if len(nz) else a
 
 
-def _tighten(a, max_gap=0.32):
+def _tighten(a, max_gap=0.45):
     """Shorten long internal silences (dramatic pauses, breaths) so short lines stay short."""
     hop = int(SR * 0.01)
     if len(a) < hop * 10:
@@ -452,6 +452,58 @@ def _gemini_many(texts, styles, key, one_take, pace):
         return list(ex.map(lambda ts: _gemini_line(ts[0], ts[1], key, pace), zip(texts, styles)))
 
 
+# ------------------------------------------------------------------ ElevenLabs (opcional, la más natural)
+ELEVEN = "https://api.elevenlabs.io/v1"
+_EVOICE = []
+
+
+def _eleven_voice(key):
+    """ELEVENLABS_VOICE_ID o, si no se indica, la primera voz femenina española de tu cuenta."""
+    vid = os.environ.get("ELEVENLABS_VOICE_ID")
+    if vid:
+        return vid
+    if not _EVOICE:
+        r = requests.get(f"{ELEVEN}/voices", headers={"xi-api-key": key}, timeout=60)
+        r.raise_for_status()
+        vs = r.json().get("voices", [])
+
+        def score(v):
+            lab = {k: str(x).lower() for k, x in (v.get("labels") or {}).items()}
+            txt = " ".join(lab.values()) + " " + str(v.get("name", "")).lower()
+            return (lab.get("gender") == "female", any(w in txt for w in ("spanish", "españ", "castil", "spain", "peninsular")))
+        vs.sort(key=score, reverse=True)
+        if not vs:
+            raise RuntimeError("tu cuenta de ElevenLabs no tiene voces; añade una de la Voice Library")
+        _EVOICE.append(vs[0]["voice_id"]); print("voice: elevenlabs voz", vs[0].get("name"), flush=True)
+    return _EVOICE[0]
+
+
+def _eleven_many(texts):
+    key = os.environ["ELEVENLABS_API_KEY"]; vid = _eleven_voice(key)
+    model = os.environ.get("ELEVENLABS_MODEL", "eleven_multilingual_v2")
+    out = []
+    for i, t in enumerate(texts):
+        body = {"text": t, "model_id": model,
+                "voice_settings": {"stability": float(os.environ.get("ELEVENLABS_STABILITY", "0.45")), "similarity_boost": 0.8,
+                                   "style": float(os.environ.get("ELEVENLABS_STYLE", "0.25")), "use_speaker_boost": True}}
+        if i:                                       # contexto: la entonación enlaza con la frase anterior y la siguiente
+            body["previous_text"] = texts[i - 1]
+        if i + 1 < len(texts):
+            body["next_text"] = texts[i + 1]
+        for attempt in range(3):
+            r = requests.post(f"{ELEVEN}/text-to-speech/{vid}?output_format=pcm_24000", json=body, timeout=180,
+                              headers={"xi-api-key": key, "Content-Type": "application/json"})
+            if r.status_code == 429 or r.status_code >= 500:
+                time.sleep(8 * (attempt + 1)); continue
+            if r.status_code >= 400:
+                raise RuntimeError(f"elevenlabs {r.status_code}: {r.text[:200]}")
+            break
+        else:
+            raise RuntimeError("elevenlabs: demasiados reintentos")
+        out.append(_trim(np.frombuffer(r.content, dtype="<i2").astype(np.float32) / 32768))
+    return out
+
+
 # ------------------------------------------------------------------ local engines
 _K = None
 
@@ -530,13 +582,23 @@ _CLIPS = {}
 def _say_many(texts, speed, styles, one_take):
     global ENGINE_USED, LOCK
     styles = list(styles or [None] * len(texts))
-    pace = "a lively, brisk pace" if speed >= 1.1 else "a relaxed but energetic pace"
+    pace = ("ritmo natural de conversación, sin prisa" if speed <= 1.03 else "ritmo ágil pero natural")
     key = os.environ.get("GEMINI_API_KEY")
     engine = os.environ.get("VOICE_ENGINE", "gemini").lower()
     if engine == "mock":
         ENGINE_USED = LOCK = "mock"
         return [_mock(t, speed) for t in texts]
-    allow_gemini = (key and engine in ("gemini", "auto", "chatterbox") and os.environ.get("VOICE_NO_GEMINI") != "1"
+    if os.environ.get("ELEVENLABS_API_KEY") and LOCK in (None, "elevenlabs"):
+        try:                                       # la voz más humana disponible (de pago, opcional)
+            clips = _eleven_many(texts)
+            ENGINE_USED = LOCK = "elevenlabs"
+            print(f"voice: elevenlabs ({len(texts)} lines)", flush=True)
+            return [polish(c, light=True) for c in clips]
+        except Exception as e:
+            if LOCK == "elevenlabs":
+                raise VoiceError(f"elevenlabs failed mid-reel: {str(e)[-200:]}")
+            print("voice: elevenlabs failed, using gemini:", str(e)[-300:], flush=True)
+    allow_gemini = (key and engine in ("gemini", "auto", "chatterbox", "elevenlabs") and os.environ.get("VOICE_NO_GEMINI") != "1"
                     and LOCK in (None, "gemini"))
     allow_cb = os.path.exists(CB_PY) and engine != "kokoro" and LOCK in (None, "local", "chatterbox")
     if allow_gemini:
@@ -567,4 +629,4 @@ def _say_many(texts, speed, styles, one_take):
 
 def next_engine():
     """Engine to force after a VoiceError."""
-    return {"gemini": "local", "chatterbox": "kokoro"}.get(LOCK, "kokoro")
+    return {"elevenlabs": "gemini", "gemini": "local", "chatterbox": "kokoro"}.get(LOCK, "kokoro")

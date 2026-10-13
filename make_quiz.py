@@ -16,6 +16,7 @@ import fx
 import themes
 from fx import W, H, FPS, SR, F800, F900, TEAL, AMBER, INK, PAPER, GREEN, RED, WHITE, eob, eo, clamp
 import questions as QB
+import marca as M
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 CARD_W, PAD = 950, 46
@@ -32,7 +33,7 @@ DEFAULT_STYLE = {"caption_scale": 1.0, "screen_hook": "", "follow_line": "Sígue
                  "share_line": "Envíaselo a quien oposita contigo", "save_line": "", "reto_line": "", "series": ""}
 TAGS_FIXED = ["#TCAE", "#oposicionesTCAE"]
 TAGS_ROT = ["#auxiliardeenfermeria", "#oposiciones", "#SALUD", "#Aragon"]
-T = themes.get("clasico")
+T = themes.get("marca")
 
 
 def ctop(h):
@@ -319,10 +320,10 @@ def lines_for(fmt, items, S):
                 L.append((f"p{k}", p, "didáctica, clara, buen ritmo"))
         if fmt == "caso_practico":
             L.append(("esc", S["escena"], "narrativa, ambiente de planta de hospital, intriga suave"))
-        L.append(("q", P["pregunta"], "clara, ritmo de examen, sin prisa"))
+        L.append(("q", P["pregunta"], "natural y clara, como quien lee una pregunta en voz alta"))
         if fmt != "legislacion_30s":
             for k, o in enumerate(P["op"]):
-                L.append((f"o{k}", f"{QB.LETTERS[k]}. {o}", "neutra, enumerando opciones"))
+                L.append((f"o{k}", f"{QB.LETTERS[k]}. {o}", "natural, leyendo las opciones a una compañera"))
         L.append(("rev", S["reveal_line"], "segura, con una sonrisa"))
         if fmt == "error_tipico":
             L.append(("ex", S["trampa_porque"], "didáctica, avisando de la trampa"))
@@ -332,6 +333,19 @@ def lines_for(fmt, items, S):
             L.append(("ex", S["explicacion"], "didáctica y cercana, como una compañera que lo explica bien"))
     L.append(("cta", S["cta_line"], "cálida y motivadora"))
     return L
+
+
+def _groups(L):
+    """Bloques que se dicen seguidos (pregunta + opciones, solución + explicación, ficha + respuesta...)."""
+    out = []
+    for item in L:
+        k = item[0]
+        joins = k[:1] == "o" or k in ("ex", "p1", "p2") or k.startswith("fa") or (k.startswith("r") and k[1:].isdigit())
+        if joins and out:
+            out[-1].append(item)
+        else:
+            out.append([item])
+    return out
 
 
 def ref_label(P):
@@ -360,7 +374,7 @@ def caption_text(fmt, items, S, rng, st=None):
     extra = "".join(f"{x}\n" for x in (S.get("save_caption"), S.get("tag_caption"), S.get("app_caption"),
                                         S.get("follow_caption"), S.get("seo_line")) if x)
     return (f"{S['caption_hook']}\n\n{body}\n\n{S['comment_prompt'].rstrip('.!')}.{sol}\n\n" + (extra + "\n" if extra else "")
-            + "Practica gratis con más de 1.800 preguntas tipo test, simulacros y flashcards de la oposición de TCAE "
+            + f"Practica gratis con {M.PREGUNTAS_FRASE} tipo test, simulacros y flashcards de la oposición de TCAE "
             "del SALUD en apruebatcae.com (link en la bio).\n\n" + " ".join(tags))
 
 
@@ -370,7 +384,7 @@ def build(fmt, items, S, seed, out, arms=None, style=None, max_len=58.0, keep_vo
     global T
     import voice
     arms = arms or {}
-    estilo = estilo or arms.get("estilo") or "clasico"
+    estilo = estilo or arms.get("estilo") or "marca"
     if estilo == "ilustrado" and image is None:
         estilo = "noche"                                 # sin imagen: el estilo más parecido
     T = themes.get(estilo)
@@ -381,13 +395,16 @@ def build(fmt, items, S, seed, out, arms=None, style=None, max_len=58.0, keep_vo
     P = items[0]
     count = 5 if fmt == "simulacro_3" else THINK.get(arms.get("think_time"), 7)
     L = lines_for(fmt, items, S)
-    speed = float(st.get("voice_speed") or 1.06)
+    speed = float(st.get("voice_speed") or 1.0)
 
     if not keep_voice:
         voice.reset()                    # reel nuevo: elige la mejor voz y úsala en todas las frases
     for attempt in range(3):
         try:
-            clips = voice.say_many([t for _, t, _ in L], speed=speed, styles=[s for _, _, s in L])
+            clips = []
+            for grp in _groups(L):                  # cada bloque se graba de una sola toma: entonación más natural
+                clips += voice.say_many([t for _, t, _ in grp], speed=speed, styles=[s for _, _, s in grp],
+                                        one_take=len(grp) > 1)
             break
         except voice.VoiceError as e:
             print(f"voz cambiada a mitad de reel ({e}); repito con {voice.next_engine()}", flush=True)
@@ -498,6 +515,9 @@ def build(fmt, items, S, seed, out, arms=None, style=None, max_len=58.0, keep_vo
     extra = (P["examen"]["titulo"] if fmt == "examen_real" and P.get("examen") else
              (P["tema"] if len(P["tema"]) <= 26 and fmt not in ("simulacro_3",) else None))
     bdg = badge(fmt, extra, st.get("series"))
+    # la web siempre visible arriba, en pequeño (si el reel se descarga y se reenvía, se sabe de dónde viene)
+    web_img = fx.pill(M.WEB, 30, T.web_bg, T.web_fg, padx=22, pady=8, path=F800)
+    web_dark = fx.pill(M.WEB, 30, (0, 0, 0, 110), WHITE, padx=22, pady=8, path=F800)
     on_img = hook_bg is not None
     hook_img = fx.headline(S["screen_hook"], 112, 920, 3,
                            color=WHITE if on_img else T.head_col, hot=AMBER if on_img else T.head_hot,
@@ -612,6 +632,7 @@ def build(fmt, items, S, seed, out, arms=None, style=None, max_len=58.0, keep_vo
             fr = bg.frame(tt)
         if kind != "cta":
             fx.paste_center(fr, bdg, 60 + bdg.width / 2, 312, alpha=eo(tt / 0.4))
+            fx.paste_center(fr, web_dark if (kind in ("hook", "scene") and hook_bg is not None) else web_img, W / 2, 222)
         if kind == "hook":
             y_h = 860 if hook_bg is not None else 800
             fx.paste_center(fr, hook_img, W / 2, y_h, eob(lt / 0.35), min(1, lt / 0.15))

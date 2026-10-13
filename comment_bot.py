@@ -10,6 +10,7 @@ Env: IG_TOKEN. Opcional: BOT_DRY_RUN=true (solo muestra), BOT_SEND_DMS=true.
 """
 import datetime, json, os, random, re, requests
 from publish_ig import GRAPH, _check, whoami
+import marca as M
 
 TOKEN = os.environ["IG_TOKEN"]
 DRY = os.environ.get("BOT_DRY_RUN") == "true"
@@ -23,7 +24,7 @@ PUBLIC_CORRECT = [
     "¡Exacto! 💪 Guarda el reel para repasarlo antes del examen",
     "¡Acertaste! 👏 Practica más preguntas como esta gratis en apruebatcae.com",
     "¡Esa es! 🎯 Mañana otra pregunta del temario, síguenos para no perdértela",
-    "¡Muy bien! ✅ Tienes más de 1.800 preguntas para seguir practicando en el link de la bio",
+    f"¡Muy bien! ✅ Tienes {M.PREGUNTAS_FRASE} para seguir practicando en el link de la bio",
 ]
 PUBLIC_WRONG = [
     "¡Casi! 😉 Mira la explicación al final del vídeo, que esta tiene miga. Más práctica en el link de la bio",
@@ -38,7 +39,7 @@ PUBLIC_OTHER = [
     "¡A por la plaza! 💪 Tienes tests y simulacros gratis en el link de la bio",
 ]
 PUBLIC_SIM = "¡{ok}/{n}! {msg} Más simulacros gratis en el link de la bio"
-DM_TEXT = ("¡Gracias por participar! 💚 En Aprueba TCAE tienes más de 1.800 preguntas tipo test, simulacros y flashcards "
+DM_TEXT = (f"¡Gracias por participar! 💚 En Aprueba TCAE tienes {M.PREGUNTAS_FRASE} tipo test, simulacros y flashcards "
            "de la oposición de TCAE del SALUD para practicar gratis: " + LINK)
 
 

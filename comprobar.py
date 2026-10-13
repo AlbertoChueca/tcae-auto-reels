@@ -72,6 +72,11 @@ ok("Banco verificado", len(fresh) >= 30, f"{len(fresh)} preguntas publicables si
 vf = QB.verif_f()
 ok("Fichas verificadas", sum(1 for r in vf.values() if r.get("veredicto") == "ok") >= 8,
    f"{sum(1 for r in vf.values() if r.get('veredicto') == 'ok')} fichas aprobadas")
+import marca
+anunciadas = marca.preguntas_num()
+ok("Cifra anunciada", anunciadas <= len(qs) * 1.05 or anunciadas == 0,
+   f"los reels dicen '{marca.PREGUNTAS_FRASE}' y el banco importado tiene {len(qs)}"
+   + ("" if anunciadas <= len(qs) * 1.05 else " · sube a webapp/ el index.html actual de la app o ajusta la variable APP_PREGUNTAS"))
 leg = by.get("legislacion", 0)
 ok("Legislación", leg > 0, f"{leg} preguntas de legislación con cita verificada" + ("" if leg else " · lanza 'Descargar fuentes' y 'Verificar banco'"))
 try:
