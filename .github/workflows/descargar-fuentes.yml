@@ -1,0 +1,30 @@
+name: Descargar fuentes
+
+# Descarga del BOE el texto vigente de las leyes del temario (fuentes/fuentes.json) para que el verificador cite de verdad.
+on:
+  workflow_dispatch:
+    inputs:
+      todas:
+        description: "Volver a descargar también las que ya están (tras una reforma)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  fuentes:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - run: pip install requests
+      - run: python descargar_fuentes.py ${{ inputs.todas && '--todas' || '' }}
+      - name: Guardar
+        run: |
+          git config user.name "reels-bot"
+          git config user.email "reels-bot@users.noreply.github.com"
+          git add fuentes
+          git diff --cached --quiet || (git commit -m "Fuentes $(date +%F)" && (git push || (git pull --rebase && git push)))

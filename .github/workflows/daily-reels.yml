@@ -1,0 +1,123 @@
+name: Reels diarios
+
+on:
+  schedule:
+    # Publica a las 14:30 y 21:30 hora de España. Arranca ~30 min antes (generar, verificar y revisar lleva 15-25 min)
+    # y, si termina antes, espera a la hora exacta. GitHub usa UTC: hay un cron para verano (CEST) y otro para
+    # invierno (CET); el paso "Elegir hueco" descarta el que no toca según la fecha.
+    - cron: "57 11 * * *"   # 13:57 verano
+    - cron: "57 12 * * *"   # 13:57 invierno
+    - cron: "57 18 * * *"   # 20:57 verano
+    - cron: "57 19 * * *"   # 20:57 invierno
+  workflow_dispatch:
+    inputs:
+      formato:
+        description: "Formato (auto = lo elige el piloto automático)"
+        type: choice
+        options: [auto, pregunta_del_dia, examen_real, error_tipico, truco_memorizar, mito_realidad, simulacro_3, legislacion_30s, caso_practico, flashcards_express]
+        default: auto
+      estilo:
+        description: "Estilo visual (auto = lo elige el piloto automático)"
+        type: choice
+        options: [auto, clasico, cuaderno, examen, noche, minimal, ilustrado]
+        default: auto
+      dry_run:
+        description: "Solo generar el vídeo (no publicar)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reels
+  cancel-in-progress: false
+
+jobs:
+  reel:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 75
+    steps:
+      - name: Elegir hueco
+        id: slot
+        run: |
+          S="${{ github.event.schedule }}"
+          if [ -z "$S" ]; then echo "slot=manual" >> "$GITHUB_OUTPUT"; exit 0; fi
+          UTC_H=$(echo "$S" | awk '{print $2}')
+          OFF=$(TZ=Europe/Madrid date +%z | cut -c2-3 | sed 's/^0//')
+          LOCAL=$(( (UTC_H + OFF) % 24 ))
+          case "$LOCAL" in
+            13) echo "slot=mediodia" >> "$GITHUB_OUTPUT" ;;
+            20) echo "slot=noche" >> "$GITHUB_OUTPUT" ;;
+            *)  echo "slot=skip" >> "$GITHUB_OUTPUT"; echo "Cron de la otra estación (hora local $LOCAL): no toca" ;;
+          esac
+
+      - uses: actions/checkout@v5
+        if: steps.slot.outputs.slot != 'skip'
+
+      - uses: actions/setup-python@v6
+        if: steps.slot.outputs.slot != 'skip'
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Paquetes del sistema
+        if: steps.slot.outputs.slot != 'skip'
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg espeak-ng
+
+      - name: Paquetes de Python
+        if: steps.slot.outputs.slot != 'skip'
+        run: pip install -r requirements.txt
+
+      - name: Caché de modelos de voz y subtítulos
+        if: steps.slot.outputs.slot != 'skip'
+        uses: actions/cache@v4
+        with:
+          path: |
+            models
+            ~/.cache/huggingface
+          key: voces-es-v1
+
+      - name: Voz de respaldo (Kokoro)
+        if: steps.slot.outputs.slot != 'skip'
+        run: |
+          mkdir -p models
+          [ -f models/kokoro.onnx ] || curl -sSL -o models/kokoro.onnx https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx
+          [ -f models/voices.bin ]  || curl -sSL -o models/voices.bin  https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin
+
+      - name: Generar y publicar
+        if: steps.slot.outputs.slot != 'skip'
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
+          VOICE_ENGINE: gemini
+          GEMINI_VOICE: ${{ vars.GEMINI_VOICE || 'Kore' }}
+          FORMAT_OVERRIDE: ${{ github.event_name == 'workflow_dispatch' && inputs.formato || 'auto' }}
+          STYLE_OVERRIDE: ${{ github.event_name == 'workflow_dispatch' && inputs.estilo || 'auto' }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || false }}
+          IG_HANDLE: ${{ vars.IG_HANDLE || '@apruebatcae' }}
+          IG_STORY: ${{ vars.IG_STORY || 'true' }}
+          TIKTOK: ${{ vars.TIKTOK || 'true' }}
+          TIKTOK_CARRUSEL: ${{ vars.TIKTOK_CARRUSEL || 'mediodia' }}
+          TIKTOK_STORY_BORRADOR: ${{ vars.TIKTOK_STORY_BORRADOR || 'true' }}
+          YOUTUBE: ${{ vars.YOUTUBE || 'true' }}
+        run: python run_daily.py ${{ steps.slot.outputs.slot }}
+
+      - name: Guardar el vídeo para revisarlo
+        if: always() && steps.slot.outputs.slot != 'skip'
+        uses: actions/upload-artifact@v4
+        with:
+          name: reel-${{ steps.slot.outputs.slot }}
+          path: out/**
+          retention-days: 14
+          if-no-files-found: ignore
+
+      - name: Recordar preguntas usadas, verificaciones y aprendizajes
+        if: always() && steps.slot.outputs.slot != 'skip'
+        run: |
+          git config user.name "reels-bot"
+          git config user.email "reels-bot@users.noreply.github.com"
+          for f in used.json log.jsonl review_log.jsonl performance.json strategy_arms.json strategy_report.md playbook.md banco/verificacion.json banco/verificacion_fichas.json banco/informe_verificacion.md image_log.jsonl; do [ -f "$f" ] && git add "$f"; done
+          [ -d agents ] && git add agents
+          git diff --cached --quiet || (git commit -m "Reel ${{ steps.slot.outputs.slot }} $(date +%F)" && (git push || (git pull --rebase && git push)))

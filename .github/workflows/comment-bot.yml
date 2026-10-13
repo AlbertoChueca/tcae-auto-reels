@@ -1,0 +1,42 @@
+name: Bot de comentarios
+
+on:
+  schedule:
+    - cron: "17 6-22/2 * * *"   # cada 2 h de 8:17 a 0:17 (hora de España, aprox.): ahorra minutos de GitHub
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Solo mostrar qué respondería (no responde)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: comment-bot
+  cancel-in-progress: false
+
+jobs:
+  bot:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - run: pip install requests
+      - name: Responder comentarios nuevos
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          BOT_DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || false }}
+        run: python comment_bot.py
+      - name: Save state
+        if: always()
+        run: |
+          git config user.name "reels-bot"
+          git config user.email "reels-bot@users.noreply.github.com"
+          git add handled_comments.json 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "Bot de comentarios $(date +%F-%H%M)"
+          for i in 1 2 3; do git push && break; git pull --rebase -X theirs || git rebase --abort; sleep 5; done
