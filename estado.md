@@ -4,7 +4,7 @@
 |---|---|
 | ✅ Instagram | @apruebatcae · token PAGE |
 | ✅ TikTok (Zernio) | conectada |
-| ⚠️ YouTube (Zernio) | conecta el canal de YouTube en Zernio |
+| ✅ YouTube (Zernio) | conectado |
 | ✅ Gemini texto | 46 modelos disponibles |
 | ✅ Gemini voz | gemini-2.5-flash-preview-tts, gemini-2.5-pro-preview-tts, gemini-3.1-flash-tts-preview |
 | ✅ Gemini imagen | gemini-2.5-flash-image, gemini-3-pro-image-preview, gemini-3-pro-image |
