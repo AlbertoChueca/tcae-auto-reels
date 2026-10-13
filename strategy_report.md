@@ -24,6 +24,7 @@ Still collecting data: options are being tested evenly for now.
 
 | option | reels | avg score |
 |---|---|---|
+| marca | 0 | - |
 | clasico | 0 | - |
 | cuaderno | 0 | - |
 | examen | 0 | - |
