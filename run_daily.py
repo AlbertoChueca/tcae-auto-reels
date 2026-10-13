@@ -79,6 +79,13 @@ if slot in ("mediodia", "noche") and not dry and already_published() and os.envi
     raise SystemExit(f"El hueco {slot} de hoy ya está publicado; no se repite")
 
 status = []
+if not HAS_AI:                                     # sin Gemini no hay verificador: nunca se publica nada sin verificar
+    msg = ("Falta el secreto GEMINI_API_KEY (Settings → Secrets and variables → Actions → Secrets, nombre exacto "
+           "GEMINI_API_KEY). Sin él no se puede verificar ninguna pregunta y no se publica nada.")
+    if os.environ.get("GITHUB_STEP_SUMMARY"):
+        open(os.environ["GITHUB_STEP_SUMMARY"], "a").write(f"## ❌ {msg}\n")
+    if not (os.environ.get("QUIZ_MOCK") == "1" and QB.verif()):
+        raise SystemExit(msg)
 if HAS_AI:
     for name, fn in (("insights", lambda: __import__("insights").update()),
                      ("agentes", lambda: __import__("agents").daily_learning())):

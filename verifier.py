@@ -68,7 +68,14 @@ def articles(key):
 
 
 def sources_for(q):
-    return [k for k in cfg()["temas"].get(q["topic"], []) if norm_text(k)]
+    """Normas del tema + cualquier norma cuyo número (p. ej. "9/2017") aparezca en la pregunta, opciones o explicación."""
+    keys = list(cfg()["temas"].get(q["topic"], []))
+    txt = " ".join([q.get("pregunta", "")] + list(q.get("opciones", [])) + [q.get("explicacion", "")])
+    for k, n in cfg()["normas"].items():
+        nums = [c for c in n.get("clave", []) if re.match(r"\d+/\d{4}$", c)]
+        if nums and any(re.search(rf"(?<!\d){re.escape(c)}(?!\d)", txt) for c in nums) and k not in keys:
+            keys.append(k)
+    return [k for k in keys if norm_text(k)]
 
 
 def passages(q, k=3, max_chars=7000):
@@ -85,7 +92,11 @@ def passages(q, k=3, max_chars=7000):
             scored.append((s, title, lab, txt))
     scored.sort(key=lambda x: -x[0])
     out, total = [], 0
-    for s, title, lab, txt in scored[:k]:
+    for key in sources_for(q):                      # el título oficial (número y fecha de la norma) siempre va incluido
+        head = norm_text(key).split("\n", 1)[0].lstrip("# ").split(" · ")[0]
+        if head:
+            out.append({"norma": cfg()["normas"][key]["titulo"], "articulo": "Título oficial", "texto": head})
+    for s, title, lab, txt in [x for x in scored if x[3].strip() and not x[3].lstrip().startswith("# ")][:k]:
         txt = txt[:3000]
         out.append({"norma": title, "articulo": lab, "texto": txt}); total += len(txt)
         if total > max_chars:
@@ -145,7 +156,13 @@ mucho "dudosa". Si no hay texto de fuente, "referencia" = "" y "cita" = "".
 {chr(10).join(blocks)}
 Devuelve JSON: {{"resultados": [{{"id": str, "veredicto": "ok"|"dudosa"|"error", "motivo": str, "referencia": str,
 "cita": str, "correcta_sugerida": str}}]}}""", 0.1, careful=True)
-    got = {r.get("id"): r for r in res.get("resultados", []) if isinstance(r, dict)}
+    lst = res.get("resultados") or res.get("results") or (res if isinstance(res, list) else [])
+    lst = [r for r in lst if isinstance(r, dict)]
+    got = {str(r.get("id")).strip(): r for r in lst}
+    if lst and not any(q["id"] in got for q in qs) and len(lst) == len(qs):    # el modelo cambió los ids: por orden
+        got = {q["id"]: r for q, r in zip(qs, lst)}
+    if not lst:
+        print("verificador: respuesta sin resultados:", json.dumps(res, ensure_ascii=False)[:300], flush=True)
     out = {}
     for q in qs:
         r = got.get(q["id"])
@@ -243,11 +260,18 @@ def run(n=80, fmt_kind="normal"):
     import random
     pend = [q for q in QB.load() if q["id"] not in v and QB.fits(q, fmt_kind)]
     random.Random(str(datetime.date.today())).shuffle(pend)          # mezcla temas y bloques en cada tanda
+    week_ago = str(datetime.date.today() - datetime.timedelta(days=7))
+    redo = [q for q in QB.load() if q["id"] in v and q["bloque"] in QB.STRICT and not v[q["id"]].get("fuente_ok")
+            and v[q["id"]].get("veredicto") in ("ok", "dudosa") and v[q["id"]].get("fecha", "") <= week_ago
+            and sources_for(q)]                                          # se reintentan con las fuentes nuevas
+    pend = redo[: n // 4] + pend
     for k in range(0, min(n, len(pend)), 8):
         try:
             verify_questions(pend[k:k + 8])
         except Exception as e:
             print("lote fallido:", str(e)[:200], flush=True)
+    if not os.path.exists(QB.VERIF_F):
+        QB.save_verif_f({})
     try:                                                     # y una tanda de fichas para el repaso exprés
         vf = QB.verif_f()
         pend_f = [f for f in QB.fichas_candidates(str(datetime.date.today())) if f["id"] not in vf][:40]

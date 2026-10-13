@@ -117,10 +117,17 @@ def pick(fmt, bloque=None, seed=0, n=1, verify=None, max_checks=40):
             out.append(q); topics.add(q["topic"])
         if len(out) == n:
             return out
+    errs = []
     if verify:
         pending = [q for q in cands if q["id"] not in v][:max_checks]
         for k in range(0, len(pending), 8):
-            verify(pending[k:k + 8]); v = verif()
+            try:
+                verify(pending[k:k + 8])
+            except Exception as e:                        # un lote fallido no para la búsqueda, pero se informa
+                errs.append(str(e)[:160]); print("verificador: lote fallido:", str(e)[:200], flush=True)
+                if len(errs) >= 2:
+                    break
+            v = verif()
             for q in pending[k:k + 8]:
                 if publishable(q, v) and q["topic"] not in topics:
                     out.append(q); topics.add(q["topic"])
@@ -128,8 +135,14 @@ def pick(fmt, bloque=None, seed=0, n=1, verify=None, max_checks=40):
                     return out
     if bloque and bloque != "mixto":                     # el bloque del experimento no tiene preguntas listas: cualquier bloque
         return pick(fmt, None, seed, n, verify, max_checks)
-    raise LookupError(f"no hay suficientes preguntas verificadas para '{fmt}' ({len(out)}/{n}); "
-                      f"ejecuta el workflow 'Verificar banco' o añade textos en fuentes/")
+    checked = [q for q in cands if q["id"] in v][:max_checks]
+    tally = {}
+    for q in checked:
+        tally[v[q["id"]].get("veredicto")] = tally.get(v[q["id"]].get("veredicto"), 0) + 1
+    raise LookupError(f"no hay suficientes preguntas verificadas para '{fmt}' ({len(out)}/{n}); revisadas {len(checked)} "
+                      f"{tally or ''}" + (f"; errores del verificador: {' | '.join(errs)}" if errs else "")
+                      + ("" if verify else "; el verificador no está activo (¿falta GEMINI_API_KEY?)")
+                      + ". Ejecuta 'Verificar banco' o añade textos en fuentes/")
 
 
 def prepare(q, seed=0):
@@ -202,7 +215,11 @@ def pick_fichas(seed=0, n=4, verify=None, max_topics=4):
         if len(good) < n and verify:
             pend = [f for f in fs if f["id"] not in v][:12]
             if pend:
-                verify(pend); v = verif_f()
+                try:
+                    verify(pend)
+                except Exception as e:
+                    print("verificador de fichas: lote fallido:", str(e)[:200], flush=True)
+                v = verif_f()
                 good = [f for f in fs if _ficha_ok(f, v)]
         if len(good) >= n:
             return good[:n]
