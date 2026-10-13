@@ -102,6 +102,8 @@ Estimación: reels ~1.500 min/mes, verificación nocturna ~250, bot de comentari
 Sube la nueva versión de la web app a `webapp/index.html`: el workflow **Importar banco** la lee sola. Las preguntas ya verificadas o publicadas se recuerdan (cada una tiene un id estable).
 
 ## Lo demás
+- **Guardado sin choques**: todos los workflows guardan su estado con `sincronizar.py`, que descarga la última versión
+  y FUSIONA verificaciones, preguntas usadas y registros antes de subir (aunque dos workflows terminen a la vez).
 - **Bot de comentarios** (Instagram, cada 2 h): detecta A/B/C/D, "1a 2c 3b" o "mito/realidad", felicita a quien acierta y anima a quien falla sin desvelar la respuesta. Los DM están desactivados (`BOT_SEND_DMS=true` para activarlos).
 - **Aprendizaje**: `performance.json` (views, guardados, compartidos, comentarios, visitas al perfil), `strategy_report.md` (qué formato y gancho ganan), `playbook.md` (estratega semanal) y `agents/*.md` (cuadernos diarios de los 5 agentes).
 - **Ubicación**: rellena el `id` de Zaragoza, Huesca y Teruel en `locations.json` (id de la página de Facebook del lugar). Vacío = sin ubicación.
