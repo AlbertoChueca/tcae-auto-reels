@@ -22,5 +22,23 @@
 "topic": "necesidadesHumanas",
 "fecha": "2026-10-14",
 "formato": "pregunta_del_dia"
+},
+{
+"id": "934b7242c1",
+"topic": "leySaludAragon",
+"fecha": "2026-10-14",
+"formato": "simulacro_3"
+},
+{
+"id": "5fc6314987",
+"topic": "ley41",
+"fecha": "2026-10-14",
+"formato": "simulacro_3"
+},
+{
+"id": "7aa3edb1ff",
+"topic": "igualdadAragon",
+"fecha": "2026-10-14",
+"formato": "simulacro_3"
 }
 ]
