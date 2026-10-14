@@ -5,6 +5,9 @@ Reglas:
 - Una pregunta solo sale si el verificador la ha dado por buena (banco/verificacion.json). Las de legislación y plazos
   necesitan además una cita literal encontrada en el texto de la norma (fuentes/), así nunca se publica normativa inventada.
 - Nunca se repite una pregunta hasta agotar las elegibles; se evita repetir tema en los últimos reels.
+- La cuenta es para opositores de TCAE de TODA España: primero salen todas las preguntas generales (temario sanitario y
+  legislación estatal) y las específicas de una comunidad (Aragón: SALUD, Estatuto, geografía, leyes aragonesas...) se
+  dejan para el final, cuando ya no quedan generales sin publicar.
 - Las opciones de las preguntas de la app se barajan (salvo "todas/ninguna/A y B...") para que la respuesta no sea casi
   siempre la A; las de examen oficial se muestran en su orden original.
 """
@@ -20,6 +23,22 @@ LETTERS = "ABCD"
 LIMITS = {"normal": (170, 80), "corta": (115, 58)}
 NO_SHUFFLE = re.compile(r"\b(todas|ninguna|ambas|anteriores|las dos|son correctas|son ciertas|a y b|b y c|a y c|a, b|"
                         r"opciones? [abcd]\b|respuestas? [abcd]\b)", re.I)
+
+
+# temas específicos de Aragón (temario del SALUD): se publican solo cuando se acaban las generales
+REGIONAL_TOPICS = {"deptoSanidadAragon", "saludOrganosSuperiores", "areasSectoresSalud", "leySaludAragon", "igualdadAragon",
+                   "leyTransAragon", "violenciaMujeresAragon", "organosGobiernoCAA", "estatutoAutonomiaVII_IX",
+                   "geografiaAragon", "calidadAragon"}
+_REG_RX = re.compile(r"arag[oó]n|zaragoza|huesca|teruel|\bIASS\b|\bcomarcas?\b|\bDGA\b", re.I)
+_REG_RX_CS = re.compile(r"\bSALUD\b")          # "SALUD" en mayúsculas = Servicio Aragonés de Salud
+
+
+def regional(q):
+    """True si la pregunta/ficha es del temario específico de Aragón (va al final de la cola)."""
+    if q.get("topic") in REGIONAL_TOPICS:
+        return True
+    txt = " ".join([q.get("pregunta") or q.get("q") or "", q.get("a") or ""] + list(q.get("opciones") or []))
+    return bool(_REG_RX.search(txt) or _REG_RX_CS.search(txt))
 
 
 def load():
@@ -90,7 +109,7 @@ def candidates(fmt, bloque=None, seed=0):
     elif fmt == "legislacion_30s":
         qs = [q for q in qs if q["bloque"] == "legislacion"]
     elif bloque and bloque != "mixto":
-        sub = [q for q in qs if q["bloque"] == bloque or (bloque == "aragon" and q["bloque"] in ("geografia", "fechas"))]
+        sub = [q for q in qs if q["bloque"] == bloque]
         qs = sub or qs
     if fmt in ("error_tipico", "truco_memorizar", "mito_realidad"):       # necesitan una explicación con contenido
         qs = [q for q in qs if q["origen"] == "webapp" and len(q["explicacion"].split()) >= 8] or qs
@@ -102,39 +121,51 @@ def candidates(fmt, bloque=None, seed=0):
     recent_topics = {x.get("topic") for x in u[-6:]}
     rng = random.Random(seed)
     rng.shuffle(fresh)
-    fresh.sort(key=lambda q: q["topic"] in recent_topics)       # temas recientes al final
+    # generales primero y Aragón al final de todo; dentro de cada grupo, temas recientes al final
+    fresh.sort(key=lambda q: (regional(q), q["topic"] in recent_topics))
     return fresh
 
 
-def pick(fmt, bloque=None, seed=0, n=1, verify=None, max_checks=40):
-    """Devuelve n preguntas publicables. Las aún no verificadas se verifican aquí (en lotes) con `verify(lista)`."""
+def _fill(cands, out, topics, n, verify, max_checks, errs):
+    """Añade a `out` preguntas publicables de `cands` (verificando las pendientes). True cuando ya hay n."""
     v = verif()
-    cands = candidates(fmt, bloque, seed)
-    out, topics = [], set()
-    ok_now = [q for q in cands if publishable(q, v)]
-    for q in ok_now:
-        if q["topic"] not in topics:
+    for q in cands:
+        if publishable(q, v) and q["topic"] not in topics:
             out.append(q); topics.add(q["topic"])
         if len(out) == n:
+            return True
+    if not verify:
+        return False
+    pending = [q for q in cands if q["id"] not in v][:max_checks]
+    for k in range(0, len(pending), 8):
+        try:
+            verify(pending[k:k + 8])
+        except Exception as e:                        # un lote fallido no para la búsqueda, pero se informa
+            errs.append(str(e)[:160]); print("verificador: lote fallido:", str(e)[:200], flush=True)
+            if len(errs) >= 2:
+                return False
+        v = verif()
+        for q in pending[k:k + 8]:
+            if publishable(q, v) and q["topic"] not in topics:
+                out.append(q); topics.add(q["topic"])
+            if len(out) == n:
+                return True
+    return False
+
+
+def pick(fmt, bloque=None, seed=0, n=1, verify=None, max_checks=40):
+    """Devuelve n preguntas publicables. Las aún no verificadas se verifican aquí (en lotes) con `verify(lista)`.
+    Primero se agotan las generales (toda España); las de Aragón solo si no hay generales listas."""
+    cands = candidates(fmt, bloque, seed)
+    out, topics, errs = [], set(), []
+    for tier in ([q for q in cands if not regional(q)], [q for q in cands if regional(q)]):
+        if _fill(tier, out, topics, n, verify, max_checks, errs):
             return out
-    errs = []
-    if verify:
-        pending = [q for q in cands if q["id"] not in v][:max_checks]
-        for k in range(0, len(pending), 8):
-            try:
-                verify(pending[k:k + 8])
-            except Exception as e:                        # un lote fallido no para la búsqueda, pero se informa
-                errs.append(str(e)[:160]); print("verificador: lote fallido:", str(e)[:200], flush=True)
-                if len(errs) >= 2:
-                    break
-            v = verif()
-            for q in pending[k:k + 8]:
-                if publishable(q, v) and q["topic"] not in topics:
-                    out.append(q); topics.add(q["topic"])
-                if len(out) == n:
-                    return out
+        if len(errs) >= 2:
+            break
     if bloque and bloque != "mixto":                     # el bloque del experimento no tiene preguntas listas: cualquier bloque
         return pick(fmt, None, seed, n, verify, max_checks)
+    v = verif()
     checked = [q for q in cands if q["id"] in v][:max_checks]
     tally = {}
     for q in checked:
@@ -193,12 +224,13 @@ def fichas_candidates(seed=0):
               and (f["q"].rstrip().endswith("?") or len(f["q"].split()) >= 5)]
         ok = [f for f in ok if ficha_id(f) not in done] or ok
         if len(ok) >= 4:
-            groups.append((topic in recent, topic, ok))
-    rng = random.Random(seed); rng.shuffle(groups); groups.sort(key=lambda g: g[0])
+            groups.append(((topic in REGIONAL_TOPICS, topic in recent), topic, ok))
+    rng = random.Random(seed); rng.shuffle(groups); groups.sort(key=lambda g: g[0])     # Aragón al final
     out = []
     for _, topic, fs in groups:
         tema, bloque = tema_de(topic)
         rng.shuffle(fs)
+        fs = [f for f in fs if not regional(f)] if topic not in REGIONAL_TOPICS else fs
         out.extend({"id": ficha_id(f), "topic": topic, "tema": tema, "bloque": bloque, "q": f["q"], "a": f["a"]} for f in fs)
     return out
 

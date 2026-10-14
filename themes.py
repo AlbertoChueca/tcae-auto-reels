@@ -162,7 +162,7 @@ def get(name):
                      row_fill=PAPER, row_active=MINT, row_outline=TEAL_D, row_radius=6, ok_mode="pen", ok_col=TEAL_D,
                      ok_text=TEAL_D, letter="box", title_bg=TEAL_D, title_fg=WHITE, badge_bg=INK, badge_fg=WHITE,
                      big_col=TEAL_D, ref_bg=BG, ref_fg=INK, burst=[TEAL_D, RED, INK],
-                     header="OPOSICIÓN TCAE · SALUD ARAGÓN", music_bpm=80,
+                     header="OPOSICIONES TCAE · TEST", music_bpm=80,
                      **{**light, "ring_col": TEAL_D, "pill_bg": INK})
     if name == "noche":
         neon = (95, 211, 196)

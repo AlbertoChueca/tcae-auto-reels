@@ -23,11 +23,11 @@ GEMINI_VOICE = os.environ.get("GEMINI_VOICE", "Sulafat")          # voz femenina
 API = "https://generativelanguage.googleapis.com/v1beta"
 TTS_PREFERRED = ["gemini-3.8-flash-tts", "gemini-3.8-flash-tts-preview", "gemini-3.1-flash-tts-preview",
                  "gemini-3.1-flash-tts", "gemini-2.5-flash-preview-tts", "gemini-2.5-pro-preview-tts"]
-NARRATOR = ("Eres una mujer española de unos 30 años, técnica en cuidados de enfermería, que graba un audio para una "
-            "compañera que prepara la oposición de TCAE del SALUD de Aragón. Hablas en español de España con acento "
-            "peninsular neutro, de forma natural y espontánea, como en una conversación real: entonación variada, pequeñas "
-            "pausas para respirar, sonrisa en la voz cuando toca, sin exagerar. NO suenes a locutora de anuncio, ni a "
-            "asistente virtual, ni a lectura plana. Pronuncia TCAE como 'te ce a e' y SALUD como 'salud'.")
+# Indicaciones SOLO en inglés y cortas: el modelo no debe confundirlas con el texto en español (si alguna vez las lee,
+# _leak() lo detecta con el reconocimiento de voz y la toma se repite).
+NARRATOR = ("Voice profile: a woman from Spain in her early thirties, peninsular Spanish accent, natural and conversational, "
+            "relaxed breathing, a smile in the voice when it fits. Not an announcer, not a virtual assistant, not flat reading. "
+            "Say 'TCAE' as 'te ce a e'.")
 ENGINE_USED = None
 LOCK = None          # engine chosen for the current reel: every line of one reel uses the same voice
 
@@ -135,6 +135,31 @@ def _similarity(a, text):
     if not x or not y:
         return 0.0
     return difflib.SequenceMatcher(None, x, y, autojunk=False).ratio()
+
+
+LEAK_WORDS = {"tono", "amable", "companera", "fueras", "fuera", "narradora", "narrador", "locutora", "cercana", "didactica",
+              "calida", "acento", "peninsular", "entonacion", "parrafo", "sonrisa", "intrigante", "rotunda", "complice",
+              "motivadora", "energica", "transcript", "transcripcion", "notes", "notas", "director", "directora", "paragraph",
+              "warm", "tone", "voice", "read", "style", "delivery", "upbeat", "playful", "friendly", "confident", "smiling",
+              "natural", "clear", "brisk", "explaining", "profile", "spain", "spanish", "accent", "woman", "say"}
+
+
+def _leak(a, text):
+    """True si la toma dice palabras que no están en el texto y suenan a indicaciones ("tono amable, como si fueras una
+    compañera...", "warm tone", "transcript"...), o demasiadas palabras de más. None si no se puede comprobar."""
+    heard = _asr(a)
+    if heard is None:
+        return None
+    said = re.sub(r"\d+", lambda m: " " + _num_words(int(m.group())) + " ", spoken_text(text).replace("%", " por ciento "))
+    script = {_norm(w) for w in said.split()} | {_norm(w) for w in text.split()}
+    script.discard("")
+    extra = [w for w in (_norm(w) for w, _, _ in heard)
+             if len(w) > 2 and not re.search(r"\d", w) and w not in script and _spoken(w) not in script]
+    bad = [w for w in extra if w in LEAK_WORDS]
+    if bad or len(extra) > max(4, 0.3 * _words(text)):
+        print(f"voice: take rejected, extra words {extra[:10]} for {text[:40]!r}", flush=True)
+        return True
+    return False
 
 
 def align(a, text):
@@ -366,10 +391,10 @@ def _clean_edges(a, text):
 def _gemini_line(text, style, key, pace):
     """Up to 3 takes with different prompt shapes. A take is accepted when it says the right words with a
     natural length; otherwise the best acceptable one is kept. Fails only if every take is clearly wrong."""
-    notes = f"### DIRECTOR'S NOTES\n{NARRATOR}\nDelivery: {style or 'natural and engaging'}, {pace}.\n" \
-            f"Read ONLY the transcript, word for word. Never read these notes.\n### TRANSCRIPT\n"
-    prompts = [notes + text,
-               f"### DIRECTOR'S NOTES\nCercana y segura, español de España (acento peninsular), {style or 'natural'}.\n### TRANSCRIPT\n{text}",
+    hint = f"{style}, {pace}" if style else pace
+    prompts = [f"{NARRATOR}\nPerformance: {hint}.\nSpeak only the Spanish text after the colon, word for word.\n"
+               f"Text: {text}",
+               f"Say naturally in Spanish from Spain, {hint}: {text}",
                text]
     takes = []
     for pr in prompts:
@@ -380,6 +405,8 @@ def _gemini_line(text, style, key, pace):
                 raise
             print("voice: take error:", str(e)[:150], flush=True); continue
         sim = _similarity(a, text)
+        if _leak(a, text):
+            continue                                   # leyó las indicaciones: esta toma no vale nunca
         if (sim is None or sim >= 0.7) and _sane(a, text):
             return a
         print(f"voice: retake {text!r} ({len(a) / SR:.1f}s, match {sim if sim is None else round(sim, 2)})", flush=True)
@@ -425,7 +452,7 @@ def _split_takes(a, texts):
     parts = [_clean_edges(_tighten(_trim(a[edges[k]:edges[k + 1]])), texts[k]) for k in range(n)]
     for p, t in zip(parts, texts):
         sim = _similarity(p, t)
-        if not _sane(p, t, 3.2) or (sim is not None and sim < 0.7):
+        if not _sane(p, t, 3.2) or (sim is not None and sim < 0.7) or _leak(p, t):
             raise RuntimeError("split pieces do not match the text")
     return parts
 
@@ -433,15 +460,17 @@ def _split_takes(a, texts):
 def _gemini_many(texts, styles, key, one_take, pace):
     if one_take and len(texts) > 1:
         try:
-            notes = "\n".join(f"- Paragraph {i + 1}: {s or 'natural'}" for i, s in enumerate(styles))
+            cues = "; ".join(f"{i + 1}: {st}" for i, st in enumerate(styles) if st)
             script = "\n\n".join(texts)
-            prompt = (f"{NARRATOR}\nPerform the TRANSCRIPT below in one continuous take, at {pace}, with a clear "
-                      f"breath pause between paragraphs. Read only the transcript, word for word.\n"
-                      f"DIRECTOR'S NOTES:\n{notes}\n\nTRANSCRIPT:\n{script}")
+            prompt = (f"{NARRATOR}\nPerformance: one continuous take, {pace}, a short breath pause between paragraphs"
+                      + (f"; mood per paragraph -> {cues}" if cues else "") + ".\n"
+                      f"Speak only the Spanish text below the line, word for word, nothing else.\n---\n{script}")
             take = _trim(_gemini_call(prompt, key))
             print(f"voice: one take {len(take) / SR:.1f}s for {sum(_words(t) for t in texts)} words", flush=True)
             if len(take) / SR > 2.2 * sum(_words(t) / 2.7 + 0.6 for t in texts) + 2:
                 raise RuntimeError("one take far too long (model added extra speech)")
+            if _leak(take, " ".join(texts)):
+                raise RuntimeError("one take includes words that are not in the script")
             return _split_takes(take, texts)
         except Exception as e:
             if "unreachable" in str(e) or "no Gemini TTS" in str(e):

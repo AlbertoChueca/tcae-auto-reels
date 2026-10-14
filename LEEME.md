@@ -1,7 +1,7 @@
 # Aprueba TCAE – Reels automáticos
 
 Publica sola **2 reels al día**, a la vez en **Instagram, TikTok y YouTube Shorts**, con su **Story** en Instagram y
-TikTok, para llevar opositores de TCAE del SALUD a **apruebatcae.com**.
+TikTok, para llevar opositores de TCAE de **toda España** a **apruebatcae.com**.
 
 | Hora (España) | Hueco |
 |---|---|
@@ -72,6 +72,19 @@ Se suman a la sala de 5 agentes (gancho, guion, diseño, crecimiento, comunidad)
 `agents/estudio_*.md`. Todo lo que escriben pasa por el verificador antes de publicarse. Las imágenes aprobadas se
 guardan junto al vídeo (`*_ilustracion.jpg`) y el registro en `image_log.jsonl`.
 
+## Cuenta generalista (toda España)
+Los textos, la voz, los hashtags y las descripciones hablan a opositores de TCAE de cualquier comunidad, sin nombrar
+ninguna. **Primero salen todas las preguntas generales** (temario sanitario y legislación estatal); las del temario
+específico de Aragón (SALUD, Estatuto, geografía, leyes aragonesas y cualquier pregunta que nombre Aragón) quedan **al
+final de la cola** y solo se usan cuando ya no quedan generales sin publicar. El verificador nocturno también revisa
+antes las generales. Lista de temas en `questions.py` (`REGIONAL_TOPICS`).
+
+## La voz solo dice el guion
+Las pistas de interpretación son muy cortas y en inglés (nunca se mezclan con el texto en español), y cada toma se
+transcribe: si la voz dice algo que no está en el guion ("tono amable, como si fueras una compañera..."), esa toma se
+descarta y se graba otra. Además, cualquier campo del guion con indicaciones de tono o de voz se cambia por la
+plantilla antes de grabar.
+
 ## Cómo se evita publicar un error (lo más importante)
 1. **Solo preguntas propias**: el banco sale del `index.html` de tu web app (1.822 preguntas, 220 de examen oficial, 2.718 fichas). El enunciado y las opciones salen tal cual; la IA nunca los reescribe.
 2. **Verificador** (`verifier.py`): antes de usar una pregunta comprueba que la respuesta marcada es la correcta y la única. En **legislación y plazos** exige una **cita literal** del texto real de la norma (`fuentes/`, descargado del BOE) y el código comprueba que esa cita existe de verdad; sin cita, esa pregunta no sale.
@@ -88,7 +101,7 @@ El informe `banco/informe_verificacion.md` lista las preguntas dudosas y los pos
    - `ZERNIO_API_KEY`: conecta en Zernio la cuenta de TikTok @apruebatcae y el canal de YouTube (sin ella solo se publica en Instagram).
 3. **Actions → Descargar fuentes → Run workflow.** Mira `fuentes/estado.md`. Tres normas solo están en el BOA (Decreto Legislativo 2/2004, Decreto 174/2010 y Decreto 39/2024): pega su texto en el archivo que indica. Mientras falten, las preguntas de esos temas no se publican.
 4. **Actions → Verificar banco → Run workflow** (pon 200). Después se verifica una tanda cada noche sola.
-5. **Actions → Muestras de voz**: descarga las muestras, elige una y ponla en **Variables → `GEMINI_VOICE`** (por defecto `Kore`).
+5. **Actions → Muestras de voz**: descarga las muestras, elige una y ponla en **Variables → `GEMINI_VOICE`** (por defecto `Sulafat`).
 6. **Actions → Reels diarios → Run workflow** con "Solo generar el vídeo" marcado: descarga el vídeo en *Artifacts* y revísalo.
 7. **Actions → Comprobar conexiones**: debe salir todo en verde (tokens, cuentas, Gemini, reserva de preguntas). Se repite cada lunes y, si algo crítico falla, GitHub te avisa por correo.
 8. Desde ese momento publica solo a las 14:30 y 21:30. Para pausar: *Reels diarios → … → Disable workflow*.
@@ -121,7 +134,7 @@ avisa si esa cifra es mayor que el banco importado (sube el `index.html` actual 
   y FUSIONA verificaciones, preguntas usadas y registros antes de subir (aunque dos workflows terminen a la vez).
 - **Bot de comentarios** (Instagram, cada 2 h): detecta A/B/C/D, "1a 2c 3b" o "mito/realidad", felicita a quien acierta y anima a quien falla sin desvelar la respuesta. Los DM están desactivados (`BOT_SEND_DMS=true` para activarlos).
 - **Aprendizaje**: `performance.json` (views, guardados, compartidos, comentarios, visitas al perfil), `strategy_report.md` (qué formato y gancho ganan), `playbook.md` (estratega semanal) y `agents/*.md` (cuadernos diarios de los 5 agentes).
-- **Ubicación**: rellena el `id` de Zaragoza, Huesca y Teruel en `locations.json` (id de la página de Facebook del lugar). Vacío = sin ubicación.
+- **Ubicación**: `locations.json` trae España y grandes ciudades; rellena el `id` (página de Facebook del lugar) de las que quieras usar. Vacío = sin ubicación.
 - **Hechos de la app**: `assets/app/facts.md`. Los agentes solo afirman lo que pone ahí (edítalo si algo cambia, p. ej. si deja de ser gratis).
 - **Portada**: el reel usa como portada el fotograma del gancho (`thumb_offset`).
 - **Prueba local sin red**: `QUIZ_MOCK=1 VOICE_ENGINE=mock python make_quiz.py simulacro_3 out/prueba.mp4 cuaderno`.

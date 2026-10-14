@@ -9,7 +9,7 @@ TEXTS = ["¿Te sabes esta pregunta del temario de TCAE?",
          "Según la Ley 41/2002, la información al paciente se dará, por regla general, de forma verbal.",
          "La correcta es la B. Y ojo con la trampa de la opción C.",
          "Practica gratis en apruebatcae.com. Tienes el link en la bio."]
-STYLES = ["enérgica y cercana", "didáctica y clara", "segura, con una sonrisa", "cálida y motivadora"]
+STYLES = ["upbeat, playful challenge", "clear, explaining", "confident, smiling", "warm, encouraging"]
 os.makedirs("out/voices", exist_ok=True)
 
 

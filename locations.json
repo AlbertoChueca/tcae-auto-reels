@@ -1,5 +1,10 @@
 [
- {"name": "Zaragoza, Aragón", "id": ""},
- {"name": "Huesca, Aragón", "id": ""},
- {"name": "Teruel, Aragón", "id": ""}
+ {"name": "España", "id": ""},
+ {"name": "Madrid", "id": ""},
+ {"name": "Sevilla", "id": ""},
+ {"name": "Valencia", "id": ""},
+ {"name": "Barcelona", "id": ""},
+ {"name": "Málaga", "id": ""},
+ {"name": "Bilbao", "id": ""},
+ {"name": "Zaragoza", "id": ""}
 ]

@@ -13,7 +13,7 @@ Cada función es independiente: si una falla, las demás siguen.
 import os, time, requests
 
 API = "https://zernio.com/api/v1"
-TAGS = ["TCAE", "oposiciones TCAE", "auxiliar de enfermería", "oposiciones", "SALUD Aragón", "test"]
+TAGS = ["TCAE", "oposiciones TCAE", "auxiliar de enfermería", "oposiciones", "TCAE oposiciones", "test"]
 _ACC = {}
 
 

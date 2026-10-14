@@ -21,7 +21,7 @@ STOP = set("de la el los las y o a en por para con que del al se su sus es un un
            "siguiente siguientes entre sobre sin no si".split())
 
 ROLE = """Eres el VERIFICADOR de contenidos de Aprueba TCAE, una app para opositores a Técnico en Cuidados Auxiliares de
-Enfermería (TCAE) del SALUD de Aragón. Tu trabajo es evitar que publiquemos un error: un opositor que estudia con un
+Enfermería (TCAE) de toda España. Tu trabajo es evitar que publiquemos un error: un opositor que estudia con un
 dato falso suspende por nuestra culpa. Eres estricto, preciso y nunca inventas normativa, artículos ni cifras.
 Ante la duda, marcas "dudosa"."""
 
@@ -260,6 +260,7 @@ def run(n=80, fmt_kind="normal"):
     import random
     pend = [q for q in QB.load() if q["id"] not in v and QB.fits(q, fmt_kind)]
     random.Random(str(datetime.date.today())).shuffle(pend)          # mezcla temas y bloques en cada tanda
+    pend.sort(key=QB.regional)                                        # las generales primero; Aragón al final
     week_ago = str(datetime.date.today() - datetime.timedelta(days=7))
     redo = [q for q in QB.load() if q["id"] in v and q["bloque"] in QB.STRICT and not v[q["id"]].get("fuente_ok")
             and v[q["id"]].get("veredicto") in ("ok", "dudosa") and v[q["id"]].get("fecha", "") <= week_ago

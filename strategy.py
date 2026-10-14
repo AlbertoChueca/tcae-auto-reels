@@ -29,10 +29,10 @@ DEFAULT_ARMS = {
         "trampa: avisar de que la pregunta tiene trampa o confunde",
         "empatía: hablar a quien estudia después del turno o con poco tiempo",
         "curiosidad: abrir con un dato o duda que pique la curiosidad (solo del material)",
-        "examen: recordar que es el tipo de pregunta del examen del SALUD",
+        "examen: recordar que es el tipo de pregunta que cae en el examen oficial",
         "repaso exprés: 'repaso de 30 segundos' para estudiar en cualquier hueco",
     ],
-    "bloque": ["clinico", "legislacion", "aragon", "mixto"],
+    "bloque": ["clinico", "legislacion", "mixto"],
     "think_time": ["corto", "normal", "largo"],
 }
 THINK_SECONDS = {"corto": 5, "normal": 7, "largo": 9}
@@ -43,6 +43,7 @@ def arms():
         a = json.load(open(ARMS_FILE))
         for k, v in DEFAULT_ARMS.items():
             a.setdefault(k, v)
+        a["bloque"] = [b for b in a["bloque"] if b != "aragon"] or list(DEFAULT_ARMS["bloque"])   # cuenta generalista
         return a
     except Exception:
         return {k: list(v) for k, v in DEFAULT_ARMS.items()}

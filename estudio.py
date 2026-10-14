@@ -55,7 +55,8 @@ SERIES = {0: ("Lunes de legislación", "legislacion_30s"), 1: ("Martes de trampa
           4: ("Viernes de mitos", "mito_realidad"), 5: ("Sábado de repaso exprés", "flashcards_express"),
           6: ("Domingo de examen real", "examen_real")}
 
-AUDIENCE = ("Público: adultos que preparan la oposición de TCAE del SALUD (Aragón), muchas trabajando a turnos. "
+AUDIENCE = ("Público: adultos que preparan las oposiciones de TCAE en cualquier comunidad de España, muchas trabajando a "
+            "turnos. Cuenta generalista: no menciones una comunidad concreta salvo que la pregunta sea de su temario. "
             "Español de España, tono cercano y profesional, nada infantil, sin promesas ni estadísticas inventadas.")
 
 
@@ -341,10 +342,10 @@ def seo(fmt, items, S):
         res = _ask(f"""{brief('seo')}
 Formato {fmt}. {_desc(items)} Gancho: "{S.get('screen_hook')}".
 Escribe:
-- yt_title: título de YouTube Shorts (máx. 80 caracteres) con lo que buscaría un opositor (p. ej. "test TCAE Aragón",
+- yt_title: título de YouTube Shorts (máx. 80 caracteres) con lo que buscaría un opositor (p. ej. "test TCAE oposiciones",
   el tema), atractivo y sin clickbait engañoso, sin revelar la respuesta.
-- seo_line: una frase natural para la descripción (máx. 20 palabras) con 2-3 búsquedas típicas (oposiciones TCAE Aragón,
-  test auxiliar de enfermería SALUD, el tema...).
+- seo_line: una frase natural para la descripción (máx. 20 palabras) con 2-3 búsquedas típicas (oposiciones TCAE 2026,
+  test auxiliar de enfermería, el tema...), sin mencionar ninguna comunidad autónoma.
 Devuelve JSON: {{"yt_title": str, "seo_line": str}}""", 0.6)
         out = {}
         t = (res.get("yt_title") or "").strip()

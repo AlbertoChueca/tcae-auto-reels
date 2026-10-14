@@ -110,11 +110,11 @@ Reescribe la descripción para conseguir más guardados, comentarios, compartido
 Reglas: español de España; primera línea gancho (máx. 12 palabras, máx. 1 emoji); MANTÉN LITERALES la pregunta y sus
 opciones (o la afirmación) tal y como están; una línea que invite a comentar la respuesta; una que invite a guardar el
 post para repasar; menciona apruebatcae.com y "link en la bio"; termina con 3-5 hashtags de esta lista:
-#TCAE #oposicionesTCAE #auxiliardeenfermeria #oposiciones #SALUD #Aragon. Máx. 1.500 caracteres. Sin estadísticas ni promesas.
+#TCAE #oposicionesTCAE #auxiliardeenfermeria #oposiciones #TCAEoposiciones #tecnicoencuidados. No menciones ninguna comunidad autónoma. Máx. 1.500 caracteres. Sin estadísticas ni promesas.
 Devuelve JSON: {{"caption": str, "why": str}}""", 0.6)
         cap = (res.get("caption") or "").strip()
         tags = re.findall(r"#\w+", cap)
-        allowed = {"#TCAE", "#oposicionesTCAE", "#auxiliardeenfermeria", "#oposiciones", "#SALUD", "#Aragon"}
+        allowed = {"#TCAE", "#oposicionesTCAE", "#auxiliardeenfermeria", "#oposiciones", "#TCAEoposiciones", "#tecnicoencuidados"}
         core = [l for l in caption.split("\n") if re.match(r"^[ABCD]\) ", l)]          # las opciones deben seguir intactas
         if (80 <= len(cap) <= 1800 and 3 <= len(tags) <= 5 and set(tags) <= allowed and "apruebatcae" in cap.lower()
                 and "bio" in cap.lower() and all(l in cap for l in core) and all(p in caption for p in re.findall(r"\d+ ?%", cap))):
@@ -158,8 +158,8 @@ def daily_learning(force=False):
     com_txt = "\n".join(f"- [{c.get('story') or 'reel'}] {c['text'][:160]}" for c in comments[:150]) or "(aún no hay comentarios)"
     old = {n: notebook(n) for n in NAMES}
     try:
-        res = _ask(f"""Coordinas una sala de 5 agentes especialistas para los reels de Aprueba TCAE (tests para la oposición de
-TCAE del SALUD de Aragón; público adulto). Roles:
+        res = _ask(f"""Coordinas una sala de 5 agentes especialistas para los reels de Aprueba TCAE (tests para las oposiciones de
+TCAE de toda España; público adulto). Roles:
 {json.dumps(ROLES, indent=1, ensure_ascii=False)}
 
 RESULTADOS REALES EN INSTAGRAM (mejores primero; score = views + guardados, compartidos, comentarios y visitas al perfil ponderados + visionado):

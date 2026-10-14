@@ -40,7 +40,7 @@ PUBLIC_OTHER = [
 ]
 PUBLIC_SIM = "¡{ok}/{n}! {msg} Más simulacros gratis en el link de la bio"
 DM_TEXT = (f"¡Gracias por participar! 💚 En Aprueba TCAE tienes {M.PREGUNTAS_FRASE} tipo test, simulacros y flashcards "
-           "de la oposición de TCAE del SALUD para practicar gratis: " + LINK)
+           "de las oposiciones de TCAE para practicar gratis: " + LINK)
 
 
 def letters_in(text):

@@ -32,7 +32,7 @@ BADGE = {"pregunta_del_dia": "PREGUNTA DEL DÍA", "examen_real": "CAYÓ EN EL EX
 DEFAULT_STYLE = {"caption_scale": 1.0, "screen_hook": "", "follow_line": "Síguenos: una pregunta cada día",
                  "share_line": "Envíaselo a quien oposita contigo", "save_line": "", "reto_line": "", "series": ""}
 TAGS_FIXED = ["#TCAE", "#oposicionesTCAE"]
-TAGS_ROT = ["#auxiliardeenfermeria", "#oposiciones", "#SALUD", "#Aragon"]
+TAGS_ROT = ["#auxiliardeenfermeria", "#oposiciones", "#TCAEoposiciones", "#tecnicoencuidados"]
 T = themes.get("marca")
 
 
@@ -247,7 +247,7 @@ def brand_card(style):
     im.alpha_composite(logo, (int(x0), 70))
     d.text((x0 + 146, 78), "Aprueba", font=f, fill=INK)
     d.text((x0 + 146 + f.getlength("Aprueba "), 78), "TCAE", font=f, fill=TEAL)
-    sub = fx.text_block("Tests, simulacros y flashcards para la oposición de TCAE del SALUD", F800, 38, 780,
+    sub = fx.text_block("Tests, simulacros y flashcards para las oposiciones de TCAE", F800, 38, 780,
                         (90, 112, 108), align="center")
     im.alpha_composite(sub, ((CARD_W - sub.width) // 2, 230))
     p1 = fx.pill("PRACTICA GRATIS", 40, AMBER, INK, padx=36, pady=14)
@@ -297,41 +297,43 @@ def burst(fr, cx, cy, lt, seed=3):
 
 
 # ------------------------------------------------------------------ guion -> líneas de voz
+# El tercer elemento es una pista de interpretación MUY corta y en inglés: nunca se dice, solo orienta la entonación
+# (en inglés para que la voz no la confunda con el texto en español; voice.py además rechaza cualquier toma que la lea).
 def lines_for(fmt, items, S):
     P = items[0]
-    L = [("hook", S["hook_line"], "enérgica y cercana, reto amistoso")]
+    L = [("hook", S["hook_line"], "upbeat, playful challenge")]
     if fmt == "flashcards_express":
         for i, F in enumerate(items):
-            L.append((f"fq{i}", F["q"], "clara, pregunta de repaso"))
-            L.append((f"fa{i}", F["a"], "segura y didáctica"))
-        L.append(("fin", S["cierre_line"], "cálida, invitando a comentar"))
+            L.append((f"fq{i}", F["q"], "clear, quick question"))
+            L.append((f"fa{i}", F["a"], "confident, explaining"))
+        L.append(("fin", S["cierre_line"], "warm, inviting"))
     elif fmt == "simulacro_3":
         for i, Q in enumerate(items):
-            L.append((f"q{i}", Q["pregunta"], "clara, ritmo ágil de examen"))
-            L.append((f"r{i}", f"La {Q['letra']}.", "segura, breve"))
-        L.append(("fin", S["cierre_line"], "cálida, invitando a comentar"))
+            L.append((f"q{i}", Q["pregunta"], "clear, brisk"))
+            L.append((f"r{i}", f"La {Q['letra']}.", "confident, short"))
+        L.append(("fin", S["cierre_line"], "warm, inviting"))
     elif fmt == "mito_realidad":
-        L.append(("st", S["afirmacion"], "intrigante, dejando la duda"))
-        L.append(("rev", "¡Mito!" if S["veredicto"] == "MITO" else "¡Realidad!", "rotunda, con chispa"))
-        L.append(("ex", S["explicacion"], "didáctica y cercana, como una compañera que lo explica bien"))
+        L.append(("st", S["afirmacion"], "intriguing"))
+        L.append(("rev", "¡Mito!" if S["veredicto"] == "MITO" else "¡Realidad!", "emphatic, lively"))
+        L.append(("ex", S["explicacion"], "friendly, explaining"))
     else:
         if fmt == "legislacion_30s":
             for k, p in enumerate(S["puntos"]):
-                L.append((f"p{k}", p, "didáctica, clara, buen ritmo"))
+                L.append((f"p{k}", p, "clear, explaining"))
         if fmt == "caso_practico":
-            L.append(("esc", S["escena"], "narrativa, ambiente de planta de hospital, intriga suave"))
-        L.append(("q", P["pregunta"], "natural y clara, como quien lee una pregunta en voz alta"))
+            L.append(("esc", S["escena"], "storytelling, slight suspense"))
+        L.append(("q", P["pregunta"], "natural, clear"))
         if fmt != "legislacion_30s":
             for k, o in enumerate(P["op"]):
-                L.append((f"o{k}", f"{QB.LETTERS[k]}. {o}", "natural, leyendo las opciones a una compañera"))
-        L.append(("rev", S["reveal_line"], "segura, con una sonrisa"))
+                L.append((f"o{k}", f"{QB.LETTERS[k]}. {o}", "natural, listing"))
+        L.append(("rev", S["reveal_line"], "confident, smiling"))
         if fmt == "error_tipico":
-            L.append(("ex", S["trampa_porque"], "didáctica, avisando de la trampa"))
+            L.append(("ex", S["trampa_porque"], "explaining, warning"))
         elif fmt == "truco_memorizar":
-            L.append(("ex", S["truco_line"], "cómplice, compartiendo un truco"))
+            L.append(("ex", S["truco_line"], "playful, sharing a tip"))
         elif fmt != "legislacion_30s":
-            L.append(("ex", S["explicacion"], "didáctica y cercana, como una compañera que lo explica bien"))
-    L.append(("cta", S["cta_line"], "cálida y motivadora"))
+            L.append(("ex", S["explicacion"], "friendly, explaining"))
+    L.append(("cta", S["cta_line"], "warm, encouraging"))
     return L
 
 
@@ -374,8 +376,8 @@ def caption_text(fmt, items, S, rng, st=None):
     extra = "".join(f"{x}\n" for x in (S.get("save_caption"), S.get("tag_caption"), S.get("app_caption"),
                                         S.get("follow_caption"), S.get("seo_line")) if x)
     return (f"{S['caption_hook']}\n\n{body}\n\n{S['comment_prompt'].rstrip('.!')}.{sol}\n\n" + (extra + "\n" if extra else "")
-            + f"Practica gratis con {M.PREGUNTAS_FRASE} tipo test, simulacros y flashcards de la oposición de TCAE "
-            "del SALUD en apruebatcae.com (link en la bio).\n\n" + " ".join(tags))
+            + f"Practica gratis con {M.PREGUNTAS_FRASE} tipo test, simulacros y flashcards de las oposiciones de TCAE "
+            "en apruebatcae.com (link en la bio).\n\n" + " ".join(tags))
 
 
 # ------------------------------------------------------------------ build

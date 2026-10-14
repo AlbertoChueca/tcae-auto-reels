@@ -19,9 +19,10 @@ FORMATS = {
     "caso_practico": "Caso práctico de turno",
     "flashcards_express": "Repaso exprés con 4 fichas",
 }
-AUDIENCE = """PÚBLICO: personas adultas que preparan la oposición de TCAE (Técnico en Cuidados Auxiliares de Enfermería) del
-SALUD (Servicio Aragonés de Salud); muchas trabajan y estudian a la vez. TONO: cercano, motivador, de profesional sanitaria
-a compañera; nada infantil, nada de "chicos", sin exageraciones ni promesas ("esto cae seguro", "aprobarás"), sin
+AUDIENCE = """PÚBLICO: personas adultas que preparan las oposiciones de TCAE (Técnico en Cuidados Auxiliares de Enfermería)
+en cualquier comunidad de España (SAS, SERMAS, SALUD, SCS, Osakidetza...); muchas trabajan y estudian a la vez. Habla
+para TODA España: no menciones ninguna comunidad concreta salvo que la pregunta sea de su temario específico. Registro:
+cercano, motivador, profesional; nada infantil, nada de "chicos", sin exageraciones ni promesas ("esto cae seguro", "aprobarás"), sin
 estadísticas inventadas ("el 90% falla"). Español de España (vosotros/tú, "oposición", "temario", "plaza")."""
 
 SCHEMAS = {
@@ -71,7 +72,7 @@ def write(fmt, items, arms=None, avoid=(), notes=None):
     except Exception:
         pass
     prompt = f"""Eres el GUIONISTA de los reels de Aprueba TCAE (Instagram, TikTok, YouTube Shorts), una web app gratuita de
-tests para la oposición de TCAE del SALUD de Aragón (apruebatcae.com).
+tests para las oposiciones de TCAE de toda España (apruebatcae.com).
 {AUDIENCE}
 
 {_brief('guion')}
@@ -83,6 +84,8 @@ MATERIAL (lo ÚNICO que puedes usar como dato; no añadas artículos, cifras, pl
 {_material(items)}
 
 Escribe en español de España, frases cortas para decir en voz alta (máx. 14 palabras por frase), números en cifra.
+Cada campo es EXACTAMENTE lo que se dice o se lee en pantalla: nunca escribas indicaciones de tono, de voz o de actuación
+(nada de "tono amable", "como si fueras una compañera", "(sonriendo)", "Narradora:"), ni menciones a quién habla.
 Campos:
 - "screen_hook": texto GRANDE de los 2 primeros segundos (2-6 palabras, sin emojis): curiosidad o reto que frene el scroll.
 - "hook_line": lo primero que dice la voz (5-14 palabras); no repitas literal el screen_hook.
@@ -96,6 +99,45 @@ No repitas ganchos recientes: {'; '.join(list(avoid)[-12:]) or 'ninguno'}.
 Devuelve solo JSON con esos campos."""
     s = gemini.ask(prompt, 0.9)
     return clean(fmt, items, s)
+
+
+# Indicaciones de actuación/registro que una IA puede colar en un texto que luego se LEE EN VOZ ALTA o sale en pantalla
+# ("tono amable, como si fueras una compañera", "(con voz cálida)", "Narradora:"...). Nunca deben publicarse.
+_ADJ = (r"(?:amable|cercan[oa]|c[aá]lid[oa]|alegre|did[aá]ctic[oa]|motivador[a]?|suave|segur[oa]|natural|neutr[oa]|"
+        r"en[eé]rgic[oa]|c[oó]mplice|tranquil[oa]|firme|positiv[oa]|intrigante|rotund[oa]|claro|clara|amistos[oa]|"
+        r"profesional|dulce|animad[oa]|emp[aá]tic[oa]|conversacional|informal|serio|seria)")
+META = re.compile(r"\b(?:en )?(?:un )?tono " + _ADJ + r"|\btono de voz\b|como si fuer[ao]s?\b|como si (?:hablaras|estuvieras)\b|"
+                  r"\bcomo una compañera (?:que|de)\b|\b(?:con )?(?:una )?voz " + _ADJ + r"|\bvoz en off\b|"
+                  r"\bnarrador(?:a)?\b|\blocutor(?:a)?\b|\bentonaci[oó]n\b|\bacento (?:peninsular|espa[nñ]ol|de espa[nñ]a|neutro)\b|"
+                  r"\bparagraph\b|\btranscript\b|\bdirector'?s notes\b|\bnotas de (?:direcci[oó]n|actuaci[oó]n)\b|"
+                  r"\bdelivery\b|\b(?:warm|friendly|calm|energetic|clear) (?:tone|voice)\b|\bread (?:only|aloud)\b|"
+                  r"\((?:[^)]*\b(?:voz|tono|sonr[ií]e|pausa|r[ií]e|susurr|enf[aá]tic)[^)]*)\)|\[[^\]]*\]|"
+                  r"^\s*(?:narradora?|voz|locutora?|presentadora?)\s*:", re.I)
+SPOKEN_KEYS = ("hook_line", "reveal_line", "cta_line", "explicacion", "trampa_porque", "truco_line", "afirmacion",
+               "cierre_line", "escena", "puntos")
+
+
+def has_meta(v):
+    """True si el texto lleva indicaciones de tono/voz/escena en vez de solo lo que hay que decir o mostrar."""
+    if isinstance(v, (list, tuple)):
+        return any(has_meta(x) for x in v)
+    return isinstance(v, str) and bool(META.search(v))
+
+
+def strip_meta(fmt, items, s):
+    """Última barrera: cualquier campo con indicaciones de actuación vuelve a la plantilla (o se elimina si es opcional)."""
+    base = template(fmt, items)
+    for k in list(s):
+        if k in ("caption", "yt_title") or not has_meta(s[k]):
+            continue
+        if k in SPOKEN_KEYS and k not in base:
+            raise ValueError(f"'{k}' lleva indicaciones de voz/tono")
+        print(f"guion: quito indicaciones de voz/tono de '{k}': {str(s[k])[:80]!r}", flush=True)
+        if k in base and not has_meta(base[k]):
+            s[k] = base[k]
+        else:
+            s.pop(k)
+    return s
 
 
 def _w(v, lo, hi):
@@ -169,7 +211,7 @@ def template(fmt, items):
     if P.get("origen") == "examen":
         ex = "Es la respuesta de la plantilla provisional del tribunal."
     hooks = {"pregunta_del_dia": ("¿Te la sabes?", "Pregunta del día del temario de TCAE. A ver si la aciertas."),
-             "examen_real": ("Cayó en el examen", "Esta pregunta cayó en el examen oficial de TCAE en Aragón."),
+             "examen_real": ("Cayó en el examen", "Esta pregunta cayó en un examen oficial de TCAE."),
              "simulacro_3": ("¿Aciertas las 3?", "Simulacro rápido: tres preguntas tipo test. ¿Cuántas aciertas?"),
              "error_tipico": ("Ojo con la trampa", "Esta pregunta tiene trampa. Léela con calma."),
              "truco_memorizar": ("Truco para no olvidarla", "Te dejo una pregunta y un truco para recordarla."),
@@ -206,6 +248,11 @@ def script_for(fmt, items, arms=None, avoid=(), verify=True, series_info=None):
                 s = estudio.text_pass(fmt, items, s, series_info)
             except Exception as e:
                 print("estudio creativo omitido:", str(e)[:120], flush=True)
+            try:
+                s = strip_meta(fmt, items, s)
+            except ValueError as e:
+                notes = [str(e) + ": escribe solo lo que se dice, sin indicaciones de tono ni de voz"]
+                print("guionista:", e, flush=True); continue
             if not verify:
                 return s, fmt, "ia"
             import verifier
@@ -217,7 +264,7 @@ def script_for(fmt, items, arms=None, avoid=(), verify=True, series_info=None):
             print(f"verificador: guion rechazado: {json.dumps(probs, ensure_ascii=False)[:300]}", flush=True)
     if fmt in ("error_tipico", "truco_memorizar", "mito_realidad", "legislacion_30s", "caso_practico"):
         raise RuntimeError(f"el formato {fmt} necesita un guion verificado")
-    s = template(fmt, items)
+    s = strip_meta(fmt, items, template(fmt, items))
     if series_info:
         s["series"] = series_info["series"]; s["follow_line"] = f"Mañana: {series_info['manana']}. ¡Síguenos!"
     if not s["explicacion"] and fmt not in ("simulacro_3", "flashcards_express"):
