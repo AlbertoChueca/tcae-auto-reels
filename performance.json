@@ -1,1 +1,35 @@
-{}
+{
+"18130380814692510": {
+"slot": "manual",
+"formato": "pregunta_del_dia",
+"estilo": "marca",
+"series": null,
+"imagen": false,
+"voice_speed": null,
+"music": null,
+"temas": [
+"Denominaciones de Origen y Calidad de Aragón"
+],
+"hook": "¿Caes en esta pregunta?",
+"guion": "plantilla",
+"review_score": 8.0,
+"arms": {
+"formato": "pregunta_del_dia",
+"estilo": "marca",
+"hook_style": "curiosidad: abrir con un dato o duda que pique la curiosidad (solo del material)",
+"bloque": "aragon",
+"think_time": "largo"
+},
+"date": "2026-10-13",
+"permalink": "https://www.instagram.com/reel/DedBHvdgv1I/",
+"type": "REELS",
+"views": 58,
+"reach": 39,
+"likes": 2,
+"comments": 0,
+"shares": 0,
+"saved": 0,
+"total_interactions": 2,
+"ig_reels_avg_watch_time": 14987
+}
+}
