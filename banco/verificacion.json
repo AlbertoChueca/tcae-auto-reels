@@ -1942,5 +1942,725 @@
 "cita": "",
 "correcta_sugerida": null,
 "fecha": "2026-10-13"
+},
+"108d48146d": {
+"veredicto": "ok",
+"motivo": "La Ley 39/2015 establece claramente un plazo de 10 días para subsanar solicitudes incompletas.",
+"fuente_ok": true,
+"referencia": "Ley 39/2015, Artículo 68",
+"cita": "se requerirá al interesado para que, en un plazo de diez días, subsane la falta o acompañe los documentos preceptivos",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"b6e43e9ac5": {
+"veredicto": "ok",
+"motivo": "Kalish adaptó la pirámide de Maslow dividiendo las necesidades fisiológicas en supervivencia y estimulación.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"e66a0839e2": {
+"veredicto": "ok",
+"motivo": "El prefijo griego 'dis-' indica dificultad, anomalía o alteración, como en disnea o disfagia.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"55f71445d4": {
+"veredicto": "ok",
+"motivo": "El sufijo '-algesia' hace referencia a la sensibilidad al dolor, como en los términos analgesia o hiperalgesia.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"96ac7e404b": {
+"veredicto": "ok",
+"motivo": "El artículo 70 establece la organización según el principio de división funcional en departamentos, además de la gestión territorial.",
+"fuente_ok": true,
+"referencia": "Ley 5/2021, Artículo 70",
+"cita": "La Administración de la Comunidad Autónoma de Aragón se organizará de acuerdo con los principios de división funcional en departamentos",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"494003e50b": {
+"veredicto": "ok",
+"motivo": "La ley establece que a partir de los 16 años o en menores emancipados no cabe el consentimiento por representación con carácter general.",
+"fuente_ok": true,
+"referencia": "Ley 41/2002, Artículo 9",
+"cita": "Cuando se trate de menores emancipados o mayores de 16 años que no se encuentren en los supuestos b) y c) del apartado anterior, no cabe prestar el consentimiento por representación.",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"56b2cf250c": {
+"veredicto": "ok",
+"motivo": "La conducción es el mecanismo de transferencia de calor que requiere contacto físico directo entre dos cuerpos.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"72d7d249a4": {
+"veredicto": "ok",
+"motivo": "La sonda de Sengstaken-Blakemore, provista de balones, está indicada específicamente para el control de hemorragias por varices esofágicas.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"9c89e9beaa": {
+"veredicto": "ok",
+"motivo": "El DSM-V y la CIE-10 son los manuales de referencia internacionalmente aceptados para la clasificación de las enfermedades mentales.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"b5f4f22aec": {
+"veredicto": "ok",
+"motivo": "La implantación ocurre en el endometrio uterino unos 6-7 días después de la fecundación, por lo que ninguna de las opciones A, B o C es correcta.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"0574039e95": {
+"veredicto": "ok",
+"motivo": "El artículo 124 de la Constitución Española asigna explícitamente esta función al Ministerio Fiscal.",
+"fuente_ok": true,
+"referencia": "Constitución Española de 1978 · Artículo 124",
+"cita": "El Ministerio Fiscal, sin perjuicio de las funciones encomendadas a otros órganos, tiene por misión promover la acción de la justicia en defensa de la legalidad",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"61ca1f7cd0": {
+"veredicto": "ok",
+"motivo": "Los comprimidos, cápsulas y supositorios son formas farmacéuticas sólidas (los supositorios son sólidos a temperatura ambiente y se funden a temperatura corporal).",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"dbc2a514b1": {
+"veredicto": "ok",
+"motivo": "La escala de Glasgow evalúa el nivel de conciencia a través de tres parámetros: apertura ocular, respuesta verbal y respuesta motora.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"009265c349": {
+"veredicto": "ok",
+"motivo": "La prevención terciaria se centra en la rehabilitación y en minimizar las secuelas y complicaciones de una enfermedad ya establecida.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"08b01fe133": {
+"veredicto": "ok",
+"motivo": "El neumotórax se define médicamente como la presencia o entrada de aire en la cavidad pleural.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"1e3a9598ce": {
+"veredicto": "ok",
+"motivo": "El principio activo es la sustancia química que produce el efecto farmacológico o terapéutico deseado en el organismo.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"2f56932c16": {
+"veredicto": "ok",
+"motivo": "Para movilizar a un paciente que no colabora hacia decúbito lateral se requieren al menos dos personas para garantizar la seguridad.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"42e56510b5": {
+"veredicto": "ok",
+"motivo": "Las hormonas del embarazo relajan las articulaciones pélvicas, pero no afectan de forma relevante a la articulación esternoclavicular.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"1352e6dcd8": {
+"veredicto": "ok",
+"motivo": "El aritenoides es un cartílago par de la laringe, a diferencia de la epiglotis, el cricoides y el tiroides, que son impares.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"7645aaf8ea": {
+"veredicto": "ok",
+"motivo": "La reforma del artículo 135 de la Constitución en 2011 introdujo el principio de estabilidad presupuestaria.",
+"fuente_ok": true,
+"referencia": "Constitución Española de 1978 · Artículo 135",
+"cita": "Todas las Administraciones Públicas adecuarán sus actuaciones al principio de estabilidad presupuestaria.",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"6c2601698d": {
+"veredicto": "ok",
+"motivo": "La 4ª Conferencia Internacional de Promoción de la Salud se celebró en Yakarta en 1997.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"32962eb9f7": {
+"veredicto": "ok",
+"motivo": "El Estatuto de Autonomía de Aragón establece que la segunda votación se realiza 24 horas después y basta con mayoría simple.",
+"fuente_ok": true,
+"referencia": "Ley Orgánica 5/2007, de reforma del Estatuto de Autonomía de Aragón · Artículo 4",
+"cita": "se procederá a una nueva votación veinticuatro horas después de la anterior, y la confianza se entenderá otorgada si obtuviera mayoría simple.",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"70b7edacf4": {
+"veredicto": "ok",
+"motivo": "El Estatuto de Autonomía de Aragón indica que el Presidente nombra y separa libremente a los Consejeros.",
+"fuente_ok": true,
+"referencia": "Ley Orgánica 5/2007, de reforma del Estatuto de Autonomía de Aragón · Artículo 5",
+"cita": "El Gobierno de Aragón estará constituido por el Presidente, los Vicepresidentes, en su caso, y los Consejeros, a los que el Presidente nombra y separa libremente.",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"28d43bea5a": {
+"veredicto": "ok",
+"motivo": "La ascitis es el término médico correcto para la acumulación de líquido en la cavidad peritoneal.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"d3678307f5": {
+"veredicto": "ok",
+"motivo": "La entrevista personal y el taller permiten el intercambio directo de información, por lo que son métodos bidireccionales.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"f803623eb9": {
+"veredicto": "dudosa",
+"motivo": "El texto de la fuente proporcionado no contiene la información sobre la ley y fecha de delimitación de las comarcas de Aragón.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"6433d65348": {
+"veredicto": "ok",
+"motivo": "El artículo 159.3 de la Constitución establece un período de nueve años y renovación por terceras partes cada tres.",
+"fuente_ok": true,
+"referencia": "Constitución Española de 1978, Artículo 159.3",
+"cita": "Los miembros del Tribunal Constitucional serán designados por un período de nueve años y se renovarán por terceras partes cada tres.",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"04f2d10d1d": {
+"veredicto": "ok",
+"motivo": "La Carta de Ottawa para la Promoción de la Salud fue el documento firmado en dicha ciudad en 1986.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"1dd791cc96": {
+"veredicto": "ok",
+"motivo": "El frotis es la técnica estándar para recoger muestras de exudados pasando suavemente una torunda estéril por la zona.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"cb21871b2e": {
+"veredicto": "ok",
+"motivo": "Las prótesis removibles deben extraerse para su limpieza y conservarse en un medio húmedo para evitar que se deformen.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"c1e172b82c": {
+"veredicto": "ok",
+"motivo": "Las suspensiones contienen partículas sólidas que sedimentan, por lo que es imprescindible agitarlas para homogeneizar la dosis.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"968ff0d29d": {
+"veredicto": "ok",
+"motivo": "La vesícula biliar no produce la bilis, sino que la almacena y concentra para liberarla cuando es necesaria.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"0ea3793730": {
+"veredicto": "ok",
+"motivo": "El embarazo ectópico o extrauterino es aquel en el que el óvulo fecundado se implanta fuera de la cavidad uterina.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"41307ae078": {
+"veredicto": "ok",
+"motivo": "La Constitución establece que en la segunda votación de investidura, 48 horas después, basta con obtener mayoría simple.",
+"fuente_ok": true,
+"referencia": "Constitución Española de 1978 · Artículo 99",
+"cita": "se someterá la misma propuesta a nueva votación cuarenta y ocho horas después de la anterior, y la confianza se entenderá otorgada si obtuviere la mayoría simple.",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"7b46f07683": {
+"veredicto": "ok",
+"motivo": "La crioterapia produce vasoconstricción, lo que disminuye el flujo sanguíneo local y ayuda a reducir la inflamación y el edema.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"2901067fde": {
+"veredicto": "dudosa",
+"motivo": "El texto legal proporcionado menciona la clasificación por función y al personal sanitario (Art. 6), pero omite el artículo 7 sobre el personal de gestión y servicios, por lo que no demuestra la respuesta completa.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"4ccca6687f": {
+"veredicto": "ok",
+"motivo": "El sufijo '-logía' proviene del griego y significa estudio, tratado o ciencia de una materia.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"94b6c30a65": {
+"veredicto": "dudosa",
+"motivo": "El texto de la fuente proporcionado no incluye la normativa específica sobre la elección del Justicia de Aragón para poder confirmar las mayorías necesarias.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"602de32617": {
+"veredicto": "ok",
+"motivo": "Existen diversos tipos de enemas según su finalidad, destacando los de limpieza, los de retención y los carminativos.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"06db2d56f1": {
+"veredicto": "ok",
+"motivo": "Martha Rogers es la teórica de enfermería que desarrolló el Modelo de los Seres Humanos Unitarios.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"ac84a4acb5": {
+"veredicto": "ok",
+"motivo": "La primera medida ante un vómito es lateralizar la cabeza para evitar la broncoaspiración.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"140c8759fa": {
+"veredicto": "ok",
+"motivo": "El uso de guantes nunca sustituye la higiene de manos, que debe realizarse antes y después de su uso.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"5f662e03fd": {
+"veredicto": "ok",
+"motivo": "El biofilm es la matriz o película donde se adhieren y protegen los microorganismos, dificultando su eliminación.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"97c3e67a8a": {
+"veredicto": "ok",
+"motivo": "La hemoptisis es la expectoración de sangre proveniente del tracto respiratorio, a diferencia de la hematemesis (digestivo).",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"754c7143d0": {
+"veredicto": "ok",
+"motivo": "En las características de la Atención Primaria, la permanencia se refiere a la disponibilidad ininterrumpida (24 horas).",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"67ba27fbda": {
+"veredicto": "ok",
+"motivo": "La insuficiencia cardíaca derecha provoca congestión venosa sistémica, manifestándose con edemas, ascitis y hepatomegalia.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"5b7066afe6": {
+"veredicto": "ok",
+"motivo": "La vejiga urinaria es el reservorio anatómico encargado de almacenar la orina hasta su expulsión.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"b53551d885": {
+"veredicto": "ok",
+"motivo": "La sarcopenia es el término médico exacto para la pérdida de masa y potencia muscular propia del envejecimiento.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"21032d36da": {
+"veredicto": "ok",
+"motivo": "En los modelos de calidad asistencial, la auditoría clínica es el método clásico por excelencia para evaluar el proceso.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"29e0a8afc3": {
+"veredicto": "ok",
+"motivo": "Según el protocolo ABCDE de atención al politraumatizado, la evaluación inicial de las constantes vitales (vía aérea, respiración, circulación) es la prioridad absoluta.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"529a7201c5": {
+"veredicto": "dudosa",
+"motivo": "El término 'capacidad habitual' es ambiguo: el deseo miccional aparece a los 200-300 ml, pero la capacidad funcional normal es de 300-500 ml (como indica una de las propias fichas de la app).",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"a17eecd630": {
+"veredicto": "ok",
+"motivo": "La ataxia se define médicamente como la falta de control o coordinación de los movimientos musculares voluntarios.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"4b54e748bc": {
+"veredicto": "ok",
+"motivo": "La tos productiva es, por definición, aquella que se acompaña de expectoración o expulsión de secreciones.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"56c4161d7a": {
+"veredicto": "ok",
+"motivo": "La hepatitis C es la hepatitis vírica con mayor tasa de cronificación, evolucionando a crónica en un 70-85% de los casos.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"c5e8559b29": {
+"veredicto": "ok",
+"motivo": "Los estándares de confort e higiene hospitalaria establecen una humedad relativa óptima en la habitación de entre el 40% y el 60%.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"4aac7750a6": {
+"veredicto": "ok",
+"motivo": "El sufijo '-centesis' proviene del griego y significa literalmente punción de una cavidad para la extracción de líquido.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"79a615df72": {
+"veredicto": "ok",
+"motivo": "En la bibliografía clásica de TCAE, el colchón de muelles se considera el estándar frente a los especiales (agua, aire, látex), siendo la mejor opción entre las presentadas.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"9e5a9d9b14": {
+"veredicto": "ok",
+"motivo": "Las escalas de Braden y Waterlow (junto con la de Norton) son las herramientas validadas más utilizadas para medir el riesgo de desarrollar úlceras por presión.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"fe2c26f17a": {
+"veredicto": "ok",
+"motivo": "Las pomadas y ungüentos, al igual que las cremas y geles, se clasifican farmacológicamente como formas de preparación semisólidas para uso tópico.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"c3ae4a55ec": {
+"veredicto": "ok",
+"motivo": "La adecuación se define en calidad asistencial como la pertinencia de una intervención sanitaria para las necesidades reales del paciente.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"96a0c3314b": {
+"veredicto": "ok",
+"motivo": "El protocolo estándar de higiene de manos establece que el secado debe realizarse con toallas de papel desechables de un solo uso.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"198336a9e6": {
+"veredicto": "ok",
+"motivo": "El antídoto universal clásico se compone de carbón activado, óxido de magnesia y ácido tánico. El 'ácido de magnesio' no forma parte de él.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"2f309928e3": {
+"veredicto": "dudosa",
+"motivo": "No se dispone del texto del Decreto 39/2024 en las fuentes proporcionadas para confirmar su vigencia y contenido exacto.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"72e5c26846": {
+"veredicto": "ok",
+"motivo": "El sufijo médico '-ostomía' significa literalmente la creación quirúrgica de una abertura o estoma hacia el exterior.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"fccf0d678c": {
+"veredicto": "ok",
+"motivo": "El centeno contiene gluten, por lo que está contraindicado en pacientes celíacos.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"afff27a612": {
+"veredicto": "ok",
+"motivo": "El liderazgo autoritario se caracteriza por la centralización de las decisiones en el líder sin participación del equipo.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"6218857837": {
+"veredicto": "ok",
+"motivo": "La definición dada corresponde exactamente al concepto de interacción farmacológica.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"80dbdda0d1": {
+"veredicto": "ok",
+"motivo": "Convencionalmente, en geriatría se establecen los 65 años como el inicio de la etapa de ancianidad.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"231980f0a6": {
+"veredicto": "ok",
+"motivo": "La comprobación del funcionamiento técnico de la incubadora no es competencia del TCAE, siendo correcta la opción D como la función incorrecta.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"23636a8bcf": {
+"veredicto": "ok",
+"motivo": "La nefrona es la unidad anatómica y funcional del riñón.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"1d0f58e99a": {
+"veredicto": "ok",
+"motivo": "En la pirámide de Maslow, las necesidades de seguridad están en el segundo nivel, teniendo mayor prioridad que las sociales, de estima y autorrealización.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"248682c7bf": {
+"veredicto": "ok",
+"motivo": "Aragón se divide oficialmente en 33 comarcas administrativas.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"6e6cad6dc7": {
+"veredicto": "ok",
+"motivo": "La enuresis se define médicamente como la emisión involuntaria de orina, especialmente durante el sueño y en la etapa infantil.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"582857bd91": {
+"veredicto": "ok",
+"motivo": "Marjory Gordon estableció exactamente 11 patrones funcionales de salud para estructurar la valoración de enfermería.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"2f32df1c92": {
+"veredicto": "ok",
+"motivo": "El artículo 15 de la Constitución Española es el que consagra el derecho a la vida y a la integridad física y moral.",
+"fuente_ok": true,
+"referencia": "Constitución Española de 1978 · Artículo 15",
+"cita": "Todos tienen derecho a la vida y a la integridad física y moral",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"b09e025ecf": {
+"veredicto": "ok",
+"motivo": "Las quemaduras de segundo grado afectan a la epidermis y parte de la dermis, caracterizándose por la aparición de ampollas (flictenas) y dolor intenso.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"1cd81fb590": {
+"veredicto": "ok",
+"motivo": "La OMS define la salud como un estado de completo bienestar físico, mental y social, y no solamente la ausencia de afecciones o enfermedades.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"532494acf1": {
+"veredicto": "ok",
+"motivo": "La Ley de Salud de Aragón establece explícitamente que los menores emancipados y los mayores de 16 años dan el consentimiento personalmente.",
+"fuente_ok": true,
+"referencia": "Ley 6/2002, de 15 de abril, de Salud de Aragón · Artículo 14",
+"cita": "En el caso de menores emancipados y adolescentes mayores de dieciséis años, el menor dará personalmente su consentimiento.",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"f7b8398b71": {
+"veredicto": "ok",
+"motivo": "El orden estándar de aseo del paciente encamado va de las zonas más limpias a las más sucias, coincidiendo exactamente con la opción C.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
+},
+"69575c3027": {
+"veredicto": "ok",
+"motivo": "Los datos que el paciente refiere (síntomas) y que no pueden ser medidos u observados directamente por el profesional se denominan datos subjetivos.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-14"
 }
 }

@@ -1,7 +1,7 @@
-# Informe del verificador (2026-10-13)
+# Informe del verificador (2026-10-14)
 
-- Preguntas en el banco: 1822 · revisadas: 216 · **publicables: 189**
-- Posibles errores: 4 · dudosas: 11 · correctas pero sin texto de la norma para citar: 12
+- Preguntas en el banco: 1822 · revisadas: 296 · **publicables: 264**
+- Posibles errores: 4 · dudosas: 16 · correctas pero sin texto de la norma para citar: 12
 
 Las marcadas como posible error conviene revisarlas también en la web app.
 
@@ -17,7 +17,7 @@ Las marcadas como posible error conviene revisarlas también en la web app.
 - **[Recién Nacido]** ¿Cuándo se recomienda administrar la primera dosis de la vacuna de la Hepatitis B? — marcada B) En las primeras 24 horas de vida · sugerida: A
   - En el calendario vacunal actual, la primera dosis general se administra a los 2 meses; la dosis en las primeras 24 horas se reserva para hijos de madres portadoras de hepatitis B.
 
-## Dudosas (11)
+## Dudosas (16)
 
 - **[Constitución Española de 1978]** ¿Cuál es el plazo general para interponer un recurso de inconstitucionalidad desde la publicación de la norma impugnada? — marcada A) 3 meses
   - El texto constitucional proporcionado no incluye el plazo de 3 meses, ya que este se regula en la Ley Orgánica del Tribunal Constitucional.
@@ -41,3 +41,13 @@ Las marcadas como posible error conviene revisarlas también en la web app.
   - El texto de la fuente proporcionado no contiene información sobre la fecha de publicación del anteproyecto de la Constitución.
 - **[Fechas Clave y Plazos Administrativos]** Como regla general en la Administración General del Estado, ¿qué efecto tiene el silencio administrativo cuando vence el plazo sin resolución expresa? — marcada B) Por regla general es desestimatorio (negativo), salvo excepciones legales
   - La respuesta marcada es incorrecta con la legislación actual (Ley 39/2015); la regla general en procedimientos iniciados a solicitud del interesado es el silencio positivo (estimatorio).
+- **[Fechas Clave y Plazos Administrativos]** ¿Qué ley estableció la delimitación de las 33 comarcas de Aragón y en qué fecha? — marcada A) Ley 8/1996, de 2 de diciembre
+  - El texto de la fuente proporcionado no contiene la información sobre la ley y fecha de delimitación de las comarcas de Aragón.
+- **[Estatuto Marco del Personal Estatutario (Ley 55/2003)]** Según el criterio de clasificación por la naturaleza de la función desarrollada, el personal estatutario se clasifica en: — marcada A) Sanitario y de gestión y servicios
+  - El texto legal proporcionado menciona la clasificación por función y al personal sanitario (Art. 6), pero omite el artículo 7 sobre el personal de gestión y servicios, por lo que no demuestra la respuesta completa.
+- **[Nombramientos y Tipos de Mayoría]** Si tras tres votaciones ningún candidato a Justicia de Aragón obtiene la mayoría de tres quintos exigida, ¿qué mayoría basta para las siguientes votaciones? — marcada B) Mayoría absoluta
+  - El texto de la fuente proporcionado no incluye la normativa específica sobre la elección del Justicia de Aragón para poder confirmar las mayorías necesarias.
+- **[Aparato Urinario]** La capacidad habitual de la vejiga urinaria es de aproximadamente: — marcada B) 200-300 ml
+  - El término 'capacidad habitual' es ambiguo: el deseo miccional aparece a los 200-300 ml, pero la capacidad funcional normal es de 300-500 ml (como indica una de las propias fichas de la app).
+- **[Fechas Clave y Plazos Administrativos]** ¿Qué decreto regula la estructura orgánica actual del Departamento de Sanidad y del SALUD, y de qué fecha es? — marcada A) Decreto 39/2024, de 28 de febrero
+  - No se dispone del texto del Decreto 39/2024 en las fuentes proporcionadas para confirmar su vigencia y contenido exacto.
