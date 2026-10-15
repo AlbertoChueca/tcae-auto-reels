@@ -52,5 +52,11 @@
 "topic": "eliminaciones",
 "fecha": "2026-10-15",
 "formato": "pregunta_del_dia"
+},
+{
+"id": "8c6063ba96",
+"topic": "unidadPaciente",
+"fecha": "2026-10-15",
+"formato": "pregunta_del_dia"
 }
 ]
