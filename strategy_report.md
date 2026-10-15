@@ -1,6 +1,6 @@
 # Piloto automático Aprueba TCAE - qué está funcionando
 
-_Updated 2026-10-14 · 0 reels with results (3+ days old) · average score 0.00_
+_Updated 2026-10-15 · 0 reels with results (3+ days old) · average score 0.00_
 
 
 Still collecting data: options are being tested evenly for now.
@@ -49,7 +49,6 @@ Still collecting data: options are being tested evenly for now.
 |---|---|---|
 | clinico | 0 | - |
 | legislacion | 0 | - |
-| aragon | 0 | - |
 | mixto | 0 | - |
 
 ## think_time
