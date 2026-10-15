@@ -31,5 +31,38 @@
 "saved": 0,
 "total_interactions": 2,
 "ig_reels_avg_watch_time": 14084
+},
+"18644958811017092": {
+"slot": "manual",
+"formato": "pregunta_del_dia",
+"estilo": "examen",
+"series": null,
+"imagen": false,
+"voice_speed": null,
+"music": null,
+"temas": [
+"La Unidad del Paciente"
+],
+"hook": "¿La acertarías en el examen?",
+"guion": "plantilla",
+"review_score": 8.3,
+"arms": {
+"formato": "pregunta_del_dia",
+"estilo": "examen",
+"hook_style": "trampa: avisar de que la pregunta tiene trampa o confunde",
+"bloque": "clinico",
+"think_time": "largo"
+},
+"date": "2026-10-15",
+"permalink": "https://www.instagram.com/reel/DefsKrZCJwB/",
+"type": "REELS",
+"views": 43,
+"reach": 26,
+"likes": 3,
+"comments": 0,
+"shares": 0,
+"saved": 0,
+"total_interactions": 3,
+"ig_reels_avg_watch_time": 17304
 }
 }
