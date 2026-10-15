@@ -82,7 +82,10 @@ antes las generales. Lista de temas en `questions.py` (`REGIONAL_TOPICS`).
 ## La voz solo dice el guion
 Las pistas de interpretación son muy cortas y en inglés (nunca se mezclan con el texto en español), y cada toma se
 transcribe: si la voz dice algo que no está en el guion ("tono amable, como si fueras una compañera..."), esa toma se
-descarta y se graba otra. Además, cualquier campo del guion con indicaciones de tono o de voz se cambia por la
+descarta y se graba otra. Lo mismo si **repite** algo (p. ej. lee dos veces la opción B) o dice palabras de más:
+se comprueba cada toma al grabarla y otra vez cada frase del reel terminado; si una frase sigue mal, se vuelve a grabar
+sola y, si aun así falla, ese reel no se publica (se pasa a otro formato). La solución solo dice la letra ("La correcta
+es la B"): no vuelve a leer la opción, que ya se ve en verde. Además, cualquier campo del guion con indicaciones de tono o de voz se cambia por la
 plantilla antes de grabar.
 
 ## Cómo se evita publicar un error (lo más importante)

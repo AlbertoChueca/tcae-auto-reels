@@ -414,6 +414,22 @@ def build(fmt, items, S, seed, out, arms=None, style=None, max_len=58.0, keep_vo
     else:
         raise RuntimeError("no se pudo grabar una voz coherente")
     A = {k: c for (k, _, _), c in zip(L, clips)}; TXT = {k: t for k, t, _ in L}
+    # control final de la voz: cada frase debe decir su texto UNA vez (sin repetir una opción ni leer indicaciones).
+    # Si una falla, ese bloque se graba otra vez frase a frase; si sigue mal, el reel no se publica con ese fallo.
+    if voice.LOCK != "mock":
+        for grp in _groups(L):
+            bad = [(k, voice.problem(A[k], t)) for k, t, _ in grp]
+            bad = [(k, why) for k, why in bad if why]
+            if not bad:
+                continue
+            print(f"voz: {', '.join(f'{k} {why}' for k, why in bad)}; vuelvo a grabar el bloque frase a frase", flush=True)
+            for k, t, s_ in grp:
+                if voice.problem(A[k], t):
+                    voice._CLIPS.pop(((t,), (s_,), False, voice.LOCK), None)
+                    A[k] = voice.say_many([t], speed=speed, styles=[s_], one_take=False)[0]
+                    why = voice.problem(A[k], t)
+                    if why:
+                        raise RuntimeError(f"la voz no graba bien '{t[:40]}' ({why})")
     D = {k: len(a) / SR for k, a in A.items()}
 
     # ---- línea de tiempo (si sale demasiado larga, se acorta el tiempo para pensar)

@@ -144,6 +144,44 @@ LEAK_WORDS = {"tono", "amable", "companera", "fueras", "fuera", "narradora", "na
               "natural", "clear", "brisk", "explaining", "profile", "spain", "spanish", "accent", "woman", "say"}
 
 
+def _toks(t):
+    """Palabras habladas normalizadas (números en letra), para comparar texto y audio palabra a palabra."""
+    t = spoken_text(t).replace("%", " por ciento ")
+    t = re.sub(r"\d+", lambda m: " " + _num_words(int(m.group())) + " ", t)
+    return [w for w in (_norm(x) for x in re.split(r"[\s/\-]+", t)) if w]
+
+
+def _repeats(a, text):
+    """True si la toma REPITE parte del texto ("B. Soluble en agua... B. Soluble en agua y grasas") o dice bastantes
+    más palabras de las que tiene. Es el fallo típico de la voz por IA al leer opciones. None si no se puede comprobar."""
+    heard = _asr(a)
+    if heard is None:
+        return None
+    S = _toks(text); Hd = _toks(" ".join(w for w, _, _ in heard))
+    if not S or not Hd:
+        return False
+    from collections import Counter
+    for n in (2, 3, 4):
+        cs, ch = Counter(zip(*[S[i:] for i in range(n)])), Counter(zip(*[Hd[i:] for i in range(n)]))
+        rep = [g for g, c in ch.items() if c > cs.get(g, 0) and cs.get(g, 0) >= 1 and sum(len(w) for w in g) >= 5]
+        if rep:
+            print(f"voice: take rejected, repeats {' '.join(rep[0])!r} in {text[:40]!r}", flush=True)
+            return True
+    if len(Hd) > len(S) * 1.25 + 1:
+        print(f"voice: take rejected, {len(Hd)} words heard for {len(S)} in {text[:40]!r}", flush=True)
+        return True
+    return False
+
+
+def problem(a, text):
+    """Motivo por el que una toma no vale (lee indicaciones, repite, palabras de más) o None si está bien."""
+    if _leak(a, text):
+        return "lee palabras que no están en el guion"
+    if _repeats(a, text):
+        return "repite parte del texto"
+    return None
+
+
 def _leak(a, text):
     """True si la toma dice palabras que no están en el texto y suenan a indicaciones ("tono amable, como si fueras una
     compañera...", "warm tone", "transcript"...), o demasiadas palabras de más. None si no se puede comprobar."""
@@ -397,7 +435,7 @@ def _gemini_line(text, style, key, pace):
                f"Say naturally in Spanish from Spain, {hint}: {text}",
                text]
     takes = []
-    for pr in prompts:
+    for pr in prompts + prompts[:2]:                 # hasta 5 tomas antes de rendirse
         try:
             a = _clean_edges(_tighten(_trim(_gemini_call(pr, key))), text)
         except Exception as e:
@@ -405,8 +443,8 @@ def _gemini_line(text, style, key, pace):
                 raise
             print("voice: take error:", str(e)[:150], flush=True); continue
         sim = _similarity(a, text)
-        if _leak(a, text):
-            continue                                   # leyó las indicaciones: esta toma no vale nunca
+        if problem(a, text):
+            continue                                   # leyó indicaciones o repitió: esta toma no vale nunca
         if (sim is None or sim >= 0.7) and _sane(a, text):
             return a
         print(f"voice: retake {text!r} ({len(a) / SR:.1f}s, match {sim if sim is None else round(sim, 2)})", flush=True)
@@ -452,7 +490,7 @@ def _split_takes(a, texts):
     parts = [_clean_edges(_tighten(_trim(a[edges[k]:edges[k + 1]])), texts[k]) for k in range(n)]
     for p, t in zip(parts, texts):
         sim = _similarity(p, t)
-        if not _sane(p, t, 3.2) or (sim is not None and sim < 0.7) or _leak(p, t):
+        if not _sane(p, t, 3.2) or (sim is not None and sim < 0.75) or problem(p, t):
             raise RuntimeError("split pieces do not match the text")
     return parts
 
@@ -469,8 +507,8 @@ def _gemini_many(texts, styles, key, one_take, pace):
             print(f"voice: one take {len(take) / SR:.1f}s for {sum(_words(t) for t in texts)} words", flush=True)
             if len(take) / SR > 2.2 * sum(_words(t) / 2.7 + 0.6 for t in texts) + 2:
                 raise RuntimeError("one take far too long (model added extra speech)")
-            if _leak(take, " ".join(texts)):
-                raise RuntimeError("one take includes words that are not in the script")
+            if problem(take, " ".join(texts)):
+                raise RuntimeError("one take includes repeated or extra words")
             return _split_takes(take, texts)
         except Exception as e:
             if "unreachable" in str(e) or "no Gemini TTS" in str(e):
@@ -519,6 +557,17 @@ def _eleven_many(texts):
             body["previous_text"] = texts[i - 1]
         if i + 1 < len(texts):
             body["next_text"] = texts[i + 1]
+        out.append(_eleven_take(body, vid, key))
+    return out
+
+
+def _eleven_take(body, vid, key):
+    """Una frase con ElevenLabs, comprobada: si repite o dice algo de más, se vuelve a grabar (la 2ª vez sin contexto,
+    porque a veces el contexto "next_text" se cuela en el audio)."""
+    t = body["text"]
+    for take in range(3):
+        if take == 1:
+            body = {k: v for k, v in body.items() if k not in ("previous_text", "next_text")}
         for attempt in range(3):
             r = requests.post(f"{ELEVEN}/text-to-speech/{vid}?output_format=pcm_24000", json=body, timeout=180,
                               headers={"xi-api-key": key, "Content-Type": "application/json"})
@@ -529,8 +578,12 @@ def _eleven_many(texts):
             break
         else:
             raise RuntimeError("elevenlabs: demasiados reintentos")
-        out.append(_trim(np.frombuffer(r.content, dtype="<i2").astype(np.float32) / 32768))
-    return out
+        a = _trim(np.frombuffer(r.content, dtype="<i2").astype(np.float32) / 32768)
+        sim = _similarity(a, t)
+        if not problem(a, t) and (sim is None or sim >= 0.7) and _sane(a, t):
+            return a
+        print(f"voice: elevenlabs retake {take + 1} for {t[:40]!r}", flush=True)
+    raise RuntimeError(f"elevenlabs: ninguna toma buena para {t[:40]!r}")
 
 
 # ------------------------------------------------------------------ local engines

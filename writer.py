@@ -89,7 +89,7 @@ Cada campo es EXACTAMENTE lo que se dice o se lee en pantalla: nunca escribas in
 Campos:
 - "screen_hook": texto GRANDE de los 2 primeros segundos (2-6 palabras, sin emojis): curiosidad o reto que frene el scroll.
 - "hook_line": lo primero que dice la voz (5-14 palabras); no repitas literal el screen_hook.
-- "reveal_line": la voz da la solución (3-12 palabras), p. ej. "La correcta es la {items[0].get('letra', 'B')}." (en simulacro y fichas: una frase corta de transición).
+- "reveal_line": la voz da la solución (3-12 palabras), p. ej. "La correcta es la {items[0].get('letra', 'B')}." (solo la letra: NO vuelvas a leer el texto de la opción) (en simulacro y fichas: una frase corta de transición).
 - {SCHEMAS[fmt]}
 - "cta_line": cierre hablado (8-20 palabras) que invite a practicar gratis en apruebatcae.com (puedes decir "link en la bio").
 - "caption_hook": primera línea de la descripción (máx. 12 palabras, como mucho 1 emoji).
@@ -157,6 +157,15 @@ def clean(fmt, items, s):
         if val:
             out[k] = val
     out["screen_hook"] = re.sub(r"[^\w\s¿?¡!,.:'-]", "", out["screen_hook"]).strip()
+    letra = items[0].get("letra")
+    m = re.search(r"\b(?:la|opci[oó]n|respuesta)\s+([ABCD])\b", out["reveal_line"])
+    if letra and fmt not in ("simulacro_3", "flashcards_express", "mito_realidad") and (not m or m.group(1) != letra):
+        out["reveal_line"] = base["reveal_line"]              # la voz nunca puede decir una letra que no es la correcta
+    if fmt not in ("simulacro_3", "flashcards_express", "mito_realidad") and items[0].get("op"):
+        ok_txt = re.findall(r"\w+", items[0]["op"][items[0]["ok"]].lower())
+        rv = " ".join(re.findall(r"\w+", out["reveal_line"].lower()))
+        if any(" ".join(ok_txt[i:i + 3]) in rv for i in range(max(1, len(ok_txt) - 2))) and len(ok_txt) >= 2:
+            out["reveal_line"] = base["reveal_line"]          # no vuelve a leer la opción: ya se ve en verde en pantalla
     if "apruebatcae" not in out["cta_line"].lower().replace(" ", ""):
         out["cta_line"] = base["cta_line"]
     if fmt == "error_tipico":
