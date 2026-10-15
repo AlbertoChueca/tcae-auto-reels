@@ -58,5 +58,11 @@
 "topic": "unidadPaciente",
 "fecha": "2026-10-15",
 "formato": "pregunta_del_dia"
+},
+{
+"id": "2f32df1c92",
+"topic": "constitucionEspanola",
+"fecha": "2026-10-15",
+"formato": "pregunta_del_dia"
 }
 ]
