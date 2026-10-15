@@ -2662,5 +2662,581 @@
 "cita": "",
 "correcta_sugerida": null,
 "fecha": "2026-10-14"
+},
+"bb07ce8946": {
+"veredicto": "ok",
+"motivo": "La frecuencia respiratoria normal de un adulto sano en reposo es de 12 a 20 respiraciones por minuto.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"356ebb765e": {
+"veredicto": "ok",
+"motivo": "Las sondas de Miller-Abbott y Cantor son nasoentéricas y se utilizan específicamente para la descompresión intestinal.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"943363cbcb": {
+"veredicto": "ok",
+"motivo": "Los quirófanos, la UCI y las zonas de esterilización se consideran áreas críticas o de alto riesgo de contaminación.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"6ecbea6b2a": {
+"veredicto": "ok",
+"motivo": "Para una punción lumbar, el paciente debe arquear la espalda, lo cual se consigue en sedestación o decúbito lateral con flexión.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"8563445950": {
+"veredicto": "ok",
+"motivo": "El test de Apgar es la herramienta estándar para evaluar la adaptación del recién nacido a la vida extrauterina al minuto y a los 5 minutos.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"1eeab84c9b": {
+"veredicto": "ok",
+"motivo": "Se recomienda vaciar la bolsa cuando está entre un tercio y la mitad de su capacidad para evitar fugas por el peso.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"c43c7e5299": {
+"veredicto": "ok",
+"motivo": "La Ley 9/2017 establece el límite de 15.000 euros para contratos menores de suministros y servicios.",
+"fuente_ok": true,
+"referencia": "Ley 9/2017, de Contratos del Sector Público, Artículo 118",
+"cita": "Se consideran contratos menores los contratos de valor estimado inferior a 40.000 euros, cuando se trate de contratos de obras, o a 15.000 euros, cuando se trate de contratos de suministro o de servicios",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"d5e3934623": {
+"veredicto": "ok",
+"motivo": "Las etapas del PAE son valoración, diagnóstico, planificación, ejecución y evaluación; por tanto, la ejecución precede a la evaluación.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"9395019f3d": {
+"veredicto": "ok",
+"motivo": "La tos y los atragantamientos al tragar son signos clínicos claros y reconocidos de disfagia en cualquier paciente.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"7163ee3bdc": {
+"veredicto": "ok",
+"motivo": "El testamento vital es el término coloquial y ampliamente aceptado para referirse al documento de instrucciones previas o voluntades anticipadas.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"8a0698216e": {
+"veredicto": "ok",
+"motivo": "Según las directrices de la OMS, la fricción de manos con preparación alcohólica debe durar entre 20 y 30 segundos.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"b345e346fd": {
+"veredicto": "ok",
+"motivo": "La oxigenoterapia hiperbárica es el tratamiento de elección y principal indicación para la intoxicación grave por monóxido de carbono.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"76e9a5743e": {
+"veredicto": "ok",
+"motivo": "La inspección es la técnica semiológica básica que consiste en la observación visual del paciente para recoger datos físicos.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"4e5b0280d6": {
+"veredicto": "ok",
+"motivo": "La Constitución Española dedica explícitamente su Título III a la regulación de las Cortes Generales.",
+"fuente_ok": true,
+"referencia": "Constitución Española de 1978, Título III",
+"cita": "TÍTULO III De las Cortes Generales CAPÍTULO PRIMERO De las Cámaras",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"6fab563f46": {
+"veredicto": "ok",
+"motivo": "La Organización Mundial de la Salud (OMS) define el bajo peso al nacer como un peso inferior a 2500 gramos.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"38cf9c5dee": {
+"veredicto": "ok",
+"motivo": "Aunque el término más preciso para la placa de ateroma es aterosclerosis, arteriosclerosis se acepta habitualmente como término general en este nivel y es la única opción válida.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"98863ce07f": {
+"veredicto": "ok",
+"motivo": "Las vacunas vivas atenuadas están contraindicadas en embarazadas y personas con inmunodepresión grave debido al riesgo de que el microorganismo provoque la enfermedad.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"5be9e1c7a0": {
+"veredicto": "ok",
+"motivo": "El armario o taquilla de la unidad del paciente es de uso exclusivo para sus pertenencias personales y ropa, garantizando su comodidad e intimidad.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"3cc64802b1": {
+"veredicto": "ok",
+"motivo": "La raíz griega 'trico-' y la latina 'pilo-' se refieren al cabello o vello en terminología médica.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"ad2436741e": {
+"veredicto": "ok",
+"motivo": "La sonda de Sengstaken-Blakemore es un dispositivo específico diseñado para el taponamiento y control de hemorragias por varices esofágicas y gástricas.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"a27a34ba61": {
+"veredicto": "ok",
+"motivo": "En pacientes con bajo nivel de conciencia, el reflejo de deglución puede estar alterado, lo que supone un alto riesgo de broncoaspiración al administrar medicación oral.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"3ba704d164": {
+"veredicto": "ok",
+"motivo": "Aunque la recogida de datos es propia de la valoración, la extracción de conclusiones y la formulación de los problemas detectados constituyen el juicio clínico propio de la fase de diagnóstico.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"49a7794875": {
+"veredicto": "ok",
+"motivo": "Los procesos de acreditación evalúan de forma integral la estructura (recursos humanos y materiales/físicos), los procesos (servicios ofertados) y los resultados de un centro o servicio.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"356201e43a": {
+"veredicto": "ok",
+"motivo": "La definición corresponde exactamente al concepto de cuasi-incidente o 'near-miss' en el ámbito de la seguridad del paciente.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"858125613d": {
+"veredicto": "ok",
+"motivo": "La satisfacción del usuario es un indicador clásico de resultado en la evaluación de la calidad asistencial según el modelo de Donabedian.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"bbda142cdd": {
+"veredicto": "ok",
+"motivo": "El nitrilo y el vinilo son las alternativas estándar y seguras frente a la alergia al látex.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"610c4b818c": {
+"veredicto": "dudosa",
+"motivo": "La plantilla oficial contiene un error: la alanina es un aminoácido no esencial. El triptófano (opción A) sí es un aminoácido esencial.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"2e76de05b8": {
+"veredicto": "ok",
+"motivo": "Los glúcidos, lípidos y proteínas son los macronutrientes (o principios inmediatos) que aportan energía al organismo.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"9e92d02190": {
+"veredicto": "ok",
+"motivo": "Los eventos adversos son multifactoriales y pueden deberse a errores humanos, fallos latentes del sistema o factores externos.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"74e3d4e105": {
+"veredicto": "ok",
+"motivo": "Según los criterios médicos (como los de Roma), se considera estreñimiento una frecuencia inferior a 3 deposiciones semanales.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"209cf85cc0": {
+"veredicto": "error",
+"motivo": "La Ley 55/2003 del Estatuto Marco tiene exactamente 80 artículos, no 84. Es probable que se haya confundido con la Ley 16/2003 de Cohesión y Calidad, que sí tiene 84 artículos.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": "",
+"fecha": "2026-10-15"
+},
+"0c239d5267": {
+"veredicto": "ok",
+"motivo": "El trocar es el instrumento quirúrgico diseñado específicamente con un punzón y una cánula para puncionar cavidades y extraer líquidos o gases.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"83193fc0f0": {
+"veredicto": "ok",
+"motivo": "Anatómicamente, el pulmón derecho está dividido en tres lóbulos (superior, medio e inferior), a diferencia del izquierdo que tiene dos.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"2efb62f0a0": {
+"veredicto": "ok",
+"motivo": "El prefijo de origen griego 'taqui-' se utiliza en terminología médica para indicar rapidez o aceleración.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"547429b23b": {
+"veredicto": "ok",
+"motivo": "El artículo 3.2 de la Ley General de Sanidad establece que el acceso y las prestaciones se realizarán en condiciones de igualdad efectiva, lo que se asocia al principio de equidad.",
+"fuente_ok": true,
+"referencia": "Ley 14/1986, General de Sanidad · Artículo tres",
+"cita": "El acceso y las prestaciones sanitarias se realizarán en condiciones de igualdad efectiva.",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"b2bb49a68b": {
+"veredicto": "ok",
+"motivo": "Los valores de referencia estándar para la presión arterial normal en adultos son aproximadamente 120 mmHg de presión sistólica y 80 mmHg de diastólica.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"2688ebda59": {
+"veredicto": "ok",
+"motivo": "El artículo 69.1 de la LGS establece explícitamente la implantación de una dirección participativa por objetivos en los servicios sanitarios públicos.",
+"fuente_ok": true,
+"referencia": "Ley 14/1986, General de Sanidad · Artículo sesenta y nueve",
+"cita": "En los Servicios sanitarios públicos se tenderá hacia la autonomía y control democrático de su gestión, implantando una dirección participativa por objetivos.",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"0e90d6fe77": {
+"veredicto": "ok",
+"motivo": "El ejercicio físico adaptado es una de las principales medidas para prevenir caídas en ancianos al mejorar la fuerza y el equilibrio, por lo que desaconsejarlo es incorrecto.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"51c6087d66": {
+"veredicto": "ok",
+"motivo": "El control de calidad es el proceso encargado de verificar que el producto o servicio final cumple con los requisitos y estándares para los que fue diseñado.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"5625b6ec3d": {
+"veredicto": "ok",
+"motivo": "Dorothea Orem desarrolló la Teoría del Déficit de Autocuidado, siendo su modelo conocido mundialmente como el modelo del autocuidado.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"f2cededbfa": {
+"veredicto": "ok",
+"motivo": "La Ley 14/1986, General de Sanidad, es la norma estatal que regula el derecho a la protección de la salud.",
+"fuente_ok": true,
+"referencia": "Ley 14/1986, General de Sanidad · Artículo uno",
+"cita": "La presente Ley tiene por objeto la regulación general de todas las acciones que permitan hacer efectivo el derecho a la protección de la salud reconocido en el artículo 43",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"a86b625c4a": {
+"veredicto": "dudosa",
+"motivo": "La plantilla provisional del tribunal contiene un error, ya que la presbiacusia es la pérdida progresiva de audición (opción C), no de visión.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"96540ba14d": {
+"veredicto": "ok",
+"motivo": "El ciclo rápido o flash del autoclave a 134°C requiere un tiempo de exposición de entre 3 y 5 minutos.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"bd6e7cbab9": {
+"veredicto": "ok",
+"motivo": "El meconio es el término médico correcto para denominar las primeras deposiciones del recién nacido.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"b72f1caf12": {
+"veredicto": "ok",
+"motivo": "La anuria se define clínicamente como una diuresis inferior a 100 ml en un periodo de 24 horas.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"1c15b90899": {
+"veredicto": "ok",
+"motivo": "El acodamiento o la presencia de coágulos impiden el flujo normal, lo que constituye una obstrucción del drenaje.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"4c685e4626": {
+"veredicto": "ok",
+"motivo": "El sistema nervioso periférico está compuesto por los nervios craneales y raquídeos que conectan el sistema nervioso central con el cuerpo.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"7382568bf3": {
+"veredicto": "ok",
+"motivo": "Según las recomendaciones de la OMS, la fricción de manos con solución hidroalcohólica debe durar entre 20 y 30 segundos.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"ec0f99c82c": {
+"veredicto": "dudosa",
+"motivo": "Actualmente solo existen tres reformas de la Constitución Española (1992, 2011 y 2024); la mención a una cuarta reforma en 2026 es un dato ficticio o erróneo.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"665bdc5ed5": {
+"veredicto": "ok",
+"motivo": "La traqueostomía consiste en la creación quirúrgica de una abertura (estoma) permanente o semipermanente en la tráquea.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"65cda36234": {
+"veredicto": "ok",
+"motivo": "La reducción de costes económicos no es un objetivo directo de la Estrategia de Seguridad del Paciente, sino una posible consecuencia de la mejora en la seguridad.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"87fca76a4d": {
+"veredicto": "ok",
+"motivo": "La psiquiatra Elisabeth Kübler-Ross fue quien describió el modelo de las 5 etapas del duelo en su obra de 1969.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"5dfa650035": {
+"veredicto": "ok",
+"motivo": "La litiasis biliar y el consumo de alcohol representan la gran mayoría de los casos de pancreatitis aguda en nuestro entorno.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"e90b42fd30": {
+"veredicto": "ok",
+"motivo": "La reforma del artículo 135 de la Constitución se publicó efectivamente en el BOE el 27 de septiembre de 2011.",
+"fuente_ok": true,
+"referencia": "Constitución Española de 1978 · Artículo 135",
+"cita": "Se modifica por el art. único de la Reforma de 27 de septiembre de 2011.",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"ed5bf6d5b1": {
+"veredicto": "ok",
+"motivo": "En la clasificación de errores humanos, la 'violación' se define como el incumplimiento consciente y deliberado de las normas o procedimientos de seguridad.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"af67bd7dfb": {
+"veredicto": "ok",
+"motivo": "El óxido de etileno es un gas utilizado para esterilizar material termosensible que se caracteriza por ser altamente tóxico, inflamable y explosivo.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"c1ec52857f": {
+"veredicto": "ok",
+"motivo": "La inmunidad activa natural se adquiere al padecer la enfermedad y generar anticuerpos propios.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"a186776b1b": {
+"veredicto": "ok",
+"motivo": "Un parto distócico es aquel que presenta complicaciones o dificultades, a diferencia del eutócico que es el normal.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"cb3eb188e0": {
+"veredicto": "ok",
+"motivo": "El secado correcto tras el lavado de manos es con toalla desechable y en dirección de la zona más limpia (dedos) a la menos limpia (muñecas).",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"4be63e9bf9": {
+"veredicto": "ok",
+"motivo": "El término nosocomial se refiere a lo relativo al hospital, como las infecciones adquiridas durante el ingreso.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"edb831966d": {
+"veredicto": "ok",
+"motivo": "La empatía requiere comprender y validar las emociones del paciente, no ignorarlas.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"e4c07a3c0a": {
+"veredicto": "ok",
+"motivo": "En gestión de calidad, la calidad necesaria o esperada es aquella que el cliente demanda o necesita para estar satisfecho.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"ce6cbe16c7": {
+"veredicto": "ok",
+"motivo": "Las necesidades de seguridad en la pirámide de Maslow abarcan la protección, estabilidad y ausencia de peligros.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
+},
+"832f138743": {
+"veredicto": "ok",
+"motivo": "La percusión es la técnica exploratoria basada en golpear suavemente la superficie corporal para escuchar los sonidos resultantes.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-15"
 }
 }

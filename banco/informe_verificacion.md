@@ -1,12 +1,12 @@
-# Informe del verificador (2026-10-14)
+# Informe del verificador (2026-10-15)
 
-- Preguntas en el banco: 1822 · revisadas: 296 · **publicables: 264**
-- Posibles errores: 4 · dudosas: 16 · correctas pero sin texto de la norma para citar: 12
+- Preguntas en el banco: 1822 · revisadas: 360 · **publicables: 324**
+- Posibles errores: 5 · dudosas: 19 · correctas pero sin texto de la norma para citar: 12
 
 Las marcadas como posible error conviene revisarlas también en la web app.
 
 
-## Posibles errores (4)
+## Posibles errores (5)
 
 - **[Estatuto Marco del Personal Estatutario (Ley 55/2003)]** ¿A qué texto legal remite el artículo 79 de la Ley 55/2003 en materia de representación y negociación colectiva del personal estatutario? — marcada A) Al Texto Refundido del Estatuto Básico del Empleado Público (TREBEP)
   - El artículo 79 remite a la Constitución y a la Ley Orgánica 11/1985 de Libertad Sindical; es el artículo 78 el que remite a la normativa general de la función pública (actual TREBEP).
@@ -16,8 +16,10 @@ Las marcadas como posible error conviene revisarlas también en la web app.
   - Según el artículo 30.2 de la Ley 39/2015, la regla general es que los plazos señalados por días se computan en días hábiles, no naturales.
 - **[Recién Nacido]** ¿Cuándo se recomienda administrar la primera dosis de la vacuna de la Hepatitis B? — marcada B) En las primeras 24 horas de vida · sugerida: A
   - En el calendario vacunal actual, la primera dosis general se administra a los 2 meses; la dosis en las primeras 24 horas se reserva para hijos de madres portadoras de hepatitis B.
+- **[Estatuto Marco del Personal Estatutario (Ley 55/2003)]** ¿Cuántos artículos tiene, aproximadamente, la Ley 55/2003 del Estatuto Marco? — marcada C) Unos 84
+  - La Ley 55/2003 del Estatuto Marco tiene exactamente 80 artículos, no 84. Es probable que se haya confundido con la Ley 16/2003 de Cohesión y Calidad, que sí tiene 84 artículos.
 
-## Dudosas (16)
+## Dudosas (19)
 
 - **[Constitución Española de 1978]** ¿Cuál es el plazo general para interponer un recurso de inconstitucionalidad desde la publicación de la norma impugnada? — marcada A) 3 meses
   - El texto constitucional proporcionado no incluye el plazo de 3 meses, ya que este se regula en la Ley Orgánica del Tribunal Constitucional.
@@ -51,3 +53,9 @@ Las marcadas como posible error conviene revisarlas también en la web app.
   - El término 'capacidad habitual' es ambiguo: el deseo miccional aparece a los 200-300 ml, pero la capacidad funcional normal es de 300-500 ml (como indica una de las propias fichas de la app).
 - **[Fechas Clave y Plazos Administrativos]** ¿Qué decreto regula la estructura orgánica actual del Departamento de Sanidad y del SALUD, y de qué fecha es? — marcada A) Decreto 39/2024, de 28 de febrero
   - No se dispone del texto del Decreto 39/2024 en las fuentes proporcionadas para confirmar su vigencia y contenido exacto.
+- **[Nutrición y Alimentación]** Es un aminoácido esencial: — marcada B) Alanina
+  - La plantilla oficial contiene un error: la alanina es un aminoácido no esencial. El triptófano (opción A) sí es un aminoácido esencial.
+- **[Geriatría]** La presbiacusia en el anciano es: — marcada A) La pérdida de la visión cercana
+  - La plantilla provisional del tribunal contiene un error, ya que la presbiacusia es la pérdida progresiva de audición (opción C), no de visión.
+- **[Fechas Clave y Plazos Administrativos]** ¿Ha requerido alguna de las cuatro reformas constitucionales la celebración de un referéndum? — marcada A) No, ninguna de las cuatro lo ha requerido
+  - Actualmente solo existen tres reformas de la Constitución Española (1992, 2011 y 2024); la mención a una cuarta reforma en 2026 es un dato ficticio o erróneo.
