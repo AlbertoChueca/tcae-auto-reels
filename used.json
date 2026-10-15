@@ -76,5 +76,11 @@
 "topic": "lavadoManos",
 "fecha": "2026-10-15",
 "formato": "pregunta_del_dia"
+},
+{
+"id": "0d593f0d77",
+"topic": "leyGeneralSanidad",
+"fecha": "2026-10-15",
+"formato": "pregunta_del_dia"
 }
 ]
