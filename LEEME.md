@@ -82,9 +82,11 @@ antes las generales. Lista de temas en `questions.py` (`REGIONAL_TOPICS`).
 ## La voz solo dice el guion
 Las pistas de interpretación son muy cortas y en inglés (nunca se mezclan con el texto en español), y cada toma se
 transcribe: si la voz dice algo que no está en el guion ("tono amable, como si fueras una compañera..."), esa toma se
-descarta y se graba otra. Lo mismo si **repite** algo (p. ej. lee dos veces la opción B) o dice palabras de más:
+descarta y se graba otra. Las letras de las opciones se le pasan a la voz escritas como se dicen en español ("be,
+Fowler"; "la correcta es la ce"), así nunca las lee en inglés aunque la opción sea un término inglés o latino; si aun
+así dice "bi" o "si", la toma se repite. Lo mismo si **repite** algo (p. ej. lee dos veces la opción B) o dice palabras de más:
 se comprueba cada toma al grabarla y otra vez cada frase del reel terminado; si una frase sigue mal, se vuelve a grabar
-sola y, si aun así falla, ese reel no se publica (se pasa a otro formato). La solución solo dice la letra ("La correcta
+sola (hasta 4 veces) y, si aun así falla, ese reel no se publica (se pasa a otro formato). La solución solo dice la letra ("La correcta
 es la B"): no vuelve a leer la opción, que ya se ve en verde. Además, cualquier campo del guion con indicaciones de tono o de voz se cambia por la
 plantilla antes de grabar.
 
@@ -141,3 +143,9 @@ avisa si esa cifra es mayor que el banco importado (sube el `index.html` actual 
 - **Hechos de la app**: `assets/app/facts.md`. Los agentes solo afirman lo que pone ahí (edítalo si algo cambia, p. ej. si deja de ser gratis).
 - **Portada**: el reel usa como portada el fotograma del gancho (`thumb_offset`).
 - **Prueba local sin red**: `QUIZ_MOCK=1 VOICE_ENGINE=mock python make_quiz.py simulacro_3 out/prueba.mp4 cuaderno`.
+
+### Control de la voz (cómo se decide si una toma vale)
+Cada frase grabada se transcribe con Whisper y se compara con el texto: palabras de más, trozos repetidos, letras en
+inglés o indicaciones leídas. Si algo falla, se confirma con una segunda transcripción más cuidadosa (para no tirar una
+toma buena por un error del reconocedor) y solo entonces se graba de nuevo. En el registro del workflow verás
+`voice: toma descartada (...) · texto ... · se oye ...` con lo que se oyó exactamente.

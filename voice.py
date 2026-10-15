@@ -27,7 +27,8 @@ TTS_PREFERRED = ["gemini-3.8-flash-tts", "gemini-3.8-flash-tts-preview", "gemini
 # _leak() lo detecta con el reconocimiento de voz y la toma se repite).
 NARRATOR = ("Voice profile: a woman from Spain in her early thirties, peninsular Spanish accent, natural and conversational, "
             "relaxed breathing, a smile in the voice when it fits. Not an announcer, not a virtual assistant, not flat reading. "
-            "Say 'TCAE' as 'te ce a e'.")
+            "Everything is pronounced the Spanish way, including foreign or Latin terms and single letters. "
+            "Say each sentence exactly once: never repeat or restart a line.")
 ENGINE_USED = None
 LOCK = None          # engine chosen for the current reel: every line of one reel uses the same voice
 
@@ -51,15 +52,17 @@ import threading
 _asr_lock = threading.Lock()
 
 
-def _asr(a):
+def _asr(a, careful=False):
     with _asr_lock:
-        return _asr_inner(a)
+        return _asr_inner(a, careful)
 
 
-def _asr_inner(a):
-    """[(word, start_s, end_s)] heard in a 24 kHz clip, or None if speech recognition is unavailable."""
+def _asr_inner(a, careful=False):
+    """[(word, start_s, end_s)] heard in a 24 kHz clip, or None if speech recognition is unavailable.
+    careful=True: segunda opinión más lenta (beam 5 + VAD) para confirmar un fallo antes de descartar una toma, porque
+    el reconocedor también se equivoca a veces (p. ej. repite la última frase al final de un audio)."""
     global _asr_model
-    k = (len(a), round(float(np.sum(np.abs(a[::97]))), 3))
+    k = (len(a), round(float(np.sum(np.abs(a[::97]))), 3), careful)
     if k in _asr_cache:
         return _asr_cache[k]
     if _asr_model is False:
@@ -69,9 +72,13 @@ def _asr_inner(a):
             from faster_whisper import WhisperModel
             _asr_model = WhisperModel(os.environ.get("ASR_MODEL", "small"), device="cpu", compute_type="int8")
         a16 = np.interp(np.linspace(0, len(a) - 1, int(len(a) * 16000 / SR)), np.arange(len(a)), a).astype(np.float32)
-        segs, _ = _asr_model.transcribe(a16, language="es", beam_size=1, word_timestamps=True, vad_filter=False)
+        segs, _ = _asr_model.transcribe(a16, language="es", beam_size=5 if careful else 1, word_timestamps=True,
+                                        vad_filter=careful, condition_on_previous_text=False, temperature=0.0)
         out = [(w.word.strip(), float(w.start), float(w.end)) for sg in segs for w in (sg.words or []) if w.word.strip()]
     except Exception as e:
+        if careful:                                  # la segunda opinión falló: no se desactiva el reconocedor
+            print("voice: segunda transcripción no disponible:", str(e)[:150], flush=True)
+            return None
         print("voice: speech recognition unavailable:", str(e)[:150], flush=True)
         _asr_model = False
         return None
@@ -107,15 +114,23 @@ def _spoken(text):
 
 ABBR = [(r"\bart(?:s)?\.\s*", "artículo "), (r"\bnº\s*|\bn\.º\s*", "número "), (r"\bp\. ?ej\.", "por ejemplo"),
         (r"\bLO\b", "Ley Orgánica"), (r"\bRD\b", "Real Decreto"), (r"\bDLeg\b", "Decreto Legislativo"),
-        (r"\bCE\b", "Constitución"), (r"\bUPP\b", "U P P"), (r"\bTCAE\b", "T C A E"), (r"\bEE\. ?UU\.", "Estados Unidos"),
+        (r"\bCE\b", "Constitución"), (r"\bUPP\b", "u pe pe"), (r"\bTCAE\b", "te ce a e"), (r"\bEE\. ?UU\.", "Estados Unidos"),
         (r"\bmmHg\b", "milímetros de mercurio"), (r"\bml\b", "mililitros"), (r"\bmg\b", "miligramos"),
         (r"\bºC\b|\b° ?C\b", " grados"), (r"\bkg\b", "kilos"), (r"\bcm\b", "centímetros"), (r"\bh\b", "horas"),
         (r"\bSALUD\b", "Salud")]
 
 
+LETTER_NAMES = {"A": "a", "B": "be", "C": "ce", "D": "de"}
+
+
 def spoken_text(text):
-    """Texto preparado para que la voz lo lea bien en español de España (lo que se ve en pantalla no cambia)."""
+    """Texto preparado para que la voz lo lea bien en español de España (lo que se ve en pantalla no cambia).
+    Las letras de las opciones se escriben como se dicen en español ("be", "ce"...): escritas como "B." la voz las
+    leía a veces en inglés ("bi", "si"), sobre todo delante de un término en inglés o latín."""
     t = str(text)
+    t = re.sub(r"(?m)^\s*([ABCD])[.)]\s+", lambda m: LETTER_NAMES[m.group(1)] + ", ", t)          # "B. Fowler" -> "be, Fowler"
+    t = re.sub(r"\b(la|las|letra|opci[oó]n|respuesta|y)\s+([ABCD])\b(?!\.\w)", lambda m: m.group(1) + " " + LETTER_NAMES[m.group(2)], t)
+    t = re.sub(r"(?i)\bapruebatcae\.com\b", "aprueba te ce a e punto com", t)
     t = re.sub(r"(\d)\.(\d{3})\b", r"\1\2", t)                     # 1.800 -> 1800
     t = re.sub(r"(\d+)/(\d{4})", r"\1 de \2", t)                    # Ley 55/2003 -> Ley 55 de 2003
     t = re.sub(r"(\d+)\s*-\s*(\d+)", r"\1 a \2", t)                  # 6-7 días -> 6 a 7 días
@@ -141,63 +156,81 @@ LEAK_WORDS = {"tono", "amable", "companera", "fueras", "fuera", "narradora", "na
               "calida", "acento", "peninsular", "entonacion", "parrafo", "sonrisa", "intrigante", "rotunda", "complice",
               "motivadora", "energica", "transcript", "transcripcion", "notes", "notas", "director", "directora", "paragraph",
               "warm", "tone", "voice", "read", "style", "delivery", "upbeat", "playful", "friendly", "confident", "smiling",
-              "natural", "clear", "brisk", "explaining", "profile", "spain", "spanish", "accent", "woman", "say"}
+              "natural", "clear", "brisk", "explaining", "profile", "spain", "spanish", "accent", "woman", "say", "letter",
+              "letters", "option", "options", "pause"}
+_LETTER_SOUNDS = {"bi": "be", "si": "ce", "di": "de", "ei": "a", "bee": "be", "see": "ce", "dee": "de", "uve": "be"}
 
 
 def _toks(t):
-    """Palabras habladas normalizadas (números en letra), para comparar texto y audio palabra a palabra."""
+    """Palabras habladas normalizadas (números en letra, letras de opción en español), para comparar texto y audio."""
     t = spoken_text(t).replace("%", " por ciento ")
     t = re.sub(r"\d+", lambda m: " " + _num_words(int(m.group())) + " ", t)
-    return [w for w in (_norm(x) for x in re.split(r"[\s/\-]+", t)) if w]
+    single = {"b": "be", "c": "ce", "d": "de"}
+    return [single.get(w, w) for w in (_norm(x) for x in re.split(r"[\s/\-]+", t)) if w]
 
 
-def _repeats(a, text):
-    """True si la toma REPITE parte del texto ("B. Soluble en agua... B. Soluble en agua y grasas") o dice bastantes
-    más palabras de las que tiene. Es el fallo típico de la voz por IA al leer opciones. None si no se puede comprobar."""
-    heard = _asr(a)
-    if heard is None:
-        return None
-    S = _toks(text); Hd = _toks(" ".join(w for w, _, _ in heard))
-    if not S or not Hd:
-        return False
+def _issues(heard, text):
+    """Lista de fallos de una toma según lo que se oye: lee indicaciones, dice la letra en inglés, repite un trozo
+    (p. ej. la opción B dos veces) o mete palabras que no están en el texto."""
+    import difflib
     from collections import Counter
+    S = _toks(text); Hd = _toks(" ".join(w for w, _, _ in heard))
+    out = []
+    if not S:
+        return out
+    if not Hd:
+        return ["no se oye nada"]
+    extra = [w for w in Hd if w not in set(S)]
+    leak = [w for w in extra if w in LEAK_WORDS]
+    if leak:
+        out.append(f"lee palabras que no están en el guion ({' '.join(leak[:4])})")
+    eng = [w for w in Hd if w in _LETTER_SOUNDS and w not in set(S)]
+    if eng:
+        out.append(f"dice la letra en inglés ({eng[0]})")
     for n in (2, 3, 4):
+        if n == 2 and len(S) > 6:                       # bigramas solo en textos cortos ("B. Agua")
+            continue
         cs, ch = Counter(zip(*[S[i:] for i in range(n)])), Counter(zip(*[Hd[i:] for i in range(n)]))
-        rep = [g for g, c in ch.items() if c > cs.get(g, 0) and cs.get(g, 0) >= 1 and sum(len(w) for w in g) >= 5]
+        rep = [g for g, c in ch.items() if c > cs.get(g, 0) >= 1 and sum(len(w) for w in g) >= 5]
         if rep:
-            print(f"voice: take rejected, repeats {' '.join(rep[0])!r} in {text[:40]!r}", flush=True)
-            return True
+            out.append(f"repite '{' '.join(rep[0])}'"); break
+    # letras de más (inserciones) comparando la forma hablada letra a letra: detecta un trozo de otra frase o una repetición
+    x, y = "".join(S), "".join(Hd)
+    ins = 0
+    for op, i1, i2, j1, j2 in difflib.SequenceMatcher(None, x, y, autojunk=False).get_opcodes():
+        if op == "insert":
+            ins += j2 - j1
+        elif op == "replace":
+            ins += max(0, (j2 - j1) - (i2 - i1))
+    if ins > max(6, 0.1 * len(x)):
+        out.append(f"dice {ins} letras de más")
     if len(Hd) > len(S) * 1.25 + 1:
-        print(f"voice: take rejected, {len(Hd)} words heard for {len(S)} in {text[:40]!r}", flush=True)
-        return True
-    return False
+        out.append(f"{len(Hd)} palabras para un texto de {len(S)}")
+    return out
 
 
 def problem(a, text):
-    """Motivo por el que una toma no vale (lee indicaciones, repite, palabras de más) o None si está bien."""
-    if _leak(a, text):
-        return "lee palabras que no están en el guion"
-    if _repeats(a, text):
-        return "repite parte del texto"
-    return None
-
-
-def _leak(a, text):
-    """True si la toma dice palabras que no están en el texto y suenan a indicaciones ("tono amable, como si fueras una
-    compañera...", "warm tone", "transcript"...), o demasiadas palabras de más. None si no se puede comprobar."""
+    """Motivo por el que una toma no vale, o None si está bien. Un fallo se confirma con una segunda transcripción más
+    cuidadosa (así un error del reconocedor no tira una toma buena)."""
     heard = _asr(a)
     if heard is None:
         return None
-    said = re.sub(r"\d+", lambda m: " " + _num_words(int(m.group())) + " ", spoken_text(text).replace("%", " por ciento "))
-    script = {_norm(w) for w in said.split()} | {_norm(w) for w in text.split()}
-    script.discard("")
-    extra = [w for w in (_norm(w) for w, _, _ in heard)
-             if len(w) > 2 and not re.search(r"\d", w) and w not in script and _spoken(w) not in script]
-    bad = [w for w in extra if w in LEAK_WORDS]
-    if bad or len(extra) > max(4, 0.3 * _words(text)):
-        print(f"voice: take rejected, extra words {extra[:10]} for {text[:40]!r}", flush=True)
-        return True
-    return False
+    iss = _issues(heard, text)
+    if not iss:
+        return None
+    second = _asr(a, careful=True)
+    iss2 = _issues(second, text) if second is not None else iss
+    if not iss2:
+        print(f"voice: falso aviso del reconocedor ({iss[0]}) en {text[:40]!r}; la toma es buena", flush=True)
+        return None
+    heard_txt = " ".join(w for w, _, _ in second or heard)
+    print(f"voice: toma descartada ({'; '.join(iss2)}) · texto {text[:60]!r} · se oye {heard_txt[:90]!r}", flush=True)
+    return iss2[0]
+
+
+def _leak(a, text):
+    """Compatibilidad: True si la toma tiene algún fallo."""
+    return bool(problem(a, text))
 
 
 def align(a, text):
@@ -642,7 +675,7 @@ def _chatterbox_batch(texts):
 
 
 # ------------------------------------------------------------------ public
-def say_many(texts, speed=1.08, styles=None, one_take=False):
+def say_many(texts, speed=1.08, styles=None, one_take=False, force=False):
     """Returns a list of float32 arrays at 24 kHz, one per text.
     styles: optional acting direction per line ("hushed, suspenseful"...).
     one_take: record all lines as one continuous performance (used for the story narration).
@@ -651,7 +684,7 @@ def say_many(texts, speed=1.08, styles=None, one_take=False):
     global ENGINE_USED, LOCK
     texts = [spoken_text(t) for t in texts]
     ck = (tuple(texts), tuple(styles or ()), one_take, LOCK)
-    if ck in _CLIPS:
+    if ck in _CLIPS and not force:                   # force=True: grabar de nuevo aunque ya esté en la caché
         return [c.copy() for c in _CLIPS[ck]]
     out = _say_many(texts, speed, styles, one_take)
     _CLIPS[(tuple(texts), tuple(styles or ()), one_take, LOCK)] = [c.copy() for c in out]
