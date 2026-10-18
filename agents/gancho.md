@@ -1,5 +1,7 @@
-# Cuaderno de gancho (2026-10-15)
+# Cuaderno de gancho (2026-10-18)
 
-- Seguir haciendo: Ganchos de empatía y reto personal ("¿Te sabes este artículo?"), que lideran en visionado (20,8s).
-- Dejar de hacer: Ganchos de curiosidad abstracta ("¿Caes en esta pregunta?") que reducen la retención un 30%.
-- Probar: Fórmulas directas con polarización o datos ("El 80% falla este artículo de la Constitución") para elevar clics e interacción inicial.
+# Cuaderno de gancho
+
+- Seguir haciendo: Interpelaciones directas sobre artículos o preguntas de examen ("¿Te sabes este artículo?", "¿La acertarías en el examen?"), que lideran con más de 80 views y scores sobre 6.20.
+- Dejar de hacer: Ganchos genéricos sobre legislación ("¿Te sabes esta de legislación?"), que registraron el peor visionado (9,9s) y score (4.93).
+- Probar: Fórmulas que combinen reto y trampa de examen oficial ("La trampa de la Constitución que casi todos fallan") para enganchar los dos primeros segundos.

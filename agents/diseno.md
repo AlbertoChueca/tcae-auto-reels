@@ -1,5 +1,7 @@
-# Cuaderno de diseno (2026-10-15)
+# Cuaderno de diseno (2026-10-18)
 
-- Seguir haciendo: Estilo 'noche' sobre fondo oscuro/teal con tarjeta blanca, que coincide con el mayor tiempo de visionado (20,8s).
-- Dejar de hacer: Diseños que no destaquen visualmente las opciones antes del corte.
-- Probar: Cronómetro visual en color ámbar durante el 'think_time' para aumentar la tensión visual y evitar el abandono antes de la respuesta.
+# Cuaderno de diseno
+
+- Seguir haciendo: Estilos 'noche' y 'examen' con tarjetas de alto contraste, que ocupan el top de rendimiento (scores 6.48 y 6.23).
+- Dejar de hacer: Estilo 'minimal', que quedó en el fondo de reproducciones con apenas 43 views.
+- Probar: Incorporar una barra de tiempo o cuenta atrás en ámbar durante el 'think_time' para aumentar la tensión visual y sostener al usuario hasta ver la solución.

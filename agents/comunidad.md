@@ -1,6 +1,8 @@
-# Cuaderno de comunidad (2026-10-15)
+# Cuaderno de comunidad (2026-10-18)
 
-- Datos insuficientes: Aún no existen comentarios registrados ni interacciones cualitativas para analizar dudas o nivel percibido.
-- Seguir haciendo: Medir el comportamiento silencioso; el temario de legislación genera mayor retención que clínica o autonómico.
-- Dejar de hacer: Suposiciones sobre el gusto del opositor sin feedback explícito.
-- Probar: Preguntar al cierre "¿Te ha parecido fácil o difícil?" para romper la barrera del primer comentario.
+# Cuaderno de comunidad
+
+- Pocos datos: Aún no disponemos de comentarios registrados para evaluar dudas específicas, quejas de dificultad o temas solicitados.
+- Seguir haciendo: Analizar las señales de consumo silencioso: el interés se concentra en la Constitución y la Unidad del Paciente frente a temas regionales.
+- Dejar de hacer: Sacar conclusiones sobre el nivel percibido de las preguntas sin interacción escrita.
+- Probar: Provocar respuesta preguntando al cierre: "¿La viste fácil o con trampa?" para activar la comunidad.

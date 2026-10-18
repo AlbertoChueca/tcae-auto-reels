@@ -1,5 +1,5 @@
-# Cuaderno de viralidad (2026-10-15)
+# Cuaderno de viralidad (2026-10-18)
 
-- Seguir haciendo: Ganchos desafiantes directos tipo '¿Te sabes este artículo?' (mayor retención).
-- Dejar de hacer: Cierres planos sin incitación a interactuar (0 comentarios y compartidos actuales).
-- Probar: Retos de debate: 'Comenta tu opción antes de que termine el tiempo' o 'Envíaselo a tu compi de turno'.
+- Seguir haciendo: Ganchos retadores al ego del opositor ('¿Te sabes este artículo?').
+- Dejar de hacer: Cierres neutros sin llamada a interactuar (0 compartidos y 0 comentarios).
+- Probar: Reto directo en el último segundo: 'Compárteselo a tu compañera de turno a ver si ella cae'.

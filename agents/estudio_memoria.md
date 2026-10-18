@@ -1,5 +1,5 @@
-# Cuaderno de memoria (2026-10-15)
+# Cuaderno de memoria (2026-10-18)
 
-- Seguir haciendo: Autoevaluación activa con pregunta inicial.
-- Dejar de hacer: Resolver la duda sin dar una razón pedagógica de archivo (0 guardados registrados).
-- Probar: Incluir una regla mnemotécnica final y llamar al guardado expreso: 'Guarda esta ficha para tu repaso espaciado'.
+- Seguir haciendo: Técnica de autoevaluación activa al inicio del vídeo.
+- Dejar de hacer: Resolver la pregunta sin incentivar el repaso espaciado (0 guardados registrados).
+- Probar: Incorporar una regla mnemotécnica visual al final con el recordatorio: 'Guarda este reel para repasar antes del simulacro'.

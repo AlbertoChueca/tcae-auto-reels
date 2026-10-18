@@ -1,5 +1,5 @@
-# Cuaderno de seo (2026-10-15)
+# Cuaderno de seo (2026-10-18)
 
-- Seguir haciendo: Uso de términos con tracción demostrada como 'artículo' y 'examen'.
-- Dejar de hacer: Ganchos genéricos que no posicionan ('¿Caes en esta pregunta?').
-- Probar: Incorporar en los primeros 3 segundos y en texto: 'Oposiciones TCAE', 'Temario TCAE' y la ley específica consultada.
+- Seguir haciendo: Posicionar términos de alta intención como 'artículo' y 'examen'.
+- Dejar de hacer: Fórmulas genéricas poco buscadas como 'Pregunta clave de TCAE' (43 views).
+- Probar: Optimizar portadas y descripción con keywords exactas: 'Oposiciones TCAE', 'Temario TCAE' y número de ley específica.

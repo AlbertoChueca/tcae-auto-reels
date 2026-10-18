@@ -1,5 +1,5 @@
-# Cuaderno de embudo_app (2026-10-15)
+# Cuaderno de embudo_app (2026-10-18)
 
-- Seguir haciendo: Temario alineado con la app.
-- Dejar de hacer: Omitir la vinculación práctica con la plataforma (visitas a perfil None).
-- Probar: CTA específico al final: 'Haz el test completo de este tema gratis en apruebatcae.com'.
+- Seguir haciendo: Selección de preguntas oficiales de examen.
+- Dejar de hacer: Omitir la mención al valor práctico de la web (visitas al perfil no registradas).
+- Probar: CTA verbal y visual específico: 'Practica 10 preguntas oficiales más de este bloque en apruebatcae.com'.

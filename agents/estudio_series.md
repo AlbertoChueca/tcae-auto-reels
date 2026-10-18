@@ -1,5 +1,5 @@
-# Cuaderno de series (2026-10-15)
+# Cuaderno de series (2026-10-18)
 
-- Seguir haciendo: Datos insuficientes de series previas (todas figuran como 'None').
-- Dejar de hacer: Publicaciones aisladas sin continuidad ni cita fija.
-- Probar: Estrenar la serie numerada 'Turno de Noche: Artículos Clave' (Capítulo 1), capitalizando el estilo con mejor retención.
+- Seguir haciendo: Datos insuficientes para evaluar impacto de series (todos figuran como 'None').
+- Dejar de hacer: Publicar piezas aisladas sin fidelización ni cita semanal.
+- Probar: Estrenar la serie 'Turno de Noche: Artículos Clave (Capítulo 1)' para aprovechar la tracción del estilo noche.
