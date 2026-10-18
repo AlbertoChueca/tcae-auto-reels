@@ -88,5 +88,29 @@
 "topic": "nutricion",
 "fecha": "2026-10-18",
 "formato": "examen_real"
+},
+{
+"id": "06abfe2e82",
+"topic": "termoterapia",
+"fecha": "2026-10-18",
+"formato": "flashcards_express"
+},
+{
+"id": "6b0377686a",
+"topic": "termoterapia",
+"fecha": "2026-10-18",
+"formato": "flashcards_express"
+},
+{
+"id": "35f9d1fd97",
+"topic": "termoterapia",
+"fecha": "2026-10-18",
+"formato": "flashcards_express"
+},
+{
+"id": "fb2be156f3",
+"topic": "termoterapia",
+"fecha": "2026-10-18",
+"formato": "flashcards_express"
 }
 ]

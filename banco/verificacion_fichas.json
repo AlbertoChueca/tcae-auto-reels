@@ -1,1 +1,26 @@
-{}
+{
+"06abfe2e82": {
+"veredicto": "ok",
+"motivo": "La definición de maniluvios (baños locales de manos y brazos) y pediluvios (baños locales de pies y piernas) es correcta y estándar en los manuales de TCAE.",
+"fuente_ok": false,
+"fecha": "2026-10-18"
+},
+"6b0377686a": {
+"veredicto": "ok",
+"motivo": "Las correspondencias terapéuticas son exactas: termoterapia para el calor, crioterapia para el frío y cinesiterapia (o kinesiterapia) para el movimiento.",
+"fuente_ok": false,
+"fecha": "2026-10-18"
+},
+"35f9d1fd97": {
+"veredicto": "ok",
+"motivo": "Los efectos fisiológicos locales de la aplicación de frío descritos (vasoconstricción, efecto antiinflamatorio en fase aguda, anestésico, antihemorrágico y antitérmico) son correctos.",
+"fuente_ok": false,
+"fecha": "2026-10-18"
+},
+"fb2be156f3": {
+"veredicto": "ok",
+"motivo": "Las contraindicaciones principales de la crioterapia incluyen los trastornos circulatorios graves (como isquemia o enfermedad de Raynaud) y la hipersensibilidad al frío.",
+"fuente_ok": false,
+"fecha": "2026-10-18"
+}
+}
