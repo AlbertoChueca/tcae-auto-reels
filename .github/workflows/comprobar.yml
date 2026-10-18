@@ -23,6 +23,7 @@ jobs:
       - name: Comprobar
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          APP_PREGUNTAS: ${{ vars.APP_PREGUNTAS || '10.000' }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
         run: python comprobar.py

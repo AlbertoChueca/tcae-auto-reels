@@ -18,6 +18,10 @@ jobs:
       - name: Grabar muestras
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
+          ELEVENLABS_VOICE_IDS: ${{ vars.ELEVENLABS_VOICE_IDS }}
+          APP_PREGUNTAS: ${{ vars.APP_PREGUNTAS || '10.000' }}
           VOICE_ENGINE: gemini
         run: python voice_samples.py
       - uses: actions/upload-artifact@v4
