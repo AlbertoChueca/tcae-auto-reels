@@ -171,7 +171,8 @@ Devuelve JSON: {{"overall": number, "scores": {{...}}, "issues": [str], "changes
     _log("design", {"hook": S.get("screen_hook"), "overall": overall, "scores": res.get("scores"), "issues": res.get("issues"),
                     "changes": {k: v for k, v in new.items() if style.get(k) != v}, "why": res.get("why")})
     print(f"director de arte: {overall}/10" + (f" - {'; '.join((res.get('issues') or [])[:3])}" if res.get("issues") else ""), flush=True)
-    if new == style or overall >= 9.3:
+    # volver a renderizar cuesta varios minutos de GitHub: solo si el diseño flojea de verdad
+    if new == style or overall >= float(os.environ.get("ART_RERENDER_BELOW", "7.5")):
         return None, {"overall": overall}
     return new, {"overall": overall}
 

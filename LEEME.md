@@ -8,8 +8,9 @@ TikTok, para llevar opositores de TCAE de **toda España** a **apruebatcae.com**
 | 14:30 | `mediodia` |
 | 21:30 | `noche` |
 
-El workflow arranca ~30 min antes (generar, verificar y revisar lleva 15-25 min) y, si acaba antes, espera a la hora
-(máx. 15 min, variable `PUBLISH_MAX_WAIT_MIN`). El cambio de horario verano/invierno se gestiona solo. Si alguien relanza
+El workflow arranca ~30 min antes (generar, verificar y revisar lleva 15-25 min) y publica en cuanto el reel está listo
+(normalmente entre las 14:10 y las 14:30, y entre las 21:10 y las 21:30). Esperar a la hora exacta gasta minutos; si lo
+prefieres, pon la variable `PUBLISH_MAX_WAIT_MIN` (p. ej. 15). El cambio de horario verano/invierno se gestiona solo. Si alguien relanza
 el workflow de un hueco ya publicado, no se publica dos veces (salvo `FORCE=true`).
 
 ## Qué se publica en cada hueco (todo a la vez; si un destino falla, los demás siguen)
@@ -72,11 +73,29 @@ Se suman a la sala de 5 agentes (gancho, guion, diseño, crecimiento, comunidad)
 `agents/estudio_*.md`. Todo lo que escriben pasa por el verificador antes de publicarse. Las imágenes aprobadas se
 guardan junto al vídeo (`*_ilustracion.jpg`) y el registro en `image_log.jsonl`.
 
+## Chuleta visual diaria (carrusel, 18:00)
+Además de los 2 reels, cada día a las 18:00 se publica una **chuleta**: carrusel de 6-8 imágenes estilo "apuntes
+bonitos" en Instagram y en TikTok (modo foto). Workflow *Chuleta diaria* (`chuleta.py`).
+- **Portada** con titular burbuja ("NO TE LÍES CON LAS LESIONES") + pegatina → **3-5 diapositivas** con los términos
+  clave en tarjetas, palabras resaltadas con rotulador y un "TRUCO" → **¿Te atreves?** (una pregunta verificada del
+  banco) → **Solución** + guárdala / envíasela / apruebatcae.com.
+- Estilo propio de la marca (menta, teal y dorado, tipografías Fredoka y Nunito) y **pegatinas kawaii originales** de
+  objetos y órganos generadas por IA (nunca personas; una segunda IA revisa que no tengan texto ni nada raro; si
+  falla, se usa una pegatina dibujada en código).
+- **Rigor:** todo sale solo de las fichas y preguntas de la app de ese tema y el verificador lo revisa frase a frase
+  (incluida la descripción). Si no pasa, se reescribe una vez y, si no, se prueba otro tema; si nada pasa, ese día no hay
+  chuleta. Solo temas sanitarios (no legislación). Rota por los 49 temas sanitarios sin repetir subtema
+  (`chuletas.json`).
+- **Probar:** *Actions → Chuleta diaria → Run workflow* con "Solo generar las imágenes" marcado y, si quieres, un tema
+  (`upp`, `piel`, `constantesVitales`...). Las imágenes se descargan en *Artifacts*.
+- **Apagar:** variable `CHULETA` = `false`. Coste de IA: 4 pegatinas + textos al día (unos céntimos).
+- Las imágenes se alojan en Zernio para que Instagram las descargue (sin Zernio, en el propio repositorio público).
+
 ## Cuenta generalista (toda España)
 Los textos, la voz, los hashtags y las descripciones hablan a opositores de TCAE de cualquier comunidad, sin nombrar
 ninguna. **Primero salen todas las preguntas generales** (temario sanitario y legislación estatal); las del temario
 específico de Aragón (SALUD, Estatuto, geografía, leyes aragonesas y cualquier pregunta que nombre Aragón) quedan **al
-final de la cola** y solo se usan cuando ya no quedan generales sin publicar. El verificador nocturno también revisa
+final de la cola** y solo se usan cuando ya no quedan generales sin publicar. El verificador (lunes y jueves) también revisa
 antes las generales. Lista de temas en `questions.py` (`REGIONAL_TOPICS`).
 
 ## La voz solo dice el guion
@@ -105,16 +124,19 @@ El informe `banco/informe_verificacion.md` lista las preguntas dudosas y los pos
    - `IG_TOKEN`: token de **página** de Facebook (empieza por `EAA`) de la página vinculada a @apruebatcae (cuenta profesional), con `instagram_basic`, `instagram_content_publish`, `pages_show_list`, `pages_read_engagement`, `instagram_manage_insights`, `instagram_manage_comments`. Generado desde un token de usuario de larga duración, no caduca (igual que en StreakChess).
    - `ZERNIO_API_KEY`: conecta en Zernio la cuenta de TikTok @apruebatcae y el canal de YouTube (sin ella solo se publica en Instagram).
 3. **Actions → Descargar fuentes → Run workflow.** Mira `fuentes/estado.md`. Tres normas solo están en el BOA (Decreto Legislativo 2/2004, Decreto 174/2010 y Decreto 39/2024): pega su texto en el archivo que indica. Mientras falten, las preguntas de esos temas no se publican.
-4. **Actions → Verificar banco → Run workflow** (pon 200). Después se verifica una tanda cada noche sola.
+4. **Actions → Verificar banco → Run workflow** (pon 200). Después se verifica una tanda los lunes y jueves de madrugada (si no queda nada pendiente, termina en segundos).
 5. **Actions → Muestras de voz**: descarga las muestras, elige una y ponla en **Variables → `GEMINI_VOICE`** (por defecto `Sulafat`).
 6. **Actions → Reels diarios → Run workflow** con "Solo generar el vídeo" marcado: descarga el vídeo en *Artifacts* y revísalo.
 7. **Actions → Comprobar conexiones**: debe salir todo en verde (tokens, cuentas, Gemini, reserva de preguntas). Se repite cada lunes y, si algo crítico falla, GitHub te avisa por correo.
 8. Desde ese momento publica solo a las 14:30 y 21:30. Para pausar: *Reels diarios → … → Disable workflow*.
 
 ## Minutos de GitHub (repositorio privado)
-Estimación: reels ~1.500 min/mes, verificación nocturna ~250, bot de comentarios (cada 2 h, de 8:00 a 0:00) ~270 →
-**~2.000 min/mes**, justo el límite del plan gratuito. Si te quedas corto: plan Pro (3.000 min), `PUBLISH_MAX_WAIT_MIN=0`
-(ahorra ~300) o espaciar el bot de comentarios.
+El plan gratuito incluye 2.000 min/mes. Estimación con esta versión: reels ~1.000-1.300 min/mes (2 al día, sin esperas
+ni segundo render salvo diseño flojo), verificación ~100, comprobación semanal ~10 → **~1.100-1.400 min/mes**.
+Cada prueba manual de *Reels diarios* gasta 15-25 min: márcala con "Solo generar el vídeo" y no abuses.
+Ahorros aplicados: sin bot de comentarios; sin espera hasta la hora exacta; los crons de verano/invierno solo corren en
+su temporada; el director de arte solo vuelve a renderizar si puntúa por debajo de 7,5 (`ART_RERENDER_BELOW`);
+verificación 2 veces por semana y se salta si no queda nada; tope de 45 min por reel.
 
 ## Actualizar las preguntas
 Sube la nueva versión de la web app a `webapp/index.html`: el workflow **Importar banco** la lee sola. Las preguntas ya verificadas o publicadas se recuerdan (cada una tiene un id estable).
@@ -137,7 +159,6 @@ avisa si esa cifra es mayor que el banco importado (sube el `index.html` actual 
 ## Lo demás
 - **Guardado sin choques**: todos los workflows guardan su estado con `sincronizar.py`, que descarga la última versión
   y FUSIONA verificaciones, preguntas usadas y registros antes de subir (aunque dos workflows terminen a la vez).
-- **Bot de comentarios** (Instagram, cada 2 h): detecta A/B/C/D, "1a 2c 3b" o "mito/realidad", felicita a quien acierta y anima a quien falla sin desvelar la respuesta. Los DM están desactivados (`BOT_SEND_DMS=true` para activarlos).
 - **Aprendizaje**: `performance.json` (views, guardados, compartidos, comentarios, visitas al perfil), `strategy_report.md` (qué formato y gancho ganan), `playbook.md` (estratega semanal) y `agents/*.md` (cuadernos diarios de los 5 agentes).
 - **Ubicación**: `locations.json` trae España y grandes ciudades; rellena el `id` (página de Facebook del lugar) de las que quieras usar. Vacío = sin ubicación.
 - **Hechos de la app**: `assets/app/facts.md`. Los agentes solo afirman lo que pone ahí (edítalo si algo cambia, p. ej. si deja de ser gratis).

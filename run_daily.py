@@ -68,7 +68,7 @@ def wait_until_slot():
         now_l = datetime.datetime.now(ZoneInfo("Europe/Madrid"))
         goal = now_l.replace(hour=target[0], minute=target[1], second=0, microsecond=0)
         secs = (goal - now_l).total_seconds()
-        if 0 < secs <= float(os.environ.get("PUBLISH_MAX_WAIT_MIN", "15")) * 60:
+        if 0 < secs <= float(os.environ.get("PUBLISH_MAX_WAIT_MIN") or "0") * 60:
             print(f"esperando {secs / 60:.1f} min para publicar a las {target[0]}:{target[1]:02d}", flush=True)
             time.sleep(secs)
     except Exception:

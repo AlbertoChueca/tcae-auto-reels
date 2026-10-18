@@ -44,7 +44,7 @@ def merge(path, mine, theirs):
             if line.strip() and line not in seen:
                 seen.add(line); out.append(line)
         return out
-    if path == "used.json":
+    if path in ("used.json", "chuletas.json"):
         seen, out = set(), []
         for e in (theirs or []) + (mine or []):
             k = json.dumps(e, sort_keys=True)
