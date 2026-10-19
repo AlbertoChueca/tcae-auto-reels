@@ -12,5 +12,19 @@
 "tiktok": "6ad51cc8da9bd38527922c35"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-10-19",
+"topic": "aparatoUrinario",
+"tema": "Aparato Urinario",
+"subtema": "Cifras clave de la orina",
+"quiz_id": "23636a8bcf",
+"imagenes": 6,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/DesKWtDl8VZ/",
+"tiktok": "6ad683651dd0e1989931abf9"
+},
+"dry_run": false
 }
 ]
