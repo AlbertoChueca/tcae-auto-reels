@@ -1,5 +1,5 @@
-# Cuaderno de seo (2026-10-18)
+# Cuaderno de seo (2026-10-19)
 
-- Seguir haciendo: Posicionar términos de alta intención como 'artículo' y 'examen'.
-- Dejar de hacer: Fórmulas genéricas poco buscadas como 'Pregunta clave de TCAE' (43 views).
-- Probar: Optimizar portadas y descripción con keywords exactas: 'Oposiciones TCAE', 'Temario TCAE' y número de ley específica.
+- Seguir haciendo: Explotar keywords de alta intención como 'artículo', 'examen' y 'TCAE' (mejores resultados de retención y views).
+- Dejar de hacer: Fórmulas vagas con bajo volumen de búsqueda como '4 fichas de repaso' (42 views).
+- Probar: Título y texto en pantalla optimizados para búsqueda: 'Pregunta examen TCAE 2026: Legislación y Estatuto Marco'.

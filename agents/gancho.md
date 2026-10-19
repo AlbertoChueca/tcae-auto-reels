@@ -1,7 +1,5 @@
-# Cuaderno de gancho (2026-10-18)
+# Cuaderno de gancho (2026-10-19)
 
-# Cuaderno de gancho
-
-- Seguir haciendo: Interpelaciones directas sobre artículos o preguntas de examen ("¿Te sabes este artículo?", "¿La acertarías en el examen?"), que lideran con más de 80 views y scores sobre 6.20.
-- Dejar de hacer: Ganchos genéricos sobre legislación ("¿Te sabes esta de legislación?"), que registraron el peor visionado (9,9s) y score (4.93).
-- Probar: Fórmulas que combinen reto y trampa de examen oficial ("La trampa de la Constitución que casi todos fallan") para enganchar los dos primeros segundos.
+- Seguir haciendo: Preguntas de reto directo en pantalla ("¿Te sabes este artículo?", "¿La acertarías en el examen?"), que lideran con más de 85 views y scores sobre 6.20.
+- Dejar de hacer: Ganchos descriptivos o pasivos ("4 fichas de repaso", "Pregunta real de examen"), que registran el peor visionado (6s) y score mínimo (4.64).
+- Probar: Fórmulas que unan interpelación directa y aviso de fallo común (ej. "¿Caerías en esta trampa de examen?") para blindar los primeros dos segundos.

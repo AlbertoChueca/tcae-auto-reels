@@ -112,5 +112,11 @@
 "topic": "termoterapia",
 "fecha": "2026-10-18",
 "formato": "flashcards_express"
+},
+{
+"id": "cee63774cf",
+"topic": "inmunidadVacunas",
+"fecha": "2026-10-19",
+"formato": "pregunta_del_dia"
 }
 ]

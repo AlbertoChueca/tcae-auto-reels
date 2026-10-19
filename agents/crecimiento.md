@@ -1,7 +1,5 @@
-# Cuaderno de crecimiento (2026-10-18)
+# Cuaderno de crecimiento (2026-10-19)
 
-# Cuaderno de crecimiento
-
-- Seguir haciendo: Foco en temario transversal nacional (Constitución y clínico), con métricas superiores a bloques autonómicos o sanitarios densos.
-- Dejar de hacer: Publicaciones con cierres pasivos; acumulamos 0 guardados, 0 compartidos y 0 comentarios en el histórico reciente.
-- Probar: CTA directo y sin fricción al final del copy y pantalla: "Pausa y comenta tu opción: ¿A, B, C o D?" para desbloquear la primera interacción.
+- Seguir haciendo: Priorizar legislación transversal y bloque clínico, que concentran las mejores visualizaciones del canal.
+- Dejar de hacer: Publicaciones con cierres pasivos; acumulamos cero guardados, cero compartidos y cero comentarios en todas las métricas registradas.
+- Probar: CTA único y directo en pantalla y pie de foto: "Guarda este post para repasar y comenta tu opción: ¿A, B, C o D?" para romper la barrera de interacción.

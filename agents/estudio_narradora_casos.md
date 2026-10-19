@@ -1,5 +1,5 @@
-# Cuaderno de narradora_casos (2026-10-18)
+# Cuaderno de narradora_casos (2026-10-19)
 
-- Seguir haciendo: Fórmulas directas centradas en artículos normativos (gancho con 83 views y 17,9 s).
-- Dejar de hacer: Formatos teóricos abstractos como '¿Te sabes esta de legislación?' (peor retención: 9,9 s).
-- Probar: Enmarcar el artículo legal en un dilema rápido de planta entre la TCAE y la supervisora.
+- Seguir haciendo: Ganchos directos centrados en normativa ('¿Te sabes este artículo?', récord de 18,1 s de visionado).
+- Dejar de hacer: Fórmulas genéricas como '4 fichas de repaso' o 'Pregunta real de examen' (retenciones pobres de 6,3 s a 6,5 s).
+- Probar: Situar la pregunta legislativa en una situación rápida de pase de guardia nocturno entre TCAE y enfermera.

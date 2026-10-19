@@ -1,5 +1,5 @@
-# Cuaderno de viralidad (2026-10-18)
+# Cuaderno de viralidad (2026-10-19)
 
-- Seguir haciendo: Ganchos retadores al ego del opositor ('¿Te sabes este artículo?').
-- Dejar de hacer: Cierres neutros sin llamada a interactuar (0 compartidos y 0 comentarios).
-- Probar: Reto directo en el último segundo: 'Compárteselo a tu compañera de turno a ver si ella cae'.
+- Seguir haciendo: Interpelaciones directas al orgullo del opositor ('¿Te sabes este artículo?').
+- Dejar de hacer: Vídeos con cierre pasivo que no provocan interacción (0 comentarios y 0 compartidos en todo el histórico).
+- Probar: Reto de cierre verbal y visual: 'Compárteselo a tu compañera de turno; si no lo sabe, le toca invitar al café'.

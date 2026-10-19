@@ -1,7 +1,5 @@
-# Cuaderno de diseno (2026-10-18)
+# Cuaderno de diseno (2026-10-19)
 
-# Cuaderno de diseno
-
-- Seguir haciendo: Estilos 'noche' y 'examen' con tarjetas de alto contraste, que ocupan el top de rendimiento (scores 6.48 y 6.23).
-- Dejar de hacer: Estilo 'minimal', que quedó en el fondo de reproducciones con apenas 43 views.
-- Probar: Incorporar una barra de tiempo o cuenta atrás en ámbar durante el 'think_time' para aumentar la tensión visual y sostener al usuario hasta ver la solución.
+- Seguir haciendo: Estilos visuales 'noche' y 'examen' sobre tarjetas blancas, dominando las primeras posiciones con scores de 6.53 y 6.28.
+- Dejar de hacer: Estilo 'minimal', que queda relegado a las métricas más bajas de visualización (53 views).
+- Probar: Marcar con acento ámbar la palabra trampa del enunciado y añadir barra de progreso visual durante el tiempo de pensar para evitar abandonos.

@@ -1,7 +1,5 @@
-# Cuaderno de guion (2026-10-18)
+# Cuaderno de guion (2026-10-19)
 
-# Cuaderno de guion
-
-- Seguir haciendo: Formato 'pregunta_del_dia' con 'think_time=largo' en temas clave (Constitución y Unidad del Paciente), logrando los mayores visionados (14s a 17,9s).
-- Dejar de hacer: Formatos sin justificación clara para guardar; tenemos 0 guardados en todas las publicaciones.
-- Probar: Añadir una regla mnemotécnica o dato de descarte ultraespecífico en la resolución para transformar la retención en guardados útiles para el examen.
+- Seguir haciendo: Formato 'pregunta_del_dia' con 'think_time=largo' en temas clave como Constitución y Unidad del Paciente, sosteniendo visionados récord de 14s a 18s.
+- Dejar de hacer: Formato 'flashcards_express' sin resolución explicada, que reduce la retención a solo 6,5 segundos.
+- Probar: Incluir una regla mnemotécnica o truco de descarte en la pantalla final para generar la necesidad de guardar (seguimos con 0 guardados).

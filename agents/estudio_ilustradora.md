@@ -1,5 +1,5 @@
-# Cuaderno de ilustradora (2026-10-18)
+# Cuaderno de ilustradora (2026-10-19)
 
-- Seguir haciendo: Atmósferas íntimas en formato vertical con iluminación tenue.
-- Dejar de hacer: Duplicar elementos en la composición (corregido el fallo de las dos tazas).
-- Probar: Escena hiperlimpia de una TCAE sola en el control de enfermería consultando un protocolo, sin saturación de objetos.
+- Seguir haciendo: Escenas íntimas verticales con iluminación tenue de descanso posturno.
+- Dejar de hacer: Generar elementos duplicados en la escena (error corregido de dos tazas simultáneas en la propuesta del 14/10).
+- Probar: Ilustración hiperlimpia de una TCAE en el mostrador de planta durante la guardia nocturna, con un único foco de luz cálida y sin sobrecarga de objetos.
