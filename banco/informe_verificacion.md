@@ -1,7 +1,7 @@
-# Informe del verificador (2026-10-15)
+# Informe del verificador (2026-10-19)
 
-- Preguntas en el banco: 1822 · revisadas: 360 · **publicables: 324**
-- Posibles errores: 5 · dudosas: 19 · correctas pero sin texto de la norma para citar: 12
+- Preguntas en el banco: 1822 · revisadas: 480 · **publicables: 437**
+- Posibles errores: 5 · dudosas: 24 · correctas pero sin texto de la norma para citar: 14
 
 Las marcadas como posible error conviene revisarlas también en la web app.
 
@@ -19,7 +19,7 @@ Las marcadas como posible error conviene revisarlas también en la web app.
 - **[Estatuto Marco del Personal Estatutario (Ley 55/2003)]** ¿Cuántos artículos tiene, aproximadamente, la Ley 55/2003 del Estatuto Marco? — marcada C) Unos 84
   - La Ley 55/2003 del Estatuto Marco tiene exactamente 80 artículos, no 84. Es probable que se haya confundido con la Ley 16/2003 de Cohesión y Calidad, que sí tiene 84 artículos.
 
-## Dudosas (19)
+## Dudosas (24)
 
 - **[Constitución Española de 1978]** ¿Cuál es el plazo general para interponer un recurso de inconstitucionalidad desde la publicación de la norma impugnada? — marcada A) 3 meses
   - El texto constitucional proporcionado no incluye el plazo de 3 meses, ya que este se regula en la Ley Orgánica del Tribunal Constitucional.
@@ -59,3 +59,13 @@ Las marcadas como posible error conviene revisarlas también en la web app.
   - La plantilla provisional del tribunal contiene un error, ya que la presbiacusia es la pérdida progresiva de audición (opción C), no de visión.
 - **[Fechas Clave y Plazos Administrativos]** ¿Ha requerido alguna de las cuatro reformas constitucionales la celebración de un referéndum? — marcada A) No, ninguna de las cuatro lo ha requerido
   - Actualmente solo existen tres reformas de la Constitución Española (1992, 2011 y 2024); la mención a una cuarta reforma en 2026 es un dato ficticio o erróneo.
+- **[Posiciones y Movilizaciones]** ¿En qué posición hay que poner al paciente en una intervención quirúrgica de bocio?: — marcada B) Fowler
+  - La posición quirúrgica indicada para intervenciones de bocio es la de Roser (cuello en hiperextensión), no la de Fowler. La plantilla oficial del tribunal contiene un error.
+- **[La Piel]** ¿Cuál es la primera fase de la cicatrización? — marcada C) Maduración
+  - La primera fase de la cicatrización es la inflamatoria (o hemostática), no la de maduración, que es la última. La plantilla oficial del tribunal es incorrecta.
+- **[Constitución Española de 1978]** ¿Qué título de la Constitución regula el Gobierno y la Administración? — marcada B) Título IV
+  - El texto de la fuente proporcionado no incluye el enunciado del Título IV para confirmar la respuesta, aunque por conocimiento general es correcta.
+- **[Constitución Española de 1978]** ¿En qué título de la Constitución se regula la organización territorial del Estado? — marcada C) Título VIII
+  - El texto legal proporcionado omite el encabezado del Título VIII, por lo que no se puede confirmar con la fuente dada que este título regule la organización territorial.
+- **[Ley General de Sanidad (Ley 14/1986)]** Según la LGS, ¿qué nivel asistencial constituye la puerta de entrada y el nivel básico del ciudadano al sistema sanitario? — marcada B) La atención primaria
+  - Los artículos de la LGS proporcionados no contienen la expresión literal 'puerta de entrada y nivel básico', definición que suele atribuirse a la Ley 16/2003.
