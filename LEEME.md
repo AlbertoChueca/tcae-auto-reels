@@ -3,10 +3,16 @@
 Publica sola **2 reels al día**, a la vez en **Instagram, TikTok y YouTube Shorts**, con su **Story** en Instagram y
 TikTok, para llevar opositores de TCAE de **toda España** a **apruebatcae.com**.
 
-| Hora (España) | Hueco |
-|---|---|
-| 14:30 | `mediodia` |
-| 21:30 | `noche` |
+| Hora (España) | Hueco | Instagram | TikTok | YouTube |
+|---|---|---|---|---|
+| 8:00 | `manana` | Story (el reel completo) | Reel | Short |
+| 14:30 | `mediodia` | Reel + story | Reel | Short |
+| 18:00 | chuleta | Carrusel | Carrusel de fotos | — |
+| 21:30 | `noche` | Reel + story | Reel | Short |
+
+El reel de las 8:00 no va al feed de Instagram (un cuarto post diario quitaría alcance a los otros en una cuenta que
+empieza); en TikTok y YouTube publicar más a menudo sí suma. El carrusel de TikTok con los fotogramas del reel se ha
+quitado porque duplicaba el vídeo: el carrusel de TikTok es ahora la chuleta (se puede reactivar con `TIKTOK_CARRUSEL`).
 
 El workflow arranca ~30 min antes (generar, verificar y revisar lleva 15-25 min) y publica en cuanto el reel está listo
 (normalmente entre las 14:10 y las 14:30, y entre las 21:10 y las 21:30). Esperar a la hora exacta gasta minutos; si lo
@@ -18,13 +24,12 @@ el workflow de un hueco ya publicado, no se publica dos veces (salvo `FORCE=true
 |---|---|
 | Instagram | **Reel** (portada = fotograma del gancho, ubicación opcional) + **Story** propia de 12 s |
 | TikTok | **El mismo vídeo**, publicado a la vez (vía Zernio) |
-| TikTok | **Carrusel de fotos** con los fotogramas clave (gancho, pregunta, solución, explicación, cierre), 1 al día |
 | TikTok | **Story**: la API de TikTok no permite publicar Stories directamente; la story se envía a tu **buzón de TikTok como borrador** y desde la notificación la publicas como Story con un toque |
 | YouTube | **Short** (no "made for kids") |
 
 La **Story** (12 s) muestra la pregunta del reel como una vista previa con esquinas redondeadas, cuenta atrás, "¿A, B, C o
 D?" y "La solución, en el reel de hoy" (sin desvelar la respuesta): lleva tráfico al reel y se entiende sin sonido.
-Interruptores en **Variables**: `IG_STORY`, `TIKTOK`, `TIKTOK_CARRUSEL` (por defecto `mediodia`), `TIKTOK_STORY_BORRADOR`,
+Interruptores en **Variables**: `IG_STORY`, `TIKTOK`, `TIKTOK_CARRUSEL` (por defecto `false`), `TIKTOK_STORY_BORRADOR`,
 `YOUTUBE` → `true`, `false`, `mediodia` o `noche`. En TikTok la web se nombra tal cual (el enlace de la bio de TikTok no
 es clicable hasta tener seguidores suficientes).
 

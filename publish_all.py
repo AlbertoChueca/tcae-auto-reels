@@ -6,7 +6,9 @@
 
 Interruptores (Settings > Secrets and variables > Actions > Variables): IG_STORY, TIKTOK, TIKTOK_CARRUSEL,
 TIKTOK_STORY_BORRADOR, YOUTUBE: "true", "false" o el hueco en el que actúan ("mediodia" / "noche").
-Por defecto todo activo salvo el carrusel de TikTok, que sale una vez al día (mediodía) para no saturar.
+Por defecto todo activo salvo el carrusel de TikTok con los fotogramas del reel (duplicaba el vídeo; el carrusel de
+TikTok es ahora la chuleta diaria de las 18:00). Hueco "manana" (8:00): reel en TikTok y YouTube y, en Instagram, el
+reel completo como story (sin post en el feed para no quitar alcance a los otros).
 TikTok y YouTube necesitan ZERNIO_API_KEY.
 """
 import os, threading
@@ -44,8 +46,10 @@ def publish(reel, story, slides, caption, meta, location_id=None, slot=""):
         from publish_ig import publish_story
         return publish_story(story or reel).get("id")
 
-    jobs["instagram_reel"] = ig_reel
-    if on("IG_STORY") and os.environ.get("IG_TOKEN"):
+    morning = slot == "manana"                # 8:00: el reel va a TikTok y YouTube; en Instagram solo como story
+    if not morning:
+        jobs["instagram_reel"] = ig_reel
+    if (on("IG_STORY") or morning) and os.environ.get("IG_TOKEN"):
         jobs["instagram_story"] = ig_story
     if zernio:
         import publish_zernio as Z
@@ -62,10 +66,10 @@ def publish(reel, story, slides, caption, meta, location_id=None, slot=""):
             jobs["tiktok_video"] = lambda: Z.tiktok_video(url(light), caption, meta.get("thumb_ms"))
         if on("YOUTUBE"):
             jobs["youtube_short"] = lambda: Z.youtube_short(url(light), meta.get("yt_title") or f"{meta.get('hook')} | Test TCAE", caption)
-        if on("TIKTOK_CARRUSEL", "mediodia") and slides:
+        if on("TIKTOK_CARRUSEL", "false") and slides and not morning:
             title, desc = carousel_text(meta, caption)
             jobs["tiktok_carrusel"] = lambda: Z.tiktok_photos([url(p) for p in slides], title, desc)
-        if on("TIKTOK_STORY_BORRADOR") and story:
+        if on("TIKTOK_STORY_BORRADOR") and story and not morning:
             jobs["tiktok_story_borrador"] = lambda: Z.tiktok_draft(url(story), caption.split("\n", 1)[0])
     with ThreadPoolExecutor(len(jobs)) as ex:
         futs = {k: ex.submit(f) for k, f in jobs.items()}

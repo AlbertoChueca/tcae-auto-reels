@@ -59,7 +59,7 @@ def already_published():
 
 def wait_until_slot():
     """El workflow arranca ~30 min antes; si el reel está listo antes de la hora, espera (máx. PUBLISH_MAX_WAIT_MIN)."""
-    target = {"mediodia": (14, 30), "noche": (21, 30)}.get(slot)
+    target = {"manana": (8, 0), "mediodia": (14, 30), "noche": (21, 30)}.get(slot)
     if not target:
         return
     try:
@@ -75,7 +75,7 @@ def wait_until_slot():
         pass
 
 
-if slot in ("mediodia", "noche") and not dry and already_published() and os.environ.get("FORCE") != "true":
+if slot in ("manana", "mediodia", "noche") and not dry and already_published() and os.environ.get("FORCE") != "true":
     raise SystemExit(f"El hueco {slot} de hoy ya está publicado; no se repite")
 
 status = []
@@ -177,7 +177,7 @@ for fmt in chain:
         print(f"[{fmt}] no ha podido salir, pruebo el siguiente formato:\n{traceback.format_exc()[-1500:]}", flush=True)
 
 story_mp4 = None
-if meta:
+if meta and slot != "manana":                      # a las 8:00 la story de Instagram es el propio reel
     try:                                           # story de 12 s para Instagram y TikTok
         import story
         story_mp4 = story.build(meta["story_base"], out.replace(".mp4", "_story.mp4"), meta["formato"])
