@@ -118,5 +118,23 @@
 "topic": "inmunidadVacunas",
 "fecha": "2026-10-19",
 "formato": "pregunta_del_dia"
+},
+{
+"id": "c5f17e915f",
+"topic": "incontinenciaUrinaria",
+"fecha": "2026-10-19",
+"formato": "simulacro_3"
+},
+{
+"id": "bb07ce8946",
+"topic": "respiratorio",
+"fecha": "2026-10-19",
+"formato": "simulacro_3"
+},
+{
+"id": "995064f50a",
+"topic": "sondasDigestivas",
+"fecha": "2026-10-19",
+"formato": "simulacro_3"
 }
 ]
