@@ -26,5 +26,19 @@
 "tiktok": "6ad683651dd0e1989931abf9"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-10-20",
+"topic": "muestras",
+"tema": "Recogida de Muestras",
+"subtema": "Tipos de recogida de sangre",
+"quiz_id": "c331cd4fd5",
+"imagenes": 6,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/DeuoFP7GOqe/",
+"tiktok": "6ad7c664bc5961c493a113ee"
+},
+"dry_run": false
 }
 ]
