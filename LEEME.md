@@ -44,8 +44,9 @@ publica la solución de cada reel de ayer:
 - **TikTok:** un carrusel de fotos "Soluciones del reto de ayer" (la API de TikTok no permite comentar).
 Las imágenes de solución se guardan en `soluciones/` del repositorio (público) y el registro en `soluciones_hechas.json`.
 Interruptores (Variables): `SOLUCION_MANANA=false` vuelve a los reels con la solución dentro; `SOLUCIONES_TIKTOK`,
-`SOLUCIONES_STORIES`, `SOLUCIONES_RESPUESTAS` = `false` desactivan cada parte. Con la solución al día siguiente no se usan
-los formatos que la muestran por diseño (repaso exprés con fichas y truco para memorizar); el sábado es "Sábado de reto".
+`SOLUCIONES_STORIES`, `SOLUCIONES_RESPUESTAS` = `false` desactivan cada parte. El repaso exprés con fichas y el truco para
+memorizar siguen enseñando la respuesta (son reels para estudiar y dan variedad): el piloto automático los alterna con
+los de reto.
 
 ## Qué sale en cada reel
 Sin mascota: tarjeta de test con la marca (teal + ámbar) y voz en off en español de España.
