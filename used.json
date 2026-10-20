@@ -154,5 +154,11 @@
 "topic": "constitucionEspanola",
 "fecha": "2026-10-20",
 "formato": "pregunta_del_dia"
+},
+{
+"id": "0d9029b1ac",
+"topic": "saludLaboral",
+"fecha": "2026-10-20",
+"formato": "examen_real"
 }
 ]

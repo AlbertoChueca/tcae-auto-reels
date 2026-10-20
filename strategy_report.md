@@ -1,6 +1,6 @@
 # Piloto automático Aprueba TCAE - qué está funcionando
 
-_Updated 2026-10-20 · 5 reels with results (3+ days old) · average score 6.49_
+_Updated 2026-10-20 · 5 reels with results (3+ days old) · average score 6.50_
 
 
 Still collecting data: options are being tested evenly for now.
@@ -10,7 +10,7 @@ Still collecting data: options are being tested evenly for now.
 
 | option | reels | avg score |
 |---|---|---|
-| pregunta_del_dia | 5 | 6.49 |
+| pregunta_del_dia | 5 | 6.50 |
 | examen_real | 0 | - |
 | error_tipico | 0 | - |
 | truco_memorizar | 0 | - |
@@ -24,9 +24,9 @@ Still collecting data: options are being tested evenly for now.
 
 | option | reels | avg score |
 |---|---|---|
-| minimal | 1 | 7.02 |
-| examen | 1 | 6.70 |
-| noche | 2 | 6.43 |
+| minimal | 1 | 7.03 |
+| examen | 1 | 6.71 |
+| noche | 2 | 6.45 |
 | marca | 1 | 5.88 |
 | clasico | 0 | - |
 | cuaderno | 0 | - |
@@ -36,9 +36,9 @@ Still collecting data: options are being tested evenly for now.
 
 | option | reels | avg score |
 |---|---|---|
-| examen | 1 | 7.02 |
-| trampa | 1 | 6.70 |
-| empatía | 2 | 6.43 |
+| examen | 1 | 7.03 |
+| trampa | 1 | 6.71 |
+| empatía | 2 | 6.45 |
 | curiosidad | 1 | 5.88 |
 | reto | 0 | - |
 | repaso exprés | 0 | - |
@@ -47,14 +47,14 @@ Still collecting data: options are being tested evenly for now.
 
 | option | reels | avg score |
 |---|---|---|
-| mixto | 1 | 7.02 |
-| clinico | 1 | 6.70 |
-| legislacion | 2 | 6.43 |
+| mixto | 1 | 7.03 |
+| clinico | 1 | 6.71 |
+| legislacion | 2 | 6.45 |
 
 ## think_time
 
 | option | reels | avg score |
 |---|---|---|
-| normal | 1 | 7.02 |
-| largo | 4 | 6.36 |
+| normal | 1 | 7.03 |
+| largo | 4 | 6.37 |
 | corto | 0 | - |
