@@ -160,5 +160,11 @@
 "topic": "saludLaboral",
 "fecha": "2026-10-20",
 "formato": "examen_real"
+},
+{
+"id": "faf0d7e084",
+"topic": "higienePaciente",
+"fecha": "2026-10-20",
+"formato": "pregunta_del_dia"
 }
 ]
