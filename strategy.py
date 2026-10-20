@@ -44,9 +44,16 @@ def arms():
         for k, v in DEFAULT_ARMS.items():
             a.setdefault(k, v)
         a["bloque"] = [b for b in a["bloque"] if b != "aragon"] or list(DEFAULT_ARMS["bloque"])   # cuenta generalista
-        return a
+        return _sin_solucion(a)
     except Exception:
-        return {k: list(v) for k, v in DEFAULT_ARMS.items()}
+        return _sin_solucion({k: list(v) for k, v in DEFAULT_ARMS.items()})
+
+
+def _sin_solucion(a):
+    """Con la solución al día siguiente (SOLUCION_MANANA, por defecto) no se usan los formatos que la enseñan por diseño."""
+    if os.environ.get("SOLUCION_MANANA", "true").lower() != "false":
+        a["formato"] = [f for f in a["formato"] if f not in ("flashcards_express", "truco_memorizar")] or ["pregunta_del_dia"]
+    return a
 
 
 def reward(r):

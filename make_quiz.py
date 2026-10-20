@@ -1,7 +1,9 @@
 """Reel tipo test de Aprueba TCAE (sin mascota: diseño de tarjeta + voz en off), en 6 estilos visuales (themes.py).
 
 Estructura: gancho -> pregunta (la voz la lee, las palabras se iluminan al decirlas) -> cuenta atrás para pensar ->
-respuesta correcta resaltada (con destello) -> explicación breve con su referencia -> cierre con la web app.
+"¿Cuál es la tuya? Coméntala: la solución, mañana" -> cierre con la web app. La solución NO sale en el vídeo
+(más comentarios): se guarda como imagen y texto y soluciones.py la publica al día siguiente (comentario en el reel,
+respuesta a cada comentario, stories y carrusel de TikTok). SOLUCION_MANANA=false vuelve al reel con la solución dentro.
 Formatos: pregunta_del_dia, examen_real, error_tipico, truco_memorizar, mito_realidad, simulacro_3, legislacion_30s,
 caso_practico (escena ilustrada + pregunta) y flashcards_express (4 fichas de la app que se giran).
 
@@ -34,6 +36,15 @@ DEFAULT_STYLE = {"caption_scale": 1.0, "screen_hook": "", "follow_line": "Sígue
 TAGS_FIXED = ["#TCAE", "#oposicionesTCAE"]
 TAGS_ROT = ["#auxiliardeenfermeria", "#oposiciones", "#TCAEoposiciones", "#tecnicoencuidados"]
 T = themes.get("marca")
+HIDE = os.environ.get("SOLUCION_MANANA", "true").lower() != "false"
+REVEAL_FMTS = ("flashcards_express", "truco_memorizar")    # formatos que muestran la respuesta por diseño
+ASK_LINES = {"simulacro_3": "Escribe tus tres letras en comentarios. Mañana te doy las soluciones.",
+             "mito_realidad": "¿Mito o realidad? Déjalo en comentarios. Mañana te lo resuelvo.",
+             "_": "¿Cuál marcarías tú? Escríbela en comentarios. Mañana te doy la solución."}
+
+
+def hides(fmt):
+    return HIDE and fmt not in REVEAL_FMTS
 
 
 def ctop(h):
@@ -302,6 +313,25 @@ def burst(fr, cx, cy, lt, seed=3):
 def lines_for(fmt, items, S):
     P = items[0]
     L = [("hook", S["hook_line"], "upbeat, playful challenge")]
+    if hides(fmt):                                       # sin solución: la pregunta y "coméntalo, mañana la solución"
+        if fmt == "simulacro_3":
+            for i, Q in enumerate(items):
+                L.append((f"q{i}", Q["pregunta"], "clear, brisk"))
+        elif fmt == "mito_realidad":
+            L.append(("st", S["afirmacion"], "intriguing"))
+        else:
+            if fmt == "legislacion_30s":
+                for k, p in enumerate(S["puntos"]):
+                    L.append((f"p{k}", p, "clear, explaining"))
+            if fmt == "caso_practico":
+                L.append(("esc", S["escena"], "storytelling, slight suspense"))
+            L.append(("q", P["pregunta"], "natural, clear"))
+            if fmt != "legislacion_30s":
+                for k, o in enumerate(P["op"]):
+                    L.append((f"o{k}", f"{QB.LETTERS[k]}. {o}", "natural, listing"))
+        L.append(("ask", ASK_LINES.get(fmt, ASK_LINES["_"]), "warm, inviting"))
+        L.append(("cta", S["cta_line"], "warm, encouraging"))
+        return L
     if fmt == "flashcards_express":
         for i, F in enumerate(items):
             L.append((f"fq{i}", F["q"], "clear, quick question"))
@@ -372,7 +402,8 @@ def caption_text(fmt, items, S, rng, st=None):
         body = (S["escena"] + "\n\n" if fmt == "caso_practico" else "") + P["pregunta"] + "\n" + \
                "\n".join(f"{QB.LETTERS[k]}) {o}" for k, o in enumerate(P["op"]))
     tags = TAGS_FIXED + rng.sample(TAGS_ROT, 3)
-    sol = "" if fmt == "flashcards_express" else " La solución, al final del vídeo."
+    sol = "" if fmt == "flashcards_express" else (" Mañana te doy la solución aquí, en los comentarios 👇" if hides(fmt)
+                                                   else " La solución, al final del vídeo.")
     extra = "".join(f"{x}\n" for x in (S.get("save_caption"), S.get("tag_caption"), S.get("app_caption"),
                                         S.get("follow_caption"), S.get("seo_line")) if x)
     return (f"{S['caption_hook']}\n\n{body}\n\n{S['comment_prompt'].rstrip('.!')}.{sol}\n\n" + (extra + "\n" if extra else "")
@@ -448,7 +479,30 @@ def build(fmt, items, S, seed, out, arms=None, style=None, max_len=58.0, keep_vo
             VO[k] = at
 
         seg("hook", max(2.6, D["hook"] + 0.6)); say("hook", 0.25)
-        if fmt == "flashcards_express":
+        if hides(fmt):
+            if fmt == "simulacro_3":
+                for i, Q in enumerate(items):
+                    a = t; seg("question", D[f"q{i}"] + 0.9, q=i); say(f"q{i}", a + 0.45)
+                    seg("count", count, q=i, n=count)
+            elif fmt == "mito_realidad":
+                a = t; seg("statement", D["st"] + 1.0); say("st", a + 0.45)
+                seg("count", count, q=0, n=count)
+            else:
+                if fmt == "legislacion_30s":
+                    a = t; tt = a + 0.5; starts = []
+                    for k in range(3):
+                        starts.append(tt); say(f"p{k}", tt); tt += D[f"p{k}"] + 0.35
+                    seg("points", tt - a + 0.5, starts=starts)
+                if fmt == "caso_practico":
+                    a = t; seg("scene", D["esc"] + 1.0); say("esc", a + 0.4)
+                a = t; tt = a + 0.45; say("q", tt); tt += D["q"] + 0.3; ostarts = []
+                if "o0" in A:
+                    for k in range(4):
+                        ostarts.append(tt); say(f"o{k}", tt); tt += D[f"o{k}"] + 0.2
+                seg("question", tt - a + 0.3, q=0, ostarts=ostarts)
+                seg("count", count, q=0, n=count)
+            a = t; seg("ask", max(3.4, D["ask"] + 1.4), q=len(items) - 1); say("ask", a + 0.3)
+        elif fmt == "flashcards_express":
             pause = max(1.2, min(2.5, count / 3))
             for i in range(len(items)):
                 a = t; seg("fq", D[f"fq{i}"] + 0.6 + pause, q=i); say(f"fq{i}", a + 0.35)
@@ -588,6 +642,10 @@ def build(fmt, items, S, seed, out, arms=None, style=None, max_len=58.0, keep_vo
         for p in ps:
             score_row.alpha_composite(p, (x, 0)); x += p.width + 18
     comment_lab = fx.pill("COMENTA: A, B, C O D", 40, T.pill_bg, T.pill_fg, padx=30, pady=12, outline=T.pill_outline)
+    ask_pill = fx.pill("COMENTA · SOLUCIÓN MAÑANA", 44, T.title_bg, T.title_fg, padx=34, pady=16)
+    ask_head = fx.headline("Escribe tus 3 letras" if fmt == "simulacro_3" else "¿Cuál es la tuya?", 104, 900, 3,
+                           color=T.head_col, hot=T.head_hot, hot_words=("3", "tuya?"), stroke=T.head_stroke,
+                           stroke_col=T.head_stroke_col, shadow=T.head_shadow)
     reto_lab = fx.pill(st["reto_line"].upper(), 38, T.pill_bg, T.pill_fg, padx=30, pady=12, outline=T.pill_outline) \
         if st.get("reto_line") else None
     save_lab = fx.pill(st["save_line"].upper(), 34, T.title_bg, T.title_fg, padx=26, pady=12) if st.get("save_line") else None
@@ -717,6 +775,25 @@ def build(fmt, items, S, seed, out, arms=None, style=None, max_len=58.0, keep_vo
                 else:
                     fx.paste_center(fr, stamp_img, W / 2, ctop(img.height) + img.height / 2, 1.6 - 0.6 * eob(lt / 0.3), min(1, lt / 0.1), -8)
                     burst(fr, W / 2, ctop(img.height) + img.height / 2, lt)
+        elif kind == "ask":
+            if stmt is not None:
+                img = stmt.render()
+            elif fmt == "simulacro_3":
+                img = None
+            else:
+                img = cards[sg["q"]].render()
+            if img is not None:
+                top_ = ctop(img.height)
+                fx.paste_center(fr, shadow(img), W / 2, top_ + img.height / 2)
+                y_p = top_ + img.height + 64
+                if y_p + 40 > fx.SAFE_BOTTOM:
+                    y_p = top_ - 52
+                fx.paste_center(fr, ask_pill, W / 2, y_p, eob(lt / 0.35), 1, -2 * math.sin(min(1, lt / 0.4) * math.pi))
+            else:
+                fx.paste_center(fr, ask_head, W / 2, 760, eob(lt / 0.35))
+                fx.paste_center(fr, ask_pill, W / 2, 1010, eob((lt - 0.3) / 0.35))
+            s_ = sub_img("ask", tt, 46)
+            if s_ is not None and img is None: fx.paste_center(fr, s_, W / 2, 1260)
         elif kind == "explain":
             img = expl.render(lit=lit("ex", tt)); im_, y, p = card_at(img, tt, sg["a"])
             fx.paste_center(fr, shadow(im_), W / 2, y, alpha=p)
@@ -753,11 +830,77 @@ def build(fmt, items, S, seed, out, arms=None, style=None, max_len=58.0, keep_vo
 
     cap = caption_text(fmt, items, S, rng, st)
     open(out.replace(".mp4", ".txt"), "w").write(cap)
+    sol_imgs, sol_txt = [], None
+    if hides(fmt):
+        try:
+            sol_imgs, sol_txt = solution_assets(fmt, items, S, out, bg, cards, stmt, expl, stamp_img, web_img)
+        except Exception as e:
+            print("soluciones: no se pudieron preparar:", str(e)[:200], flush=True)
     return {"formato": fmt, "estilo": T.name, "ids": [Q["id"] for Q in items], "temas": [Q["tema"] for Q in items],
             "respuestas": [Q["letra"] for Q in items] if fmt != "flashcards_express" else [],
             "veredicto": S.get("veredicto"), "hook": S["screen_hook"], "hook_line": S["hook_line"],
             "duration": round(total, 1), "timeline": [(s_["kind"], round(s_["a"], 2)) for s_ in SEG],
-            "thumb_ms": int(1200), "slides": slides, "story_base": story_base or (slides[0] if slides else None)}
+            "thumb_ms": int(1200), "slides": slides, "story_base": story_base or (slides[0] if slides else None),
+            "soluciones": sol_imgs, "solucion_texto": sol_txt}
+
+
+def _short(txt, n=40):
+    txt = (txt or "").strip()
+    return txt if txt and len(txt.split()) <= n else ""
+
+
+def solution_assets(fmt, items, S, out, bg, cards, stmt, expl, stamp_img, web_img):
+    """Imágenes (story vertical, JPEG 720x1280) y texto de la solución que se publican AL DÍA SIGUIENTE."""
+    P = items[0]
+    paths, parts = [], []
+
+    def canvas(blocks, title):
+        fr = bg.frame(0.0).copy()
+        fx.paste_center(fr, web_img, W / 2, 222)
+        head = fx.pill(title, 52, T.title_bg, T.title_fg, padx=40, pady=18)
+        fx.paste_center(fr, head, W / 2, 330)
+        blocks = [b for b in blocks if b is not None]
+        gap = 36
+        col_h = sum(b.height for b in blocks) + gap * (len(blocks) - 1)
+        col_w = max(b.width for b in blocks)
+        col = Image.new("RGBA", (col_w, col_h), (0, 0, 0, 0)); y = 0
+        for b in blocks:
+            col.alpha_composite(b, ((col_w - b.width) // 2, y)); y += b.height + gap
+        sc = min(1.0, 1380 / col.height, 1000 / col.width)
+        if sc < 1:
+            col = col.resize((int(col.width * sc), int(col.height * sc)), Image.LANCZOS)
+        fx.paste_center(fr, col, W / 2, 410 + col.height / 2)
+        return fr
+
+    def save(fr, i):
+        path = out.replace(".mp4", f"_solucion{i}.jpg")
+        fr.convert("RGB").resize((720, 1280), Image.LANCZOS).save(path, "JPEG", quality=86, optimize=True)
+        paths.append(path)
+
+    if fmt == "mito_realidad":
+        card = stmt.render()
+        st_ = stamp_img.rotate(-8, expand=True) if stamp_img is not None else None
+        save(canvas([fx.shadowed(card), st_, fx.shadowed(expl.render()) if expl is not None else None], "SOLUCIÓN DE AYER"), 1)
+        parts.append(f"✅ Solución: es {S['veredicto']}.\n\n{S.get('explicacion', '')}".strip())
+    elif fmt == "simulacro_3":
+        lines = []
+        for i, (Q, C) in enumerate(zip(items, cards)):
+            ex = _short(Q.get("explicacion"), 34)
+            exc = TextCard("¿POR QUÉ?", ex, ref_label(Q), body_size=46) if ex else None
+            save(canvas([fx.shadowed(C.render(reveal=1.0)), fx.shadowed(exc.render()) if exc else None],
+                        f"SOLUCIÓN {i + 1}/{len(items)}"), i + 1)
+            lines.append(f"{i + 1}. {Q['letra']}) {Q['op'][Q['ok']]}")
+        parts.append("✅ Soluciones del simulacro:\n" + "\n".join(lines))
+    else:
+        C = cards[0]
+        tr = QB.LETTERS.index(S["trampa"]) if fmt == "error_tipico" and S.get("trampa") else None
+        card = C.render(reveal=1.0, trampa=tr, show_trampa=1.0 if tr is not None else 0.0)
+        ex_txt = S.get("trampa_porque") if fmt == "error_tipico" else (S.get("explicacion") or _short(P.get("explicacion"), 40))
+        exc = expl if (expl is not None and fmt != "truco_memorizar") else (
+            TextCard("¿POR QUÉ?", ex_txt, ref_label(P), body_size=50) if ex_txt else None)
+        save(canvas([fx.shadowed(card), fx.shadowed(exc.render()) if exc is not None else None], "SOLUCIÓN DE AYER"), 1)
+        parts.append(f"✅ Solución: {P['letra']}) {P['op'][P['ok']]}" + (f"\n\n{ex_txt}" if ex_txt else ""))
+    return paths, "\n\n".join(parts)
 
 
 def mock_script(fmt, items):

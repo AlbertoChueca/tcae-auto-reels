@@ -226,8 +226,16 @@ if summary:
                                                   for k, v in results.items()))
 meta["voice"] = voice_used
 meta["arms"] = arms
+if meta.get("soluciones") and any(not str(v).startswith("error") for v in results.values()):
+    import shutil                                  # la solución se publica mañana (soluciones.py): se guarda en el repo
+    os.makedirs("soluciones", exist_ok=True)
+    kept = []
+    for i, pth in enumerate(meta["soluciones"]):
+        dst = f"soluciones/{today}_{slot}_{i + 1}.jpg"
+        shutil.copy(pth, dst); kept.append(dst)
+    meta["soluciones"] = kept
 log({k: meta.get(k) for k in ("formato", "estilo", "series", "imagen", "concepto", "voice_speed", "music", "ids", "temas", "respuestas", "veredicto", "hook", "hook_line", "duration", "guion",
                               "voice", "review_score", "design_score", "arms", "location", "permalink", "media_id",
-                              "publicado")})
+                              "publicado", "soluciones", "solucion_texto")})
 if all(str(v).startswith("error") for v in results.values()):
     raise SystemExit("No se pudo publicar en ninguna red")

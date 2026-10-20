@@ -1,0 +1,59 @@
+name: Soluciones
+
+# Los reels no enseñan la respuesta: al día siguiente, a las 13:00 (hora de España), se publica la solución de cada
+# reel de ayer: comentario en el reel, respuesta a quien dejó su letra, story con la solución y carrusel en TikTok.
+on:
+  schedule:
+    - cron: "0 11 * 3-10 *"          # 13:00 verano (CEST)
+    - cron: "0 12 * 1-3,10-12 *"     # 13:00 invierno (CET)
+  workflow_dispatch:
+    inputs:
+      dia:
+        description: "Día de los reels (AAAA-MM-DD). Vacío = ayer"
+        default: ""
+      dry_run:
+        description: "Solo mostrar lo que haría (no publica)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: soluciones
+  cancel-in-progress: false
+
+jobs:
+  soluciones:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - name: ¿Toca hoy?
+        id: gate
+        run: |
+          S="${{ github.event.schedule }}"
+          if [ -z "$S" ]; then echo "go=yes" >> "$GITHUB_OUTPUT"; exit 0; fi
+          UTC_H=$(echo "$S" | awk '{print $2}')
+          OFF=$(TZ=Europe/Madrid date +%z | cut -c2-3 | sed 's/^0//')
+          if [ $(( (UTC_H + OFF) % 24 )) -eq 13 ]; then echo "go=yes" >> "$GITHUB_OUTPUT"; else echo "go=no" >> "$GITHUB_OUTPUT"; fi
+      - uses: actions/checkout@v5
+        if: steps.gate.outputs.go == 'yes'
+      - uses: actions/setup-python@v6
+        if: steps.gate.outputs.go == 'yes'
+        with:
+          python-version: "3.11"
+      - if: steps.gate.outputs.go == 'yes'
+        run: pip install requests
+      - name: Publicar las soluciones de ayer
+        if: steps.gate.outputs.go == 'yes'
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || false }}
+          SOLUCIONES_TIKTOK: ${{ vars.SOLUCIONES_TIKTOK || 'true' }}
+          SOLUCIONES_STORIES: ${{ vars.SOLUCIONES_STORIES || 'true' }}
+          SOLUCIONES_RESPUESTAS: ${{ vars.SOLUCIONES_RESPUESTAS || 'true' }}
+        run: python soluciones.py "${{ github.event_name == 'workflow_dispatch' && inputs.dia || '' }}"
+      - name: Recordar lo publicado
+        if: always() && steps.gate.outputs.go == 'yes'
+        run: python sincronizar.py "Soluciones $(date +%F)" soluciones_hechas.json

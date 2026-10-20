@@ -9,7 +9,7 @@ registros...) antes de subirlo, con reintentos.
 """
 import json, os, shutil, subprocess, sys, tempfile, time
 
-MERGE_DICT = {"banco/verificacion.json", "banco/verificacion_fichas.json", "performance.json"}
+MERGE_DICT = {"banco/verificacion.json", "banco/verificacion_fichas.json", "performance.json", "soluciones_hechas.json"}
 MERGE_LINES = {"log.jsonl", "review_log.jsonl", "image_log.jsonl"}
 
 

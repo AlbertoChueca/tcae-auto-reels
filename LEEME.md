@@ -33,6 +33,20 @@ Interruptores en **Variables**: `IG_STORY`, `TIKTOK`, `TIKTOK_CARRUSEL` (por def
 `YOUTUBE` → `true`, `false`, `mediodia` o `noche`. En TikTok la web se nombra tal cual (el enlace de la bio de TikTok no
 es clicable hasta tener seguidores suficientes).
 
+## La solución, al día siguiente (más comentarios)
+Los reels **no enseñan la respuesta**: tras la cuenta atrás sale "¿Cuál es la tuya? · COMENTA · SOLUCIÓN MAÑANA" y la
+voz invita a dejar la letra en comentarios. Al día siguiente a las **13:00** el workflow *Soluciones* (`soluciones.py`)
+publica la solución de cada reel de ayer:
+- **Instagram:** comentario en el reel con la solución y su explicación (texto ya verificado al crear el reel) y una
+  respuesta a cada persona que dejó su letra ("✅ ¡Correcta! Era la B" / "Esta vez no 😉 Era la B"). Los comentarios
+  que no son una respuesta no se contestan.
+- **Instagram stories:** una story "SOLUCIÓN DE AYER" por reel (la pregunta con la correcta marcada y el porqué).
+- **TikTok:** un carrusel de fotos "Soluciones del reto de ayer" (la API de TikTok no permite comentar).
+Las imágenes de solución se guardan en `soluciones/` del repositorio (público) y el registro en `soluciones_hechas.json`.
+Interruptores (Variables): `SOLUCION_MANANA=false` vuelve a los reels con la solución dentro; `SOLUCIONES_TIKTOK`,
+`SOLUCIONES_STORIES`, `SOLUCIONES_RESPUESTAS` = `false` desactivan cada parte. Con la solución al día siguiente no se usan
+los formatos que la muestran por diseño (repaso exprés con fichas y truco para memorizar); el sábado es "Sábado de reto".
+
 ## Qué sale en cada reel
 Sin mascota: tarjeta de test con la marca (teal + ámbar) y voz en off en español de España.
 **Gancho → pregunta (la voz la lee y las palabras se iluminan) → cuenta atrás → respuesta correcta en verde →

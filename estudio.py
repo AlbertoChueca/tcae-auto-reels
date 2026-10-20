@@ -52,7 +52,7 @@ NAMES = list(ROLES)
 # Serie fija de cada día (0 = lunes). El hueco de mediodía sigue la serie; el de la noche lo elige el piloto automático.
 SERIES = {0: ("Lunes de legislación", "legislacion_30s"), 1: ("Martes de trampas", "error_tipico"),
           2: ("Miércoles de simulacro", "simulacro_3"), 3: ("Jueves de casos prácticos", "caso_practico"),
-          4: ("Viernes de mitos", "mito_realidad"), 5: ("Sábado de repaso exprés", "flashcards_express"),
+          4: ("Viernes de mitos", "mito_realidad"), 5: ("Sábado de reto", "pregunta_del_dia"),
           6: ("Domingo de examen real", "examen_real")}
 
 AUDIENCE = ("Público: adultos que preparan las oposiciones de TCAE en cualquier comunidad de España, muchas trabajando a "
