@@ -1,5 +1,5 @@
-# Cuaderno de ilustradora (2026-10-19)
+# Cuaderno de ilustradora (2026-10-20)
 
-- Seguir haciendo: Escenas íntimas verticales con iluminación tenue de descanso posturno.
-- Dejar de hacer: Generar elementos duplicados en la escena (error corregido de dos tazas simultáneas en la propuesta del 14/10).
-- Probar: Ilustración hiperlimpia de una TCAE en el mostrador de planta durante la guardia nocturna, con un único foco de luz cálida y sin sobrecarga de objetos.
+- Seguir haciendo: Composiciones verticales realistas con iluminación tenue de turno nocturno hospitalario.
+- Dejar de hacer: Duplicar objetos en escena o incorporar guantes para manipular material limpio (errores corregidos del 14/10 y 19/10).
+- Probar: TCAE en el mostrador de planta revisando incidencias con manos limpias descubiertas, ambiente azulado y foco cálido.

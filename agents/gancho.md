@@ -1,5 +1,7 @@
-# Cuaderno de gancho (2026-10-19)
+# Cuaderno de gancho (2026-10-20)
 
-- Seguir haciendo: Preguntas de reto directo en pantalla ("¿Te sabes este artículo?", "¿La acertarías en el examen?"), que lideran con más de 85 views y scores sobre 6.20.
-- Dejar de hacer: Ganchos descriptivos o pasivos ("4 fichas de repaso", "Pregunta real de examen"), que registran el peor visionado (6s) y score mínimo (4.64).
-- Probar: Fórmulas que unan interpelación directa y aviso de fallo común (ej. "¿Caerías en esta trampa de examen?") para blindar los primeros dos segundos.
+# Cuaderno de gancho (2026-10-20)
+
+- Seguir haciendo: Ganchos de autoridad y reto directo ("Pregunta real de examen", "¿Te sabes este artículo?"), que lideran el score (6.71 y 6.69) y superan las 100 views.
+- Dejar de hacer: Fórmulas tibias o de nicho con bajo impacto como "Pregunta clave de vacunas", que hundieron el reel a solo 40 visualizaciones y score de 4.99.
+- Probar: Unir examen real y reto: "Pregunta real de examen: ¿caes en la trampa o sumas plaza?" para captar en los primeros 2 segundos.

@@ -1,5 +1,5 @@
-# Cuaderno de directora_creativa (2026-10-19)
+# Cuaderno de directora_creativa (2026-10-20)
 
-- Seguir haciendo: Priorizar el formato 'pregunta_del_dia' en 'estilo noche', líder absoluto con 87 views, 18,1 s de retención y score 6.53.
-- Dejar de hacer: Publicar sin apoyo visual ('imagen no' en el 100% del historial) y formatos débiles como 'flashcards_express' (score 4.64).
-- Probar: Implementar la ilustración aprobada (TCAE posturno con una sola taza) bajo la atmósfera del 'estilo noche' para comprobar si mejora el impacto visual.
+- Seguir haciendo: Priorizar 'estilo noche' y 'estilo marca', que lideran en métricas (scores 6.71 y 6.69, retención superior a 18 s).
+- Dejar de hacer: Publicaciones sin apoyo gráfico ('imagen no' en el 100% del histórico).
+- Probar: Integrar la ilustración validada del control de enfermería nocturno para comprobar si el soporte visual eleva la interacción.

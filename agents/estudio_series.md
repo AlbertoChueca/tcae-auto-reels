@@ -1,5 +1,5 @@
-# Cuaderno de series (2026-10-19)
+# Cuaderno de series (2026-10-20)
 
-- Seguir haciendo: Datos insuficientes para medir rendimiento de series (todas registradas como 'None').
-- Dejar de hacer: Publicaciones sueltas sin periodicidad ni fidelización de audiencia.
-- Probar: Lanzar la primera franquicia fija: 'Guardia Nocturna: El Artículo del Turno (Cap. 1)' aprovechando la tracción del estilo noche.
+- Seguir haciendo: Los datos no bastan para evaluar series, ya que todas figuran como 'None' en el registro.
+- Dejar de hacer: Publicaciones desconectadas sin cita fija que diluyen la fidelización.
+- Probar: Lanzar la franquicia 'Turno de Noche: Pregunta de Examen (Ep. 1)', aprovechando el tirón del estilo nocturno.

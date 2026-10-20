@@ -1,5 +1,5 @@
-# Cuaderno de memoria (2026-10-19)
+# Cuaderno de memoria (2026-10-20)
 
-- Seguir haciendo: Aperturas de autoevaluación activa tipo reto ('¿La acertarías en el examen?', 86 views y 14 s).
-- Dejar de hacer: Dar la respuesta sin exigir esfuerzo de retención ni acción de guardado (0 guardados en todas las publicaciones).
-- Probar: Añadir antes de la solución: 'Guarda este vídeo para repasarlo en tu ciclo de repetición espaciada de 7 días'.
+- Seguir haciendo: Fórmulas de autoevaluación activa, únicas que han generado guardados (máximo 1).
+- Dejar de hacer: Resolver la pregunta sin activar la retención (la mayoría registra 0 guardados).
+- Probar: Pauta explícita antes de la solución: 'Guarda este reel para tu repaso espaciado de 7 días antes de la OPE'.

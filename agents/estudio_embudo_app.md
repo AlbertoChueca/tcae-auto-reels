@@ -1,5 +1,5 @@
-# Cuaderno de embudo_app (2026-10-19)
+# Cuaderno de embudo_app (2026-10-20)
 
-- Seguir haciendo: Seleccionar preguntas oficiales de examen que despiertan interés (86-87 views).
-- Dejar de hacer: Cerrar sin vincular la duda con la plataforma (visitas al perfil y seguidores en 'None').
-- Probar: CTA explícito al final: 'Entrena 10 preguntas oficiales más de este bloque en apruebatcae.com'.
+- Seguir haciendo: Preguntas oficiales de examen que sostienen el interés general (scores entre 6.52 y 6.71).
+- Dejar de hacer: Finales sin llamada a la acción (visitas al perfil y seguidores en 'None').
+- Probar: CTA directo: 'Practica 10 preguntas oficiales más de este bloque en los test gratuitos de apruebatcae.com'.

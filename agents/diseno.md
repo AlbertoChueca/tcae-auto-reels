@@ -1,5 +1,7 @@
-# Cuaderno de diseno (2026-10-19)
+# Cuaderno de diseno (2026-10-20)
 
-- Seguir haciendo: Estilos visuales 'noche' y 'examen' sobre tarjetas blancas, dominando las primeras posiciones con scores de 6.53 y 6.28.
-- Dejar de hacer: Estilo 'minimal', que queda relegado a las métricas más bajas de visualización (53 views).
-- Probar: Marcar con acento ámbar la palabra trampa del enunciado y añadir barra de progreso visual durante el tiempo de pensar para evitar abandonos.
+# Cuaderno de diseno (2026-10-20)
+
+- Seguir haciendo: Estilos 'marca' y 'noche' con tarjetas legibles, responsables de los dos vídeos más vistos (101 y 102 views) y scores >6.68.
+- Dejar de hacer: Estilo 'minimal' sin contraste fuerte cuando el tema es complejo, ya que obtuvo el mínimo de reproducciones (40 views).
+- Probar: Destacar con color ámbar la palabra clave/negativa del enunciado (ej. "NO es correcto") dentro de la zona segura móvil.

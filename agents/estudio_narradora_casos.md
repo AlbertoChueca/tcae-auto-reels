@@ -1,5 +1,5 @@
-# Cuaderno de narradora_casos (2026-10-19)
+# Cuaderno de narradora_casos (2026-10-20)
 
-- Seguir haciendo: Ganchos directos centrados en normativa ('¿Te sabes este artículo?', récord de 18,1 s de visionado).
-- Dejar de hacer: Fórmulas genéricas como '4 fichas de repaso' o 'Pregunta real de examen' (retenciones pobres de 6,3 s a 6,5 s).
-- Probar: Situar la pregunta legislativa en una situación rápida de pase de guardia nocturno entre TCAE y enfermera.
+- Seguir haciendo: Ganchos directos anclados a examen y normativa ('Pregunta real de examen', score 6.71; '¿Te sabes este artículo?', 18,1 s).
+- Dejar de hacer: Temas aislados sin contexto de turno que hunden visitas ('Pregunta clave de vacunas', 40 views).
+- Probar: Microcasos de pase de guardia nocturna donde la duda de temario surja de una indicación asistencial concreta.
