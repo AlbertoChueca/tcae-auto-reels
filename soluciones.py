@@ -172,7 +172,7 @@ def main(day=None):
         rows.append("- No hay reels con solución pendiente.")
     has_ig = bool(os.environ.get("IG_TOKEN"))
     for e in es:
-        key = f"{day}_{e.get('slot')}"
+        key = f"{day}_{e.get('slot')}_{(e.get('ids') or ['x'])[0]}"
         st = done.setdefault(key, {"fecha": str(datetime.date.today()), "respondidos": [], "stories": []})
         st["fecha"] = str(datetime.date.today())
         print(f"• {key}: {e.get('formato')} · respuesta {e.get('respuestas') or e.get('veredicto')}", flush=True)

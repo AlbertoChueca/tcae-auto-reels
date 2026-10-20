@@ -231,7 +231,7 @@ if meta.get("soluciones") and any(not str(v).startswith("error") for v in result
     os.makedirs("soluciones", exist_ok=True)
     kept = []
     for i, pth in enumerate(meta["soluciones"]):
-        dst = f"soluciones/{today}_{slot}_{i + 1}.jpg"
+        dst = f"soluciones/{today}_{slot}_{now:%H%M}_{i + 1}.jpg"        # nombre único aunque haya 2 reels manuales
         shutil.copy(pth, dst); kept.append(dst)
     meta["soluciones"] = kept
 log({k: meta.get(k) for k in ("formato", "estilo", "series", "imagen", "concepto", "voice_speed", "music", "ids", "temas", "respuestas", "veredicto", "hook", "hook_line", "duration", "guion",
