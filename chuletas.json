@@ -40,5 +40,19 @@
 "tiktok": "6ad7c664bc5961c493a113ee"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-10-21",
+"topic": "prevencionSalud",
+"tema": "Prevención y Promoción de la Salud",
+"subtema": "Niveles de prevención de la salud",
+"quiz_id": "009265c349",
+"imagenes": 6,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/DexNdqCkoES/",
+"tiktok": "6ad91916bf9405f2f84bebcb"
+},
+"dry_run": false
 }
 ]
