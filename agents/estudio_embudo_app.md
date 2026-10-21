@@ -1,5 +1,5 @@
-# Cuaderno de embudo_app (2026-10-20)
+# Cuaderno de embudo_app (2026-10-21)
 
-- Seguir haciendo: Preguntas oficiales de examen que sostienen el interés general (scores entre 6.52 y 6.71).
-- Dejar de hacer: Finales sin llamada a la acción (visitas al perfil y seguidores en 'None').
-- Probar: CTA directo: 'Practica 10 preguntas oficiales más de este bloque en los test gratuitos de apruebatcae.com'.
+- Seguir haciendo: Vincular contenidos a preguntas de examen y simulacros oficiales, los formatos con mejor valoración.
+- Dejar de hacer: Reels sin llamada a la acción hacia la plataforma (visitas y seguidores en 'None').
+- Probar: CTA directo al final: 'Haz el simulacro completo de este bloque gratis en apruebatcae.com'.

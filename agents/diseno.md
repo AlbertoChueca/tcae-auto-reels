@@ -1,7 +1,5 @@
-# Cuaderno de diseno (2026-10-20)
+# Cuaderno de diseno (2026-10-21)
 
-# Cuaderno de diseno (2026-10-20)
-
-- Seguir haciendo: Estilos 'marca' y 'noche' con tarjetas legibles, responsables de los dos vídeos más vistos (101 y 102 views) y scores >6.68.
-- Dejar de hacer: Estilo 'minimal' sin contraste fuerte cuando el tema es complejo, ya que obtuvo el mínimo de reproducciones (40 views).
-- Probar: Destacar con color ámbar la palabra clave/negativa del enunciado (ej. "NO es correcto") dentro de la zona segura móvil.
+- Seguir haciendo: Estilos 'noche' y 'examen', presentes en los mejores resultados de reproducciones (151 y 161 views) y retención.
+- Dejar de hacer: Estilo 'minimal' con ritmo rápido; no retiene ni genera guardados en temas densos.
+- Probar: Añadir contador visual sutil en ámbar ("1/3", "2/3", "3/3") en simulacros dentro de la zona segura para incentivar que se queden hasta el final.

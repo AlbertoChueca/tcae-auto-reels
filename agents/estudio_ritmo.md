@@ -1,5 +1,5 @@
-# Cuaderno de ritmo (2026-10-20)
+# Cuaderno de ritmo (2026-10-21)
 
-- Seguir haciendo: Ritmo pausado y envolvente que sostiene retenciones récord de 18 a 21 segundos en estilo noche y minimal.
-- Dejar de hacer: Locuciones o cortes acelerados que reducen el tiempo de consumo a 10-12 segundos.
-- Probar: Pausa de suspense de 2 segundos con señal sonora antes de mostrar la respuesta correcta.
+- Seguir haciendo: Pausas y cadencias sostenidas que logran tiempos de retención sólidos entre 10 y 20 segundos.
+- Dejar de hacer: Dinámicas precipitadas que cortan el tiempo de visualización antes de asimilar la pregunta.
+- Probar: Cuenta atrás sonora de 3 segundos previa a la resolución para incentivar la retención final.

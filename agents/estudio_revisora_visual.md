@@ -1,5 +1,5 @@
-# Cuaderno de revisora_visual (2026-10-20)
+# Cuaderno de revisora_visual (2026-10-21)
 
-- Seguir haciendo: Fiscalización minuciosa de protocolos de higiene (EPI) y coherencia de objetos antes de aprobar.
-- Dejar de hacer: Validar imágenes que muestren uso incorrecto de guantes en tareas limpias o duplicidad de utilería.
-- Probar: Checklist obligatorio: 0 texto, manos desnudas en material limpio, ergonomía adecuada y ausencia de pacientes visibles.
+- Seguir haciendo: Verificación rigurosa de protocolos EPI y asepsia (cero guantes en contacto con material limpio).
+- Dejar de hacer: Validar imágenes con duplicidades de atrezzo o texto tipográfico incrustado.
+- Probar: Checklist visual estricto previo a publicación: anatomía limpia, material sin contaminar, sin pacientes visibles y fidelidad a protocolos.
