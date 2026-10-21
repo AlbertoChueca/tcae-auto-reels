@@ -225,6 +225,7 @@ if summary:
         f.write("\n### Publicación\n" + "".join(f"- {'✅' if not str(v).startswith('error') else '❌'} {k}: {v}\n"
                                                   for k, v in results.items()))
 meta["voice"] = voice_used
+meta["ts"] = datetime.datetime.utcnow().isoformat(timespec="seconds")      # hora de publicación (respuestas en 24 h)
 meta["arms"] = arms
 if meta.get("soluciones") and any(not str(v).startswith("error") for v in results.values()):
     import shutil                                  # la solución se publica mañana (soluciones.py): se guarda en el repo
@@ -236,6 +237,6 @@ if meta.get("soluciones") and any(not str(v).startswith("error") for v in result
     meta["soluciones"] = kept
 log({k: meta.get(k) for k in ("formato", "estilo", "series", "imagen", "concepto", "voice_speed", "music", "ids", "temas", "respuestas", "veredicto", "hook", "hook_line", "duration", "guion",
                               "voice", "review_score", "design_score", "arms", "location", "permalink", "media_id",
-                              "publicado", "soluciones", "solucion_texto")})
+                              "publicado", "soluciones", "solucion_texto", "ts")})
 if all(str(v).startswith("error") for v in results.values()):
     raise SystemExit("No se pudo publicar en ninguna red")

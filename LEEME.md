@@ -33,20 +33,21 @@ Interruptores en **Variables**: `IG_STORY`, `TIKTOK`, `TIKTOK_CARRUSEL` (por def
 `YOUTUBE` → `true`, `false`, `mediodia` o `noche`. En TikTok la web se nombra tal cual (el enlace de la bio de TikTok no
 es clicable hasta tener seguidores suficientes).
 
-## La solución, al día siguiente (más comentarios)
-Los reels **no enseñan la respuesta**: tras la cuenta atrás sale "¿Cuál es la tuya? · COMENTA · SOLUCIÓN MAÑANA" y la
-voz invita a dejar la letra en comentarios. Al día siguiente a las **13:00** el workflow *Soluciones* (`soluciones.py`)
-publica la solución de cada reel de ayer:
-- **Instagram:** comentario en el reel con la solución y su explicación (texto ya verificado al crear el reel) y una
-  respuesta a cada persona que dejó su letra ("✅ ¡Correcta! Era la B" / "Esta vez no 😉 Era la B"). Los comentarios
-  que no son una respuesta no se contestan.
-- **Instagram stories:** una story "SOLUCIÓN DE AYER" por reel (la pregunta con la correcta marcada y el porqué).
-- **TikTok:** un carrusel de fotos "Soluciones del reto de ayer" (la API de TikTok no permite comentar).
-Las imágenes de solución se guardan en `soluciones/` del repositorio (público) y el registro en `soluciones_hechas.json`.
-Interruptores (Variables): `SOLUCION_MANANA=false` vuelve a los reels con la solución dentro; `SOLUCIONES_TIKTOK`,
-`SOLUCIONES_STORIES`, `SOLUCIONES_RESPUESTAS` = `false` desactivan cada parte. El repaso exprés con fichas y el truco para
-memorizar siguen enseñando la respuesta (son reels para estudiar y dan variedad): el piloto automático los alterna con
-los de reto.
+## Reels de reto: "Publica tu respuesta y la IA te contesta con la solución en 24 h"
+Los reels de reto **no enseñan la respuesta**: tras la cuenta atrás sale "PUBLICA TU RESPUESTA · LA IA TE CONTESTA CON LA
+SOLUCIÓN EN 24 H" y la voz lo dice. El workflow *Soluciones* (`soluciones.py`, cada 2 h de 8:00 a 0:00) lo cumple:
+- A partir de 12 h después de publicar (y hasta 7 días) contesta a **todos** los comentarios, uno a uno, en
+  **Instagram**, **TikTok** y **YouTube**: una frase personal escrita por IA que reacciona al comentario (sin datos) +
+  "✅ ¡Correcta! Es la B) …" / "Esta vez no 😉 Es la B) …" / "La solución es la B) …" y su porqué en una frase (texto
+  verificado al crear el reel). Un comentario hecho al principio se contesta a las 12-14 h; uno posterior, en < 2 h.
+- Instagram: además comenta en el reel la solución completa.
+- Desde las 12:00 del día siguiente: una story "SOLUCIÓN DE AYER" por reel y un carrusel de TikTok con las soluciones.
+- **TikTok y YouTube** se contestan con la API de comentarios de **Zernio**: necesita el complemento **Inbox** de Zernio y,
+  en TikTok, la cuenta conectada con la app **"TikTok for Business"** (si se conectó con la app de desarrollador, hay que
+  reconectarla). Si no está activo, el resumen del workflow lo indica y no se reintenta.
+Interruptores (Variables): `SOLUCION_MANANA=false` (reels con la solución dentro), `SOLUCIONES_RESPUESTAS`,
+`SOLUCIONES_STORIES`, `SOLUCIONES_TIKTOK` = `false`, `RESPONDER_DESDE_H` (12 por defecto). El repaso exprés con fichas y
+el truco para memorizar siguen enseñando la respuesta (reels para estudiar).
 
 ## Qué sale en cada reel
 Sin mascota: tarjeta de test con la marca (teal + ámbar) y voz en off en español de España.

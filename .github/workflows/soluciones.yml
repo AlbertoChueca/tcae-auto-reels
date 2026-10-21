@@ -1,11 +1,11 @@
 name: Soluciones
 
-# Los reels no enseñan la respuesta: al día siguiente, a las 13:00 (hora de España), se publica la solución de cada
-# reel de ayer: comentario en el reel, respuesta a quien dejó su letra, story con la solución y carrusel en TikTok.
+# Los reels de reto no enseñan la respuesta. Cada 2 horas (8:00-0:00, hora de España) se contesta a TODOS los comentarios
+# de los reels publicados hace 12 h o más (Instagram, TikTok y YouTube) con la solución, para cumplir "te contestamos en
+# menos de 24 h". A las 13:00 además: story con la solución de cada reel de ayer y carrusel de TikTok.
 on:
   schedule:
-    - cron: "0 11 * 3-10 *"          # 13:00 verano (CEST)
-    - cron: "0 12 * 1-3,10-12 *"     # 13:00 invierno (CET)
+    - cron: "0 0,6-22/2 * * *"       # cada 2 h (UTC): 8:00-0:00 en verano, 7:00-1:00 en invierno
   workflow_dispatch:
     inputs:
       dia:
@@ -26,16 +26,11 @@ concurrency:
 jobs:
   soluciones:
     runs-on: ubuntu-24.04
-    timeout-minutes: 20
+    timeout-minutes: 25
     steps:
       - name: ¿Toca hoy?
         id: gate
-        run: |
-          S="${{ github.event.schedule }}"
-          if [ -z "$S" ]; then echo "go=yes" >> "$GITHUB_OUTPUT"; exit 0; fi
-          UTC_H=$(echo "$S" | awk '{print $2}')
-          OFF=$(TZ=Europe/Madrid date +%z | cut -c2-3 | sed 's/^0//')
-          if [ $(( (UTC_H + OFF) % 24 )) -eq 13 ]; then echo "go=yes" >> "$GITHUB_OUTPUT"; else echo "go=no" >> "$GITHUB_OUTPUT"; fi
+        run: echo "go=yes" >> "$GITHUB_OUTPUT"
       - uses: actions/checkout@v5
         if: steps.gate.outputs.go == 'yes'
       - uses: actions/setup-python@v6
@@ -53,6 +48,7 @@ jobs:
           SOLUCIONES_TIKTOK: ${{ vars.SOLUCIONES_TIKTOK || 'true' }}
           SOLUCIONES_STORIES: ${{ vars.SOLUCIONES_STORIES || 'true' }}
           SOLUCIONES_RESPUESTAS: ${{ vars.SOLUCIONES_RESPUESTAS || 'true' }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python soluciones.py "${{ github.event_name == 'workflow_dispatch' && inputs.dia || '' }}"
       - name: Recordar lo publicado
         if: always() && steps.gate.outputs.go == 'yes'

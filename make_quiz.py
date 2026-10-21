@@ -38,9 +38,23 @@ TAGS_ROT = ["#auxiliardeenfermeria", "#oposiciones", "#TCAEoposiciones", "#tecni
 T = themes.get("marca")
 HIDE = os.environ.get("SOLUCION_MANANA", "true").lower() != "false"
 REVEAL_FMTS = ("flashcards_express", "truco_memorizar")    # formatos que muestran la respuesta por diseño
-ASK_LINES = {"simulacro_3": "Escribe tus tres letras en comentarios. Mañana te doy las soluciones.",
-             "mito_realidad": "¿Mito o realidad? Déjalo en comentarios. Mañana te lo resuelvo.",
-             "_": "¿Cuál marcarías tú? Escríbela en comentarios. Mañana te doy la solución."}
+ASK_LINES = {"simulacro_3": "Escribe tus tres respuestas en comentarios y nuestra IA te contestará personalmente con las "
+                            "soluciones en menos de 24 horas.",
+             "mito_realidad": "¿Mito o realidad? Escríbelo en comentarios y nuestra IA te contestará personalmente con "
+                              "la solución en menos de 24 horas.",
+             "_": "Escribe tu respuesta en comentarios y nuestra IA te contestará personalmente con la solución en "
+                  "menos de 24 horas."}
+
+
+def _two_line_pill(a, b):
+    """Rótulo de dos líneas: llamada a comentar + promesa de respuesta personal."""
+    f1, f2 = fx.font(F900, 46), fx.font(F800, 32)
+    w = int(max(f1.getlength(a), f2.getlength(b)) + 80)
+    im = Image.new("RGBA", (w, 150), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    d.rounded_rectangle([0, 0, w - 1, 149], 40, fill=T.title_bg)
+    d.text(((w - f1.getlength(a)) / 2, 22), a, font=f1, fill=T.title_fg)
+    d.text(((w - f2.getlength(b)) / 2, 88), b, font=f2, fill=T.title_fg)
+    return im
 
 
 def hides(fmt):
@@ -402,7 +416,7 @@ def caption_text(fmt, items, S, rng, st=None):
         body = (S["escena"] + "\n\n" if fmt == "caso_practico" else "") + P["pregunta"] + "\n" + \
                "\n".join(f"{QB.LETTERS[k]}) {o}" for k, o in enumerate(P["op"]))
     tags = TAGS_FIXED + rng.sample(TAGS_ROT, 3)
-    sol = "" if fmt == "flashcards_express" else (" Mañana te doy la solución aquí, en los comentarios 👇" if hides(fmt)
+    sol = "" if fmt == "flashcards_express" else (" Escribe tu respuesta en comentarios y nuestra IA te contestará personalmente con la solución en menos de 24 h 👇" if hides(fmt)
                                                    else " La solución, al final del vídeo.")
     extra = "".join(f"{x}\n" for x in (S.get("save_caption"), S.get("tag_caption"), S.get("app_caption"),
                                         S.get("follow_caption"), S.get("seo_line")) if x)
@@ -642,7 +656,7 @@ def build(fmt, items, S, seed, out, arms=None, style=None, max_len=58.0, keep_vo
         for p in ps:
             score_row.alpha_composite(p, (x, 0)); x += p.width + 18
     comment_lab = fx.pill("COMENTA: A, B, C O D", 40, T.pill_bg, T.pill_fg, padx=30, pady=12, outline=T.pill_outline)
-    ask_pill = fx.pill("COMENTA · SOLUCIÓN MAÑANA", 44, T.title_bg, T.title_fg, padx=34, pady=16)
+    ask_pill = _two_line_pill("PUBLICA TU RESPUESTA", "LA IA TE CONTESTA CON LA SOLUCIÓN EN 24 H")
     ask_head = fx.headline("Escribe tus 3 letras" if fmt == "simulacro_3" else "¿Cuál es la tuya?", 104, 900, 3,
                            color=T.head_col, hot=T.head_hot, hot_words=("3", "tuya?"), stroke=T.head_stroke,
                            stroke_col=T.head_stroke_col, shadow=T.head_shadow)
@@ -785,9 +799,9 @@ def build(fmt, items, S, seed, out, arms=None, style=None, max_len=58.0, keep_vo
             if img is not None:
                 top_ = ctop(img.height)
                 fx.paste_center(fr, shadow(img), W / 2, top_ + img.height / 2)
-                y_p = top_ + img.height + 64
-                if y_p + 40 > fx.SAFE_BOTTOM:
-                    y_p = top_ - 52
+                y_p = top_ + img.height + ask_pill.height / 2 + 26
+                if y_p + ask_pill.height / 2 > fx.SAFE_BOTTOM + 70:
+                    y_p = max(ask_pill.height / 2 + 250, top_ - ask_pill.height / 2 - 20)
                 fx.paste_center(fr, ask_pill, W / 2, y_p, eob(lt / 0.35), 1, -2 * math.sin(min(1, lt / 0.4) * math.pi))
             else:
                 fx.paste_center(fr, ask_head, W / 2, 760, eob(lt / 0.35))
