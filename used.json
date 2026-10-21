@@ -172,5 +172,23 @@
 "topic": "formasVias",
 "fecha": "2026-10-21",
 "formato": "examen_real"
+},
+{
+"id": "b577e36be8",
+"topic": "termoterapia",
+"fecha": "2026-10-21",
+"formato": "simulacro_3"
+},
+{
+"id": "60458a06de",
+"topic": "instrumental",
+"fecha": "2026-10-21",
+"formato": "simulacro_3"
+},
+{
+"id": "29e0a8afc3",
+"topic": "seguridad",
+"fecha": "2026-10-21",
+"formato": "simulacro_3"
 }
 ]
