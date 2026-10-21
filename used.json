@@ -190,5 +190,11 @@
 "topic": "seguridad",
 "fecha": "2026-10-21",
 "formato": "simulacro_3"
+},
+{
+"id": "025f5bceea",
+"topic": "upp",
+"fecha": "2026-10-21",
+"formato": "pregunta_del_dia"
 }
 ]

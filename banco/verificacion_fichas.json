@@ -22,5 +22,77 @@
 "motivo": "Las contraindicaciones principales de la crioterapia incluyen los trastornos circulatorios graves (como isquemia o enfermedad de Raynaud) y la hipersensibilidad al frío.",
 "fuente_ok": false,
 "fecha": "2026-10-18"
+},
+"92dcaf4366": {
+"veredicto": "ok",
+"motivo": "Las normas generales de traslado indican que el paciente debe ir abrigado, acompañado, avanzando en el sentido de la marcha (salvo excepciones como rampas o ascensores) y a un paso seguro pero ágil.",
+"fuente_ok": false,
+"fecha": "2026-10-21"
+},
+"1f6bef3e58": {
+"veredicto": "ok",
+"motivo": "La descripción de la marcha de cuatro puntos es correcta; es la más estable al mantener siempre tres puntos de apoyo.",
+"fuente_ok": false,
+"fecha": "2026-10-21"
+},
+"9026f75e55": {
+"veredicto": "ok",
+"motivo": "La marcha de dos puntos es correcta: se avanza simultáneamente la muleta y el pie contralateral, siendo más rápida que la de cuatro puntos.",
+"fuente_ok": false,
+"fecha": "2026-10-21"
+},
+"2f2a8cddc9": {
+"veredicto": "ok",
+"motivo": "El bastón debe llevarse en el lado sano para proporcionar una base de sustentación adecuada y descargar el peso de la pierna afectada.",
+"fuente_ok": false,
+"fecha": "2026-10-21"
+},
+"d8895f26c5": {
+"veredicto": "ok",
+"motivo": "La secuencia de la marcha con andador es correcta: primero el andador, luego la pierna afectada (para que soporte el peso el andador) y finalmente la pierna sana.",
+"fuente_ok": false,
+"fecha": "2026-10-21"
+},
+"7bfdcb895b": {
+"veredicto": "ok",
+"motivo": "Para bajar una rampa, el celador o TCAE debe ir de espaldas frenando el peso, y la cabecera del paciente debe ir hacia la parte más alta para evitar que se deslice hacia los pies.",
+"fuente_ok": false,
+"fecha": "2026-10-21"
+},
+"cd5232fc44": {
+"veredicto": "ok",
+"motivo": "El protocolo de entrada al ascensor es correcto: se entra tirando de la cabecera (el profesional entra primero de espaldas) y se sale empujando (salen primero los pies del paciente).",
+"fuente_ok": false,
+"fecha": "2026-10-21"
+},
+"f82d005699": {
+"veredicto": "ok",
+"motivo": "Al ayudar a deambular a un paciente hemipléjico, el profesional debe colocarse en el lado afectado para ofrecer soporte y evitar caídas hacia ese lado.",
+"fuente_ok": false,
+"fecha": "2026-10-21"
+},
+"1fb37c055c": {
+"veredicto": "ok",
+"motivo": "La posición de Trendelenburg (cabeza más baja que los pies) está indicada para mejorar el retorno venoso en shock o lipotimias, y para desplazar las vísceras en cirugía pélvica.",
+"fuente_ok": false,
+"fecha": "2026-10-21"
+},
+"e3a0a78c76": {
+"veredicto": "ok",
+"motivo": "La técnica de entrecruzamiento de brazos es una maniobra manual estándar utilizada para incorporar o sentar al paciente en la cama.",
+"fuente_ok": false,
+"fecha": "2026-10-21"
+},
+"1d516d56ec": {
+"veredicto": "ok",
+"motivo": "La clasificación general de las posiciones del paciente encamado se divide correctamente en básicas (o no quirúrgicas) y especiales (o quirúrgicas).",
+"fuente_ok": false,
+"fecha": "2026-10-21"
+},
+"a8b4669cc3": {
+"veredicto": "ok",
+"motivo": "La descripción de la posición de litotomía o ginecológica y sus indicaciones son totalmente correctas.",
+"fuente_ok": false,
+"fecha": "2026-10-21"
 }
 }
