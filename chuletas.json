@@ -54,5 +54,19 @@
 "tiktok": "6ad91916bf9405f2f84bebcb"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-10-22",
+"topic": "oxigenoterapia",
+"tema": "Oxigenoterapia",
+"subtema": "Dispositivos de oxigenoterapia",
+"quiz_id": "b345e346fd",
+"imagenes": 7,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/Dezw_YNoKqq/",
+"tiktok": "6ada67ff31ef6565498852c5"
+},
+"dry_run": false
 }
 ]
