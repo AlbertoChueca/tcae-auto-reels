@@ -1,5 +1,7 @@
-# Cuaderno de crecimiento (2026-10-21)
+# Cuaderno de crecimiento (2026-10-22)
 
-- Seguir haciendo: Priorizar 'simulacro_3' y temas clínicos (Incontinencia, Lavado, Nutrición), responsables de casi todos los guardados históricos.
-- Dejar de hacer: Descripciones sin llamada clara a responder: los primeros comentarios llegaron cuando el reto pedía contestar.
-- Probar: CTA directo: "Escribe tu respuesta (A, B o C) y guarda este reel para tu repaso de apruebatcae.com".
+# Cuaderno de crecimiento
+
+- Seguir haciendo: Foco en temario clínico y 'simulacro_3', únicos formatos que generan guardados constantes (1-2 por reel exitoso).
+- Dejar de hacer: Copys pasivos. Los comentarios subieron a 3 por vídeo cuando el contenido forzó una elección rápida de test.
+- Probar: Llamada a la acción simplificada: "¿A, B o C? Deja tu letra abajo y guarda el reel para repasar en apruebatcae.com".

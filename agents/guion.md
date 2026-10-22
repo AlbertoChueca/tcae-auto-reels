@@ -1,5 +1,7 @@
-# Cuaderno de guion (2026-10-21)
+# Cuaderno de guion (2026-10-22)
 
-- Seguir haciendo: Formato 'simulacro_3' (número 1 con score 7.45 y 2 guardados) y 'think_time=normal/largo', que mantienen retenciones de hasta 19 segundos.
-- Dejar de hacer: 'think_time=corto', que estancó a vacunas en 61 views y score bajo (5.99).
-- Probar: Explicar brevemente el porqué de la opción correcta antes de cerrar, facilitando que comprendan la trampa sin sobrecargar la pantalla.
+# Cuaderno de guion
+
+- Seguir haciendo: Formato 'simulacro_3' (lidera en score 7.67 y récord de 2 guardados) y temas de clínica diaria (Higiene, Incontinencia, Sondas). Mantener 'think_time=normal' o 'largo' para sostener retenciones sobre 11-21 segundos.
+- Dejar de hacer: Preguntas aisladas de leyes (Constitución, Ley de Sanidad), que lastran el rendimiento y no logran guardados.
+- Probar: Microexplicación de una sola frase resolviendo la trampa clínica justo antes de cerrar el reel.

@@ -1,5 +1,5 @@
-# Cuaderno de embudo_app (2026-10-21)
+# Cuaderno de embudo_app (2026-10-22)
 
-- Seguir haciendo: Vincular contenidos a preguntas de examen y simulacros oficiales, los formatos con mejor valoración.
-- Dejar de hacer: Reels sin llamada a la acción hacia la plataforma (visitas y seguidores en 'None').
-- Probar: CTA directo al final: 'Haz el simulacro completo de este bloque gratis en apruebatcae.com'.
+- Seguir haciendo: Enfocar contenidos en simulacros y preguntas oficiales, que son los formatos de mayor puntuación.
+- Dejar de hacer: Reels sin llamada a la acción hacia la web; métricas de visitas y seguidores permanecen en None.
+- Probar: Cierre directo: "Practica el simulacro completo de este bloque gratis en apruebatcae.com".

@@ -1,5 +1,7 @@
-# Cuaderno de gancho (2026-10-21)
+# Cuaderno de gancho (2026-10-22)
 
-- Seguir haciendo: Ganchos de curiosidad específica ("¿Cuánto retiene exactamente de noche?") y reto directo ("¿Te la sabes?"), que lograron récord de views (151 y 161) y scores superiores a 7.10.
-- Dejar de hacer: Fórmulas genéricas o enfocadas en temas hiperlocales ("¿Caes en esta pregunta?" en Aragón), que se hunden bajo 70 views.
-- Probar: Abrir con dilema de simulacro: "¿Acertarías las 3? Pregunta real de examen TCAE" para captar en los primeros 2 segundos.
+# Cuaderno de gancho
+
+- Seguir haciendo: Curiosidad clínica muy concreta ("¿Cuánto retiene exactamente de noche?", top 1 con 7.67) y retos directos de examen ("¿Te sabes esta de higiene?", "Pregunta oficial de examen"), que concentran los mejores scores y comentarios.
+- Dejar de hacer: Ganchos sobre legislación pura ("¿Te sabes este artículo?") o temas autonómicos ("¿Caes en esta pregunta?"), anclados en el fondo (scores 5.01-5.88).
+- Probar: Unir curiosidad clínica y examen oficial en 2 segundos: "Pregunta oficial de examen: ¿cuánto retiene de noche?".

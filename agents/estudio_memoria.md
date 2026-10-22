@@ -1,5 +1,5 @@
-# Cuaderno de memoria (2026-10-21)
+# Cuaderno de memoria (2026-10-22)
 
-- Seguir haciendo: Estructuras de autoevaluación activa y simulacro, únicas en generar guardados (hasta 2 por reel).
-- Dejar de hacer: Dar la solución de inmediato sin inducir al recuerdo activo previo.
-- Probar: Instrucción explícita de técnica de estudio: 'Guarda este reel para comprobar tu retención en 48 horas'.
+- Seguir haciendo: Formatos de autoevaluación activa ("simulacro_3" y "flashcards_express"), únicos en conseguir guardados (1 y 2).
+- Dejar de hacer: Dar la solución inmediata sin dar tiempo al cerebro para evocar la respuesta.
+- Probar: CTA explícito de repaso espaciado: "Guarda este reel y vuelve en 48 horas a comprobar si lo recuerdas".

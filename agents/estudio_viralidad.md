@@ -1,5 +1,5 @@
-# Cuaderno de viralidad (2026-10-21)
+# Cuaderno de viralidad (2026-10-22)
 
-- Seguir haciendo: Ganchos directos al ego profesional que impulsan visitas (>150 views y comentarios).
-- Dejar de hacer: Cierres estáticos; el histórico mantiene 0 compartidos en todas las publicaciones.
-- Probar: Reto de complicidad: 'Pásaselo a tu compañera de turno; si duda, le toca atender el siguiente timbre'.
+- Seguir haciendo: Ganchos retadores al orgullo profesional que generen comentarios (como el de higiene, con 3 comentarios).
+- Dejar de hacer: Conclusiones pasivas; acumulamos 0 compartidos en todo el histórico.
+- Probar: Reto directo entre compañeras: "Compártelo con tu co-TCAE de turno; si duda, le toca el siguiente timbre".

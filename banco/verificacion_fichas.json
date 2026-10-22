@@ -94,5 +94,77 @@
 "motivo": "La descripción de la posición de litotomía o ginecológica y sus indicaciones son totalmente correctas.",
 "fuente_ok": false,
 "fecha": "2026-10-21"
+},
+"0f547971d0": {
+"veredicto": "ok",
+"motivo": "La sequedad de mucosas y la ausencia de lágrimas son signos clínicos correctos y reconocidos de deshidratación en ancianos.",
+"fuente_ok": false,
+"fecha": "2026-10-22"
+},
+"f5429ce298": {
+"veredicto": "ok",
+"motivo": "La clasificación fisiopatológica clásica de la disfagia la divide correctamente en mecánica (obstructiva) y motora (neuromuscular).",
+"fuente_ok": false,
+"fecha": "2026-10-22"
+},
+"a954ad779b": {
+"veredicto": "ok",
+"motivo": "El calcio y la vitamina D son fundamentales en la dieta del anciano para mantener la salud ósea y prevenir osteoporosis y fracturas.",
+"fuente_ok": false,
+"fecha": "2026-10-22"
+},
+"df7cbad0d3": {
+"veredicto": "ok",
+"motivo": "Las definiciones son correctas: disgeusia (alteración del gusto), hiposmia (disminución del olfato) y anosmia (pérdida del olfato), factores que afectan el apetito.",
+"fuente_ok": false,
+"fecha": "2026-10-22"
+},
+"75ac96a31c": {
+"veredicto": "ok",
+"motivo": "La tos durante la deglución y los atragantamientos son signos clínicos clásicos de disfagia y conllevan alto riesgo de neumonía aspirativa.",
+"fuente_ok": false,
+"fecha": "2026-10-22"
+},
+"486e3dacdd": {
+"veredicto": "ok",
+"motivo": "El MNA en su versión de cribado (MNA-SF) consta exactamente de 6 ítems de evaluación.",
+"fuente_ok": false,
+"fecha": "2026-10-22"
+},
+"ad2cfea862": {
+"veredicto": "ok",
+"motivo": "La modificación de la textura de los sólidos y la viscosidad de los líquidos es la medida dietética principal en el manejo de la disfagia.",
+"fuente_ok": false,
+"fecha": "2026-10-22"
+},
+"2fc535bca1": {
+"veredicto": "ok",
+"motivo": "Es correcto. En el envejecimiento se produce una hipodipsia (disminución de la sensación de sed) fisiológica que eleva el riesgo de deshidratación.",
+"fuente_ok": false,
+"fecha": "2026-10-22"
+},
+"81f9a6d0d6": {
+"veredicto": "ok",
+"motivo": "Los cambios fisiológicos del envejecimiento incluyen aumento de tejido adiposo y disminución de masa muscular, masa ósea y agua corporal total.",
+"fuente_ok": false,
+"fecha": "2026-10-22"
+},
+"5e7f029f3b": {
+"veredicto": "ok",
+"motivo": "La flexión cervical anterior (maniobra chin-tuck) protege la vía aérea, mientras que la hiperextensión favorece la broncoaspiración.",
+"fuente_ok": false,
+"fecha": "2026-10-22"
+},
+"44afb815ab": {
+"veredicto": "ok",
+"motivo": "El MUST es una herramienta validada y ampliamente utilizada para el cribado del riesgo de desnutrición en adultos.",
+"fuente_ok": false,
+"fecha": "2026-10-22"
+},
+"584b575c34": {
+"veredicto": "ok",
+"motivo": "Néctar, miel y pudding son las tres texturas o viscosidades estandarizadas que se utilizan para espesar líquidos en pacientes con disfagia.",
+"fuente_ok": false,
+"fecha": "2026-10-22"
 }
 }

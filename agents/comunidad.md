@@ -1,6 +1,8 @@
-# Cuaderno de comunidad (2026-10-21)
+# Cuaderno de comunidad (2026-10-22)
 
-- Pocos datos, pero primeros avances: Se han recibido los dos primeros comentarios en publicaciones, ambos respondiendo escuetamente con la opción ("B").
-- Seguir haciendo: Facilitar la respuesta rápida; el opositor adulto prefiere comentar solo la letra antes que redactar reflexiones largas.
-- Dejar de hacer: Publicar sin comprobar qué opción eligen; monitorizar si aciertan o caen en la trampa.
-- Probar: Responder a cada comentario confirmando si acertaron ("¡Exacto!" o "¡Cuidado con la trampa!") para incentivar más participación.
+# Cuaderno de comunidad
+
+- Pocos datos (solo 5 comentarios registrados recientemente), pero con un patrón unánime: la audiencia responde exclusivamente con la letra de la opción ("B", "D").
+- Seguir haciendo: Formular preguntas donde la respuesta sea directa; el opositor adulto participa si no requiere esfuerzo de redacción.
+- Dejar de hacer: Plantear preguntas abiertas que exijan debate o justificaciones largas.
+- Probar: Responder al instante a cada letra confirmando acierto o aviso de trampa para generar segundas visitas.

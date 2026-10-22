@@ -1,5 +1,5 @@
-# Cuaderno de seo (2026-10-21)
+# Cuaderno de seo (2026-10-22)
 
-- Seguir haciendo: Incorporar términos clave de alta demanda: 'simulacro', 'examen real' y 'TCAE'.
-- Dejar de hacer: Apoyarse en palabras con baja tracción de búsqueda como 'vacunas' (mínimo histórico de 61 views).
-- Probar: Textos y descripciones optimizadas: 'Simulacro OPE TCAE: Pregunta oficial de turno de noche'.
+- Seguir haciendo: Términos clave con tracción probada: "higiene", "simulacro" y "examen real" (superan 7.37 de score).
+- Dejar de hacer: Palabras de bajo interés o temas aislados como "legislación" (score 6.21).
+- Probar: Redactar descripciones optimizadas para búsqueda social: "Simulacro OPE TCAE: pregunta oficial de turno de noche".
