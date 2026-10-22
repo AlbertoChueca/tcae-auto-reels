@@ -1,16 +1,16 @@
 # Piloto automático Aprueba TCAE - qué está funcionando
 
-_Updated 2026-10-22 · 9 reels with results (3+ days old) · average score 6.92_
+_Updated 2026-10-22 · 9 reels with results (3+ days old) · average score 6.98_
 
 
 ## formato
 
 | option | reels | avg score |
 |---|---|---|
-| simulacro_3 | 1 | 7.71 |
-| flashcards_express | 1 | 7.40 |
-| examen_real | 1 | 7.10 |
-| pregunta_del_dia | 6 | 6.68 |
+| simulacro_3 | 1 | 7.79 |
+| flashcards_express | 1 | 7.44 |
+| examen_real | 1 | 7.13 |
+| pregunta_del_dia | 6 | 6.74 |
 | error_tipico | 0 | - |
 | truco_memorizar | 0 | - |
 | mito_realidad | 0 | - |
@@ -21,10 +21,10 @@ _Updated 2026-10-22 · 9 reels with results (3+ days old) · average score 6.92_
 
 | option | reels | avg score |
 |---|---|---|
-| examen | 2 | 7.15 |
-| minimal | 2 | 7.08 |
-| noche | 3 | 6.97 |
-| marca | 2 | 6.49 |
+| examen | 2 | 7.17 |
+| minimal | 2 | 7.16 |
+| noche | 3 | 7.03 |
+| marca | 2 | 6.50 |
 | clasico | 0 | - |
 | cuaderno | 0 | - |
 | ilustrado | 0 | - |
@@ -33,10 +33,10 @@ _Updated 2026-10-22 · 9 reels with results (3+ days old) · average score 6.92_
 
 | option | reels | avg score |
 |---|---|---|
-| examen | 2 | 7.39 |
-| curiosidad | 3 | 6.90 |
-| trampa | 2 | 6.83 |
-| empatía | 2 | 6.59 |
+| examen | 2 | 7.41 |
+| curiosidad | 3 | 6.93 |
+| trampa | 2 | 6.92 |
+| empatía | 2 | 6.66 |
 | reto | 0 | - |
 | repaso exprés | 0 | - |
 
@@ -44,14 +44,14 @@ _Updated 2026-10-22 · 9 reels with results (3+ days old) · average score 6.92_
 
 | option | reels | avg score |
 |---|---|---|
-| mixto | 4 | 7.32 |
-| clinico | 2 | 6.99 |
-| legislacion | 2 | 6.59 |
+| mixto | 4 | 7.39 |
+| clinico | 2 | 7.02 |
+| legislacion | 2 | 6.66 |
 
 ## think_time
 
 | option | reels | avg score |
 |---|---|---|
-| normal | 2 | 7.55 |
-| corto | 1 | 6.78 |
-| largo | 6 | 6.74 |
+| normal | 2 | 7.58 |
+| corto | 1 | 6.95 |
+| largo | 6 | 6.78 |
