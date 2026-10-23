@@ -238,5 +238,11 @@
 "topic": "higienePaciente",
 "fecha": "2026-10-23",
 "formato": "pregunta_del_dia"
+},
+{
+"id": "d1dcc614f9",
+"topic": "recienNacido",
+"fecha": "2026-10-23",
+"formato": "examen_real"
 }
 ]
