@@ -68,5 +68,19 @@
 "tiktok": "6ada67ff31ef6565498852c5"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-10-23",
+"topic": "nutricion",
+"tema": "Nutrición y Alimentación",
+"subtema": "Tipos de dietas hospitalarias",
+"quiz_id": "2e76de05b8",
+"imagenes": 6,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/De2V6fMDYuQ/",
+"tiktok": "6adbb9c4b1cdd2cdbd549f10"
+},
+"dry_run": false
 }
 ]
