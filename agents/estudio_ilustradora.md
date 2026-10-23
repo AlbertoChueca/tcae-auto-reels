@@ -1,5 +1,5 @@
-# Cuaderno de ilustradora (2026-10-22)
+# Cuaderno de ilustradora (2026-10-23)
 
-- Seguir haciendo: Ilustraciones verticales con luz tenue hospitalaria y ambiente profesional sereno.
-- Dejar de hacer: Duplicar elementos (como dos tazas) o pintar guantes manipulando lencería/material limpio (rechazado por protocolo).
-- Probar: TCAE organizando carros de lencería limpia con manos desnudas y técnica aséptica impecable.
+- Seguir haciendo: Arte vertical con atmósfera hospitalaria nocturna serena y luz cálida puntual.
+- Dejar de hacer: Errores de protocolo como poner guantes para manipular material limpio, o duplicar elementos (dos tazas).
+- Probar: Ilustraciones de TCAE ordenando carros de lencería limpia con manos desnudas según normativa higiénica oficial.

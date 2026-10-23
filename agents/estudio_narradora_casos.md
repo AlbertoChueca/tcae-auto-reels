@@ -1,5 +1,5 @@
-# Cuaderno de narradora_casos (2026-10-22)
+# Cuaderno de narradora_casos (2026-10-23)
 
-- Seguir haciendo: Ganchos anclados a turnos reales ("¿Cuánto retiene exactamente de noche?", mejor resultado con 7.67).
-- Dejar de hacer: Preguntas teóricas descontextualizadas como legislación genérica, que caen a score 5.01 - 6.21.
-- Probar: Microcasos situacionales de pase de guardia nocturno donde una duda de protocolo defina la acción de la TCAE.
+- Seguir haciendo: Ganchos de turno real ("¿Cuánto retiene exactamente de noche?", top 7.79) y situaciones de higiene (7.68).
+- Dejar de hacer: Preguntas teóricas descontextualizadas de legislación o artículos (caen a 6.29 y 7.07).
+- Probar: Microcasos prácticos de pase de guardia nocturno donde la decisión técnica sea la pregunta del examen.

@@ -1,5 +1,5 @@
-# Cuaderno de viralidad (2026-10-22)
+# Cuaderno de viralidad (2026-10-23)
 
-- Seguir haciendo: Ganchos retadores al orgullo profesional que generen comentarios (como el de higiene, con 3 comentarios).
-- Dejar de hacer: Conclusiones pasivas; acumulamos 0 compartidos en todo el histórico.
-- Probar: Reto directo entre compañeras: "Compártelo con tu co-TCAE de turno; si duda, le toca el siguiente timbre".
+- Seguir haciendo: Preguntas oficiales de examen e higiene que incitan el debate (logran de 3 a 5 comentarios).
+- Dejar de hacer: Conclusiones pasivas; acumulamos 0 compartidos en todo el histórico registrado.
+- Probar: Reto directo entre compañeras: "Compártelo con tu co-TCAE: si duda en la respuesta, le toca el próximo timbre".

@@ -1,7 +1,5 @@
-# Cuaderno de crecimiento (2026-10-22)
+# Cuaderno de crecimiento (2026-10-23)
 
-# Cuaderno de crecimiento
-
-- Seguir haciendo: Foco en temario clínico y 'simulacro_3', únicos formatos que generan guardados constantes (1-2 por reel exitoso).
-- Dejar de hacer: Copys pasivos. Los comentarios subieron a 3 por vídeo cuando el contenido forzó una elección rápida de test.
-- Probar: Llamada a la acción simplificada: "¿A, B o C? Deja tu letra abajo y guarda el reel para repasar en apruebatcae.com".
+- Seguir haciendo: Foco en temario clínico y preguntas oficiales, los únicos contenidos que generan guardados orgánicos (hasta 2 por reel).
+- Dejar de hacer: Copys con llamadas a la acción abiertas o complejas; los comentarios caen a cero si la interacción exige redactar.
+- Probar: Llamada a la acción unificada: "¿A, B, C o D? Deja tu letra en comentarios y guarda para repasar más simulacros en apruebatcae.com".

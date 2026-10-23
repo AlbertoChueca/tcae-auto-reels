@@ -232,5 +232,11 @@
 "topic": "nombramientosMayorias",
 "fecha": "2026-10-22",
 "formato": "pregunta_del_dia"
+},
+{
+"id": "f60f3027e8",
+"topic": "higienePaciente",
+"fecha": "2026-10-23",
+"formato": "pregunta_del_dia"
 }
 ]

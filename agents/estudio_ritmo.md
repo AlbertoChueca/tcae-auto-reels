@@ -1,5 +1,5 @@
-# Cuaderno de ritmo (2026-10-22)
+# Cuaderno de ritmo (2026-10-23)
 
-- Seguir haciendo: Tiempos de exposición que sostienen retenciones de 11 a 21 segundos en formatos interactivos.
-- Dejar de hacer: Cortes apresurados antes de los 10 segundos en preguntas simples.
-- Probar: Cuenta atrás sonora y visual de 3 segundos previa a mostrar la solución para asegurar la retención final.
+- Seguir haciendo: Ritmos y tiempos que retienen entre 12 y 21 segundos en formatos interactivos multirespuesta.
+- Dejar de hacer: Dinámicas precipitadas que bajen la retención a menos de 10 segundos.
+- Probar: Tensión con cuenta atrás visual y sonora de 3 segundos antes de desvelar la solución.

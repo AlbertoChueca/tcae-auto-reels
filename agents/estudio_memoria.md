@@ -1,5 +1,5 @@
-# Cuaderno de memoria (2026-10-22)
+# Cuaderno de memoria (2026-10-23)
 
-- Seguir haciendo: Formatos de autoevaluación activa ("simulacro_3" y "flashcards_express"), únicos en conseguir guardados (1 y 2).
-- Dejar de hacer: Dar la solución inmediata sin dar tiempo al cerebro para evocar la respuesta.
-- Probar: CTA explícito de repaso espaciado: "Guarda este reel y vuelve en 48 horas a comprobar si lo recuerdas".
+- Seguir haciendo: Formatos de autoevaluación activa ("simulacro_3" y "flashcards_express"), únicos con retención sobre 16-21s y hasta 2 guardados.
+- Dejar de hacer: Revelar la opción correcta sin pausa para la recuperación activa del opositor.
+- Probar: CTA explícito de repaso espaciado: "Guarda el reel y comprueba en 48 horas si aún recuerdas la norma".

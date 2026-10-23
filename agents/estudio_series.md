@@ -1,5 +1,5 @@
-# Cuaderno de series (2026-10-22)
+# Cuaderno de series (2026-10-23)
 
-- Seguir haciendo: Datos insuficientes para evaluar impacto (solo un reel con serie registrada: "Miércoles de simulacro", score 6.63; el resto es None).
-- Dejar de hacer: Publicaciones sueltas sin marco serializado reconocible.
-- Probar: Lanzar la serie numerada "Turno de Noche", capitalizando el estilo visual con mejor score del canal.
+- Seguir haciendo: Formato serie; datos insuficientes para medir impacto global (solo un reel registrado: "Miércoles de simulacro", 7.41).
+- Dejar de hacer: Publicar de forma aislada sin formato o día reconocible.
+- Probar: Lanzar la serie fija semanal "Turno de noche: Simulacro TCAE", explotando el mejor estilo y temática de la cuenta.
