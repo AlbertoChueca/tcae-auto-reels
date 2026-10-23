@@ -7,10 +7,10 @@ _Updated 2026-10-23 · 13 reels with results (3+ days old) · average score 7.12
 
 | option | reels | avg score |
 |---|---|---|
-| simulacro_3 | 1 | 7.79 |
+| simulacro_3 | 1 | 7.80 |
+| flashcards_express | 1 | 7.46 |
 | examen_real | 2 | 7.45 |
-| flashcards_express | 1 | 7.44 |
-| pregunta_del_dia | 9 | 6.93 |
+| pregunta_del_dia | 9 | 6.94 |
 | error_tipico | 0 | - |
 | truco_memorizar | 0 | - |
 | mito_realidad | 0 | - |
@@ -23,7 +23,7 @@ _Updated 2026-10-23 · 13 reels with results (3+ days old) · average score 7.12
 |---|---|---|
 | cuaderno | 1 | 7.76 |
 | examen | 3 | 7.31 |
-| minimal | 2 | 7.17 |
+| minimal | 2 | 7.18 |
 | noche | 5 | 7.10 |
 | marca | 2 | 6.51 |
 | clasico | 0 | - |
@@ -35,7 +35,7 @@ _Updated 2026-10-23 · 13 reels with results (3+ days old) · average score 7.12
 |---|---|---|
 | examen | 3 | 7.47 |
 | trampa | 3 | 7.21 |
-| empatía | 3 | 7.02 |
+| empatía | 3 | 7.03 |
 | curiosidad | 4 | 6.87 |
 | reto | 0 | - |
 | repaso exprés | 0 | - |
@@ -44,7 +44,7 @@ _Updated 2026-10-23 · 13 reels with results (3+ days old) · average score 7.12
 
 | option | reels | avg score |
 |---|---|---|
-| mixto | 5 | 7.42 |
+| mixto | 5 | 7.43 |
 | clinico | 4 | 7.38 |
 | legislacion | 3 | 6.67 |
 
@@ -54,4 +54,4 @@ _Updated 2026-10-23 · 13 reels with results (3+ days old) · average score 7.12
 |---|---|---|
 | corto | 3 | 7.47 |
 | normal | 4 | 7.35 |
-| largo | 6 | 6.79 |
+| largo | 6 | 6.80 |
