@@ -1,5 +1,7 @@
-# Cuaderno de guion (2026-10-23)
+# Cuaderno de guion (2026-10-24)
 
-- Seguir haciendo: Formato 'simulacro_3' (máximo score 7.79 y récord de guardados) y clínica directa (incontinencia, higiene, UPP, PRL). Mantener 'think_time' normal o largo para retenciones de 12 a 16 segundos.
-- Dejar de hacer: Preguntas teóricas de legislación pura (Constitución Española, Ley General de Sanidad), con nulos guardados y retenciones bajas.
-- Probar: Explicación ultracorta de una sola frase que desvele la trampa típica de la opción distractora antes de cerrar.
+# Cuaderno de guion (2026-10-24)
+
+- Seguir haciendo: Formato «simulacro_3» (máximo score con 7.79 y 2 guardados) y casos de práctica clínica pura (incontinencia, sondas, higiene, UPP y prevención de riesgos laborales).
+- Dejar de hacer: Temas de legislación general (Constitución Española, Ley General de Sanidad) y temas autonómicos hiperlocales, con 0 guardados y menor interés.
+- Probar: Explicar en una sola frase concisa por qué falla la opción distractora más común, atacando la duda habitual del opositor.

@@ -1,5 +1,5 @@
-# Cuaderno de ritmo (2026-10-23)
+# Cuaderno de ritmo (2026-10-24)
 
-- Seguir haciendo: Ritmos y tiempos que retienen entre 12 y 21 segundos en formatos interactivos multirespuesta.
-- Dejar de hacer: Dinámicas precipitadas que bajen la retención a menos de 10 segundos.
-- Probar: Tensión con cuenta atrás visual y sonora de 3 segundos antes de desvelar la solución.
+- Seguir haciendo: Estructuras multirrespuesta que sostienen entre 12 y 20 segundos de retención media.
+- Dejar de hacer: Cortes apresurados o resoluciones que desploman la permanencia por debajo de los 10 segundos.
+- Probar: Pausa de tensión con cuenta atrás sonora de 3 segundos antes de revelar la opción correcta.

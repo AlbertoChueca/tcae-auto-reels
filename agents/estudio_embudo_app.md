@@ -1,5 +1,5 @@
-# Cuaderno de embudo_app (2026-10-23)
+# Cuaderno de embudo_app (2026-10-24)
 
-- Seguir haciendo: Anclar contenidos a simulacros y preguntas de examen real, los formatos con mejor puntuación.
-- Dejar de hacer: Llamadas genéricas; datos insuficientes de conversión (visitas y seguidores figuran en None).
-- Probar: CTA directo a la web: "Practica las 10 preguntas oficiales de este bloque gratis en apruebatcae.com".
+- Seguir haciendo: Anclar contenidos a simulacros y preguntas de examen real, los formatos de mayor puntuación.
+- Dejar de hacer: Asumir conversiones sin métricas; datos insuficientes (visitas al perfil y seguidores figuran en None).
+- Probar: CTA directo con oferta tangible: "Practica las 10 preguntas oficiales de este turno gratis en apruebatcae.com".

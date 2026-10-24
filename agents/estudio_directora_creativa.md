@@ -1,5 +1,5 @@
-# Cuaderno de directora_creativa (2026-10-23)
+# Cuaderno de directora_creativa (2026-10-24)
 
-- Seguir haciendo: Priorizar el "estilo noche" con ilustración vertical editorial (récord de la cuenta con score 7.79 y 2 guardados).
-- Dejar de hacer: Estilo marca y reels abstractos sin apoyo visual, que caen a los peores scores (5.88).
-- Probar: Escenas nocturnas detalladas en control de enfermería para acompañar preguntas oficiales y simulacros.
+- Seguir haciendo: Apostar por el "estilo noche" con ilustración vertical y preguntas técnicas de turno (máximo score: 7.79).
+- Dejar de hacer: Diseños abstractos o estilo marca sin anclaje visual hospitalario (caen a 5.88).
+- Probar: Ilustraciones detalladas de situaciones de guardia nocturna (revisión de absorbentes, preparación de medicación) integradas con el simulacro.

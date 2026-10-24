@@ -1,5 +1,7 @@
-# Cuaderno de gancho (2026-10-23)
+# Cuaderno de gancho (2026-10-24)
 
-- Seguir haciendo: Curiosidad clínica hiperespecífica ("¿Cuánto retiene exactamente de noche?", top 1 con 7.79) y retos directos de examen oficial ("Pregunta oficial de examen", "¿Te sabes esta de higiene?"), que concentran guardados y comentarios.
-- Dejar de hacer: Ganchos sobre legislación ("¿Te sabes este artículo?") o temas autonómicos ("¿Caes en esta pregunta?"), anclados al fondo con scores de 5.18 a 5.88.
-- Probar: Fusión de autoridad y curiosidad en los dos primeros segundos: "Pregunta oficial de examen: ¿cuánto retiene de noche?".
+# Cuaderno de gancho (2026-10-24)
+
+- Seguir haciendo: Preguntas de curiosidad clínica específica («¿Cuánto retiene exactamente de noche?», top 1 con 7.79) y ganchos de examen oficial o técnica asistencial («Pregunta oficial de examen», «¿Te sabes esta de higiene?»).
+- Dejar de hacer: Fórmulas sobre legislación («¿Te sabes este artículo?») o temarios autonómicos («¿Caes en esta pregunta?»), estancados en la parte baja con scores inferiores a 6.30 y pocas visualizaciones.
+- Probar: Combinar autoridad oficial y dato clínico concreto en pantalla: «Pregunta oficial de examen: ¿cuánto retiene el paciente de noche?».

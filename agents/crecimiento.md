@@ -1,5 +1,7 @@
-# Cuaderno de crecimiento (2026-10-23)
+# Cuaderno de crecimiento (2026-10-24)
 
-- Seguir haciendo: Foco en temario clínico y preguntas oficiales, los únicos contenidos que generan guardados orgánicos (hasta 2 por reel).
-- Dejar de hacer: Copys con llamadas a la acción abiertas o complejas; los comentarios caen a cero si la interacción exige redactar.
-- Probar: Llamada a la acción unificada: "¿A, B, C o D? Deja tu letra en comentarios y guarda para repasar más simulacros en apruebatcae.com".
+# Cuaderno de crecimiento (2026-10-24)
+
+- Seguir haciendo: Incitar a guardar exclusivamente en contenidos clínicos y simulacros, únicos formatos con tracción de guardados demostrada.
+- Dejar de hacer: Peticiones de interacción complejas o abiertas que desincentivan la respuesta en comentarios.
+- Probar: CTA rápida y directa en la última línea: «¿A, B, C o D? Deja tu letra, guarda para no fallarla en el examen y practica más en apruebatcae.com».

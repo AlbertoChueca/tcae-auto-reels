@@ -1,5 +1,5 @@
-# Cuaderno de series (2026-10-23)
+# Cuaderno de series (2026-10-24)
 
-- Seguir haciendo: Formato serie; datos insuficientes para medir impacto global (solo un reel registrado: "Miércoles de simulacro", 7.41).
-- Dejar de hacer: Publicar de forma aislada sin formato o día reconocible.
-- Probar: Lanzar la serie fija semanal "Turno de noche: Simulacro TCAE", explotando el mejor estilo y temática de la cuenta.
+- Seguir haciendo: El formato "Miércoles de simulacro" (alcanzó score 7.50 y 16.7s de retención).
+- Dejar de hacer: Publicaciones aisladas; datos insuficientes para medir continuidad serial (solo un reel registrado con serie formal).
+- Probar: Crear la serie semanal fija "Turno de noche: Simulacro TCAE" con numeración visible de capítulo.

@@ -250,5 +250,11 @@
 "topic": "instrumental",
 "fecha": "2026-10-23",
 "formato": "pregunta_del_dia"
+},
+{
+"id": "98f2b389c9",
+"topic": "limpieza",
+"fecha": "2026-10-24",
+"formato": "pregunta_del_dia"
 }
 ]
