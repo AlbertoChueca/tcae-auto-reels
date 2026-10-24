@@ -166,5 +166,143 @@
 "motivo": "Néctar, miel y pudding son las tres texturas o viscosidades estandarizadas que se utilizan para espesar líquidos en pacientes con disfagia.",
 "fuente_ok": false,
 "fecha": "2026-10-22"
+},
+"0aff000c1b": {
+"veredicto": "dudosa",
+"motivo": "El artículo 14 menciona la seguridad pública y la propiedad intelectual e industrial, pero no incluye explícitamente la 'intimidad de las personas' entre los límites listados en el texto proporcionado.",
+"fuente_ok": false,
+"fecha": "2026-10-24"
+},
+"44008b0432": {
+"veredicto": "ok",
+"motivo": "La respuesta es correcta y coincide con las causas de inadmisión detalladas en el artículo 18 de la ley.",
+"fuente_ok": true,
+"fecha": "2026-10-24"
+},
+"1327e93468": {
+"veredicto": "dudosa",
+"motivo": "La pregunta hace referencia a la Ley 8/2015, pero el texto de referencia proporcionado corresponde a la Ley 19/2013, por lo que no es posible verificar la información con la fuente dada.",
+"fuente_ok": false,
+"fecha": "2026-10-24"
+},
+"1353c7e59b": {
+"veredicto": "ok",
+"motivo": "La respuesta es correcta y refleja fielmente los plazos de resolución y prórroga establecidos en el artículo 20.",
+"fuente_ok": true,
+"fecha": "2026-10-24"
+},
+"742918b9d0": {
+"veredicto": "dudosa",
+"motivo": "El texto confirma que la información debe ser gratuita, comprensible y accesible por medios electrónicos, pero no menciona explícitamente los principios de 'veracidad' y 'objetividad'.",
+"fuente_ok": false,
+"fecha": "2026-10-24"
+},
+"12d0fcdf9c": {
+"veredicto": "dudosa",
+"motivo": "El texto proporcionado no menciona que el consentimiento para tratar datos deba ser explícito ni enumera las excepciones del RGPD como la asistencia sanitaria o el interés vital.",
+"fuente_ok": false,
+"fecha": "2026-10-24"
+},
+"cecb58a852": {
+"veredicto": "dudosa",
+"motivo": "El texto no define el principio general de minimización de datos, sino que solo menciona la limitación de datos en el contexto específico de los registros de personal del sector público.",
+"fuente_ok": false,
+"fecha": "2026-10-24"
+},
+"f7ee176469": {
+"veredicto": "ok",
+"motivo": "El texto confirma que la Agencia Española de Protección de Datos actúa como autoridad de control principal en España.",
+"fuente_ok": true,
+"fecha": "2026-10-24"
+},
+"618089290c": {
+"veredicto": "dudosa",
+"motivo": "El texto de la fuente menciona la figura del delegado de protección de datos, pero no especifica en qué casos o entidades es obligatoria su designación.",
+"fuente_ok": false,
+"fecha": "2026-10-24"
+},
+"9438902499": {
+"veredicto": "dudosa",
+"motivo": "El texto proporcionado no incluye información sobre los plazos legales para responder a una solicitud de ejercicio de derechos de protección de datos.",
+"fuente_ok": false,
+"fecha": "2026-10-24"
+},
+"16adef2964": {
+"veredicto": "dudosa",
+"motivo": "El texto menciona los derechos de acceso, rectificación, limitación del tratamiento y supresión, pero no incluye la portabilidad, la oposición ni hace referencia al 'derecho al olvido'.",
+"fuente_ok": false,
+"fecha": "2026-10-24"
+},
+"29186b6bc2": {
+"veredicto": "ok",
+"motivo": "La respuesta es correcta y recoge fielmente los efectos de las sentencias del Tribunal Constitucional según el artículo 164 de la Constitución.",
+"fuente_ok": true,
+"fecha": "2026-10-24"
+},
+"4131f264b2": {
+"veredicto": "ok",
+"motivo": "La respuesta es correcta y resume adecuadamente las condiciones para la suspensión individual de derechos establecidas en el artículo 55.2.",
+"fuente_ok": true,
+"fecha": "2026-10-24"
+},
+"e347cf6745": {
+"veredicto": "ok",
+"motivo": "La respuesta es correcta y detalla con precisión quién declara el estado de alarma, su duración máxima inicial y el requisito para su prórroga.",
+"fuente_ok": true,
+"fecha": "2026-10-24"
+},
+"3f8042e3c8": {
+"veredicto": "ok",
+"motivo": "La respuesta enumera correctamente todas las materias excluidas de la iniciativa legislativa popular según el artículo 87.3 de la Constitución.",
+"fuente_ok": true,
+"fecha": "2026-10-24"
+},
+"51ccae26ce": {
+"veredicto": "ok",
+"motivo": "La respuesta indica correctamente el nombre del Título III, los artículos que comprende y la composición de las Cortes Generales.",
+"fuente_ok": true,
+"fecha": "2026-10-24"
+},
+"4875ed26a3": {
+"veredicto": "ok",
+"motivo": "La respuesta define correctamente al Tribunal de Cuentas y su dependencia directa de las Cortes Generales, tal como establece el artículo 136.",
+"fuente_ok": true,
+"fecha": "2026-10-24"
+},
+"4b73afdca3": {
+"veredicto": "ok",
+"motivo": "La respuesta es correcta, ya que la Constitución Española se estructura en un Título Preliminar y diez títulos numerados.",
+"fuente_ok": false,
+"fecha": "2026-10-24"
+},
+"c6bbc95fb3": {
+"veredicto": "ok",
+"motivo": "La respuesta es correcta. El Título IX regula el Tribunal Constitucional, que es el máximo intérprete de la Carta Magna.",
+"fuente_ok": false,
+"fecha": "2026-10-24"
+},
+"d40a2e31c3": {
+"veredicto": "ok",
+"motivo": "La respuesta es correcta, indicando con precisión el nombre del Título IV y los artículos que abarca.",
+"fuente_ok": false,
+"fecha": "2026-10-24"
+},
+"05574d4006": {
+"veredicto": "ok",
+"motivo": "La respuesta resume perfectamente la función y los requisitos de los partidos políticos según el artículo 6 de la Constitución.",
+"fuente_ok": true,
+"fecha": "2026-10-24"
+},
+"2dd1347f4a": {
+"veredicto": "ok",
+"motivo": "La respuesta es correcta y recoge las misiones principales del Ministerio Fiscal establecidas en el artículo 124.1.",
+"fuente_ok": true,
+"fecha": "2026-10-24"
+},
+"c85b9b9bf7": {
+"veredicto": "ok",
+"motivo": "La respuesta es correcta y refleja la necesidad de refrendo para la validez de los actos del Rey, con las excepciones constitucionales.",
+"fuente_ok": true,
+"fecha": "2026-10-24"
 }
 }

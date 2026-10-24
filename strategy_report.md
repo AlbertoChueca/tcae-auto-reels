@@ -7,7 +7,7 @@ _Updated 2026-10-24 · 15 reels with results (3+ days old) · average score 7.18
 
 | option | reels | avg score |
 |---|---|---|
-| simulacro_3 | 2 | 7.64 |
+| simulacro_3 | 2 | 7.65 |
 | examen_real | 2 | 7.46 |
 | flashcards_express | 1 | 7.45 |
 | pregunta_del_dia | 10 | 7.00 |
@@ -36,7 +36,7 @@ _Updated 2026-10-24 · 15 reels with results (3+ days old) · average score 7.18
 | repaso exprés | 1 | 7.50 |
 | examen | 3 | 7.47 |
 | trampa | 4 | 7.31 |
-| empatía | 3 | 7.02 |
+| empatía | 3 | 7.03 |
 | curiosidad | 4 | 6.87 |
 | reto | 0 | - |
 
