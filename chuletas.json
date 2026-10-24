@@ -82,5 +82,19 @@
 "tiktok": "6adbb9c4b1cdd2cdbd549f10"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-10-24",
+"topic": "piel",
+"tema": "La Piel",
+"subtema": "Lesiones primarias de la piel",
+"quiz_id": "e3c273d877",
+"imagenes": 7,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/De4yrbPF5RS/",
+"tiktok": "6adcfadd74b70629ca0d6c4f"
+},
+"dry_run": false
 }
 ]
