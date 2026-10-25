@@ -96,5 +96,19 @@
 "tiktok": "6adcfadd74b70629ca0d6c4f"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-10-25",
+"topic": "higienePaciente",
+"tema": "Higiene del Paciente",
+"subtema": "Direcciones y sentidos del lavado",
+"quiz_id": "de223ef06b",
+"imagenes": 6,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/De7dYaUF7uy/",
+"tiktok": "6ade587199be97925467732c"
+},
+"dry_run": false
 }
 ]
