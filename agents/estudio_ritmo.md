@@ -1,5 +1,5 @@
-# Cuaderno de ritmo (2026-10-24)
+# Cuaderno de ritmo (2026-10-25)
 
-- Seguir haciendo: Estructuras multirrespuesta que sostienen entre 12 y 20 segundos de retención media.
-- Dejar de hacer: Cortes apresurados o resoluciones que desploman la permanencia por debajo de los 10 segundos.
-- Probar: Pausa de tensión con cuenta atrás sonora de 3 segundos antes de revelar la opción correcta.
+- Seguir haciendo: Ritmo sostenido multirrespuesta ("flashcards_express" y "simulacro_3") que logran entre 12 y 21 segundos de retención.
+- Dejar de hacer: Ritmos que permitan caídas tempranas de retención por debajo de 11 segundos.
+- Probar: Tensión sonora con cuenta atrás de 3 segundos antes de desvelar la opción correcta en cada pregunta.

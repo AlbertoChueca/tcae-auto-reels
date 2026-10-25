@@ -1,5 +1,5 @@
-# Cuaderno de seo (2026-10-24)
+# Cuaderno de seo (2026-10-25)
 
-- Seguir haciendo: Palabras clave tractoras en textos y ganchos: "simulacro", "examen real" e "higiene" (todas sobre 7.70 de score).
-- Dejar de hacer: Términos genéricos o con bajo tirón como "artículo" o "legislación" (peores resultados: 6.29 - 6.61).
-- Probar: Títulos orientados a búsqueda: "Simulacro OPE TCAE: preguntas oficiales de turno hospitalario y protocolos de higiene".
+- Seguir haciendo: Incluir keywords tractoras en ganchos: "simulacro", "pregunta oficial" e "higiene" (scores 7.74 a 8.14).
+- Dejar de hacer: Términos que penalizan visibilidad y retención como "artículo" y "legislación" (scores de 6.39 a 6.75).
+- Probar: Indexar descripciones con búsquedas exactas: "Oposiciones TCAE: simulacro examen oficial SAS y SERMAS higiene".

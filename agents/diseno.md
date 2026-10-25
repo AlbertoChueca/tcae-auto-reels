@@ -1,7 +1,6 @@
-# Cuaderno de diseno (2026-10-24)
+# Cuaderno de diseno (2026-10-25)
 
-# Cuaderno de diseno (2026-10-24)
-
-- Seguir haciendo: Estilos visuales «noche», «cuaderno» y «clásico» con tarjetas blancas de alto contraste teal/ámbar, líderes en visionado (12 a 16 segundos).
-- Dejar de hacer: Estilo «marca» plano en preguntas teóricas, asociado a los peores rendimientos (score 5.88).
-- Probar: Destacar con un recuadro ámbar nítido dentro de la zona segura la opción correcta en los últimos 2 segundos para facilitar la lectura rápida en móvil.
+# Cuaderno de diseno
+- Seguir haciendo: Estilos «noche» y «cuaderno» con tarjetas blancas de alto contraste teal/ámbar, presentes en todo el top de retención (10 a 18 segundos).
+- Dejar de hacer: Estilo «marca» plano, correlacionado con los resultados más bajos (score 5.88) y menor engagement.
+- Probar: Resaltar la alternativa correcta con marco ámbar en los últimos 2 segundos y situar indicador de avance (1/3, 2/3, 3/3) en zona segura superior en los simulacros.

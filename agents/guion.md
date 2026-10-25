@@ -1,7 +1,6 @@
-# Cuaderno de guion (2026-10-24)
+# Cuaderno de guion (2026-10-25)
 
-# Cuaderno de guion (2026-10-24)
-
-- Seguir haciendo: Formato «simulacro_3» (máximo score con 7.79 y 2 guardados) y casos de práctica clínica pura (incontinencia, sondas, higiene, UPP y prevención de riesgos laborales).
-- Dejar de hacer: Temas de legislación general (Constitución Española, Ley General de Sanidad) y temas autonómicos hiperlocales, con 0 guardados y menor interés.
-- Probar: Explicar en una sola frase concisa por qué falla la opción distractora más común, atacando la duda habitual del opositor.
+# Cuaderno de guion
+- Seguir haciendo: Formatos «simulacro_3» (lidera en score con 8.14) y «examen_real» con temas clínicos aplicados (salud laboral, higiene, incontinencia, seguridad del paciente).
+- Dejar de hacer: Preguntas de temarios autonómicos específicos (Aragón al fondo con 5.88) y artículos legislativos teóricos aislados.
+- Probar: En los simulacros de 3 preguntas, aclarar en una frase ultracorta por qué la opción distractora más común es falsa antes de mostrar la solución.
