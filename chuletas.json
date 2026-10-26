@@ -110,5 +110,19 @@
 "tiktok": "6ade587199be97925467732c"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-10-26",
+"topic": "respiratorio",
+"tema": "Aparato Respiratorio",
+"subtema": "Volúmenes y capacidades pulmonares",
+"quiz_id": "a966ac3e2c",
+"imagenes": 6,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/De-PCIJGtyC/",
+"tiktok": "error: Zernio accounts error 500: {\"error\":\"Internal server error\",\"type\":\"api_error\",\"code\":\"internal_error\"}"
+},
+"dry_run": false
 }
 ]
