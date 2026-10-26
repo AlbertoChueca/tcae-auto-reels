@@ -9,8 +9,8 @@ _Updated 2026-10-26 · 19 reels with results (3+ days old) · average score 7.24
 |---|---|---|
 | simulacro_3 | 2 | 7.84 |
 | flashcards_express | 1 | 7.61 |
-| examen_real | 3 | 7.36 |
-| pregunta_del_dia | 13 | 7.08 |
+| examen_real | 3 | 7.37 |
+| pregunta_del_dia | 13 | 7.09 |
 | error_tipico | 0 | - |
 | truco_memorizar | 0 | - |
 | mito_realidad | 0 | - |
@@ -21,10 +21,10 @@ _Updated 2026-10-26 · 19 reels with results (3+ days old) · average score 7.24
 
 | option | reels | avg score |
 |---|---|---|
-| clasico | 1 | 7.63 |
+| clasico | 1 | 7.64 |
 | cuaderno | 3 | 7.47 |
 | examen | 3 | 7.39 |
-| noche | 7 | 7.28 |
+| noche | 7 | 7.29 |
 | minimal | 3 | 7.06 |
 | marca | 2 | 6.58 |
 | ilustrado | 0 | - |
@@ -33,12 +33,12 @@ _Updated 2026-10-26 · 19 reels with results (3+ days old) · average score 7.24
 
 | option | reels | avg score |
 |---|---|---|
-| examen | 4 | 7.55 |
+| examen | 4 | 7.56 |
 | repaso exprés | 2 | 7.30 |
 | trampa | 5 | 7.28 |
 | empatía | 3 | 7.09 |
-| curiosidad | 4 | 7.05 |
-| reto | 1 | 6.80 |
+| curiosidad | 4 | 7.06 |
+| reto | 1 | 6.84 |
 | dilema_guardia | 0 | - |
 | terminos_confusos | 0 | - |
 
@@ -47,7 +47,7 @@ _Updated 2026-10-26 · 19 reels with results (3+ days old) · average score 7.24
 | option | reels | avg score |
 |---|---|---|
 | mixto | 8 | 7.45 |
-| clinico | 7 | 7.32 |
+| clinico | 7 | 7.33 |
 | legislacion | 3 | 6.91 |
 
 ## think_time
@@ -55,7 +55,7 @@ _Updated 2026-10-26 · 19 reels with results (3+ days old) · average score 7.24
 | option | reels | avg score |
 |---|---|---|
 | normal | 6 | 7.45 |
-| corto | 6 | 7.32 |
+| corto | 6 | 7.33 |
 | largo | 7 | 6.98 |
 
 ---
