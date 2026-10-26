@@ -1,12 +1,12 @@
-# Informe del verificador (2026-10-22)
+# Informe del verificador (2026-10-26)
 
-- Preguntas en el banco: 1822 · revisadas: 577 · **publicables: 525**
-- Posibles errores: 9 · dudosas: 22 · correctas pero sin texto de la norma para citar: 21
+- Preguntas en el banco: 1822 · revisadas: 692 · **publicables: 635**
+- Posibles errores: 10 · dudosas: 21 · correctas pero sin texto de la norma para citar: 26
 
 Las marcadas como posible error conviene revisarlas también en la web app.
 
 
-## Posibles errores (9)
+## Posibles errores (10)
 
 - **[Estatuto Marco del Personal Estatutario (Ley 55/2003)]** ¿A qué texto legal remite el artículo 79 de la Ley 55/2003 en materia de representación y negociación colectiva del personal estatutario? — marcada A) Al Texto Refundido del Estatuto Básico del Empleado Público (TREBEP)
   - El artículo 79 remite a la Constitución y a la Ley Orgánica 11/1985 de Libertad Sindical; es el artículo 78 el que remite a la normativa general de la función pública (actual TREBEP).
@@ -26,8 +26,10 @@ Las marcadas como posible error conviene revisarlas también en la web app.
   - La pregunta y la explicación asumen que ha habido cuatro reformas constitucionales (mencionando una futura en 2026), cuando en realidad solo se han producido tres (1992, 2011 y 2024).
 - **[Constantes Vitales]** Se considera hipotermia cuando la temperatura corporal está por debajo de: — marcada B) 36ºC · sugerida: C
   - Clínicamente, la hipotermia se define como una temperatura corporal central inferior a 35ºC. Entre 35ºC y 36ºC se considera temperatura subnormal o hipotermia leve, pero el umbral clínico estándar es 35ºC.
+- **[Farmacología: Conceptos Básicos]** El nombre que recoge la acción del producto químico, como "analgésico", corresponde a: — marcada C) El nombre genérico u oficial · sugerida: Ninguna
+  - El término 'analgésico' define el grupo terapéutico o la acción farmacológica, no el nombre genérico. El nombre genérico u oficial es la Denominación Común Internacional (DCI), como 'paracetamol'. La pregunta y la ficha de la app contienen un error conceptual.
 
-## Dudosas (22)
+## Dudosas (21)
 
 - **[Nombramientos y Tipos de Mayoría]** ¿Cuál es la duración del mandato del Justicia de Aragón? — marcada B) 5 años
   - El texto de la fuente no contiene la Ley 4/1985 reguladora del Justicia de Aragón ni ningún artículo que indique la duración de su mandato.
@@ -53,12 +55,6 @@ Las marcadas como posible error conviene revisarlas también en la web app.
   - La posición quirúrgica indicada para intervenciones de bocio es la de Roser (cuello en hiperextensión), no la de Fowler. La plantilla oficial del tribunal contiene un error.
 - **[La Piel]** ¿Cuál es la primera fase de la cicatrización? — marcada C) Maduración
   - La primera fase de la cicatrización es la inflamatoria (o hemostática), no la de maduración, que es la última. La plantilla oficial del tribunal es incorrecta.
-- **[Constitución Española de 1978]** ¿Qué título de la Constitución regula el Gobierno y la Administración? — marcada B) Título IV
-  - El texto de la fuente proporcionado no incluye el enunciado del Título IV para confirmar la respuesta, aunque por conocimiento general es correcta.
-- **[Constitución Española de 1978]** ¿En qué título de la Constitución se regula la organización territorial del Estado? — marcada C) Título VIII
-  - El texto legal proporcionado omite el encabezado del Título VIII, por lo que no se puede confirmar con la fuente dada que este título regule la organización territorial.
-- **[Ley General de Sanidad (Ley 14/1986)]** Según la LGS, ¿qué nivel asistencial constituye la puerta de entrada y el nivel básico del ciudadano al sistema sanitario? — marcada B) La atención primaria
-  - Los artículos de la LGS proporcionados no contienen la expresión literal 'puerta de entrada y nivel básico', definición que suele atribuirse a la Ley 16/2003.
 - **[Cirugía: Pre, Trans y Postoperatorio]** La apertura de los bordes de una herida quirúrgica suturada, con salida del contenido interno, se denomina: — marcada A) Dehiscencia
   - La apertura de los bordes es 'dehiscencia', pero la 'salida del contenido interno' define específicamente la 'evisceración'. Al no estar esta opción, la pregunta es técnicamente imprecisa y puede generar confusión.
 - **[Lavado de Manos]** El lavado de manos antiséptico, indicado antes de técnicas invasivas, tiene una duración aproximada de: — marcada B) 2-3 minutos
@@ -73,3 +69,7 @@ Las marcadas como posible error conviene revisarlas también en la web app.
   - El texto legal proporcionado describe la limitación de datos a lo estrictamente necesario, pero no nombra explícitamente el 'principio de minimización' del RGPD.
 - **[Constitución Española de 1978]** ¿Cuántas Comunidades Autónomas integran actualmente el Estado español? — marcada B) 17
   - El texto constitucional proporcionado establece la organización territorial del Estado, pero no especifica que el número actual de Comunidades Autónomas sea 17.
+- **[Fechas Clave y Plazos Administrativos]** ¿En qué fecha aprobó el Pleno del Senado el proyecto de Constitución? — marcada A) 5 de octubre de 1978
+  - El texto de la fuente proporcionado no incluye la fecha de aprobación del proyecto de Constitución por el Senado para poder verificar la respuesta.
+- **[Sondas Digestivas]** El calibre de una sonda hace referencia a: — marcada B) El diámetro de la luz
+  - Técnicamente, el calibre (escala French) mide el diámetro externo de la sonda, no el diámetro de la luz (interno), aunque suele darse por válida al ser la mejor opción.

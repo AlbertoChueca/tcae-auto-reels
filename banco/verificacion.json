@@ -3844,12 +3844,12 @@
 },
 "5483972921": {
 "veredicto": "ok",
-"motivo": "La responsabilidad patrimonial de la Administración abarca tanto el funcionamiento normal como el anormal de los servicios públicos, según la Ley 40/2015.",
+"motivo": "La responsabilidad patrimonial de la Administración surge por los daños derivados tanto del funcionamiento normal como anormal de los servicios públicos.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-10-19"
+"fecha": "2026-10-26"
 },
 "303cfaae99": {
 "veredicto": "ok",
@@ -4015,12 +4015,12 @@
 },
 "5c50cb433b": {
 "veredicto": "ok",
-"motivo": "El Pleno del Congreso de los Diputados aprobó el proyecto de Constitución el 21 de julio de 1978, antes de su paso al Senado.",
+"motivo": "El 21 de julio de 1978 el Pleno del Congreso de los Diputados aprobó el proyecto de Constitución.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-10-19"
+"fecha": "2026-10-26"
 },
 "e3cbf3f211": {
 "veredicto": "ok",
@@ -4140,13 +4140,13 @@
 "fecha": "2026-10-19"
 },
 "c440dc1245": {
-"veredicto": "dudosa",
-"motivo": "El texto de la fuente proporcionado no incluye el enunciado del Título IV para confirmar la respuesta, aunque por conocimiento general es correcta.",
+"veredicto": "ok",
+"motivo": "El Título IV de la Constitución Española se titula 'Del Gobierno y de la Administración'.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-10-19"
+"fecha": "2026-10-26"
 },
 "03ba176f21": {
 "veredicto": "ok",
@@ -4293,22 +4293,22 @@
 "fecha": "2026-10-19"
 },
 "2bba5a214e": {
-"veredicto": "dudosa",
-"motivo": "El texto legal proporcionado omite el encabezado del Título VIII, por lo que no se puede confirmar con la fuente dada que este título regule la organización territorial.",
+"veredicto": "ok",
+"motivo": "El Título VIII de la Constitución Española se denomina 'De la Organización Territorial del Estado'.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-10-19"
+"fecha": "2026-10-26"
 },
 "d3a59695c8": {
-"veredicto": "dudosa",
-"motivo": "Los artículos de la LGS proporcionados no contienen la expresión literal 'puerta de entrada y nivel básico', definición que suele atribuirse a la Ley 16/2003.",
-"fuente_ok": false,
-"referencia": "",
-"cita": "",
+"veredicto": "ok",
+"motivo": "La atención primaria es el nivel básico y la puerta de entrada al sistema sanitario, previo a la atención especializada.",
+"fuente_ok": true,
+"referencia": "Ley 14/1986, General de Sanidad · Artículo quince",
+"cita": "Una vez superadas las posibilidades de diagnóstico y tratamiento de la atención primaria, los usuarios",
 "correcta_sugerida": null,
-"fecha": "2026-10-19"
+"fecha": "2026-10-26"
 },
 "359995b6fd": {
 "veredicto": "ok",
@@ -5191,5 +5191,1040 @@
 "cita": "",
 "correcta_sugerida": null,
 "fecha": "2026-10-22"
+},
+"7d83eada8d": {
+"veredicto": "ok",
+"motivo": "La dosis de refuerzo o 'booster' se administra para mantener o aumentar la inmunidad tras la pauta vacunal inicial.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"12cb27e41e": {
+"veredicto": "ok",
+"motivo": "El nivel socioeconómico y educativo son determinantes sociales clave que influyen en la salud de las personas.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"4dc81897dc": {
+"veredicto": "ok",
+"motivo": "Colaborar en el aseo e higiene es una de las funciones principales del TCAE, mientras que las demás opciones son prohibiciones expresas.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"a524f6692e": {
+"veredicto": "ok",
+"motivo": "La administración lenta previene complicaciones digestivas y respiratorias como náuseas, vómitos o broncoaspiración.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"c7cac82121": {
+"veredicto": "ok",
+"motivo": "El término médico para un parto normal, que transcurre sin complicaciones, es parto eutócico.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"53dbe6769b": {
+"veredicto": "ok",
+"motivo": "La Constitución fue sancionada por el Rey el 27 de diciembre de 1978, que cayó en miércoles.",
+"fuente_ok": true,
+"referencia": "Constitución Española de 1978 · Disposición final",
+"cita": "PALACIO DE LAS CORTES, A VEINTISIETE DE DICIEMBRE DE MIL NOVECIENTOS SETENTA Y OCHO.",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"915f657503": {
+"veredicto": "ok",
+"motivo": "El TCAE no tiene competencia para modificar la pauta médica de oxigenoterapia; debe observar y comunicar los síntomas.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"b9125014ab": {
+"veredicto": "ok",
+"motivo": "Las cinco etapas estandarizadas del PAE son valoración, diagnóstico, planificación, ejecución y evaluación.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"c0c631b7fb": {
+"veredicto": "ok",
+"motivo": "La bradicardia se define médicamente como una frecuencia cardíaca por debajo de los 60 latidos por minuto.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"846a1cc74a": {
+"veredicto": "ok",
+"motivo": "Según los factores de conversión de Atwater, un gramo de grasa o lípido aporta 9 kilocalorías.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"09e771432a": {
+"veredicto": "ok",
+"motivo": "La vía intravenosa introduce el fármaco directamente en el torrente sanguíneo, evitando la fase de absorción y logrando un efecto inmediato.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"61d419a247": {
+"veredicto": "ok",
+"motivo": "El sufijo '-plejia' significa parálisis, mientras que la debilidad parcial se denomina '-paresia'.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"5b43abf8f8": {
+"veredicto": "ok",
+"motivo": "Según la clasificación de Spaulding, los niveles de desinfección se dividen en bajo, intermedio y alto nivel.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"e4bf814bc4": {
+"veredicto": "ok",
+"motivo": "La sinergia en el trabajo en equipo se define como el efecto donde el resultado conjunto supera la suma de las aportaciones individuales.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"33d19b6be9": {
+"veredicto": "ok",
+"motivo": "La prevención terciaria se centra en la rehabilitación y recuperación de secuelas o incapacidades ya instauradas.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"92ec61e165": {
+"veredicto": "ok",
+"motivo": "La 6ª Conferencia Internacional de Promoción de la Salud se celebró efectivamente en Bangkok en el año 2005.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"d7e5bdc183": {
+"veredicto": "ok",
+"motivo": "La dieta triturada facilita la deglución y masticación, siendo la indicación principal para pacientes con disfagia.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"288cd14254": {
+"veredicto": "ok",
+"motivo": "El artículo 79 del Estatuto Marco establece las mesas sectoriales de negociación como los órganos de negociación colectiva en cada servicio de salud.",
+"fuente_ok": true,
+"referencia": "Ley 55/2003, del Estatuto Marco del personal estatutario · Artículo 79",
+"cita": "En el ámbito de cada servicio de salud se constituirá una mesa sectorial de negociación",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"e6ff97ca28": {
+"veredicto": "ok",
+"motivo": "El modelo de la Joint Commission es el estándar internacional específico para la acreditación de organizaciones sanitarias, a diferencia del EFQM que es de excelencia.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"7a17a69699": {
+"veredicto": "ok",
+"motivo": "La absorción de agua y electrolitos, junto con la formación de heces, es la función principal del intestino grueso.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"06ee4d4011": {
+"veredicto": "ok",
+"motivo": "Las gafas nasales son el dispositivo estándar para administrar oxígeno a bajas concentraciones (generalmente entre el 24% y el 40%).",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"61ef61f64c": {
+"veredicto": "ok",
+"motivo": "La integralidad en Atención Primaria se define precisamente como el abordaje biopsicosocial del individuo en su conjunto.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"9d4ed8e5e5": {
+"veredicto": "error",
+"motivo": "El término 'analgésico' define el grupo terapéutico o la acción farmacológica, no el nombre genérico. El nombre genérico u oficial es la Denominación Común Internacional (DCI), como 'paracetamol'. La pregunta y la ficha de la app contienen un error conceptual.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": "Ninguna",
+"fecha": "2026-10-26"
+},
+"58ae12a98e": {
+"veredicto": "ok",
+"motivo": "La pluripatología y la presentación atípica o enmascarada de los síntomas son características fundamentales de la enfermedad en el paciente geriátrico.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"5e0a6d3f44": {
+"veredicto": "ok",
+"motivo": "Médicamente se acepta como patrón de eliminación intestinal normal un rango que va desde 3 deposiciones al día hasta 3 a la semana.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"40ae0e1a88": {
+"veredicto": "ok",
+"motivo": "Los uréteres son los conductos que comunican la pelvis renal con la vejiga urinaria para transportar la orina.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"854cfebdf9": {
+"veredicto": "ok",
+"motivo": "La pirosis es el término médico exacto para la sensación de ardor o quemazón retroesternal producida por el reflujo gastroesofágico.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"957eda7589": {
+"veredicto": "ok",
+"motivo": "Los residuos citostáticos se clasifican habitualmente en el Grupo IV, correspondiente a residuos tipificados en normativas singulares.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"3c353a5c73": {
+"veredicto": "ok",
+"motivo": "La calidad eficiente se define como la obtención del mejor resultado de salud posible optimizando los recursos y al menor coste.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"6f32505867": {
+"veredicto": "ok",
+"motivo": "La clorhexidina y la povidona yodada son antisépticos, es decir, sustancias químicas antimicrobianas que se aplican sobre tejidos vivos.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"eeb13c3384": {
+"veredicto": "ok",
+"motivo": "El prefijo 'a-' o 'an-' indica privación, carencia o ausencia total de algo.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"096f8bc47c": {
+"veredicto": "ok",
+"motivo": "La higiene del cabello en pacientes encamados se realiza en la propia cama utilizando dispositivos específicos como el lavacabezas o un hule.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"5098b44ab3": {
+"veredicto": "ok",
+"motivo": "Se recomienda que las embarazadas realicen paradas y descansos frecuentes durante los viajes para evitar problemas circulatorios como el estasis venoso.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"8989744990": {
+"veredicto": "ok",
+"motivo": "La Constitución establece claramente que la responsabilidad de los actos del Rey recae sobre las personas que los refrendan.",
+"fuente_ok": true,
+"referencia": "Constitución Española de 1978, Artículo 64",
+"cita": "De los actos del Rey serán responsables las personas que los refrenden.",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"36b453ae51": {
+"veredicto": "ok",
+"motivo": "El trastorno obsesivo-compulsivo (TOC) se define por la presencia de obsesiones y compulsiones recurrentes que interfieren en la vida diaria.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"68dff62935": {
+"veredicto": "ok",
+"motivo": "En decúbito supino, los puntos de apoyo principales y de mayor riesgo de UPP son el sacro, los talones, los codos, los omóplatos y la zona occipital.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"d1bee0d00c": {
+"veredicto": "ok",
+"motivo": "Según la normativa de procedimiento administrativo (Ley 39/2015, art. 67.1), en daños de carácter físico o psíquico el plazo de un año computa desde la curación o determinación de secuelas.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"d23e961f9d": {
+"veredicto": "ok",
+"motivo": "La escala de Lawton y Brody es el instrumento estandarizado y universalmente aceptado para evaluar las Actividades Instrumentales de la Vida Diaria (AIVD).",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"85fea6c00f": {
+"veredicto": "ok",
+"motivo": "Hablar de frente facilita la lectura labial y vocalizar sin gritar evita la distorsión del sonido, siendo la pauta correcta ante un déficit auditivo.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"c9e70a1955": {
+"veredicto": "ok",
+"motivo": "Los frascos de hemocultivo no deben refrigerarse; si se retrasa su envío, deben conservarse en estufa a 35-37 ºC para no alterar la viabilidad bacteriana.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"96fe24cf57": {
+"veredicto": "ok",
+"motivo": "Los loquios son los exudados uterovaginales (compuestos por sangre, moco y tejido) que se expulsan de forma fisiológica durante el puerperio.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"494e58d33d": {
+"veredicto": "ok",
+"motivo": "La inyección intramuscular se realiza introduciendo la aguja perpendicularmente a la piel, es decir, formando un ángulo de 90º.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"3907896188": {
+"veredicto": "ok",
+"motivo": "La cartera de servicios se define legalmente como el conjunto de técnicas, tecnologías y procedimientos mediante los que se hacen efectivas las prestaciones sanitarias.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"550810cd9a": {
+"veredicto": "ok",
+"motivo": "Todas las opciones mencionadas son prácticas seguras fundamentales y reconocidas internacionalmente en la atención sanitaria.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"3826a664ae": {
+"veredicto": "ok",
+"motivo": "La anatomía cardíaca establece que la sangre pasa de la aurícula derecha al ventrículo derecho a través de la válvula tricúspide.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"804a6e8322": {
+"veredicto": "ok",
+"motivo": "En la clasificación de errores, el lapsus corresponde a un fallo de memoria, mientras que el desliz es un fallo de atención o ejecución.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"6cdb4bc29a": {
+"veredicto": "ok",
+"motivo": "La sacarosa es un disacárido formado por glucosa y fructosa, mientras que las demás opciones son monosacáridos.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"98fabb9dd3": {
+"veredicto": "ok",
+"motivo": "La denominación correcta para la cama destinada a recibir a un paciente tras una intervención es cama quirúrgica o de recuperación.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"91d56b9c87": {
+"veredicto": "ok",
+"motivo": "La Ley 9/2017 establece expresamente que la adjudicación se basará ordinariamente en el principio de mejor relación calidad-precio.",
+"fuente_ok": true,
+"referencia": "Ley 9/2017, de Contratos del Sector Público, Artículo 131.2",
+"cita": "La adjudicación se realizará, ordinariamente utilizando una pluralidad de criterios de adjudicación basados en el principio de mejor relación calidad-precio",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"2b1a2cfff7": {
+"veredicto": "ok",
+"motivo": "La posición de Fowler favorece la expansión de la caja torácica y facilita la respiración, siendo la ideal para la oxigenoterapia.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"a157566845": {
+"veredicto": "ok",
+"motivo": "El prefijo de origen griego 'macro-' significa grande o de gran tamaño.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"9cafc24e44": {
+"veredicto": "ok",
+"motivo": "La entrevista personal permite el intercambio de información y feedback inmediato, siendo un método bidireccional.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"16c06bb5a9": {
+"veredicto": "ok",
+"motivo": "El periodo embrionario finaliza alrededor de la 8ª-9ª semana, momento a partir del cual pasa a denominarse feto.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"d3c041aec7": {
+"veredicto": "ok",
+"motivo": "Las carnes son la principal fuente de proteínas de alto valor biológico y minerales como hierro, potasio y fósforo entre las opciones dadas.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"2c3ef0c1de": {
+"veredicto": "ok",
+"motivo": "El término médico para las heces pálidas o blanquecinas por falta de pigmentos biliares es acolia.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"6edd78b43d": {
+"veredicto": "ok",
+"motivo": "Lydia Hall fue la primera teórica en utilizar y describir el término 'proceso de enfermería' en 1955.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"479953e7de": {
+"veredicto": "ok",
+"motivo": "La kinesia es la disciplina que estudia el significado de los movimientos corporales y los gestos en la comunicación no verbal.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"0bb2196030": {
+"veredicto": "ok",
+"motivo": "La maniobra de Heimlich (compresiones abdominales) es la técnica indicada para desobstruir la vía aérea en un adulto consciente con oclusión total.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"f6ad631c70": {
+"veredicto": "ok",
+"motivo": "El artículo 149.1.16 de la Constitución Española establece la legislación sobre productos farmacéuticos como competencia exclusiva del Estado.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"a85a279ae6": {
+"veredicto": "ok",
+"motivo": "El glomérulo es la red capilar de la nefrona donde se produce la filtración del plasma sanguíneo, primer paso en la formación de la orina.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"9ca486574d": {
+"veredicto": "ok",
+"motivo": "La circulación menor o pulmonar es el circuito que lleva la sangre desoxigenada desde el corazón a los pulmones y la devuelve oxigenada.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"6451d1588e": {
+"veredicto": "ok",
+"motivo": "Los drenajes cerrados se conectan a un sistema colector hermético (con o sin vacío) para evitar infecciones, siendo de elección en cirugía mayor.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"dd7fe3d81f": {
+"veredicto": "ok",
+"motivo": "La palpación es la técnica exploratoria basada en el sentido del tacto para evaluar características físicas de los tejidos y órganos.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"85733e4520": {
+"veredicto": "ok",
+"motivo": "Las tres fases clínicas del parto normal son, en orden cronológico: dilatación del cuello uterino, expulsión del feto y alumbramiento de la placenta.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"387ef7acee": {
+"veredicto": "ok",
+"motivo": "La Organización Mundial de la Salud (OMS) establece que el lavado de manos con agua y jabón debe durar entre 40 y 60 segundos.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"5776a39c60": {
+"veredicto": "ok",
+"motivo": "En el modelo de Virginia Henderson, la independencia se define como el nivel óptimo de desarrollo de la persona para satisfacer sus necesidades básicas sin ayuda.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"d7c701ef14": {
+"veredicto": "ok",
+"motivo": "Según el orden de extracción estandarizado, los frascos de hemocultivo siempre se extraen primero para garantizar la máxima esterilidad de la muestra.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"43c68f1436": {
+"veredicto": "ok",
+"motivo": "La Constitución establece que en la primera votación de investidura se requiere la mayoría absoluta del Congreso de los Diputados.",
+"fuente_ok": true,
+"referencia": "Constitución Española de 1978 · Artículo 99",
+"cita": "Si el Congreso de los Diputados, por el voto de la mayoría absoluta de sus miembros, otorgare su confianza a dicho candidato, el Rey le nombrará Presidente.",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"3844f30d13": {
+"veredicto": "ok",
+"motivo": "El médico responsable de la intervención es quien tiene la competencia y obligación legal de informar al paciente y obtener su consentimiento.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"3972ef80d8": {
+"veredicto": "ok",
+"motivo": "En patologías cardíacas se prescribe una dieta hiposódica (pobre en sodio) para evitar la retención de líquidos y controlar la hipertensión.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"0d07c8886b": {
+"veredicto": "ok",
+"motivo": "El pulso apical se toma auscultando directamente sobre el ápex o punta del corazón utilizando un fonendoscopio.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"5d4843f591": {
+"veredicto": "ok",
+"motivo": "Las opciones B, C y D son claramente negativas e incorrectas, siendo la A la única ventaja real y lógica del PAE.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"614bde356c": {
+"veredicto": "ok",
+"motivo": "La higiene ocular siempre debe realizarse desde el ángulo interno (lagrimal) hacia el externo para evitar introducir suciedad en el conducto lagrimal.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"e6a3a3c97c": {
+"veredicto": "ok",
+"motivo": "El periodo perioperatorio es el término global que abarca las fases preoperatoria, intraoperatoria y postoperatoria hasta el alta del paciente.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"3f73d21e03": {
+"veredicto": "ok",
+"motivo": "La posición de Fowler (o semi-Fowler) es la indicada para facilitar la deglución y el paso de la sonda nasogástrica en pacientes conscientes.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"0237ba623b": {
+"veredicto": "ok",
+"motivo": "El orden descrito en la opción A es el procedimiento estándar enseñado en los manuales de TCAE para hacer una cama hospitalaria.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"a111aad225": {
+"veredicto": "ok",
+"motivo": "Los ruidos auscultados al medir la presión arterial se denominan universalmente ruidos de Korotkoff.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"08fc8456da": {
+"veredicto": "ok",
+"motivo": "La Ley 39/2015 establece claramente que el plazo para interponer un recurso de alzada contra un acto expreso es de un mes.",
+"fuente_ok": true,
+"referencia": "Ley 39/2015, del Procedimiento Administrativo Común · Artículo 122",
+"cita": "El plazo para la interposición del recurso de alzada será de un mes, si el acto fuera expreso.",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"f5ec54beda": {
+"veredicto": "ok",
+"motivo": "La nefrona es indiscutiblemente la unidad funcional del riñón encargada de la filtración y formación de orina.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"8d83be7acf": {
+"veredicto": "ok",
+"motivo": "La evidencia científica y los protocolos actuales recomiendan mantener el cordón umbilical limpio y seco (cuidado en seco) hasta que se caiga.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"d76370d536": {
+"veredicto": "ok",
+"motivo": "La parafina es un método de termoterapia por conducción muy utilizado en extremidades distales (manos y pies) por su alta retención térmica.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"bb36882880": {
+"veredicto": "ok",
+"motivo": "El lavado gástrico es una técnica de urgencia cuya finalidad principal es la evacuación del contenido estomacal ante intoxicaciones o hemorragias.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"4c0c57da5a": {
+"veredicto": "ok",
+"motivo": "La resolución WHA55.18 de 2002 de la Asamblea Mundial de la Salud es el documento histórico clave que impulsó la seguridad del paciente a nivel mundial.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"f22c859058": {
+"veredicto": "dudosa",
+"motivo": "El texto de la fuente proporcionado no incluye la fecha de aprobación del proyecto de Constitución por el Senado para poder verificar la respuesta.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"eb13fad241": {
+"veredicto": "ok",
+"motivo": "La recomendación general de ingesta de líquidos para personas mayores sin restricciones hídricas es de 1,5 a 2 litros diarios.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"78a69e59be": {
+"veredicto": "ok",
+"motivo": "El drenaje de Saratoga es un tubo de doble luz que permite la aspiración activa y la entrada de aire o lavado simultáneo.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"a20382986e": {
+"veredicto": "ok",
+"motivo": "El efecto antagonista se define como la anulación o disminución del efecto de un fármaco por la acción de otro administrado conjuntamente.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"b2a426b226": {
+"veredicto": "ok",
+"motivo": "El Kwashiorkor es la forma de desnutrición infantil producida específicamente por una deficiencia grave de proteínas en la dieta.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"719083d515": {
+"veredicto": "ok",
+"motivo": "La Ley Orgánica 3/2018, de 5 de diciembre, es la norma vigente que adapta el ordenamiento español al RGPD.",
+"fuente_ok": true,
+"referencia": "Ley Orgánica 3/2018, de Protección de Datos Personales · Título oficial",
+"cita": "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales.",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"fa4d6df2cd": {
+"veredicto": "ok",
+"motivo": "El sufijo '-penia' significa disminución, déficit o carencia en terminología médica (ej. leucopenia).",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"1c54c6dbf5": {
+"veredicto": "dudosa",
+"motivo": "Técnicamente, el calibre (escala French) mide el diámetro externo de la sonda, no el diámetro de la luz (interno), aunque suele darse por válida al ser la mejor opción.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"a9819b6511": {
+"veredicto": "ok",
+"motivo": "La maniobra de Valsalva provoca cambios hemodinámicos bruscos que pueden ser peligrosos en pacientes con patología cardiovascular.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"ab8f48b9a4": {
+"veredicto": "ok",
+"motivo": "El déficit de vitamina D provoca raquitismo en la infancia y osteomalacia (reblandecimiento óseo) en la edad adulta.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"8b2a31bf2a": {
+"veredicto": "ok",
+"motivo": "Las glándulas apocrinas se localizan en esas zonas específicas y producen un sudor más espeso que genera olor al ser descompuesto por bacterias.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"a111a21189": {
+"veredicto": "ok",
+"motivo": "La función principal de las glándulas sebáceas es la secreción de sebo para lubricar y proteger la piel y el pelo.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"30d19d58de": {
+"veredicto": "ok",
+"motivo": "La cama de Judet, también conocida como cama ortopédica o traumatológica, está diseñada específicamente para pacientes con fracturas o tracciones.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"dfd5eaa129": {
+"veredicto": "ok",
+"motivo": "Los capilares son los vasos sanguíneos de paredes más finas donde se produce el intercambio de gases y nutrientes con los tejidos.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"538b2e5e3e": {
+"veredicto": "ok",
+"motivo": "En los modelos de calidad, la calidad programada o diseñada es la que la organización establece como estándar a cumplir ('lo que me dicen que haga').",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"ffa75e5359": {
+"veredicto": "ok",
+"motivo": "La Constitución establece explícitamente que el desarrollo de estos estados se hará mediante ley orgánica.",
+"fuente_ok": true,
+"referencia": "Constitución Española de 1978 · Artículo 116",
+"cita": "Una ley orgánica regulará los estados de alarma, de excepción y de sitio",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"ad3a47b5fa": {
+"veredicto": "ok",
+"motivo": "El caput succedaneum es un edema del cuero cabelludo que aparece tras el parto y se reabsorbe espontáneamente.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"d68cf96a5a": {
+"veredicto": "ok",
+"motivo": "Las aurículas son las cavidades del corazón que reciben la sangre venosa, mientras que los ventrículos la bombean.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"dbdc7a99aa": {
+"veredicto": "ok",
+"motivo": "Los ejercicios de Kegel fortalecen la musculatura del suelo pélvico y son el tratamiento de elección para la incontinencia de esfuerzo.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"ba614ae884": {
+"veredicto": "ok",
+"motivo": "La anestesia epidural se inyecta en el espacio epidural (fuera de la duramadre) y la raquídea en el espacio subaracnoideo (dentro).",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"7944615909": {
+"veredicto": "ok",
+"motivo": "La taquipnea es el término médico utilizado para describir una frecuencia respiratoria anormalmente rápida.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"d321a92dbb": {
+"veredicto": "ok",
+"motivo": "La vena subclavia y la yugular interna son los accesos venosos centrales de elección para medir la presión venosa central.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"550f655b5e": {
+"veredicto": "ok",
+"motivo": "La prevalencia mide la proporción de individuos (casos nuevos y antiguos) que padecen una enfermedad en un momento dado.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"fe60985f55": {
+"veredicto": "ok",
+"motivo": "La Constitución Española establece este procedimiento exacto para el nombramiento del Fiscal General del Estado.",
+"fuente_ok": true,
+"referencia": "Constitución Española de 1978, Artículo 124",
+"cita": "El Fiscal General del Estado será nombrado por el Rey, a propuesta del Gobierno, oído el Consejo General del Poder Judicial.",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"ad3ec4eb35": {
+"veredicto": "ok",
+"motivo": "El electrobisturí utiliza corriente eléctrica de alta frecuencia para cortar y coagular tejidos, reduciendo el sangrado.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"ce539e601d": {
+"veredicto": "ok",
+"motivo": "El Reglamento General de Protección de Datos (RGPD) fue aprobado el 27 de abril de 2016, aunque su aplicación comenzó en 2018.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"6be2521833": {
+"veredicto": "ok",
+"motivo": "Los efectos adversos pueden producirse en cualquier ámbito asistencial, no existiendo ningún entorno sanitario libre de este riesgo.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"c71a7d2632": {
+"veredicto": "ok",
+"motivo": "La taquipnea se define médicamente como el aumento de la frecuencia respiratoria por encima de los valores normales.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"1e3e686b6e": {
+"veredicto": "ok",
+"motivo": "La incontinencia de urgencia se caracteriza por la pérdida involuntaria de orina asociada a un fuerte y repentino deseo de orinar.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"5633114b97": {
+"veredicto": "ok",
+"motivo": "La ausencia de lágrimas y la sequedad de mucosas son signos clínicos típicos de deshidratación en ancianos.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"aef335abb2": {
+"veredicto": "ok",
+"motivo": "Las tres glándulas salivales mayores del cuerpo humano son la parótida, la submaxilar (o submandibular) y la sublingual.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
+},
+"3e7fb3afe2": {
+"veredicto": "ok",
+"motivo": "La Ley 39/2015 establece expresamente que si no hay día equivalente en el mes de vencimiento, el plazo expira el último día de dicho mes.",
+"fuente_ok": true,
+"referencia": "Ley 39/2015, del Procedimiento Administrativo Común · Artículo 30",
+"cita": "Si en el mes de vencimiento no hubiera día equivalente a aquel en que comienza el cómputo, se entenderá que el plazo expira el último día del mes.",
+"correcta_sugerida": null,
+"fecha": "2026-10-26"
 }
 }
