@@ -1,0 +1,42 @@
+{
+"formato": [
+"pregunta_del_dia",
+"examen_real",
+"error_tipico",
+"truco_memorizar",
+"mito_realidad",
+"simulacro_3",
+"legislacion_30s",
+"caso_practico",
+"flashcards_express"
+],
+"estilo": [
+"marca",
+"clasico",
+"cuaderno",
+"examen",
+"noche",
+"minimal",
+"ilustrado"
+],
+"hook_style": [
+"reto: retar directamente ('¿la acertarías en el examen?')",
+"trampa: avisar de que la pregunta tiene trampa o confunde",
+"empatía: hablar a quien estudia después del turno o con poco tiempo",
+"curiosidad: abrir con un dato o duda que pique la curiosidad (solo del material)",
+"examen: recordar que es el tipo de pregunta que cae en el examen oficial",
+"repaso exprés: 'repaso de 30 segundos' para estudiar en cualquier hueco",
+"dilema_guardia: Plantea una situación de pase de guardia o actuación rápida en planta para activar el criterio clínico inmediato.",
+"terminos_confusos: Contrapone dos conceptos técnicos o siglas oficiales que el tribunal suele mezclar para inducir al error."
+],
+"bloque": [
+"clinico",
+"legislacion",
+"mixto"
+],
+"think_time": [
+"corto",
+"normal",
+"largo"
+]
+}
