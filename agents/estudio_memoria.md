@@ -1,5 +1,5 @@
-# Cuaderno de memoria (2026-10-25)
+# Cuaderno de memoria (2026-10-26)
 
-- Seguir haciendo: Formatos "flashcards_express" y "simulacro_3", líderes en guardados (hasta 3) y retención (hasta 21.3 segundos).
-- Dejar de hacer: Reels de pregunta única teórica sin pausa para autoevaluación o recuperación activa.
-- Probar: CTA explícito de repaso espaciado: "Guarda este test para volver a intentar las 3 preguntas en 48 horas".
+- Seguir haciendo: Formatos simulacro_3 y flashcards_express, líderes absolutos en guardados (hasta 3) y retención (hasta 21 segundos).
+- Dejar de hacer: Preguntas de un solo impacto sin pausa para autoevaluación o recuperación activa.
+- Probar: Llamada explícita al repaso espaciado: «Guarda este test para comprobar si mantienes las 3 acertadas en 48 horas».

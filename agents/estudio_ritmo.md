@@ -1,5 +1,5 @@
-# Cuaderno de ritmo (2026-10-25)
+# Cuaderno de ritmo (2026-10-26)
 
-- Seguir haciendo: Ritmo sostenido multirrespuesta ("flashcards_express" y "simulacro_3") que logran entre 12 y 21 segundos de retención.
-- Dejar de hacer: Ritmos que permitan caídas tempranas de retención por debajo de 11 segundos.
-- Probar: Tensión sonora con cuenta atrás de 3 segundos antes de desvelar la opción correcta en cada pregunta.
+- Seguir haciendo: Estructura multipregunta ágil con pausas breves, logrando retenciones sólidas entre 12 y 21 segundos.
+- Dejar de hacer: Dinámicas lentas de pregunta única que provocan caídas por debajo de los 8 segundos de visionado.
+- Probar: Cuenta atrás sonora de 2.5 segundos antes de desvelar cada respuesta para retener al usuario hasta el final.

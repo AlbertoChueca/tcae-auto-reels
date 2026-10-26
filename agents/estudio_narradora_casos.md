@@ -1,5 +1,5 @@
-# Cuaderno de narradora_casos (2026-10-25)
+# Cuaderno de narradora_casos (2026-10-26)
 
-- Seguir haciendo: Casos prácticos de guardia nocturna e higiene básica (scores de 7.74 a 8.14 y alta interacción).
-- Dejar de hacer: Preguntas teóricas de legislación pura y artículos descontextualizados (scores más bajos: 6.39 y 6.75).
-- Probar: Escenas de pase de guardia con dilema operativo inmediato sobre movilización de pacientes o confort nocturno.
+- Seguir haciendo: Casos contextualizados en guardia nocturna y tareas reales de higiene y confort (scores de 7.75 a 8.44).
+- Dejar de hacer: Enunciados teóricos de legislación pura o artículos aislados sin paciente (scores mínimos de 6.39).
+- Probar: Dilemas operativos de planta: avisos de timbre nocturno o dudas de movilización entre compañeras durante el pase de guardia.

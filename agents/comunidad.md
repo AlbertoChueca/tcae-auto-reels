@@ -1,7 +1,7 @@
-# Cuaderno de comunidad (2026-10-25)
+# Cuaderno de comunidad (2026-10-26)
 
 # Cuaderno de comunidad
-- Datos moderados (12 comentarios analizados): la audiencia interactúa de forma minimalista, respondiendo casi exclusivamente con la letra elegida («B», «D», «2a», «Ab») y manifestando dudas espontáneas («D?», «C perdón»).
-- Seguir haciendo: Preguntas de opción múltiple clínica y simulacros donde la audiencia participa sin fricción.
-- Dejar de hacer: Solicitar justificaciones teóricas; el opositor adulto no redacta explicaciones.
-- Probar: Fijar el primer comentario retando la duda habitual: «Muchos dudan entre dos opciones... ¿cuál marcaste tú? 👇».
+- Datos limitados (14 comentarios recientes): la audiencia interactúa de forma minimalista, comentando casi únicamente letras sueltas («B», «D», «2a», «Ab») y reflejando dudas espontáneas («D?», «C perdón»).
+- Seguir haciendo: Plantear preguntas tipo test nítidas donde responder sea tan fácil como teclear una letra.
+- Dejar de hacer: Solicitar justificaciones o debates teóricos en comentarios.
+- Probar: Fijar un primer comentario que valide la indecisión: «Muchos dudan entre dos opciones... ¿cuál marcaste tú? 👇».

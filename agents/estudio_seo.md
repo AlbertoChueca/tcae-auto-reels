@@ -1,5 +1,5 @@
-# Cuaderno de seo (2026-10-25)
+# Cuaderno de seo (2026-10-26)
 
-- Seguir haciendo: Incluir keywords tractoras en ganchos: "simulacro", "pregunta oficial" e "higiene" (scores 7.74 a 8.14).
-- Dejar de hacer: Términos que penalizan visibilidad y retención como "artículo" y "legislación" (scores de 6.39 a 6.75).
-- Probar: Indexar descripciones con búsquedas exactas: "Oposiciones TCAE: simulacro examen oficial SAS y SERMAS higiene".
+- Seguir haciendo: Keywords de alta intención de búsqueda opositora: «simulacro», «pregunta oficial» y «examen real».
+- Dejar de hacer: Palabras técnicas abstractas como «artículo clave» o «legislación» que hunden visualizaciones y retención.
+- Probar: Descripciones optimizadas para búsqueda: «Oposiciones TCAE: simulacro examen oficial SAS y SERMAS sobre higiene y confort».
