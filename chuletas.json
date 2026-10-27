@@ -124,5 +124,19 @@
 "tiktok": "error: Zernio accounts error 500: {\"error\":\"Internal server error\",\"type\":\"api_error\",\"code\":\"internal_error\"}"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-10-27",
+"topic": "lavadoManos",
+"tema": "Lavado de Manos",
+"subtema": "Tipos de lavado de manos",
+"quiz_id": "387ef7acee",
+"imagenes": 6,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/DfAyeiWjyTo/",
+"tiktok": "6ae112fc140a0de724a8881a"
+},
+"dry_run": false
 }
 ]
