@@ -325,12 +325,43 @@
 },
 "2026-10-26_manana_a157566845": {
 "respondidos": [],
-"stories": [],
+"stories": [
+"soluciones/2026-10-26_manana_1325_1.jpg",
+"soluciones/2026-10-26_manana_1325_2.jpg",
+"soluciones/2026-10-26_manana_1325_3.jpg"
+],
 "fecha": "2026-10-27",
 "tiktok_respondidos": [
 "7700979256021451542",
 "7701063183646163734"
 ],
 "youtube_respondidos": []
+},
+"2026-10-26_mediodia_b1bd7c540f": {
+"respondidos": [],
+"stories": [
+"soluciones/2026-10-26_mediodia_1855_1.jpg"
+],
+"fecha": "2026-10-27",
+"comentario": "18113157923173904",
+"tiktok_respondidos": [
+"7701273142358115094",
+"7701122558221779734",
+"7701116146137400066",
+"7701097073446388502",
+"7701060393934406422",
+"7701055436218696471"
+],
+"youtube_respondidos": []
+},
+"2026-10-26_noche_6cdb4bc29a": {
+"respondidos": [],
+"stories": [
+"soluciones/2026-10-26_noche_2324_1.jpg"
+]
+},
+"2026-10-26_tiktok": {
+"fecha": "2026-10-27",
+"id": "6ae08b933de352eb0b023b45"
 }
 }
