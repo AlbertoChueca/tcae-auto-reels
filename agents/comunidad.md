@@ -1,7 +1,7 @@
-# Cuaderno de comunidad (2026-10-26)
+# Cuaderno de comunidad (2026-10-27)
 
 # Cuaderno de comunidad
-- Datos limitados (14 comentarios recientes): la audiencia interactúa de forma minimalista, comentando casi únicamente letras sueltas («B», «D», «2a», «Ab») y reflejando dudas espontáneas («D?», «C perdón»).
-- Seguir haciendo: Plantear preguntas tipo test nítidas donde responder sea tan fácil como teclear una letra.
-- Dejar de hacer: Solicitar justificaciones o debates teóricos en comentarios.
-- Probar: Fijar un primer comentario que valide la indecisión: «Muchos dudan entre dos opciones... ¿cuál marcaste tú? 👇».
+- Resumen audiencia: Datos limitados (15 comentarios recientes). Interacción 100% telegráfica: comentan únicamente la letra de la opción («A», «B», «D») o combinaciones breves («2a», «Ab»), mostrando vacilación o autocorrección espontánea («D?», «C perdón»).
+- Seguir haciendo: Fórmulas tipo test claras que no exijan escribir más de un carácter.
+- Dejar de hacer: Preguntas abiertas que requieran argumentación.
+- Probar: Fijar un comentario empático que valide el fallo común: «Muchos dudáis entre la B y la D... ¿cuál pusiste? 👇».

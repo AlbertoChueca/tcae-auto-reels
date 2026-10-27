@@ -1,5 +1,5 @@
-# Cuaderno de revisora_visual (2026-10-26)
+# Cuaderno de revisora_visual (2026-10-27)
 
-- Seguir haciendo: Verificación estricta de protocolos EPI (manos desnudas con material limpio) y ausencia total de texto dentro de la imagen.
-- Dejar de hacer: Aprobar artes con inconsistencias de utillaje clínico o fallos de proporción anatómica.
-- Probar: Checklist visual en tres pasos antes del render: rigor de higiene, una sola fuente de acción y anatomía impecable.
+- Seguir haciendo: Control estricto de higiene/EPI (manos desnudas con material limpio) y veto total a textos incrustados.
+- Dejar de hacer: Aprobar artes con anomalías anatómicas o duplicidad de objetos en el entorno de trabajo.
+- Probar: Checklist previo de 3 pasos: cumplimiento de protocolo EPI, objeto único de acción y anatomía realista.

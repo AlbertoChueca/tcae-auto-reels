@@ -1,6 +1,6 @@
-# Cuaderno de crecimiento (2026-10-26)
+# Cuaderno de crecimiento (2026-10-27)
 
 # Cuaderno de crecimiento
-- Seguir haciendo: Potenciar formatos que maximizan guardados (flashcards_express logró 3 guardados en Constitución) y preguntas que disparan respuestas rápidas por letra.
-- Dejar de hacer: Descripciones extensas o llamadas que exijan redacción compleja al usuario.
-- Probar: CTA de cierre estandarizada: «Comenta tu puntuación (ej. 3/3) y guarda para no fallarla en el examen. Miles de tests oficiales en apruebatcae.com».
+- Seguir haciendo: Fomentar interacción ultra sencilla por letras (simulacros y examen_real generan hasta 7 comentarios) y apalancar guardados con bloques densos (flashcards consiguen hasta 3 guardados).
+- Dejar de hacer: Copys largos que desvíen la atención de responder de inmediato.
+- Probar: CTA directa: «¿Cuántas acertaste? Deja tu puntuación (ej. 3/3) y guarda para no fallarla. Cientos de tests en apruebatcae.com».

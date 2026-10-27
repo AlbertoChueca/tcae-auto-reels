@@ -1,5 +1,5 @@
-# Cuaderno de narradora_casos (2026-10-26)
+# Cuaderno de narradora_casos (2026-10-27)
 
-- Seguir haciendo: Casos contextualizados en guardia nocturna y tareas reales de higiene y confort (scores de 7.75 a 8.44).
-- Dejar de hacer: Enunciados teóricos de legislación pura o artículos aislados sin paciente (scores mínimos de 6.39).
-- Probar: Dilemas operativos de planta: avisos de timbre nocturno o dudas de movilización entre compañeras durante el pase de guardia.
+- Seguir haciendo: Casos reales de turno de noche sobre higiene, absorbentes y confort (scores entre 7.75 y 8.51).
+- Dejar de hacer: Preguntas teóricas de artículos de leyes o legislación aislada sin paciente (scores mínimos de 6.39).
+- Probar: Situaciones reales de planta: timbres nocturnos en pacientes dependientes y dudas de movilización entre compañeras.

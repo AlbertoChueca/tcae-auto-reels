@@ -1,5 +1,5 @@
-# Cuaderno de ritmo (2026-10-26)
+# Cuaderno de ritmo (2026-10-27)
 
-- Seguir haciendo: Estructura multipregunta ágil con pausas breves, logrando retenciones sólidas entre 12 y 21 segundos.
-- Dejar de hacer: Dinámicas lentas de pregunta única que provocan caídas por debajo de los 8 segundos de visionado.
-- Probar: Cuenta atrás sonora de 2.5 segundos antes de desvelar cada respuesta para retener al usuario hasta el final.
+- Seguir haciendo: Estructura multipregunta que eleva el tiempo medio de visionado entre 11 y 17 segundos.
+- Dejar de hacer: Dinámica lenta en pregunta única, que precipita el abandono a los 5-7 segundos.
+- Probar: Cuenta atrás sonora y visual de 2 segundos antes de desvelar cada solución para disparar la retención.

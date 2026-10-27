@@ -1,5 +1,5 @@
-# Cuaderno de seo (2026-10-26)
+# Cuaderno de seo (2026-10-27)
 
-- Seguir haciendo: Keywords de alta intención de búsqueda opositora: «simulacro», «pregunta oficial» y «examen real».
-- Dejar de hacer: Palabras técnicas abstractas como «artículo clave» o «legislación» que hunden visualizaciones y retención.
-- Probar: Descripciones optimizadas para búsqueda: «Oposiciones TCAE: simulacro examen oficial SAS y SERMAS sobre higiene y confort».
+- Seguir haciendo: Keywords de alta intención opositora: «simulacro», «examen real», «oficial» e «higiene».
+- Dejar de hacer: Términos jurídicos genéricos como «legislación» o «artículo clave» que hunden visualizaciones y retención.
+- Probar: Copys optimizados: «Oposiciones TCAE SAS/SERMAS: simulacro de examen oficial de higiene y movilización».
