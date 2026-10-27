@@ -9,7 +9,7 @@ _Updated 2026-10-27 · 21 reels with results (3+ days old) · average score 7.31
 |---|---|---|
 | simulacro_3 | 3 | 8.07 |
 | flashcards_express | 2 | 7.48 |
-| examen_real | 3 | 7.38 |
+| examen_real | 3 | 7.39 |
 | pregunta_del_dia | 13 | 7.09 |
 | error_tipico | 0 | - |
 | truco_memorizar | 0 | - |
@@ -25,7 +25,7 @@ _Updated 2026-10-27 · 21 reels with results (3+ days old) · average score 7.31
 | cuaderno | 3 | 7.48 |
 | noche | 8 | 7.44 |
 | examen | 4 | 7.38 |
-| minimal | 3 | 7.05 |
+| minimal | 3 | 7.04 |
 | marca | 2 | 6.59 |
 | ilustrado | 0 | - |
 
@@ -34,7 +34,7 @@ _Updated 2026-10-27 · 21 reels with results (3+ days old) · average score 7.31
 | option | reels | avg score |
 |---|---|---|
 | examen | 5 | 7.76 |
-| repaso exprés | 2 | 7.30 |
+| repaso exprés | 2 | 7.29 |
 | trampa | 5 | 7.28 |
 | reto | 2 | 7.10 |
 | empatía | 3 | 7.09 |
@@ -47,7 +47,7 @@ _Updated 2026-10-27 · 21 reels with results (3+ days old) · average score 7.31
 | option | reels | avg score |
 |---|---|---|
 | mixto | 10 | 7.55 |
-| clinico | 7 | 7.33 |
+| clinico | 7 | 7.34 |
 | legislacion | 3 | 6.91 |
 
 ## think_time
