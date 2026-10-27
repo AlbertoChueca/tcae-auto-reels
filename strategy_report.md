@@ -33,7 +33,7 @@ _Updated 2026-10-27 · 21 reels with results (3+ days old) · average score 7.31
 
 | option | reels | avg score |
 |---|---|---|
-| examen | 5 | 7.75 |
+| examen | 5 | 7.76 |
 | repaso exprés | 2 | 7.30 |
 | trampa | 5 | 7.28 |
 | reto | 2 | 7.10 |
@@ -54,7 +54,7 @@ _Updated 2026-10-27 · 21 reels with results (3+ days old) · average score 7.31
 
 | option | reels | avg score |
 |---|---|---|
-| normal | 6 | 7.45 |
+| normal | 6 | 7.46 |
 | corto | 7 | 7.33 |
 | largo | 8 | 7.18 |
 

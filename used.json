@@ -352,5 +352,11 @@
 "topic": "lavadoManos",
 "fecha": "2026-10-27",
 "formato": "pregunta_del_dia"
+},
+{
+"id": "31bc33fe99",
+"topic": "sondasDigestivas",
+"fecha": "2026-10-27",
+"formato": "pregunta_del_dia"
 }
 ]
