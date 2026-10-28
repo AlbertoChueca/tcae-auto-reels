@@ -69,7 +69,7 @@
 "stories": [
 "soluciones/2026-10-21_manana_1025_1.jpg"
 ],
-"fecha": "2026-10-27",
+"fecha": "2026-10-28",
 "tiktok_respondidos": [
 "7699231591964869398",
 "7699230984071365398",
@@ -100,7 +100,7 @@
 "soluciones/2026-10-21_mediodia_1609_2.jpg",
 "soluciones/2026-10-21_mediodia_1609_3.jpg"
 ],
-"fecha": "2026-10-27",
+"fecha": "2026-10-28",
 "comentario": "18018085745957904",
 "tiktok_respondidos": [
 "7699444509180494614",
@@ -118,7 +118,7 @@
 "stories": [
 "soluciones/2026-10-21_noche_2203_1.jpg"
 ],
-"fecha": "2026-10-27",
+"fecha": "2026-10-28",
 "comentario": "18034754909888262",
 "tiktok_respondidos": [
 "7699408926849745667",
@@ -142,7 +142,7 @@
 "stories": [
 "soluciones/2026-10-22_mediodia_1610_1.jpg"
 ],
-"fecha": "2026-10-27",
+"fecha": "2026-10-28",
 "comentario": "18021011123938598",
 "tiktok_respondidos": [
 "7699792687231648534",
@@ -161,7 +161,7 @@
 "stories": [
 "soluciones/2026-10-22_noche_2222_1.jpg"
 ],
-"fecha": "2026-10-27",
+"fecha": "2026-10-28",
 "comentario": "18113318734892450",
 "tiktok_respondidos": [
 "7699780140147344151",
@@ -178,7 +178,7 @@
 "stories": [
 "soluciones/2026-10-23_manana_1021_1.jpg"
 ],
-"fecha": "2026-10-27",
+"fecha": "2026-10-28",
 "tiktok_respondidos": [
 "7699810987578835745",
 "7700172540078342934",
@@ -193,7 +193,7 @@
 "stories": [
 "soluciones/2026-10-23_mediodia_1623_1.jpg"
 ],
-"fecha": "2026-10-27",
+"fecha": "2026-10-28",
 "comentario": "18148023352548081",
 "tiktok_respondidos": [
 "7699943552549356321",
@@ -209,7 +209,7 @@
 "stories": [
 "soluciones/2026-10-23_noche_2147_1.jpg"
 ],
-"fecha": "2026-10-27",
+"fecha": "2026-10-28",
 "comentario": "18132518414510224",
 "tiktok_respondidos": [
 "7699986399861457686",
@@ -229,7 +229,7 @@
 "stories": [
 "soluciones/2026-10-24_manana_0943_1.jpg"
 ],
-"fecha": "2026-10-27",
+"fecha": "2026-10-28",
 "tiktok_respondidos": [
 "7700354455212819222",
 "7700223702000091907",
@@ -256,7 +256,7 @@
 "soluciones/2026-10-24_noche_2121_2.jpg",
 "soluciones/2026-10-24_noche_2121_3.jpg"
 ],
-"fecha": "2026-10-27",
+"fecha": "2026-10-28",
 "comentario": "17907486186666635",
 "tiktok_respondidos": [
 "7700515034778796822"
@@ -272,7 +272,7 @@
 "stories": [
 "soluciones/2026-10-25_manana_1154_1.jpg"
 ],
-"fecha": "2026-10-27",
+"fecha": "2026-10-28",
 "tiktok_respondidos": [
 "7700615914538926870",
 "7700577985204454166",
@@ -288,7 +288,7 @@
 "stories": [
 "soluciones/2026-10-25_mediodia_1653_1.jpg"
 ],
-"fecha": "2026-10-27",
+"fecha": "2026-10-28",
 "comentario": "18150377443563234",
 "tiktok_respondidos": [
 "7700730257974051606",
@@ -306,7 +306,7 @@
 "stories": [
 "soluciones/2026-10-25_noche_2207_1.jpg"
 ],
-"fecha": "2026-10-27",
+"fecha": "2026-10-28",
 "comentario": "18103452854632890",
 "tiktok_respondidos": [
 "7700845319273136928",
@@ -333,7 +333,7 @@
 "soluciones/2026-10-26_manana_1325_2.jpg",
 "soluciones/2026-10-26_manana_1325_3.jpg"
 ],
-"fecha": "2026-10-27",
+"fecha": "2026-10-28",
 "tiktok_respondidos": [
 "7700979256021451542",
 "7701063183646163734"
@@ -345,7 +345,7 @@
 "stories": [
 "soluciones/2026-10-26_mediodia_1855_1.jpg"
 ],
-"fecha": "2026-10-27",
+"fecha": "2026-10-28",
 "comentario": "18113157923173904",
 "tiktok_respondidos": [
 "7701273142358115094",
@@ -353,7 +353,8 @@
 "7701116146137400066",
 "7701097073446388502",
 "7701060393934406422",
-"7701055436218696471"
+"7701055436218696471",
+"7701472560081699606"
 ],
 "youtube_respondidos": []
 },
@@ -362,7 +363,7 @@
 "stories": [
 "soluciones/2026-10-26_noche_2324_1.jpg"
 ],
-"fecha": "2026-10-27",
+"fecha": "2026-10-28",
 "comentario": "18135204355579188",
 "tiktok_respondidos": [
 "7701305008554525462",
@@ -376,5 +377,15 @@
 "2026-10-26_tiktok": {
 "fecha": "2026-10-27",
 "id": "6ae08b933de352eb0b023b45"
+},
+"2026-10-27_manana_bbda142cdd": {
+"respondidos": [],
+"stories": [],
+"fecha": "2026-10-28",
+"tiktok_respondidos": [
+"7701328438921249558",
+"7701328310148875030"
+],
+"youtube_respondidos": []
 }
 }
