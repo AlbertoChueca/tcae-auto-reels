@@ -80,8 +80,11 @@ def _search(prompt):
             j = gemini.post(model, body)
             cand = j["candidates"][0]
             txt = "".join(p.get("text", "") for p in cand["content"]["parts"])
-            gm = cand.get("groundingMetadata") or {}
-            return txt, len(gm.get("groundingChunks") or [])
+            gm = cand.get("groundingMetadata") or cand.get("grounding_metadata") or {}
+            n = len(gm.get("groundingChunks") or gm.get("grounding_chunks") or [])
+            q = len(gm.get("webSearchQueries") or gm.get("web_search_queries") or [])
+            print(f"cazatendencias: modelo {model} · {q} búsquedas · {n} fuentes · claves {sorted(gm)}", flush=True)
+            return txt, n or q                    # búsqueda real hecha (fuentes o, al menos, consultas a Google)
         except Exception as e:
             last = e
     raise last or RuntimeError("sin modelo con búsqueda")
