@@ -370,5 +370,23 @@
 "topic": "higienePaciente",
 "fecha": "2026-10-28",
 "formato": "pregunta_del_dia"
+},
+{
+"id": "4b7b220795",
+"topic": "sondajeUrinario",
+"fecha": "2026-10-28",
+"formato": "simulacro_3"
+},
+{
+"id": "7e7f8d1ba2",
+"topic": "termoterapia",
+"fecha": "2026-10-28",
+"formato": "simulacro_3"
+},
+{
+"id": "c5e8559b29",
+"topic": "unidadPaciente",
+"fecha": "2026-10-28",
+"formato": "simulacro_3"
 }
 ]
