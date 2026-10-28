@@ -138,5 +138,19 @@
 "tiktok": "6ae112fc140a0de724a8881a"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-10-28",
+"topic": "sistemaNervioso",
+"tema": "Sistema Nervioso",
+"subtema": "División del sistema nervioso",
+"quiz_id": "eb27d7a446",
+"imagenes": 7,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/DfDZ8MZgXtD/",
+"tiktok": "6ae269f0fba8802288eb5264"
+},
+"dry_run": false
 }
 ]
