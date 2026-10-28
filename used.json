@@ -388,5 +388,11 @@
 "topic": "unidadPaciente",
 "fecha": "2026-10-28",
 "formato": "simulacro_3"
+},
+{
+"id": "06db2d56f1",
+"topic": "funcionesTCAE",
+"fecha": "2026-10-28",
+"formato": "pregunta_del_dia"
 }
 ]

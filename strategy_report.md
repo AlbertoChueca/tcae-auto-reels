@@ -1,14 +1,14 @@
 # Piloto automático Aprueba TCAE - qué está funcionando
 
-_Updated 2026-10-28 · 23 reels with results (3+ days old) · average score 7.29_
+_Updated 2026-10-28 · 23 reels with results (3+ days old) · average score 7.30_
 
 
 ## formato
 
 | option | reels | avg score |
 |---|---|---|
-| simulacro_3 | 3 | 8.07 |
-| examen_real | 4 | 7.54 |
+| simulacro_3 | 3 | 8.08 |
+| examen_real | 4 | 7.55 |
 | flashcards_express | 2 | 7.48 |
 | pregunta_del_dia | 14 | 7.03 |
 | error_tipico | 0 | - |
@@ -26,7 +26,7 @@ _Updated 2026-10-28 · 23 reels with results (3+ days old) · average score 7.29
 | noche | 8 | 7.45 |
 | examen | 5 | 7.15 |
 | minimal | 3 | 7.05 |
-| marca | 2 | 6.59 |
+| marca | 2 | 6.61 |
 | ilustrado | 0 | - |
 
 ## hook_style
@@ -34,11 +34,11 @@ _Updated 2026-10-28 · 23 reels with results (3+ days old) · average score 7.29
 | option | reels | avg score |
 |---|---|---|
 | examen | 6 | 7.50 |
-| reto | 3 | 7.39 |
+| reto | 3 | 7.40 |
 | repaso exprés | 2 | 7.30 |
 | trampa | 5 | 7.28 |
 | empatía | 3 | 7.09 |
-| curiosidad | 4 | 7.07 |
+| curiosidad | 4 | 7.08 |
 | dilema_guardia | 0 | - |
 | terminos_confusos | 0 | - |
 
@@ -47,7 +47,7 @@ _Updated 2026-10-28 · 23 reels with results (3+ days old) · average score 7.29
 | option | reels | avg score |
 |---|---|---|
 | mixto | 12 | 7.48 |
-| clinico | 7 | 7.34 |
+| clinico | 7 | 7.35 |
 | legislacion | 3 | 6.91 |
 
 ## think_time
@@ -55,8 +55,8 @@ _Updated 2026-10-28 · 23 reels with results (3+ days old) · average score 7.29
 | option | reels | avg score |
 |---|---|---|
 | corto | 8 | 7.42 |
-| normal | 7 | 7.28 |
-| largo | 8 | 7.18 |
+| normal | 7 | 7.29 |
+| largo | 8 | 7.19 |
 
 ---
 # Playbook (actualizado 2026-10-26)
