@@ -122,7 +122,12 @@ def candidates(fmt, bloque=None, seed=0):
     rng = random.Random(seed)
     rng.shuffle(fresh)
     # generales primero y Aragón al final de todo; dentro de cada grupo, temas recientes al final
-    fresh.sort(key=lambda q: (regional(q), q["topic"] in recent_topics))
+    try:                                             # temas de actualidad (agente cazatendencias) antes
+        import tendencias
+        hot = set(tendencias.topics_hot())
+    except Exception:
+        hot = set()
+    fresh.sort(key=lambda q: (regional(q), q["topic"] not in hot, q["topic"] in recent_topics))
     return fresh
 
 

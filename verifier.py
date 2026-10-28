@@ -199,6 +199,13 @@ def verify_script(items, script, fmt):
                    + f"\nCorrecta: {P['letra']}\nExplicación de la app: {P.get('explicacion')}\n"
                    + ("Fichas de la app: " + " | ".join(f"{f['q']} -> {f['a']}" for f in fs) + "\n" if fs else "")
                    + (f"Fuente verificada ({r.get('referencia')}): \"{r.get('cita')}\"\n" if r.get("fuente_ok") else ""))
+    try:                                             # actualidad con fuente (agente cazatendencias)
+        import tendencias
+        al = [l for P in items for l in tendencias.material_lines(P.get("topic"))]
+        if al:
+            ctx.append("Actualidad comprobada por el agente cazatendencias (vale SOLO para gancho y descripción):\n" + "\n".join(al))
+    except Exception:
+        pass
     try:
         import estudio
         c = estudio.app_counts(items)

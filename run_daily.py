@@ -121,6 +121,11 @@ if HAS_AI:
         m = estudio.daily_learning(); print(m, flush=True); status.append(m)
     except Exception as e:
         status.append(f"estudio omitido: {str(e)[:120]}")
+    try:                                           # agente 9: actualidad del día (una búsqueda al día)
+        import tendencias
+        m = tendencias.run(); print(m, flush=True); status.append(m)
+    except Exception as e:
+        status.append(f"cazatendencias omitido: {str(e)[:120]}")
 
 chain = list(dict.fromkeys([arms.get("formato", "pregunta_del_dia"), "pregunta_del_dia", "examen_real", "simulacro_3"]))
 out = f"out/{today}_{slot}_{now.hour:02d}.mp4"

@@ -70,7 +70,12 @@ def pick_topic(seed, skip=()):
         last[e.get("topic")] = i
     ts = [t for t in topics() if t not in skip]
     rng = random.Random(seed); rng.shuffle(ts)
-    ts.sort(key=lambda t: last.get(t, -1))
+    try:                                              # temas de actualidad (agente cazatendencias) primero
+        import tendencias
+        hot = set(tendencias.topics_hot())
+    except Exception:
+        hot = set()
+    ts.sort(key=lambda t: (t not in hot or last.get(t, -1) >= len(log()) - 10, last.get(t, -1)))
     return ts[0] if ts else None
 
 

@@ -1,0 +1,32 @@
+name: Cazatendencias
+
+# Agente 9: busca cada mañana la actualidad que interesa a opositores de TCAE (convocatorias, campañas sanitarias,
+# días mundiales, noticias) con su fuente y la relaciona con temas del temario. Los reels y la chuleta del día la usan.
+on:
+  schedule:
+    - cron: "0 5 * 3-10 *"           # 7:00 verano (antes del reel de las 8:00)
+    - cron: "0 6 * 1-3,10-12 *"      # 7:00 invierno
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  tendencias:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - run: pip install requests
+      - name: Buscar actualidad
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python tendencias.py --forzar | tee -a "$GITHUB_STEP_SUMMARY"
+          [ -f agents/cazatendencias.md ] && cat agents/cazatendencias.md >> "$GITHUB_STEP_SUMMARY" || true
+      - name: Guardar
+        if: always()
+        run: python sincronizar.py "Cazatendencias $(date +%F)" tendencias.json agents/cazatendencias.md

@@ -61,6 +61,9 @@ def _brief(name):
         out += f"\nTU CUADERNO (lecciones de nuestros resultados reales, síguelas):\n{nb}"
     if name != "comunidad" and com:
         out += f"\nLO QUE DICE LA AUDIENCIA (analista de comunidad):\n{com}"
+    trend = notebook("cazatendencias")
+    if name in ("gancho", "crecimiento") and trend:
+        out += f"\nACTUALIDAD DE ESTA SEMANA (cazatendencias; úsala solo si encaja y sin añadir datos):\n{trend[:900]}"
     return out
 
 

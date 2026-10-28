@@ -61,6 +61,20 @@ def _material(items):
     return "\n".join(out)
 
 
+def _actualidad(items):
+    """Datos de actualidad del agente cazatendencias que tocan el tema de esta pregunta (con su fuente)."""
+    try:
+        import tendencias
+        lines = tendencias.material_lines(items[0].get("topic"))
+    except Exception:
+        lines = []
+    if not lines:
+        return ""
+    return ("ACTUALIDAD DE ESTOS DÍAS sobre este tema (cazatendencias, con fuente). Si encaja de verdad, puedes usar UNO de\n"
+            "estos datos, tal cual, en el gancho o en caption_hook para dar contexto (p. ej. una campaña o un día mundial);\n"
+            "nunca en la explicación ni mezclado con la respuesta:\n" + "\n".join(lines))
+
+
 def write(fmt, items, arms=None, avoid=(), notes=None):
     """Guion JSON del reel (Gemini). notes = problemas que encontró el verificador en un intento anterior."""
     import gemini
@@ -82,6 +96,7 @@ tests para las oposiciones de TCAE de toda España (apruebatcae.com).
 FORMATO DE HOY: {FORMATS[fmt]}. Estilo de gancho a probar (experimento): {arms.get('hook_style', 'el que mejor encaje')}.
 MATERIAL (lo ÚNICO que puedes usar como dato; no añadas artículos, cifras, plazos ni nada que no esté aquí):
 {_material(items)}
+{_actualidad(items)}
 
 Escribe en español de España, frases cortas para decir en voz alta (máx. 14 palabras por frase), números en cifra.
 Cada campo es EXACTAMENTE lo que se dice o se lee en pantalla: nunca escribas indicaciones de tono, de voz o de actuación

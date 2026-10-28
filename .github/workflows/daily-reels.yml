@@ -125,4 +125,4 @@ jobs:
 
       - name: Recordar preguntas usadas, verificaciones y aprendizajes
         if: always() && steps.slot.outputs.slot != 'skip'
-        run: python sincronizar.py "Reel ${{ steps.slot.outputs.slot }} $(date +%F)" used.json log.jsonl review_log.jsonl performance.json strategy_arms.json strategy_report.md playbook.md banco/verificacion.json banco/verificacion_fichas.json banco/informe_verificacion.md image_log.jsonl agents soluciones
+        run: python sincronizar.py "Reel ${{ steps.slot.outputs.slot }} $(date +%F)" used.json log.jsonl review_log.jsonl performance.json strategy_arms.json strategy_report.md playbook.md banco/verificacion.json banco/verificacion_fichas.json banco/informe_verificacion.md image_log.jsonl agents soluciones tendencias.json
