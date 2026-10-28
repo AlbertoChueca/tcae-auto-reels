@@ -1,5 +1,5 @@
-# Cuaderno de embudo_app (2026-10-27)
+# Cuaderno de embudo_app (2026-10-28)
 
-- Seguir haciendo: Vincular formatos simulacro_3 y examen_real al banco oficial de apruebatcae.com.
-- Dejar de hacer: Intentar atribuir tráfico a visitas de perfil o seguidores: datos insuficientes (constan como None).
-- Probar: CTA concreto y medible: «Haz el simulacro completo de 30 preguntas de examen en apruebatcae.com».
+- Seguir haciendo: Conectar los simulacros con el banco de preguntas oficiales disponible en apruebatcae.com.
+- Dejar de hacer: Asumir conversiones sin medición. Datos insuficientes: visitas al perfil y nuevos seguidores constan como None.
+- Probar: CTA claro y cuantificado: «Practica más de 50 exámenes oficiales comentados en apruebatcae.com».

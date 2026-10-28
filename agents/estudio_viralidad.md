@@ -1,5 +1,5 @@
-# Cuaderno de viralidad (2026-10-27)
+# Cuaderno de viralidad (2026-10-28)
 
-- Seguir haciendo: Ganchos de reto directo como «¿Aciertas las 3?», únicos en generar comentarios (hasta 7).
-- Dejar de hacer: Cierres neutrales; seguimos en 0 compartidos en todo el histórico analizado.
-- Probar: Retos de complicidad de turno: «Compártelo con tu compañera de guardia: si falla una, le toca repartir lencería».
+- Seguir haciendo: Ganchos de reto directo como «¿Aciertas las 3?», que concentran el mayor número de comentarios (hasta 7).
+- Dejar de hacer: Ganchos neutros («¿Te la sabes?»). Datos insuficientes: compartidos en 0 en todo el histórico.
+- Probar: Reto de turno: «Envíaselo a tu compañera de guardia: si falla una, le toca repartir la medicación».

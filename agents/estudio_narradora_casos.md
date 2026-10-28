@@ -1,5 +1,5 @@
-# Cuaderno de narradora_casos (2026-10-27)
+# Cuaderno de narradora_casos (2026-10-28)
 
-- Seguir haciendo: Casos reales de turno de noche sobre higiene, absorbentes y confort (scores entre 7.75 y 8.51).
-- Dejar de hacer: Preguntas teóricas de artículos de leyes o legislación aislada sin paciente (scores mínimos de 6.39).
-- Probar: Situaciones reales de planta: timbres nocturnos en pacientes dependientes y dudas de movilización entre compañeras.
+- Seguir haciendo: Casos reales de turno de noche sobre confort, absorbentes e higiene (scores de 7.75 a 8.51).
+- Dejar de hacer: Preguntas teóricas de legislación pura o artículos descontextualizados (scores mínimos <6.75).
+- Probar: Escenas de pase de guardia o llamadas de timbre en planta que introduzcan directamente las 3 preguntas del simulacro.

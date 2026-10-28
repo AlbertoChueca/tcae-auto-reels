@@ -1,5 +1,5 @@
-# Cuaderno de ritmo (2026-10-27)
+# Cuaderno de ritmo (2026-10-28)
 
-- Seguir haciendo: Estructura multipregunta que eleva el tiempo medio de visionado entre 11 y 17 segundos.
-- Dejar de hacer: Dinámica lenta en pregunta única, que precipita el abandono a los 5-7 segundos.
-- Probar: Cuenta atrás sonora y visual de 2 segundos antes de desvelar cada solución para disparar la retención.
+- Seguir haciendo: Estructura dinámica multipregunta (simulacro_3 y flashcards), manteniendo la retención entre 11 y 20 segundos.
+- Dejar de hacer: Ritmos lentos en pregunta única que provocan caídas de audiencia a los 6 segundos.
+- Probar: Tensión con cuenta atrás visual y sonora de 3 segundos antes de revelar la opción correcta para evitar el scroll.

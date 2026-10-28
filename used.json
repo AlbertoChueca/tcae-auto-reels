@@ -364,5 +364,11 @@
 "topic": "limpieza",
 "fecha": "2026-10-27",
 "formato": "pregunta_del_dia"
+},
+{
+"id": "f7b8398b71",
+"topic": "higienePaciente",
+"fecha": "2026-10-28",
+"formato": "pregunta_del_dia"
 }
 ]

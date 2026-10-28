@@ -1,6 +1,6 @@
-# Cuaderno de diseno (2026-10-27)
+# Cuaderno de diseno (2026-10-28)
 
 # Cuaderno de diseno
-- Seguir haciendo: Estilos «noche» y «cuaderno» con tarjetas teal/blancas (dominan los 5 primeros puestos en retención y score).
-- Dejar de hacer: Estilo «marca» (asociado al peor rendimiento, 5.88) y tiempos de pensamiento excesivamente cortos (provocan caídas de visionado a 5 segundos).
-- Probar: Marcador de progreso visible (1/3, 2/3, 3/3) en simulacros y resalte ámbar nítido sobre la letra ganadora para reforzar la corrección visual.
+- Seguir haciendo: Estilos visuales «noche» y «cuaderno» con tarjetas teal y fondo contrastado (lideran retención y score en el top 5). Tiempos de lectura holgados en simulacros.
+- Dejar de hacer: Estilos «marca» y «clasico» (los peores scores del histórico: 5.88 y 5.31).
+- Probar: Marcador de avance visual (1/3, 2/3, 3/3) en simulacros y revelación en ámbar nítido sobre la tarjeta correcta al resolverse.
