@@ -1,6 +1,6 @@
 name: Cazatendencias
 
-# Agente 9: busca cada mañana la actualidad que interesa a opositores de TCAE (convocatorias, campañas sanitarias,
+# Agente cazatendencias: busca cada mañana la actualidad que interesa a opositores de TCAE (convocatorias, campañas sanitarias,
 # días mundiales, noticias) con su fuente y la relaciona con temas del temario. Los reels y la chuleta del día la usan.
 on:
   schedule:

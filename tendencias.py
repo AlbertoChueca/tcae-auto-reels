@@ -1,4 +1,4 @@
-"""Agente 9 · CAZATENDENCIAS: busca cada mañana actualidad buena y real para el contenido de Aprueba TCAE.
+"""Agente CAZATENDENCIAS: busca cada mañana actualidad buena y real para el contenido de Aprueba TCAE.
 
 Una vez al día (lo llama el primer reel del día) busca en Google, con la búsqueda integrada de Gemini, lo que hoy
 interesa a quien prepara las oposiciones de TCAE en España:

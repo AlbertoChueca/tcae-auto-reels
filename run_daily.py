@@ -121,7 +121,7 @@ if HAS_AI:
         m = estudio.daily_learning(); print(m, flush=True); status.append(m)
     except Exception as e:
         status.append(f"estudio omitido: {str(e)[:120]}")
-    try:                                           # agente 9: actualidad del día (una búsqueda al día)
+    try:                                           # agente cazatendencias: actualidad del día (una búsqueda al día)
         import tendencias
         m = tendencias.run(); print(m, flush=True); status.append(m)
     except Exception as e:

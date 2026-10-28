@@ -76,7 +76,7 @@ sábado **repaso exprés** · domingo **examen real**. El reel de las 21:30 lo e
 `noche` (estudiando de noche, neón) · `minimal` (editorial) · `ilustrado` (ilustración original de fondo).
 El piloto automático los prueba y se queda con los que más guardan/comparten. Se puede forzar uno al lanzar el workflow.
 
-## Agente 9 · Cazatendencias (tendencias.py)
+## Agente cazatendencias (tendencias.py)
 Cada mañana a las 7:00 (workflow *Cazatendencias*) busca en Google, con la búsqueda integrada de Gemini, la actualidad que
 interesa a opositores de TCAE: convocatorias, plazos y exámenes; campañas sanitarias (vacunación, gripe, calor...); días
 mundiales de la semana y noticias sanitarias. Cada hallazgo lleva su fuente y se relaciona con temas del temario.
