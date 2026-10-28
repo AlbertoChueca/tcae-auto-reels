@@ -22,6 +22,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "tendencias.json")
 NB = os.path.join(HERE, "agents", "cazatendencias.md")
 MAX_AGE_DAYS = 2
+DIAG = {}
 
 
 def load():
@@ -83,10 +84,12 @@ def _search(prompt):
             gm = cand.get("groundingMetadata") or cand.get("grounding_metadata") or {}
             n = len(gm.get("groundingChunks") or gm.get("grounding_chunks") or [])
             q = len(gm.get("webSearchQueries") or gm.get("web_search_queries") or [])
+            DIAG.update(modelo=model, busquedas=q, fuentes=n, claves=sorted(gm), cand_claves=sorted(cand))
             print(f"cazatendencias: modelo {model} · {q} búsquedas · {n} fuentes · claves {sorted(gm)}", flush=True)
             return txt, n or q                    # búsqueda real hecha (fuentes o, al menos, consultas a Google)
         except Exception as e:
             last = e
+            DIAG.setdefault("errores", []).append(f"{model}: {str(e)[:200]}")
     raise last or RuntimeError("sin modelo con búsqueda")
 
 
@@ -135,7 +138,7 @@ Responde SOLO con JSON, sin texto alrededor:
                 and n_src > 0):                             # sin búsqueda real (0 fuentes) no se acepta nada
             items.append({"titulo": str(it.get("titulo", ""))[:120], "dato": dato, "url": url, "fecha": str(f),
                           "temas": temas, "gancho": str(it.get("gancho", ""))[:80], "por_que": str(it.get("por_que", ""))[:160]})
-    json.dump({"fecha": str(today), "fuentes_consultadas": n_src, "items": items}, open(OUT, "w"), ensure_ascii=False, indent=1)
+    json.dump({"fecha": str(today), "fuentes_consultadas": n_src, "diag": DIAG, "items": items}, open(OUT, "w"), ensure_ascii=False, indent=1)
     nb = str(res.get("cuaderno") or "").strip()
     os.makedirs(os.path.dirname(NB), exist_ok=True)
     lines = [f"# Cuaderno de cazatendencias ({today})", "", nb[:1500] if nb else "(sin resumen)", "", "## Hallazgos"]
