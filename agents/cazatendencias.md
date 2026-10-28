@@ -1,6 +1,6 @@
 # Cuaderno de cazatendencias (2026-10-28)
 
-Semana marcada por la resaca del examen SERGAS y el cierre de solicitudes de INGESA el 4 de noviembre: crea un carrusel de alerta de plazos y preguntas impugnables. Aprovecha el Día Mundial del Ictus (29 de octubre) para un reel dinámico recreando la escala Cincinnati (asimetría facial, debilidad en brazos, alteración del habla) y las funciones de la TCAE en urgencias. Por último, vincula la campaña otoñal de virus respiratorios con una viñeta cómica aclarando la diferencia entre anticuerpos monoclonales como Nirsevimab (inmunidad pasiva) y vacunas clásicas (inmunidad activa), una pregunta trampa habitual que genera dudas entre opositoras.
+Esta semana confluyen dos hitos administrativos clave: el fin del plazo de instancias de INGESA y las impugnaciones del examen del SERGAS, idóneos para carruseles de plazos y motivación opositora. Además, el 29 de octubre coincide el Día del Ictus y de la Psoriasis, ideales para reels formativos cortos: uno con la regla mnemotécnica para sospecha de ictus y constantes vitales, y otro repasando lesiones dérmicas elementales en test. Compleméntalo con viñetas sobre la campaña de vacunación antigripal activa, recordando preguntas trampa sobre inmunidad artificial activa y conservación de biológicos, temas que caen en todas las OPE.
 
 ## Hallazgos
 - Ninguno fiable hoy.
