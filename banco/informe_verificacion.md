@@ -1,12 +1,12 @@
-# Informe del verificador (2026-10-26)
+# Informe del verificador (2026-10-29)
 
-- Preguntas en el banco: 1822 · revisadas: 692 · **publicables: 635**
-- Posibles errores: 10 · dudosas: 21 · correctas pero sin texto de la norma para citar: 26
+- Preguntas en el banco: 1822 · revisadas: 779 · **publicables: 722**
+- Posibles errores: 13 · dudosas: 19 · correctas pero sin texto de la norma para citar: 25
 
 Las marcadas como posible error conviene revisarlas también en la web app.
 
 
-## Posibles errores (10)
+## Posibles errores (13)
 
 - **[Estatuto Marco del Personal Estatutario (Ley 55/2003)]** ¿A qué texto legal remite el artículo 79 de la Ley 55/2003 en materia de representación y negociación colectiva del personal estatutario? — marcada A) Al Texto Refundido del Estatuto Básico del Empleado Público (TREBEP)
   - El artículo 79 remite a la Constitución y a la Ley Orgánica 11/1985 de Libertad Sindical; es el artículo 78 el que remite a la normativa general de la función pública (actual TREBEP).
@@ -26,25 +26,33 @@ Las marcadas como posible error conviene revisarlas también en la web app.
   - La pregunta y la explicación asumen que ha habido cuatro reformas constitucionales (mencionando una futura en 2026), cuando en realidad solo se han producido tres (1992, 2011 y 2024).
 - **[Constantes Vitales]** Se considera hipotermia cuando la temperatura corporal está por debajo de: — marcada B) 36ºC · sugerida: C
   - Clínicamente, la hipotermia se define como una temperatura corporal central inferior a 35ºC. Entre 35ºC y 36ºC se considera temperatura subnormal o hipotermia leve, pero el umbral clínico estándar es 35ºC.
+- **[Constitución Española de 1978]** Señala la respuesta correcta en relación a la Constitución Española de 1978: — marcada B) Artículo 9.2 prohíbe los privilegios personales o de clase
+  - Ninguna de las opciones es correcta. El artículo 9.2 habla de promover las condiciones para la libertad y la igualdad, mientras que la prohibición de privilegios o discriminación se recoge en el artículo 14.
+- **[Fechas Clave y Plazos Administrativos]** ¿En qué fecha se publicó en el BOE la cuarta reforma constitucional (artículo 69.3, senador propio para Formentera)? — marcada A) 20 de mayo de 2026 · sugerida: Ninguna
+  - La pregunta se basa en un dato falso: no existe una reforma constitucional en 2026. Hasta la fecha solo hay tres reformas (1992, 2011 y 2024).
 - **[Farmacología: Conceptos Básicos]** El nombre que recoge la acción del producto químico, como "analgésico", corresponde a: — marcada C) El nombre genérico u oficial · sugerida: Ninguna
   - El término 'analgésico' define el grupo terapéutico o la acción farmacológica, no el nombre genérico. El nombre genérico u oficial es la Denominación Común Internacional (DCI), como 'paracetamol'. La pregunta y la ficha de la app contienen un error conceptual.
+- **[Fechas Clave y Plazos Administrativos]** ¿Por qué procedimiento de reforma (de los dos previstos en el Título X de la Constitución) se han tramitado las cuatro reformas constitucionales hasta ahora? — marcada A) Todas por el procedimiento ordinario del artículo 167
+  - El enunciado contiene un dato falso: hasta la fecha solo se han aprobado tres reformas constitucionales (1992, 2011 y 2024), no cuatro.
 
-## Dudosas (21)
+## Dudosas (19)
 
-- **[Nombramientos y Tipos de Mayoría]** ¿Cuál es la duración del mandato del Justicia de Aragón? — marcada B) 5 años
-  - El texto de la fuente no contiene la Ley 4/1985 reguladora del Justicia de Aragón ni ningún artículo que indique la duración de su mandato.
+- **[Ley de Salud de Aragón (Ley 6/2002)]** Según el estatuto de autonomía de Aragón todas las personas tienen derecho a acceder a los servicios públicos de salud, en condiciones de: — marcada A) Igualdad, universalidad y calidad
+  - Aunque la respuesta es correcta según el Estatuto de Autonomía, el texto proporcionado corresponde a la Ley de Salud y no permite verificarlo.
+- **[Constitución Española de 1978]** ¿Cuál es el plazo general para interponer un recurso de inconstitucionalidad desde la publicación de la norma impugnada? — marcada A) 3 meses
+  - El texto proporcionado no menciona el plazo de tres meses para el recurso de inconstitucionalidad, regulado en la Ley Orgánica del Tribunal Constitucional.
 - **[Geriatría]** Un país se considera envejecido cuando su índice de envejecimiento es: — marcada C) Mayor del 11%
   - El término 'índice de envejecimiento' suele referirse a la relación entre mayores de 64 y menores de 15. Si se refiere a la tasa sobre el total, los umbrales varían según el autor (OMS, ONU), siendo a menudo >12% o >14%.
+- **[Transparencia y Acceso a la Información Pública]** En Aragón, ¿ante qué órgano puede reclamar un ciudadano si le deniegan el acceso a la información pública? — marcada A) Ante el Consejo de Transparencia de Aragón
+  - El texto proporcionado es la ley estatal y no menciona explícitamente al Consejo de Transparencia de Aragón como órgano autonómico competente.
 - **[Limpieza y Desinfección]** ¿Cuál es el periodo de caducidad habitual de un material esterilizado envuelto en una bolsa de papel mixto (doble capa, papel-plástico)? — marcada C) 12 meses
   - La caducidad varía según el protocolo del centro; a menudo, una bolsa mixta simple se considera válida por 6 meses, generando ambigüedad con el término 'doble capa'.
-- **[Nombramientos y Tipos de Mayoría]** ¿Con qué mayoría son elegidos el Defensor del Pueblo por las Cortes Generales? — marcada B) Mayoría de tres quintos en cada Cámara
-  - El artículo 54 de la Constitución menciona la institución, pero la mayoría de tres quintos se establece en su Ley Orgánica reguladora, la cual no está incluida en el texto.
-- **[Ley de Salud de Aragón (Ley 6/2002)]** ¿Qué capítulo de la Ley de Salud de Aragón regula el derecho a la información epidemiológica? — marcada A) El Capítulo I del Título III, junto al derecho a la información clínica
-  - El texto proporcionado muestra el artículo 10, pero no incluye la cabecera del Título III ni del Capítulo I para confirmar su ubicación exacta en la estructura de la ley.
-- **[Estatuto Marco del Personal Estatutario (Ley 55/2003)]** Según el criterio de clasificación por la naturaleza de la función desarrollada, el personal estatutario se clasifica en: — marcada A) Sanitario y de gestión y servicios
-  - El texto proporcionado incluye el artículo 6 sobre personal sanitario, pero omite el artículo 7 que confirmaría la clasificación del personal de gestión y servicios.
-- **[Nombramientos y Tipos de Mayoría]** Si tras tres votaciones ningún candidato a Justicia de Aragón obtiene la mayoría de tres quintos exigida, ¿qué mayoría basta para las siguientes votaciones? — marcada B) Mayoría absoluta
-  - El texto proporcionado no incluye la normativa específica que detalle las mayorías necesarias para la elección del Justicia de Aragón.
+- **[Contratación del Sector Público (Ley 9/2017)]** ¿A partir de qué importe es obligatorio comunicar los datos de un contrato al Registro de Contratos del Sector Público? — marcada A) A partir de 5.000 euros
+  - El texto de la Ley 9/2017 proporcionado no incluye el artículo que establece el umbral de 5.000 euros para la comunicación al Registro de Contratos.
+- **[Constitución Española de 1978]** ¿Qué título de la Constitución regula el Poder Judicial? — marcada B) Título VI
+  - El texto proporcionado no incluye el encabezado del Título VI para confirmar unívocamente que corresponde al Poder Judicial.
+- **[Constitución Española de 1978]** Sin contar el Título Preliminar, ¿cuántos títulos numerados (del I al X) tiene la Constitución Española? — marcada C) Diez
+  - El texto proporcionado no enumera la totalidad de los títulos de la Constitución para confirmar que son exactamente diez.
 - **[Aparato Urinario]** La capacidad habitual de la vejiga urinaria es de aproximadamente: — marcada B) 200-300 ml
   - El término 'capacidad habitual' es ambiguo: el deseo miccional aparece a los 200-300 ml, pero la capacidad funcional normal es de 300-500 ml (como indica una de las propias fichas de la app).
 - **[Nutrición y Alimentación]** Es un aminoácido esencial: — marcada B) Alanina
@@ -59,16 +67,10 @@ Las marcadas como posible error conviene revisarlas también en la web app.
   - La apertura de los bordes es 'dehiscencia', pero la 'salida del contenido interno' define específicamente la 'evisceración'. Al no estar esta opción, la pregunta es técnicamente imprecisa y puede generar confusión.
 - **[Lavado de Manos]** El lavado de manos antiséptico, indicado antes de técnicas invasivas, tiene una duración aproximada de: — marcada B) 2-3 minutos
   - La duración del lavado antiséptico varía según la bibliografía; la OMS recomienda 40-60 segundos, mientras que algunos manuales clásicos de TCAE indican 2-3 minutos.
-- **[Constitución Española de 1978]** Señala la respuesta correcta en relación a la Constitución Española de 1978: — marcada B) Artículo 9.2 prohíbe los privilegios personales o de clase
-  - La plantilla oficial es errónea. Ninguna opción es correcta: el artículo 9.2 promueve la igualdad y libertad, la tutela judicial es el art. 24, la inviolabilidad del domicilio el 18.2 y el amparo el 53.2.
-- **[Fechas Clave y Plazos Administrativos]** ¿En qué fecha se publicó en el BOE la cuarta reforma constitucional (artículo 69.3, senador propio para Formentera)? — marcada A) 20 de mayo de 2026
-  - El texto legal proporcionado indica que la reforma es del 19 de mayo de 2026, pero no especifica explícitamente que se publicara en el BOE el 20 de mayo.
 - **[Instrumental Quirúrgico]** ¿Cómo se denomina a la parte que mantiene el instrumental quirúrgico cuando está trabado? — marcada C) Caja de traba
   - La plantilla oficial parece errónea: la parte que mantiene el instrumental trabado o cerrado es la 'cremallera', mientras que la 'caja de traba' es la articulación o bisagra.
-- **[Protección de Datos de Salud (RGPD y LOPDGDD)]** ¿Qué principio del RGPD obliga a recoger y tratar únicamente los datos estrictamente necesarios para la finalidad perseguida? — marcada A) El principio de minimización de datos
-  - El texto legal proporcionado describe la limitación de datos a lo estrictamente necesario, pero no nombra explícitamente el 'principio de minimización' del RGPD.
-- **[Constitución Española de 1978]** ¿Cuántas Comunidades Autónomas integran actualmente el Estado español? — marcada B) 17
-  - El texto constitucional proporcionado establece la organización territorial del Estado, pero no especifica que el número actual de Comunidades Autónomas sea 17.
+- **[Constitución Española de 1978]** ¿En nombre de quién proclama la Nación Española su voluntad al inicio del Preámbulo? — marcada A) En uso de su soberanía
+  - El fragmento proporcionado no incluye el Preámbulo de la Constitución, por lo que no es posible verificar la respuesta.
 - **[Fechas Clave y Plazos Administrativos]** ¿En qué fecha aprobó el Pleno del Senado el proyecto de Constitución? — marcada A) 5 de octubre de 1978
   - El texto de la fuente proporcionado no incluye la fecha de aprobación del proyecto de Constitución por el Senado para poder verificar la respuesta.
 - **[Sondas Digestivas]** El calibre de una sonda hace referencia a: — marcada B) El diámetro de la luz
