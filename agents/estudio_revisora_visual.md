@@ -1,5 +1,5 @@
-# Cuaderno de revisora_visual (2026-10-28)
+# Cuaderno de revisora_visual (2026-10-29)
 
-- Seguir haciendo: Verificación estricta de normas de higiene/EPI (manos limpias sin guantes para material limpio) y ausencia de texto en la imagen.
-- Dejar de hacer: Aprobar artes con duplicidades o anomalías en manos.
-- Probar: Protocolo de validación rápida en 3 puntos: asepsia del procedimiento, anatomía realista y único foco de acción.
+- Seguir haciendo: Control estricto de ausencia total de texto en imagen y cumplimiento de protocolos de EPI.
+- Dejar de hacer: Validar escenas con guantes en tareas limpias o anomalías anatómicas en manos.
+- Probar: Filtro de revisión en dos pasos: corrección técnica del protocolo sanitario (higiene de manos) y coherencia compositiva de objetos.

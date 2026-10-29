@@ -1,5 +1,5 @@
-# Cuaderno de ilustradora (2026-10-28)
+# Cuaderno de ilustradora (2026-10-29)
 
-- Seguir haciendo: Ilustraciones verticales en clave baja, tonos azul noche y ambientación hospitalaria realista.
-- Dejar de hacer: Dibujar guantes para manipular material o lencería limpia y duplicar objetos en la escena (como tazas).
-- Probar: TCAE en mesa de control con reloj de solapa visible, revisando gráficas con manos descubiertas y limpias.
+- Seguir haciendo: Formato vertical con paleta nocturna azulada, luz cálida de flexo y atmósfera hospitalaria serena.
+- Dejar de hacer: Dibujar guantes al manipular material o lencería limpia y duplicar objetos en la composición.
+- Probar: TCAE en mesa de planta con reloj de solapa visible, consultando el censo nocturno con manos descubiertas y limpias.

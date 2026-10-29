@@ -1,5 +1,5 @@
-# Cuaderno de memoria (2026-10-28)
+# Cuaderno de memoria (2026-10-29)
 
-- Seguir haciendo: Formatos simulacro_3 y flashcards_express, líderes absolutos en guardados (hasta 3) y retención (14-20 s).
-- Dejar de hacer: Preguntas de respuesta única sin reto de recuperación activa.
-- Probar: Cierre con técnica de repetición espaciada: «Guarda este reel y ponte a prueba en 48 horas para fijar los 3 conceptos».
+- Seguir haciendo: Formatos simulacro_3 y flashcards_express, que lideran en guardados (hasta 3) y retención (hasta 21 s).
+- Dejar de hacer: Preguntas simples de respuesta inmediata sin desafío de recuerdo activo.
+- Probar: Pantalla final de recuperación activa invitando a guardar el reel para resolverlo de nuevo mentalmente a las 48 horas.

@@ -1,6 +1,6 @@
-# Cuaderno de crecimiento (2026-10-28)
+# Cuaderno de crecimiento (2026-10-29)
 
 # Cuaderno de crecimiento
-- Seguir haciendo: Fomentar respuestas de 1 solo carácter en comentarios (genera hasta 7 comentarios) y formato flashcards para captar guardados (hasta 3 por post).
-- Dejar de hacer: Textos largos en la descripción que distraigan de responder o guardar.
-- Probar: CTA de reto y retención: «¿Qué nota sacas? Deja tu puntuación (ej. 2/3) y guarda para no fallar en el examen. Cientos de tests en apruebatcae.com».
+- Seguir haciendo: Dinámicas de respuesta rápida que maximizan comentarios (hasta 7 por post) y formato «flashcards_express» para elevar guardados (hasta 3).
+- Dejar de hacer: Descripciones extensas que distraigan de responder en comentarios o guardar el reel.
+- Probar: CTA directo de puntuación y guardado: «Comenta tu nota (ej. 2/3) y guarda para no fallarla en el examen. Miles de tests en apruebatcae.com».
