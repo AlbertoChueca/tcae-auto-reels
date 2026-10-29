@@ -400,5 +400,11 @@
 "topic": "farmacologia",
 "fecha": "2026-10-29",
 "formato": "examen_real"
+},
+{
+"id": "fd91692633",
+"topic": "drenajes",
+"fecha": "2026-10-29",
+"formato": "pregunta_del_dia"
 }
 ]

@@ -8,9 +8,9 @@ _Updated 2026-10-29 · 25 reels with results (3+ days old) · average score 7.27
 | option | reels | avg score |
 |---|---|---|
 | simulacro_3 | 3 | 8.09 |
-| flashcards_express | 2 | 7.49 |
+| flashcards_express | 2 | 7.51 |
 | examen_real | 5 | 7.42 |
-| pregunta_del_dia | 15 | 7.02 |
+| pregunta_del_dia | 15 | 7.03 |
 | error_tipico | 0 | - |
 | truco_memorizar | 0 | - |
 | mito_realidad | 0 | - |
@@ -33,10 +33,10 @@ _Updated 2026-10-29 · 25 reels with results (3+ days old) · average score 7.27
 
 | option | reels | avg score |
 |---|---|---|
-| examen | 7 | 7.42 |
+| examen | 7 | 7.43 |
 | repaso exprés | 2 | 7.31 |
 | trampa | 5 | 7.28 |
-| reto | 4 | 7.27 |
+| reto | 4 | 7.28 |
 | empatía | 3 | 7.10 |
 | curiosidad | 4 | 7.08 |
 | dilema_guardia | 0 | - |
