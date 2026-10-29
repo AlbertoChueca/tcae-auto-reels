@@ -152,5 +152,19 @@
 "tiktok": "6ae269f0fba8802288eb5264"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-10-29",
+"topic": "recienNacido",
+"tema": "Recién Nacido",
+"subtema": "Reflejos del recién nacido",
+"quiz_id": "8563445950",
+"imagenes": 6,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/DfF-1G8lzcJ/",
+"tiktok": "6ae3bbaa47f6e1a621fa114d"
+},
+"dry_run": false
 }
 ]
