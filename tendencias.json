@@ -1,75 +1,16 @@
 {
-"fecha": "2026-10-28",
-"fuentes_consultadas": 6,
+"fecha": "2026-10-29",
+"fuentes_consultadas": 0,
 "diag": {
 "modelo": "gemini-3.8-flash",
-"busquedas": 4,
-"fuentes": 6,
-"claves": [
-"groundingChunks",
-"groundingSupports",
-"searchEntryPoint",
-"webSearchQueries"
-],
+"busquedas": 0,
+"fuentes": 0,
+"claves": [],
 "cand_claves": [
 "content",
 "finishReason",
-"groundingMetadata",
 "index"
 ]
 },
-"items": [
-{
-"titulo": "Convocatoria OPE INGESA: 41 plazas de TCAE",
-"dato": "El Boletín Oficial del Estado publica la convocatoria por concurso-oposición del INGESA para cubrir 41 plazas de personal estatutario fijo de la categoría TCAE en Ceuta y Melilla.",
-"url": "https://www.boe.es",
-"fecha": "2026-10-20",
-"temas": [
-"fechasPlazos",
-"estatutoMarco",
-"funcionesTCAE"
-],
-"gancho": "¡Alerta BOE! Convocadas 41 plazas fijas de TCAE",
-"por_que": "Permite repasar plazos de solicitud y requisitos del Estatuto Marco para oposiciones sanitarias."
-},
-{
-"titulo": "Día Mundial del Ictus: 29 de octubre",
-"dato": "El 29 de octubre se conmemora el Día Mundial del Ictus para concienciar sobre la detección temprana y prevención de la interrupción del flujo sanguíneo cerebral.",
-"url": "https://www.saludcastillayleon.es",
-"fecha": "2026-10-29",
-"temas": [
-"sistemaNervioso",
-"constantesVitales",
-"prevencionSalud"
-],
-"gancho": "Día del Ictus: ¿te sabes los signos de alarma?",
-"por_que": "La escala Cincinnati, toma de constantes y detección de ACV son preguntas habituales de examen."
-},
-{
-"titulo": "Campaña de vacunación de gripe y COVID-19 en marcha",
-"dato": "Las comunidades autónomas desarrollan la campaña estacional frente a gripe y COVID-19 orientada prioritariamente a personas mayores, grupos de riesgo y personal de los servicios sanitarios.",
-"url": "https://www.sanidad.gob.es",
-"fecha": "2026-10-14",
-"temas": [
-"inmunidadVacunas",
-"prevencionSalud",
-"respiratorio"
-],
-"gancho": "¿Vacunación simultánea gripe y COVID? ¡Pregunta segura de examen!",
-"por_que": "Las campañas estacionales evalúan conocimientos sobre vías de administración, calendario vacunal y salud comunitaria."
-},
-{
-"titulo": "Inmunización frente al Virus Respiratorio Sincitial (VRS)",
-"dato": "Sanidad e informes europeos destacan que la inmunización universal con el anticuerpo nirsevimab en lactantes reduce sustancialmente el riesgo de hospitalización por bronquiolitis infantil.",
-"url": "https://www.comunidad.madrid",
-"fecha": "2026-10-28",
-"temas": [
-"recienNacido",
-"inmunidadVacunas",
-"respiratorio"
-],
-"gancho": "VRS y nirsevimab: ¿vacuna o inmunidad pasiva?",
-"por_que": "Diferenciar anticuerpos monoclonales de vacunas activas es una de las preguntas trampa clásicas en oposiciones."
-}
-]
+"items": []
 }
