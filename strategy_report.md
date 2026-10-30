@@ -8,7 +8,7 @@ _Updated 2026-10-30 · 27 reels with results (3+ days old) · average score 7.27
 | option | reels | avg score |
 |---|---|---|
 | simulacro_3 | 3 | 8.11 |
-| flashcards_express | 2 | 7.51 |
+| flashcards_express | 2 | 7.58 |
 | examen_real | 5 | 7.43 |
 | pregunta_del_dia | 17 | 7.04 |
 | error_tipico | 0 | - |
@@ -24,7 +24,7 @@ _Updated 2026-10-30 · 27 reels with results (3+ days old) · average score 7.27
 | cuaderno | 5 | 7.52 |
 | noche | 9 | 7.41 |
 | clasico | 2 | 7.20 |
-| examen | 5 | 7.17 |
+| examen | 5 | 7.20 |
 | minimal | 3 | 7.05 |
 | marca | 3 | 6.86 |
 | ilustrado | 0 | - |
@@ -33,7 +33,7 @@ _Updated 2026-10-30 · 27 reels with results (3+ days old) · average score 7.27
 
 | option | reels | avg score |
 |---|---|---|
-| examen | 8 | 7.35 |
+| examen | 8 | 7.37 |
 | terminos_confusos | 1 | 7.35 |
 | trampa | 5 | 7.33 |
 | repaso exprés | 2 | 7.31 |
@@ -46,7 +46,7 @@ _Updated 2026-10-30 · 27 reels with results (3+ days old) · average score 7.27
 
 | option | reels | avg score |
 |---|---|---|
-| mixto | 14 | 7.40 |
+| mixto | 14 | 7.41 |
 | clinico | 9 | 7.33 |
 | legislacion | 3 | 6.91 |
 
@@ -56,7 +56,7 @@ _Updated 2026-10-30 · 27 reels with results (3+ days old) · average score 7.27
 |---|---|---|
 | corto | 10 | 7.35 |
 | normal | 8 | 7.30 |
-| largo | 9 | 7.15 |
+| largo | 9 | 7.17 |
 
 ---
 # Playbook (actualizado 2026-10-26)
