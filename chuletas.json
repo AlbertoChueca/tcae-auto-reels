@@ -166,5 +166,19 @@
 "tiktok": "6ae3bbaa47f6e1a621fa114d"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-10-30",
+"topic": "formasVias",
+"tema": "Formas Farmacéuticas y Vías de Administración",
+"subtema": "Formas farmacéuticas y recipientes",
+"quiz_id": "61ca1f7cd0",
+"imagenes": 6,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/DfIitQngdck/",
+"tiktok": "6ae50b3fb8370f7d666318cb"
+},
+"dry_run": false
 }
 ]
