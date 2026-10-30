@@ -1,5 +1,5 @@
-# Cuaderno de ilustradora (2026-10-29)
+# Cuaderno de ilustradora (2026-10-30)
 
-- Seguir haciendo: Formato vertical con paleta nocturna azulada, luz cálida de flexo y atmósfera hospitalaria serena.
-- Dejar de hacer: Dibujar guantes al manipular material o lencería limpia y duplicar objetos en la composición.
-- Probar: TCAE en mesa de planta con reloj de solapa visible, consultando el censo nocturno con manos descubiertas y limpias.
+- Seguir haciendo: Ilustración vertical con paleta nocturna en azules serenos y luz focal de flexo.
+- Dejar de hacer: Dibujar guantes al manipular material o lencería limpios, y duplicar objetos en la composición (como tazas simultáneas).
+- Probar: TCAE anotando el censo en mesa de planta con manos limpias descubiertas, postura ergonómica y reloj de solapa visible.

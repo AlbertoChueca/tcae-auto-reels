@@ -1,7 +1,7 @@
-# Cuaderno de comunidad (2026-10-29)
+# Cuaderno de comunidad (2026-10-30)
 
 # Cuaderno de comunidad
-- Resumen audiencia: Muestra reducida (15 comentarios). La interacción es 100% telegráfica: escriben únicamente la opción («A», «B», «D») o combinaciones cortas («2a», «Ab»). Se observa titubeo y autocorrección («D?», «C perdón»).
-- Seguir haciendo: Facilitar la interacción mediante tests cerrados donde baste escribir una letra.
-- Dejar de hacer: Preguntas abiertas que requieran explicaciones o desarrollo escrito.
-- Probar: Validar la duda clínica con comentario fijado: «¿Dudaste entre dos letras? Déjala abajo 👇».
+- Resumen audiencia: Muestra reducida (18 comentarios). La interacción es 100% telegráfica con letras sueltas («C», «B, D, B», «2a»). Aparecen dudas e inseguridad al responder («D?», «C perdón»).
+- Seguir haciendo: Plantear preguntas de test cerradas (A, B, C, D) con opciones claras que permitan responder en un segundo.
+- Dejar de hacer: Pedir justificaciones teóricas o debates abiertos en el texto del reel.
+- Probar: Fijar el primer comentario dando soporte ante la duda: «¿Has dudado entre dos opciones? Dinos cuáles 👇».

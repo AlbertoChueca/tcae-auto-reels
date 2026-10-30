@@ -304,5 +304,77 @@
 "motivo": "La respuesta es correcta y refleja la necesidad de refrendo para la validez de los actos del Rey, con las excepciones constitucionales.",
 "fuente_ok": true,
 "fecha": "2026-10-24"
+},
+"036cfab9b4": {
+"veredicto": "ok",
+"motivo": "El agua y el detergente son los agentes básicos universales utilizados en los procesos de limpieza en el ámbito sanitario.",
+"fuente_ok": false,
+"fecha": "2026-10-30"
+},
+"02172c28f8": {
+"veredicto": "ok",
+"motivo": "Los parámetros de tiempo y temperatura indicados para autoclave de vapor y estufa de calor seco (Poupinel) son los estándares correctos y más habituales en los manuales.",
+"fuente_ok": false,
+"fecha": "2026-10-30"
+},
+"d442bb20e4": {
+"veredicto": "ok",
+"motivo": "La definición y el requerimiento de esterilización coinciden exactamente con la clasificación de Spaulding para el material crítico.",
+"fuente_ok": false,
+"fecha": "2026-10-30"
+},
+"27bf5f2f70": {
+"veredicto": "ok",
+"motivo": "La definición describe correctamente el concepto general de descontaminación aplicable en el medio sanitario.",
+"fuente_ok": false,
+"fecha": "2026-10-30"
+},
+"8069db02a1": {
+"veredicto": "ok",
+"motivo": "Según los protocolos de esterilización habituales, el envasado mixto de doble capa proporciona una caducidad prolongada de hasta 12 meses.",
+"fuente_ok": false,
+"fecha": "2026-10-30"
+},
+"2ef03149af": {
+"veredicto": "ok",
+"motivo": "La norma ISO 11140-1 establece 6 tipos de indicadores químicos y especifica explícitamente que su numeración no implica una jerarquía de calidad o importancia.",
+"fuente_ok": false,
+"fecha": "2026-10-30"
+},
+"68dd5d604f": {
+"veredicto": "ok",
+"motivo": "El lavado por ultrasonidos está especialmente indicado para instrumental delicado, articulado o de difícil acceso, como el de microcirugía u odontología.",
+"fuente_ok": false,
+"fecha": "2026-10-30"
+},
+"aa4f6292ef": {
+"veredicto": "ok",
+"motivo": "El alcohol al 70% tiene mayor poder bactericida que al 96% porque la presencia de agua facilita la penetración y coagulación de las proteínas bacterianas.",
+"fuente_ok": false,
+"fecha": "2026-10-30"
+},
+"a4647557f5": {
+"veredicto": "dudosa",
+"motivo": "Existe divergencia en los manuales; la mayoría de protocolos establecen la caducidad del papel de grado médico simple en 3 meses, reservando los 6 meses para el envase mixto simple.",
+"fuente_ok": false,
+"fecha": "2026-10-30"
+},
+"2ca037143a": {
+"veredicto": "ok",
+"motivo": "La definición y el nivel de desinfección exigido (alto nivel) corresponden exactamente a la clasificación de Spaulding para material semicrítico.",
+"fuente_ok": false,
+"fecha": "2026-10-30"
+},
+"ec1c928dec": {
+"veredicto": "ok",
+"motivo": "El óxido de etileno es altamente tóxico y requiere obligatoriamente un tiempo de aireación para eliminar los residuos del gas en el material esterilizado.",
+"fuente_ok": false,
+"fecha": "2026-10-30"
+},
+"5f203b5a63": {
+"veredicto": "ok",
+"motivo": "Las radiaciones ionizantes (rayos gamma) se utilizan a nivel industrial para esterilizar material de un solo uso, no siendo un método propio de las centrales de esterilización hospitalarias.",
+"fuente_ok": false,
+"fecha": "2026-10-30"
 }
 }

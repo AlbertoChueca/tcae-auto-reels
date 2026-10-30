@@ -1,6 +1,6 @@
 # Piloto automático Aprueba TCAE - qué está funcionando
 
-_Updated 2026-10-29 · 25 reels with results (3+ days old) · average score 7.28_
+_Updated 2026-10-30 · 27 reels with results (3+ days old) · average score 7.27_
 
 
 ## formato
@@ -9,8 +9,8 @@ _Updated 2026-10-29 · 25 reels with results (3+ days old) · average score 7.28
 |---|---|---|
 | simulacro_3 | 3 | 8.11 |
 | flashcards_express | 2 | 7.51 |
-| examen_real | 5 | 7.42 |
-| pregunta_del_dia | 15 | 7.04 |
+| examen_real | 5 | 7.43 |
+| pregunta_del_dia | 17 | 7.04 |
 | error_tipico | 0 | - |
 | truco_memorizar | 0 | - |
 | mito_realidad | 0 | - |
@@ -21,42 +21,42 @@ _Updated 2026-10-29 · 25 reels with results (3+ days old) · average score 7.28
 
 | option | reels | avg score |
 |---|---|---|
-| clasico | 1 | 7.66 |
-| cuaderno | 5 | 7.51 |
-| noche | 9 | 7.40 |
+| cuaderno | 5 | 7.52 |
+| noche | 9 | 7.41 |
+| clasico | 2 | 7.20 |
 | examen | 5 | 7.17 |
 | minimal | 3 | 7.05 |
-| marca | 2 | 6.61 |
+| marca | 3 | 6.86 |
 | ilustrado | 0 | - |
 
 ## hook_style
 
 | option | reels | avg score |
 |---|---|---|
-| examen | 7 | 7.43 |
-| trampa | 5 | 7.32 |
+| examen | 8 | 7.35 |
+| terminos_confusos | 1 | 7.35 |
+| trampa | 5 | 7.33 |
 | repaso exprés | 2 | 7.31 |
 | reto | 4 | 7.28 |
-| empatía | 3 | 7.10 |
+| empatía | 3 | 7.11 |
 | curiosidad | 4 | 7.08 |
 | dilema_guardia | 0 | - |
-| terminos_confusos | 0 | - |
 
 ## bloque
 
 | option | reels | avg score |
 |---|---|---|
-| mixto | 13 | 7.45 |
-| clinico | 8 | 7.32 |
+| mixto | 14 | 7.40 |
+| clinico | 9 | 7.33 |
 | legislacion | 3 | 6.91 |
 
 ## think_time
 
 | option | reels | avg score |
 |---|---|---|
-| corto | 10 | 7.34 |
-| normal | 7 | 7.29 |
-| largo | 8 | 7.20 |
+| corto | 10 | 7.35 |
+| normal | 8 | 7.30 |
+| largo | 9 | 7.15 |
 
 ---
 # Playbook (actualizado 2026-10-26)

@@ -1,5 +1,5 @@
-# Cuaderno de series (2026-10-29)
+# Cuaderno de series (2026-10-30)
 
-- Seguir haciendo: Consolidar «Domingo de examen real» (227 views) y «Miércoles de simulacro» (scores 7.85 y 17 s de retención).
-- Dejar de hacer: Reels sueltos sin nombre de serie ni periodicidad reconocible.
-- Probar: Numerar formalmente cada episodio («Miércoles de Simulacro #4») para generar expectativa y hábito de visualización semanal recurrente.
+- Seguir haciendo: Consolidar «Miércoles de simulacro» y «Domingo de examen real» (227 views, score 7.97).
+- Dejar de hacer: Publicar reels huérfanos sin vincular a una serie identificable (la mayoría de publicaciones carecen de serie).
+- Probar: Numerar de forma fija cada entrega («Miércoles de simulacro #5») para estructurar el hábito de visualización semanal.
