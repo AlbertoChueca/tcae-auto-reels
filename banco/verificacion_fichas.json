@@ -376,5 +376,77 @@
 "motivo": "Las radiaciones ionizantes (rayos gamma) se utilizan a nivel industrial para esterilizar material de un solo uso, no siendo un método propio de las centrales de esterilización hospitalarias.",
 "fuente_ok": false,
 "fecha": "2026-10-30"
+},
+"7de3bb8a0d": {
+"veredicto": "ok",
+"motivo": "La respuesta es correcta. La piel es impermeable al agua y a sustancias hidrosolubles, pero permite el paso de sustancias liposolubles.",
+"fuente_ok": false,
+"fecha": "2026-10-31"
+},
+"df401b3dae": {
+"veredicto": "ok",
+"motivo": "La definición de costra como lesión secundaria por desecación de exudados (suero, sangre o pus) es correcta.",
+"fuente_ok": false,
+"fecha": "2026-10-31"
+},
+"f6f88cbbc1": {
+"veredicto": "ok",
+"motivo": "La respuesta es correcta y completa. Define bien la mácula eritematosa y el término exantema.",
+"fuente_ok": false,
+"fecha": "2026-10-31"
+},
+"e898400a5c": {
+"veredicto": "ok",
+"motivo": "Enumera correctamente los tres tipos principales de cáncer de piel maligno.",
+"fuente_ok": false,
+"fecha": "2026-10-31"
+},
+"9214ce896b": {
+"veredicto": "ok",
+"motivo": "La respuesta es correcta. Identifica las secreciones principales y las propiedades protectoras del sebo.",
+"fuente_ok": false,
+"fecha": "2026-10-31"
+},
+"92d3836a6e": {
+"veredicto": "ok",
+"motivo": "La definición de urticaria, sus lesiones características (habones) y sus desencadenantes es correcta.",
+"fuente_ok": false,
+"fecha": "2026-10-31"
+},
+"39018b90c3": {
+"veredicto": "ok",
+"motivo": "La clasificación general de las lesiones dermatológicas en primarias y secundarias es correcta.",
+"fuente_ok": false,
+"fecha": "2026-10-31"
+},
+"55ef4c56c0": {
+"veredicto": "ok",
+"motivo": "La descripción del habón o roncha como lesión edematosa, pruriginosa y fugaz es exacta.",
+"fuente_ok": false,
+"fecha": "2026-10-31"
+},
+"3c68b6c924": {
+"veredicto": "ok",
+"motivo": "Describe correctamente la composición del estrato córneo (células muertas queratinizadas que se descaman).",
+"fuente_ok": false,
+"fecha": "2026-10-31"
+},
+"53cb337f9c": {
+"veredicto": "error",
+"motivo": "La respuesta no contesta a la pregunta. Se pregunta qué bacterias causan las infecciones (la respuesta debería mencionar, por ejemplo, Staphylococcus aureus), pero el texto solo define qué son la foliculitis y el forúnculo.",
+"fuente_ok": false,
+"fecha": "2026-10-31"
+},
+"e53abae8df": {
+"veredicto": "ok",
+"motivo": "Clasifica correctamente los tres tipos de pediculosis que afectan al ser humano y su localización.",
+"fuente_ok": false,
+"fecha": "2026-10-31"
+},
+"702e192abe": {
+"veredicto": "ok",
+"motivo": "La respuesta es correcta. La piel ejerce su función excretora eliminando sustancias de desecho mediante el sudor.",
+"fuente_ok": false,
+"fecha": "2026-10-31"
 }
 }

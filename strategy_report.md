@@ -54,7 +54,7 @@ _Updated 2026-10-31 · 29 reels with results (3+ days old) · average score 7.32
 
 | option | reels | avg score |
 |---|---|---|
-| corto | 11 | 7.44 |
+| corto | 11 | 7.45 |
 | normal | 8 | 7.30 |
 | largo | 10 | 7.21 |
 
