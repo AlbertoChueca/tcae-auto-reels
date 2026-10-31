@@ -1,12 +1,6 @@
-# Cuaderno de cazatendencias (2026-10-30)
+# Cuaderno de cazatendencias (2026-10-31)
 
-Esta semana coinciden la campaña nacional de vacunación estacional, efemérides de gran calado como el Día del Ictus y el de las Cuidadoras, y publicaciones de bolsas de contratación.
-
-Estrategia de contenidos:
-• Reel 'Pregunta OPE': coberturas diana de vacunación (75% mayores y personal vs. 60% gestantes).
-• Reel 'Caso clínico/Código Ictus': identificación de signos rápidos (asimetría facial, pérdida de fuerza, disfasia) y pautas de movilización del lado afecto.
-• Reel motivacional para el 5 de noviembre: relacionar la vocación del cuidador con el modelo de suplencia y ayuda de Henderson.
-• Carrusel/Viñetas: plazos clave de subsanación de listas de bolsa (Ley 39/2015).
+Esta semana coinciden el despliegue pleno de la vacunación estacional frente a infecciones respiratorias y fechas clave como el Día del Ictus o el de la Neumonía, además de avances en adjudicación de plazas estatutarias. En reels y TikTok, conecta la actualidad con simulacros: lanza quizzes rápidos sobre escalas neurológicas de detección del ictus o las cifras de cobertura que fija Sanidad. En carruseles de Instagram, publica esquemas visuales comparando dispositivos de oxigenoterapia en patología pulmonar y resúmenes con los plazos administrativos oficiales para elegir destino según la Ley 55/2003.
 
 ## Hallazgos
 - Ninguno fiable hoy.
