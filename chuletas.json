@@ -180,5 +180,19 @@
 "tiktok": "6ae50b3fb8370f7d666318cb"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-10-31",
+"topic": "estrenimiento",
+"tema": "Estreñimiento",
+"subtema": "Tipos de laxantes según su mecanismo",
+"quiz_id": "75d535786e",
+"imagenes": 6,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/DfLAt4iDEDM/",
+"tiktok": "6ae64ee1939fa4d8f1bce201"
+},
+"dry_run": false
 }
 ]
