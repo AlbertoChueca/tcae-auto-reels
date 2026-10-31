@@ -1,5 +1,5 @@
-# Cuaderno de ritmo (2026-10-30)
+# Cuaderno de ritmo (2026-10-31)
 
-- Seguir haciendo: Dinámica multipregunta con pausas breves de suspense (simulacro_3), logrando retenciones sólidas de 12 a 17 segundos.
-- Dejar de hacer: Ritmos lentos o preguntas únicas con silencios planos que desploman el visionado a 5-6 segundos.
-- Probar: Cuenta atrás visual de 3 segundos con efecto de tictac antes de desvelar la respuesta correcta.
+- Seguir haciendo: Estructura ágil multipregunta con pausas breves de suspense (simulacro_3), sosteniendo 12-17 segundos de visionado.
+- Dejar de hacer: Preguntas de resolución plana que desploman el tiempo de reproducción a 5-6 segundos.
+- Probar: Cuenta atrás visual de 3 segundos con efecto sonoro de tictac antes de desvelar cada respuesta para reducir abandonos.

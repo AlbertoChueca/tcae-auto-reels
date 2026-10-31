@@ -1,5 +1,5 @@
-# Cuaderno de embudo_app (2026-10-30)
+# Cuaderno de embudo_app (2026-10-31)
 
-- Seguir haciendo: Asociar los simulacros y preguntas oficiales con los exámenes reales disponibles en apruebatcae.com.
-- Dejar de hacer: Inferir conversiones web: datos insuficientes al registrar «None» en visitas al perfil y nuevos seguidores.
-- Probar: CTA verbal concreto y directo: «Practica este examen completo y más de 3.000 preguntas oficiales comentadas en apruebatcae.com».
+- Seguir haciendo: Conectar los simulacros triples y preguntas oficiales con los exámenes completos disponibles en la plataforma.
+- Dejar de hacer: Asumir conversiones sin métricas: datos insuficientes al figurar visitas al perfil y seguidores como None.
+- Probar: Llamada a la acción precisa y unificada: «Haz este simulacro y practica más de 3.000 preguntas oficiales explicadas en apruebatcae.com».

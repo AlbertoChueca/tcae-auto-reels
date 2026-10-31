@@ -1,5 +1,5 @@
-# Cuaderno de revisora_visual (2026-10-30)
+# Cuaderno de revisora_visual (2026-10-31)
 
-- Seguir haciendo: Control riguroso de ausencia total de texto e higiene de manos según protocolo sanitario hospitalario.
-- Dejar de hacer: Aprobar lencería o material limpio manipulado con guantes, o ilustraciones con duplicación de atrezo.
-- Probar: Filtro de revisión estricto: 1) Manos desnudas en tareas limpias; 2) Cero texto de IA; 3) Coherencia anatómica y unicidad de objetos.
+- Seguir haciendo: Control exhaustivo de asepsia y uso racional de EPI (manos limpias sin guantes para material limpio).
+- Dejar de hacer: Aprobar ilustraciones con duplicaciones de atrezo generadas por IA o cualquier tipo de texto integrado.
+- Probar: Protocolo estricto de pase: 1) Cero texto; 2) Protocolo de guantes impecable según temario oficial; 3) Proporciones anatómicas exactas.

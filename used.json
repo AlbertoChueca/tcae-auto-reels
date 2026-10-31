@@ -442,5 +442,11 @@
 "topic": "cardiovascular",
 "fecha": "2026-10-30",
 "formato": "pregunta_del_dia"
+},
+{
+"id": "f2cededbfa",
+"topic": "leyGeneralSanidad",
+"fecha": "2026-10-31",
+"formato": "pregunta_del_dia"
 }
 ]

@@ -1,5 +1,5 @@
-# Cuaderno de memoria (2026-10-30)
+# Cuaderno de memoria (2026-10-31)
 
-- Seguir haciendo: Retos triples (simulacro_3) y flashcards_express, que lideran guardados (hasta 3) y retención (hasta 21 s).
-- Dejar de hacer: Preguntas simples de resolución pasiva inmediata sin esfuerzo de recuerdo activo.
-- Probar: Pantalla final de recuperación activa invitando a guardar el reel para resolverlo de nuevo mentalmente a las 48 horas.
+- Seguir haciendo: Retos triples (simulacro_3) y flashcards_express, que lideran guardados (hasta 3) y mayor tiempo de visionado (>23 s).
+- Dejar de hacer: Preguntas únicas con resolución inmediata que no exigen recuperación activa.
+- Probar: Cierre explícito de retención espaciada: «Guarda el reel y comprueba en 48 horas si recuerdas las 3 soluciones».
