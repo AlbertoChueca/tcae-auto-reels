@@ -140,6 +140,19 @@ sola (hasta 4 veces) y, si aun así falla, ese reel no se publica (se pasa a otr
 es la B"): no vuelve a leer la opción, que ya se ve en verde. Además, cualquier campo del guion con indicaciones de tono o de voz se cambia por la
 plantilla antes de grabar.
 
+## Diagnóstico del guion
+*Actions → Diagnóstico del guion* ejecuta la cadena guionista → revisor → estudio → verificador para varios formatos sin
+publicar nada y deja todo (guiones y motivos de rechazo) en `diagnostico.md`. Úsalo si en el resumen de un reel ves
+`guion: plantilla` muchos días seguidos: significa que la IA no consigue un guion verificado y sale la plantilla fija.
+Reglas que el guion cumple antes del verificador: `cierre_line` solo en simulacro y fichas; si la pregunta no es de examen
+oficial, "oficial" / "examen real" / "cayó en el examen" se corrigen solos en ganchos y descripción, y las promesas
+("entra siempre") pasan a "suele caer". El verificador exige rigor total en el contenido (explicación, trampa, truco,
+mito, puntos, escena) y en ganchos/descripción solo rechaza datos falsos, cifras inventadas y promesas.
+
+## Duración y retención
+Los reels de reto se recortan a ~45 s (variable `REEL_MAX_LEN`) y los que llevan solución a ~55 s: gancho corto, menos
+silencios entre opciones y cierre breve. Si un reel sale más largo, se acorta solo el tiempo para pensar.
+
 ## Cómo se evita publicar un error (lo más importante)
 1. **Solo preguntas propias**: el banco sale del `index.html` de tu web app (1.822 preguntas, 220 de examen oficial, 2.718 fichas). El enunciado y las opciones salen tal cual; la IA nunca los reescribe.
 2. **Verificador** (`verifier.py`): antes de usar una pregunta comprueba que la respuesta marcada es la correcta y la única. En **legislación y plazos** exige una **cita literal** del texto real de la norma (`fuentes/`, descargado del BOE) y el código comprueba que esa cita existe de verdad; sin cita, esa pregunta no sale.
