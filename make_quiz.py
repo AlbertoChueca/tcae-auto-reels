@@ -38,12 +38,9 @@ TAGS_ROT = ["#auxiliardeenfermeria", "#oposiciones", "#TCAEoposiciones", "#tecni
 T = themes.get("marca")
 HIDE = os.environ.get("SOLUCION_MANANA", "true").lower() != "false"
 REVEAL_FMTS = ("flashcards_express", "truco_memorizar")    # formatos que muestran la respuesta por diseño
-ASK_LINES = {"simulacro_3": "Escribe tus tres respuestas en comentarios y nuestra IA te contestará personalmente con las "
-                            "soluciones en menos de 24 horas.",
-             "mito_realidad": "¿Mito o realidad? Escríbelo en comentarios y nuestra IA te contestará personalmente con "
-                              "la solución en menos de 24 horas.",
-             "_": "Escribe tu respuesta en comentarios y nuestra IA te contestará personalmente con la solución en "
-                  "menos de 24 horas."}
+ASK_LINES = {"simulacro_3": "Deja tus tres letras en comentarios: nuestra IA te contesta con las soluciones en menos de 24 horas.",
+             "mito_realidad": "¿Mito o realidad? Coméntalo: nuestra IA te contesta con la solución en menos de 24 horas.",
+             "_": "Deja tu letra en comentarios: nuestra IA te contesta con la solución en menos de 24 horas."}
 
 
 def _two_line_pill(a, b):
@@ -517,7 +514,7 @@ def build(fmt, items, S, seed, out, arms=None, style=None, max_len=None, keep_vo
                         ostarts.append(tt); say(f"o{k}", tt); tt += D[f"o{k}"] + 0.12
                 seg("question", tt - a + 0.2, q=0, ostarts=ostarts)
                 seg("count", count, q=0, n=count)
-            a = t; seg("ask", max(3.0, D["ask"] + 0.9), q=len(items) - 1); say("ask", a + 0.25)
+            a = t; seg("ask", max(3.0, D["ask"] + 0.7), q=len(items) - 1); say("ask", a + 0.2)
         elif fmt == "flashcards_express":
             pause = max(1.2, min(2.5, count / 3))
             for i in range(len(items)):
@@ -553,7 +550,7 @@ def build(fmt, items, S, seed, out, arms=None, style=None, max_len=None, keep_vo
                        trampa=S.get("trampa") if fmt == "error_tipico" else None); say("rev", a + 0.15)
             if "ex" in A:
                 a = t; seg("explain", D["ex"] + 1.2); say("ex", a + 0.5)
-        a = t; seg("cta", max(3.6, D["cta"] + 1.0)); say("cta", a + 0.3)      # el cierre corto: ahí se va la gente
+        a = t; seg("cta", max(3.2, D["cta"] + 0.8)); say("cta", a + 0.25)      # el cierre corto: ahí se va la gente
         return SEG, VO, t
 
     SEG, VO, total = plan(count)

@@ -117,7 +117,10 @@ ABBR = [(r"\bart(?:s)?\.\s*", "artículo "), (r"\bnº\s*|\bn\.º\s*", "número "
         (r"\bCE\b", "Constitución"), (r"\bUPP\b", "u pe pe"), (r"\bTCAE\b", "te ce a e"), (r"\bEE\. ?UU\.", "Estados Unidos"),
         (r"\bmmHg\b", "milímetros de mercurio"), (r"\bml\b", "mililitros"), (r"\bmg\b", "miligramos"),
         (r"\bºC\b|\b° ?C\b", " grados"), (r"\bkg\b", "kilos"), (r"\bcm\b", "centímetros"), (r"\bh\b", "horas"),
-        (r"\bSALUD\b", "Salud")]
+        (r"\bSALUD\b", "Salud"), (r"\bCPAP\b", "cipap"), (r"\bBiPAP\b", "bipap"), (r"\bRCP\b", "erre ce pe"),
+        (r"\bECG\b", "e ce ge"), (r"\bEKG\b", "e ca ge"), (r"\bSNG\b", "ese ene ge"), (r"\bPCR\b", "pe ce erre"),
+        (r"\bIMC\b", "i eme ce"), (r"\bUCI\b", "uci"), (r"\bUVI\b", "uvi"), (r"\bTAC\b", "tac"), (r"\bEPI\b", "epi"),
+        (r"\bPAE\b", "pae"), (r"\bOMS\b", "o eme ese"), (r"\bVIH\b", "uve i hache"), (r"\bSIDA\b", "sida")]
 
 
 LETTER_NAMES = {"A": "a", "B": "be", "C": "ce", "D": "de"}

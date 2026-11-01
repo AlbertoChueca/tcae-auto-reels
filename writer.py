@@ -173,7 +173,7 @@ Campos:
 - "hook_line": lo primero que dice la voz (5-14 palabras); no repitas literal el screen_hook.
 - "reveal_line": la voz da la solución (3-12 palabras), p. ej. "La correcta es la {items[0].get('letra', 'B')}." (solo la letra: NO vuelvas a leer el texto de la opción) (en simulacro y fichas: una frase corta de transición).
 - {SCHEMAS[fmt]}
-- "cta_line": cierre hablado (8-20 palabras) que invite a practicar gratis en apruebatcae.com (puedes decir "link en la bio").
+- "cta_line": cierre hablado CORTO (8-14 palabras) que invite a practicar gratis en apruebatcae.com (el final es donde más gente se va: sin rodeos).
 - "caption_hook": primera línea de la descripción (máx. 12 palabras, como mucho 1 emoji).
 - "comment_prompt": invitación a comentar la respuesta (máx. 12 palabras), p. ej. {'"Comenta A, B, C o D y te contesto con la solución"' if _reto(fmt) else '"Comenta A, B, C o D antes de ver la solución"'}.
 No repitas ganchos recientes: {'; '.join(list(avoid)[-12:]) or 'ninguno'}.
@@ -231,7 +231,7 @@ def clean(fmt, items, s):
     """Valida longitudes y campos; lo que no cumple se sustituye por la plantilla segura."""
     base = template(fmt, items)
     out = dict(base)
-    for k, lo, hi in (("screen_hook", 2, 6), ("hook_line", 4, 13), ("reveal_line", 2, 12), ("cta_line", 6, 22),
+    for k, lo, hi in (("screen_hook", 2, 6), ("hook_line", 4, 13), ("reveal_line", 2, 12), ("cta_line", 6, 15),
                       ("caption_hook", 3, 14), ("comment_prompt", 3, 14), ("explicacion", 10, 40),
                       ("trampa_porque", 12, 36), ("truco", 2, 12), ("truco_line", 8, 28), ("afirmacion", 6, 26),
                       ("titulo_norma", 1, 8), ("cierre_line", 5, 18)):

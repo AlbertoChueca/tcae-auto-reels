@@ -83,13 +83,13 @@ Borrador (JSON): {json.dumps({k: S.get(k) for k in ('screen_hook', 'hook_line', 
 Puntúa 1-10 el gancho (2 primeros segundos), la claridad y la invitación a comentar/guardar. Después mejora SOLO estos
 campos, sin añadir ningún dato nuevo del temario: screen_hook (2-6 palabras, sin emojis), hook_line (5-14 palabras,
 hablado, no repite el screen_hook), caption_hook (máx. 12 palabras, máx. 1 emoji), comment_prompt (máx. 12 palabras),
-cta_line (8-20 palabras, debe nombrar apruebatcae.com). Español de España, tono adulto y cercano, sin promesas.
+cta_line (8-14 palabras, debe nombrar apruebatcae.com). Español de España, tono adulto y cercano, sin promesas.
 Devuelve JSON: {{"overall": number, "changes": [str], "screen_hook": str, "hook_line": str, "caption_hook": str,
 "comment_prompt": str, "cta_line": str}}"""}], 0.7)
         import writer
         new = dict(S)
         for k, lo, hi in (("screen_hook", 2, 6), ("hook_line", 4, 16), ("caption_hook", 3, 14), ("comment_prompt", 3, 14),
-                          ("cta_line", 6, 22)):
+                          ("cta_line", 6, 15)):
             v = writer._w(res.get(k), lo, hi)
             if v and not re.search(r"\d+ ?%", v):
                 new[k] = v

@@ -320,12 +320,12 @@ def embudo(fmt, items, S):
 DATOS REALES de la app (usa solo estos números): tema "{c['tema']}": {c['preguntas_tema']} preguntas tipo test y
 {c['fichas_tema']} flashcards. En total {M.PREGUNTAS_FRASE}, simulacros y estadísticas. Se practica gratis en apruebatcae.com.
 Escribe:
-- cta_line: cierre hablado (10-22 palabras) que invite a practicar ESTE tema en la app; nombra "apruebatcae.com".
+- cta_line: cierre hablado CORTO (8-14 palabras) que invite a practicar ESTE tema en la app; nombra "apruebatcae.com".
 - app_caption: línea de la descripción (máx. 22 palabras) con el número real de preguntas o fichas de este tema.
 Devuelve JSON: {{"cta_line": str, "app_caption": str}}""", 0.7)
         out = {}
         allowed = {str(c["preguntas_tema"]), str(c["fichas_tema"]), M.PREGUNTAS, M.PREGUNTAS.replace(".", "")}
-        for k, lo, hi in (("cta_line", 8, 24), ("app_caption", 5, 24)):
+        for k, lo, hi in (("cta_line", 6, 15), ("app_caption", 5, 24)):
             v = _w(res.get(k), lo, hi)
             nums = re.findall(r"\d[\d.]*", v or "")
             if v and all(n in allowed for n in nums) and "apruebatcae" in (v.lower().replace(" ", "") if k == "cta_line" else "apruebatcae"):
