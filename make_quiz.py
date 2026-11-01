@@ -426,7 +426,7 @@ def caption_text(fmt, items, S, rng, st=None):
 
 
 # ------------------------------------------------------------------ build
-def build(fmt, items, S, seed, out, arms=None, style=None, max_len=58.0, keep_voice=False, image=None, estilo=None):
+def build(fmt, items, S, seed, out, arms=None, style=None, max_len=None, keep_voice=False, image=None, estilo=None):
     """image: ilustración original (PIL) para el estilo 'ilustrado', el gancho y la escena del caso práctico."""
     global T
     import voice
@@ -440,6 +440,8 @@ def build(fmt, items, S, seed, out, arms=None, style=None, max_len=58.0, keep_vo
         S = {**S, "screen_hook": st["screen_hook"]}
     rng = random.Random(f"{seed}-{fmt}")
     P = items[0]
+    if max_len is None:                              # objetivo de duración: los reels cortos retienen más
+        max_len = float(os.environ.get("REEL_MAX_LEN", "45" if hides(fmt) else "55"))
     count = 5 if fmt == "simulacro_3" else THINK.get(arms.get("think_time"), 7)
     L = lines_for(fmt, items, S)
     speed = float(st.get("voice_speed") or 1.0)
@@ -492,7 +494,7 @@ def build(fmt, items, S, seed, out, arms=None, style=None, max_len=58.0, keep_vo
         def say(k, at):
             VO[k] = at
 
-        seg("hook", max(2.6, D["hook"] + 0.6)); say("hook", 0.25)
+        seg("hook", max(2.2, D["hook"] + 0.35)); say("hook", 0.2)      # al grano: la gente decide en 1-2 s
         if hides(fmt):
             if fmt == "simulacro_3":
                 for i, Q in enumerate(items):
@@ -509,13 +511,13 @@ def build(fmt, items, S, seed, out, arms=None, style=None, max_len=58.0, keep_vo
                     seg("points", tt - a + 0.5, starts=starts)
                 if fmt == "caso_practico":
                     a = t; seg("scene", D["esc"] + 1.0); say("esc", a + 0.4)
-                a = t; tt = a + 0.45; say("q", tt); tt += D["q"] + 0.3; ostarts = []
+                a = t; tt = a + 0.35; say("q", tt); tt += D["q"] + 0.25; ostarts = []
                 if "o0" in A:
                     for k in range(4):
-                        ostarts.append(tt); say(f"o{k}", tt); tt += D[f"o{k}"] + 0.2
-                seg("question", tt - a + 0.3, q=0, ostarts=ostarts)
+                        ostarts.append(tt); say(f"o{k}", tt); tt += D[f"o{k}"] + 0.12
+                seg("question", tt - a + 0.2, q=0, ostarts=ostarts)
                 seg("count", count, q=0, n=count)
-            a = t; seg("ask", max(3.4, D["ask"] + 1.4), q=len(items) - 1); say("ask", a + 0.3)
+            a = t; seg("ask", max(3.0, D["ask"] + 0.9), q=len(items) - 1); say("ask", a + 0.25)
         elif fmt == "flashcards_express":
             pause = max(1.2, min(2.5, count / 3))
             for i in range(len(items)):
@@ -551,7 +553,7 @@ def build(fmt, items, S, seed, out, arms=None, style=None, max_len=58.0, keep_vo
                        trampa=S.get("trampa") if fmt == "error_tipico" else None); say("rev", a + 0.15)
             if "ex" in A:
                 a = t; seg("explain", D["ex"] + 1.2); say("ex", a + 0.5)
-        a = t; seg("cta", max(4.8, D["cta"] + 1.8)); say("cta", a + 0.4)
+        a = t; seg("cta", max(3.6, D["cta"] + 1.0)); say("cta", a + 0.3)      # el cierre corto: ahí se va la gente
         return SEG, VO, t
 
     SEG, VO, total = plan(count)

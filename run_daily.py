@@ -148,6 +148,7 @@ for fmt in chain:
         import writer
         S, fmt, src = writer.script_for(fmt, items, arms, avoid=recent_hooks(), verify=HAS_AI, series_info=si)
         import make_quiz
+        S["_fmt"] = fmt                                 # el revisor del vídeo sabe qué diseño tiene (reto o con solución)
         style = dict(make_quiz.DEFAULT_STYLE)
         style.update({k: S[k] for k in STYLE_KEYS if S.get(k)})
         image, dinfo = None, {}

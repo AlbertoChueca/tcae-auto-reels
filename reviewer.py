@@ -178,6 +178,21 @@ Devuelve JSON: {{"overall": number, "scores": {{...}}, "issues": [str], "changes
 
 
 # ------------------------------------------------------------------ 3. vídeo terminado
+def _design_note(S):
+    """Qué diseño tiene este reel, para que el revisor no penalice lo que es a propósito."""
+    try:
+        import make_quiz
+        if make_quiz.hides(S.get("_fmt", "")):
+            return ("DISEÑO DE ESTE REEL (a propósito, no es un fallo): es un RETO. No muestra la solución ni la explicación: "
+                    "termina pidiendo que publiquen su respuesta en comentarios y la IA contesta a cada persona con la "
+                    "solución en menos de 24 h (más comentarios). No puntúes 'respuesta visible' ni 'explicación' y no "
+                    "lo señales como problema; valora si la pregunta se lee bien, si da ganas de contestar y si el cierre "
+                    "deja claro qué hacer.")
+    except Exception:
+        pass
+    return "DISEÑO: pregunta tipo test + cuenta atrás + solución + explicación + cierre."
+
+
 def review_video(path, S, caption):
     small = path.replace(".mp4", "_review.mp4")
     try:
@@ -186,12 +201,13 @@ def review_video(path, S, caption):
         data = base64.b64encode(open(small, "rb").read()).decode()
         first, rest = (caption.split("\n", 1) + [""])[:2]
         res = _ask([{"text": f"""{PRODUCER}
-Mira este reel terminado (pregunta tipo test + cuenta atrás + solución + explicación + cierre). Gancho: {S.get('screen_hook')!r}.
+Mira este reel terminado. Gancho: {S.get('screen_hook')!r}.
+{_design_note(S)}
 Primera línea actual de la descripción: {first!r}
 
 Puntúa 1-10: gancho en 1,5 s, claridad, ritmo (ni lento ni atropellado), voz natural en español de España y que diga lo
-mismo que el texto, palabras sueltas que sobren o siseo/ruido, subtítulos y resaltado sincronizados, la respuesta correcta
-se ve clara, explicación útil, cierre claro, probabilidad de comentar/guardar/compartir.
+mismo que el texto, palabras sueltas que sobren o siseo/ruido, subtítulos y resaltado sincronizados, cierre claro,
+probabilidad de comentar/guardar/compartir (y, si el diseño incluye solución: respuesta clara y explicación útil).
 "critical" = true SOLO si el reel está claramente roto (mudo, congelado/negro, ilegible, voz equivocada o ininteligible,
 la respuesta resaltada no coincide con la que dice la voz). Después escribe una PRIMERA línea de descripción mejor (máx. 12
 palabras, máx. 1 emoji, sin datos nuevos) y una invitación a comentar (máx. 12 palabras).

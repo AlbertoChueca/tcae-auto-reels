@@ -111,15 +111,18 @@ HECHOS CIERTOS de la app (no afirmes nada más sobre ella):
 {facts()}
 Reescribe la descripción para conseguir más guardados, comentarios, compartidos y visitas al perfil de opositores a TCAE.
 Reglas: español de España; primera línea gancho (máx. 12 palabras, máx. 1 emoji); MANTÉN LITERALES la pregunta y sus
-opciones (o la afirmación) tal y como están; una línea que invite a comentar la respuesta; una que invite a guardar el
-post para repasar; menciona apruebatcae.com y "link en la bio"; termina con 3-5 hashtags de esta lista:
+opciones (o la afirmación) tal y como están; una línea que invite a comentar la respuesta; si la descripción dice que
+"nuestra IA te contestará personalmente con la solución en menos de 24 h", MANTENLO (es verdad y es la promesa del reel:
+no lo quites ni lo suavices); una que invite a guardar el post para repasar; menciona apruebatcae.com y "link en la bio";
+termina con 3-5 hashtags de esta lista:
 #TCAE #oposicionesTCAE #auxiliardeenfermeria #oposiciones #TCAEoposiciones #tecnicoencuidados. No menciones ninguna comunidad autónoma. Máx. 1.500 caracteres. Sin estadísticas ni promesas.
 Devuelve JSON: {{"caption": str, "why": str}}""", 0.6)
         cap = (res.get("caption") or "").strip()
         tags = re.findall(r"#\w+", cap)
         allowed = {"#TCAE", "#oposicionesTCAE", "#auxiliardeenfermeria", "#oposiciones", "#TCAEoposiciones", "#tecnicoencuidados"}
         core = [l for l in caption.split("\n") if re.match(r"^[ABCD]\) ", l)]          # las opciones deben seguir intactas
-        if (80 <= len(cap) <= 1800 and 3 <= len(tags) <= 5 and set(tags) <= allowed and "apruebatcae" in cap.lower()
+        promise_ok = ("24 h" not in caption) or ("24 h" in cap and re.search(r"\bIA\b", cap))
+        if (promise_ok and 80 <= len(cap) <= 1800 and 3 <= len(tags) <= 5 and set(tags) <= allowed and "apruebatcae" in cap.lower()
                 and "bio" in cap.lower() and all(l in cap for l in core) and all(p in caption for p in re.findall(r"\d+ ?%", cap))):
             _log("agent_growth", {"why": res.get("why")})
             print("agente crecimiento: descripción reescrita", flush=True)

@@ -213,24 +213,39 @@ def verify_script(items, script, fmt):
                    f"flashcards; en total {__import__('marca').PREGUNTAS_FRASE}; se practica gratis en apruebatcae.com.")
     except Exception:
         pass
-    keys = ("hook_line", "screen_hook", "reveal_line", "explicacion", "trampa", "trampa_porque", "truco", "truco_line",
-            "afirmacion", "veredicto", "puntos", "titulo_norma", "caption_hook", "comment_prompt", "escena", "save_line",
-            "save_caption", "reto_line", "share_line", "tag_caption", "cta_line", "app_caption", "seo_line", "yt_title",
-            "follow_line", "follow_caption", "cierre_line")
-    texts = {k: script.get(k) for k in keys if script.get(k)}
+    DATA = ("reveal_line", "explicacion", "trampa", "trampa_porque", "truco", "truco_line", "afirmacion", "veredicto",
+            "puntos", "titulo_norma", "escena")
+    HOOKS = ("hook_line", "screen_hook", "caption_hook", "comment_prompt", "save_line", "save_caption", "reto_line",
+             "share_line", "tag_caption", "cta_line", "app_caption", "seo_line", "yt_title", "follow_line", "follow_caption")
+    if fmt in ("simulacro_3", "flashcards_express"):
+        HOOKS += ("cierre_line",)
+    data_t = {k: script.get(k) for k in DATA if script.get(k)}
+    hook_t = {k: script.get(k) for k in HOOKS if script.get(k)}
+    is_exam = any(P.get("origen") == "examen" or P.get("examen") for P in items)
+    ctx.append(("ORIGEN: pregunta de EXAMEN OFICIAL de TCAE: es correcto decir que cayó en el examen." if is_exam else
+                "ORIGEN: pregunta del banco de la app, NO de un examen oficial: decir \"oficial\", \"cayó en el examen\" o "
+                "\"pregunta real de examen\" es un dato falso.")
+               + f" Hoy es {datetime.date.today():%d/%m/%Y}: nombrar el año actual (p. ej. \"oposiciones TCAE "
+               f"{datetime.date.today().year}\") es correcto. El reel tiene {len(items)} pregunta(s).")
     try:
         res = gemini.ask(f"""{ROLE}
 Formato del reel: {fmt}.
 MATERIAL DE REFERENCIA (lo único que vale como verdad):
 {chr(10).join(ctx)}
 
-TEXTOS QUE VAN A SALIR EN EL VÍDEO / DESCRIPCIÓN:
-{json.dumps(texts, ensure_ascii=False, indent=1)}
+A) TEXTOS DE CONTENIDO (explicación, trampa, truco, mito, puntos, escena): aquí se exige rigor total.
+{json.dumps(data_t, ensure_ascii=False, indent=1)}
+Comprueba frase a frase: todo lo que afirman debe estar respaldado por el material de referencia. Cualquier dato nuevo
+(artículo, cifra, plazo, porcentaje, órgano, fecha, estadística) que no esté en el material es un problema. La letra
+correcta, la trampa y el veredicto MITO/REALIDAD deben ser coherentes con la pregunta.
 
-Comprueba frase a frase: ¿todo lo que afirman estos textos está respaldado por el material de referencia? Cualquier dato
-nuevo (artículo, cifra, plazo, porcentaje, órgano, fecha, estadística del tipo "el 80% falla") que no esté en el
-material es un problema. La letra correcta, la trampa y el veredicto MITO/REALIDAD deben ser coherentes con la pregunta.
-También es un problema prometer cosas ("esto cae seguro", "aprobarás") o tono infantil.
+B) GANCHOS, CIERRES Y DESCRIPCIÓN (marketing del reel):
+{json.dumps(hook_t, ensure_ascii=False, indent=1)}
+Aquí NO se exige que cada frase esté en el material: son frases de gancho, invitaciones a comentar/guardar/compartir y
+texto SEO. Solo son problema: (1) afirmar que la pregunta es oficial o cayó en el examen cuando el ORIGEN dice que no;
+(2) inventar cifras, porcentajes, fechas de examen, plazos o estadísticas ("el 80% falla"); (3) promesas ("esto cae
+seguro", "aprobarás"); (4) un dato del temario que contradiga el material; (5) tono infantil. Retos entre compañeras,
+"guárdalo", "la solución mañana" o "la IA te contesta" NO son problema.
 Devuelve JSON: {{"ok": bool, "problemas": [{{"campo": str, "frase": str, "motivo": str}}]}}""", 0.1, careful=True)
     except Exception as e:
         return False, [{"campo": "-", "frase": "-", "motivo": f"verificador no disponible: {str(e)[:150]}"}]

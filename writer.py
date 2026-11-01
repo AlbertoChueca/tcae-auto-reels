@@ -75,6 +75,34 @@ def _actualidad(items):
             "nunca en la explicación ni mezclado con la respuesta:\n" + "\n".join(lines))
 
 
+def _reto(fmt):
+    try:
+        import make_quiz
+        return make_quiz.hides(fmt)
+    except Exception:
+        return False
+
+
+def _is_exam(items):
+    return any(P.get("origen") == "examen" or P.get("examen") for P in items)
+
+
+def _origen(items):
+    if _is_exam(items):
+        ex = next((P.get("examen") or {}) for P in items if P.get("examen"))
+        return (f"ORIGEN: pregunta de EXAMEN OFICIAL ({ex.get('titulo', '')}): puedes decir que cayó en el examen oficial.")
+    return ("ORIGEN: pregunta del banco de la app (NO es de un examen oficial): no digas \"oficial\", \"cayó en el examen\", "
+            "\"pregunta real de examen\" ni nada parecido; sí puedes decir que es del temario o \"de las que caen\" sin afirmar "
+            "que haya caído.")
+
+
+def _hook_style(arms, items):
+    hs = (arms or {}).get("hook_style") or "el que mejor encaje"
+    if hs.startswith("examen") and not _is_exam(items):
+        return "reto: retar directamente ('¿la acertarías en el examen?')"
+    return hs
+
+
 def write(fmt, items, arms=None, avoid=(), notes=None):
     """Guion JSON del reel (Gemini). notes = problemas que encontró el verificador en un intento anterior."""
     import gemini
@@ -93,7 +121,9 @@ tests para las oposiciones de TCAE de toda España (apruebatcae.com).
 {_brief('gancho')}
 {("LO QUE FUNCIONA CON NUESTRA AUDIENCIA (datos reales):" + chr(10) + pb) if pb else ""}
 
-FORMATO DE HOY: {FORMATS[fmt]}. Estilo de gancho a probar (experimento): {arms.get('hook_style', 'el que mejor encaje')}.
+FORMATO DE HOY: {FORMATS[fmt]}. Estilo de gancho a probar (experimento): {_hook_style(arms, items)}.
+{_origen(items)}
+{"DISEÑO: este reel es un RETO: NO muestra la solución (reveal_line y explicacion se guardan para contestar al día siguiente). El vídeo termina pidiendo la respuesta en comentarios; la IA contesta a cada persona con la solución en menos de 24 h. Escribe hook_line, comment_prompt y cta_line coherentes con eso (nada de 'mira la solución al final')." if _reto(fmt) else ""}
 MATERIAL (lo ÚNICO que puedes usar como dato; no añadas artículos, cifras, plazos ni nada que no esté aquí):
 {_material(items)}
 {_actualidad(items)}
@@ -108,7 +138,7 @@ Campos:
 - {SCHEMAS[fmt]}
 - "cta_line": cierre hablado (8-20 palabras) que invite a practicar gratis en apruebatcae.com (puedes decir "link en la bio").
 - "caption_hook": primera línea de la descripción (máx. 12 palabras, como mucho 1 emoji).
-- "comment_prompt": invitación a comentar la respuesta (máx. 12 palabras), p. ej. "Comenta A, B, C o D antes de ver la solución".
+- "comment_prompt": invitación a comentar la respuesta (máx. 12 palabras), p. ej. {'"Comenta A, B, C o D y te contesto con la solución"' if _reto(fmt) else '"Comenta A, B, C o D antes de ver la solución"'}.
 No repitas ganchos recientes: {'; '.join(list(avoid)[-12:]) or 'ninguno'}.
 {("CORRIGE ESTOS PROBLEMAS QUE ENCONTRÓ EL VERIFICADOR:" + chr(10) + json.dumps(notes, ensure_ascii=False)) if notes else ""}
 Devuelve solo JSON con esos campos."""
@@ -164,7 +194,7 @@ def clean(fmt, items, s):
     """Valida longitudes y campos; lo que no cumple se sustituye por la plantilla segura."""
     base = template(fmt, items)
     out = dict(base)
-    for k, lo, hi in (("screen_hook", 2, 6), ("hook_line", 4, 16), ("reveal_line", 2, 12), ("cta_line", 6, 22),
+    for k, lo, hi in (("screen_hook", 2, 6), ("hook_line", 4, 13), ("reveal_line", 2, 12), ("cta_line", 6, 22),
                       ("caption_hook", 3, 14), ("comment_prompt", 3, 14), ("explicacion", 10, 40),
                       ("trampa_porque", 12, 36), ("truco", 2, 12), ("truco_line", 8, 28), ("afirmacion", 6, 26),
                       ("titulo_norma", 1, 8), ("cierre_line", 5, 18)):
@@ -248,9 +278,11 @@ def template(fmt, items):
             "explicacion": ex, "cta_line": f"Practica gratis con {__import__('marca').PREGUNTAS_FRASE} en apruebatcae.com. Tienes el link en la bio.",
             "caption_hook": {"examen_real": "Esta cayó en el examen oficial de TCAE 📝"}.get(fmt, "¿Sabrías responderla en el examen? 📝"),
             "comment_prompt": ("Comenta cuántas sabías, del 0 al 4" if fmt == "flashcards_express"
+                               else "Comenta A, B, C o D y te contesto con la solución" if _reto(fmt)
                                else "Comenta A, B, C o D antes de ver la solución"),
-            "cierre_line": ("¿Cuántas sabías? Coméntalo y guarda el reel para repasar." if fmt == "flashcards_express"
-                            else "¿Cuántas has acertado? Comenta tu resultado, del cero al tres.")}
+            **({"cierre_line": "¿Cuántas sabías? Coméntalo y guarda el reel para repasar."} if fmt == "flashcards_express"
+               else {"cierre_line": "¿Cuántas has acertado? Comenta tu resultado, del cero al tres."} if fmt == "simulacro_3"
+               else {})}
 
 
 def script_for(fmt, items, arms=None, avoid=(), verify=True, series_info=None):

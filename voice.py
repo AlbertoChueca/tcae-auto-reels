@@ -725,7 +725,14 @@ def _say_many(texts, speed, styles, one_take):
         except Exception as e:
             if LOCK == "gemini":
                 raise VoiceError(f"gemini failed mid-reel: {str(e)[-200:]}")
-            print("voice: gemini failed, trying local voices:", str(e)[-300:], flush=True)
+            print("voice: gemini failed, waiting 45 s and retrying once before the local voice:", str(e)[-200:], flush=True)
+            try:                                     # un fallo pasajero de la API no debe dejar el reel con voz robótica
+                time.sleep(45)
+                clips = _gemini_many(texts, styles, key, one_take, pace)
+                ENGINE_USED = LOCK = "gemini"
+                return [polish(c, light=True) for c in clips]
+            except Exception as e2:
+                print("voice: gemini failed again, trying local voices:", str(e2)[-200:], flush=True)
     if allow_cb:
         try:
             clips = _chatterbox_batch(texts); ENGINE_USED = LOCK = "chatterbox"
