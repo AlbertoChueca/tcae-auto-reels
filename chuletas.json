@@ -194,5 +194,20 @@
 "tiktok": "6ae64ee1939fa4d8f1bce201"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-11-01",
+"slot": "8",
+"topic": "saludMental",
+"tema": "Salud Mental",
+"subtema": "Términos de psicopatología",
+"quiz_id": "9c89e9beaa",
+"imagenes": 7,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/DfM6coICRK_/",
+"tiktok": "6ae74829dec241943079f61f"
+},
+"dry_run": false
 }
 ]
