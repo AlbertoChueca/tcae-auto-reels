@@ -1,6 +1,8 @@
-# Cuaderno de comunidad (2026-10-31)
+# Cuaderno de comunidad (2026-11-01)
 
-- Resumen audiencia: Muestra reducida (20 comentarios). Interacción 100% telegráfica con letras sueltas («D», «B, D, B»). Se observa inseguridad y dudas puntuales («D?», «C perdón»).
-- Seguir haciendo: Plantear preguntas tipo test cerradas y limpias que permitan responder al instante.
-- Dejar de hacer: Formatos que exijan explicaciones redactadas por parte del opositor.
-- Probar: Fijar el primer comentario para validar el error: «¿Has dudado entre dos? Comenta cuáles 👇».
+# Cuaderno de comunidad (2026-11-01)
+
+- Resumen audiencia: Muestra reducida (20 comentarios). Comportamiento 100% telegráfico con letras directas («D», «B, D, B»). Asoman dudas e inseguridad en comentarios («C perdón», «D?»).
+- Seguir haciendo: Preguntas con opciones claras y cortas (A, B, C, D) que facilitan responder en un segundo desde el móvil.
+- Dejar de hacer: Pedir argumentaciones largas en la descripción.
+- Probar: Fijar primer comentario aprovechando la duda del opositor: «¿Has dudado entre dos opciones? Cuéntanos cuál 👇».

@@ -1,5 +1,5 @@
-# Cuaderno de viralidad (2026-10-31)
+# Cuaderno de viralidad (2026-11-01)
 
-- Seguir haciendo: Gancho retador «¿Aciertas las 3?», responsable de los mayores picos de interacción y visualizaciones (892 views, 7 comentarios).
-- Dejar de hacer: Ganchos genéricos como «¿Te la sabes?». Datos insuficientes para trazar patrones claros de compartidos (apenas 3 compartidos registrados).
-- Probar: Reto entre compañeras: «Compártelo con tu compi de planta: si falla la segunda pregunta, le tocan los cambios posturales».
+- Seguir haciendo: Ganchos directos y desafiantes («¿Aciertas las 3?», «¿Te la sabes?»), que concentran los picos de visualizaciones (897-1079 views) y comentarios (hasta 7).
+- Dejar de hacer: Ganchos descriptivos planos como «Pregunta clave de...».
+- Probar: Retos de complicidad entre opositoras: «Etiqueta a tu compi de turno: si falla una de las tres, le toca hacer la reposición».

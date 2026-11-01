@@ -1,5 +1,7 @@
-# Cuaderno de diseno (2026-10-31)
+# Cuaderno de diseno (2026-11-01)
 
-- Seguir haciendo: Estilos «noche» (lidera el ranking con 10.38) y «cuaderno» con tarjetas teal/blancas de alto contraste y think_time corto.
-- Dejar de hacer: Estilos «minimal» y «marca» (quedan estancados en scores entre 6.77 y 7.35).
-- Probar: Añadir contador visible de progreso (1/3, 2/3, 3/3) en pantalla y resalte ámbar dinámico sobre la opción correcta.
+# Cuaderno de diseno (2026-11-01)
+
+- Seguir haciendo: Estilos «cuaderno» (top 1 absoluto, score 10.70) y «noche» (scores 10.38 y 8.61) con tarjetas limpias de teal/blanco.
+- Dejar de hacer: Estilo «minimal» (relegado sistemáticamente a scores bajos de 6.77 a 6.93).
+- Probar: Marcador de avance visual (1/3, 2/3, 3/3) en pantalla y resalte ámbar llamativo sobre la opción correcta al vencer el tiempo de respuesta.

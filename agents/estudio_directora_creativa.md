@@ -1,5 +1,5 @@
-# Cuaderno de directora_creativa (2026-10-31)
+# Cuaderno de directora_creativa (2026-11-01)
 
-- Seguir haciendo: Formato simulacro_3 con estética nocturna (estilo noche), logrando el récord histórico (score 10.38, 892 views).
-- Dejar de hacer: Estilos minimal y clásico desconectados de planta, que concentran los peores scores (<7.0).
-- Probar: Escenas nocturnas en control de enfermería; datos insuficientes sobre imagen fija vs. sin imagen para validar si mejora la retención (solo 1 reel testeado).
+- Seguir haciendo: Estilos cuaderno y noche en formatos pregunta_del_dia y simulacro_3, líderes absolutos en reproducciones (1079 y 897 views).
+- Dejar de hacer: Estilos minimal y examen genérico sin ambientación hospitalaria (scores <7.0).
+- Probar: Escenas de relevo o lencería con ilustración aprobada; datos insuficientes para confirmar si la imagen fija supera consistentemente al formato sin imagen (solo 1 reel testeado con imagen sí, score 7.90).

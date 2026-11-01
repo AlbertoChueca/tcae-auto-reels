@@ -1,10 +1,12 @@
-# Cuaderno de cazatendencias (2026-10-31)
+# Cuaderno de cazatendencias (2026-11-01)
 
-Esta semana coinciden la campaña de virus respiratorios (gripe, COVID y VRS), el Día Mundial del Ictus y actualizaciones en bolsas autonómicas de empleo. Ideas para contenido:
-- Reel tipo 'Pregunta trampa': ¿El anticuerpo frente a VRS aporta inmunidad activa o pasiva? Explicar la diferencia con esquemas visuales.
-- Carrusel 'Escala Cincinnati en 30 segundos': asimetría facial, debilidad en brazos y alteración del lenguaje, asociándolo a preguntas de urgencias neurológicas.
-- Viñeta 'Niveles de prevención': comparar la vacuna antigripal (primaria) frente al cribado de mama (secundaria).
-- Story de plazos administrativos: cómo reclamar exclusiones en bolsas de contratación pública según la Ley 39/2015.
+• OPE y bolsas: Cuenta atrás para presentar solicitud en La Rioja (cierra el 5-nov) y publicación de listas en la bolsa del Salud Aragón; aprovecha para reels de alerta rápida y explicación de cómo computan los días hábiles.
+• Campaña vacunal: Campañas de gripe y COVID en pleno auge; publica carruseles que comparen vacunas atenuadas frente a inactivadas y vías de punción.
+• Efemérides clave: La próxima semana coincide con Neumonía (12-nov) y Diabetes (14-nov); crea vídeos formato 'caso clínico express' sobre cuidados con oxigenoterapia y actuación de la TCAE ante hipoglucemia aguda.
 
 ## Hallazgos
-- Ninguno fiable hoy.
+- **Plazo abierto para 61 plazas de TCAE en La Rioja** (2026-10-25) · temas: fechasPlazos, procedimientoAdministrativo, funcionesTCAE · El Gobierno de La Rioja convoca 61 plazas de TCAE mediante oposición, con plazo de presentación de solicitudes telemáticas abierto hasta el 5 de noviembre de 2026. · [fuente](https://redopositor.com/tcae-la-rioja-2026-61-plazas-plazo-hasta-el-5-de-noviembre/)
+- **Listas provisionales de la bolsa temporal de TCAE en Aragón** (2026-10-28) · temas: fechasPlazos, estatutoMarco · El Servicio Aragonés de Salud publica las listas provisionales de participantes admitidos y excluidos en la bolsa de empleo temporal para la categoría de TCAE. · [fuente](https://www.aragon.es/-/tecnicos/as-en-cuidados-auxiliares-de-enfermeria-tcae.-nuevo-portal-de-recursos-humanos.-personal-sanitario.-empleo-temporal.-servicio-aragones-de-salud)
+- **Campaña de vacunación estacional frente a gripe y COVID-19** (2026-10-21) · temas: inmunidadVacunas, prevencionSalud, educacionSanitaria · Las autoridades sanitarias desarrollan la campaña de vacunación estacional frente a gripe y covid para reducir la morbimortalidad y proteger al personal de servicios esenciales. · [fuente](https://www3.gobiernodecanarias.org/sanidad/scs/content/52884837-8a04-11ef-8f88-bde1d8be550e/Banner.jpg)
+- **Día Mundial contra la Neumonía** (2026-11-12) · temas: respiratorio, constantesVitales, oxigenoterapia · El 12 de noviembre se conmemora el Día Mundial contra la Neumonía con el fin de promover la prevención y sensibilización ante infecciones respiratorias agudas. · [fuente](https://www.saludcastillayleon.es/es/red-escuelas-salud/dias-mundiales)
+- **Día Mundial de la Diabetes** (2026-11-14) · temas: nutricion, prevencionSalud, exploracionPaciente · Naciones Unidas y la OMS conmemoran el 14 de noviembre el Día Mundial de la Diabetes para fomentar la educación y prevención sobre esta patología crónica. · [fuente](https://www.un.org/es/observances/diabetes-day)

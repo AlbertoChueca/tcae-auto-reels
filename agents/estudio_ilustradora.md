@@ -1,5 +1,5 @@
-# Cuaderno de ilustradora (2026-10-31)
+# Cuaderno de ilustradora (2026-11-01)
 
-- Seguir haciendo: Ilustración vertical nocturna con paleta en azul hospitalario y luz cálida de flexo.
-- Dejar de hacer: Dibujar guantes al manipular material o lencería limpios y duplicar objetos en la composición (como tazas simultáneas).
-- Probar: TCAE en mesa de control anotando censo, con manos descubiertas, postura ergonómica y reloj de solapa claramente visible.
+- Seguir haciendo: Ilustración vertical editorial con luz nocturna o matinal serena y ambiente de planta hospitalaria.
+- Dejar de hacer: Dibujar guantes para lencería o material limpio, y elementos duplicados por descuido de IA (como dos tazas humeantes).
+- Probar: TCAE revisando gráfica en control de enfermería de noche, con manos descubiertas, postura ergonómica y reloj de solapa visible.
