@@ -676,13 +676,15 @@ def publish(paths, cap, c):
 # ------------------------------------------------------------------ main
 def main():
     today = str(datetime.date.today())
+    slot = os.environ.get("CHULETA_SLOT", "manual")            # "8" (mañana), "18" (tarde) o "manual"
     dry = os.environ.get("DRY_RUN", "false").lower() == "true"
-    if not dry and os.environ.get("FORCE") != "true" and any(e.get("fecha") == today and e.get("publicado") for e in log()):
-        print("ya se publicó la chuleta de hoy"); return
+    if not dry and os.environ.get("FORCE") != "true" and slot != "manual" and any(
+            e.get("fecha") == today and e.get("publicado") and e.get("slot") == slot for e in log()):
+        print(f"ya se publicó la chuleta de hoy del hueco {slot}"); return
     if not MOCK and not os.environ.get("GEMINI_API_KEY"):
         raise SystemExit("Falta GEMINI_API_KEY: sin verificador no se publica ninguna chuleta.")
-    seed = today
-    out_dir = os.path.join(HERE, "out", f"chuleta_{today}")
+    seed = f"{today}-{slot}"
+    out_dir = os.path.join(HERE, "out", f"chuleta_{today}_{slot}")
     tried, tema, c, topic = [], None, None, os.environ.get("CHULETA_TEMA") or None
     for attempt in range(3):
         topic = topic if (attempt == 0 and topic) else pick_topic(f"{seed}-{attempt}", tried)
@@ -706,7 +708,7 @@ def main():
     res = {} if dry else publish(paths, cap, c)
     print("publicación:", json.dumps(res, ensure_ascii=False), flush=True)
     ok = any(isinstance(v, str) and not v.startswith("error") for v in res.values())
-    entry = {"fecha": today, "topic": topic, "tema": tema, "subtema": c["subtema"], "quiz_id": P and P["id"],
+    entry = {"fecha": today, "slot": slot, "topic": topic, "tema": tema, "subtema": c["subtema"], "quiz_id": P and P["id"],
              "imagenes": len(paths), "publicado": ok, "destinos": res, "dry_run": dry}
     if not dry:                                            # las pruebas no cuentan como tema usado
         L = log(); L.append(entry); json.dump(L, open(LOG, "w"), ensure_ascii=False, indent=0)

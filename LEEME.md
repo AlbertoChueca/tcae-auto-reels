@@ -5,13 +5,14 @@ TikTok, para llevar opositores de TCAE de **toda España** a **apruebatcae.com**
 
 | Hora (España) | Hueco | Instagram | TikTok | YouTube |
 |---|---|---|---|---|
-| 8:00 | `manana` | Story (el reel completo) | Reel | Short |
+| 8:00 | chuleta de la mañana | Carrusel | Carrusel de fotos | — |
 | 14:30 | `mediodia` | Reel + story | Reel | Short |
-| 18:00 | chuleta | Carrusel | Carrusel de fotos | — |
+| 18:00 | chuleta de la tarde | Carrusel | Carrusel de fotos | — |
 | 21:30 | `noche` | Reel + story | Reel | Short |
 
-El reel de las 8:00 no va al feed de Instagram (un cuarto post diario quitaría alcance a los otros en una cuenta que
-empieza); en TikTok y YouTube publicar más a menudo sí suma. El carrusel de TikTok con los fotogramas del reel se ha
+Dos chuletas al día porque los carruseles se guardan unas 5 veces más que los reels (datos de octubre de 2026); el reel
+de las 8:00 se sustituyó por la chuleta de la mañana (el hueco `manana` sigue disponible a mano). El carrusel de TikTok
+con los fotogramas del reel se ha
 quitado porque duplicaba el vídeo: el carrusel de TikTok es ahora la chuleta (se puede reactivar con `TIKTOK_CARRUSEL`).
 
 El workflow arranca ~30 min antes (generar, verificar y revisar lleva 15-25 min) y publica en cuanto el reel está listo

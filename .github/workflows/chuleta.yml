@@ -4,8 +4,10 @@ name: Chuleta diaria
 # Interruptor: variable CHULETA = true (por defecto) / false. Tema concreto a mano: campo "tema" (id del tema, p. ej. upp).
 on:
   schedule:
-    - cron: "0 16 * 3-10 *"          # 18:00 verano (CEST)
-    - cron: "0 17 * 1-3,10-12 *"     # 18:00 invierno (CET)
+    - cron: "0 6 * 3-10 *"           # 8:00 verano (CEST): chuleta de la mañana (sustituye al reel de las 8:00)
+    - cron: "0 7 * 1-3,10-12 *"      # 8:00 invierno (CET)
+    - cron: "0 16 * 3-10 *"          # 18:00 verano
+    - cron: "0 17 * 1-3,10-12 *"     # 18:00 invierno
   workflow_dispatch:
     inputs:
       dry_run:
@@ -36,7 +38,8 @@ jobs:
           if [ -z "$S" ]; then echo "go=yes" >> "$GITHUB_OUTPUT"; exit 0; fi
           UTC_H=$(echo "$S" | awk '{print $2}')
           OFF=$(TZ=Europe/Madrid date +%z | cut -c2-3 | sed 's/^0//')
-          if [ $(( (UTC_H + OFF) % 24 )) -eq 18 ]; then echo "go=yes" >> "$GITHUB_OUTPUT"; else echo "go=no" >> "$GITHUB_OUTPUT"; fi
+          L=$(( (UTC_H + OFF) % 24 ))
+          if [ $L -eq 8 ] || [ $L -eq 18 ]; then echo "go=yes" >> "$GITHUB_OUTPUT"; echo "slot=$L" >> "$GITHUB_OUTPUT"; else echo "go=no" >> "$GITHUB_OUTPUT"; fi
       - uses: actions/checkout@v5
         if: steps.gate.outputs.go == 'yes'
       - uses: actions/setup-python@v6
@@ -57,6 +60,7 @@ jobs:
           TIKTOK: ${{ vars.TIKTOK || 'true' }}
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || false }}
           CHULETA_TEMA: ${{ github.event_name == 'workflow_dispatch' && inputs.tema || '' }}
+          CHULETA_SLOT: ${{ steps.gate.outputs.slot || 'manual' }}
         run: python chuleta.py
       - name: Guardar las imágenes para revisarlas
         if: always() && steps.gate.outputs.go == 'yes'
@@ -68,4 +72,4 @@ jobs:
           if-no-files-found: ignore
       - name: Recordar los temas publicados
         if: always() && steps.gate.outputs.go == 'yes'
-        run: python sincronizar.py "Chuleta $(date +%F)" chuletas.json
+        run: python sincronizar.py "Chuleta $(date +%F-%H)" chuletas.json
