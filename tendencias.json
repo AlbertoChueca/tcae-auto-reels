@@ -1,87 +1,16 @@
 {
 "fecha": "2026-11-01",
-"fuentes_consultadas": 5,
+"fuentes_consultadas": 0,
 "diag": {
 "modelo": "gemini-3.8-flash",
-"busquedas": 3,
-"fuentes": 5,
-"claves": [
-"groundingChunks",
-"groundingSupports",
-"searchEntryPoint",
-"webSearchQueries"
-],
+"busquedas": 0,
+"fuentes": 0,
+"claves": [],
 "cand_claves": [
 "content",
 "finishReason",
-"groundingMetadata",
 "index"
 ]
 },
-"items": [
-{
-"titulo": "Plazo abierto para 61 plazas de TCAE en La Rioja",
-"dato": "El Gobierno de La Rioja convoca 61 plazas de TCAE mediante oposición, con plazo de presentación de solicitudes telemáticas abierto hasta el 5 de noviembre de 2026.",
-"url": "https://redopositor.com/tcae-la-rioja-2026-61-plazas-plazo-hasta-el-5-de-noviembre/",
-"fecha": "2026-10-25",
-"temas": [
-"fechasPlazos",
-"procedimientoAdministrativo",
-"funcionesTCAE"
-],
-"gancho": "¡Últimos días para solicitar las 61 plazas de TCAE!",
-"por_que": "Urgente para aspirantes riojanas y útil para repasar cómputo de plazos administrativos de la Ley 39/2015."
-},
-{
-"titulo": "Listas provisionales de la bolsa temporal de TCAE en Aragón",
-"dato": "El Servicio Aragonés de Salud publica las listas provisionales de participantes admitidos y excluidos en la bolsa de empleo temporal para la categoría de TCAE.",
-"url": "https://www.aragon.es/-/tecnicos/as-en-cuidados-auxiliares-de-enfermeria-tcae.-nuevo-portal-de-recursos-humanos.-personal-sanitario.-empleo-temporal.-servicio-aragones-de-salud",
-"fecha": "2026-10-28",
-"temas": [
-"fechasPlazos",
-"estatutoMarco"
-],
-"gancho": "¿Estás en la bolsa de Aragón? ¡Revisa tu estado!",
-"por_que": "Crucial para no perder opciones de contratación y recordar el procedimiento de subsanación según el Estatuto Marco."
-},
-{
-"titulo": "Campaña de vacunación estacional frente a gripe y COVID-19",
-"dato": "Las autoridades sanitarias desarrollan la campaña de vacunación estacional frente a gripe y covid para reducir la morbimortalidad y proteger al personal de servicios esenciales.",
-"url": "https://www3.gobiernodecanarias.org/sanidad/scs/content/52884837-8a04-11ef-8f88-bde1d8be550e/Banner.jpg",
-"fecha": "2026-10-21",
-"temas": [
-"inmunidadVacunas",
-"prevencionSalud",
-"educacionSanitaria"
-],
-"gancho": "Campaña de gripe activa: 3 preguntas fijas de examen.",
-"por_que": "Tema candente en centros sanitarios que siempre entra en test sobre tipos de vacunas y prevención primaria."
-},
-{
-"titulo": "Día Mundial contra la Neumonía",
-"dato": "El 12 de noviembre se conmemora el Día Mundial contra la Neumonía con el fin de promover la prevención y sensibilización ante infecciones respiratorias agudas.",
-"url": "https://www.saludcastillayleon.es/es/red-escuelas-salud/dias-mundiales",
-"fecha": "2026-11-12",
-"temas": [
-"respiratorio",
-"constantesVitales",
-"oxigenoterapia"
-],
-"gancho": "Pregunta de examen TCAE: ¿reconoces los síntomas de neumonía?",
-"por_que": "Infección respiratoria recurrente en supuestos prácticos de control de constantes vitales y administración de oxigenoterapia."
-},
-{
-"titulo": "Día Mundial de la Diabetes",
-"dato": "Naciones Unidas y la OMS conmemoran el 14 de noviembre el Día Mundial de la Diabetes para fomentar la educación y prevención sobre esta patología crónica.",
-"url": "https://www.un.org/es/observances/diabetes-day",
-"fecha": "2026-11-14",
-"temas": [
-"nutricion",
-"prevencionSalud",
-"exploracionPaciente"
-],
-"gancho": "¿Hipoglucemia o hiperglucemia? No te equivoques en el test.",
-"por_que": "Patología estrella en oposiciones: clave para repasar dietas por raciones, síntomas cardinales y primeros auxilios auxiliares."
-}
-]
+"items": []
 }
