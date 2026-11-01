@@ -1,0 +1,28 @@
+name: Diagnóstico del guion
+
+on:
+  workflow_dispatch:
+    inputs:
+      formatos:
+        description: "Formatos separados por espacio (vacío = varios)"
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  diag:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - run: pip install requests
+      - env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          APP_PREGUNTAS: ${{ vars.APP_PREGUNTAS || '10.000' }}
+        run: python diagnostico.py ${{ inputs.formatos }}
+      - if: always()
+        run: python sincronizar.py "Diagnóstico $(date +%F-%H%M)" diagnostico.md
