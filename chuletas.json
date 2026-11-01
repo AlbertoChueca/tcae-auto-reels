@@ -209,5 +209,20 @@
 "tiktok": "6ae74829dec241943079f61f"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-11-01",
+"slot": "18",
+"topic": "cardiovascular",
+"tema": "Aparato Cardiovascular",
+"subtema": "Angina de pecho e infarto",
+"quiz_id": "282685e8b9",
+"imagenes": 6,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/DfNpjWzgTAE/",
+"tiktok": "6ae7a8a0cd06229e9bb3804e"
+},
+"dry_run": false
 }
 ]
