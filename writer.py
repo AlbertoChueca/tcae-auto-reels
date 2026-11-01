@@ -83,6 +83,43 @@ def _reto(fmt):
         return False
 
 
+# Afirmaciones que solo valen si la pregunta es de examen oficial, y promesas ("cae seguro"): se corrigen en todos los
+# textos de gancho/descripción antes del verificador (los agentes aprenden que "oficial" funciona y lo cuelan).
+_CLAIMS = [
+    (r"\b(pregunta|preguntas)\s+(oficial|oficiales)\b", r"\1 clave"),
+    (r"\bexamen\s+oficial\b", "examen"),
+    (r"\bde\s+examen\s+real\b", "tipo examen"),
+    (r"\bexamen\s+real\b", "tipo examen"),
+    (r"\b(cay[oó]|ha ca[ií]do|salió|sali[oó])\s+en\s+(el|un)\s+examen\b", "puede caer en el examen"),
+    (r"\bpregunta\s+(fija|segura)\s+de\s+examen\b", "pregunta típica de examen"),
+    (r"\bpreguntas\s+(fijas|seguras)\s+de\s+examen\b", "preguntas típicas de examen"),
+    (r"\b(pregunta|preguntas)\s+de\s+examen\b", r"\1 tipo examen"),
+    (r"\b(entra|entran|cae|caen)\s+(siempre|seguro|fijo)\b", "suele caer"),
+    (r"\boficial(es)?\b", ""),
+]
+
+
+def sanitize_claims(items, S):
+    """Si la pregunta NO es de examen oficial, quita de los textos de marketing cualquier "oficial"/"examen real" y
+    convierte promesas en "suele caer". Los textos de contenido no se tocan (los revisa el verificador)."""
+    if _is_exam(items):
+        return S
+    keys = ("screen_hook", "hook_line", "caption_hook", "comment_prompt", "cta_line", "save_line", "save_caption",
+            "reto_line", "share_line", "tag_caption", "app_caption", "seo_line", "yt_title", "follow_line", "follow_caption")
+    for k in keys:
+        v = S.get(k)
+        if not isinstance(v, str):
+            continue
+        new = v
+        for pat, rep in _CLAIMS:
+            new = re.sub(pat, rep, new, flags=re.I)
+        new = re.sub(r"\s{2,}", " ", new).replace(" :", ":").replace(" ,", ",").strip()
+        if new != v:
+            print(f"guion: corrijo '{k}': {v[:60]!r} -> {new[:60]!r}", flush=True)
+            S[k] = new
+    return S
+
+
 def _is_exam(items):
     return any(P.get("origen") == "examen" or P.get("examen") for P in items)
 
@@ -304,6 +341,7 @@ def script_for(fmt, items, arms=None, avoid=(), verify=True, series_info=None):
                 s = estudio.text_pass(fmt, items, s, series_info)
             except Exception as e:
                 print("estudio creativo omitido:", str(e)[:120], flush=True)
+            s = sanitize_claims(items, s)
             try:
                 s = strip_meta(fmt, items, s)
             except ValueError as e:

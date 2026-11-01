@@ -341,6 +341,7 @@ def seo(fmt, items, S):
     try:
         res = _ask(f"""{brief('seo')}
 Formato {fmt}. {_desc(items)} Gancho: "{S.get('screen_hook')}".
+{__import__('writer')._origen(items)}
 Escribe:
 - yt_title: título de YouTube Shorts (máx. 80 caracteres) con lo que buscaría un opositor (p. ej. "test TCAE oposiciones",
   el tema), atractivo y sin clickbait engañoso, sin revelar la respuesta.

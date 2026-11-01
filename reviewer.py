@@ -77,6 +77,7 @@ def improve_script(S, fmt, items, arms=None):
 {learnings()}
 Experimento de hoy: estilo de gancho = {(arms or {}).get('hook_style', 'libre')} (mantenlo).
 Formato: {fmt}. Pregunta: {P['pregunta']} (tema: {P['tema']}).
+{__import__('writer')._origen(items)} Nada de promesas ("entra siempre", "cae seguro").
 Borrador (JSON): {json.dumps({k: S.get(k) for k in ('screen_hook', 'hook_line', 'caption_hook', 'comment_prompt', 'cta_line')}, ensure_ascii=False)}
 
 Puntúa 1-10 el gancho (2 primeros segundos), la claridad y la invitación a comentar/guardar. Después mejora SOLO estos
