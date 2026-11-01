@@ -484,5 +484,11 @@
 "topic": "limpieza",
 "fecha": "2026-11-01",
 "formato": "examen_real"
+},
+{
+"id": "3ae06c7a9e",
+"topic": "trabajoEquipo",
+"fecha": "2026-11-01",
+"formato": "error_tipico"
 }
 ]
