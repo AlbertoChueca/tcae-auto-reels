@@ -1,10 +1,9 @@
-# Cuaderno de cazatendencias (2026-11-01)
+# Cuaderno de cazatendencias (2026-11-02)
 
-Esta semana confluyen la campaña otoñal de inmunización respiratoria (gripe, COVID-19 y VRS) y fechas sanitarias como el Día del Ictus y la proximidad del Día de la Diabetes. En reels y TikTok, aterriza la teoría con actualidad clínica: 
-- En inmunidad, plantea un test visual diferenciando inmunidad activa de pasiva usando el anticuerpo frente a VRS.
-- En sistema nervioso, recrea la escala Cincinnati y los signos de alarma del ictus.
-- En nutrición y patología, lanza un quiz sobre dietas por intercambios y síntomas cardinales de diabetes.
-- En legislación, usa las convocatorias autonómicas abiertas para explicar el cómputo de plazos hábiles.
+Esta semana confluyen dos hitos administrativos y dos efemérides clínicas de alto impacto en examen. Enfoque para redes:
+• Reel de urgencia: cuenta atrás de 48 horas avisando del cierre de instancias del INGESA, repasando plazos hábiles según la Ley 39/2015.
+• Viñeta comparativa: aprovechando la vacunación antigripal masiva de noviembre, explica en 3 pasos inmunidad activa vs. pasiva y cadena de frío.
+• Carrusel clínico (Neumonía y Diabetes): mini casos interactivos con preguntas tipo test sobre signos de disnea, oxigenoterapia y punciones para glucemia capilar para calentar motores antes del 12 y 14 de noviembre.
 
 ## Hallazgos
 - Ninguno fiable hoy.
