@@ -224,5 +224,20 @@
 "tiktok": "6ae7a8a0cd06229e9bb3804e"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-11-02",
+"slot": "8",
+"topic": "enemasOstomias",
+"tema": "Enemas y Ostomías",
+"subtema": "Tipos y clasificación de enemas",
+"quiz_id": "a908dbd59b",
+"imagenes": 7,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/DfPyImMDLWq/",
+"tiktok": "6ae8c05bd1afe85c77bfe2a8"
+},
+"dry_run": false
 }
 ]
