@@ -3844,12 +3844,12 @@
 },
 "5483972921": {
 "veredicto": "ok",
-"motivo": "La responsabilidad patrimonial de la Administración surge por los daños derivados tanto del funcionamiento normal como anormal de los servicios públicos.",
+"motivo": "La responsabilidad patrimonial de la Administración abarca los daños derivados tanto del funcionamiento normal como anormal de los servicios públicos.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-10-26"
+"fecha": "2026-11-02"
 },
 "303cfaae99": {
 "veredicto": "ok",
@@ -4015,12 +4015,12 @@
 },
 "5c50cb433b": {
 "veredicto": "ok",
-"motivo": "El 21 de julio de 1978 el Pleno del Congreso de los Diputados aprobó el proyecto de Constitución.",
+"motivo": "El Pleno del Congreso de los Diputados aprobó el proyecto de Constitución el 21 de julio de 1978.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-10-26"
+"fecha": "2026-11-02"
 },
 "e3cbf3f211": {
 "veredicto": "ok",
@@ -4146,7 +4146,7 @@
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-10-26"
+"fecha": "2026-11-02"
 },
 "03ba176f21": {
 "veredicto": "ok",
@@ -4294,12 +4294,12 @@
 },
 "2bba5a214e": {
 "veredicto": "ok",
-"motivo": "El Título VIII de la Constitución Española se denomina 'De la Organización Territorial del Estado'.",
+"motivo": "El Título VIII de la Constitución Española se denomina expresamente 'De la Organización Territorial del Estado'.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-10-26"
+"fecha": "2026-11-02"
 },
 "d3a59695c8": {
 "veredicto": "ok",
@@ -5518,12 +5518,12 @@
 },
 "d1bee0d00c": {
 "veredicto": "ok",
-"motivo": "Según la normativa de procedimiento administrativo (Ley 39/2015, art. 67.1), en daños de carácter físico o psíquico el plazo de un año computa desde la curación o determinación de secuelas.",
+"motivo": "Según la Ley 39/2015, en daños físicos o psíquicos el plazo para reclamar comienza con la curación o determinación de secuelas.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-10-26"
+"fecha": "2026-11-02"
 },
 "d23e961f9d": {
 "veredicto": "ok",
@@ -5716,12 +5716,12 @@
 },
 "f6ad631c70": {
 "veredicto": "ok",
-"motivo": "El artículo 149.1.16 de la Constitución Española establece la legislación sobre productos farmacéuticos como competencia exclusiva del Estado.",
+"motivo": "El artículo 149.1.16 de la Constitución atribuye al Estado la competencia exclusiva en legislación sobre productos farmacéuticos.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-10-26"
+"fecha": "2026-11-02"
 },
 "a85a279ae6": {
 "veredicto": "ok",
@@ -5940,13 +5940,13 @@
 "fecha": "2026-10-26"
 },
 "f22c859058": {
-"veredicto": "dudosa",
-"motivo": "El texto de la fuente proporcionado no incluye la fecha de aprobación del proyecto de Constitución por el Senado para poder verificar la respuesta.",
+"veredicto": "ok",
+"motivo": "El Pleno del Senado aprobó el proyecto de Constitución el 5 de octubre de 1978.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-10-26"
+"fecha": "2026-11-02"
 },
 "eb13fad241": {
 "veredicto": "ok",
@@ -6166,12 +6166,12 @@
 },
 "ce539e601d": {
 "veredicto": "ok",
-"motivo": "El Reglamento General de Protección de Datos (RGPD) fue aprobado el 27 de abril de 2016, aunque su aplicación comenzó en 2018.",
+"motivo": "El Reglamento General de Protección de Datos (RGPD) fue aprobado el 27 de abril de 2016.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-10-26"
+"fecha": "2026-11-02"
 },
 "6be2521833": {
 "veredicto": "ok",
@@ -7009,5 +7009,1013 @@
 "cita": "El Consejo de Estado es el supremo órgano consultivo del Gobierno.",
 "correcta_sugerida": null,
 "fecha": "2026-10-29"
+},
+"6fb7c23537": {
+"veredicto": "ok",
+"motivo": "Las elecciones generales que dieron lugar a las Cortes Constituyentes se celebraron históricamente el 15 de junio de 1977.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"428cc36159": {
+"veredicto": "ok",
+"motivo": "La raíz 'dermato-' proviene del griego y se utiliza en terminología médica para referirse a la piel.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"df56539fe0": {
+"veredicto": "ok",
+"motivo": "La diuresis normal de un adulto sano oscila habitualmente entre 1000 y 1500 cc en 24 horas.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"12b881b286": {
+"veredicto": "ok",
+"motivo": "El dolor de la úlcera duodenal típicamente se alivia con la ingesta de alimentos o antiácidos, a diferencia de la úlcera gástrica.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"04f0a7b3f1": {
+"veredicto": "ok",
+"motivo": "La presión de pulso o presión diferencial se define clínicamente como la diferencia entre la presión arterial sistólica y la diastólica.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"04745f4f33": {
+"veredicto": "ok",
+"motivo": "El vómito en escopetazo o proyectivo es característico de la hipertensión intracraneal y se produce de forma brusca sin náuseas previas.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"6b9dbaef37": {
+"veredicto": "ok",
+"motivo": "La botella u orinal (también conocido coloquialmente como 'pato') es el dispositivo específico para la micción de hombres encamados.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"a3ea3cf8cf": {
+"veredicto": "ok",
+"motivo": "El peso es la medida antropométrica más básica, frecuente y utilizada en la práctica clínica para valorar el estado nutricional.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"83ee82eaf2": {
+"veredicto": "ok",
+"motivo": "El reflejo de Babinski se describe correctamente en el enunciado.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"fe8b88fa7a": {
+"veredicto": "ok",
+"motivo": "Los anejos cutáneos son efectivamente el pelo, las uñas y las glándulas sebáceas y sudoríparas.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"5d737e587e": {
+"veredicto": "ok",
+"motivo": "Los laxantes de volumen actúan reteniendo agua y aumentando el tamaño del bolo fecal.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"366aa919ea": {
+"veredicto": "ok",
+"motivo": "La raíz 'amnio-' hace referencia al amnios, el saco y líquido amniótico.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"abe1f82b89": {
+"veredicto": "ok",
+"motivo": "Las precauciones estándar son universales y se aplican a todos los pacientes sin importar su diagnóstico.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"176925296d": {
+"veredicto": "ok",
+"motivo": "El test de Apgar valora el esfuerzo respiratorio, no la frecuencia respiratoria en sí, por lo que la opción B es la incorrecta.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"7a191ee77c": {
+"veredicto": "ok",
+"motivo": "La raíz 'retino-' hace referencia a la retina del ojo.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"9f0c4d3027": {
+"veredicto": "ok",
+"motivo": "AMFE corresponde a Análisis Modal de Fallos y Efectos, una herramienta de gestión de riesgos.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"9d3e81c56b": {
+"veredicto": "ok",
+"motivo": "El TAC utiliza radiación ionizante (rayos X) para obtener imágenes transversales, a diferencia de la RMN que usa campos magnéticos.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"a40d40b37f": {
+"veredicto": "ok",
+"motivo": "El estadio I de las úlceras por presión se define por la presencia de eritema cutáneo que no palidece al presionar.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"5d6561ec05": {
+"veredicto": "dudosa",
+"motivo": "El texto legal proporcionado no incluye el artículo que establece explícitamente la creación del Instituto de Salud Carlos III.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"6dfc4d4948": {
+"veredicto": "ok",
+"motivo": "La proxémica es la disciplina que estudia el uso del espacio y la distancia física en la comunicación interpersonal.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"8290892922": {
+"veredicto": "dudosa",
+"motivo": "El fragmento de la Ley 55/2003 proporcionado omite el artículo que detalla los plazos de prescripción de las faltas disciplinarias.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"058c2b3eae": {
+"veredicto": "ok",
+"motivo": "Las sondas acanaladas se consideran instrumental de exploración y disección, a diferencia de las demás que son de drenaje o sondaje.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"996f702cca": {
+"veredicto": "ok",
+"motivo": "La Constitución establece el límite de 300 a 400 diputados, y la opción A es la única que recoge este mandato constitucional.",
+"fuente_ok": true,
+"referencia": "Constitución Española, Artículo 68.1",
+"cita": "El Congreso se compone de un mínimo de 300 y un máximo de 400 Diputados",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"7b318e3346": {
+"veredicto": "ok",
+"motivo": "La dilatación de 3 cm y borramiento del 70% no definen el inicio del parto, sino que son parámetros variables de su progresión.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"2f0f853f88": {
+"veredicto": "dudosa",
+"motivo": "La mayoría de manuales de fundamentos de enfermería indican llenar la bolsa a 1/2 o 2/3 de su capacidad, por lo que la opción D suele ser la más aceptada en exámenes oficiales.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"a2fc33298a": {
+"veredicto": "ok",
+"motivo": "La Ley 9/2017 establece claramente el límite de 40.000 euros sin IVA para los contratos menores de obras.",
+"fuente_ok": true,
+"referencia": "Ley 9/2017, de Contratos del Sector Público · Artículo 118",
+"cita": "Se consideran contratos menores los contratos de valor estimado inferior a 40.000 euros, cuando se trate de contratos de obras",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"e07a9b278c": {
+"veredicto": "ok",
+"motivo": "Es el procedimiento estándar y correcto para evitar la recontaminación de las manos tras el lavado higiénico.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"8a025d2364": {
+"veredicto": "ok",
+"motivo": "El diagnóstico precoz y los cribados poblacionales son el pilar fundamental de la prevención secundaria.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"f63bfc2a7c": {
+"veredicto": "ok",
+"motivo": "Las siglas LADME corresponden correctamente a las fases de la farmacocinética: Liberación, Absorción, Distribución, Metabolización y Eliminación.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"8b53c88eac": {
+"veredicto": "ok",
+"motivo": "La afasia es el término médico correcto para la alteración del lenguaje por lesión cerebral sin afectación de los órganos fonoarticulatorios.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"4fa1adcbef": {
+"veredicto": "dudosa",
+"motivo": "Aunque la fórmula Calidad = Percepción - Expectativas es correcta conceptualmente, la atribución al autor 'Cotte' es inusual y podría ser una errata de otro autor (como Kotler).",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"932a85aaf4": {
+"veredicto": "ok",
+"motivo": "Los músculos abductores son los encargados de realizar la abducción, es decir, alejar las estructuras del plano medio o eje central del cuerpo.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"8ca0fd4108": {
+"veredicto": "ok",
+"motivo": "La sonda de Levin es clásicamente una sonda nasogástrica de una sola luz utilizada para descompresión, aspiración o alimentación.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"50e51dbeaa": {
+"veredicto": "ok",
+"motivo": "El diagrama de Ishikawa es conocido universalmente en calidad y seguridad del paciente como diagrama de espina de pescado o de causa-efecto.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"2c4df1c7f7": {
+"veredicto": "ok",
+"motivo": "La definición aportada corresponde exactamente al síndrome geriátrico de fragilidad.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"75f1267c75": {
+"veredicto": "ok",
+"motivo": "Anatómicamente, el intestino delgado se divide en tres porciones sucesivas: duodeno, yeyuno e íleon.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"e4405b6c87": {
+"veredicto": "ok",
+"motivo": "La 5ª Conferencia Mundial de Promoción de la Salud tuvo lugar en Ciudad de México en el año 2000.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"8ca8f20f15": {
+"veredicto": "ok",
+"motivo": "En el modelo de Virginia Henderson, la primera necesidad básica enumerada es respirar con normalidad.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"e69f7b6999": {
+"veredicto": "ok",
+"motivo": "El sufijo griego '-rrea' significa flujo o secreción excesiva, como en rinorrea o seborrea.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"3bd4ba6663": {
+"veredicto": "ok",
+"motivo": "La Carta de Ottawa para la Promoción de la Salud se elaboró en la Primera Conferencia Internacional celebrada en Ottawa en 1986.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"aa66a2f525": {
+"veredicto": "ok",
+"motivo": "El artículo 69.1 de la Constitución Española establece literalmente que el Senado es la Cámara de representación territorial.",
+"fuente_ok": true,
+"referencia": "Constitución Española de 1978 · Artículo 69",
+"cita": "El Senado es la Cámara de representación territorial.",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"5aecd02c9b": {
+"veredicto": "ok",
+"motivo": "EPI significa Equipo de Protección Individual, definido como cualquier equipo destinado a ser llevado por el trabajador para protegerle de riesgos laborales.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"cd4577c81f": {
+"veredicto": "ok",
+"motivo": "El sistema nervioso autónomo o vegetativo se divide funcional y anatómicamente en sistema nervioso simpático y parasimpático.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"90a78822d2": {
+"veredicto": "ok",
+"motivo": "Al no permitir interacción directa ni retroalimentación inmediata, el folleto es un método de educación sanitaria unidireccional.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"916751b496": {
+"veredicto": "ok",
+"motivo": "La esterilización es el único proceso que garantiza la destrucción de todas las formas de vida microbiana, incluyendo las esporas bacterianas.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"64d2031ad1": {
+"veredicto": "ok",
+"motivo": "El paralenguaje engloba los elementos vocales no semánticos de la comunicación, como el tono, el volumen, el ritmo y las pausas.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"d9ee007c42": {
+"veredicto": "ok",
+"motivo": "Florence Nightingale es la autora de la Teoría del Entorno (1860) y es considerada la fundadora de la enfermería moderna.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"d8a7f18b70": {
+"veredicto": "ok",
+"motivo": "El periodo prodrómico se caracteriza por la aparición de síntomas iniciales e inespecíficos antes de la fase clínica de la enfermedad.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"396c769931": {
+"veredicto": "ok",
+"motivo": "Las maniobras de Ortolani y Barlow son las pruebas clínicas estándar utilizadas en la exploración neonatal para detectar la luxación congénita de cadera.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"d1e90c88b9": {
+"veredicto": "ok",
+"motivo": "Los ácidos grasos hiperoxigenados (AGHO) se aplican para hidratar y aumentar la resistencia de la piel frente a la presión, siendo una medida preventiva clave para las UPP.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"1bd7197007": {
+"veredicto": "ok",
+"motivo": "Los laxantes estimulantes o de contacto actúan irritando la mucosa intestinal o estimulando los plexos nerviosos, lo que aumenta directamente el peristaltismo.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"4f8d95e9e5": {
+"veredicto": "ok",
+"motivo": "El artículo 14 consagra la igualdad ante la ley y el 9.2 obliga a los poderes públicos a promover la igualdad real y efectiva.",
+"fuente_ok": true,
+"referencia": "Constitución Española de 1978 · Artículo 9",
+"cita": "Corresponde a los poderes públicos promover las condiciones para que la libertad y la igualdad del individuo y de los grupos en que se integra sean reales y efectivas",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"d2c0583ede": {
+"veredicto": "ok",
+"motivo": "Colelitiasis es el término médico exacto para definir la presencia de cálculos (piedras) en la vesícula biliar.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"2d2006cc30": {
+"veredicto": "ok",
+"motivo": "El sondaje intermitente consiste en la introducción temporal de una sonda para vaciar la vejiga y su retirada inmediata tras el drenaje.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"3bce1b41ac": {
+"veredicto": "ok",
+"motivo": "La alimentación es un acto voluntario, consciente y educable, mientras que la nutrición es un proceso fisiológico, involuntario e inconsciente.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"4ae3e2859c": {
+"veredicto": "ok",
+"motivo": "El recuento de material quirúrgico es un protocolo de seguridad obligatorio que se realiza antes de la incisión y antes del cierre de cavidades para evitar olvidos.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"d362f9e325": {
+"veredicto": "ok",
+"motivo": "La Ley General de Sanidad corresponde a la Ley 14/1986, de 25 de abril, tal como indica su título oficial.",
+"fuente_ok": true,
+"referencia": "Ley 14/1986, General de Sanidad · Título oficial",
+"cita": "Ley 14/1986, de 25 de abril, General de Sanidad",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"957b15bead": {
+"veredicto": "ok",
+"motivo": "El consumo de leche cruda está contraindicado durante el embarazo por el alto riesgo de contraer listeriosis.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"9c2d95ade3": {
+"veredicto": "ok",
+"motivo": "El pulso radial se palpa en la cara interna de la muñeca, sobre el recorrido de la arteria radial junto al hueso radio.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"593bc3968a": {
+"veredicto": "ok",
+"motivo": "La vacuna antigripal inactivada se administra de forma habitual por vía intramuscular en el músculo deltoides en adultos.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"c2df45e681": {
+"veredicto": "ok",
+"motivo": "Al no pasar por el intestino grueso, donde se absorbe el agua, las heces de una ileostomía son líquidas y muy irritantes (ácidas).",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"c7d1886c72": {
+"veredicto": "ok",
+"motivo": "La prueba del talón es un cribado metabólico neonatal que detecta enfermedades como la fenilcetonuria y el hipotiroidismo congénito.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"d27864f5e3": {
+"veredicto": "ok",
+"motivo": "Para evitar que las ruedas delanteras se atasquen en el hueco del ascensor y proteger al paciente, el profesional debe entrar y salir de espaldas tirando de la silla.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"bdbff6f49a": {
+"veredicto": "ok",
+"motivo": "El test de Silverman-Andersen es la escala estandarizada para evaluar la gravedad de la dificultad respiratoria en el recién nacido.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"cd8c6c0863": {
+"veredicto": "ok",
+"motivo": "El Título III de la Ley General de Sanidad regula la estructura del sistema sanitario público y define el Sistema Nacional de Salud.",
+"fuente_ok": true,
+"referencia": "Ley 14/1986, General de Sanidad, Título III",
+"cita": "TÍTULO III De la estructura del sistema sanitario público",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"c7b91c10c9": {
+"veredicto": "ok",
+"motivo": "La leucocitosis es el término médico correcto para definir el aumento anormal de glóbulos blancos (leucocitos) en la sangre.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"1b9b92a64a": {
+"veredicto": "ok",
+"motivo": "El tubo de Kehr (o Kher) es un drenaje pasivo en forma de T que se utiliza específicamente para drenar la vía biliar (colédoco).",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"88b7758e86": {
+"veredicto": "ok",
+"motivo": "La cirugía ablativa o curativa tiene como objetivo la extirpación de una parte del cuerpo enferma, como un tumor, para curar la enfermedad.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"e3536f4971": {
+"veredicto": "ok",
+"motivo": "El Pleur-Evac es un sistema de drenaje torácico cerrado con sello de agua utilizado para evacuar aire o líquido de la cavidad pleural.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"a5e57d0a72": {
+"veredicto": "ok",
+"motivo": "En adultos, se define taquicardia como una frecuencia cardíaca en reposo superior a 100 latidos por minuto.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"bb9ca976ca": {
+"veredicto": "ok",
+"motivo": "La orina es impulsada a través de los uréteres hacia la vejiga gracias a los movimientos peristálticos de su capa muscular lisa.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"503e824fd5": {
+"veredicto": "ok",
+"motivo": "El artículo 51.1 de la Constitución Española establece explícitamente que los poderes públicos garantizarán la defensa de los consumidores y usuarios.",
+"fuente_ok": true,
+"referencia": "Constitución Española de 1978, Artículo 51",
+"cita": "Los poderes públicos garantizarán la defensa de los consumidores y usuarios",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"3692d56095": {
+"veredicto": "ok",
+"motivo": "El texto de la fuente confirma que el Real Decreto-ley 12/2022 se aprobó el 5 de julio de 2022.",
+"fuente_ok": true,
+"referencia": "Ley 55/2003, del Estatuto Marco del personal estatutario · Artículo 9 ter",
+"cita": "Se añade por el art. único.2 del Real Decreto-ley 12/2022, de 5 de julio de 2022.",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"44ab07250f": {
+"veredicto": "ok",
+"motivo": "La Constitución establece claramente que el estado de excepción dura un máximo de 30 días, prorrogables por otro plazo igual.",
+"fuente_ok": true,
+"referencia": "Constitución Española de 1978 · Artículo 116",
+"cita": "su duración, que no podrá exceder de treinta días, prorrogables por otro plazo igual, con los mismos requisitos.",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"fbfece0c74": {
+"veredicto": "ok",
+"motivo": "El sufijo '-uria' se utiliza en terminología médica para referirse a condiciones relacionadas con la orina.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"9749526149": {
+"veredicto": "ok",
+"motivo": "Las proteínas son macronutrientes esenciales, mientras que las vitaminas y minerales son micronutrientes.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"d665a3b564": {
+"veredicto": "ok",
+"motivo": "En terminología médica, 'nefro-' significa riñón y '-ectomía' significa extirpación quirúrgica.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"244e23eec5": {
+"veredicto": "ok",
+"motivo": "La raíz 'cervico-' hace referencia al cuello, ya sea la región cervical del cuerpo o el cuello uterino.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"279c22fff9": {
+"veredicto": "ok",
+"motivo": "La raíz 'artro-' se utiliza en medicina para referirse a las articulaciones.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"f2f5c73d0a": {
+"veredicto": "ok",
+"motivo": "El modelo de enfermería de Virginia Henderson establece exactamente 14 necesidades básicas fundamentales.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"3d0b5161ab": {
+"veredicto": "ok",
+"motivo": "La bradicinesia, rigidez y temblor de reposo conforman la tríada clásica de la enfermedad de Parkinson.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"40b701e57f": {
+"veredicto": "ok",
+"motivo": "La taxonomía NANDA es el sistema estándar utilizado internacionalmente para clasificar los diagnósticos de enfermería.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"3a4ab913bf": {
+"veredicto": "ok",
+"motivo": "La bicicleta estática es un ejercicio de bajo impacto seguro durante el embarazo, a diferencia de los deportes de contacto o con riesgo de caídas.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"0e308f101f": {
+"veredicto": "ok",
+"motivo": "La hipersensibilidad o alergia medicamentosa se define precisamente como una respuesta inmunológica exagerada frente a un fármaco.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"d94335987d": {
+"veredicto": "ok",
+"motivo": "La norma ISO 11140-1 establece exactamente 6 tipos o clases de indicadores químicos para la esterilización.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"e3c74e38c0": {
+"veredicto": "ok",
+"motivo": "El sufijo '-megalia' proviene del griego y se utiliza en terminología médica para indicar el aumento anormal de tamaño de un órgano.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"e6cc5aad4c": {
+"veredicto": "ok",
+"motivo": "La Ley General de Sanidad establece que cada Área de Salud debe disponer o estar vinculada al menos a un hospital general.",
+"fuente_ok": true,
+"referencia": "Ley 14/1986, General de Sanidad · Artículo sesenta y cinco",
+"cita": "Cada Área de Salud estará vinculada o dispondrá, al menos, de un hospital general",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"f29a9a12d5": {
+"veredicto": "ok",
+"motivo": "El fecaloma o impactación fecal es la masa de heces duras y secas en el recto que el paciente no puede evacuar por sí mismo.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"82446f3a7f": {
+"veredicto": "ok",
+"motivo": "La pirosis es el síntoma cardinal y más frecuente de la enfermedad por reflujo gastroesofágico.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"d55a861bd0": {
+"veredicto": "ok",
+"motivo": "Los protocolos estándar de enfermería recomiendan realizar cambios posturales cada 2-3 horas durante el día para prevenir UPP.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"5329078554": {
+"veredicto": "ok",
+"motivo": "La seguridad del paciente y del trabajador se define como la ausencia de riesgos o daños prevenibles durante la asistencia sanitaria.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"14446dfd17": {
+"veredicto": "ok",
+"motivo": "El artículo 122.3 de la Constitución Española establece exactamente esta composición y forma de nombramiento para el CGPJ.",
+"fuente_ok": true,
+"referencia": "Constitución Española de 1978 · Artículo 122",
+"cita": "El Consejo General del Poder Judicial estará integrado por el Presidente del Tribunal Supremo, que lo presidirá, y por veinte miembros nombrados por el Rey por un período de cinco años.",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"043a54db10": {
+"veredicto": "ok",
+"motivo": "El síndrome del cuidador quemado o sobrecarga del cuidador describe perfectamente este agotamiento físico y emocional.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"494e19cd48": {
+"veredicto": "ok",
+"motivo": "La inmunidad artificial pasiva consiste en la administración exógena de anticuerpos ya formados (sueros o inmunoglobulinas).",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"097c14e85c": {
+"veredicto": "ok",
+"motivo": "La parestesia es el término médico correcto para describir la sensación anormal de hormigueo o adormecimiento.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"fbec1ef35e": {
+"veredicto": "ok",
+"motivo": "El índice o escala de Barthel es el instrumento validado y utilizado para medir la independencia en las actividades básicas de la vida diaria.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"1e8ba25a04": {
+"veredicto": "ok",
+"motivo": "La Ley 40/2015 regula las bases del régimen jurídico y la responsabilidad patrimonial de las Administraciones Públicas.",
+"fuente_ok": true,
+"referencia": "Ley 40/2015, de Régimen Jurídico del Sector Público, Artículo 1",
+"cita": "La presente Ley establece y regula las bases del régimen jurídico de las Administraciones Públicas, los principios del sistema de responsabilidad de las Administraciones Públicas",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"43fb254d90": {
+"veredicto": "ok",
+"motivo": "El reflejo de prensión palmar consiste en el cierre de los dedos al estimular la palma de la mano del recién nacido.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"4e48654766": {
+"veredicto": "ok",
+"motivo": "Los residuos químicos peligrosos se clasifican habitualmente en el Grupo IV (residuos singulares o especiales), y es la respuesta oficial del tribunal.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"407b1b17f4": {
+"veredicto": "ok",
+"motivo": "La caducidad estándar aceptada para material esterilizado en bolsa de papel simple es de 6 meses en condiciones adecuadas.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"e5cfe53ed9": {
+"veredicto": "ok",
+"motivo": "El artículo 1.2 de la Constitución establece claramente que la soberanía nacional reside en el pueblo español.",
+"fuente_ok": true,
+"referencia": "Constitución Española de 1978, Artículo 1",
+"cita": "La soberanía nacional reside en el pueblo español, del que emanan los poderes del Estado.",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"3c4df4db55": {
+"veredicto": "ok",
+"motivo": "La diaforesis es el término médico correcto para referirse a la sudoración abundante y profusa.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"3af3e9c05f": {
+"veredicto": "ok",
+"motivo": "Las gafas nasales son un sistema de bajo flujo utilizado para administrar concentraciones de oxígeno inferiores al 40%.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"711a3f44eb": {
+"veredicto": "ok",
+"motivo": "Históricamente, la Ponencia constitucional encargada de redactar el anteproyecto fue nombrada el 1 de agosto de 1977.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"f705f97b38": {
+"veredicto": "ok",
+"motivo": "La episiotomía es el término médico correcto para la incisión quirúrgica en la vulva y el periné durante el parto.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"091e6afff6": {
+"veredicto": "dudosa",
+"motivo": "Aunque la respuesta es correcta, el texto legal proporcionado omite el artículo 131.2 de la ley, que es el que define explícitamente cuáles son los procedimientos ordinarios.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"a908dbd59b": {
+"veredicto": "ok",
+"motivo": "Los enemas de retención están diseñados para mantenerse en el intestino un mínimo de 30 minutos para su correcta absorción o efecto.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"afa3d1d0a0": {
+"veredicto": "ok",
+"motivo": "La posición de semi-Fowler se caracteriza por una elevación de la cabecera de la cama de aproximadamente 30 grados.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"d39a077606": {
+"veredicto": "ok",
+"motivo": "Los retractores o separadores quirúrgicos se dividen correctamente en manuales (sostenidos por un ayudante) y autoestáticos o fijos.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"ecb75f91ac": {
+"veredicto": "ok",
+"motivo": "La tos productiva es el término clínico exacto para referirse a la tos que se acompaña de expectoración de esputo.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"1037b7bbb1": {
+"veredicto": "ok",
+"motivo": "La hipodermis o tejido celular subcutáneo es la capa más profunda de la piel y está compuesta principalmente por tejido adiposo.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
+},
+"c46d3069be": {
+"veredicto": "ok",
+"motivo": "La Ley General de Sanidad estructura la asistencia sanitaria en dos niveles fundamentales: Atención Primaria y Atención Especializada.",
+"fuente_ok": true,
+"referencia": "Ley 14/1986, General de Sanidad · Artículo quince",
+"cita": "de la atención primaria, los usuarios del Sistema Nacional de Salud tienen derecho, en el marco de su Área de Salud, a ser atendidos en los servicios especializados hospitalarios.",
+"correcta_sugerida": null,
+"fecha": "2026-11-02"
 }
 }

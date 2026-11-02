@@ -1,7 +1,7 @@
-# Informe del verificador (2026-10-29)
+# Informe del verificador (2026-11-02)
 
-- Preguntas en el banco: 1822 · revisadas: 779 · **publicables: 722**
-- Posibles errores: 13 · dudosas: 19 · correctas pero sin texto de la norma para citar: 25
+- Preguntas en el banco: 1822 · revisadas: 891 · **publicables: 827**
+- Posibles errores: 13 · dudosas: 23 · correctas pero sin texto de la norma para citar: 28
 
 Las marcadas como posible error conviene revisarlas también en la web app.
 
@@ -35,7 +35,7 @@ Las marcadas como posible error conviene revisarlas también en la web app.
 - **[Fechas Clave y Plazos Administrativos]** ¿Por qué procedimiento de reforma (de los dos previstos en el Título X de la Constitución) se han tramitado las cuatro reformas constitucionales hasta ahora? — marcada A) Todas por el procedimiento ordinario del artículo 167
   - El enunciado contiene un dato falso: hasta la fecha solo se han aprobado tres reformas constitucionales (1992, 2011 y 2024), no cuatro.
 
-## Dudosas (19)
+## Dudosas (23)
 
 - **[Ley de Salud de Aragón (Ley 6/2002)]** Según el estatuto de autonomía de Aragón todas las personas tienen derecho a acceder a los servicios públicos de salud, en condiciones de: — marcada A) Igualdad, universalidad y calidad
   - Aunque la respuesta es correcta según el Estatuto de Autonomía, el texto proporcionado corresponde a la Ley de Salud y no permite verificarlo.
@@ -71,7 +71,15 @@ Las marcadas como posible error conviene revisarlas también en la web app.
   - La plantilla oficial parece errónea: la parte que mantiene el instrumental trabado o cerrado es la 'cremallera', mientras que la 'caja de traba' es la articulación o bisagra.
 - **[Constitución Española de 1978]** ¿En nombre de quién proclama la Nación Española su voluntad al inicio del Preámbulo? — marcada A) En uso de su soberanía
   - El fragmento proporcionado no incluye el Preámbulo de la Constitución, por lo que no es posible verificar la respuesta.
-- **[Fechas Clave y Plazos Administrativos]** ¿En qué fecha aprobó el Pleno del Senado el proyecto de Constitución? — marcada A) 5 de octubre de 1978
-  - El texto de la fuente proporcionado no incluye la fecha de aprobación del proyecto de Constitución por el Senado para poder verificar la respuesta.
 - **[Sondas Digestivas]** El calibre de una sonda hace referencia a: — marcada B) El diámetro de la luz
   - Técnicamente, el calibre (escala French) mide el diámetro externo de la sonda, no el diámetro de la luz (interno), aunque suele darse por válida al ser la mejor opción.
+- **[Ley General de Sanidad (Ley 14/1986)]** ¿Qué instituto de investigación sanitaria fue creado por la Ley General de Sanidad? — marcada A) El Instituto de Salud Carlos III
+  - El texto legal proporcionado no incluye el artículo que establece explícitamente la creación del Instituto de Salud Carlos III.
+- **[Estatuto Marco del Personal Estatutario (Ley 55/2003)]** ¿Cuál es el plazo de prescripción de las faltas leves del personal estatutario según la Ley 55/2003? — marcada A) 6 meses
+  - El fragmento de la Ley 55/2003 proporcionado omite el artículo que detalla los plazos de prescripción de las faltas disciplinarias.
+- **[Termoterapia e Hidroterapia]** ¿Hasta qué proporción se debe llenar una bolsa de agua caliente? — marcada B) 3/4 partes
+  - La mayoría de manuales de fundamentos de enfermería indican llenar la bolsa a 1/2 o 2/3 de su capacidad, por lo que la opción D suele ser la más aceptada en exámenes oficiales.
+- **[Calidad Asistencial]** Según Cotte, ¿cómo relaciona la calidad con percepción y expectativas? — marcada A) Calidad = Percepción − Expectativas
+  - Aunque la fórmula Calidad = Percepción - Expectativas es correcta conceptualmente, la atribución al autor 'Cotte' es inusual y podría ser una errata de otro autor (como Kotler).
+- **[Contratación del Sector Público (Ley 9/2017)]** ¿Cuáles son los dos procedimientos de adjudicación ordinarios según la Ley 9/2017? — marcada A) El abierto y el restringido
+  - Aunque la respuesta es correcta, el texto legal proporcionado omite el artículo 131.2 de la ley, que es el que define explícitamente cuáles son los procedimientos ordinarios.
