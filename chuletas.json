@@ -239,5 +239,20 @@
 "tiktok": "6ae8c05bd1afe85c77bfe2a8"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-11-02",
+"slot": "18",
+"topic": "farmacologia",
+"tema": "Farmacología: Conceptos Básicos",
+"subtema": "Términos clave de farmacología",
+"quiz_id": "728be4f84a",
+"imagenes": 7,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/DfQhqocDxrC/",
+"tiktok": "6ae921baa7a856a17e0de980"
+},
+"dry_run": false
 }
 ]
