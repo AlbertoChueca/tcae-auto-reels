@@ -1,5 +1,5 @@
-# Cuaderno de memoria (2026-11-01)
+# Cuaderno de memoria (2026-11-02)
 
-- Seguir haciendo: Formatos simulacro_3 y flashcards_express, que logran los máximos de guardados (hasta 5 y 3) y retenciones de más de 14-23 segundos.
-- Dejar de hacer: Preguntas simples con respuesta inmediata sin pausa de autoevaluación activa.
-- Probar: Cierre explícito de repaso espaciado: «Guarda este reel y vuelve en 48 horas a comprobar si recuerdas las 3 respuestas».
+- Seguir haciendo: Formatos «flashcards_express» (31 guardados, récord histórico) y «simulacro_3» para potenciar recuperación activa.
+- Dejar de hacer: Preguntas únicas con resolución acelerada sin tiempo para autoevaluación mental.
+- Probar: Cierre orientado a repetición espaciada: «Guarda estas fichas y comprueba mañana si recuerdas las respuestas sin mirar».

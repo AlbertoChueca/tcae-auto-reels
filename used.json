@@ -490,5 +490,11 @@
 "topic": "trabajoEquipo",
 "fecha": "2026-11-01",
 "formato": "error_tipico"
+},
+{
+"id": "9d97b770ea",
+"topic": "constitucionEspanola",
+"fecha": "2026-11-02",
+"formato": "legislacion_30s"
 }
 ]

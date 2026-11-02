@@ -1,5 +1,5 @@
-# Cuaderno de viralidad (2026-11-01)
+# Cuaderno de viralidad (2026-11-02)
 
-- Seguir haciendo: Ganchos directos y desafiantes («¿Aciertas las 3?», «¿Te la sabes?»), que concentran los picos de visualizaciones (897-1079 views) y comentarios (hasta 7).
-- Dejar de hacer: Ganchos descriptivos planos como «Pregunta clave de...».
-- Probar: Retos de complicidad entre opositoras: «Etiqueta a tu compi de turno: si falla una de las tres, le toca hacer la reposición».
+- Seguir haciendo: Ganchos directos y desafiantes: «4 fichas de repaso», «¿Te la sabes?» y «¿Aciertas las 3?» (hasta 1205 views y 7 comentarios).
+- Dejar de hacer: Ganchos planos o descriptivos tipo «Pregunta clave de...» (scores inferiores a 7.5).
+- Probar: Retos de complicidad entre opositoras: «Compártelo con tu compi de turno: si falla una, le toca la reposición».

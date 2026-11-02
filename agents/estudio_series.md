@@ -1,5 +1,5 @@
-# Cuaderno de series (2026-11-01)
+# Cuaderno de series (2026-11-02)
 
-- Seguir haciendo: Consolidar «Miércoles de simulacro» y «Domingo de examen real», vinculados a los mejores formatos (simulacro_3 y examen_real).
-- Dejar de hacer: Publicar la inmensa mayoría de reels sin serie asignada (más del 75% huérfanos).
-- Probar: Fijar citas temáticas semanales con número correlativo visible («Miércoles de simulacro #04») para evaluar si la recurrencia incrementa el visionado recurrente.
+- Seguir haciendo: Consolidar «Sábado de repaso exprés» (top 1 absoluto, score 11.51) y «Miércoles de simulacro».
+- Dejar de hacer: Dejar la mayoría de publicaciones sin serie asignada (más del 70% huérfanas en los datos).
+- Probar: Añadir numeración fija en portadas («Sábado de repaso exprés #03») para medir si la cita semanal incrementa la recurrencia.
