@@ -502,5 +502,11 @@
 "topic": "respiratorio",
 "fecha": "2026-11-03",
 "formato": "pregunta_del_dia"
+},
+{
+"id": "e1a465ec5f",
+"topic": "saludEnfermedad",
+"fecha": "2026-11-03",
+"formato": "error_tipico"
 }
 ]

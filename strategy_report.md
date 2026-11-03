@@ -46,7 +46,7 @@ _Updated 2026-11-03 · 35 reels with results (3+ days old) · average score 7.68
 
 | option | reels | avg score |
 |---|---|---|
-| mixto | 19 | 7.82 |
+| mixto | 19 | 7.83 |
 | clinico | 12 | 7.79 |
 | legislacion | 3 | 6.92 |
 
