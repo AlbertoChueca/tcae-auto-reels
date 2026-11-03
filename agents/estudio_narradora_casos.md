@@ -1,5 +1,5 @@
-# Cuaderno de narradora_casos (2026-11-02)
+# Cuaderno de narradora_casos (2026-11-03)
 
-- Seguir haciendo: Casos reales de planta, higiene del paciente y turno de noche (scores >10).
-- Dejar de hacer: Enunciados legislativos abstractos y descontextualizados como artículos de leyes (score 7.12, 144 views, 0 guardados).
-- Probar: Dilemas rápidos de pase de guardia o llamada simultánea de timbres que exijan priorizar cuidados según temario.
+- Seguir haciendo: Casos reales de planta, higiene y turno de noche (dominan con más de 1000 reproducciones).
+- Dejar de hacer: Preguntas teóricas descontextualizadas o artículos legislativos aislados (score 7.12, 0 guardados).
+- Probar: Situaciones clínicas breves de pase de guardia o timbres simultáneos que obliguen a priorizar cuidados según temario.

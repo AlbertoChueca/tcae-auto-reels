@@ -1,5 +1,5 @@
-# Cuaderno de ilustradora (2026-11-02)
+# Cuaderno de ilustradora (2026-11-03)
 
-- Seguir haciendo: Ilustración vertical con luz suave nocturna o de relevo y mobiliario clínico reconocible.
-- Dejar de hacer: Incluir guantes para tareas con material limpio o almacén, duplicar objetos (tazas, tubuladuras) o añadir atrezo no hospitalario (flexos con pinza).
-- Probar: TCAE en control de planta organizando gráficas en papel, manos descubiertas limpias y reloj de solapa visible.
+- Seguir haciendo: Composición vertical con iluminación hospitalaria suave y mobiliario clínico reconocible y ordenado.
+- Dejar de hacer: Dibujar guantes para manipular material limpio/almacén (infracción de EPI), duplicar objetos (tazas, tubuladuras) o incluir atrezo no hospitalario (flexos con pinza).
+- Probar: TCAE con manos descubiertas y limpias organizando lencería o gráficas en el control de enfermería, sin degradados oscuros invasivos.

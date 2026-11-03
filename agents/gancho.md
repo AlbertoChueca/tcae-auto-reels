@@ -1,5 +1,7 @@
-# Cuaderno de gancho (2026-11-02)
+# Cuaderno de gancho (2026-11-03)
 
-- Seguir haciendo: Ganchos de repaso práctico («4 fichas de repaso») y retos directos («¿Te la sabes?», «¿Aciertas las 3?»), líderes absolutos en views y guardados (scores 11.51 y 10.72).
-- Dejar de hacer: Fórmulas pasivas sobre normativa («¿Te sabes este artículo?», fondo de tabla con score 7.12 y 0 guardados).
-- Probar: Fusionar autoridad de examen y dilema rápido: «4 fichas de examen que el 80% falla en la guardia: ¿te las sabes?».
+# Cuaderno de gancho (2026-11-03)
+
+- Seguir haciendo: Fórmulas directas de volumen y desafío: «4 fichas de repaso», «¿Te la sabes?» y «¿Aciertas las 3?» (top 3 absoluto, hasta 1.205 views y 31 guardados).
+- Dejar de hacer: Ganchos pasivos sobre normativa como «¿Te sabes este artículo?» (score 7.12, 0 guardados).
+- Probar: Ganchos de dilema práctico clínico: «4 datos clave de guardia que no puedes fallar en el examen».

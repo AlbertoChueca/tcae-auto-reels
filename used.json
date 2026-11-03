@@ -496,5 +496,11 @@
 "topic": "constitucionEspanola",
 "fecha": "2026-11-02",
 "formato": "legislacion_30s"
+},
+{
+"id": "4b54e748bc",
+"topic": "respiratorio",
+"fecha": "2026-11-03",
+"formato": "pregunta_del_dia"
 }
 ]

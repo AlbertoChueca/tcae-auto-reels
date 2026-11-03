@@ -1,5 +1,5 @@
-# Cuaderno de revisora_visual (2026-11-02)
+# Cuaderno de revisora_visual (2026-11-03)
 
-- Seguir haciendo: Supervisión estricta de higiene de manos y uso racional de EPI según temario oficial.
-- Dejar de hacer: Dejar pasar artefactos de IA, duplicidades absurdas o degradados oscuros que ensucien la composición.
-- Probar: Lista de chequeo previa obligatoria: 1) Cero texto en imagen; 2) Manos desnudas para material limpio; 3) Instrumental y mobiliario verosímiles en hospital público.
+- Seguir haciendo: Vigilancia estricta de asepsia y uso racional de EPI: material limpio siempre con manos desnudas y limpias.
+- Dejar de hacer: Aprobar diseños con atrezo inverosímil, duplicidades de IA o manchas oscuras que enturbien la escena.
+- Probar: Checklist técnico previo: 1) Cero texto integrado, 2) Manos libres de guantes en tareas limpias, 3) Material clínico verosímil y sin artefactos visuales.

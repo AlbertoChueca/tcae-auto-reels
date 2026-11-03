@@ -1,5 +1,5 @@
-# Cuaderno de memoria (2026-11-02)
+# Cuaderno de memoria (2026-11-03)
 
-- Seguir haciendo: Formatos «flashcards_express» (31 guardados, récord histórico) y «simulacro_3» para potenciar recuperación activa.
-- Dejar de hacer: Preguntas únicas con resolución acelerada sin tiempo para autoevaluación mental.
-- Probar: Cierre orientado a repetición espaciada: «Guarda estas fichas y comprueba mañana si recuerdas las respuestas sin mirar».
+- Seguir haciendo: Formato «flashcards_express» para recuperación activa (récord absoluto de 31 guardados, score 11.51).
+- Dejar de hacer: Preguntas aisladas sin espacio temporal para que el opositor responda mentalmente antes del desenlace.
+- Probar: Llamada a la repetición espaciada: «Guarda estas fichas y vuelve mañana a comprobar si aciertas las 4 sin mirar».

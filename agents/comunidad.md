@@ -1,6 +1,8 @@
-# Cuaderno de comunidad (2026-11-02)
+# Cuaderno de comunidad (2026-11-03)
 
-- Resumen audiencia: Muestra reducida (22 comentarios). Respuestas 100% telegráficas con letras («D», «C», «B, D, B») y dudas evidentes («creo q la C», «D?», «C perdón»).
-- Seguir haciendo: Preguntas con alternativas breves que se responden en un segundo desde el móvil.
-- Dejar de hacer: Pedir justificaciones largas en la descripción.
-- Probar: Primer comentario fijado validando la duda del opositor: «¿Dudaste entre dos opciones? Dinos cuál 👇».
+# Cuaderno de comunidad (2026-11-03)
+
+- Resumen audiencia: Muestra reducida (22 comentarios). Respuestas 100% telegráficas indicando solo la letra («D», «C», «B, D, B») con dudas puntuales («creo q la C», «D?», «C perdón»).
+- Seguir haciendo: Preguntas con alternativas breves que permitan responder con una sola letra al instante.
+- Dejar de hacer: Pedir al usuario razonar su respuesta por escrito.
+- Probar: Comentario fijado para romper la indecisión: «¿Dudaste entre dos? Déjanos tu opción 👇».

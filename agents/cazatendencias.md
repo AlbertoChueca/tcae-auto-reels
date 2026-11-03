@@ -1,9 +1,6 @@
-# Cuaderno de cazatendencias (2026-11-02)
+# Cuaderno de cazatendencias (2026-11-03)
 
-Esta semana confluyen dos hitos administrativos y dos efemérides clínicas de alto impacto en examen. Enfoque para redes:
-• Reel de urgencia: cuenta atrás de 48 horas avisando del cierre de instancias del INGESA, repasando plazos hábiles según la Ley 39/2015.
-• Viñeta comparativa: aprovechando la vacunación antigripal masiva de noviembre, explica en 3 pasos inmunidad activa vs. pasiva y cadena de frío.
-• Carrusel clínico (Neumonía y Diabetes): mini casos interactivos con preguntas tipo test sobre signos de disnea, oxigenoterapia y punciones para glucemia capilar para calentar motores antes del 12 y 14 de noviembre.
+Esta primera quincena de noviembre concentra hitos sanitarios clave ideales para conectar el temario oficial con la actualidad clínica:  • Campaña de vacunas: publica un reel rápido repasando rangos de la cadena de frío (+2 a +8 °C) y grupos diana prioritarios.  • 8 de noviembre (Radiología): crea una viñeta cómica con las 3 reglas de radioprotección (distancia, blindaje y tiempo) y el uso correcto del dosímetro.  • 12 de noviembre (Neumonía): plantea una pregunta tipo test simulada sobre oxigenoterapia y valores normales de pulsioximetría.  • 14 de noviembre (Diabetes): haz un carrusel paso a paso sobre el procedimiento de glucemia capilar y cuidados preventivos del pie diabético.
 
 ## Hallazgos
 - Ninguno fiable hoy.
