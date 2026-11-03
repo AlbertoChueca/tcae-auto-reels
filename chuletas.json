@@ -254,5 +254,20 @@
 "tiktok": "6ae921baa7a856a17e0de980"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-11-03",
+"slot": "8",
+"topic": "funcionesTCAE",
+"tema": "Funciones del TCAE",
+"subtema": "Modelos de enfermería",
+"quiz_id": "4dc81897dc",
+"imagenes": 6,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/DfSJeUzjjpQ/",
+"tiktok": "6ae9f6492178e2667169141d"
+},
+"dry_run": false
 }
 ]
