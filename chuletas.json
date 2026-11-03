@@ -269,5 +269,20 @@
 "tiktok": "6ae9f6492178e2667169141d"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-11-03",
+"slot": "18",
+"topic": "inmunidadVacunas",
+"tema": "Inmunidad y Vacunas",
+"subtema": "Inmunidad adaptativa",
+"quiz_id": "e260f303d7",
+"imagenes": 6,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/DfS7hhnmHNb/",
+"tiktok": "6aea5cca0e04dd1cb667aea6"
+},
+"dry_run": false
 }
 ]
