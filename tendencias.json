@@ -1,16 +1,85 @@
 {
 "fecha": "2026-11-03",
-"fuentes_consultadas": 0,
+"fuentes_consultadas": 9,
 "diag": {
 "modelo": "gemini-3.8-flash",
-"busquedas": 0,
-"fuentes": 0,
-"claves": [],
+"busquedas": 3,
+"fuentes": 9,
+"claves": [
+"groundingChunks",
+"groundingSupports",
+"searchEntryPoint",
+"webSearchQueries"
+],
 "cand_claves": [
 "content",
 "finishReason",
+"groundingMetadata",
 "index"
 ]
 },
-"items": []
+"items": [
+{
+"titulo": "Cierre inminente del plazo de solicitudes de TCAE en el INGESA",
+"dato": "El INGESA finaliza el 4 de noviembre de 2026 el plazo de solicitudes para 41 plazas de TCAE publicadas en el BOE mediante concurso-oposición.",
+"url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20767",
+"fecha": "2026-11-04",
+"temas": [
+"fechasPlazos",
+"estatutoMarco"
+],
+"gancho": "¡Últimas horas para echar la instancia del INGESA!",
+"por_que": "Afecta a opositores de toda España con plazas estatales que cierran plazo ya."
+},
+{
+"titulo": "Últimos días para presentar instancias de TCAE en La Rioja",
+"dato": "El plazo de presentación de instancias para las 61 plazas de TCAE de la Administración de La Rioja finaliza el 5 de noviembre de 2026.",
+"url": "https://larioja.org",
+"fecha": "2026-11-05",
+"temas": [
+"fechasPlazos",
+"procedimientoAdministrativo"
+],
+"gancho": "¡Opositores de La Rioja, se acaba el plazo!",
+"por_que": "Convocatoria autonómica clave con 61 plazas que cierra inscripciones esta semana."
+},
+{
+"titulo": "Celebración del examen de la oposición de TCAE en Aragón",
+"dato": "Los aspirantes admitidos en el proceso selectivo de TCAE en Aragón están convocados para realizar el ejercicio el 7 de noviembre de 2026.",
+"url": "https://www.aragon.es",
+"fecha": "2026-11-07",
+"temas": [
+"fechasPlazos",
+"funcionesTCAE"
+],
+"gancho": "¡Cuenta atrás para el examen de Aragón este sábado!",
+"por_que": "Semana decisiva de repaso final para miles de opositores aragoneses."
+},
+{
+"titulo": "Ampliación de la vacunación contra la gripe a la población general",
+"dato": "Sanidad amplía desde el 2 de noviembre la vacunación de la gripe a toda la población y permite acudir sin cita desde el 5 de noviembre.",
+"url": "https://www.san.gva.es",
+"fecha": "2026-11-02",
+"temas": [
+"inmunidadVacunas",
+"prevencionSalud",
+"respiratorio"
+],
+"gancho": "¿Gripe sin cita? Vacunación abierta y fija en examen",
+"por_que": "El calendario vacunal y tipos de vacunas son preguntas clásicas de oposición."
+},
+{
+"titulo": "Celebración del Día Mundial de Una Sola Salud (One Health)",
+"dato": "La OMS conmemora el 3 de noviembre el Día de «Una Sola Salud», recordando que hasta el 75 % de enfermedades emergentes son zoonosis.",
+"url": "https://www.who.int",
+"fecha": "2026-11-03",
+"temas": [
+"saludEnfermedad",
+"prevencionSalud",
+"educacionSanitaria"
+],
+"gancho": "¿Qué es One Health? Concepto clave para tu test",
+"por_que": "Concepto de salud comunitaria y prevención de zoonosis frecuentemente preguntado en oposiciones."
+}
+]
 }
