@@ -299,5 +299,20 @@
 "tiktok": "6aeb4c1f7071082827735062"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-11-04",
+"slot": "18",
+"topic": "aparatoDigestivo",
+"tema": "Aparato Digestivo: Anatomía y Fisiología",
+"subtema": "Glándulas digestivas y sus conductos",
+"quiz_id": "aef335abb2",
+"imagenes": 6,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/DfVhr3FDGbE/",
+"tiktok": "6aebb1172c7f81e03471f058"
+},
+"dry_run": false
 }
 ]
