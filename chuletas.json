@@ -284,5 +284,20 @@
 "tiktok": "6aea5cca0e04dd1cb667aea6"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-11-04",
+"slot": "8",
+"topic": "educacionSanitaria",
+"tema": "Educación Sanitaria",
+"subtema": "Métodos en educación sanitaria",
+"quiz_id": "9cafc24e44",
+"imagenes": 7,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/DfUwXCTG5lW/",
+"tiktok": "6aeb4c1f7071082827735062"
+},
+"dry_run": false
 }
 ]
