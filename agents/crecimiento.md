@@ -1,7 +1,5 @@
-# Cuaderno de crecimiento (2026-11-03)
+# Cuaderno de crecimiento (2026-11-04)
 
-# Cuaderno de crecimiento (2026-11-03)
-
-- Seguir haciendo: Priorizar «flashcards_express» (31 guardados, 5 compartidos) y «simulacro_3» como motores principales de alcance orgánico.
-- Dejar de hacer: Descripciones sin llamada a la acción explícita para guardar y repasar.
-- Probar: CTA directo a la memoria: «Guarda estas fichas para repasarlas antes de tu examen. Cientos de tests en apruebatcae.com».
+- Seguir haciendo: Explotar «flashcards_express» como imán de guardados (31 guardados y 5 compartidos) y «simulacro_3» para retención.
+- Dejar de hacer: Copys neutros sin llamada clara a la acción.
+- Probar: Llamada directa al guardado de estudio: «Guarda este repaso para tu examen. Cientos de simulacros reales en apruebatcae.com».

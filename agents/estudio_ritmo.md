@@ -1,5 +1,5 @@
-# Cuaderno de ritmo (2026-11-03)
+# Cuaderno de ritmo (2026-11-04)
 
-- Seguir haciendo: Edición compacta con duración de visionado entre 9 y 13 segundos (el top 3 oscila entre 9.9 y 13.2 s).
-- Dejar de hacer: Ritmos excesivamente pausados (>20 s caen a scores <8.1 y <160 views) o cortes apresurados menores a 7 s.
-- Probar: Pausa de suspense de exactamente 2 segundos antes de revelar la opción correcta para asegurar retención.
+- Seguir haciendo: Edición compacta con retención en el rango óptimo de 9 a 13 segundos (el top 3 oscila entre 9.893 y 13.256 ms).
+- Dejar de hacer: Vídeos lentos de más de 20 segundos (scores <8.13 y bajo engagement) o cortes apresurados menores a 7 segundos.
+- Probar: Pausa de suspense de exactamente 2 segundos antes de desvelar la respuesta correcta para asegurar máxima retención.

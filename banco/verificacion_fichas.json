@@ -448,5 +448,77 @@
 "motivo": "La respuesta es correcta. La piel ejerce su función excretora eliminando sustancias de desecho mediante el sudor.",
 "fuente_ok": false,
 "fecha": "2026-10-31"
+},
+"96db624160": {
+"veredicto": "ok",
+"motivo": "Según el orden de extracción estandarizado internacionalmente, los tubos de hemocultivo siempre se extraen en primer lugar para garantizar la esterilidad de la muestra.",
+"fuente_ok": false,
+"fecha": "2026-11-04"
+},
+"219ee0262d": {
+"veredicto": "ok",
+"motivo": "Es el procedimiento estándar para la toma de muestras de exudado conjuntival, utilizando suero fisiológico para no irritar el ojo y facilitar la recogida.",
+"fuente_ok": false,
+"fecha": "2026-11-04"
+},
+"15b7252603": {
+"veredicto": "ok",
+"motivo": "El código de colores internacional establece que el tapón verde corresponde a tubos que contienen heparina (de litio o de sodio).",
+"fuente_ok": false,
+"fecha": "2026-11-04"
+},
+"4658e68a04": {
+"veredicto": "ok",
+"motivo": "Son los principales análisis clínicos que se realizan rutinariamente en muestras de heces.",
+"fuente_ok": false,
+"fecha": "2026-11-04"
+},
+"d4216817d8": {
+"veredicto": "ok",
+"motivo": "La prueba de Graham o cinta adhesiva es el método diagnóstico de elección para oxiuros (Enterobius vermicularis) y debe hacerse al despertar, sin aseo previo.",
+"fuente_ok": false,
+"fecha": "2026-11-04"
+},
+"e5a0c218fa": {
+"veredicto": "ok",
+"motivo": "Las cantidades (tamaño de una nuez o 5-10 ml) y el método de conservación en nevera a 4ºC (si hay retraso en el envío) son correctos para un coprocultivo estándar.",
+"fuente_ok": false,
+"fecha": "2026-11-04"
+},
+"086bc2e807": {
+"veredicto": "ok",
+"motivo": "Es la definición exacta y correcta de muestra biológica en el ámbito sanitario.",
+"fuente_ok": false,
+"fecha": "2026-11-04"
+},
+"cc7435974a": {
+"veredicto": "dudosa",
+"motivo": "La OMS recomienda un periodo de abstinencia de entre 2 y 7 días (frecuentemente los manuales indican de 3 a 5 días). Limitarlo estrictamente a '2-3 días' es incompleto y podría dar lugar a error en un examen.",
+"fuente_ok": false,
+"fecha": "2026-11-04"
+},
+"828ba8ce33": {
+"veredicto": "ok",
+"motivo": "Describe perfectamente el protocolo de recogida de orina para urocultivo (técnica del chorro medio con higiene previa en envase estéril).",
+"fuente_ok": false,
+"fecha": "2026-11-04"
+},
+"39db2e78f1": {
+"veredicto": "ok",
+"motivo": "Son las tres vías principales y correctas para la obtención de muestras sanguíneas.",
+"fuente_ok": false,
+"fecha": "2026-11-04"
+},
+"bc0c8e3d24": {
+"veredicto": "ok",
+"motivo": "La representatividad y la homogeneidad son las características fundamentales exigidas para que una muestra biológica sea válida para su análisis.",
+"fuente_ok": false,
+"fecha": "2026-11-04"
+},
+"824d838387": {
+"veredicto": "ok",
+"motivo": "El frotis con hisopo o torunda estéril es la técnica estándar para la recogida de exudados (faríngeo, nasal, conjuntival, heridas, etc.).",
+"fuente_ok": false,
+"fecha": "2026-11-04"
 }
 }

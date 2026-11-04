@@ -1,17 +1,17 @@
 # Piloto automático Aprueba TCAE - qué está funcionando
 
-_Updated 2026-11-03 · 35 reels with results (3+ days old) · average score 7.68_
+_Updated 2026-11-04 · 37 reels with results (3+ days old) · average score 7.64_
 
 
 ## formato
 
 | option | reels | avg score |
 |---|---|---|
-| flashcards_express | 3 | 8.91 |
-| simulacro_3 | 5 | 8.45 |
-| examen_real | 5 | 7.49 |
-| pregunta_del_dia | 22 | 7.38 |
-| error_tipico | 0 | - |
+| flashcards_express | 3 | 8.92 |
+| simulacro_3 | 5 | 8.46 |
+| pregunta_del_dia | 22 | 7.39 |
+| examen_real | 6 | 7.35 |
+| error_tipico | 1 | 6.91 |
 | truco_memorizar | 0 | - |
 | mito_realidad | 0 | - |
 | legislacion_30s | 0 | - |
@@ -21,11 +21,11 @@ _Updated 2026-11-03 · 35 reels with results (3+ days old) · average score 7.68
 
 | option | reels | avg score |
 |---|---|---|
-| cuaderno | 7 | 8.58 |
-| noche | 12 | 7.70 |
-| clasico | 5 | 7.69 |
+| cuaderno | 8 | 8.38 |
+| clasico | 5 | 7.70 |
+| noche | 13 | 7.62 |
 | examen | 5 | 7.23 |
-| minimal | 3 | 7.05 |
+| minimal | 3 | 7.06 |
 | marca | 3 | 6.87 |
 | ilustrado | 0 | - |
 
@@ -33,30 +33,30 @@ _Updated 2026-11-03 · 35 reels with results (3+ days old) · average score 7.68
 
 | option | reels | avg score |
 |---|---|---|
-| dilema_guardia | 1 | 11.51 |
-| reto | 6 | 7.93 |
+| dilema_guardia | 2 | 9.21 |
 | trampa | 6 | 7.88 |
-| repaso exprés | 5 | 7.72 |
-| terminos_confusos | 2 | 7.43 |
+| reto | 7 | 7.75 |
+| repaso exprés | 5 | 7.73 |
+| terminos_confusos | 2 | 7.44 |
 | examen | 8 | 7.41 |
 | empatía | 3 | 7.11 |
-| curiosidad | 4 | 7.10 |
+| curiosidad | 4 | 7.11 |
 
 ## bloque
 
 | option | reels | avg score |
 |---|---|---|
 | mixto | 19 | 7.83 |
-| clinico | 12 | 7.79 |
-| legislacion | 3 | 6.92 |
+| clinico | 13 | 7.73 |
+| legislacion | 4 | 6.86 |
 
 ## think_time
 
 | option | reels | avg score |
 |---|---|---|
-| largo | 12 | 7.86 |
-| corto | 13 | 7.70 |
-| normal | 10 | 7.44 |
+| largo | 12 | 7.87 |
+| corto | 14 | 7.64 |
+| normal | 11 | 7.38 |
 
 ---
 # Playbook (actualizado 2026-10-26)
