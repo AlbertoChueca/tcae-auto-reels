@@ -532,5 +532,23 @@
 "topic": "muestras",
 "fecha": "2026-11-04",
 "formato": "flashcards_express"
+},
+{
+"id": "1c51e829a3",
+"topic": "oxigenoterapia",
+"fecha": "2026-11-04",
+"formato": "simulacro_3"
+},
+{
+"id": "366aa919ea",
+"topic": "prefijosSufijos",
+"fecha": "2026-11-04",
+"formato": "simulacro_3"
+},
+{
+"id": "553f77060f",
+"topic": "exploracionPaciente",
+"fecha": "2026-11-04",
+"formato": "simulacro_3"
 }
 ]
