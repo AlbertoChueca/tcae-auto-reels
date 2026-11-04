@@ -1,87 +1,16 @@
 {
 "fecha": "2026-11-04",
-"fuentes_consultadas": 12,
+"fuentes_consultadas": 0,
 "diag": {
 "modelo": "gemini-3.8-flash",
-"busquedas": 5,
-"fuentes": 12,
-"claves": [
-"groundingChunks",
-"groundingSupports",
-"searchEntryPoint",
-"webSearchQueries"
-],
+"busquedas": 0,
+"fuentes": 0,
+"claves": [],
 "cand_claves": [
 "content",
 "finishReason",
-"groundingMetadata",
 "index"
 ]
 },
-"items": [
-{
-"titulo": "Plazo de alegaciones en la oposición de TCAE de Madrid",
-"dato": "Tras publicar la plantilla correctora del llamamiento extraordinario del primer ejercicio, la Comunidad de Madrid abre plazo de alegaciones del 4 al 11 de noviembre de 2026.",
-"url": "https://www.comunidad.madrid/servicios/empleo/tecnico-cuidados-auxiliares-enfermeria",
-"fecha": "2026-11-03",
-"temas": [
-"fechasPlazos",
-"procedimientoAdministrativo"
-],
-"gancho": "¿Hiciste el examen en Madrid? Revisa tus respuestas ya.",
-"por_que": "Informa sobre plazos administrativos cruciales para recurrir o revisar notas en un proceso con más de 1.000 plazas."
-},
-{
-"titulo": "Día Internacional de las Personas Cuidadoras",
-"dato": "Naciones Unidas conmemora el 5 de noviembre la labor de personas cuidadoras profesionales y familiares que atienden a dependientes y personas mayores.",
-"url": "https://ciudadesamigables.imserso.es/dm-cuidadoras",
-"fecha": "2026-11-05",
-"temas": [
-"geriatria",
-"funcionesTCAE",
-"necesidadesHumanas"
-],
-"gancho": "Mañana es nuestro día: el valor de cuidar bien.",
-"por_que": "Permite repasar el rol de soporte del TCAE, el síndrome del cuidador y las necesidades según Virginia Henderson."
-},
-{
-"titulo": "Campaña de vacunación de otoño frente a gripe y COVID-19",
-"dato": "La campaña de vacunación antigripal y COVID-19 continúa activa en noviembre, dirigida prioritariamente a mayores de 60 años, personal sanitario y colectivos de riesgo.",
-"url": "https://www.comunidad.madrid/servicios/salud/gripe",
-"fecha": "2026-10-28",
-"temas": [
-"inmunidadVacunas",
-"prevencionSalud",
-"saludLaboral"
-],
-"gancho": "Campaña de vacunación activa: fija estos conceptos clave de examen.",
-"por_que": "Las preguntas sobre cadena de frío, inmunidad activa artificial y grupos prioritarios caen de forma recurrente en OPE."
-},
-{
-"titulo": "Día Mundial contra la Neumonía",
-"dato": "El 12 de noviembre se celebra una jornada mundial para visibilizar la neumonía como infección pulmonar tratable y prevenible mediante vacunación.",
-"url": "https://www.saludcastillayleon.es/es/escuelapacientes/dias-mundiales/dia-mundial-neumonia",
-"fecha": "2026-11-12",
-"temas": [
-"respiratorio",
-"oxigenoterapia",
-"constantesVitales"
-],
-"gancho": "Neumonía en tu examen de TCAE: síntomas y posición.",
-"por_que": "Permite repasar la posición de Fowler, el control de saturación de oxígeno y las complicaciones respiratorias habituales."
-},
-{
-"titulo": "Día Mundial de la Diabetes",
-"dato": "El 14 de noviembre se conmemora el Día Mundial de la Diabetes promoviendo intervenciones diagnósticas precoces, educación diabetológica y estilos de vida saludables.",
-"url": "https://www.seen.es",
-"fecha": "2026-11-14",
-"temas": [
-"patologiaDigestivo",
-"nutricion",
-"muestras"
-],
-"gancho": "Todo lo que debes saber de diabetes para opositar.",
-"por_que": "Tema fundamental de examen: incluye dietoterapia, recogida de orina y controles de glucemia capilar por el TCAE."
-}
-]
+"items": []
 }
