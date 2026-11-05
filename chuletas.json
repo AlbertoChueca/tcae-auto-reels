@@ -314,5 +314,20 @@
 "tiktok": "6aebb1172c7f81e03471f058"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-11-05",
+"slot": "8",
+"topic": "patologiaDigestivo",
+"tema": "Patología del Aparato Digestivo",
+"subtema": "Términos digestivos que se confunden",
+"quiz_id": "2a11bdd2e3",
+"imagenes": 7,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/DfXVUotjEgQ/",
+"tiktok": "6aec9deddd07283f3c1b150a"
+},
+"dry_run": false
 }
 ]
