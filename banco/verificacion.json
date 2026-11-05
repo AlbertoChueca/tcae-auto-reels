@@ -27,22 +27,22 @@
 "fecha": "2026-10-13"
 },
 "aca0895b14": {
-"veredicto": "dudosa",
-"motivo": "Aunque la respuesta es correcta según el Estatuto de Autonomía, el texto proporcionado corresponde a la Ley de Salud y no permite verificarlo.",
+"veredicto": "ok",
+"motivo": "El artículo 14.2 del Estatuto de Autonomía de Aragón reconoce el derecho a acceder a los servicios públicos de salud en condiciones de igualdad, universalidad y calidad.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-10-29"
+"fecha": "2026-11-05"
 },
 "7aae196175": {
 "veredicto": "ok",
-"motivo": "El artículo 2.3 de la Ley 4/1985 reguladora del Justicia de Aragón establece que su mandato tiene una duración de cinco años.",
+"motivo": "El mandato del Justicia de Aragón tiene una duración de cinco años, tal y como establece su ley reguladora (Ley 4/1985).",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-10-29"
+"fecha": "2026-11-05"
 },
 "1a5a0409fc": {
 "veredicto": "ok",
@@ -216,13 +216,13 @@
 "fecha": "2026-10-13"
 },
 "103ca661f6": {
-"veredicto": "dudosa",
-"motivo": "El texto proporcionado no menciona el plazo de tres meses para el recurso de inconstitucionalidad, regulado en la Ley Orgánica del Tribunal Constitucional.",
+"veredicto": "ok",
+"motivo": "El plazo general para interponer un recurso de inconstitucionalidad es de 3 meses, según el artículo 33 de la Ley Orgánica del Tribunal Constitucional.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-10-29"
+"fecha": "2026-11-05"
 },
 "1f1c62301d": {
 "veredicto": "ok",
@@ -549,13 +549,13 @@
 "fecha": "2026-10-13"
 },
 "689df886bb": {
-"veredicto": "dudosa",
-"motivo": "El texto proporcionado es la ley estatal y no menciona explícitamente al Consejo de Transparencia de Aragón como órgano autonómico competente.",
+"veredicto": "ok",
+"motivo": "En Aragón, el órgano autonómico competente para resolver estas reclamaciones es el Consejo de Transparencia de Aragón, creado por la Ley 8/2015 autonómica.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-10-29"
+"fecha": "2026-11-05"
 },
 "6447e42814": {
 "veredicto": "ok",
@@ -613,12 +613,12 @@
 },
 "951465215e": {
 "veredicto": "ok",
-"motivo": "La Ponencia encargada de redactar el anteproyecto de la Constitución estuvo formada por siete diputados, conocidos históricamente como los 'Padres de la Constitución'.",
+"motivo": "La Ponencia constitucional estuvo formada por siete miembros, históricamente conocidos como los 'Padres de la Constitución'.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-10-29"
+"fecha": "2026-11-05"
 },
 "b1d5e3d1eb": {
 "veredicto": "ok",
@@ -982,12 +982,12 @@
 },
 "1377cc262e": {
 "veredicto": "ok",
-"motivo": "La Ley Orgánica 3/1981 del Defensor del Pueblo establece que su elección requiere una mayoría de tres quintos tanto en el Congreso como en el Senado.",
+"motivo": "La Ley Orgánica 3/1981 establece que el Defensor del Pueblo es elegido por mayoría de tres quintos tanto en el Congreso como en el Senado.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-10-29"
+"fecha": "2026-11-05"
 },
 "458e88c007": {
 "veredicto": "ok",
@@ -1044,13 +1044,13 @@
 "fecha": "2026-10-13"
 },
 "47bf377f6d": {
-"veredicto": "dudosa",
-"motivo": "El texto de la Ley 9/2017 proporcionado no incluye el artículo que establece el umbral de 5.000 euros para la comunicación al Registro de Contratos.",
+"veredicto": "ok",
+"motivo": "Según el artículo 346.3 de la Ley 9/2017 de Contratos del Sector Público, es obligatorio comunicar los contratos de importe igual o superior a 5.000 euros.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-10-29"
+"fecha": "2026-11-05"
 },
 "bead865b93": {
 "veredicto": "ok",
@@ -1116,13 +1116,13 @@
 "fecha": "2026-10-13"
 },
 "137d169b9f": {
-"veredicto": "dudosa",
-"motivo": "El texto proporcionado no incluye el encabezado del Título VI para confirmar unívocamente que corresponde al Poder Judicial.",
+"veredicto": "ok",
+"motivo": "El Título VI de la Constitución Española (artículos 117 a 127) está dedicado íntegramente a regular el Poder Judicial.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-10-29"
+"fecha": "2026-11-05"
 },
 "e62208af1d": {
 "veredicto": "ok",
@@ -1333,12 +1333,12 @@
 },
 "9d0cc7646e": {
 "veredicto": "ok",
-"motivo": "El texto confirma explícitamente que el Título VII de la Constitución se titula 'Economía y Hacienda'.",
+"motivo": "El Título VII de la Constitución Española (artículos 128 a 136) se denomina 'Economía y Hacienda'.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-10-29"
+"fecha": "2026-11-05"
 },
 "bbd06f8c55": {
 "veredicto": "ok",
@@ -1360,12 +1360,12 @@
 },
 "d3a2d404ed": {
 "veredicto": "ok",
-"motivo": "El anteproyecto de la Constitución Española se publicó oficialmente en el Boletín Oficial de las Cortes el 5 de enero de 1978 para iniciar el trámite de enmiendas.",
+"motivo": "El 5 de enero de 1978 es la fecha histórica correcta de publicación del anteproyecto constitucional en el Boletín Oficial de las Cortes.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-10-29"
+"fecha": "2026-11-05"
 },
 "728be4f84a": {
 "veredicto": "ok",
@@ -1522,12 +1522,12 @@
 },
 "efce20d1ac": {
 "veredicto": "ok",
-"motivo": "La Ley 6/2002, de 15 de abril, de Salud de Aragón, es la norma autonómica que ordenó y configuró definitivamente el sistema sanitario tras asumir las transferencias del INSALUD.",
-"fuente_ok": false,
-"referencia": "",
-"cita": "",
+"motivo": "La Ley 6/2002 de Salud de Aragón es la norma fundamental que ordenó el sistema sanitario aragonés tras asumir las transferencias.",
+"fuente_ok": true,
+"referencia": "Ley 6/2002, de 15 de abril, de Salud de Aragón · Título oficial",
+"cita": "Ley 6/2002, de 15 de abril, de Salud de Aragón.",
 "correcta_sugerida": null,
-"fecha": "2026-10-29"
+"fecha": "2026-11-05"
 },
 "fe663c556c": {
 "veredicto": "ok",
@@ -1738,12 +1738,12 @@
 },
 "4463103860": {
 "veredicto": "ok",
-"motivo": "El Real Decreto 1475/2001, de 27 de diciembre, es la norma que hizo efectivo el traspaso de las funciones y servicios del INSALUD a la Comunidad Autónoma de Aragón.",
+"motivo": "El Real Decreto 1475/2001 es la norma que hizo efectivo el traspaso de las funciones y servicios del INSALUD a la Comunidad Autónoma de Aragón.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-10-29"
+"fecha": "2026-11-05"
 },
 "4da0bc5ef7": {
 "veredicto": "error",
@@ -1783,12 +1783,12 @@
 },
 "c36110f8a9": {
 "veredicto": "ok",
-"motivo": "Entre las elecciones constituyentes del 15 de junio de 1977 y la entrada en vigor de la Constitución el 29 de diciembre de 1978 transcurrió aproximadamente un año y medio.",
+"motivo": "Entre las elecciones de junio de 1977 y la entrada en vigor de la Constitución en diciembre de 1978 transcurrieron 18 meses, es decir, un año y medio.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-10-29"
+"fecha": "2026-11-05"
 },
 "4edbceb895": {
 "veredicto": "ok",
@@ -1872,13 +1872,13 @@
 "fecha": "2026-10-13"
 },
 "8245bd876b": {
-"veredicto": "dudosa",
-"motivo": "El texto proporcionado no enumera la totalidad de los títulos de la Constitución para confirmar que son exactamente diez.",
+"veredicto": "ok",
+"motivo": "La Constitución Española tiene 10 títulos numerados (del I al X) además del Título Preliminar.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-10-29"
+"fecha": "2026-11-05"
 },
 "863995f46a": {
 "veredicto": "ok",
@@ -2170,12 +2170,12 @@
 },
 "f803623eb9": {
 "veredicto": "ok",
-"motivo": "La Ley 8/1996, de 2 de diciembre, de Delimitación Comarcal de Aragón, fue la norma que estableció el mapa de las 33 comarcas aragonesas.",
+"motivo": "La Ley 8/1996, de 2 de diciembre, es efectivamente la Ley de Delimitación Comarcal de Aragón que estableció las 33 comarcas.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-10-29"
+"fecha": "2026-11-05"
 },
 "6433d65348": {
 "veredicto": "ok",
@@ -2278,12 +2278,12 @@
 },
 "94b6c30a65": {
 "veredicto": "ok",
-"motivo": "Según el artículo 2.2 de la Ley 4/1985 del Justicia de Aragón, si tras tres votaciones no se alcanzan los tres quintos, bastará la mayoría absoluta.",
+"motivo": "La Ley 4/1985 del Justicia de Aragón establece que, si tras tres votaciones no se alcanzan los tres quintos, bastará la mayoría absoluta en las siguientes.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-10-29"
+"fecha": "2026-11-05"
 },
 "602de32617": {
 "veredicto": "ok",
@@ -2503,12 +2503,12 @@
 },
 "2f309928e3": {
 "veredicto": "ok",
-"motivo": "El Decreto 39/2024, de 28 de febrero, es la norma vigente que aprueba la estructura orgánica del Departamento de Sanidad y del Servicio Aragonés de Salud.",
+"motivo": "El Decreto 39/2024, de 28 de febrero, es la norma vigente que regula la estructura orgánica del Departamento de Sanidad y del SALUD en Aragón.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-10-29"
+"fecha": "2026-11-05"
 },
 "72e5c26846": {
 "veredicto": "ok",
@@ -4888,12 +4888,12 @@
 },
 "4449ecb2a3": {
 "veredicto": "ok",
-"motivo": "Es un hecho geográfico y jurídico consolidado que el Estado español se organiza en 17 Comunidades Autónomas y 2 Ciudades Autónomas.",
+"motivo": "El Estado español se organiza territorialmente en 17 Comunidades Autónomas y 2 Ciudades Autónomas (Ceuta y Melilla).",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-10-29"
+"fecha": "2026-11-05"
 },
 "e6a630275e": {
 "veredicto": "ok",
@@ -4924,12 +4924,12 @@
 },
 "ffdf21b0f9": {
 "veredicto": "ok",
-"motivo": "En el referéndum del 6 de diciembre de 1978, el 87,78% de los votantes respaldó la aprobación de la Constitución Española.",
+"motivo": "El 87,78% es el porcentaje histórico aceptado de votos afirmativos sobre el total de votantes en el referéndum constitucional de 1978.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-10-29"
+"fecha": "2026-11-05"
 },
 "ac509fdb95": {
 "veredicto": "ok",
@@ -5049,13 +5049,13 @@
 "fecha": "2026-10-22"
 },
 "64913b8049": {
-"veredicto": "dudosa",
-"motivo": "El fragmento proporcionado no incluye el Preámbulo de la Constitución, por lo que no es posible verificar la respuesta.",
+"veredicto": "ok",
+"motivo": "El Preámbulo de la Constitución establece literalmente que la Nación española proclama su voluntad 'en uso de su soberanía'.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-10-29"
+"fecha": "2026-11-05"
 },
 "1c51e829a3": {
 "veredicto": "ok",
@@ -6328,12 +6328,12 @@
 },
 "6dbb168282": {
 "veredicto": "ok",
-"motivo": "La mayoría simple se alcanza cuando los votos a favor superan a los votos en contra, sin tener en cuenta las abstenciones.",
+"motivo": "La mayoría simple se alcanza cuando los votos a favor superan a los votos en contra, sin tener en cuenta las abstenciones, votos nulos o en blanco.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-10-29"
+"fecha": "2026-11-05"
 },
 "92d6355820": {
 "veredicto": "ok",
@@ -6517,12 +6517,12 @@
 },
 "b07d68353d": {
 "veredicto": "ok",
-"motivo": "La Ley de Contratos del Sector Público prohíbe expresamente fraccionar el objeto del contrato para eludir los requisitos de publicidad o el procedimiento de adjudicación.",
+"motivo": "El artículo 99.2 de la Ley 9/2017 prohíbe expresamente fraccionar un contrato para disminuir su cuantía y eludir los requisitos de publicidad o el procedimiento de adjudicación.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-10-29"
+"fecha": "2026-11-05"
 },
 "c5904bdf1d": {
 "veredicto": "ok",
@@ -8017,5 +8017,887 @@
 "cita": "de la atención primaria, los usuarios del Sistema Nacional de Salud tienen derecho, en el marco de su Área de Salud, a ser atendidos en los servicios especializados hospitalarios.",
 "correcta_sugerida": null,
 "fecha": "2026-11-02"
+},
+"d273a862d4": {
+"veredicto": "ok",
+"motivo": "Las vacunas inactivadas contienen microorganismos muertos o inactivados, por lo que son incapaces de producir la enfermedad.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"a58a724ced": {
+"veredicto": "ok",
+"motivo": "El colector urinario externo (tipo preservativo) es un dispositivo no invasivo diseñado específicamente para la anatomía masculina como alternativa al sondaje.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"01427ea7d9": {
+"veredicto": "ok",
+"motivo": "La higiene de la sonda vesical se realiza siempre desde el meato urinario hacia el exterior (de proximal a distal) para evitar la introducción de microorganismos.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"0238e8bc24": {
+"veredicto": "ok",
+"motivo": "La posición de Trendelenburg consiste en colocar al paciente en decúbito supino con la cabeza más baja que los pies, favoreciendo el retorno venoso.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"0e5857aa11": {
+"veredicto": "ok",
+"motivo": "El Proceso de Atención de Enfermería (PAE) consta universalmente de cinco etapas: valoración, diagnóstico, planificación, ejecución y evaluación.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"61fa0636ba": {
+"veredicto": "ok",
+"motivo": "Las funciones del TCAE están reguladas históricamente en los artículos 74 a 84 del Estatuto de Personal Sanitario no Facultativo de 1973.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"04a3b9f4f0": {
+"veredicto": "ok",
+"motivo": "La Ley 41/2002 establece que es el centro sanitario (institución asistencial) el responsable de archivar y custodiar las historias clínicas de sus pacientes.",
+"fuente_ok": true,
+"referencia": "Ley 41/2002, artículo 14",
+"cita": "Cada centro archivará las historias clínicas de sus pacientes, cualquiera que sea el soporte papel, audiovisual, informático o de otro tipo en el que consten, de manera que queden garantizadas su seguridad",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"fc9fbe7e82": {
+"veredicto": "ok",
+"motivo": "El drenaje de Redon es un sistema de drenaje activo y cerrado que utiliza el vacío para aspirar y evacuar fluidos de la zona quirúrgica.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"3e26701d5e": {
+"veredicto": "ok",
+"motivo": "El enema de Murphy o proctoclisis consiste en la administración lenta (gota a gota) de líquidos por vía rectal con el fin de rehidratar al paciente.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"b6802c2ef4": {
+"veredicto": "ok",
+"motivo": "Según los factores de conversión modificados y la normativa vigente sobre etiquetado nutricional, el valor energético asignado a la fibra alimentaria es de 2 kcal/g.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"ed7e2eaeea": {
+"veredicto": "ok",
+"motivo": "La Conferencia Internacional sobre Atención Primaria de Salud de Alma-Ata se celebró efectivamente en el año 1978.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"9b72cc2119": {
+"veredicto": "ok",
+"motivo": "La temperatura del agua para el aseo del paciente debe estar entre 35ºC y 37ºC, por lo que 25ºC-30ºC es incorrecto.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"f56d53d818": {
+"veredicto": "ok",
+"motivo": "La Ley 19/2013 establece expresamente como causa de inadmisión que la información solicitada esté en curso de elaboración.",
+"fuente_ok": true,
+"referencia": "Ley 19/2013, de transparencia, acceso a la información pública y buen gobierno ·",
+"cita": "Se inadmitirán a trámite, mediante resolución motivada, las solicitudes: a) Que se refieran a información que esté en curso de elaboración",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"2c23cf1880": {
+"veredicto": "ok",
+"motivo": "El oxígeno medicinal es un gas seco, por lo que debe humidificarse para evitar la sequedad e irritación de las mucosas respiratorias.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"baaa976d2e": {
+"veredicto": "ok",
+"motivo": "La orina turbia, el mal olor y la fiebre son signos clínicos característicos de una infección del tracto urinario.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"cbea7870c8": {
+"veredicto": "ok",
+"motivo": "El autoclave de vapor a presión es el método de esterilización de elección y más habitual para el instrumental quirúrgico reutilizable.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"25745452ec": {
+"veredicto": "ok",
+"motivo": "El aplanamiento afectivo y la abulia son síntomas negativos clásicos de la esquizofrenia, frente a los positivos como las alucinaciones.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"de1d643215": {
+"veredicto": "ok",
+"motivo": "Exponer la muestra a la luz no es un requisito, ya que muchas muestras son fotosensibles y deben protegerse de ella para no alterarse.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"6a0ad8d87e": {
+"veredicto": "dudosa",
+"motivo": "El texto de la fuente confirma el contenido de los artículos 17 y 18, pero no demuestra explícitamente que pertenezcan al Capítulo IV, por lo que no se puede verificar de forma completa con el fragmento dado.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"ed57162e20": {
+"veredicto": "ok",
+"motivo": "La NANDA (North American Nursing Diagnosis Association) se fundó formalmente en el año 1982.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"9605b6a124": {
+"veredicto": "ok",
+"motivo": "La fecha exacta de la Ley Orgánica para la igualdad efectiva de mujeres y hombres es el 22 de marzo de 2007.",
+"fuente_ok": true,
+"referencia": "Ley Orgánica 3/2007, Título oficial",
+"cita": "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres.",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"bf1725f2c2": {
+"veredicto": "ok",
+"motivo": "El modelo EFQM es un marco de autoevaluación basado en los principios de la excelencia empresarial.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"fa5935523c": {
+"veredicto": "ok",
+"motivo": "El sufijo '-iatría' hace referencia a la especialidad médica o al tratamiento de una enfermedad concreta.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"4341a796f6": {
+"veredicto": "ok",
+"motivo": "La raíz 'querato-' proviene del griego y significa cuerno o tejido córneo, aplicándose a la córnea y a la piel o uñas.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"eb70205a27": {
+"veredicto": "ok",
+"motivo": "El protocolo estándar de enfermería establece que el aseo completo del paciente encamado debe realizarse al menos una vez al día.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"8e5cc5f610": {
+"veredicto": "ok",
+"motivo": "El término se compone de 'gastro-' (estómago), 'entero-' (intestino) e '-itis' (inflamación).",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"6d9cfd6a48": {
+"veredicto": "ok",
+"motivo": "La eritromicina al 0,5% es el tratamiento profiláctico estándar para la conjuntivitis neonatal.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"34c76504af": {
+"veredicto": "ok",
+"motivo": "El lavado quirúrgico es el indicado antes de intervenciones quirúrgicas y su duración estándar es de unos 5 minutos.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"1c58cdb5a7": {
+"veredicto": "ok",
+"motivo": "El sufijo '-esclerosis' significa etimológicamente endurecimiento de un tejido u órgano.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"5b2920c85d": {
+"veredicto": "ok",
+"motivo": "La ictericia es el término médico correcto para la coloración amarillenta por acumulación de bilirrubina.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"fd22123095": {
+"veredicto": "ok",
+"motivo": "El calostro es la primera secreción láctea tras el parto, rica en inmunoglobulinas.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"ccefb1c1b8": {
+"veredicto": "ok",
+"motivo": "Las crisis de ausencia se conocen clásicamente en la terminología médica como 'petit mal'.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"1b8303cc55": {
+"veredicto": "ok",
+"motivo": "El calibre de las sondas se mide universalmente en la escala French (Fr) o Charrière (Ch).",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"2a7e4b5560": {
+"veredicto": "ok",
+"motivo": "La ortopnea es la disnea que aparece en decúbito y se alivia al adoptar la posición de sedestación.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"d208565add": {
+"veredicto": "ok",
+"motivo": "El frío local produce vasoconstricción y tiene un efecto antiinflamatorio y analgésico en procesos agudos.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"a2b6706949": {
+"veredicto": "ok",
+"motivo": "El sonido timpánico es el característico que se obtiene al percutir sobre vísceras huecas llenas de aire.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"0b33774cf2": {
+"veredicto": "ok",
+"motivo": "La posición genupectoral se emplea clásicamente para exploraciones de la zona rectal y prostática.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"502d455521": {
+"veredicto": "ok",
+"motivo": "La escala de Glasgow es la herramienta estándar utilizada para valorar el nivel de conciencia de un paciente.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"d007115120": {
+"veredicto": "ok",
+"motivo": "Al comunicar directamente la zona drenada con el exterior, los drenajes abiertos presentan un mayor riesgo de infección o contaminación.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"dcca8c375b": {
+"veredicto": "ok",
+"motivo": "El modelo de Virginia Henderson se define como un modelo de suplencia y ayuda para satisfacer las 14 necesidades básicas.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"53197e7242": {
+"veredicto": "ok",
+"motivo": "El artículo 31 establece que la selección puede realizarse por concurso-oposición, oposición o concurso según las circunstancias.",
+"fuente_ok": true,
+"referencia": "Ley 55/2003, Artículo 31",
+"cita": "La selección del personal estatutario fijo se efectuará con carácter general a través del sistema de concurso-oposición. La selección podrá realizarse a través del sistema de oposición",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"15e5ca5953": {
+"veredicto": "ok",
+"motivo": "La apraxia es el trastorno neurológico caracterizado por la incapacidad de llevar a cabo movimientos voluntarios y con propósito a pesar de conservar la fuerza.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"ac1f1f8d57": {
+"veredicto": "ok",
+"motivo": "La tromboflebitis, la retención urinaria y el estreñimiento son complicaciones postoperatorias comunes y bien documentadas en la bibliografía de TCAE.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"e76eff7a98": {
+"veredicto": "ok",
+"motivo": "El drenaje Jackson-Pratt es un sistema activo cerrado que utiliza un bulbo para ejercer presión negativa (aspiración).",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"bd100e5346": {
+"veredicto": "ok",
+"motivo": "La ecografía es la única prueba de las opciones que utiliza ondas sonoras (ultrasonidos). Aunque algunas ecografías específicas requieren preparación (como ayuno o vejiga llena), en el contexto general y comparado con las otras opciones, es la respuesta indiscutible.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"175a95ff27": {
+"veredicto": "ok",
+"motivo": "El test de Graham debe realizarse a primera hora de la mañana, antes de defecar o lavar la zona anal, para poder capturar los huevos de los oxiuros depositados durante la noche.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"e5325482a6": {
+"veredicto": "ok",
+"motivo": "Según la fórmula de Cotte (Calidad = Percepciones - Expectativas), si las percepciones superan ampliamente a las expectativas, el resultado es una calidad excelente o ideal.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"d8b68f07c0": {
+"veredicto": "ok",
+"motivo": "En educación sanitaria, se recomienda que las sesiones no excedan los 45-60 minutos para evitar la fatiga y mantener la atención del grupo.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"2b789fceec": {
+"veredicto": "ok",
+"motivo": "Las pinzas de hemostasia (como las de Pean, Kocher, Mosquito) están diseñadas específicamente para ocluir vasos sanguíneos y detener hemorragias.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"b6441dde6b": {
+"veredicto": "ok",
+"motivo": "La escara se define clínicamente como tejido necrótico de color negro o marrón oscuro, seco, duro y firmemente adherido al lecho de la herida.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"e36c783c59": {
+"veredicto": "ok",
+"motivo": "El prefijo 'endo-' proviene del griego y significa 'dentro de' o 'en el interior'.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"a9d18fca99": {
+"veredicto": "ok",
+"motivo": "La termogénesis es el proceso fisiológico mediante el cual el organismo produce calor.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"e896420dde": {
+"veredicto": "ok",
+"motivo": "La vacunación induce una inmunidad activa (el cuerpo crea sus propios anticuerpos) y artificial (se administra médicamente).",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"cc1f683866": {
+"veredicto": "ok",
+"motivo": "La vida de anaquel o tiempo de caducidad es el periodo durante el cual un producto esterilizado mantiene su condición de estéril.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"04e2918b32": {
+"veredicto": "ok",
+"motivo": "La posición de Sims o decúbito lateral izquierdo facilita la entrada del líquido a favor de la gravedad por la anatomía del colon descendente.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"276a5ed402": {
+"veredicto": "ok",
+"motivo": "Según la Ley de Prevención de Riesgos Laborales, el trabajador tiene derecho a interrumpir su actividad si percibe un riesgo grave e inminente.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"a45fd44e13": {
+"veredicto": "ok",
+"motivo": "Las precauciones estándar establecen el uso de guantes ante cualquier posible contacto con fluidos corporales, independientemente del diagnóstico del paciente.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"a8f0744155": {
+"veredicto": "ok",
+"motivo": "El apéndice vermiforme es un divertículo tubular que se encuentra unido al ciego, la porción inicial del intestino grueso.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"9ccbfec8f7": {
+"veredicto": "ok",
+"motivo": "La hematemesis es el término médico correcto para definir el vómito de sangre procedente del aparato digestivo.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"a0feac8a92": {
+"veredicto": "ok",
+"motivo": "Un signo clínico es una manifestación objetiva y medible de una enfermedad, a diferencia del síntoma, que es subjetivo.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"a272b2228a": {
+"veredicto": "ok",
+"motivo": "El objetivo fundamental de la coordinación entre Atención Primaria y Especializada es asegurar la continuidad asistencial del paciente.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"b324bfc298": {
+"veredicto": "ok",
+"motivo": "El prefijo o raíz 'nefro-' proviene del griego y hace referencia anatómica al riñón.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"a72439d003": {
+"veredicto": "ok",
+"motivo": "Según la jerarquía de la pirámide de Maslow, las necesidades fisiológicas constituyen la base y tienen prioridad absoluta.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"ddd2d5607e": {
+"veredicto": "dudosa",
+"motivo": "El texto de la fuente confirma que el artículo 76 regula las incompatibilidades, pero no demuestra explícitamente que dicho artículo pertenezca al Capítulo XIII.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"843e7d3e2a": {
+"veredicto": "dudosa",
+"motivo": "La plantilla oficial marca la escala de Braden, que valora el riesgo de úlceras por presión. La escala correcta para el riesgo de caídas es la de Downton (opción C).",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"af1f570b44": {
+"veredicto": "ok",
+"motivo": "Las pinzas de disección con dientes se utilizan en tejidos resistentes (como piel o aponeurosis) para asegurar un buen agarre sin resbalar.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"fcd48316bb": {
+"veredicto": "ok",
+"motivo": "La tasa de prevalencia mide la proporción de individuos con una enfermedad en un momento dado sobre la población total.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"949444c49b": {
+"veredicto": "ok",
+"motivo": "La taquipnea se define como una frecuencia respiratoria anormalmente alta, por encima de 20-24 respiraciones por minuto en adultos.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"2c4629e7c5": {
+"veredicto": "ok",
+"motivo": "La proxemia es la disciplina que estudia el uso del espacio personal y las distancias interpersonales en la comunicación.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"783e97dda0": {
+"veredicto": "ok",
+"motivo": "El sistema nervioso somático es responsable del control voluntario de los movimientos corporales y la sensibilidad consciente.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"634edeb9d7": {
+"veredicto": "ok",
+"motivo": "La comunicación no verbal incluye la kinesia (gestos, postura, expresión facial), la proxemia y el paralenguaje (tono de voz).",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"f02e393d99": {
+"veredicto": "dudosa",
+"motivo": "El texto legal proporcionado no incluye el capítulo o artículo específico que consagra explícitamente el principio de libre circulación.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"001d209948": {
+"veredicto": "ok",
+"motivo": "La Constitución establece que la cuestión de confianza prospera con el voto favorable de la mayoría simple de los Diputados.",
+"fuente_ok": true,
+"referencia": "Constitución Española de 1978, Artículo 112",
+"cita": "La confianza se entenderá otorgada cuando vote a favor de la misma la mayoría simple de los Diputados.",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"b22bce2757": {
+"veredicto": "dudosa",
+"motivo": "La plantilla oficial parece errónea: los residuos de fiebres hemorrágicas como el Ébola son de alto riesgo infeccioso (Grupo III), no Grupo II.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"5108ddefbb": {
+"veredicto": "ok",
+"motivo": "La dificultad respiratoria es un signo de anafilaxia, una reacción adversa grave, mientras que el resto son efectos secundarios leves.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"47bf4b0aa9": {
+"veredicto": "ok",
+"motivo": "Cortar los blísteres perdiendo la fecha de caducidad es una práctica insegura que debe evitarse.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"c28b139fd2": {
+"veredicto": "ok",
+"motivo": "La curación de una úlcera existente es prevención terciaria (tratamiento), no primaria (evitar la enfermedad).",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"60111fd746": {
+"veredicto": "ok",
+"motivo": "Los laxantes osmóticos actúan atrayendo agua hacia la luz intestinal por ósmosis.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"29adecbfec": {
+"veredicto": "ok",
+"motivo": "Pasar la enfermedad genera inmunidad natural activa, ya que el propio cuerpo produce los anticuerpos de forma natural.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"c1fc23db57": {
+"veredicto": "ok",
+"motivo": "La Pirámide de los Alimentos original de 1992 fue creada por el Departamento de Agricultura de los Estados Unidos (USDA).",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"f72ba1972d": {
+"veredicto": "ok",
+"motivo": "La auscultación es la técnica de exploración física basada en escuchar los sonidos internos del cuerpo.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"a3b730aef6": {
+"veredicto": "ok",
+"motivo": "Los pólipos nasales pueden causar epistaxis (sangrado nasal), pero no hemoptisis, que proviene del tracto respiratorio inferior.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"4458975262": {
+"veredicto": "ok",
+"motivo": "La comunicación es un proceso bidireccional de intercambio de información entre personas, no es unilateral ni exclusivamente verbal.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"e354bf1254": {
+"veredicto": "dudosa",
+"motivo": "La plantilla oficial marca la C, pero el Anexo III del RD 486/1997 establece explícitamente que la temperatura para trabajos sedentarios estará comprendida entre 17 y 27 ºC (opción B).",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"791223afe2": {
+"veredicto": "ok",
+"motivo": "Es fundamental mantener una técnica aséptica al manipular cualquier drenaje para prevenir infecciones nosocomiales.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"ac93d5d686": {
+"veredicto": "ok",
+"motivo": "Según la Ley 39/2015, si el defecto de forma no causa indefensión ni impide alcanzar el fin del acto, se considera una irregularidad no invalidante.",
+"fuente_ok": true,
+"referencia": "Ley 39/2015, del Procedimiento Administrativo Común · Artículo 48",
+"cita": "el defecto de forma sólo determinará la anulabilidad cuando el acto carezca de los requisitos formales indispensables para alcanzar su fin o dé lugar a la indefensión de los interesados.",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"583a33380e": {
+"veredicto": "ok",
+"motivo": "La pústula se define clínicamente como una lesión cutánea elevada y circunscrita que contiene exudado purulento.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"94f5cb1cd1": {
+"veredicto": "ok",
+"motivo": "El ruido, el miedo, los prejuicios y la falta de empatía son elementos que dificultan o impiden la correcta transmisión del mensaje, actuando como barreras.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"686adc9117": {
+"veredicto": "ok",
+"motivo": "La Ley General de Sanidad prevé que en infracciones muy graves se pueda acordar el cierre temporal del establecimiento por un máximo de cinco años.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"09272ccf16": {
+"veredicto": "dudosa",
+"motivo": "La plantilla oficial marca la D, pero los protocolos clínicos (como los de la OMS) recomiendan la punción en la planta del pie (talón) solo en menores de 1 año; en niños mayores se prefiere el pulpejo del dedo.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"5a8c629c76": {
+"veredicto": "ok",
+"motivo": "El sufijo '-patía' se utiliza en terminología médica para indicar enfermedad o afección.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"4dffa6d78b": {
+"veredicto": "ok",
+"motivo": "El artículo 72.1 de la Ley 55/2003 establece claramente esta clasificación de las faltas disciplinarias.",
+"fuente_ok": true,
+"referencia": "Ley 55/2003, Artículo 72.1",
+"cita": "Las faltas disciplinarias pueden ser muy graves, graves o leves.",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"13fdbfba03": {
+"veredicto": "ok",
+"motivo": "La característica de aunar promoción, prevención, tratamiento y rehabilitación se denomina atención integrada o integral.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"2e45c6b993": {
+"veredicto": "ok",
+"motivo": "La disartria es la alteración en la articulación de las palabras debido a problemas neuromusculares.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"a48caabc17": {
+"veredicto": "ok",
+"motivo": "La extracción manual (desimpactación) es el procedimiento indicado cuando los enemas no logran resolver un fecaloma severo.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"7f5bdc10a3": {
+"veredicto": "ok",
+"motivo": "El control de drenajes requiere un registro periódico, habitualmente por turno, para monitorizar correctamente la evolución del paciente.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"f59869f4b7": {
+"veredicto": "ok",
+"motivo": "La nutrición enteral preserva el trofismo y la función intestinal al utilizar el tubo digestivo de forma fisiológica.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
+},
+"e6289c9e31": {
+"veredicto": "ok",
+"motivo": "La clorhexidina y la povidona yodada son los antisépticos de elección más comunes para el lavado de manos antiséptico y quirúrgico.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-05"
 }
 }

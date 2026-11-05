@@ -1,7 +1,7 @@
-# Informe del verificador (2026-11-02)
+# Informe del verificador (2026-11-05)
 
-- Preguntas en el banco: 1822 · revisadas: 891 · **publicables: 827**
-- Posibles errores: 13 · dudosas: 23 · correctas pero sin texto de la norma para citar: 28
+- Preguntas en el banco: 1822 · revisadas: 989 · **publicables: 918**
+- Posibles errores: 13 · dudosas: 23 · correctas pero sin texto de la norma para citar: 35
 
 Las marcadas como posible error conviene revisarlas también en la web app.
 
@@ -37,22 +37,10 @@ Las marcadas como posible error conviene revisarlas también en la web app.
 
 ## Dudosas (23)
 
-- **[Ley de Salud de Aragón (Ley 6/2002)]** Según el estatuto de autonomía de Aragón todas las personas tienen derecho a acceder a los servicios públicos de salud, en condiciones de: — marcada A) Igualdad, universalidad y calidad
-  - Aunque la respuesta es correcta según el Estatuto de Autonomía, el texto proporcionado corresponde a la Ley de Salud y no permite verificarlo.
-- **[Constitución Española de 1978]** ¿Cuál es el plazo general para interponer un recurso de inconstitucionalidad desde la publicación de la norma impugnada? — marcada A) 3 meses
-  - El texto proporcionado no menciona el plazo de tres meses para el recurso de inconstitucionalidad, regulado en la Ley Orgánica del Tribunal Constitucional.
 - **[Geriatría]** Un país se considera envejecido cuando su índice de envejecimiento es: — marcada C) Mayor del 11%
   - El término 'índice de envejecimiento' suele referirse a la relación entre mayores de 64 y menores de 15. Si se refiere a la tasa sobre el total, los umbrales varían según el autor (OMS, ONU), siendo a menudo >12% o >14%.
-- **[Transparencia y Acceso a la Información Pública]** En Aragón, ¿ante qué órgano puede reclamar un ciudadano si le deniegan el acceso a la información pública? — marcada A) Ante el Consejo de Transparencia de Aragón
-  - El texto proporcionado es la ley estatal y no menciona explícitamente al Consejo de Transparencia de Aragón como órgano autonómico competente.
 - **[Limpieza y Desinfección]** ¿Cuál es el periodo de caducidad habitual de un material esterilizado envuelto en una bolsa de papel mixto (doble capa, papel-plástico)? — marcada C) 12 meses
   - La caducidad varía según el protocolo del centro; a menudo, una bolsa mixta simple se considera válida por 6 meses, generando ambigüedad con el término 'doble capa'.
-- **[Contratación del Sector Público (Ley 9/2017)]** ¿A partir de qué importe es obligatorio comunicar los datos de un contrato al Registro de Contratos del Sector Público? — marcada A) A partir de 5.000 euros
-  - El texto de la Ley 9/2017 proporcionado no incluye el artículo que establece el umbral de 5.000 euros para la comunicación al Registro de Contratos.
-- **[Constitución Española de 1978]** ¿Qué título de la Constitución regula el Poder Judicial? — marcada B) Título VI
-  - El texto proporcionado no incluye el encabezado del Título VI para confirmar unívocamente que corresponde al Poder Judicial.
-- **[Constitución Española de 1978]** Sin contar el Título Preliminar, ¿cuántos títulos numerados (del I al X) tiene la Constitución Española? — marcada C) Diez
-  - El texto proporcionado no enumera la totalidad de los títulos de la Constitución para confirmar que son exactamente diez.
 - **[Aparato Urinario]** La capacidad habitual de la vejiga urinaria es de aproximadamente: — marcada B) 200-300 ml
   - El término 'capacidad habitual' es ambiguo: el deseo miccional aparece a los 200-300 ml, pero la capacidad funcional normal es de 300-500 ml (como indica una de las propias fichas de la app).
 - **[Nutrición y Alimentación]** Es un aminoácido esencial: — marcada B) Alanina
@@ -69,8 +57,6 @@ Las marcadas como posible error conviene revisarlas también en la web app.
   - La duración del lavado antiséptico varía según la bibliografía; la OMS recomienda 40-60 segundos, mientras que algunos manuales clásicos de TCAE indican 2-3 minutos.
 - **[Instrumental Quirúrgico]** ¿Cómo se denomina a la parte que mantiene el instrumental quirúrgico cuando está trabado? — marcada C) Caja de traba
   - La plantilla oficial parece errónea: la parte que mantiene el instrumental trabado o cerrado es la 'cremallera', mientras que la 'caja de traba' es la articulación o bisagra.
-- **[Constitución Española de 1978]** ¿En nombre de quién proclama la Nación Española su voluntad al inicio del Preámbulo? — marcada A) En uso de su soberanía
-  - El fragmento proporcionado no incluye el Preámbulo de la Constitución, por lo que no es posible verificar la respuesta.
 - **[Sondas Digestivas]** El calibre de una sonda hace referencia a: — marcada B) El diámetro de la luz
   - Técnicamente, el calibre (escala French) mide el diámetro externo de la sonda, no el diámetro de la luz (interno), aunque suele darse por válida al ser la mejor opción.
 - **[Ley General de Sanidad (Ley 14/1986)]** ¿Qué instituto de investigación sanitaria fue creado por la Ley General de Sanidad? — marcada A) El Instituto de Salud Carlos III
@@ -83,3 +69,17 @@ Las marcadas como posible error conviene revisarlas también en la web app.
   - Aunque la fórmula Calidad = Percepción - Expectativas es correcta conceptualmente, la atribución al autor 'Cotte' es inusual y podría ser una errata de otro autor (como Kotler).
 - **[Contratación del Sector Público (Ley 9/2017)]** ¿Cuáles son los dos procedimientos de adjudicación ordinarios según la Ley 9/2017? — marcada A) El abierto y el restringido
   - Aunque la respuesta es correcta, el texto legal proporcionado omite el artículo 131.2 de la ley, que es el que define explícitamente cuáles son los procedimientos ordinarios.
+- **[Estatuto Marco del Personal Estatutario (Ley 55/2003)]** ¿En qué capítulo de la Ley 55/2003 se regulan los derechos y deberes del personal estatutario? — marcada B) Capítulo IV (artículos 17 a 19)
+  - El texto de la fuente confirma el contenido de los artículos 17 y 18, pero no demuestra explícitamente que pertenezcan al Capítulo IV, por lo que no se puede verificar de forma completa con el fragmento dado.
+- **[Estatuto Marco del Personal Estatutario (Ley 55/2003)]** ¿En qué capítulo de la Ley 55/2003 se regula el régimen de incompatibilidades del personal estatutario? — marcada C) Capítulo XIII
+  - El texto de la fuente confirma que el artículo 76 regula las incompatibilidades, pero no demuestra explícitamente que dicho artículo pertenezca al Capítulo XIII.
+- **[Geriatría]** ¿Cuál de las siguientes escalas se utiliza para valorar el riesgo de caídas en el anciano? — marcada B) Escala de Braden
+  - La plantilla oficial marca la escala de Braden, que valora el riesgo de úlceras por presión. La escala correcta para el riesgo de caídas es la de Downton (opción C).
+- **[Estatuto Marco del Personal Estatutario (Ley 55/2003)]** El principio de libre circulación y la posibilidad de movilidad del personal estatutario en todo el Sistema Nacional de Salud se consagra en: — marcada A) El capítulo dedicado a la movilidad del personal
+  - El texto legal proporcionado no incluye el capítulo o artículo específico que consagra explícitamente el principio de libre circulación.
+- **[Limpieza y Desinfección]** Los residuos de pacientes con Fiebre de Lassa o Ébola se clasifican como: — marcada A) Grupo II
+  - La plantilla oficial parece errónea: los residuos de fiebres hemorrágicas como el Ébola son de alto riesgo infeccioso (Grupo III), no Grupo II.
+- **[Salud Laboral y Prevención de Riesgos]** Según el RD 486/1997, la temperatura en un entorno de trabajo sedentario, como un control de enfermería debe estar entre: — marcada C) 20 y 24 °C
+  - La plantilla oficial marca la C, pero el Anexo III del RD 486/1997 establece explícitamente que la temperatura para trabajos sedentarios estará comprendida entre 17 y 27 ºC (opción B).
+- **[Recogida de Muestras]** La punción capilar en niños menores de 4 años se realiza generalmente en: — marcada D) Planta del pie
+  - La plantilla oficial marca la D, pero los protocolos clínicos (como los de la OMS) recomiendan la punción en la planta del pie (talón) solo en menores de 1 año; en niños mayores se prefiere el pulpejo del dedo.
