@@ -329,5 +329,20 @@
 "tiktok": "6aec9deddd07283f3c1b150a"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-11-05",
+"slot": "18",
+"topic": "vocabulario",
+"tema": "Vocabulario Sanitario",
+"subtema": "Términos sobre la orina",
+"quiz_id": "b61f6de3ab",
+"imagenes": 7,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/DfYHRg9GAGQ/",
+"tiktok": "6aed04489fde6b5e151e6fc0"
+},
+"dry_run": false
 }
 ]
