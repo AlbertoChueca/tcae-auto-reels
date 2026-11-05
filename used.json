@@ -550,5 +550,11 @@
 "topic": "exploracionPaciente",
 "fecha": "2026-11-04",
 "formato": "simulacro_3"
+},
+{
+"id": "3210a003d7",
+"topic": "educacionSanitaria",
+"fecha": "2026-11-05",
+"formato": "pregunta_del_dia"
 }
 ]

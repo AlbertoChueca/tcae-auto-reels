@@ -1,16 +1,86 @@
 {
-"fecha": "2026-11-04",
-"fuentes_consultadas": 0,
+"fecha": "2026-11-05",
+"fuentes_consultadas": 7,
 "diag": {
 "modelo": "gemini-3.8-flash",
-"busquedas": 0,
-"fuentes": 0,
-"claves": [],
+"busquedas": 4,
+"fuentes": 7,
+"claves": [
+"groundingChunks",
+"groundingSupports",
+"searchEntryPoint",
+"webSearchQueries"
+],
 "cand_claves": [
 "content",
 "finishReason",
+"groundingMetadata",
 "index"
 ]
 },
-"items": []
+"items": [
+{
+"titulo": "Campaña de vacunación respiratoria general y sin cita previa",
+"dato": "La Conselleria de Sanidad amplía desde el 2 de noviembre la vacunación frente a la gripe a toda la población y elimina la cita previa desde el 5 de noviembre.",
+"url": "https://www.san.gva.es",
+"fecha": "2026-11-02",
+"temas": [
+"inmunidadVacunas",
+"prevencionSalud",
+"respiratorio"
+],
+"gancho": "¿Vacuna sin cita previa? Esta pregunta cae en examen",
+"por_que": "Permite repasar vacunas estacionales, vías de administración y grupos de riesgo típicos en supuestos prácticos de Atención Primaria."
+},
+{
+"titulo": "Plazo de alegaciones en la convocatoria laboral TCAE de Madrid",
+"dato": "Se publica la plantilla del llamamiento extraordinario del primer ejercicio de TCAE y se abre plazo de alegaciones del 4 al 11 de noviembre de 2026.",
+"url": "https://www.comunidad.madrid/servicios/empleo/tecnico-cuidados-auxiliares-enfermeria",
+"fecha": "2026-11-03",
+"temas": [
+"fechasPlazos",
+"procedimientoAdministrativo"
+],
+"gancho": "¡Atenta a los plazos! Plantilla y alegaciones TCAE publicadas",
+"por_que": "Excelente gancho para explicar cómo formular alegaciones y recordar el cómputo de plazos según la Ley 39/2015."
+},
+{
+"titulo": "Listas provisionales de bolsa de empleo temporal TCAE en Aragón",
+"dato": "El Servicio Aragonés de Salud publica el 28 de octubre de 2026 las listas provisionales de admitidos y excluidos para cobertura temporal estatutaria de TCAE.",
+"url": "https://www.aragon.es",
+"fecha": "2026-10-28",
+"temas": [
+"estatutoMarco",
+"fechasPlazos"
+],
+"gancho": "¿Estás en bolsa? Salud Aragón publica listados provisionales TCAE",
+"por_que": "Sirve para revisar las modalidades de nombramiento temporal estatutario y los requisitos de acceso del Estatuto Marco."
+},
+{
+"titulo": "Día Mundial de la Neumonía: signos y oxigenoterapia",
+"dato": "El 12 de noviembre se celebra el Día Mundial contra la Neumonía para sensibilizar sobre esta infección respiratoria y su prevención.",
+"url": "https://www.who.int/es",
+"fecha": "2026-11-12",
+"temas": [
+"respiratorio",
+"oxigenoterapia",
+"constantesVitales"
+],
+"gancho": "Neumonía en la opo: lo que te preguntarán siempre",
+"por_que": "Momento idóneo para repasar taquipnea, saturación basal, mascarillas de oxígeno y precauciones de aislamiento respiratorio."
+},
+{
+"titulo": "Campaña PRAN: 'Usar bien los antibióticos es vital'",
+"dato": "El Plan Nacional frente a la Resistencia a los Antibióticos lanza su campaña en noviembre para concienciar sobre el uso prudente de antimicrobianos.",
+"url": "https://www.resistenciaantibioticos.es",
+"fecha": "2026-11-01",
+"temas": [
+"farmacologia",
+"seguridad",
+"educacionSanitaria"
+],
+"gancho": "Antibióticos y resistencias: pregunta segura en tu examen TCAE",
+"por_que": "Permite repasar el cumplimiento terapéutico, la prevención de infecciones nosocomiales y las normas de bioseguridad del paciente."
+}
+]
 }

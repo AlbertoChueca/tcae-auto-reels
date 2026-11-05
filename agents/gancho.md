@@ -1,5 +1,6 @@
-# Cuaderno de gancho (2026-11-04)
+# Cuaderno de gancho (2026-11-05)
 
-- Seguir haciendo: Ganchos directos de volumen y reto como «4 fichas de repaso» y «¿Te la sabes?» (top 1 y 2 con más de 1.100 views y 31 guardados).
-- Dejar de hacer: Fórmulas pasivas centradas en legislación como «¿Te sabes este artículo?» (score 7.13, 0 guardados).
-- Probar: Fórmulas que mezclen utilidad de guardia y examen: «4 datos clave que caen sí o sí en el examen».
+# Cuaderno de gancho
+- Seguir haciendo: Ganchos de volumen y reto directo («4 fichas de repaso», «¿Te la sabes?», «¿Aciertas las 3?»), líderes absolutos en views (900-1200) y guardados.
+- Dejar de hacer: Preguntas pasivas o ultraespecíficas de leyes («¿Te sabes este artículo?», 145 views, 0 guardados).
+- Probar: Fórmulas que unan volumen y examen: «4 preguntas oficiales que siempre caen».

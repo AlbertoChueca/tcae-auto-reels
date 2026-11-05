@@ -1,5 +1,5 @@
-# Cuaderno de series (2026-11-04)
+# Cuaderno de series (2026-11-05)
 
-- Seguir haciendo: Consolidar «Sábado de repaso exprés» (líder del canal con score 11.51) y «Miércoles de simulacro».
-- Dejar de hacer: Publicar reels huérfanos sin nombre de serie asignado (la gran mayoría rinde por debajo de 8.0).
-- Probar: Numeración visible y fija en el gancho («Sábado de repaso exprés #04») para afianzar el hábito semanal de seguimiento.
+- Seguir haciendo: Consolidar «Sábado de repaso exprés» (top 1 absoluto con 1.209 views) y «Miércoles de simulacro».
+- Dejar de hacer: Publicar reels sin serie asignada (la gran mayoría rinde por debajo de 8.0 sin generar hábito).
+- Probar: Incluir numeración visible en el gancho («Sábado de repaso exprés #04») para incentivar el seguimiento semanal recurrente.

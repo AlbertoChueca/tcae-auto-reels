@@ -1,6 +1,6 @@
 # Piloto automático Aprueba TCAE - qué está funcionando
 
-_Updated 2026-11-04 · 37 reels with results (3+ days old) · average score 7.64_
+_Updated 2026-11-05 · 40 reels with results (3+ days old) · average score 7.54_
 
 
 ## formato
@@ -12,9 +12,9 @@ _Updated 2026-11-04 · 37 reels with results (3+ days old) · average score 7.64
 | pregunta_del_dia | 22 | 7.38 |
 | examen_real | 6 | 7.35 |
 | error_tipico | 1 | 7.19 |
+| legislacion_30s | 3 | 6.31 |
 | truco_memorizar | 0 | - |
 | mito_realidad | 0 | - |
-| legislacion_30s | 0 | - |
 | caso_practico | 0 | - |
 
 ## estilo
@@ -27,18 +27,18 @@ _Updated 2026-11-04 · 37 reels with results (3+ days old) · average score 7.64
 | examen | 5 | 7.23 |
 | minimal | 3 | 7.04 |
 | marca | 3 | 6.87 |
-| ilustrado | 0 | - |
+| ilustrado | 3 | 6.31 |
 
 ## hook_style
 
 | option | reels | avg score |
 |---|---|---|
 | dilema_guardia | 2 | 9.35 |
-| trampa | 6 | 7.88 |
 | reto | 7 | 7.75 |
 | repaso exprés | 5 | 7.72 |
 | terminos_confusos | 2 | 7.44 |
 | examen | 8 | 7.41 |
+| trampa | 9 | 7.36 |
 | empatía | 3 | 7.10 |
 | curiosidad | 4 | 7.10 |
 
@@ -46,8 +46,8 @@ _Updated 2026-11-04 · 37 reels with results (3+ days old) · average score 7.64
 
 | option | reels | avg score |
 |---|---|---|
-| mixto | 19 | 7.83 |
 | clinico | 13 | 7.75 |
+| mixto | 22 | 7.62 |
 | legislacion | 4 | 6.86 |
 
 ## think_time
@@ -55,7 +55,7 @@ _Updated 2026-11-04 · 37 reels with results (3+ days old) · average score 7.64
 | option | reels | avg score |
 |---|---|---|
 | largo | 12 | 7.86 |
-| corto | 14 | 7.66 |
+| corto | 17 | 7.42 |
 | normal | 11 | 7.37 |
 
 ---
