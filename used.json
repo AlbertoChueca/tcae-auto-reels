@@ -556,5 +556,11 @@
 "topic": "educacionSanitaria",
 "fecha": "2026-11-05",
 "formato": "pregunta_del_dia"
+},
+{
+"id": "7b3129360c",
+"topic": "drenajes",
+"fecha": "2026-11-05",
+"formato": "caso_practico"
 }
 ]
