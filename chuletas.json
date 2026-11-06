@@ -344,5 +344,20 @@
 "tiktok": "6aed04489fde6b5e151e6fc0"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-11-06",
+"slot": "8",
+"topic": "upp",
+"tema": "Lesiones por Presión (UPP)",
+"subtema": "Estadios de las úlceras por presión",
+"quiz_id": "d55a861bd0",
+"imagenes": 6,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/DfZ3e1TlDCj/",
+"tiktok": "6aedea0d61972d801df50257"
+},
+"dry_run": false
 }
 ]
