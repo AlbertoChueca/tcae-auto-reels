@@ -1,6 +1,6 @@
-# Cuaderno de crecimiento (2026-11-05)
+# Cuaderno de crecimiento (2026-11-06)
 
 # Cuaderno de crecimiento
-- Seguir haciendo: Priorizar «flashcards_express» para captar guardados (31 en top 1) y «simulacro_3» para comentarios en cadena.
-- Dejar de hacer: Descripciones genéricas sin CTA concreto de guardado.
-- Probar: CTA explícito al inicio del copy: «Guarda esta ficha para repasar antes del examen. Más tests en apruebatcae.com».
+- Seguir haciendo: Impulsar «flashcards_express» para captar guardados masivos (31) y «simulacro_3» para encadenar comentarios.
+- Dejar de hacer: Descripciones sin llamada directa a guardar el contenido.
+- Probar: CTA inicial directo en la primera línea: «Guarda esta ficha para repasar antes del examen. Más simulacros en apruebatcae.com».

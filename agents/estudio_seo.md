@@ -1,5 +1,5 @@
-# Cuaderno de seo (2026-11-05)
+# Cuaderno de seo (2026-11-06)
 
-- Seguir haciendo: Palabras clave con tracción comprobada en el nicho: «repaso», «simulacro», «TCAE», «examen real» y «oficial» (scores >8.0).
-- Dejar de hacer: Términos genéricos o burocráticos como «artículo» o «normativa» (vistas bajas <150).
-- Probar: Estructuras indexables directas: «Simulacro TCAE: 3 preguntas oficiales de examen de sanidad».
+- Seguir haciendo: Palabras clave de alta intención de búsqueda en títulos y texto: «TCAE», «repaso», «simulacro», «examen real» (scores >8.0).
+- Dejar de hacer: Términos burocráticos como «artículo» o «normativa» que hunden el alcance (<150 views).
+- Probar: Estructura SEO directa y localizada: «Simulacro TCAE: 3 preguntas oficiales de examen del SAS / SERMAS».

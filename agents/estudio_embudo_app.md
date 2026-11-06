@@ -1,5 +1,5 @@
-# Cuaderno de embudo_app (2026-11-05)
+# Cuaderno de embudo_app (2026-11-06)
 
-- Seguir haciendo: Conectar las preguntas del reel con el banco de test oficiales disponible en apruebatcae.com.
-- Dejar de hacer: Conclusiones sobre conversión directa; datos insuficientes al registrar «None» en visitas al perfil y nuevos seguidores.
-- Probar: Cierre específico ligado al contenido: «Practica más de 3.000 preguntas oficiales de este bloque en apruebatcae.com».
+- Seguir haciendo: Conectar la temática del reel con el banco de test específicos de apruebatcae.com.
+- Dejar de hacer: Afirmar conclusiones de conversión; datos insuficientes al figurar visitas al perfil y nuevos seguidores como «None».
+- Probar: CTA con cifra concreta y verificable: «Practica más de 3.000 preguntas oficiales de examen en apruebatcae.com».

@@ -1,6 +1,6 @@
-# Cuaderno de cazatendencias (2026-11-05)
+# Cuaderno de cazatendencias (2026-11-06)
 
-Esta semana coinciden hitos administrativos y campañas clínicas clave: el examen del 7 de noviembre en Aragón y el plazo de alegaciones de Madrid (perfectos para reels sobre plazos administrativos y mentalidad de examen), la campaña activa de gripe/COVID-19 (ideal para carruseles de tipos de vacunas e inmunidad), y las semanas de concienciación de Neumonía (12 nov) y Diabetes (14 nov). Para TikTok e Instagram, enfócate en casos prácticos cortos: cómo medir saturación de oxígeno en un paciente con neumonía, signos de alarma de hipoglucemia en planta y preguntas trampa de vacunas en OPEs.
+Esta quincena de noviembre viene cargada de perchas para conectar actualidad y temario de TCAE. En la parte administrativa, la apertura del plazo en La Rioja (SERIS) es idónea para reels de última hora sobre plazos administrativos y Estatuto Marco. En el bloque epidemiológico, la campaña de vacunación estacional y el Día Europeo del Uso Prudente de Antibióticos permiten diseñar viñetas que desmientan bulos mientras repasan farmacología e higiene de manos. Por último, los días mundiales de neumonía, diabetes y prematuridad ofrecen la base perfecta para carruseles de test rápidos centrados en valores de glucemia capilar, pulsioximetría, oxigenoterapia y cuidados del neonato pretérmino.
 
 ## Hallazgos
 - Ninguno fiable hoy.

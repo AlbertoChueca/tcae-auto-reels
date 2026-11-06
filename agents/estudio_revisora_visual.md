@@ -1,5 +1,5 @@
-# Cuaderno de revisora_visual (2026-11-05)
+# Cuaderno de revisora_visual (2026-11-06)
 
-- Seguir haciendo: Verificación estricta de protocolos de asepsia y EPI (manos descubiertas para lencería, material limpio y almacén).
-- Dejar de hacer: Aprobar imágenes con anomalías de IA: duplicidades de objetos, manchas oscuras inferiores o atrezo no hospitalario.
-- Probar: Checklist técnico previo: 1) Cero texto integrado, 2) Manos libres de guantes en tareas limpias, 3) Anatomía y entorno clínico verosímiles.
+- Seguir haciendo: Control estricto de asepsia y EPI racional (manos descubiertas para lencería, material limpio y documentación clínica).
+- Dejar de hacer: Aprobar imágenes con viñeteados negros densos en el tercio inferior o anomalías de atrezo no hospitalario.
+- Probar: Protocolo de revisión rápida: 1) Cero texto/pacientes, 2) Manos sin guantes en tareas limpias, 3) Entorno clínico verosímil y sin redundancias.
