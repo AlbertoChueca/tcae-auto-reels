@@ -359,5 +359,20 @@
 "tiktok": "6aedea0d61972d801df50257"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-11-06",
+"slot": "18",
+"topic": "comunicacion",
+"tema": "Comunicación",
+"subtema": "Comunicación no verbal en sanidad",
+"quiz_id": "69ea4803c9",
+"imagenes": 6,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/DfaoA06Gpvk/",
+"tiktok": "6aee4d70f4406fd24a4f7158"
+},
+"dry_run": false
 }
 ]
