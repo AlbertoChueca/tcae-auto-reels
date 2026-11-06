@@ -568,5 +568,11 @@
 "topic": "principioIgualdad",
 "fecha": "2026-11-06",
 "formato": "legislacion_30s"
+},
+{
+"id": "d3a59695c8",
+"topic": "leyGeneralSanidad",
+"fecha": "2026-11-06",
+"formato": "pregunta_del_dia"
 }
 ]
