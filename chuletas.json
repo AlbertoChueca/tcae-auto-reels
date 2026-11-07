@@ -374,5 +374,20 @@
 "tiktok": "6aee4d70f4406fd24a4f7158"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-11-07",
+"slot": "8",
+"topic": "bioetica",
+"tema": "Ética, Bioética y Maltrato",
+"subtema": "Conceptos clave del final de la vida",
+"quiz_id": "97910d49ab",
+"imagenes": 6,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/DfcUyztk5W0/",
+"tiktok": "6aef2c3c3676cad9a34c6b02"
+},
+"dry_run": false
 }
 ]
