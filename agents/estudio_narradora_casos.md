@@ -1,5 +1,5 @@
-# Cuaderno de narradora_casos (2026-11-06)
+# Cuaderno de narradora_casos (2026-11-07)
 
-- Seguir haciendo: Microescenas de planta, higiene y guardias nocturnas conectadas directamente con preguntas oficiales de examen.
-- Dejar de hacer: Casos teóricos descontextualizados o centrados en legislación abstracta (scores <7.70 y mínimos guardados).
-- Probar: Microcasos de pase de guardia o preparación de material con dilemas operativos reales entre opciones plausibles.
+- Seguir haciendo: Microescenas de planta, higiene y guardias nocturnas conectadas a preguntas oficiales de examen.
+- Dejar de hacer: Casos abstractos o legislación teórica descontextualizada (scores <7.75 y baja interacción).
+- Probar: Escenas de pase de guardia con dilema operativo inmediato: «Paciente ingresa con sonda vesical acodada... ¿cuál es tu primera acción?» vinculada a opción de examen.

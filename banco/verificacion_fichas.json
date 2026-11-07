@@ -520,5 +520,77 @@
 "motivo": "El frotis con hisopo o torunda estéril es la técnica estándar para la recogida de exudados (faríngeo, nasal, conjuntival, heridas, etc.).",
 "fuente_ok": false,
 "fecha": "2026-11-04"
+},
+"35a88364fc": {
+"veredicto": "ok",
+"motivo": "La descripción de las secuelas según el hemisferio afectado es correcta y se ajusta al nivel de estudio de TCAE.",
+"fuente_ok": false,
+"fecha": "2026-11-07"
+},
+"8dc6797614": {
+"veredicto": "ok",
+"motivo": "Define correctamente las funciones generales del telencéfalo, que incluye la corteza cerebral y el sistema límbico.",
+"fuente_ok": false,
+"fecha": "2026-11-07"
+},
+"6aa037a7d7": {
+"veredicto": "ok",
+"motivo": "La división anatómica en hemisferios y sus respectivos lóbulos es exacta.",
+"fuente_ok": false,
+"fecha": "2026-11-07"
+},
+"a708318e51": {
+"veredicto": "ok",
+"motivo": "La composición anatómica del Sistema Nervioso Central (encéfalo y médula espinal) y sus cubiertas es correcta.",
+"fuente_ok": false,
+"fecha": "2026-11-07"
+},
+"a7934ad519": {
+"veredicto": "ok",
+"motivo": "El orden de las capas meníngeas desde el exterior al interior es correcto.",
+"fuente_ok": false,
+"fecha": "2026-11-07"
+},
+"a915b95fa5": {
+"veredicto": "ok",
+"motivo": "Describe con precisión las funciones principales del cerebelo en la coordinación motora y el equilibrio.",
+"fuente_ok": false,
+"fecha": "2026-11-07"
+},
+"60ffa2b0b6": {
+"veredicto": "ok",
+"motivo": "La equivalencia del 'petit mal' con las crisis de ausencia y su mayor prevalencia en la infancia es correcta.",
+"fuente_ok": false,
+"fecha": "2026-11-07"
+},
+"88a120bf53": {
+"veredicto": "ok",
+"motivo": "La distinción entre vías aferentes (sensitivas, ascendentes) y eferentes (motoras, descendentes) es correcta.",
+"fuente_ok": false,
+"fecha": "2026-11-07"
+},
+"aa618fd356": {
+"veredicto": "ok",
+"motivo": "Las fases clínicas de la crisis tónico-clónica generalizada están bien descritas.",
+"fuente_ok": false,
+"fecha": "2026-11-07"
+},
+"510f20afa3": {
+"veredicto": "ok",
+"motivo": "Explica correctamente el desequilibrio de neurotransmisores característico de la enfermedad de Parkinson (déficit de dopamina y exceso relativo de acetilcolina).",
+"fuente_ok": false,
+"fecha": "2026-11-07"
+},
+"dc2d52314a": {
+"veredicto": "ok",
+"motivo": "La definición es correcta y abarca el concepto general de isquemia o interrupción del flujo sanguíneo que caracteriza al ACV.",
+"fuente_ok": false,
+"fecha": "2026-11-07"
+},
+"342f02d1b2": {
+"veredicto": "ok",
+"motivo": "Identifica correctamente la afectación de la sustancia negra en los ganglios basales (sistema extrapiramidal).",
+"fuente_ok": false,
+"fecha": "2026-11-07"
 }
 }

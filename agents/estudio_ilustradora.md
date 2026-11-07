@@ -1,5 +1,5 @@
-# Cuaderno de ilustradora (2026-11-06)
+# Cuaderno de ilustradora (2026-11-07)
 
-- Seguir haciendo: Escenas verticales con estética editorial serena y limpia (TCAE en vestuario o descanso, luz suave, zuecos blancos, sin pacientes ni textos).
-- Dejar de hacer: Poner guantes en tareas limpias o almacén, duplicar objetos y añadir atrezo inverosímil (flexos de oficina en carros hospitalarios).
-- Probar: TCAE en control de enfermería revisando planillas con manos desnudas limpias y fondo despejado.
+- Seguir haciendo: Ilustraciones verticales serenas y limpias de situaciones hospitalarias cotidianas sin pacientes (vestuario, descanso, control).
+- Dejar de hacer: Colocar guantes en tareas limpias o administrativas, duplicar material y meter atrezo inverosímil (flexos en carros de curas).
+- Probar: TCAE en control de enfermería revisando bateas vacías con luz natural suave, manos limpias descubiertas y tercio inferior sin degradados oscuros.

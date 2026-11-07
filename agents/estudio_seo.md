@@ -1,5 +1,5 @@
-# Cuaderno de seo (2026-11-06)
+# Cuaderno de seo (2026-11-07)
 
-- Seguir haciendo: Palabras clave de alta intención de búsqueda en títulos y texto: «TCAE», «repaso», «simulacro», «examen real» (scores >8.0).
-- Dejar de hacer: Términos burocráticos como «artículo» o «normativa» que hunden el alcance (<150 views).
-- Probar: Estructura SEO directa y localizada: «Simulacro TCAE: 3 preguntas oficiales de examen del SAS / SERMAS».
+- Seguir haciendo: Palabras clave con alta intención de búsqueda en portada y texto: «TCAE», «repaso», «simulacro», «examen real» (scores >8.0).
+- Dejar de hacer: Terminología burocrática y fría («legislación», «normativa»), que hunde las reproducciones (<210 views).
+- Probar: Estructura SEO combinada de alto impacto: «Simulacro TCAE: 3 preguntas oficiales de examen del SAS / SERMAS».
