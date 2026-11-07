@@ -1,8 +1,9 @@
-# Cuaderno de cazatendencias (2026-11-06)
+# Cuaderno de cazatendencias (2026-11-07)
 
-Esta semana está cargada de temas de alto impacto: 
-• Convocatorias: arranca el plazo de inscripción de La Rioja y se cierran alegaciones en Madrid. Aprovecha para publicar reels de plazos administrativos con llamada a la acción clara.
-• Días de la Radiología (8 nov), Diabetes (14 nov) y Prematuros (17 nov): son la excusa perfecta para carruseles de repaso exprés (normas de radioprotección, hipoglucemia vs hiperglucemia y valoración del recién nacido). Plantear preguntas test oficiales vinculadas a estas efemérides maximiza comentarios y guardados.
+Esta semana coinciden noticias de convocatorias reales y fechas clínicas estratégicas para captar la atención en redes:
+• En OPE y empleo: aprovecha la publicación en BOR de 233 plazas del SERIS y la corrección del INGESA en el BOE para reels sobre plazos administrativos y cómo computan los méritos.
+• En clínica: utiliza la campaña activa de gripe/COVID y el Día de la Diabetes (14 de nov) para carruseles de test rápidos (cifras de glucemia, tipo de vacunas y vías de administración).
+• En neonatología: anticipa el Día del Prematuro (17 de nov) con preguntas sobre clasificación por semanas y cuidados de termorregulación del TCAE.
 
 ## Hallazgos
 - Ninguno fiable hoy.
