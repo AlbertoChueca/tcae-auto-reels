@@ -389,5 +389,20 @@
 "tiktok": "6aef2c3c3676cad9a34c6b02"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-11-07",
+"slot": "18",
+"topic": "incontinenciaUrinaria",
+"tema": "Incontinencia Urinaria",
+"subtema": "Tipos de incontinencia urinaria",
+"quiz_id": "359abe3ff8",
+"imagenes": 6,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/DfdEGM-EXA9/",
+"tiktok": "6aef8d11e552841b8dda195c"
+},
+"dry_run": false
 }
 ]
