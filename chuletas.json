@@ -419,5 +419,20 @@
 "tiktok": "6af082ba41b999064d4b14d7"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-11-08",
+"slot": "18",
+"topic": "alimentacionVejez",
+"tema": "Alimentación en la Vejez",
+"subtema": "Disfagia y Deglución en el Anciano",
+"quiz_id": "5633114b97",
+"imagenes": 7,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/Dffq1J9DUnw/",
+"tiktok": "6af0e288153915e01d4383ab"
+},
+"dry_run": false
 }
 ]
