@@ -1,5 +1,5 @@
-# Cuaderno de narradora_casos (2026-11-07)
+# Cuaderno de narradora_casos (2026-11-08)
 
-- Seguir haciendo: Microescenas de planta, higiene y guardias nocturnas conectadas a preguntas oficiales de examen.
-- Dejar de hacer: Casos abstractos o legislación teórica descontextualizada (scores <7.75 y baja interacción).
-- Probar: Escenas de pase de guardia con dilema operativo inmediato: «Paciente ingresa con sonda vesical acodada... ¿cuál es tu primera acción?» vinculada a opción de examen.
+- Seguir haciendo: Situaciones clínicas cotidianas (higiene, pase de guardia, carro de curas) ligadas directamente a preguntas oficiales.
+- Dejar de hacer: Planteamientos teóricos abstractos o de legislación aislada sin contexto de planta (scores <7.75 y vistas bajas).
+- Probar: Escenas breves de relevo con dilema operativo inmediato y opciones cerradas (ej. sonda acodada o signos precoces de UPP) para incentivar comentarios.

@@ -1,7 +1,7 @@
-# Cuaderno de comunidad (2026-11-07)
+# Cuaderno de comunidad (2026-11-08)
 
 # Cuaderno de comunidad
-- Resumen de audiencia: Muestra reducida (21 comentarios). La interacción es puramente telegráfica marcando opciones de test («A», «C», «B, D, B») con dudas esporádicas («creo q la C», «A?»).
-- Seguir haciendo: Dinámicas de opciones múltiples claras (A, B, C, D) y retos de 3 preguntas que invitan a dejar la serie de respuestas.
-- Dejar de hacer: Preguntas abiertas que exijan justificar la respuesta por escrito.
-- Probar: Comentario fijado para romper el hielo: «¿Pleno de aciertos? Deja tus letras aquí 👇».
+- Resumen de audiencia: Muestra reducida (23 comentarios). Interacción totalmente telegráfica indicando letras de test («A», «C», «B, D, B») con dudas esporádicas («creo q la C», «A?»).
+- Seguir haciendo: Formatos de opción múltiple A/B/C/D y secuencias de 3 preguntas que facilitan teclear la solución al instante.
+- Dejar de hacer: Preguntas abiertas o peticiones de debate clínico en comentarios.
+- Probar: Comentario fijado para romper el hielo: «¿Cuántas has acertado? Comprueba tu respuesta aquí 👇».
