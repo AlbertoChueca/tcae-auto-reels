@@ -404,5 +404,20 @@
 "tiktok": "6aef8d11e552841b8dda195c"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-11-08",
+"slot": "8",
+"topic": "saludLaboral",
+"tema": "Salud Laboral y Prevención de Riesgos",
+"subtema": "Estrés, Burnout y Mobbing",
+"quiz_id": "5aecd02c9b",
+"imagenes": 6,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/Dfe8DVvDTa8/",
+"tiktok": "6af082ba41b999064d4b14d7"
+},
+"dry_run": false
 }
 ]
