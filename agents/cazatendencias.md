@@ -1,9 +1,12 @@
-# Cuaderno de cazatendencias (2026-11-07)
+# Cuaderno de cazatendencias (2026-11-08)
 
-Esta semana coinciden noticias de convocatorias reales y fechas clínicas estratégicas para captar la atención en redes:
-• En OPE y empleo: aprovecha la publicación en BOR de 233 plazas del SERIS y la corrección del INGESA en el BOE para reels sobre plazos administrativos y cómo computan los méritos.
-• En clínica: utiliza la campaña activa de gripe/COVID y el Día de la Diabetes (14 de nov) para carruseles de test rápidos (cifras de glucemia, tipo de vacunas y vías de administración).
-• En neonatología: anticipa el Día del Prematuro (17 de nov) con preguntas sobre clasificación por semanas y cuidados de termorregulación del TCAE.
+Esta semana de noviembre reúne temas de alto rendimiento: la apertura de solicitudes en el SERIS resalta la importancia de plazos administrativos, mientras que la campaña de vacunación estacional enlaza con los Días Mundiales de Neumonía, Diabetes y Prematuridad.
+
+Estrategia para redes:
+- Reel 'Alerta OPE': plazos clave del Estatuto Marco y consejos para inscribirse sin fallos.
+- Carrusel 'Pregunta Fija 14N': cuidados del pie diabético y signos de hipo/hiperglucemia.
+- Reel flash 'Clínica': constantes y oxigenoterapia en el paciente con neumonía.
+- Viñeta 'Neonato': definición exacta de pretérmino (<37 semanas) y manejo de incubadora.
 
 ## Hallazgos
 - Ninguno fiable hoy.
