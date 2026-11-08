@@ -610,5 +610,11 @@
 "topic": "posicionesMov",
 "fecha": "2026-11-08",
 "formato": "examen_real"
+},
+{
+"id": "d3a93ebe32",
+"topic": "inmunidadVacunas",
+"fecha": "2026-11-08",
+"formato": "mito_realidad"
 }
 ]
