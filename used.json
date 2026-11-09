@@ -616,5 +616,11 @@
 "topic": "inmunidadVacunas",
 "fecha": "2026-11-08",
 "formato": "mito_realidad"
+},
+{
+"id": "e5cfe53ed9",
+"topic": "constitucionEspanola",
+"fecha": "2026-11-09",
+"formato": "legislacion_30s"
 }
 ]

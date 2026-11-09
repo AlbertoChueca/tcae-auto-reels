@@ -1,5 +1,5 @@
-# Cuaderno de viralidad (2026-11-08)
+# Cuaderno de viralidad (2026-11-09)
 
-- Seguir haciendo: Ganchos breves, retadores y en pregunta: «4 fichas de repaso», «¿Te la sabes?» y «¿Aciertas las 3?» (hasta 7 comentarios y 5 compartidos).
-- Dejar de hacer: Ganchos descriptivos o genéricos como «Pregunta clave de TCAE» (scores <7.50).
-- Probar: Llamada a la complicidad de turno: «Etiqueta a tu compañera de oposición: si falla una, le toca reponer el carro».
+- Seguir haciendo: Ganchos interrogativos cortos y desafiantes: «4 fichas de repaso», «¿Te la sabes?» y «¿Aciertas las 3?».
+- Dejar de hacer: Ganchos planos o descriptivos como «Pregunta clave de TCAE» (score 7.45 y 0 compartidos).
+- Probar: Reto directo entre compañeras: «Compártelo con tu co-TCAE de guardia: si falla una, le toca reponer el carro».

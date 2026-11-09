@@ -1,5 +1,5 @@
-# Cuaderno de seo (2026-11-08)
+# Cuaderno de seo (2026-11-09)
 
-- Seguir haciendo: Incluir términos clave de búsqueda directa en gancho y copy: «TCAE», «repaso», «simulacro», «examen real» (presentes en scores >8.0).
-- Dejar de hacer: Términos burocráticos descontextualizados como «legislación 30s» sin mención a la oposición o servicio de salud.
-- Probar: Combinar temática y servicio autonómico en el texto: «Simulacro TCAE: 3 preguntas oficiales de examen (SAS / SERMAS)».
+- Seguir haciendo: Utilizar en ganchos y primeras líneas términos de alta búsqueda: «TCAE», «simulacro», «repaso» y «examen real».
+- Dejar de hacer: Redactar copies sin la palabra clave «TCAE» explícita en los primeros 3 segundos.
+- Probar: Combinar temática sanitaria y siglas autonómicas oficiales en la descripción: «Test TCAE OPE (SAS, SERMAS, SACYL)».

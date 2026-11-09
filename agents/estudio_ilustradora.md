@@ -1,5 +1,5 @@
-# Cuaderno de ilustradora (2026-11-08)
+# Cuaderno de ilustradora (2026-11-09)
 
-- Seguir haciendo: Escenas verticales hospitalarias serenas y limpias sin pacientes (vestuarios, pausas en sala de descanso, pasillos luminosos).
-- Dejar de hacer: Dibujar guantes en tareas limpias o de gestión, anatomía rígida en dedos y atrezo no clínico (lámparas flexo en carros).
-- Probar: Escena en control de enfermería con TCAE organizando bateas limpias, manos descubiertas, luz natural y tercio inferior libre de degradados.
+- Seguir haciendo: Escenas hospitalarias verticales serenas y luminosas sin pacientes ni instrumental invasivo.
+- Dejar de hacer: Dibujar guantes en tareas limpias, relojes en las muñecas (incumplen norma higiénica) y degradados oscuros artificiales en la parte inferior.
+- Probar: Planos medios en vestuarios o sala de estar con luz diurna natural y anatomía de manos totalmente despejada de accesorios.

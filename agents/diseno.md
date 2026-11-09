@@ -1,6 +1,5 @@
-# Cuaderno de diseno (2026-11-08)
+# Cuaderno de diseno (2026-11-09)
 
-# Cuaderno de diseno
-- Seguir haciendo: Estilos «cuaderno» (top 1 y 2, >1100 views) y «noche» (retención de hasta 17 s) con tarjetas blancas limpias y teal.
-- Dejar de hacer: Estilos «marca», «minimal» e «ilustrado», estancados por debajo de 200 views y baja respuesta.
-- Probar: Destacar la opción correcta con marco ámbar de alto contraste al finalizar la cuenta atrás para gratificar la retención visual.
+- Seguir haciendo: Plantillas «cuaderno» (top 1 y 2, >1100 views) y «noche» (hasta 17 s de visionado), manteniendo tarjetas blancas limpias y teal legible.
+- Dejar de hacer: Diseños «marca», «minimal» e «ilustrado», que no superan las 210 views y penalizan el score.
+- Probar: Recuadro ámbar dinámico sobre la opción correcta al expirar el tiempo de pensar para reforzar el refuerzo visual.

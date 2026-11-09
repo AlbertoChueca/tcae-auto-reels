@@ -1,6 +1,5 @@
-# Cuaderno de guion (2026-11-08)
+# Cuaderno de guion (2026-11-09)
 
-# Cuaderno de guion
-- Seguir haciendo: «flashcards_express» clínico monográfico (31 guardados en La Piel) y «pregunta_del_dia» con think_time largo, manteniendo retenciones de 10-13 segundos.
-- Dejar de hacer: Preguntas aisladas de legislación pura o instrumental descontextualizado (scores mínimos < 7.3).
-- Probar: «flashcards_express» de 4 conceptos trampa en Aparato Respiratorio o Sondajes con regla mnemotécnica directa para el examen.
+- Seguir haciendo: «flashcards_express» monográfico clínico (La Piel: 31 guardados) y «simulacro_3» combinando temas clínicos y terminología para mantener retenciones >12 s.
+- Dejar de hacer: Formato «error_tipico» (mínimo histórico de 4.8 s) y preguntas aisladas de legislación sin aplicación práctica directa.
+- Probar: «flashcards_express» de 4 trampas frecuentes en Aparato Respiratorio con mnemotecnia concisa para el examen.
