@@ -1,12 +1,12 @@
-# Informe del verificador (2026-11-05)
+# Informe del verificador (2026-11-09)
 
-- Preguntas en el banco: 1822 · revisadas: 989 · **publicables: 918**
-- Posibles errores: 13 · dudosas: 23 · correctas pero sin texto de la norma para citar: 35
+- Preguntas en el banco: 1822 · revisadas: 1096 · **publicables: 1018**
+- Posibles errores: 14 · dudosas: 29 · correctas pero sin texto de la norma para citar: 35
 
 Las marcadas como posible error conviene revisarlas también en la web app.
 
 
-## Posibles errores (13)
+## Posibles errores (14)
 
 - **[Estatuto Marco del Personal Estatutario (Ley 55/2003)]** ¿A qué texto legal remite el artículo 79 de la Ley 55/2003 en materia de representación y negociación colectiva del personal estatutario? — marcada A) Al Texto Refundido del Estatuto Básico del Empleado Público (TREBEP)
   - El artículo 79 remite a la Constitución y a la Ley Orgánica 11/1985 de Libertad Sindical; es el artículo 78 el que remite a la normativa general de la función pública (actual TREBEP).
@@ -34,8 +34,10 @@ Las marcadas como posible error conviene revisarlas también en la web app.
   - El término 'analgésico' define el grupo terapéutico o la acción farmacológica, no el nombre genérico. El nombre genérico u oficial es la Denominación Común Internacional (DCI), como 'paracetamol'. La pregunta y la ficha de la app contienen un error conceptual.
 - **[Fechas Clave y Plazos Administrativos]** ¿Por qué procedimiento de reforma (de los dos previstos en el Título X de la Constitución) se han tramitado las cuatro reformas constitucionales hasta ahora? — marcada A) Todas por el procedimiento ordinario del artículo 167
   - El enunciado contiene un dato falso: hasta la fecha solo se han aprobado tres reformas constitucionales (1992, 2011 y 2024), no cuatro.
+- **[Sondas Digestivas]** La sonda de Moss se caracteriza por ser: — marcada B) Una sonda nasoesofágica de unos 90 cm y triple luz · sugerida: Ninguna
+  - La sonda de Moss es una sonda nasogástrica (o nasoentérica), no nasoesofágica. La opción B contiene un error anatómico en su nomenclatura.
 
-## Dudosas (23)
+## Dudosas (29)
 
 - **[Geriatría]** Un país se considera envejecido cuando su índice de envejecimiento es: — marcada C) Mayor del 11%
   - El término 'índice de envejecimiento' suele referirse a la relación entre mayores de 64 y menores de 15. Si se refiere a la tasa sobre el total, los umbrales varían según el autor (OMS, ONU), siendo a menudo >12% o >14%.
@@ -51,24 +53,28 @@ Las marcadas como posible error conviene revisarlas también en la web app.
   - La posición quirúrgica indicada para intervenciones de bocio es la de Roser (cuello en hiperextensión), no la de Fowler. La plantilla oficial del tribunal contiene un error.
 - **[La Piel]** ¿Cuál es la primera fase de la cicatrización? — marcada C) Maduración
   - La primera fase de la cicatrización es la inflamatoria (o hemostática), no la de maduración, que es la última. La plantilla oficial del tribunal es incorrecta.
+- **[Régimen Jurídico del Sector Público (Ley 40/2015)]** ¿Qué tipo de funcionamiento de los servicios públicos puede dar lugar a responsabilidad patrimonial de la Administración? — marcada B) Tanto el funcionamiento normal como el anormal de los servicios públicos
+  - El texto facilitado no contiene el artículo 32 de la Ley 40/2015, que establece la responsabilidad por funcionamiento normal o anormal.
+- **[Constitución Española de 1978]** ¿Qué título de la Constitución regula el Gobierno y la Administración? — marcada B) Título IV
+  - El texto de la Constitución proporcionado no muestra el encabezado del Título IV para poder confirmar literalmente su denominación.
 - **[Cirugía: Pre, Trans y Postoperatorio]** La apertura de los bordes de una herida quirúrgica suturada, con salida del contenido interno, se denomina: — marcada A) Dehiscencia
   - La apertura de los bordes es 'dehiscencia', pero la 'salida del contenido interno' define específicamente la 'evisceración'. Al no estar esta opción, la pregunta es técnicamente imprecisa y puede generar confusión.
 - **[Lavado de Manos]** El lavado de manos antiséptico, indicado antes de técnicas invasivas, tiene una duración aproximada de: — marcada B) 2-3 minutos
   - La duración del lavado antiséptico varía según la bibliografía; la OMS recomienda 40-60 segundos, mientras que algunos manuales clásicos de TCAE indican 2-3 minutos.
 - **[Instrumental Quirúrgico]** ¿Cómo se denomina a la parte que mantiene el instrumental quirúrgico cuando está trabado? — marcada C) Caja de traba
   - La plantilla oficial parece errónea: la parte que mantiene el instrumental trabado o cerrado es la 'cremallera', mientras que la 'caja de traba' es la articulación o bisagra.
+- **[Régimen Jurídico del Sector Público (Ley 40/2015)]** En caso de daños físicos o psíquicos a las personas, ¿desde cuándo empieza a computarse el plazo de un año para reclamar responsabilidad patrimonial? — marcada B) Desde la curación o la determinación del alcance de las secuelas
+  - El texto legal proporcionado no incluye el artículo que regula el plazo de prescripción (artículo 67 de la Ley 39/2015).
+- **[Constitución Española de 1978]** Según el Capítulo Tercero del Título VIII de la Constitución Española de 1978, ¿cuál de las siguientes opciones es una competencia exclusiva del Estado?: — marcada D) Legislación sobre productos farmacéuticos
+  - Aunque la respuesta es correcta (art. 149.1.16 CE), el texto proporcionado no incluye dicho artículo para poder demostrarlo.
 - **[Sondas Digestivas]** El calibre de una sonda hace referencia a: — marcada B) El diámetro de la luz
   - Técnicamente, el calibre (escala French) mide el diámetro externo de la sonda, no el diámetro de la luz (interno), aunque suele darse por válida al ser la mejor opción.
-- **[Ley General de Sanidad (Ley 14/1986)]** ¿Qué instituto de investigación sanitaria fue creado por la Ley General de Sanidad? — marcada A) El Instituto de Salud Carlos III
-  - El texto legal proporcionado no incluye el artículo que establece explícitamente la creación del Instituto de Salud Carlos III.
-- **[Estatuto Marco del Personal Estatutario (Ley 55/2003)]** ¿Cuál es el plazo de prescripción de las faltas leves del personal estatutario según la Ley 55/2003? — marcada A) 6 meses
-  - El fragmento de la Ley 55/2003 proporcionado omite el artículo que detalla los plazos de prescripción de las faltas disciplinarias.
 - **[Termoterapia e Hidroterapia]** ¿Hasta qué proporción se debe llenar una bolsa de agua caliente? — marcada B) 3/4 partes
   - La mayoría de manuales de fundamentos de enfermería indican llenar la bolsa a 1/2 o 2/3 de su capacidad, por lo que la opción D suele ser la más aceptada en exámenes oficiales.
 - **[Calidad Asistencial]** Según Cotte, ¿cómo relaciona la calidad con percepción y expectativas? — marcada A) Calidad = Percepción − Expectativas
   - Aunque la fórmula Calidad = Percepción - Expectativas es correcta conceptualmente, la atribución al autor 'Cotte' es inusual y podría ser una errata de otro autor (como Kotler).
 - **[Contratación del Sector Público (Ley 9/2017)]** ¿Cuáles son los dos procedimientos de adjudicación ordinarios según la Ley 9/2017? — marcada A) El abierto y el restringido
-  - Aunque la respuesta es correcta, el texto legal proporcionado omite el artículo 131.2 de la ley, que es el que define explícitamente cuáles son los procedimientos ordinarios.
+  - El fragmento legal aportado no incluye el artículo 131 de la Ley 9/2017, que define el abierto y restringido como procedimientos ordinarios.
 - **[Estatuto Marco del Personal Estatutario (Ley 55/2003)]** ¿En qué capítulo de la Ley 55/2003 se regulan los derechos y deberes del personal estatutario? — marcada B) Capítulo IV (artículos 17 a 19)
   - El texto de la fuente confirma el contenido de los artículos 17 y 18, pero no demuestra explícitamente que pertenezcan al Capítulo IV, por lo que no se puede verificar de forma completa con el fragmento dado.
 - **[Estatuto Marco del Personal Estatutario (Ley 55/2003)]** ¿En qué capítulo de la Ley 55/2003 se regula el régimen de incompatibilidades del personal estatutario? — marcada C) Capítulo XIII
@@ -83,3 +89,11 @@ Las marcadas como posible error conviene revisarlas también en la web app.
   - La plantilla oficial marca la C, pero el Anexo III del RD 486/1997 establece explícitamente que la temperatura para trabajos sedentarios estará comprendida entre 17 y 27 ºC (opción B).
 - **[Recogida de Muestras]** La punción capilar en niños menores de 4 años se realiza generalmente en: — marcada D) Planta del pie
   - La plantilla oficial marca la D, pero los protocolos clínicos (como los de la OMS) recomiendan la punción en la planta del pie (talón) solo en menores de 1 año; en niños mayores se prefiere el pulpejo del dedo.
+- **[Transparencia y Acceso a la Información Pública]** ¿Cómo debe ser la información difundida en virtud de las obligaciones de publicidad activa? — marcada A) Obligatoria, gratuita y en condiciones de veracidad, accesibilidad y objetividad
+  - La opción A es correcta según la Ley 8/2015 de Aragón, pero el texto fuente proporcionado (Ley 19/2013 estatal) no contiene esa redacción literal para poder justificarla.
+- **[Estatuto Marco del Personal Estatutario (Ley 55/2003)]** ¿Cuál es el plazo de prescripción de las faltas muy graves del personal estatutario según la Ley 55/2003? — marcada D) 4 años
+  - El texto de la fuente proporcionado no incluye el artículo 72 de la Ley 55/2003, que es el que establece los plazos de prescripción, por lo que no se puede verificar con la fuente dada.
+- **[Protección de Datos de Salud (RGPD y LOPDGDD)]** ¿En qué plazo debe responder, con carácter general, el responsable del tratamiento a una solicitud de ejercicio de derechos? — marcada A) Un mes, prorrogable dos meses más en casos complejos, informando de la prórroga
+  - El texto legal proporcionado no especifica el plazo de un mes, aunque este sí se recoge en el artículo 12.3 del RGPD.
+- **[Cirugía: Pre, Trans y Postoperatorio]** ¿Cuándo se recomienda la ducha preoperatoria para disminuir la Infección Herida Quirúrgica (IHQ) según el Programa de Cirugía Segura en el Sistema Nacional de Salud?: — marcada A) La noche anterior
+  - Las principales guías de prevención (como el Proyecto Infección Quirúrgica Zero) recomiendan la ducha preoperatoria 'la noche antes o el mismo día de la intervención', lo que hace que las opciones A y D puedan ser correctas y la pregunta resulte ambigua.
