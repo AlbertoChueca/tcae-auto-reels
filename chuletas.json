@@ -434,5 +434,20 @@
 "tiktok": "6af0e288153915e01d4383ab"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-11-09",
+"slot": "8",
+"topic": "saludEnfermedad",
+"tema": "Salud y Enfermedad",
+"subtema": "Fases y conceptos de la enfermedad",
+"quiz_id": "4a56e268a9",
+"imagenes": 7,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/Dfh2KPJF-8l/",
+"tiktok": "6af1ffe846531f100b8ecc02"
+},
+"dry_run": false
 }
 ]
