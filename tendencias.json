@@ -1,16 +1,88 @@
 {
-"fecha": "2026-11-09",
-"fuentes_consultadas": 0,
+"fecha": "2026-11-10",
+"fuentes_consultadas": 12,
 "diag": {
 "modelo": "gemini-3.8-flash",
-"busquedas": 0,
-"fuentes": 0,
-"claves": [],
+"busquedas": 5,
+"fuentes": 12,
+"claves": [
+"groundingChunks",
+"groundingSupports",
+"searchEntryPoint",
+"webSearchQueries"
+],
 "cand_claves": [
 "content",
 "finishReason",
+"groundingMetadata",
 "index"
 ]
 },
-"items": []
+"items": [
+{
+"titulo": "12 de noviembre: Día Mundial contra la Neumonía",
+"dato": "La neumonía es una infección aguda pulmonar causada principalmente por bacterias y virus que afecta sobre todo a menores de cinco años y mayores de sesenta.",
+"url": "https://escueladesalud.comunidad.madrid",
+"fecha": "2026-11-12",
+"temas": [
+"respiratorio",
+"inmunidadVacunas",
+"prevencionSalud"
+],
+"gancho": "¿Sabrías detectar una neumonía en el examen de TCAE?",
+"por_que": "Permite repasar signos respiratorios, saturación de oxígeno y vacunas frecuentes en preguntas de examen oficial."
+},
+{
+"titulo": "14 de noviembre: Día Mundial de la Diabetes",
+"dato": "Se conmemora cada 14 de noviembre en recuerdo de Frederick Banting para concienciar sobre la prevención y el control de la glucosa en sangre.",
+"url": "https://www.seen.es",
+"fecha": "2026-11-14",
+"temas": [
+"nutricion",
+"educacionSanitaria",
+"constantesVitales"
+],
+"gancho": "Glucemia capilar: las 3 preguntas trampa en la oposición",
+"por_que": "La diabetes, dietas y cifras de glucemia son temas fijos en supuestos prácticos de oposiciones."
+},
+{
+"titulo": "17 de noviembre: Día Mundial del Niño Prematuro",
+"dato": "Se considera prematuro a todo recién nacido vivo antes de completarse las 37 semanas de gestación, requiriendo cuidados especializados y método canguro.",
+"url": "https://www.saludcastillayleon.es",
+"fecha": "2026-11-17",
+"temas": [
+"recienNacido",
+"embarazoParto",
+"calidad"
+],
+"gancho": "¿A partir de qué semana no se considera prematuro?",
+"por_que": "La definición por semanas gestacionales y los cuidados de termorregulación caen siempre en los exámenes de TCAE."
+},
+{
+"titulo": "18 de noviembre: Día Europeo para el Uso Prudente de los Antibióticos",
+"dato": "El objetivo es sensibilizar sobre la amenaza que la resistencia a los antibióticos supone para la salud pública y fomentar su consumo prudente y responsable.",
+"url": "https://www.resistenciaantibioticos.es",
+"fecha": "2026-11-18",
+"temas": [
+"farmacologia",
+"seguridad",
+"lavadoManos"
+],
+"gancho": "Superbacterias en el hospital: el error que no debes cometer",
+"por_que": "Conecta la farmacología con las precauciones de aislamiento hospitalario y los cinco momentos del lavado de manos."
+},
+{
+"titulo": "Campaña de vacunación frente a Gripe y COVID-19",
+"dato": "Se prioriza la vacunación simultánea frente a la gripe y COVID-19 en personas de 60 o más años, personas institucionalizadas y profesionales sanitarios.",
+"url": "https://www.sanidad.gob.es",
+"fecha": "2026-11-05",
+"temas": [
+"inmunidadVacunas",
+"prevencionSalud",
+"saludLaboral"
+],
+"gancho": "Campaña vacunal de otoño: repasa qué preguntan en el test",
+"por_que": "Las pautas de vacunación y grupos diana son preguntas habituales de salud pública para técnicos auxiliares."
+}
+]
 }

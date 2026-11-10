@@ -1,5 +1,5 @@
-# Cuaderno de ilustradora (2026-11-09)
+# Cuaderno de ilustradora (2026-11-10)
 
-- Seguir haciendo: Escenas hospitalarias verticales serenas y luminosas sin pacientes ni instrumental invasivo.
-- Dejar de hacer: Dibujar guantes en tareas limpias, relojes en las muñecas (incumplen norma higiénica) y degradados oscuros artificiales en la parte inferior.
-- Probar: Planos medios en vestuarios o sala de estar con luz diurna natural y anatomía de manos totalmente despejada de accesorios.
+- Seguir haciendo: Escenas verticales serenas, diáfanas y con luz natural, sin pacientes ni instrumental invasivo.
+- Dejar de hacer: Pintar degradados inferiores oscuros, colocar relojes en muñecas y poner guantes para manipular material limpio.
+- Probar: Escenas en control de enfermería con iluminación diurna homogénea, antebrazos completamente despejados («mangas limpias») y reloj reglamentario prendido a la solapa.

@@ -1,11 +1,10 @@
-# Cuaderno de cazatendencias (2026-11-09)
+# Cuaderno de cazatendencias (2026-11-10)
 
-Esta semana de mediados de noviembre combina plazos administrativos reales y efemérides de alto impacto para opositoras:
-• OPE Madrid (hasta 11 nov): reel urgente recordando el cómputo de plazos administrativos hábiles.
-• Neumonía (12 nov): vídeo explicando posición de Fowler, pulsioximetría y oxigenoterapia de bajo flujo.
-• Diabetes (14 nov): carrusel de las 3 'P' (poliuria, polidipsia, polifagia) y técnica correcta de punción capilar.
-• Prematuridad (17 nov): test interactivo en stories sobre definición de pretérmino (<37 semanas) y termorregulación en incubadoras.
-• Uso prudente de antibióticos (18 nov): infografía práctica repasando los 5 momentos del lavado de manos de la OMS.
+Semana cargada de fechas clave para vincular el calendario sanitario con el temario oficial. El 12N (Neumonía) y el 14N (Diabetes) son ideales para reels y carruseles de repaso rápido sobre constantes vitales (saturación y glucemia capilar) y tipos de dietas. Para el 17N (Prematuridad), plantea un test interactivo en historias sobre semanas gestacionales y el método canguro. El 18N (Uso Prudente de Antibióticos) permite publicar una viñeta sobre resistencias bacterianas, recordando los 5 momentos del lavado de manos y la seguridad del paciente. Cierra en viñetas recordando los grupos prioritarios de la campaña vacunal antigripal.
 
 ## Hallazgos
-- Ninguno fiable hoy.
+- **12 de noviembre: Día Mundial contra la Neumonía** (2026-11-12) · temas: respiratorio, inmunidadVacunas, prevencionSalud · La neumonía es una infección aguda pulmonar causada principalmente por bacterias y virus que afecta sobre todo a menores de cinco años y mayores de sesenta. · [fuente](https://escueladesalud.comunidad.madrid)
+- **14 de noviembre: Día Mundial de la Diabetes** (2026-11-14) · temas: nutricion, educacionSanitaria, constantesVitales · Se conmemora cada 14 de noviembre en recuerdo de Frederick Banting para concienciar sobre la prevención y el control de la glucosa en sangre. · [fuente](https://www.seen.es)
+- **17 de noviembre: Día Mundial del Niño Prematuro** (2026-11-17) · temas: recienNacido, embarazoParto, calidad · Se considera prematuro a todo recién nacido vivo antes de completarse las 37 semanas de gestación, requiriendo cuidados especializados y método canguro. · [fuente](https://www.saludcastillayleon.es)
+- **18 de noviembre: Día Europeo para el Uso Prudente de los Antibióticos** (2026-11-18) · temas: farmacologia, seguridad, lavadoManos · El objetivo es sensibilizar sobre la amenaza que la resistencia a los antibióticos supone para la salud pública y fomentar su consumo prudente y responsable. · [fuente](https://www.resistenciaantibioticos.es)
+- **Campaña de vacunación frente a Gripe y COVID-19** (2026-11-05) · temas: inmunidadVacunas, prevencionSalud, saludLaboral · Se prioriza la vacunación simultánea frente a la gripe y COVID-19 en personas de 60 o más años, personas institucionalizadas y profesionales sanitarios. · [fuente](https://www.sanidad.gob.es)

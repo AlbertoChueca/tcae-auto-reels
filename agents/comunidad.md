@@ -1,6 +1,8 @@
-# Cuaderno de comunidad (2026-11-09)
+# Cuaderno de comunidad (2026-11-10)
 
-- Resumen de audiencia: Muestra reducida (16 comentarios analizados). Participación puramente telegráfica con opciones de test («A», «C», «B, D, B») y ligeras dudas («creo q la C», «A?»). Cero peticiones temáticas o quejas.
-- Seguir haciendo: Preguntas cerradas de opción múltiple con 3 o 4 alternativas bien legibles.
-- Dejar de hacer: Invitaciones a debates complejos o justificaciones clínicas.
-- Probar: Fijar primer comentario con plantilla rápida: «Escribe aquí tus 3 letras 👇».
+# Cuaderno de comunidad (2026-11-10)
+
+- Resumen de audiencia: Muestra reducida (16 comentarios analizados). Participación 100% telegráfica resolviendo el test con letras sueltas («A», «C», «B, D, B») o dudas puntuales («creo q la C», «A?»). No existen quejas ni peticiones de temario explícitas.
+- Seguir haciendo: Preguntas de opción múltiple muy claras con opciones bien diferenciadas (A, B, C, D) para incentivar la respuesta en un solo toque.
+- Dejar de hacer: Preguntas abiertas que requieran redactar o justificar la respuesta clínica.
+- Probar: Dejar un primer comentario fijado: «¿Dudas entre dos? Escribe tus respuestas aquí 👇».
