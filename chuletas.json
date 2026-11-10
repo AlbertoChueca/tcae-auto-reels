@@ -449,5 +449,20 @@
 "tiktok": "6af1ffe846531f100b8ecc02"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-11-10",
+"slot": "18",
+"topic": "unidadPaciente",
+"tema": "La Unidad del Paciente",
+"subtema": "Tipos de camas hospitalarias",
+"quiz_id": "0237ba623b",
+"imagenes": 6,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/DfiokyBl30k/",
+"tiktok": "6af26728c11af6012900cd59"
+},
+"dry_run": false
 }
 ]
