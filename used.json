@@ -628,5 +628,11 @@
 "topic": "educacionSanitaria",
 "fecha": "2026-11-10",
 "formato": "truco_memorizar"
+},
+{
+"id": "f8440a7bd4",
+"topic": "upp",
+"fecha": "2026-11-10",
+"formato": "error_tipico"
 }
 ]

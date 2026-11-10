@@ -13,7 +13,7 @@ _Updated 2026-11-10 · 50 reels with results (3+ days old) · average score 7.49
 | caso_practico | 2 | 7.40 |
 | examen_real | 6 | 7.37 |
 | error_tipico | 2 | 7.13 |
-| legislacion_30s | 4 | 6.62 |
+| legislacion_30s | 4 | 6.63 |
 | truco_memorizar | 0 | - |
 | mito_realidad | 0 | - |
 
@@ -23,17 +23,17 @@ _Updated 2026-11-10 · 50 reels with results (3+ days old) · average score 7.49
 |---|---|---|
 | cuaderno | 11 | 8.00 |
 | clasico | 8 | 7.60 |
-| noche | 15 | 7.47 |
+| noche | 15 | 7.48 |
 | examen | 6 | 7.34 |
 | minimal | 4 | 7.22 |
 | marca | 3 | 6.87 |
-| ilustrado | 3 | 6.59 |
+| ilustrado | 3 | 6.61 |
 
 ## hook_style
 
 | option | reels | avg score |
 |---|---|---|
-| dilema_guardia | 4 | 8.42 |
+| dilema_guardia | 4 | 8.43 |
 | repaso exprés | 6 | 8.00 |
 | trampa | 11 | 7.44 |
 | reto | 9 | 7.41 |
