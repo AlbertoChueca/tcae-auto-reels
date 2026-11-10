@@ -464,5 +464,20 @@
 "tiktok": "6af26728c11af6012900cd59"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-11-10",
+"slot": "8",
+"topic": "exploracionPaciente",
+"tema": "Exploración del Paciente",
+"subtema": "Técnicas de exploración física",
+"quiz_id": "14598b8ea7",
+"imagenes": 6,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/DfkOuZqmK9K/",
+"tiktok": "6af3385e94341204e16f650d"
+},
+"dry_run": false
 }
 ]
