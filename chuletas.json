@@ -479,5 +479,20 @@
 "tiktok": "6af3385e94341204e16f650d"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-11-11",
+"slot": "8",
+"topic": "sondajeUrinario",
+"tema": "Sondaje Vesical",
+"subtema": "Sondas vesicales con nombre propio",
+"quiz_id": "1b8303cc55",
+"imagenes": 6,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/DfmwRWPFQbg/",
+"tiktok": "6af4832d7982f1355af3970d"
+},
+"dry_run": false
 }
 ]
