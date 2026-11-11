@@ -494,5 +494,20 @@
 "tiktok": "6af4832d7982f1355af3970d"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-11-11",
+"slot": "18",
+"topic": "trabajoEquipo",
+"tema": "Trabajo en Equipo",
+"subtema": "Roles y dinámicas de equipo",
+"quiz_id": "cf70332e0c",
+"imagenes": 6,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/DfnpWMWmJaL/",
+"tiktok": "6af4f819a64e6584d461dfa7"
+},
+"dry_run": false
 }
 ]
