@@ -652,5 +652,23 @@
 "topic": "constantesVitales",
 "fecha": "2026-11-11",
 "formato": "simulacro_3"
+},
+{
+"id": "614bde356c",
+"topic": "higienePaciente",
+"fecha": "2026-11-11",
+"formato": "simulacro_3"
+},
+{
+"id": "1c15b90899",
+"topic": "drenajes",
+"fecha": "2026-11-11",
+"formato": "simulacro_3"
+},
+{
+"id": "d27864f5e3",
+"topic": "posicionesMov",
+"fecha": "2026-11-11",
+"formato": "simulacro_3"
 }
 ]
