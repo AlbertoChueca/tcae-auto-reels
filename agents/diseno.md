@@ -1,7 +1,5 @@
-# Cuaderno de diseno (2026-11-10)
+# Cuaderno de diseno (2026-11-11)
 
-# Cuaderno de diseno (2026-11-10)
-
-- Seguir haciendo: Plantillas «cuaderno» y «noche» (top 3 absoluto con hasta 1200 views y 13 s de visionado), cuidando las tarjetas blancas limpias y texto teal de alto contraste.
-- Dejar de hacer: Estilos «marca», «minimal» e «ilustrado», estancados en menos de 210 views.
-- Probar: Resalte dinámico en recuadro ámbar sobre la opción correcta al expirar el tiempo de pensar, facilitando la comprobación visual rápida en pantalla móvil.
+- Seguir haciendo: Estilos «cuaderno» y «noche» con think_time largo (dominan el top 3 con hasta 1212 views y >12 s de visionado). Tarjetas blancas legibles y teal/ámbar corporativo.
+- Dejar de hacer: Estilos «marca», «minimal» e «ilustrado», que no superan las 220 visualizaciones.
+- Probar: Resaltar la opción correcta con marco ámbar animado al expirar el tiempo de pensar para verificación visual inmediata en móvil.

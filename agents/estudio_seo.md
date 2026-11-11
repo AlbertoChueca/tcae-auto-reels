@@ -1,5 +1,5 @@
-# Cuaderno de seo (2026-11-10)
+# Cuaderno de seo (2026-11-11)
 
-- Seguir haciendo: Emplear términos de alta demanda en ganchos y primeras líneas: «TCAE», «repaso», «simulacro» y «examen real».
-- Dejar de hacer: Publicar textos sin la palabra «TCAE» explícita en los primeros 3 segundos de visualización.
-- Probar: Combinar temática técnica con siglas autonómicas en la descripción: «Test TCAE OPE 2026 (SAS, SERMAS, SACYL)».
+- Seguir haciendo: Emplear palabras clave nucleares en los primeros 3 segundos y copy: «TCAE», «repaso», «simulacro» y «examen real».
+- Dejar de hacer: Publicar titulares sin incluir el término «TCAE» de forma explícita.
+- Probar: Incluir acrónimos de servicios de salud en descripciones («OPE TCAE: SAS, SERMAS, SACYL») para captar búsquedas específicas por autonomía.

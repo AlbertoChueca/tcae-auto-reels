@@ -1,5 +1,5 @@
-# Cuaderno de ilustradora (2026-11-10)
+# Cuaderno de ilustradora (2026-11-11)
 
-- Seguir haciendo: Escenas verticales serenas, diáfanas y con luz natural, sin pacientes ni instrumental invasivo.
-- Dejar de hacer: Pintar degradados inferiores oscuros, colocar relojes en muñecas y poner guantes para manipular material limpio.
-- Probar: Escenas en control de enfermería con iluminación diurna homogénea, antebrazos completamente despejados («mangas limpias») y reloj reglamentario prendido a la solapa.
+- Seguir haciendo: Escenas en control de enfermería y salas de estudio con luz natural suave, sin pacientes ni monitores invasivos.
+- Dejar de hacer: Colocar guantes para manipular mobiliario limpio o tomar constantes, pintar relojes de muñeca y cortar extremidades en el encuadre.
+- Probar: Ilustrar a la auxiliar con antebrazos totalmente despejados, reloj reglamentario prendido a la solapa y pies bien apoyados en el suelo.
