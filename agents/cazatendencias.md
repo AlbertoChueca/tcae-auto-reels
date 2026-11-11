@@ -1,6 +1,10 @@
 # Cuaderno de cazatendencias (2026-11-11)
 
-Esta semana de noviembre reúne citas de oro para el temario de TCAE: el plazo activo de la OPE del SERIS, la campaña de vacunación estacional y jornadas mundiales como Neumonía, Diabetes, Prematuros y, sobre todo, Stop UPP. Para reels, aprovecha el gancho de los días internacionales para lanzar preguntas trampa tipo test: límites gestacionales del prematuro, factores de riesgo de UPP con escalas Norton/Braden, o las '4 P' de la diabetes antes de explicar la solución en 15 segundos. En viñetas o carruseles, publica infografías visuales de cuidados posturales y diferencias entre inmunidad activa y pasiva en vacunación.
+Semana con alto gancho por la confluencia de la OPE del SERIS en plazo y tres conmemoraciones sanitarias: Neumonía (12 nov), Diabetes (14 nov) y Resistencia Bacteriana (18 nov), sumadas a la campaña de vacunación estacional. Estrategia de contenidos para redes:
+1. OPE Alert (Reel): Pantallazo del BOR del SERIS explicando cómputo de plazos y requisitos.
+2. Neumonía vs. EPOC (Carrusel): Signos de alarma, posición Fowler y dispositivos de oxigenoterapia (mascarilla con reservorio vs Venturi).
+3. Caso práctico Diabetes (TikTok/Reel): Procedimiento ordenado de glucemia capilar y errores habituales.
+4. Bioseguridad (Infografía): Aislamientos hospitalarios e higiene de manos frente a bacterias multirresistentes.
 
 ## Hallazgos
 - Ninguno fiable hoy.
