@@ -1,10 +1,6 @@
-# Cuaderno de cazatendencias (2026-11-11)
+# Cuaderno de cazatendencias (2026-11-12)
 
-Semana con alto gancho por la confluencia de la OPE del SERIS en plazo y tres conmemoraciones sanitarias: Neumonía (12 nov), Diabetes (14 nov) y Resistencia Bacteriana (18 nov), sumadas a la campaña de vacunación estacional. Estrategia de contenidos para redes:
-1. OPE Alert (Reel): Pantallazo del BOR del SERIS explicando cómputo de plazos y requisitos.
-2. Neumonía vs. EPOC (Carrusel): Signos de alarma, posición Fowler y dispositivos de oxigenoterapia (mascarilla con reservorio vs Venturi).
-3. Caso práctico Diabetes (TikTok/Reel): Procedimiento ordenado de glucemia capilar y errores habituales.
-4. Bioseguridad (Infografía): Aislamientos hospitalarios e higiene de manos frente a bacterias multirresistentes.
+Esta semana coinciden la convocatoria activa del SERIS con días mundiales de gran peso en examen: Neumonía (12 nov), Diabetes (14 nov) y Prematuridad (17 nov), junto a la campaña de vacunación estacional. En Instagram, aprovecha el tirón con carruseles visuales de esquemas rápidos: cifras de glucemia capilar, valores de pulsioximetría y clasificación gestacional del recién nacido. En TikTok y Reels, genera vídeos dinámicos de '3 preguntas de examen en 30 segundos' sobre vacunas y patología respiratoria, recordando además revisar las fechas límite de solicitud en boletines oficiales para no perder plazas.
 
 ## Hallazgos
 - Ninguno fiable hoy.

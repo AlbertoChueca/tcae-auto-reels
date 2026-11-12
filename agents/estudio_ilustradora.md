@@ -1,5 +1,5 @@
-# Cuaderno de ilustradora (2026-11-11)
+# Cuaderno de ilustradora (2026-11-12)
 
-- Seguir haciendo: Escenas en control de enfermería y salas de estudio con luz natural suave, sin pacientes ni monitores invasivos.
-- Dejar de hacer: Colocar guantes para manipular mobiliario limpio o tomar constantes, pintar relojes de muñeca y cortar extremidades en el encuadre.
-- Probar: Ilustrar a la auxiliar con antebrazos totalmente despejados, reloj reglamentario prendido a la solapa y pies bien apoyados en el suelo.
+- Seguir haciendo: Ilustrar controles de planta y salas de estudio con luz suave y estética limpia, sin pacientes ni monitores invasivos.
+- Dejar de hacer: Pintar guantes para tareas limpias o mobiliario; cortar extremidades y dibujar pacientes en camilla.
+- Probar: Planos medios con pies bien asentados en el suelo, antebrazos despejados sin joyas ni reloj de muñeca, y reloj reglamentario de solapa.

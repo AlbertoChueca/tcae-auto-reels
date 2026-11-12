@@ -670,5 +670,11 @@
 "topic": "posicionesMov",
 "fecha": "2026-11-11",
 "formato": "simulacro_3"
+},
+{
+"id": "bd6e7cbab9",
+"topic": "recienNacido",
+"fecha": "2026-11-12",
+"formato": "caso_practico"
 }
 ]
