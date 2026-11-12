@@ -27,22 +27,22 @@
 "fecha": "2026-10-13"
 },
 "aca0895b14": {
-"veredicto": "ok",
-"motivo": "El artículo 14.2 del Estatuto de Autonomía de Aragón reconoce el derecho a acceder a los servicios públicos de salud en condiciones de igualdad, universalidad y calidad.",
+"veredicto": "dudosa",
+"motivo": "El texto fuente proporcionado es la Ley de Salud de Aragón y no incluye el Estatuto de Autonomía para poder verificar la respuesta.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-05"
+"fecha": "2026-11-12"
 },
 "7aae196175": {
-"veredicto": "ok",
-"motivo": "El mandato del Justicia de Aragón tiene una duración de cinco años, tal y como establece su ley reguladora (Ley 4/1985).",
+"veredicto": "dudosa",
+"motivo": "Los artículos del Estatuto de Autonomía adjuntos mencionan al Justicia, pero no establecen la duración de su mandato de 5 años.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-05"
+"fecha": "2026-11-12"
 },
 "1a5a0409fc": {
 "veredicto": "ok",
@@ -216,13 +216,13 @@
 "fecha": "2026-10-13"
 },
 "103ca661f6": {
-"veredicto": "ok",
-"motivo": "El plazo general para interponer un recurso de inconstitucionalidad es de 3 meses, según el artículo 33 de la Ley Orgánica del Tribunal Constitucional.",
+"veredicto": "dudosa",
+"motivo": "El texto proporcionado no incluye el artículo de la Ley Orgánica del Tribunal Constitucional que establece el plazo de 3 meses.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-05"
+"fecha": "2026-11-12"
 },
 "1f1c62301d": {
 "veredicto": "ok",
@@ -549,13 +549,13 @@
 "fecha": "2026-10-13"
 },
 "689df886bb": {
-"veredicto": "ok",
-"motivo": "En Aragón, el órgano autonómico competente para resolver estas reclamaciones es el Consejo de Transparencia de Aragón, creado por la Ley 8/2015 autonómica.",
+"veredicto": "dudosa",
+"motivo": "El texto proporcionado es la ley estatal y no incluye la normativa autonómica que confirme al Consejo de Transparencia de Aragón como órgano competente.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-05"
+"fecha": "2026-11-12"
 },
 "6447e42814": {
 "veredicto": "ok",
@@ -618,7 +618,7 @@
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-05"
+"fecha": "2026-11-12"
 },
 "b1d5e3d1eb": {
 "veredicto": "ok",
@@ -981,13 +981,13 @@
 "fecha": "2026-10-13"
 },
 "1377cc262e": {
-"veredicto": "ok",
-"motivo": "La Ley Orgánica 3/1981 establece que el Defensor del Pueblo es elegido por mayoría de tres quintos tanto en el Congreso como en el Senado.",
+"veredicto": "dudosa",
+"motivo": "El artículo 54 de la Constitución adjunto no especifica la mayoría de tres quintos; esto se regula en una ley orgánica no proporcionada.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-05"
+"fecha": "2026-11-12"
 },
 "458e88c007": {
 "veredicto": "ok",
@@ -1044,13 +1044,13 @@
 "fecha": "2026-10-13"
 },
 "47bf377f6d": {
-"veredicto": "ok",
-"motivo": "Según el artículo 346.3 de la Ley 9/2017 de Contratos del Sector Público, es obligatorio comunicar los contratos de importe igual o superior a 5.000 euros.",
+"veredicto": "dudosa",
+"motivo": "El texto proporcionado no incluye el artículo de la Ley 9/2017 (art. 346.3) que establece el importe de 5.000 euros para el Registro de Contratos.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-05"
+"fecha": "2026-11-12"
 },
 "bead865b93": {
 "veredicto": "ok",
@@ -1116,13 +1116,13 @@
 "fecha": "2026-10-13"
 },
 "137d169b9f": {
-"veredicto": "ok",
-"motivo": "El Título VI de la Constitución Española (artículos 117 a 127) está dedicado íntegramente a regular el Poder Judicial.",
+"veredicto": "dudosa",
+"motivo": "El texto de la fuente no incluye el encabezado del Título VI para confirmar explícitamente que regula el Poder Judicial.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-05"
+"fecha": "2026-11-12"
 },
 "e62208af1d": {
 "veredicto": "ok",
@@ -1332,13 +1332,13 @@
 "fecha": "2026-10-13"
 },
 "9d0cc7646e": {
-"veredicto": "ok",
-"motivo": "El Título VII de la Constitución Española (artículos 128 a 136) se denomina 'Economía y Hacienda'.",
+"veredicto": "dudosa",
+"motivo": "El texto proporcionado no incluye el encabezado del Título VII para confirmar que regula Economía y Hacienda.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-05"
+"fecha": "2026-11-12"
 },
 "bbd06f8c55": {
 "veredicto": "ok",
@@ -1360,12 +1360,12 @@
 },
 "d3a2d404ed": {
 "veredicto": "ok",
-"motivo": "El 5 de enero de 1978 es la fecha histórica correcta de publicación del anteproyecto constitucional en el Boletín Oficial de las Cortes.",
+"motivo": "Es un dato histórico correcto; el anteproyecto constitucional se publicó en el Boletín Oficial de las Cortes el 5 de enero de 1978.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-05"
+"fecha": "2026-11-12"
 },
 "728be4f84a": {
 "veredicto": "ok",
@@ -1738,12 +1738,12 @@
 },
 "4463103860": {
 "veredicto": "ok",
-"motivo": "El Real Decreto 1475/2001 es la norma que hizo efectivo el traspaso de las funciones y servicios del INSALUD a la Comunidad Autónoma de Aragón.",
+"motivo": "El Real Decreto 1475/2001 es efectivamente la norma que reguló el traspaso de las funciones y servicios del INSALUD a Aragón.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-05"
+"fecha": "2026-11-12"
 },
 "4da0bc5ef7": {
 "veredicto": "error",
@@ -1783,12 +1783,12 @@
 },
 "c36110f8a9": {
 "veredicto": "ok",
-"motivo": "Entre las elecciones de junio de 1977 y la entrada en vigor de la Constitución en diciembre de 1978 transcurrieron 18 meses, es decir, un año y medio.",
+"motivo": "Entre junio de 1977 y diciembre de 1978 transcurrieron 18 meses, lo que equivale a un año y medio.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-05"
+"fecha": "2026-11-12"
 },
 "4edbceb895": {
 "veredicto": "ok",
@@ -1872,13 +1872,13 @@
 "fecha": "2026-10-13"
 },
 "8245bd876b": {
-"veredicto": "ok",
-"motivo": "La Constitución Española tiene 10 títulos numerados (del I al X) además del Título Preliminar.",
+"veredicto": "dudosa",
+"motivo": "El texto proporcionado no demuestra el número total de títulos de la Constitución. Además, el enunciado revela la respuesta al decir '(del I al X)'.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-05"
+"fecha": "2026-11-12"
 },
 "863995f46a": {
 "veredicto": "ok",
@@ -2170,12 +2170,12 @@
 },
 "f803623eb9": {
 "veredicto": "ok",
-"motivo": "La Ley 8/1996, de 2 de diciembre, es efectivamente la Ley de Delimitación Comarcal de Aragón que estableció las 33 comarcas.",
+"motivo": "La Ley 8/1996, de 2 de diciembre, es la norma autonómica que estableció la delimitación de las comarcas en Aragón.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-05"
+"fecha": "2026-11-12"
 },
 "6433d65348": {
 "veredicto": "ok",
@@ -2277,13 +2277,13 @@
 "fecha": "2026-10-14"
 },
 "94b6c30a65": {
-"veredicto": "ok",
-"motivo": "La Ley 4/1985 del Justicia de Aragón establece que, si tras tres votaciones no se alcanzan los tres quintos, bastará la mayoría absoluta en las siguientes.",
+"veredicto": "dudosa",
+"motivo": "El texto proporcionado regula la investidura del Presidente de Aragón, no la elección del Justicia de Aragón.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-05"
+"fecha": "2026-11-12"
 },
 "602de32617": {
 "veredicto": "ok",
@@ -2503,12 +2503,12 @@
 },
 "2f309928e3": {
 "veredicto": "ok",
-"motivo": "El Decreto 39/2024, de 28 de febrero, es la norma vigente que regula la estructura orgánica del Departamento de Sanidad y del SALUD en Aragón.",
+"motivo": "El Decreto 39/2024, de 28 de febrero, es la norma vigente que regula la estructura orgánica del Departamento de Sanidad de Aragón.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-05"
+"fecha": "2026-11-12"
 },
 "72e5c26846": {
 "veredicto": "ok",
@@ -4887,13 +4887,13 @@
 "fecha": "2026-10-22"
 },
 "4449ecb2a3": {
-"veredicto": "ok",
-"motivo": "El Estado español se organiza territorialmente en 17 Comunidades Autónomas y 2 Ciudades Autónomas (Ceuta y Melilla).",
+"veredicto": "dudosa",
+"motivo": "Aunque la respuesta es correcta (17 CCAA), el texto de la fuente proporcionado no especifica esta cifra, por lo que no demuestra la respuesta.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-05"
+"fecha": "2026-11-12"
 },
 "e6a630275e": {
 "veredicto": "ok",
@@ -4924,12 +4924,12 @@
 },
 "ffdf21b0f9": {
 "veredicto": "ok",
-"motivo": "El 87,78% es el porcentaje histórico aceptado de votos afirmativos sobre el total de votantes en el referéndum constitucional de 1978.",
+"motivo": "El 87,78% es el porcentaje histórico reconocido de votos afirmativos sobre el total de votantes en el referéndum constitucional.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-05"
+"fecha": "2026-11-12"
 },
 "ac509fdb95": {
 "veredicto": "ok",
@@ -5049,13 +5049,13 @@
 "fecha": "2026-10-22"
 },
 "64913b8049": {
-"veredicto": "ok",
-"motivo": "El Preámbulo de la Constitución establece literalmente que la Nación española proclama su voluntad 'en uso de su soberanía'.",
+"veredicto": "dudosa",
+"motivo": "El texto de la fuente no incluye el Preámbulo de la Constitución Española para verificar la afirmación.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-05"
+"fecha": "2026-11-12"
 },
 "1c51e829a3": {
 "veredicto": "ok",
@@ -6327,13 +6327,13 @@
 "fecha": "2026-10-29"
 },
 "6dbb168282": {
-"veredicto": "ok",
-"motivo": "La mayoría simple se alcanza cuando los votos a favor superan a los votos en contra, sin tener en cuenta las abstenciones, votos nulos o en blanco.",
+"veredicto": "dudosa",
+"motivo": "Los artículos proporcionados mencionan la mayoría simple, pero no definen cómo se computa matemáticamente.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-05"
+"fecha": "2026-11-12"
 },
 "92d6355820": {
 "veredicto": "ok",
@@ -6516,13 +6516,13 @@
 "fecha": "2026-10-29"
 },
 "b07d68353d": {
-"veredicto": "ok",
-"motivo": "El artículo 99.2 de la Ley 9/2017 prohíbe expresamente fraccionar un contrato para disminuir su cuantía y eludir los requisitos de publicidad o el procedimiento de adjudicación.",
+"veredicto": "dudosa",
+"motivo": "El texto proporcionado no incluye el artículo de la Ley 9/2017 que prohíbe el fraccionamiento de los contratos menores (art. 99.2 o 118.3).",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-05"
+"fecha": "2026-11-12"
 },
 "c5904bdf1d": {
 "veredicto": "ok",
@@ -8182,12 +8182,12 @@
 },
 "6a0ad8d87e": {
 "veredicto": "dudosa",
-"motivo": "El texto de la fuente confirma el contenido de los artículos 17 y 18, pero no demuestra explícitamente que pertenezcan al Capítulo IV, por lo que no se puede verificar de forma completa con el fragmento dado.",
+"motivo": "La respuesta es correcta, pero el texto legal adjunto no indica que los artículos 17 y 18 pertenezcan al Capítulo IV.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-05"
+"fecha": "2026-11-12"
 },
 "ed57162e20": {
 "veredicto": "ok",
@@ -8587,12 +8587,12 @@
 },
 "ddd2d5607e": {
 "veredicto": "dudosa",
-"motivo": "El texto de la fuente confirma que el artículo 76 regula las incompatibilidades, pero no demuestra explícitamente que dicho artículo pertenezca al Capítulo XIII.",
+"motivo": "El texto incluye el artículo 76 sobre incompatibilidades, pero no especifica que este se encuentre en el Capítulo XIII.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-05"
+"fecha": "2026-11-12"
 },
 "843e7d3e2a": {
 "veredicto": "dudosa",
@@ -8659,12 +8659,12 @@
 },
 "f02e393d99": {
 "veredicto": "dudosa",
-"motivo": "El texto legal proporcionado no incluye el capítulo o artículo específico que consagra explícitamente el principio de libre circulación.",
+"motivo": "El texto proporcionado menciona la movilidad en el artículo 38, pero no demuestra que exista un capítulo específico dedicado a ella.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-05"
+"fecha": "2026-11-12"
 },
 "001d209948": {
 "veredicto": "ok",
@@ -8812,12 +8812,12 @@
 },
 "686adc9117": {
 "veredicto": "ok",
-"motivo": "La Ley General de Sanidad prevé que en infracciones muy graves se pueda acordar el cierre temporal del establecimiento por un máximo de cinco años.",
+"motivo": "La Ley General de Sanidad establece explícitamente el cierre temporal de hasta cinco años para infracciones muy graves.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-05"
+"fecha": "2026-11-12"
 },
 "09272ccf16": {
 "veredicto": "dudosa",
@@ -9862,5 +9862,860 @@
 "cita": "",
 "correcta_sugerida": null,
 "fecha": "2026-11-09"
+},
+"996d2b723d": {
+"veredicto": "ok",
+"motivo": "La Conferencia de Alma-Ata se celebró en 1978 en la antigua URSS (actual Kazajistán).",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"b46fa0db1f": {
+"veredicto": "ok",
+"motivo": "El paciente geriátrico se define clásicamente por tener más de 75 años y pluripatología, entre otros factores.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"a73c4137ba": {
+"veredicto": "ok",
+"motivo": "Las sinartrosis son articulaciones inmóviles, siendo la respuesta correcta y única posible.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"e412f8fa93": {
+"veredicto": "ok",
+"motivo": "La albúmina es el parámetro bioquímico clásico y más utilizado a nivel de TCAE para valorar el estado nutricional proteico.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"45241312f8": {
+"veredicto": "ok",
+"motivo": "El tubo de Kehr en forma de T se utiliza específicamente para el drenaje de la vía biliar (colédoco).",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"67b7edc3b2": {
+"veredicto": "ok",
+"motivo": "La cama electrocircular o de Stryker consta de dos armazones y se usa en politraumatizados y grandes quemados.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"db1f9143a5": {
+"veredicto": "ok",
+"motivo": "La OMS recomienda la lactancia materna exclusiva durante los primeros 6 meses de vida del bebé.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"cd77ea46f3": {
+"veredicto": "ok",
+"motivo": "La regla de los cinco correctos es un estándar básico de seguridad en la administración de medicamentos.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"2e0a13cc3e": {
+"veredicto": "ok",
+"motivo": "Mantener la permeabilidad de un catéter es un procedimiento vascular, no un objetivo del sondaje gástrico.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"23b4a7a9d8": {
+"veredicto": "ok",
+"motivo": "El cuidador principal suele ser un familiar que asume la mayor parte del cuidado y necesita apoyo del equipo de salud.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"e7bb8a17ea": {
+"veredicto": "dudosa",
+"motivo": "Aunque la respuesta A es correcta (art. 121 LPACAP), el texto de la fuente proporcionado omite dicho artículo y no permite demostrarla explícitamente.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"3752263dbd": {
+"veredicto": "ok",
+"motivo": "Las raíces 'lipo-' y 'adipo-' provienen del griego y latín respectivamente y significan grasa.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"c77c0b6b64": {
+"veredicto": "ok",
+"motivo": "En la escala de Bristol, los tipos 1 y 2 indican heces duras y en fragmentos, características del estreñimiento.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"839f163cbf": {
+"veredicto": "ok",
+"motivo": "El drenaje torácico debe conectarse a un sistema de sello de agua para mantener la presión negativa del espacio pleural.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"289d95be9e": {
+"veredicto": "ok",
+"motivo": "El artículo 33 de la Ley General de Sanidad recoge el principio 'non bis in idem', que prohíbe la doble sanción.",
+"fuente_ok": true,
+"referencia": "Ley 14/1986, General de Sanidad, Artículo treinta y tres",
+"cita": "En ningún caso se impondrá una doble sanción por los mismos hechos y en función de los mismos intereses públicos protegidos",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"e9fc1d8beb": {
+"veredicto": "ok",
+"motivo": "El reflejo de búsqueda o de los puntos cardinales consiste precisamente en girar la cabeza hacia el estímulo en la mejilla buscando el pezón.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"c5e49147b3": {
+"veredicto": "ok",
+"motivo": "En terminología médica, el sufijo '-oma' se utiliza para designar un tumor o masa (ej. lipoma, carcinoma).",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"16928832dd": {
+"veredicto": "ok",
+"motivo": "Un pulso que presenta variaciones irregulares en el ritmo o la fuerza de los latidos se denomina pulso arrítmico.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"7322a6e237": {
+"veredicto": "ok",
+"motivo": "El ácido fólico es fundamental para prevenir defectos del tubo neural, participa en la eritropoyesis y su déficit causa anemia megaloblástica en la gestante.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"41f8b60fa1": {
+"veredicto": "ok",
+"motivo": "El líquido cefalorraquídeo (LCR) es el fluido que rodea, baña y protege el encéfalo y la médula espinal.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"160ba48902": {
+"veredicto": "ok",
+"motivo": "Según el artículo 22 de la Ley de Prevención de Riesgos Laborales, la vigilancia de la salud es voluntaria para el trabajador, salvo excepciones justificadas.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"cc0d540ed5": {
+"veredicto": "ok",
+"motivo": "El tenesmo rectal se define clínicamente como la sensación de necesidad urgente de defecar acompañada de una evacuación incompleta.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"e1462a5c16": {
+"veredicto": "ok",
+"motivo": "La prevención secundaria se centra en la detección, diagnóstico y tratamiento precoz de la enfermedad en su fase asintomática.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"1db9302eda": {
+"veredicto": "ok",
+"motivo": "El periodo de incubación o latencia es el tiempo que transcurre entre la infección y la aparición de los primeros síntomas.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"6a11907e10": {
+"veredicto": "ok",
+"motivo": "El Mycobacterium tuberculosis es conocido universalmente como el bacilo de Koch.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"7ffbcae0cb": {
+"veredicto": "ok",
+"motivo": "Fijar un objetivo común y un plan de actuación son pasos fundamentales y lógicos para organizar el trabajo en equipo.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"b65d92c901": {
+"veredicto": "ok",
+"motivo": "La sangre oxigenada pasa de la aurícula izquierda al ventrículo izquierdo a través de la válvula mitral.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"434dbe6ad1": {
+"veredicto": "ok",
+"motivo": "Los cambios posturales y la protección de zonas de apoyo son prioritarios para prevenir úlceras por presión en pacientes inmovilizados.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"5bab3dc0b5": {
+"veredicto": "ok",
+"motivo": "La Ley 41/2002 establece explícitamente que el paciente es el titular del derecho a la información asistencial.",
+"fuente_ok": true,
+"referencia": "Ley 41/2002, Artículo 5.1",
+"cita": "El titular del derecho a la información es el paciente.",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"ac819c4922": {
+"veredicto": "ok",
+"motivo": "El sufijo '-itis' se utiliza en terminología médica para indicar inflamación.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"39006c7aab": {
+"veredicto": "ok",
+"motivo": "El postoperatorio inmediato transcurre en la sala de reanimación o despertar justo después de la cirugía.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"d6aa6c7f0a": {
+"veredicto": "ok",
+"motivo": "La claridad, empatía y escucha activa son factores facilitadores indiscutibles de la comunicación sanitaria.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"5a8f0fd6f4": {
+"veredicto": "ok",
+"motivo": "La organogénesis o diferenciación morfológica de los órganos tiene lugar durante la etapa embrionaria (hasta la 8ª-9ª semana).",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"d8c33b2365": {
+"veredicto": "ok",
+"motivo": "La gestión de la calidad es el concepto global que incluye la eficiencia y el coste económico del servicio, a diferencia del mero control o evaluación.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"5e323aa5f3": {
+"veredicto": "ok",
+"motivo": "La definición corresponde exactamente al concepto epidemiológico de epidemia.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"f08a099ddb": {
+"veredicto": "ok",
+"motivo": "El término médico y técnico para los baños locales de pies y piernas es pediluvio.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"0bab7a8eb9": {
+"veredicto": "ok",
+"motivo": "El protocolo estándar de higiene de manos exige retirar joyas y relojes para asegurar una correcta desinfección.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"ef28c9d62e": {
+"veredicto": "ok",
+"motivo": "Hematuria es el término médico exacto para definir la presencia de sangre en la orina.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"b6297f86ac": {
+"veredicto": "ok",
+"motivo": "Los obstáculos físicos, psicológicos o semánticos en el proceso comunicativo se conocen unánimemente como barreras de la comunicación.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"82a15c68b4": {
+"veredicto": "ok",
+"motivo": "La oliguria se define médicamente como una diuresis inferior a 400-500 ml en 24 horas.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"024d6ae416": {
+"veredicto": "ok",
+"motivo": "Anatómicamente, el estómago se divide en cardias, fundus, cuerpo y porción pilórica (antro y conducto pilórico).",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"83ae7c695a": {
+"veredicto": "ok",
+"motivo": "El prefijo 'micro-' proviene del griego y significa pequeño.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"4d5e444958": {
+"veredicto": "ok",
+"motivo": "Dorothea Orem publicó por primera vez su teoría del déficit de autocuidado en su obra de 1971.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"fa91dc0ef8": {
+"veredicto": "dudosa",
+"motivo": "El enunciado contiene un error histórico: el 31 de octubre de 1978 el texto fue aprobado en sesiones plenarias separadas del Congreso y del Senado, no en sesión conjunta.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"287ab935df": {
+"veredicto": "error",
+"motivo": "Con carácter general, los actos administrativos producen efectos desde la fecha en que se dicten, no desde que se notifican (la notificación es un supuesto de demora de eficacia). Ninguna opción es correcta.",
+"fuente_ok": true,
+"referencia": "Ley 39/2015, del Procedimiento Administrativo Común · Artículo 39",
+"cita": "producirán efectos desde la fecha en que se dicten, salvo que en ellos se disponga otra cosa.",
+"correcta_sugerida": "",
+"fecha": "2026-11-12"
+},
+"57e24f35bf": {
+"veredicto": "ok",
+"motivo": "La prevención secundaria tiene como objetivo la detección precoz de la enfermedad (cribados o screening).",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"b030ae2aca": {
+"veredicto": "ok",
+"motivo": "El síndrome de Burnout se caracteriza exactamente por agotamiento emocional, despersonalización y baja realización personal.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"29c20ed565": {
+"veredicto": "ok",
+"motivo": "La función principal de la bilis es emulsionar las grasas, fragmentándolas para facilitar su digestión y absorción en el intestino delgado.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"ed954ecbbe": {
+"veredicto": "ok",
+"motivo": "El artículo 136 de la Constitución establece que el Tribunal de Cuentas es el supremo órgano fiscalizador de las cuentas y gestión económica del Estado.",
+"fuente_ok": true,
+"referencia": "Constitución Española de 1978, Artículo 136",
+"cita": "El Tribunal de Cuentas es el supremo órgano fiscalizador de las cuentas y de la gestión económica de Estado, así como del sector público.",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"40a2265949": {
+"veredicto": "ok",
+"motivo": "Los residuos de oficinas, como el papel y el cartón, son residuos generales asimilables a urbanos, los cuales se clasifican como Grupo I.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"ccd386ebdd": {
+"veredicto": "ok",
+"motivo": "El sufijo '-rragia' proviene del griego y se utiliza en terminología médica para indicar un flujo violento o hemorragia abundante.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"05e8cdffae": {
+"veredicto": "ok",
+"motivo": "El portaagujas es un instrumento de síntesis diseñado específicamente para sujetar y guiar la aguja de sutura durante las intervenciones quirúrgicas.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"deb7193725": {
+"veredicto": "ok",
+"motivo": "La pulsioximetría es la técnica no invasiva estándar para medir la saturación de oxígeno en sangre (SpO2) y la frecuencia cardíaca.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"a1b2e7eac5": {
+"veredicto": "ok",
+"motivo": "El Estatuto Marco establece claramente que la pena de inhabilitación absoluta firme conlleva la pérdida de la condición de personal estatutario.",
+"fuente_ok": true,
+"referencia": "Ley 55/2003, del Estatuto Marco del personal estatutario, Artículo 25",
+"cita": "La pena de inhabilitación absoluta, cuando hubiera adquirido firmeza, produce la pérdida de la condición de personal estatutario.",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"46bdddaf1d": {
+"veredicto": "ok",
+"motivo": "En el ámbito escolar, el profesorado es el principal agente de educación sanitaria al integrar estos conocimientos de forma continua en el currículo educativo.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"c2822204dc": {
+"veredicto": "ok",
+"motivo": "El TCAE trabaja bajo la supervisión del personal de enfermería, por lo que cualquier anomalía debe comunicarse al enfermero/a responsable.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"f6d2df97c8": {
+"veredicto": "ok",
+"motivo": "Hildegard Peplau es la autora del Modelo de Relaciones Interpersonales, publicado en su obra de 1952.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"590bd284a8": {
+"veredicto": "ok",
+"motivo": "El alveolo es la estructura anatómica y funcional del pulmón donde se produce el intercambio de gases con la sangre.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"f7c5d9cb54": {
+"veredicto": "ok",
+"motivo": "La flatulencia se define correctamente como la presencia y expulsión de gases a nivel intestinal.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"0da24ea2ac": {
+"veredicto": "ok",
+"motivo": "La endemia es la presencia constante o habitual de una enfermedad en un área geográfica específica.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"6921a77d54": {
+"veredicto": "ok",
+"motivo": "El principio activo es el componente del medicamento que produce el efecto farmacológico o terapéutico.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"ddedad8ccf": {
+"veredicto": "ok",
+"motivo": "El artículo 28.2 de la Constitución Española reconoce explícitamente el derecho a la huelga de los trabajadores.",
+"fuente_ok": true,
+"referencia": "Constitución Española de 1978, Artículo 28",
+"cita": "Se reconoce el derecho a la huelga de los trabajadores para la defensa de sus intereses.",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"f197705766": {
+"veredicto": "ok",
+"motivo": "La diuresis normal de un adulto sano oscila habitualmente entre 1000 y 1500 ml al día.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"869ef44c7e": {
+"veredicto": "ok",
+"motivo": "La Ley 41/2002 establece explícitamente que el consentimiento informado se prestará de forma verbal por regla general.",
+"fuente_ok": true,
+"referencia": "Ley 41/2002, Artículo 8",
+"cita": "El consentimiento será verbal por regla general. Sin embargo, se prestará por escrito en los casos siguientes",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"820993ddad": {
+"veredicto": "dudosa",
+"motivo": "El texto legal proporcionado no demuestra explícitamente que el artículo 43 se encuentre dentro del Capítulo Tercero, por lo que no se puede verificar con la fuente dada.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"624f472a63": {
+"veredicto": "ok",
+"motivo": "La vía rectal es una alternativa válida y segura para administrar medicación en pacientes inconscientes que no pueden utilizar la vía oral.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"22aeedba29": {
+"veredicto": "ok",
+"motivo": "Los pacientes con enfermedad celíaca deben evitar el trigo, la avena, la cebada y el centeno por su contenido en gluten.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"d96102aba9": {
+"veredicto": "ok",
+"motivo": "El nombre completo y la fecha de nacimiento (o número de historia) son los identificadores inequívocos estándar recomendados en las prácticas de seguridad del paciente.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"537e035946": {
+"veredicto": "ok",
+"motivo": "El encarnizamiento terapéutico vulnera el principio de no maleficencia al infligir daño o sufrimiento innecesario al paciente sin beneficio clínico.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"77fcd7493b": {
+"veredicto": "ok",
+"motivo": "La Alianza Mundial para la Seguridad del Paciente fue impulsada por la OMS en 2004 para mejorar la seguridad en la atención sanitaria a nivel global.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"2f1c5a4109": {
+"veredicto": "dudosa",
+"motivo": "El texto de la fuente menciona la Reforma de 27 de agosto de 1992, pero no especifica literalmente que su fecha de publicación en el BOE fuera el 28 de agosto.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"dd20fbdc1f": {
+"veredicto": "ok",
+"motivo": "El sistema nervioso central se compone anatómicamente del encéfalo y la médula espinal.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"d4adf4b811": {
+"veredicto": "ok",
+"motivo": "En la clasificación gerontológica tradicional, el grupo denominado 'viejo-viejo' comienza a partir de los 75 años.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"457be8bb62": {
+"veredicto": "ok",
+"motivo": "El fin último de cualquier programa de calidad en el ámbito sanitario es la mejora continua de la atención prestada al paciente.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"4410efb34d": {
+"veredicto": "ok",
+"motivo": "Los accidentes con material cortopunzante suponen una inoculación directa en el organismo, lo que constituye la vía de entrada parenteral.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"bec82ea6b7": {
+"veredicto": "ok",
+"motivo": "Un estoma es la apertura o boca artificial creada quirúrgicamente para comunicar un órgano interno con el exterior.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"063181131d": {
+"veredicto": "ok",
+"motivo": "La Ley Orgánica 3/2007 define la composición equilibrada estableciendo unos límites del 40% mínimo y 60% máximo para cada sexo.",
+"fuente_ok": true,
+"referencia": "Ley Orgánica 3/2007, para la igualdad efectiva de mujeres y hombres · Disposició",
+"cita": "las personas de cada sexo no superen el sesenta por ciento ni sean menos del cuarenta por ciento.",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"5787d6aaa6": {
+"veredicto": "ok",
+"motivo": "El prefijo o raíz médica 'blefaro-' proviene del griego y hace referencia anatómica a los párpados.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"6e95d1bff9": {
+"veredicto": "ok",
+"motivo": "El artículo 47.1.a) de la Ley 39/2015 establece expresamente esta causa como motivo de nulidad de pleno derecho.",
+"fuente_ok": true,
+"referencia": "Ley 39/2015, del Procedimiento Administrativo Común · Artículo 47",
+"cita": "Los actos de las Administraciones Públicas son nulos de pleno derecho en los casos siguientes: a) Los que lesionen los derechos y libertades susceptibles de amparo constitucional.",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"56dd6bba65": {
+"veredicto": "dudosa",
+"motivo": "El texto legal proporcionado solo menciona el Título III, omitiendo los Títulos IV y VI necesarios para confirmar la respuesta completa.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"19f0aa51bc": {
+"veredicto": "dudosa",
+"motivo": "El artículo 5 de la Ley 55/2003 clasifica al personal según el 'tipo de su nombramiento', no utiliza explícitamente la expresión 'relación jurídica'.",
+"fuente_ok": true,
+"referencia": "Ley 55/2003, del Estatuto Marco del personal estatutario · Artículo 5",
+"cita": "se clasifica atendiendo a la función desarrollada, al nivel del título exigido para el ingreso y al tipo de su nombramiento.",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"8caef7c117": {
+"veredicto": "ok",
+"motivo": "El alcohol al 70% es el antiséptico más eficaz porque la proporción de agua facilita la penetración en la pared celular bacteriana.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"60ab8af322": {
+"veredicto": "ok",
+"motivo": "La ecografía utiliza ondas sonoras de alta frecuencia (ultrasonidos) y es una técnica segura que no emite radiación ionizante.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"12b19be3e1": {
+"veredicto": "ok",
+"motivo": "La norma general para la conservación de vacunas en la cadena de frío es mantenerlas a una temperatura de entre 2 y 8 ºC.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"74a834d0ce": {
+"veredicto": "ok",
+"motivo": "El cuidado del estoma requiere limpieza suave con agua y jabón neutro, y un secado cuidadoso sin frotar para proteger la piel periestomal.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"5a85b648cc": {
+"veredicto": "ok",
+"motivo": "La dilución de responsabilidades es un inconveniente frecuente en el trabajo en equipo, ya que los miembros pueden evitar asumir la culpa individual.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"f7987f77ab": {
+"veredicto": "ok",
+"motivo": "Las sondas de enterostomía son aquellas que se implantan directamente en el tracto digestivo mediante una intervención quirúrgica.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"60eaf48405": {
+"veredicto": "ok",
+"motivo": "El sonido mate a la percusión es característico de órganos macizos o acúmulos de líquido.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"150e5882c1": {
+"veredicto": "ok",
+"motivo": "Los ejercicios de Kegel fortalecen la musculatura del suelo pélvico y son una técnica de modificación de conducta para la incontinencia.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"311dd9834b": {
+"veredicto": "ok",
+"motivo": "La descripción corresponde exactamente al reflejo de marcha automática del recién nacido.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"bf1eaf09c5": {
+"veredicto": "ok",
+"motivo": "La formulación de problemas reales o de riesgo mediante etiquetas diagnósticas se realiza en la fase de diagnóstico de enfermería.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"5b155a0148": {
+"veredicto": "ok",
+"motivo": "El orden correcto de las meninges desde el exterior al interior es duramadre, aracnoides y piamadre.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"a0eb9ad541": {
+"veredicto": "ok",
+"motivo": "Las superficies especiales para el manejo de la presión (SEMP) son medidas complementarias y nunca sustituyen a los cambios posturales.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"45f2e06166": {
+"veredicto": "ok",
+"motivo": "Según la Ley de Prevención de Riesgos Laborales, la evaluación de riesgos debe actualizarse cuando cambien las condiciones de trabajo.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
+},
+"b62ef4ed5a": {
+"veredicto": "dudosa",
+"motivo": "El texto de la fuente proporcionado no incluye la Ley 29/1998, que es la que establece el plazo de 2 meses para el recurso contencioso-administrativo.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-12"
 }
 }

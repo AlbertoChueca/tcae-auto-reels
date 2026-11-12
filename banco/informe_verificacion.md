@@ -1,12 +1,12 @@
-# Informe del verificador (2026-11-09)
+# Informe del verificador (2026-11-12)
 
-- Preguntas en el banco: 1822 · revisadas: 1096 · **publicables: 1018**
-- Posibles errores: 14 · dudosas: 29 · correctas pero sin texto de la norma para citar: 35
+- Preguntas en el banco: 1822 · revisadas: 1191 · **publicables: 1105**
+- Posibles errores: 15 · dudosas: 50 · correctas pero sin texto de la norma para citar: 21
 
 Las marcadas como posible error conviene revisarlas también en la web app.
 
 
-## Posibles errores (14)
+## Posibles errores (15)
 
 - **[Estatuto Marco del Personal Estatutario (Ley 55/2003)]** ¿A qué texto legal remite el artículo 79 de la Ley 55/2003 en materia de representación y negociación colectiva del personal estatutario? — marcada A) Al Texto Refundido del Estatuto Básico del Empleado Público (TREBEP)
   - El artículo 79 remite a la Constitución y a la Ley Orgánica 11/1985 de Libertad Sindical; es el artículo 78 el que remite a la normativa general de la función pública (actual TREBEP).
@@ -36,13 +36,35 @@ Las marcadas como posible error conviene revisarlas también en la web app.
   - El enunciado contiene un dato falso: hasta la fecha solo se han aprobado tres reformas constitucionales (1992, 2011 y 2024), no cuatro.
 - **[Sondas Digestivas]** La sonda de Moss se caracteriza por ser: — marcada B) Una sonda nasoesofágica de unos 90 cm y triple luz · sugerida: Ninguna
   - La sonda de Moss es una sonda nasogástrica (o nasoentérica), no nasoesofágica. La opción B contiene un error anatómico en su nomenclatura.
+- **[Procedimiento Administrativo Común (Ley 39/2015)]** ¿Cuándo produce efectos, con carácter general, un acto administrativo válido? — marcada A) Desde el momento en que se notifica, salvo que la ley disponga otra cosa
+  - Con carácter general, los actos administrativos producen efectos desde la fecha en que se dicten, no desde que se notifican (la notificación es un supuesto de demora de eficacia). Ninguna opción es correcta.
 
-## Dudosas (29)
+## Dudosas (50)
 
+- **[Ley de Salud de Aragón (Ley 6/2002)]** Según el estatuto de autonomía de Aragón todas las personas tienen derecho a acceder a los servicios públicos de salud, en condiciones de: — marcada A) Igualdad, universalidad y calidad
+  - El texto fuente proporcionado es la Ley de Salud de Aragón y no incluye el Estatuto de Autonomía para poder verificar la respuesta.
+- **[Nombramientos y Tipos de Mayoría]** ¿Cuál es la duración del mandato del Justicia de Aragón? — marcada B) 5 años
+  - Los artículos del Estatuto de Autonomía adjuntos mencionan al Justicia, pero no establecen la duración de su mandato de 5 años.
+- **[Constitución Española de 1978]** ¿Cuál es el plazo general para interponer un recurso de inconstitucionalidad desde la publicación de la norma impugnada? — marcada A) 3 meses
+  - El texto proporcionado no incluye el artículo de la Ley Orgánica del Tribunal Constitucional que establece el plazo de 3 meses.
 - **[Geriatría]** Un país se considera envejecido cuando su índice de envejecimiento es: — marcada C) Mayor del 11%
   - El término 'índice de envejecimiento' suele referirse a la relación entre mayores de 64 y menores de 15. Si se refiere a la tasa sobre el total, los umbrales varían según el autor (OMS, ONU), siendo a menudo >12% o >14%.
+- **[Transparencia y Acceso a la Información Pública]** En Aragón, ¿ante qué órgano puede reclamar un ciudadano si le deniegan el acceso a la información pública? — marcada A) Ante el Consejo de Transparencia de Aragón
+  - El texto proporcionado es la ley estatal y no incluye la normativa autonómica que confirme al Consejo de Transparencia de Aragón como órgano competente.
 - **[Limpieza y Desinfección]** ¿Cuál es el periodo de caducidad habitual de un material esterilizado envuelto en una bolsa de papel mixto (doble capa, papel-plástico)? — marcada C) 12 meses
   - La caducidad varía según el protocolo del centro; a menudo, una bolsa mixta simple se considera válida por 6 meses, generando ambigüedad con el término 'doble capa'.
+- **[Nombramientos y Tipos de Mayoría]** ¿Con qué mayoría son elegidos el Defensor del Pueblo por las Cortes Generales? — marcada B) Mayoría de tres quintos en cada Cámara
+  - El artículo 54 de la Constitución adjunto no especifica la mayoría de tres quintos; esto se regula en una ley orgánica no proporcionada.
+- **[Contratación del Sector Público (Ley 9/2017)]** ¿A partir de qué importe es obligatorio comunicar los datos de un contrato al Registro de Contratos del Sector Público? — marcada A) A partir de 5.000 euros
+  - El texto proporcionado no incluye el artículo de la Ley 9/2017 (art. 346.3) que establece el importe de 5.000 euros para el Registro de Contratos.
+- **[Constitución Española de 1978]** ¿Qué título de la Constitución regula el Poder Judicial? — marcada B) Título VI
+  - El texto de la fuente no incluye el encabezado del Título VI para confirmar explícitamente que regula el Poder Judicial.
+- **[Constitución Española de 1978]** ¿Qué título de la Constitución regula la Economía y la Hacienda? — marcada B) Título VII
+  - El texto proporcionado no incluye el encabezado del Título VII para confirmar que regula Economía y Hacienda.
+- **[Constitución Española de 1978]** Sin contar el Título Preliminar, ¿cuántos títulos numerados (del I al X) tiene la Constitución Española? — marcada C) Diez
+  - El texto proporcionado no demuestra el número total de títulos de la Constitución. Además, el enunciado revela la respuesta al decir '(del I al X)'.
+- **[Nombramientos y Tipos de Mayoría]** Si tras tres votaciones ningún candidato a Justicia de Aragón obtiene la mayoría de tres quintos exigida, ¿qué mayoría basta para las siguientes votaciones? — marcada B) Mayoría absoluta
+  - El texto proporcionado regula la investidura del Presidente de Aragón, no la elección del Justicia de Aragón.
 - **[Aparato Urinario]** La capacidad habitual de la vejiga urinaria es de aproximadamente: — marcada B) 200-300 ml
   - El término 'capacidad habitual' es ambiguo: el deseo miccional aparece a los 200-300 ml, pero la capacidad funcional normal es de 300-500 ml (como indica una de las propias fichas de la app).
 - **[Nutrición y Alimentación]** Es un aminoácido esencial: — marcada B) Alanina
@@ -63,12 +85,20 @@ Las marcadas como posible error conviene revisarlas también en la web app.
   - La duración del lavado antiséptico varía según la bibliografía; la OMS recomienda 40-60 segundos, mientras que algunos manuales clásicos de TCAE indican 2-3 minutos.
 - **[Instrumental Quirúrgico]** ¿Cómo se denomina a la parte que mantiene el instrumental quirúrgico cuando está trabado? — marcada C) Caja de traba
   - La plantilla oficial parece errónea: la parte que mantiene el instrumental trabado o cerrado es la 'cremallera', mientras que la 'caja de traba' es la articulación o bisagra.
+- **[Constitución Española de 1978]** ¿Cuántas Comunidades Autónomas integran actualmente el Estado español? — marcada B) 17
+  - Aunque la respuesta es correcta (17 CCAA), el texto de la fuente proporcionado no especifica esta cifra, por lo que no demuestra la respuesta.
+- **[Constitución Española de 1978]** ¿En nombre de quién proclama la Nación Española su voluntad al inicio del Preámbulo? — marcada A) En uso de su soberanía
+  - El texto de la fuente no incluye el Preámbulo de la Constitución Española para verificar la afirmación.
 - **[Régimen Jurídico del Sector Público (Ley 40/2015)]** En caso de daños físicos o psíquicos a las personas, ¿desde cuándo empieza a computarse el plazo de un año para reclamar responsabilidad patrimonial? — marcada B) Desde la curación o la determinación del alcance de las secuelas
   - El texto legal proporcionado no incluye el artículo que regula el plazo de prescripción (artículo 67 de la Ley 39/2015).
 - **[Constitución Española de 1978]** Según el Capítulo Tercero del Título VIII de la Constitución Española de 1978, ¿cuál de las siguientes opciones es una competencia exclusiva del Estado?: — marcada D) Legislación sobre productos farmacéuticos
   - Aunque la respuesta es correcta (art. 149.1.16 CE), el texto proporcionado no incluye dicho artículo para poder demostrarlo.
 - **[Sondas Digestivas]** El calibre de una sonda hace referencia a: — marcada B) El diámetro de la luz
   - Técnicamente, el calibre (escala French) mide el diámetro externo de la sonda, no el diámetro de la luz (interno), aunque suele darse por válida al ser la mejor opción.
+- **[Nombramientos y Tipos de Mayoría]** ¿Cómo se computa la mayoría simple? — marcada A) Más votos a favor que en contra, sin contar las abstenciones
+  - Los artículos proporcionados mencionan la mayoría simple, pero no definen cómo se computa matemáticamente.
+- **[Contratación del Sector Público (Ley 9/2017)]** ¿Qué prohíbe expresamente la Ley 9/2017 en relación con los umbrales de los contratos menores? — marcada A) El fraccionamiento del objeto del contrato para eludir dichos umbrales
+  - El texto proporcionado no incluye el artículo de la Ley 9/2017 que prohíbe el fraccionamiento de los contratos menores (art. 99.2 o 118.3).
 - **[Termoterapia e Hidroterapia]** ¿Hasta qué proporción se debe llenar una bolsa de agua caliente? — marcada B) 3/4 partes
   - La mayoría de manuales de fundamentos de enfermería indican llenar la bolsa a 1/2 o 2/3 de su capacidad, por lo que la opción D suele ser la más aceptada en exámenes oficiales.
 - **[Calidad Asistencial]** Según Cotte, ¿cómo relaciona la calidad con percepción y expectativas? — marcada A) Calidad = Percepción − Expectativas
@@ -76,13 +106,13 @@ Las marcadas como posible error conviene revisarlas también en la web app.
 - **[Contratación del Sector Público (Ley 9/2017)]** ¿Cuáles son los dos procedimientos de adjudicación ordinarios según la Ley 9/2017? — marcada A) El abierto y el restringido
   - El fragmento legal aportado no incluye el artículo 131 de la Ley 9/2017, que define el abierto y restringido como procedimientos ordinarios.
 - **[Estatuto Marco del Personal Estatutario (Ley 55/2003)]** ¿En qué capítulo de la Ley 55/2003 se regulan los derechos y deberes del personal estatutario? — marcada B) Capítulo IV (artículos 17 a 19)
-  - El texto de la fuente confirma el contenido de los artículos 17 y 18, pero no demuestra explícitamente que pertenezcan al Capítulo IV, por lo que no se puede verificar de forma completa con el fragmento dado.
+  - La respuesta es correcta, pero el texto legal adjunto no indica que los artículos 17 y 18 pertenezcan al Capítulo IV.
 - **[Estatuto Marco del Personal Estatutario (Ley 55/2003)]** ¿En qué capítulo de la Ley 55/2003 se regula el régimen de incompatibilidades del personal estatutario? — marcada C) Capítulo XIII
-  - El texto de la fuente confirma que el artículo 76 regula las incompatibilidades, pero no demuestra explícitamente que dicho artículo pertenezca al Capítulo XIII.
+  - El texto incluye el artículo 76 sobre incompatibilidades, pero no especifica que este se encuentre en el Capítulo XIII.
 - **[Geriatría]** ¿Cuál de las siguientes escalas se utiliza para valorar el riesgo de caídas en el anciano? — marcada B) Escala de Braden
   - La plantilla oficial marca la escala de Braden, que valora el riesgo de úlceras por presión. La escala correcta para el riesgo de caídas es la de Downton (opción C).
 - **[Estatuto Marco del Personal Estatutario (Ley 55/2003)]** El principio de libre circulación y la posibilidad de movilidad del personal estatutario en todo el Sistema Nacional de Salud se consagra en: — marcada A) El capítulo dedicado a la movilidad del personal
-  - El texto legal proporcionado no incluye el capítulo o artículo específico que consagra explícitamente el principio de libre circulación.
+  - El texto proporcionado menciona la movilidad en el artículo 38, pero no demuestra que exista un capítulo específico dedicado a ella.
 - **[Limpieza y Desinfección]** Los residuos de pacientes con Fiebre de Lassa o Ébola se clasifican como: — marcada A) Grupo II
   - La plantilla oficial parece errónea: los residuos de fiebres hemorrágicas como el Ébola son de alto riesgo infeccioso (Grupo III), no Grupo II.
 - **[Salud Laboral y Prevención de Riesgos]** Según el RD 486/1997, la temperatura en un entorno de trabajo sedentario, como un control de enfermería debe estar entre: — marcada C) 20 y 24 °C
@@ -97,3 +127,17 @@ Las marcadas como posible error conviene revisarlas también en la web app.
   - El texto legal proporcionado no especifica el plazo de un mes, aunque este sí se recoge en el artículo 12.3 del RGPD.
 - **[Cirugía: Pre, Trans y Postoperatorio]** ¿Cuándo se recomienda la ducha preoperatoria para disminuir la Infección Herida Quirúrgica (IHQ) según el Programa de Cirugía Segura en el Sistema Nacional de Salud?: — marcada A) La noche anterior
   - Las principales guías de prevención (como el Proyecto Infección Quirúrgica Zero) recomiendan la ducha preoperatoria 'la noche antes o el mismo día de la intervención', lo que hace que las opciones A y D puedan ser correctas y la pregunta resulte ambigua.
+- **[Procedimiento Administrativo Común (Ley 39/2015)]** ¿Qué recurso administrativo cabe contra un acto que NO pone fin a la vía administrativa?: — marcada A) Recurso de alzada
+  - Aunque la respuesta A es correcta (art. 121 LPACAP), el texto de la fuente proporcionado omite dicho artículo y no permite demostrarla explícitamente.
+- **[Fechas Clave y Plazos Administrativos]** Tras el Dictamen de la Comisión Mixta Congreso-Senado, ¿en qué fecha se aprobó el texto definitivo en sesión plenaria conjunta de ambas Cámaras? — marcada A) 31 de octubre de 1978
+  - El enunciado contiene un error histórico: el 31 de octubre de 1978 el texto fue aprobado en sesiones plenarias separadas del Congreso y del Senado, no en sesión conjunta.
+- **[Constitución Española de 1978]** El artículo 43 de la Constitución, sobre el derecho a la salud, se encuentra dentro del capítulo: — marcada C) De los principios rectores de la política social y económica
+  - El texto legal proporcionado no demuestra explícitamente que el artículo 43 se encuentre dentro del Capítulo Tercero, por lo que no se puede verificar con la fuente dada.
+- **[Fechas Clave y Plazos Administrativos]** ¿En qué fecha se publicó en el BOE la primera reforma constitucional (artículo 13.2)? — marcada A) 28 de agosto de 1992
+  - El texto de la fuente menciona la Reforma de 27 de agosto de 1992, pero no especifica literalmente que su fecha de publicación en el BOE fuera el 28 de agosto.
+- **[Constitución Española de 1978]** ¿Qué títulos de la Constitución se corresponden respectivamente con los tres poderes clásicos del Estado (legislativo, ejecutivo y judicial)? — marcada A) Título III (Cortes Generales), Título IV (Gobierno) y Título VI (Poder Judicial)
+  - El texto legal proporcionado solo menciona el Título III, omitiendo los Títulos IV y VI necesarios para confirmar la respuesta completa.
+- **[Estatuto Marco del Personal Estatutario (Ley 55/2003)]** Según su relación jurídica, el personal estatutario se clasifica en: — marcada A) Fijo y temporal
+  - El artículo 5 de la Ley 55/2003 clasifica al personal según el 'tipo de su nombramiento', no utiliza explícitamente la expresión 'relación jurídica'.
+- **[Fechas Clave y Plazos Administrativos]** ¿Cuál es el plazo general para interponer un recurso contencioso-administrativo frente a un acto expreso? — marcada B) 2 meses
+  - El texto de la fuente proporcionado no incluye la Ley 29/1998, que es la que establece el plazo de 2 meses para el recurso contencioso-administrativo.
