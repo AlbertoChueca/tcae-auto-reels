@@ -524,5 +524,20 @@
 "tiktok": "6af5e0bc250939155aa9d34a"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-11-12",
+"slot": "18",
+"topic": "prefijosSufijos",
+"tema": "Prefijos, Sufijos y Raíces Médicas",
+"subtema": "Sufijos quirúrgicos",
+"quiz_id": "ac819c4922",
+"imagenes": 6,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/DfqJDnqjORH/",
+"tiktok": "6af63f306bc116627f6ccf50"
+},
+"dry_run": false
 }
 ]
