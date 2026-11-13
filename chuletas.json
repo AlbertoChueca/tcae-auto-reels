@@ -539,5 +539,20 @@
 "tiktok": "6af63f306bc116627f6ccf50"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-11-13",
+"slot": "8",
+"topic": "limpieza",
+"tema": "Limpieza y Desinfección",
+"subtema": "Tiempos y métodos de esterilización",
+"quiz_id": "5a0dbb0e10",
+"imagenes": 7,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/Dfr7Rr9l9ia/",
+"tiktok": "6af7291de66f779a009a06df"
+},
+"dry_run": false
 }
 ]
