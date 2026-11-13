@@ -554,5 +554,20 @@
 "tiktok": "6af7291de66f779a009a06df"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-11-13",
+"slot": "18",
+"topic": "geriatria",
+"tema": "Geriatría",
+"subtema": "Clasificación del anciano",
+"quiz_id": "80dbdda0d1",
+"imagenes": 6,
+"publicado": true,
+"destinos": {
+"instagram": "error: 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"ASrBVIp_PPjFdPwC7GLQ44M\"}}",
+"tiktok": "6af78dfab9658ecdc077c6de"
+},
+"dry_run": false
 }
 ]
