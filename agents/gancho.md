@@ -1,7 +1,6 @@
-# Cuaderno de gancho (2026-11-12)
+# Cuaderno de gancho (2026-11-13)
 
 # Cuaderno de gancho
-
-- Seguir haciendo: Ganchos de reto directo y numéricos («4 fichas de repaso», «¿Te la sabes?», «¿Aciertas las 3?»), líderes absolutos en alcance (900-1200 views).
-- Dejar de hacer: Enfoques narrativos o pasivos («Dilema en el pase de guardia», «Pregunta real de examen»), estancados bajo 250 views.
-- Probar: Fusionar reto y cifra en los 2 primeros segundos: «3 preguntas oficiales que casi todos fallan: ¿te las sabes?»
+- Seguir haciendo: Retos directos con cifras y preguntas cortas («4 fichas de repaso», «¿Te la sabes?», «¿Aciertas las 3?»), únicos en superar las 900-1200 views.
+- Dejar de hacer: Ganchos descriptivos o pasivos («Dilema en el pase de guardia», «Pregunta real de examen»), estancados bajo 200 views.
+- Probar: Fórmulas combinadas que sumen volumen y reto en el segundo 1: «Simulacro oficial: ¿aciertas las 3 preguntas clave?»

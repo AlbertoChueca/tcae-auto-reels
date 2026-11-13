@@ -1,5 +1,5 @@
-# Cuaderno de seo (2026-11-12)
+# Cuaderno de seo (2026-11-13)
 
-- Seguir haciendo: Posicionar palabras clave principales en gancho y copy: «TCAE», «repaso», «simulacro», «examen real».
-- Dejar de hacer: Publicar textos genéricos que omitan el término explícito «TCAE» u «oposición sanitaria».
-- Probar: Añadir acrónimos de servicios autonómicos de salud con alta demanda («OPE TCAE: SAS, SERMAS, SACYL») en descripción y etiquetas.
+- Seguir haciendo: Posicionar palabras clave directas en ganchos y primeras líneas: «TCAE», «repaso», «simulacro» y «examen real».
+- Dejar de hacer: Textos genéricos que omitan los términos «TCAE» y «oposición sanitaria».
+- Probar: Incluir acrónimos de servicios de salud con alta demanda (SAS, SERMAS, SACYL) en el copy para capturar búsquedas de convocatorias específicas.

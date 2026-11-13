@@ -682,5 +682,23 @@
 "topic": "saludMental",
 "fecha": "2026-11-12",
 "formato": "caso_practico"
+},
+{
+"id": "356ebb765e",
+"topic": "sondasDigestivas",
+"fecha": "2026-11-13",
+"formato": "simulacro_3"
+},
+{
+"id": "1bd7197007",
+"topic": "estrenimiento",
+"fecha": "2026-11-13",
+"formato": "simulacro_3"
+},
+{
+"id": "e9f99fe60b",
+"topic": "nutricion",
+"fecha": "2026-11-13",
+"formato": "simulacro_3"
 }
 ]

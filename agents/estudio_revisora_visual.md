@@ -1,5 +1,5 @@
-# Cuaderno de revisora_visual (2026-11-12)
+# Cuaderno de revisora_visual (2026-11-13)
 
-- Seguir haciendo: Bloqueo estricto de textos, pictogramas en pared y cualquier presencia de pacientes (norma cero pacientes).
-- Dejar de hacer: Pasar por alto errores de protocolo EPI (guantes innecesarios en mobiliario/neveras) o dispositivos mal conectados (bolsas colectoras altas).
-- Probar: Checklist rápido de 3 filtros: 1) cero textos y pacientes; 2) técnica aséptica y EPI correcto; 3) anatomía completa sin extremidades cortadas.
+- Seguir haciendo: Veto absoluto e intransigente a pacientes visibles y textos o carteles ilegibles de fondo.
+- Dejar de hacer: Pasar por alto errores de bioseguridad (guantes al manipular mobiliario/neveras, alfombras textiles) o cortes opacos inferiores.
+- Probar: Checklist estricto de tres filtros: 1) cero pacientes y textos, 2) técnica aséptica/EPI riguroso, 3) anatomía correcta sin degradados artificiales.

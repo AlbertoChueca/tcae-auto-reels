@@ -1,11 +1,6 @@
-# Cuaderno de cazatendencias (2026-11-12)
+# Cuaderno de cazatendencias (2026-11-13)
 
-Semana con fuerte enfoque clínico y de empleo público: coincide la apertura de solicitudes para la OPE de TCAE en el SERIS (La Rioja) con tres efemérides de altísimo impacto en los exámenes: el Día Mundial contra la Neumonía (12/11), el de la Diabetes (14/11) y el de Prevención de Úlceras por Presión (19/11), sumados a la plena campaña de vacunación otoñal.
-Para reels y viñetas:
-1. Viñeta carrusel: 'Alerta OPE: plazos y requisitos para echar La Rioja'.
-2. Reel tipo test: '¿Cuánto sabes de escalas de UPP? Braden vs. Norton'.
-3. Mini caso clínico: signos de descompensación diabética y cuidados del pie.
-4. Reel exprés: vacunas recomendadas en embarazadas y personal sanitario.
+Semana clave con noticias administrativas y clínicas. Por un lado, el SAS acaba de acordar en Mesa Sectorial 699 plazas de TCAE que sumarán una gran convocatoria conjunta de 2.374 plazas en 2027, y en La Rioja el plazo para 233 plazas está en curso hasta el 9 de diciembre. En la vertiente asistencial, se suceden el Día de la Diabetes (14N), el de la Prematuridad (17N) y el Uso Prudente de Antibióticos (18N). En redes sociales, aprovecha para plantear preguntas test: valores normales de glucosa capilar, definición de recién nacido pretérmino y cinco momentos del lavado de manos para frenar bacterias resistentes.
 
 ## Hallazgos
 - Ninguno fiable hoy.

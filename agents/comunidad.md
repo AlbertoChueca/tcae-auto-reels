@@ -1,8 +1,7 @@
-# Cuaderno de comunidad (2026-11-12)
+# Cuaderno de comunidad (2026-11-13)
 
 # Cuaderno de comunidad
-
-- Resumen de audiencia (datos escasos): Muestra de solo 16 comentarios. Interacción puramente telegráfica marcando letras («A», «C», «B, D, B») con pequeñas dudas («creo q la C», «A?»). Cero quejas o peticiones temáticas.
-- Seguir haciendo: Preguntas tipo test de 4 opciones muy claras para favorecer el comentario con un solo toque.
-- Dejar de hacer: Preguntas abiertas que exijan redactar.
-- Probar: Primer comentario fijado para abrir debate: «¿En cuál has dudado? Deja tu nota abajo 👇».
+- Resumen de audiencia (datos escasos): Muestra de solo 16 comentarios. Comportamiento 100% telegráfico respondiendo letras («A», «C», «B, D, B») con ligeras dudas («creo q la C», «A?»). Cero peticiones temáticas o feedback cualitativo.
+- Seguir haciendo: Preguntas cerradas A/B/C/D muy contrastadas que inviten a teclear una letra en segundos.
+- Dejar de hacer: Preguntas abiertas que requieran desarrollo escrito.
+- Probar: Comentario fijado para incentivar debate: «¿Cuál te ha hecho dudar? Pon tu puntuación abajo 👇».
