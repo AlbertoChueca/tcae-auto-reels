@@ -1,11 +1,12 @@
 # Cuaderno de cazatendencias (2026-11-14)
 
-Semana cargada de fechas idóneas para reels de alto impacto:
-• 14N (Diabetes): Reel formato test distinguiendo hipoglucemia de hiperglucemia y dietas por raciones.
-• 17N (Prematuros): Carrusel con cifras clave de neonatología (semanas de gestación y test de Apgar).
-• 18N (Antibióticos): Vídeo corto de farmacología recordando que los antibióticos no actúan frente a virus.
-• 19N (Día UPP): El tema más preguntado a TCAE; repasa en vídeo los 4 estadios y las escalas Braden/Norton.
-• Campaña vacunal: Explica la diferencia entre suero y vacuna con una regla mnemotécnica.
+Esta semana de mediados de noviembre confluyen efemérides sanitarias de máximo impacto para el temario TCAE: Diabetes (14 nov), Prematuros (17 nov), Uso Prudente de Antibióticos (18 nov) y Prevención de UPP (19 nov), además de la campaña activa de gripe y COVID-19.
+Ideas para reels y viñetas:
+- Reel 1: Caso clínico de hipoglucemia vs hiperglucemia en planta.
+- Carrusel: Semanas de gestación para clasificar al prematuro según la OMS.
+- Reel 2: Tres mitos de antibióticos y técnica de lavado de manos.
+- Infografía fija: Los 4 estadios de UPP y escala Braden.
+- Viñeta interactiva: Test rápido de grupos de riesgo de la vacuna antigripal.
 
 ## Hallazgos
 - Ninguno fiable hoy.
