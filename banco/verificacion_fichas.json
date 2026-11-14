@@ -664,5 +664,41 @@
 "motivo": "Los ejemplos son correctos: la gripe afecta al estado general del organismo (sistémica/generalizada) y la diabetes es el paradigma de enfermedad metabólica.",
 "fuente_ok": false,
 "fecha": "2026-11-14"
+},
+"eef5fac77d": {
+"veredicto": "ok",
+"motivo": "Los colores de los electrodos periféricos según la normativa IEC (estándar en España) son correctos: rojo (brazo derecho), amarillo (brazo izquierdo), negro (pierna derecha) y verde (pierna izquierda).",
+"fuente_ok": false,
+"fecha": "2026-11-14"
+},
+"155e657a3d": {
+"veredicto": "ok",
+"motivo": "Son las tres partes fundamentales y clásicas en las que se divide la evaluación clínica del paciente.",
+"fuente_ok": false,
+"fecha": "2026-11-14"
+},
+"24021a2a13": {
+"veredicto": "ok",
+"motivo": "Los sonidos descritos (mate, timpánico, claro y submate) corresponden correctamente a los obtenidos mediante la técnica de percusión.",
+"fuente_ok": false,
+"fecha": "2026-11-14"
+},
+"c84dc731e7": {
+"veredicto": "error",
+"motivo": "Inexacto e incompleto. La prueba de Rinne no valora únicamente la vía aérea, sino que compara la audición por vía aérea con la audición por vía ósea en el mismo oído.",
+"fuente_ok": false,
+"fecha": "2026-11-14"
+},
+"38ddb7dfc3": {
+"veredicto": "ok",
+"motivo": "La definición de la prueba, el nombre del aparato (espirómetro) y el método básico de uso son correctos.",
+"fuente_ok": false,
+"fecha": "2026-11-14"
+},
+"98e0e05cab": {
+"veredicto": "error",
+"motivo": "Es incorrecto afirmar que la ecografía no necesita preparación previa. Muchas ecografías (como la abdominal o la pélvica) requieren que el paciente esté en ayunas o con la vejiga llena.",
+"fuente_ok": false,
+"fecha": "2026-11-14"
 }
 }
