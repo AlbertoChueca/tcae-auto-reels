@@ -1,5 +1,5 @@
-# Cuaderno de series (2026-11-13)
+# Cuaderno de series (2026-11-14)
 
-- Seguir haciendo: Consolidar «Sábado de repaso exprés» (top 1 con score 11.52) y «Miércoles de simulacro».
-- Dejar de hacer: Publicaciones sueltas sin serie («None»), que acumulan resultados mediocres e impiden crear hábito.
-- Probar: Numerar los episodios visiblemente en carátula y copy («Capítulo X») para potenciar el seguimiento semanal.
+- Seguir haciendo: Consolidar «Sábado de repaso exprés» (máximo score del histórico: 11.52) y «Miércoles de simulacro».
+- Dejar de hacer: Publicaciones sin serie («None»), que obtienen resultados mediocres e impiden fidelizar.
+- Probar: Rotular visiblemente el día y número de entrega (ej. «Sábado de repaso exprés #4») para generar cita recurrente.

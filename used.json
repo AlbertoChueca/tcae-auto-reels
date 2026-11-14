@@ -706,5 +706,29 @@
 "topic": "geriatria",
 "fecha": "2026-11-13",
 "formato": "mito_realidad"
+},
+{
+"id": "53807abb11",
+"topic": "saludEnfermedad",
+"fecha": "2026-11-14",
+"formato": "flashcards_express"
+},
+{
+"id": "ec86be1b58",
+"topic": "saludEnfermedad",
+"fecha": "2026-11-14",
+"formato": "flashcards_express"
+},
+{
+"id": "692c70d549",
+"topic": "saludEnfermedad",
+"fecha": "2026-11-14",
+"formato": "flashcards_express"
+},
+{
+"id": "dba06ee177",
+"topic": "saludEnfermedad",
+"fecha": "2026-11-14",
+"formato": "flashcards_express"
 }
 ]

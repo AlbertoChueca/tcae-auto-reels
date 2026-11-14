@@ -592,5 +592,77 @@
 "motivo": "Identifica correctamente la afectación de la sustancia negra en los ganglios basales (sistema extrapiramidal).",
 "fuente_ok": false,
 "fecha": "2026-11-07"
+},
+"53807abb11": {
+"veredicto": "ok",
+"motivo": "La clasificación básica y universal de las enfermedades según su evolución o duración es en agudas y crónicas.",
+"fuente_ok": false,
+"fecha": "2026-11-14"
+},
+"ec86be1b58": {
+"veredicto": "ok",
+"motivo": "La definición es correcta, la hipertrofia consiste en el aumento del tamaño de las células, lo que incrementa el tamaño del órgano o tejido.",
+"fuente_ok": false,
+"fecha": "2026-11-14"
+},
+"692c70d549": {
+"veredicto": "ok",
+"motivo": "En la fase clínica o de estado aparecen los signos y síntomas característicos y específicos que permiten el diagnóstico de la enfermedad, a diferencia de la fase prodrómica.",
+"fuente_ok": false,
+"fecha": "2026-11-14"
+},
+"dba06ee177": {
+"veredicto": "ok",
+"motivo": "Según el informe Lalonde y el modelo de Dever, el sistema de asistencia sanitaria es el determinante que menos influye en la salud (aprox. 11%).",
+"fuente_ok": false,
+"fecha": "2026-11-14"
+},
+"2bc64342df": {
+"veredicto": "ok",
+"motivo": "Son los criterios clásicos y correctos utilizados en patología para la clasificación general de las enfermedades.",
+"fuente_ok": false,
+"fecha": "2026-11-14"
+},
+"db1e61e9d4": {
+"veredicto": "ok",
+"motivo": "La definición describe exactamente el periodo de incubación (en enfermedades transmisibles) o de latencia (en enfermedades no transmisibles).",
+"fuente_ok": false,
+"fecha": "2026-11-14"
+},
+"727b14b4fd": {
+"veredicto": "ok",
+"motivo": "Según el informe Lalonde, el estilo de vida es el determinante que mayor influencia tiene sobre la salud de la población (aprox. 43%).",
+"fuente_ok": false,
+"fecha": "2026-11-14"
+},
+"45fdc96d3f": {
+"veredicto": "ok",
+"motivo": "Enumera correctamente los cuatro determinantes de la salud establecidos en el informe Lalonde de 1974.",
+"fuente_ok": false,
+"fecha": "2026-11-14"
+},
+"3d588a9a6a": {
+"veredicto": "ok",
+"motivo": "La salud actual se entiende como un proceso continuo (continuum salud-enfermedad), dinámico y relativo, superando la visión estática clásica.",
+"fuente_ok": false,
+"fecha": "2026-11-14"
+},
+"6094a904c4": {
+"veredicto": "ok",
+"motivo": "Complementa adecuadamente la definición de la OMS integrando la perspectiva de derechos humanos, responsabilidad social y el modelo ecológico (equilibrio con el entorno).",
+"fuente_ok": false,
+"fecha": "2026-11-14"
+},
+"92f8751919": {
+"veredicto": "ok",
+"motivo": "La definición es exacta; el diagnóstico clínico se basa en la interpretación de los signos y síntomas del paciente para identificar la patología.",
+"fuente_ok": false,
+"fecha": "2026-11-14"
+},
+"a198c53da7": {
+"veredicto": "ok",
+"motivo": "Los ejemplos son correctos: la gripe afecta al estado general del organismo (sistémica/generalizada) y la diabetes es el paradigma de enfermedad metabólica.",
+"fuente_ok": false,
+"fecha": "2026-11-14"
 }
 }

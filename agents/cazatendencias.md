@@ -1,6 +1,11 @@
-# Cuaderno de cazatendencias (2026-11-13)
+# Cuaderno de cazatendencias (2026-11-14)
 
-Semana con novedades de alto impacto opositor y sanitario. Por un lado, la OEP del SAS y el plazo abierto en La Rioja son ideales para reels dinámicos sobre plazos administrativos y motivación. Por otro, la campaña de vacunación sin cita y el Día Mundial de la Diabetes permiten publicar viñetas tipo carrusel con preguntas clave de examen: grupos diana, tipos de vacunas, cifras de glucemia y pie diabético. Finalmente, el Día de la Prematuridad sirve para crear un reel explicativo rápido resolviendo la típica pregunta trampa sobre semanas de gestación (<37 semanas y <28 semanas) y los beneficios del método canguro.
+Semana cargada de fechas idóneas para reels de alto impacto:
+• 14N (Diabetes): Reel formato test distinguiendo hipoglucemia de hiperglucemia y dietas por raciones.
+• 17N (Prematuros): Carrusel con cifras clave de neonatología (semanas de gestación y test de Apgar).
+• 18N (Antibióticos): Vídeo corto de farmacología recordando que los antibióticos no actúan frente a virus.
+• 19N (Día UPP): El tema más preguntado a TCAE; repasa en vídeo los 4 estadios y las escalas Braden/Norton.
+• Campaña vacunal: Explica la diferencia entre suero y vacuna con una regla mnemotécnica.
 
 ## Hallazgos
 - Ninguno fiable hoy.

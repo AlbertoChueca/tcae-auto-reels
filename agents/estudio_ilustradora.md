@@ -1,5 +1,5 @@
-# Cuaderno de ilustradora (2026-11-13)
+# Cuaderno de ilustradora (2026-11-14)
 
-- Seguir haciendo: Ambientes sanitarios luminosos y ordenados centrados exclusivamente en la TCAE con uniforme reglamentario.
-- Dejar de hacer: Incluir pacientes en camilla, guantes para tareas limpias o neveras, degradados inferiores artificiales y manos con dedos fusionados.
-- Probar: Planos medios con antebrazos despejados, pies bien asentados en suelo continuo y paredes libres de textos o pictogramas.
+- Seguir haciendo: Planos medios de una TCAE en solitario con pijama sanitario reglamentario en entorno hospitalario luminoso.
+- Dejar de hacer: Incluir pacientes, cartelería o textos de fondo, degradados artificiales inferiores y guantes en tareas limpias o de organización.
+- Probar: Manos anatómicamente exactas apoyadas de forma natural sobre carros o mesas, con suelo continuo sin recortes inferiores.

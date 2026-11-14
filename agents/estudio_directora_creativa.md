@@ -1,5 +1,5 @@
-# Cuaderno de directora_creativa (2026-11-13)
+# Cuaderno de directora_creativa (2026-11-14)
 
-- Seguir haciendo: Priorizar formatos «flashcards_express» y «pregunta_del_dia» en estilos «cuaderno» y «noche», únicos con scores superiores a 10 y más de 1.000 visualizaciones.
-- Dejar de hacer: Estilos «marca» y «minimal», estancados por debajo de 7.50 puntos.
-- Probar: Diseños en estilo «cuaderno» con microilustraciones limpias, eliminando degradados artificiales inferiores.
+- Seguir haciendo: Priorizar formatos «flashcards_express», «pregunta_del_dia» y «simulacro_3» en estilos «cuaderno» y «noche» (scores >10 y >900 views).
+- Dejar de hacer: Estilos «marca» y «minimal» (estancados <7.50) e insistir en imágenes generadas hasta solventar los rechazos visuales continuos.
+- Probar: Diseños limpios estilo cuaderno con soporte editorial claro y sin degradados opacos.
