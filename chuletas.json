@@ -569,5 +569,20 @@
 "tiktok": "6af78dfab9658ecdc077c6de"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-11-14",
+"slot": "8",
+"topic": "pae",
+"tema": "Proceso de Atención de Enfermería (PAE)",
+"subtema": "Las 5 etapas del PAE",
+"quiz_id": "6edd78b43d",
+"imagenes": 6,
+"publicado": true,
+"destinos": {
+"instagram": "error: 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"A3r6tYgN73Nl59dKw2_LmKG\"}}",
+"tiktok": "6af8696bb0230bfe196c8fa1"
+},
+"dry_run": false
 }
 ]
