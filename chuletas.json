@@ -599,5 +599,20 @@
 "tiktok": "6af8cd5f7a528bf718ddb036"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-11-15",
+"slot": "8",
+"topic": "nivelesAsistencia",
+"tema": "Niveles de Asistencia y Hospitales",
+"subtema": "Características de la Atención Primaria",
+"quiz_id": "c46d3069be",
+"imagenes": 6,
+"publicado": true,
+"destinos": {
+"instagram": "error: 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"AxeQp4mboSHTDAq9dsP5lHS\"}}",
+"tiktok": "6af9c352d057c84497509886"
+},
+"dry_run": false
 }
 ]
