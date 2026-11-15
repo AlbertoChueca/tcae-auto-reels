@@ -614,5 +614,20 @@
 "tiktok": "6af9c352d057c84497509886"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-11-15",
+"slot": "18",
+"topic": "instrumental",
+"tema": "Instrumental Quirúrgico",
+"subtema": "Instrumental quirúrgico esencial",
+"quiz_id": "cce5db48a9",
+"imagenes": 7,
+"publicado": true,
+"destinos": {
+"instagram": "error: 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"AeOuX0-hBTGg06itIfs9RfR\"}}",
+"tiktok": "6afa24305e78b0112c303d68"
+},
+"dry_run": false
 }
 ]
