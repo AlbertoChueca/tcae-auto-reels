@@ -1,12 +1,11 @@
-# Cuaderno de cazatendencias (2026-11-14)
+# Cuaderno de cazatendencias (2026-11-15)
 
-Esta semana de mediados de noviembre confluyen efemérides sanitarias de máximo impacto para el temario TCAE: Diabetes (14 nov), Prematuros (17 nov), Uso Prudente de Antibióticos (18 nov) y Prevención de UPP (19 nov), además de la campaña activa de gripe y COVID-19.
-Ideas para reels y viñetas:
-- Reel 1: Caso clínico de hipoglucemia vs hiperglucemia en planta.
-- Carrusel: Semanas de gestación para clasificar al prematuro según la OMS.
-- Reel 2: Tres mitos de antibióticos y técnica de lavado de manos.
-- Infografía fija: Los 4 estadios de UPP y escala Braden.
-- Viñeta interactiva: Test rápido de grupos de riesgo de la vacuna antigripal.
+Esta semana coinciden hitos clínicos y administrativos clave para el opositor:
+• OPE La Rioja: reel de alerta rápida sobre plazos y cálculo de días hábiles según la Ley 39/2015.
+• Prematuros (17N): viñeta tipo test con la cifra exacta (<37 semanas) y constantes del recién nacido.
+• Antibióticos (18N): carrusel 'Mitos vs. Realidad' sobre resistencias bacterianas y lavado de manos.
+• Vacunación estacional: vídeo corto resolviendo si se pueden coadministrar vacunas en distintos brazos.
+• Diabetes (14N): quiz en stories sobre glucemia basal y signos cardinales (las 4 P).
 
 ## Hallazgos
 - Ninguno fiable hoy.
