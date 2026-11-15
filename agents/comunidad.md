@@ -1,7 +1,7 @@
-# Cuaderno de comunidad (2026-11-14)
+# Cuaderno de comunidad (2026-11-15)
 
 # Cuaderno de comunidad
-- Resumen de audiencia: Datos muy escasos; sin comentarios en la última tanda. Históricamente la interacción es telegráfica limitándose a la letra de la opción («A», «C»).
-- Seguir haciendo: Opciones cerradas A/B/C/D muy directas que permitan responder en un segundo desde el móvil.
+- Resumen de audiencia: Datos muy escasos; sin comentarios en el último registro. El histórico muestra interacción telegráfica limitada a la opción correcta (A, B, C).
+- Seguir haciendo: Preguntas con opciones cerradas muy visibles que permitan comentar en un segundo desde el móvil.
 - Dejar de hacer: Preguntas abiertas que demanden explicaciones o justificaciones complejas.
-- Probar: Primer comentario fijado para abrir conversación: «¿Cuántas has acertado de las 3? Pon tu nota abajo 👇».
+- Probar: Fijar el primer comentario para incentivar respuesta rápida: «¿Qué nota has sacado? Deja tu resultado del 1 al 3 👇».

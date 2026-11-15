@@ -1,5 +1,5 @@
-# Cuaderno de revisora_visual (2026-11-14)
+# Cuaderno de revisora_visual (2026-11-15)
 
-- Seguir haciendo: Veto absoluto a pacientes visibles, carteles con texto y bloques artificiales opacos en la base.
-- Dejar de hacer: Tolerar fallos de bioseguridad, como uso innecesario de guantes para manipular material limpio, carros o mobiliario.
-- Probar: Checklist estricto de tres puntos: 1) cero pacientes y textos, 2) técnica aséptica coherente (manos limpias desnudas), 3) perspectiva anatómica y suelo limpio.
+- Seguir haciendo: Veto estricto a imágenes con degradados oscuros inferiores, textos o pacientes visibles.
+- Dejar de hacer: Tolerar fallos de bioseguridad, como el uso injustificado de guantes al manipular papel, carros limpios o mobiliario.
+- Probar: Filtro previo de dos pasos: rechazo inmediato si hay sombreado inferior; pase a revisión anatómica solo con manos desnudas reglamentarias.

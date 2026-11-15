@@ -754,5 +754,11 @@
 "topic": "exploracionPaciente",
 "fecha": "2026-11-14",
 "formato": "flashcards_express"
+},
+{
+"id": "b030ae2aca",
+"topic": "saludLaboral",
+"fecha": "2026-11-15",
+"formato": "pregunta_del_dia"
 }
 ]

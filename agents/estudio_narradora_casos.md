@@ -1,5 +1,5 @@
-# Cuaderno de narradora_casos (2026-11-14)
+# Cuaderno de narradora_casos (2026-11-15)
 
-- Seguir haciendo: Situaciones clínicas del turno real (pase de guardia, constantes, drenajes), que consiguen de 3 a 7 comentarios por reel.
-- Dejar de hacer: Preguntas teóricas descontextualizadas de la práctica asistencial.
-- Probar: Microcasos de decisión rápida con dos opciones verosímiles en formatos «simulacro_3» para avivar el debate en comentarios.
+- Seguir haciendo: Plantear situaciones asistenciales cotidianas (pase de guardia, drenajes, constantes), que generan la mayor interacción (hasta 7 comentarios).
+- Dejar de hacer: Enunciados abstractos y teóricos desvinculados de la práctica asistencial real.
+- Probar: Microcasos de decisión rápida con dos opciones verosímiles en formato «simulacro_3» para polarizar y avivar el debate.
