@@ -1,5 +1,5 @@
-# Cuaderno de series (2026-11-15)
+# Cuaderno de series (2026-11-16)
 
-- Seguir haciendo: Consolidar «Sábado de repaso exprés» (top 1 histórico, score 11.52) y «Miércoles de simulacro».
-- Dejar de hacer: Publicaciones sin serie asignada («None»), que desaprovechan la fidelización y el hábito semanal.
-- Probar: Numerar de forma visible los capítulos en el gancho (ej. «Sábado de repaso exprés #5») para generar sentido de colección.
+- Seguir haciendo: Impulsar «Sábado de repaso exprés» (top 1 indiscutible con score 11.52 y 1213 views).
+- Dejar de hacer: Publicar reels sin serie asignada («None»), perdiendo la fidelización de cita fija semanal.
+- Probar: Asignar número de capítulo visible en el gancho (ej. «Sábado de repaso exprés #5») en «Miércoles de simulacro» y «Domingo de examen real».

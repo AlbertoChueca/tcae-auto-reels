@@ -778,5 +778,11 @@
 "topic": "prefijosSufijos",
 "fecha": "2026-11-15",
 "formato": "simulacro_3"
+},
+{
+"id": "dd7e01635f",
+"topic": "proteccionDatosSanitarios",
+"fecha": "2026-11-16",
+"formato": "legislacion_30s"
 }
 ]

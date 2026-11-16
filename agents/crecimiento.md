@@ -1,6 +1,5 @@
-# Cuaderno de crecimiento (2026-11-15)
+# Cuaderno de crecimiento (2026-11-16)
 
-# Cuaderno de crecimiento
-- Seguir haciendo: Priorizar «flashcards_express» para captar guardados masivos (31) y «simulacro_3» para activar comentarios y visibilidad algorítmica.
-- Dejar de hacer: Textos largos o reflexivos en la descripción; el opositor busca comprobación rápida de resultados.
-- Probar: CTA directo en la primera línea: «Guárdalo para repasar en el turno. Miles de preguntas oficiales en apruebatcae.com».
+- Seguir haciendo: Potenciar «flashcards_express» para captar guardados (hasta 31) y «simulacro_3» para traccionar comentarios y distribución.
+- Dejar de hacer: Textos de descripción largos; la audiencia busca validar su respuesta al instante.
+- Probar: CTA directo en la primera línea de la descripción: «Guárdalo para repasar en el turno. Miles de preguntas tipo test en apruebatcae.com».

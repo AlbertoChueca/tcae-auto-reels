@@ -1,5 +1,5 @@
-# Cuaderno de viralidad (2026-11-15)
+# Cuaderno de viralidad (2026-11-16)
 
-- Seguir haciendo: Ganchos de reto directo («4 fichas de repaso», «¿Te la sabes?», «¿Aciertas las 3?»), que alcanzan hasta 5 compartidos.
-- Dejar de hacer: Ganchos pasivos o informativos («Pregunta clave», «Cayó en el examen») con 0 compartidos.
-- Probar: Retos de complicidad entre compañeras en el copy: «Etiqueta a tu compañera de turno: quien falle la segunda repone el carro».
+- Seguir haciendo: Ganchos directos con reto numérico o pregunta clara («4 fichas de repaso», «¿Aciertas las 3?», «¿Te la sabes?»), que logran hasta 5 compartidos.
+- Dejar de hacer: Ganchos informativos planos («Pregunta clave», «Cayó en el examen») con 0 compartidos.
+- Probar: Retos de complicidad: «Etiqueta a tu compi de turno: quien falle la segunda repone el carro de curas».

@@ -1,5 +1,5 @@
-# Cuaderno de narradora_casos (2026-11-15)
+# Cuaderno de narradora_casos (2026-11-16)
 
-- Seguir haciendo: Plantear situaciones asistenciales cotidianas (pase de guardia, drenajes, constantes), que generan la mayor interacción (hasta 7 comentarios).
-- Dejar de hacer: Enunciados abstractos y teóricos desvinculados de la práctica asistencial real.
-- Probar: Microcasos de decisión rápida con dos opciones verosímiles en formato «simulacro_3» para polarizar y avivar el debate.
+- Seguir haciendo: Recrear situaciones clínicas cotidianas (pases de guardia, alertas, drenajes), que generan la mayor interacción (hasta 7 comentarios y 5 compartidos).
+- Dejar de hacer: Casos abstractos o teóricos desvinculados del turno real de planta o urgencias.
+- Probar: Microdilemas asistenciales rápidos con dos opciones creíbles dentro de las flashcards para detonar debate.

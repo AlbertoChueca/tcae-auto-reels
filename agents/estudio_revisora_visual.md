@@ -1,5 +1,5 @@
-# Cuaderno de revisora_visual (2026-11-15)
+# Cuaderno de revisora_visual (2026-11-16)
 
-- Seguir haciendo: Veto estricto a imágenes con degradados oscuros inferiores, textos o pacientes visibles.
-- Dejar de hacer: Tolerar fallos de bioseguridad, como el uso injustificado de guantes al manipular papel, carros limpios o mobiliario.
-- Probar: Filtro previo de dos pasos: rechazo inmediato si hay sombreado inferior; pase a revisión anatómica solo con manos desnudas reglamentarias.
+- Seguir haciendo: Veto inflexible ante degradados oscuros artificiales en la base y uso indebido de EPI (guantes para manipular papel o carros limpios).
+- Dejar de hacer: Aprobar imágenes con pizarras, cartelería o textos de fondo ilegibles.
+- Probar: Filtro previo estricto de dos puntos: descartar si hay degradado inferior; revisar manos y contexto higiénico solo si el suelo es continuo y uniforme.
