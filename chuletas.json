@@ -629,5 +629,20 @@
 "tiktok": "6afa24305e78b0112c303d68"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-11-16",
+"slot": "8",
+"topic": "posicionesMov",
+"tema": "Posiciones y Movilizaciones",
+"subtema": "Posiciones del paciente encamado",
+"quiz_id": "89427ef599",
+"imagenes": 6,
+"publicado": true,
+"destinos": {
+"instagram": "error: 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"AlecwCAZg1O3qM9lzOZ8Mdl\"}}",
+"tiktok": "6afb34771a58fbecbe27db54"
+},
+"dry_run": false
 }
 ]
