@@ -1,16 +1,16 @@
-# Estado (2026-11-09)
+# Estado (2026-11-16)
 
 | comprobación | detalle |
 |---|---|
-| ✅ Instagram | @apruebatcae · token PAGE |
+| ❌ Instagram | token no válido: 400: {"error":{"message":"Error validating access token: The session has been invalidated because the user changed their password or Facebook has chan |
 | ✅ TikTok (Zernio) | conectada |
 | ✅ YouTube (Zernio) | conectado |
-| ✅ Gemini texto | 47 modelos disponibles |
+| ✅ Gemini texto | 49 modelos disponibles |
 | ✅ Gemini voz | gemini-2.5-flash-preview-tts, gemini-2.5-pro-preview-tts, gemini-3.1-flash-tts-preview |
 | ✅ Gemini imagen | gemini-2.5-flash-image, gemini-3-pro-image-preview, gemini-3-pro-image |
-| ✅ Banco verificado | 939 preguntas publicables sin usar (clinico 770, fechas 19, geografia 2, legislacion 87, prefijos 61) de 1822 · ~469 días de reserva |
-| ✅ Fichas verificadas | 88 fichas aprobadas |
+| ✅ Banco verificado | 1077 preguntas publicables sin usar (clinico 851, fechas 22, geografia 19, legislacion 118, prefijos 67) de 1822 · ~538 días de reserva |
+| ✅ Fichas verificadas | 104 fichas aprobadas |
 | ⚠️ Cifra anunciada | los reels dicen 'más de 11.000 preguntas' y el banco importado tiene 1822 · sube a webapp/ el index.html actual de la app o ajusta la variable APP_PREGUNTAS |
-| ✅ Legislación | 87 preguntas de legislación con cita verificada |
+| ✅ Legislación | 118 preguntas de legislación con cita verificada |
 | ⚠️ Fuentes legales | 16/19 normas · faltan: Decreto Legislativo 2/2004, texto refundido de la Ley del Servicio Aragonés de Salud; Decreto 174/2010, Reglamento de la estructura y funcionamiento de las áreas y sectores del Sistema de Salud de Aragón; Decreto 39/2024, estructura orgánica del Departamento de Sanidad |
-| ✅ Publicaciones (7 días) | instagram_reel: 13 ok / 0 fallos · instagram_story: 13 ok / 0 fallos · tiktok_video: 13 ok / 0 fallos · youtube_short: 13 ok / 0 fallos · tiktok_story_borrador: 13 ok / 0 fallos |
+| ⚠️ Publicaciones (7 días) | instagram_reel: 8 ok / 5 fallos · instagram_story: 8 ok / 5 fallos · tiktok_video: 13 ok / 0 fallos · youtube_short: 13 ok / 0 fallos · tiktok_story_borrador: 13 ok / 0 fallos |
