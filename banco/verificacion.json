@@ -3844,12 +3844,12 @@
 },
 "5483972921": {
 "veredicto": "dudosa",
-"motivo": "El texto facilitado no contiene el artículo 32 de la Ley 40/2015, que establece la responsabilidad por funcionamiento normal o anormal.",
+"motivo": "El texto proporcionado omite el artículo 32 de la Ley 40/2015, que establece que la responsabilidad patrimonial deriva del funcionamiento normal o anormal de los servicios públicos.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-09"
+"fecha": "2026-11-16"
 },
 "303cfaae99": {
 "veredicto": "ok",
@@ -4014,13 +4014,13 @@
 "fecha": "2026-10-19"
 },
 "5c50cb433b": {
-"veredicto": "ok",
-"motivo": "El Pleno del Congreso de los Diputados aprobó el proyecto de Constitución el 21 de julio de 1978, antes de su paso al Senado.",
+"veredicto": "dudosa",
+"motivo": "El Congreso aprobó el proyecto el 21 de julio, pero el 31 de octubre también aprobó el dictamen definitivo, lo que hace la pregunta ambigua al estar ambas fechas en las opciones.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-09"
+"fecha": "2026-11-16"
 },
 "e3cbf3f211": {
 "veredicto": "ok",
@@ -4141,12 +4141,12 @@
 },
 "c440dc1245": {
 "veredicto": "dudosa",
-"motivo": "El texto de la Constitución proporcionado no muestra el encabezado del Título IV para poder confirmar literalmente su denominación.",
+"motivo": "El texto proporcionado omite el encabezado del Título IV de la Constitución, por lo que no se puede demostrar literalmente con la fuente dada.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-09"
+"fecha": "2026-11-16"
 },
 "03ba176f21": {
 "veredicto": "ok",
@@ -4294,12 +4294,12 @@
 },
 "2bba5a214e": {
 "veredicto": "ok",
-"motivo": "El Título VIII de la Constitución Española regula la Organización Territorial del Estado (artículos 137 a 158).",
-"fuente_ok": false,
-"referencia": "",
-"cita": "",
+"motivo": "El Título VIII de la Constitución Española regula la Organización Territorial del Estado.",
+"fuente_ok": true,
+"referencia": "Constitución Española de 1978 · Artículo 137",
+"cita": "El Estado se organiza territorialmente en municipios, en provincias y en las Comunidades Autónomas que se constituyan.",
 "correcta_sugerida": null,
-"fecha": "2026-11-09"
+"fecha": "2026-11-16"
 },
 "d3a59695c8": {
 "veredicto": "ok",
@@ -5518,12 +5518,12 @@
 },
 "d1bee0d00c": {
 "veredicto": "dudosa",
-"motivo": "El texto legal proporcionado no incluye el artículo que regula el plazo de prescripción (artículo 67 de la Ley 39/2015).",
+"motivo": "El texto proporcionado no incluye el artículo 67 de la Ley 39/2015, que es la norma que regula el inicio del cómputo del plazo para reclamar por daños físicos.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-09"
+"fecha": "2026-11-16"
 },
 "d23e961f9d": {
 "veredicto": "ok",
@@ -5716,12 +5716,12 @@
 },
 "f6ad631c70": {
 "veredicto": "dudosa",
-"motivo": "Aunque la respuesta es correcta (art. 149.1.16 CE), el texto proporcionado no incluye dicho artículo para poder demostrarlo.",
+"motivo": "La respuesta es correcta y de examen oficial (art. 149.1.16 CE), pero el texto de la fuente proporcionado no incluye dicho artículo para demostrarlo.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-09"
+"fecha": "2026-11-16"
 },
 "a85a279ae6": {
 "veredicto": "ok",
@@ -5941,12 +5941,12 @@
 },
 "f22c859058": {
 "veredicto": "ok",
-"motivo": "El Pleno del Senado aprobó el proyecto de Constitución con modificaciones el 5 de octubre de 1978.",
+"motivo": "Es un dato histórico correcto; el Senado aprobó su texto del proyecto constitucional el 5 de octubre de 1978.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-09"
+"fecha": "2026-11-16"
 },
 "eb13fad241": {
 "veredicto": "ok",
@@ -6166,12 +6166,12 @@
 },
 "ce539e601d": {
 "veredicto": "ok",
-"motivo": "El Reglamento General de Protección de Datos (RGPD) fue aprobado el 27 de abril de 2016, aunque su aplicación comenzó en 2018.",
+"motivo": "El Reglamento General de Protección de Datos (RGPD) fue aprobado el 27 de abril de 2016.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-09"
+"fecha": "2026-11-16"
 },
 "6be2521833": {
 "veredicto": "ok",
@@ -7012,12 +7012,12 @@
 },
 "6fb7c23537": {
 "veredicto": "ok",
-"motivo": "Las elecciones generales que dieron lugar a las Cortes Constituyentes se celebraron el 15 de junio de 1977.",
+"motivo": "Es un hecho histórico correcto que las elecciones generales constituyentes se celebraron el 15 de junio de 1977.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-09"
+"fecha": "2026-11-16"
 },
 "428cc36159": {
 "veredicto": "ok",
@@ -7173,13 +7173,13 @@
 "fecha": "2026-11-02"
 },
 "5d6561ec05": {
-"veredicto": "ok",
-"motivo": "El artículo 111 de la Ley 14/1986, General de Sanidad, creó el Instituto de Salud Carlos III.",
+"veredicto": "dudosa",
+"motivo": "El texto proporcionado menciona la adscripción de centros al Instituto de Salud Carlos III, pero omite el artículo 111 que establece explícitamente su creación.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-09"
+"fecha": "2026-11-16"
 },
 "6dfc4d4948": {
 "veredicto": "ok",
@@ -7191,13 +7191,13 @@
 "fecha": "2026-11-02"
 },
 "8290892922": {
-"veredicto": "ok",
-"motivo": "Según el artículo 73 de la Ley 55/2003, las faltas leves del personal estatutario prescriben a los seis meses.",
+"veredicto": "dudosa",
+"motivo": "El texto proporcionado no incluye el artículo 74 de la Ley 55/2003, que es el que establece los plazos de prescripción de las faltas.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-09"
+"fecha": "2026-11-16"
 },
 "058c2b3eae": {
 "veredicto": "ok",
@@ -7939,12 +7939,12 @@
 },
 "711a3f44eb": {
 "veredicto": "ok",
-"motivo": "La Ponencia constitucional encargada de redactar el anteproyecto fue nombrada el 1 de agosto de 1977.",
+"motivo": "Es un dato histórico correcto; la Ponencia constitucional se nombró el 1 de agosto de 1977.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-09"
+"fecha": "2026-11-16"
 },
 "f705f97b38": {
 "veredicto": "ok",
@@ -7957,12 +7957,12 @@
 },
 "091e6afff6": {
 "veredicto": "dudosa",
-"motivo": "El fragmento legal aportado no incluye el artículo 131 de la Ley 9/2017, que define el abierto y restringido como procedimientos ordinarios.",
+"motivo": "El texto proporcionado no incluye el artículo 131.2 de la Ley 9/2017, que define el procedimiento abierto y el restringido como los procedimientos ordinarios de adjudicación.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-09"
+"fecha": "2026-11-16"
 },
 "a908dbd59b": {
 "veredicto": "ok",
@@ -8965,12 +8965,12 @@
 },
 "fe9dea9bd6": {
 "veredicto": "ok",
-"motivo": "Según la normativa general (Ley 40/2015), las sanciones por infracciones leves prescriben al año, mientras que las infracciones leves prescriben a los 6 meses.",
+"motivo": "Según la Ley 40/2015 (Régimen Jurídico del Sector Público), las sanciones por infracciones leves prescriben al año.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-09"
+"fecha": "2026-11-16"
 },
 "a235897ccd": {
 "veredicto": "ok",
@@ -9136,21 +9136,21 @@
 },
 "bca079f607": {
 "veredicto": "dudosa",
-"motivo": "La opción A es correcta según la Ley 8/2015 de Aragón, pero el texto fuente proporcionado (Ley 19/2013 estatal) no contiene esa redacción literal para poder justificarla.",
+"motivo": "El texto de la Ley 19/2013 proporcionado no menciona los principios de veracidad y objetividad, que son propios de normativas autonómicas como la Ley 8/2015 de Aragón.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-09"
+"fecha": "2026-11-16"
 },
 "76de58fcf8": {
 "veredicto": "dudosa",
-"motivo": "El texto de la fuente proporcionado no incluye el artículo 72 de la Ley 55/2003, que es el que establece los plazos de prescripción, por lo que no se puede verificar con la fuente dada.",
+"motivo": "El texto de la fuente proporcionado omite el artículo 74 de la Ley 55/2003, necesario para confirmar el plazo de prescripción de las faltas muy graves.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-09"
+"fecha": "2026-11-16"
 },
 "fd64e0f105": {
 "veredicto": "ok",
@@ -9307,12 +9307,12 @@
 },
 "4f55b8b3e5": {
 "veredicto": "dudosa",
-"motivo": "El texto legal proporcionado no especifica el plazo de un mes, aunque este sí se recoge en el artículo 12.3 del RGPD.",
+"motivo": "La respuesta es correcta según el RGPD, pero el texto de la fuente proporcionado no incluye el artículo que especifica los plazos de respuesta.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-09"
+"fecha": "2026-11-16"
 },
 "c025338734": {
 "veredicto": "ok",
@@ -9658,12 +9658,12 @@
 },
 "e095d916cd": {
 "veredicto": "ok",
-"motivo": "La Ley General de Sanidad clasifica las infracciones en leves, graves y muy graves, asociándoles multas de cuantía creciente.",
-"fuente_ok": false,
-"referencia": "",
-"cita": "",
+"motivo": "La Ley General de Sanidad clasifica las infracciones en leves, graves y muy graves, sancionadas con multas de cuantía creciente.",
+"fuente_ok": true,
+"referencia": "Ley 14/1986, General de Sanidad · Artículo treinta y seis",
+"cita": "Las infracciones en materia de sanidad serán sancionadas con multas de acuerdo con la siguiente graduación: a) Infracciones leves, hasta 3.005,06 euros.",
 "correcta_sugerida": null,
-"fecha": "2026-11-09"
+"fecha": "2026-11-16"
 },
 "2735cebe51": {
 "veredicto": "ok",
@@ -10717,5 +10717,923 @@
 "cita": "",
 "correcta_sugerida": null,
 "fecha": "2026-11-12"
+},
+"379e678962": {
+"veredicto": "ok",
+"motivo": "La broncorrea se define correctamente en el ámbito sanitario como la expectoración de una cantidad excesiva de esputo.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"e53ed12043": {
+"veredicto": "ok",
+"motivo": "La respuesta coincide literalmente con lo establecido en el artículo 87.1 de la Constitución Española.",
+"fuente_ok": true,
+"referencia": "Constitución Española de 1978, Artículo 87",
+"cita": "La iniciativa legislativa corresponde al Gobierno, al Congreso y al Senado, de acuerdo con la Constitución",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"b476d67b88": {
+"veredicto": "ok",
+"motivo": "El Título X de la Constitución Española está dedicado íntegramente a la reforma constitucional, como indica el texto.",
+"fuente_ok": true,
+"referencia": "Constitución Española de 1978, Título X",
+"cita": "las condiciones para el ejercicio de las acciones. TÍTULO X De la reforma constitucional",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"d961f79f36": {
+"veredicto": "ok",
+"motivo": "La fecha y numeración coinciden exactamente con el título oficial de la Ley de transparencia.",
+"fuente_ok": true,
+"referencia": "Ley 19/2013, Título oficial",
+"cita": "Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno.",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"e02ca2e7e6": {
+"veredicto": "ok",
+"motivo": "Según los criterios de la OMS, un IMC entre 25 y 29,9 kg/m² se clasifica como sobrepeso o preobesidad.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"fe8dd6ab94": {
+"veredicto": "ok",
+"motivo": "El vaciado gradual previene complicaciones graves como la hipotensión brusca o la hemorragia por descompresión rápida.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"4349a662ff": {
+"veredicto": "ok",
+"motivo": "En la etapa de planificación del PAE se establecen los objetivos y se diseñan las intervenciones de enfermería.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"98837640b9": {
+"veredicto": "ok",
+"motivo": "Los medicamentos que se degradan o alteran por la acción de la luz se denominan fotosensibles.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"160ca79d52": {
+"veredicto": "ok",
+"motivo": "La médula espinal se aloja y está protegida en el interior del canal o conducto vertebral.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"9705c18c99": {
+"veredicto": "ok",
+"motivo": "Las siglas P.A.E. corresponden universalmente a Proceso de Atención de Enfermería.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"31f7177769": {
+"veredicto": "ok",
+"motivo": "La Ley General de Sanidad establece que el Área de Salud atenderá a una población entre 200.000 y 250.000 habitantes como regla general.",
+"fuente_ok": true,
+"referencia": "Ley 14/1986, General de Sanidad · Artículo cincuenta y seis",
+"cita": "el Área de Salud extenderá su acción a una población no inferior a 200.000 habitantes ni superior a 250.000.",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"84b66a23c2": {
+"veredicto": "ok",
+"motivo": "La palpación es la técnica de exploración física que se basa en el uso del sentido del tacto.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"49ddba5156": {
+"veredicto": "dudosa",
+"motivo": "Aunque la respuesta es correcta (art. 21.3), el texto fuente proporcionado no incluye dicho artículo para confirmarlo, solo el relativo al recurso de alzada.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"5755cd4090": {
+"veredicto": "ok",
+"motivo": "En la escala de Bristol, los tipos 3 y 4 se consideran la consistencia normal y saludable de las heces.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"f564bf39fc": {
+"veredicto": "ok",
+"motivo": "Las tres afirmaciones sobre el óvulo, su dotación cromosómica, la ovulación y la fecundación son correctas.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"6b16824a80": {
+"veredicto": "ok",
+"motivo": "Las maniobras de Leopold, el control de la tensión arterial y la auscultación del latido fetal son controles obstétricos rutinarios y necesarios, por lo que todos deben realizarse.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"eb17e9c6c5": {
+"veredicto": "ok",
+"motivo": "La oliguria se define clínicamente como una diuresis inferior a 400-500 ml en 24 horas, coincidiendo con la respuesta dada por la plantilla oficial.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"c4b33cc14e": {
+"veredicto": "ok",
+"motivo": "Los absorbentes se clasifican principalmente por su capacidad de absorción, que se adapta al grado de incontinencia del paciente (leve, moderada o severa).",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"434cf51d72": {
+"veredicto": "ok",
+"motivo": "El artículo 3.2 de la Ley General de Sanidad establece el principio de universalidad al indicar que la asistencia se extenderá a toda la población.",
+"fuente_ok": true,
+"referencia": "Ley 14/1986, General de Sanidad · Artículo tres",
+"cita": "La asistencia sanitaria pública se extenderá a toda la población española.",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"5d11ee84f4": {
+"veredicto": "ok",
+"motivo": "En la etapa de valoración del PAE, el paciente es siempre la fuente primaria de datos, siendo la familia o la historia clínica fuentes secundarias.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"16f51a748f": {
+"veredicto": "dudosa",
+"motivo": "Los artículos de la Constitución proporcionados en la fuente no mencionan explícitamente que el Tribunal Constitucional resuelva los recursos de inconstitucionalidad (esto se regula en el art. 161, no incluido).",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"e718b7c7da": {
+"veredicto": "ok",
+"motivo": "El TCAE forma parte del equipo de enfermería y realiza sus funciones asistenciales bajo la supervisión y dependencia funcional del diplomado/graduado en enfermería.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"222582e6e1": {
+"veredicto": "ok",
+"motivo": "La absorción por vía rectal se considera generalmente más lenta, errática e irregular que por vía oral, por lo que la respuesta oficial es correcta.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"ba5c9a376b": {
+"veredicto": "ok",
+"motivo": "El lavado por ultrasonidos está indicado específicamente para material delicado, de difícil acceso o con puntas finas, como el instrumental de microcirugía.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"8fc5473d5b": {
+"veredicto": "ok",
+"motivo": "Es fundamental que el paciente se encuentre en reposo antes de la toma de constantes para evitar alteraciones y no falsear los valores basales.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"a11033cb8a": {
+"veredicto": "ok",
+"motivo": "La labilidad emocional se define exactamente como la inestabilidad afectiva con cambios bruscos de humor (como pasar de la risa al llanto) sin motivo aparente.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"836b718ec0": {
+"veredicto": "dudosa",
+"motivo": "El texto legal proporcionado omite el artículo 107 de la Ley 9/2017, que es el que establece expresamente el porcentaje del 5% para la garantía definitiva.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"2d5844552d": {
+"veredicto": "ok",
+"motivo": "La posición de Sims (decúbito lateral izquierdo con la pierna derecha flexionada) es la postura anatómica de elección para la administración de enemas.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"967f9b5dd7": {
+"veredicto": "ok",
+"motivo": "El termómetro rectal entra en contacto con mucosas, por lo que se clasifica como artículo semicrítico, siendo la única opción que no es 'no crítica'.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"e572e34e07": {
+"veredicto": "ok",
+"motivo": "La alimentación es un proceso voluntario, consciente y educable. La característica de ser 'involuntario' corresponde a la nutrición.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"e1587243fa": {
+"veredicto": "ok",
+"motivo": "La raíz 'osteo-' proviene del griego 'osteon' y significa hueso, siendo la única respuesta correcta.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"ff7da69fc6": {
+"veredicto": "ok",
+"motivo": "La Ley 5/2021 establece claramente que es competencia del presidente o presidenta del Gobierno de Aragón.",
+"fuente_ok": true,
+"referencia": "Ley 5/2021, de Organización y Régimen Jurídico del Sector Público Autonómico de ",
+"cita": "Corresponde al presidente o presidenta del Gobierno de Aragón la creación, modificación, agrupación y supresión de departamentos",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"abf24be71a": {
+"veredicto": "ok",
+"motivo": "El principio básico y primero de la acción preventiva es evitar los riesgos o eliminarlos en su origen.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"577ef23d72": {
+"veredicto": "error",
+"motivo": "Según el artículo 77.10ª del Estatuto de Autonomía de Aragón, las ferias internacionales que se celebren en Aragón son de competencia ejecutiva, no exclusiva.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": "C",
+"fecha": "2026-11-16"
+},
+"1c38fe8d76": {
+"veredicto": "ok",
+"motivo": "Aragón presenta una gran macrocefalia en torno a Zaragoza y un medio rural muy despoblado, lo que genera un fuerte desequilibrio territorial.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"9e52294ab8": {
+"veredicto": "ok",
+"motivo": "La economía de Aragón destaca por su diversificación sectorial, con un peso importante de la industria, la logística y los servicios.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"f9d3981263": {
+"veredicto": "ok",
+"motivo": "La D.O. Campo de Borja utiliza históricamente el lema 'El Imperio de la Garnacha' por la predominancia y calidad de esta variedad de uva.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"7e44a8e3f9": {
+"veredicto": "ok",
+"motivo": "El título oficial de la norma confirma que es la Ley 4/2007 la que regula esta materia en Aragón.",
+"fuente_ok": true,
+"referencia": "Ley 4/2007, de prevención y protección integral a las mujeres víctimas de violen",
+"cita": "Ley 4/2007, de 22 de marzo, de Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón.",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"63e94dc8c3": {
+"veredicto": "ok",
+"motivo": "El Decreto Legislativo 1/2022, de 6 de abril, aprueba el texto refundido de la Ley del Presidente o Presidenta y del Gobierno de Aragón.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"d6fe7dac52": {
+"veredicto": "ok",
+"motivo": "El artículo 14 del Estatuto de Autonomía de Aragón regula expresamente el derecho a la salud.",
+"fuente_ok": true,
+"referencia": "Ley Orgánica 5/2007, de reforma del Estatuto de Autonomía de Aragón · Artículo 1",
+"cita": "Artículo 14. Derecho a la salud. 1. Todas las personas tienen derecho a acceder a los servicios públicos de salud",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"574f46b7ee": {
+"veredicto": "ok",
+"motivo": "La Agencia Española de Protección de Datos (AEPD) es la autoridad de control principal en España.",
+"fuente_ok": true,
+"referencia": "Ley Orgánica 3/2018, de Protección de Datos Personales · Artículo 75",
+"cita": "Cuando la Agencia Española de Protección de Datos ostente la condición de autoridad de control principal",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"b229b8f10d": {
+"veredicto": "ok",
+"motivo": "El Decreto 35/2010, de 9 de marzo, regula el derecho a la segunda opinión médica en el Sistema de Salud de Aragón.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"a0612f7855": {
+"veredicto": "ok",
+"motivo": "El Título IX del Estatuto de Autonomía de Aragón está dedicado a la reforma del propio Estatuto.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"5730ccb043": {
+"veredicto": "ok",
+"motivo": "La violencia social es aquella ejercida por personas que no tienen vínculos afectivos, familiares, laborales o docentes con la víctima.",
+"fuente_ok": true,
+"referencia": "Ley 4/2007, de prevención y protección integral a las mujeres víctimas de violen",
+"cita": "Situaciones de violencia social: son las que se operan por quienes carecen, en relación con la víctima, de cualquiera de los vínculos que se relacionan en los dos apartados anteriores",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"030093cf8b": {
+"veredicto": "ok",
+"motivo": "El Consejo de Dirección debe reunirse en un plazo máximo de quince días cuando lo solicite al menos un tercio de sus miembros.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"238034f882": {
+"veredicto": "ok",
+"motivo": "La Ley 6/2002, de 15 de abril, de Salud de Aragón, es la norma que regula el derecho a la protección de la salud en esta comunidad.",
+"fuente_ok": true,
+"referencia": "Ley 6/2002, de 15 de abril, de Salud de Aragón · Artículo 1",
+"cita": "La presente Ley tiene por objeto la regulación general de todas las acciones que permitan hacer efectivo el derecho a la protección de la salud",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"1c4cc1b955": {
+"veredicto": "dudosa",
+"motivo": "Según el artículo 19.3 del Decreto 174/2010, la estructura es aprobada por la Dirección Gerencia del SALUD a propuesta del Gerente de Sector. La plantilla oficial parece errónea al dar por buena la C en lugar de la D.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"9d16bcd434": {
+"veredicto": "ok",
+"motivo": "El Instituto Aragonés de Ciencias de la Salud (IACS) tiene como fines principales la formación, docencia e investigación en el ámbito de la salud.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"9ac837b232": {
+"veredicto": "ok",
+"motivo": "El Director Gerente del SALUD tiene rango de Director General y es nombrado y cesado por el Gobierno de Aragón a propuesta del Consejero de Sanidad.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"cced216db3": {
+"veredicto": "error",
+"motivo": "La ley establece que el consentimiento será verbal por regla general, exigiéndose por escrito solo en intervenciones quirúrgicas o procedimientos invasivos, por lo que la afirmación de que siempre es escrito es falsa. Ninguna opción es correcta.",
+"fuente_ok": true,
+"referencia": "Ley 6/2002, de 15 de abril, de Salud de Aragón · Artículo 12",
+"cita": "El consentimiento debe realizarse por escrito en los casos de intervenciones quirúrgicas, procedimientos diagnósticos invasivos",
+"correcta_sugerida": "",
+"fecha": "2026-11-16"
+},
+"f9aea2e79f": {
+"veredicto": "ok",
+"motivo": "La Ley 5/2021 establece expresamente que las normas de creación y funcionamiento de ciertos órganos colegiados se publicarán también en el Portal de Transparencia.",
+"fuente_ok": true,
+"referencia": "Ley 5/2021, de Organización y Régimen Jurídico del Sector Público Autonómico de ",
+"cita": "Se publicarán también en el Portal de Transparencia del Gobierno de Aragón.",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"3a32230770": {
+"veredicto": "ok",
+"motivo": "El presupuesto con perspectiva de género es el instrumento adecuado para analizar el impacto de los recursos públicos en hombres y mujeres, descartándose claramente las demás opciones.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"2f3f28c9ba": {
+"veredicto": "ok",
+"motivo": "La Comunidad Autónoma de Aragón está formada exclusivamente por las provincias de Huesca, Teruel y Zaragoza.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"5e4a974293": {
+"veredicto": "ok",
+"motivo": "El Jamón de Teruel cuenta con su propia Denominación de Origen Protegida (DOP), por lo que no se ampara bajo la marca de garantía C'alial.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"37fc5265c7": {
+"veredicto": "ok",
+"motivo": "Teruel es efectivamente la provincia menos poblada de Aragón y de toda España.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"109b27b6fc": {
+"veredicto": "ok",
+"motivo": "El artículo 114.1 del Estatuto de Autonomía de Aragón establece que la iniciativa corresponde al Gobierno de Aragón, a las Cortes de Aragón (1/5 de diputados) y a las Cortes Generales.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"2136467456": {
+"veredicto": "ok",
+"motivo": "El artículo 43.2 del Decreto 174/2010 establece que, como norma general, el Equipo de Atención Primaria no superará las 25.000 personas asignadas.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"c5f208143d": {
+"veredicto": "ok",
+"motivo": "El Decreto 39/2024, de 28 de febrero, es la norma vigente que aprueba la estructura orgánica del Departamento de Sanidad y del Servicio Aragonés de Salud.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"715328feae": {
+"veredicto": "dudosa",
+"motivo": "El término 'más pequeña' es ambiguo; aunque Teruel es la capital de provincia menos poblada, en términos de superficie (extensión territorial) la capital más pequeña de España es Cádiz.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"408b8d713f": {
+"veredicto": "ok",
+"motivo": "La Comarca Central, que incluye a la ciudad de Zaragoza, concentra a más de la mitad de la población de la comunidad autónoma.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"3288ca6e61": {
+"veredicto": "ok",
+"motivo": "La Ley 8/2015 de Transparencia de Aragón establece el Portal de Transparencia del Gobierno de Aragón como el medio para publicar la información de publicidad activa.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"5354cf68dc": {
+"veredicto": "ok",
+"motivo": "La delegación de competencias se regula en el artículo 17, que pertenece a la Sección 2ª ('Competencia') del Capítulo II del Título Preliminar de la Ley 5/2021.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"60243f0bea": {
+"veredicto": "ok",
+"motivo": "El Decreto 39/2024 establece que el Departamento de Sanidad se estructura en la Secretaría General Técnica y cinco Direcciones Generales.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"7b6e3b4ab5": {
+"veredicto": "ok",
+"motivo": "La Ley 5/2021, de 29 de junio, es la norma que regula la Organización y Régimen Jurídico del Sector Público Autonómico de Aragón.",
+"fuente_ok": true,
+"referencia": "Ley 5/2021, de Organización y Régimen Jurídico del Sector Público Autonómico de ",
+"cita": "Ley 5/2021, de 29 de junio, de Organización y Régimen Jurídico del Sector Público Autonómico de Aragón.",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"fc4e086988": {
+"veredicto": "ok",
+"motivo": "Pregunta de examen oficial con respuesta defendible según la estructura del Plan de Salud Mental de Aragón.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"c761a4b2a1": {
+"veredicto": "ok",
+"motivo": "La Ley 11/1996, de 30 de diciembre, de la Administración de la Comunidad Autónoma de Aragón, fue la norma histórica predecesora en esta materia.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"f173980560": {
+"veredicto": "ok",
+"motivo": "La Cebolla de Fuentes de Ebro es conocida precisamente por su sabor dulce y su escaso picor.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"e2c4feb297": {
+"veredicto": "ok",
+"motivo": "Geográficamente, el valle del Ebro en Aragón está delimitado por los Pirineos al norte y el Sistema Ibérico al sur.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"e11d93d03b": {
+"veredicto": "ok",
+"motivo": "Según el Estatuto de Autonomía de Aragón, en las competencias exclusivas la Comunidad ejerce potestad legislativa, reglamentaria, función ejecutiva y políticas propias.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"551f1c1ea4": {
+"veredicto": "ok",
+"motivo": "El artículo 8.5 de la Ley de Salud de Aragón establece explícitamente que los datos se registran en el CMBD del hospital.",
+"fuente_ok": true,
+"referencia": "Ley 6/2002, de 15 de abril, de Salud de Aragón · Artículo 8",
+"cita": "Los datos del informe de alta quedarán registrados en el Conjunto Mínimo Básico de datos del hospital.",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"5063fd3252": {
+"veredicto": "ok",
+"motivo": "La reforma vigente del Estatuto de Autonomía de Aragón es la Ley Orgánica 5/2007, de 20 de abril, tal como indica su título oficial.",
+"fuente_ok": true,
+"referencia": "Ley Orgánica 5/2007, de reforma del Estatuto de Autonomía de Aragón · Título ofi",
+"cita": "Ley Orgánica 5/2007, de 20 de abril, de reforma del Estatuto de Autonomía de Aragón.",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"317b3f1cfa": {
+"veredicto": "ok",
+"motivo": "El Pago Aylés es históricamente la primera Denominación de Origen Protegida de Vino de Pago reconocida en la comunidad de Aragón.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"dab22ceed5": {
+"veredicto": "ok",
+"motivo": "El Estatuto de Autonomía de Aragón exige expresamente la mayoría absoluta en la primera votación para la investidura del Presidente.",
+"fuente_ok": true,
+"referencia": "Ley Orgánica 5/2007, de reforma del Estatuto de Autonomía de Aragón · Artículo 4",
+"cita": "Para ser elegido, el candidato deberá, en primera votación, obtener mayoría absoluta",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"1f66022202": {
+"veredicto": "ok",
+"motivo": "La Ley del Justicia de Aragón establece que su elección requiere el voto favorable de una mayoría de tres quintos de los miembros de las Cortes.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"15eabc7e31": {
+"veredicto": "ok",
+"motivo": "El Instituto Aragonés de la Mujer es el organismo autónomo competente en materia de igualdad entre mujeres y hombres en Aragón.",
+"fuente_ok": true,
+"referencia": "Ley 7/2018, de igualdad de oportunidades entre mujeres y hombres en Aragón · Art",
+"cita": "El Instituto Aragonés de la Mujer, organismo autónomo adscrito al departamento del Gobierno de Aragón con competencia en materia de igualdad entre mujeres y hombres",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"113ef95083": {
+"veredicto": "ok",
+"motivo": "La Ley de Salud de Aragón obliga a los establecimientos sanitarios a elaborar un informe de alta para los pacientes con al menos una estancia hospitalaria.",
+"fuente_ok": true,
+"referencia": "Ley 6/2002, de 15 de abril, de Salud de Aragón · Artículo 8",
+"cita": "Todos los establecimientos sanitarios estarán obligados a elaborar un informe de alta para los pacientes que hayan producido al menos una estancia hospitalaria",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"45a4cad6a5": {
+"veredicto": "ok",
+"motivo": "El Ternasco de Aragón fue la primera carne fresca en España en ser reconocida con una Indicación Geográfica Protegida (en 1989).",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"358838fa92": {
+"veredicto": "ok",
+"motivo": "El río Jalón es un afluente del Ebro por su margen derecha, procedente del Sistema Ibérico, a diferencia de los otros que provienen del Pirineo por la margen izquierda.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"2b8b7ae9d7": {
+"veredicto": "ok",
+"motivo": "El Parque Nacional de Ordesa y Monte Perdido se ubica efectivamente en la comarca del Sobrarbe, en la provincia de Huesca.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"596e60857b": {
+"veredicto": "ok",
+"motivo": "El artículo 90 del Estatuto de Autonomía de Aragón establece la Comisión Bilateral de Cooperación Aragón-Estado dentro del Título VII.",
+"fuente_ok": true,
+"referencia": "Ley Orgánica 5/2007, de reforma del Estatuto de Autonomía de Aragón · Artículo 9",
+"cita": "La Comisión Bilateral de Cooperación se configura como el instrumento principal de relación entre la Comunidad Autónoma y el Estado",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"3fcd96ab63": {
+"veredicto": "ok",
+"motivo": "Las cuatro líneas asistenciales del sistema de salud de Aragón son atención primaria, especializada, sociosanitaria y salud mental.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"3e1ff43e01": {
+"veredicto": "ok",
+"motivo": "El Instituto Aragonés de Seguridad y Salud Laboral (ISSLA) es el organismo autonómico competente y referente en esta materia en Aragón.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"26804bcd4f": {
+"veredicto": "error",
+"motivo": "El Consejo de Salud de Aragón se regula en el Título III (De la participación ciudadana) de la Ley 6/2002, no en el Título V. El enunciado contiene un error.",
+"fuente_ok": true,
+"referencia": "Ley 6/2002, de 15 de abril, de Salud de Aragón · Artículo 33",
+"cita": "Se crea el Consejo de Salud de Aragón como órgano colegiado de participación ciudadana en la formulación de la política sanitaria",
+"correcta_sugerida": "",
+"fecha": "2026-11-16"
+},
+"723a2fc5a1": {
+"veredicto": "ok",
+"motivo": "El artículo 85.1 del Estatuto de Autonomía de Aragón establece que la actividad de las entidades territoriales se rige por los principios de subsidiariedad, proporcionalidad y diferenciación.",
+"fuente_ok": true,
+"referencia": "Ley Orgánica 5/2007, de reforma del Estatuto de Autonomía de Aragón · Artículo 8",
+"cita": "La actividad de las entidades territoriales aragonesas se desarrollará bajo los principios de subsidiariedad, proporcionalidad y diferenciación.",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"9679401c2d": {
+"veredicto": "ok",
+"motivo": "El artículo 3 de la Ley 4/2007 clasifica las situaciones de violencia contra las mujeres en doméstica, laboral o docente, y social.",
+"fuente_ok": true,
+"referencia": "Ley 4/2007, de prevención y protección integral a las mujeres víctimas de violen",
+"cita": "las situaciones de violencia contra las mujeres se clasifican en: a) Situaciones de violencia doméstica: son las que se operan por quienes sostienen o han sostenido un vínculo",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"09e8f6b2ef": {
+"veredicto": "ok",
+"motivo": "El Área de Salud es la estructura básica y marco de planificación del Sistema de Salud de Aragón, regulada en el Título VI de la Ley 6/2002.",
+"fuente_ok": true,
+"referencia": "Ley 6/2002, de 15 de abril, de Salud de Aragón · Artículo 47",
+"cita": "El área de salud constituye el marco de planificación y desarrollo de las actuaciones sanitarias, debiendo disponer de la financiación y dotaciones necesarias",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"cc0b867bd2": {
+"veredicto": "ok",
+"motivo": "El río Ebro es el principal río de Aragón y atraviesa la comunidad de oeste a este.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"a1eee8e407": {
+"veredicto": "ok",
+"motivo": "El Director Gerente del Servicio Aragonés de Salud tiene rango de Director General según la normativa vigente.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"c8c3bc95c6": {
+"veredicto": "ok",
+"motivo": "La ley establece explícitamente que los órganos superiores del SALUD son el Consejo de Dirección y el Director Gerente.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"ce977342a9": {
+"veredicto": "ok",
+"motivo": "La Ley 8/2015 de Aragón establece el silencio estimatorio como regla general para el acceso a la información pública, a diferencia de la ley estatal.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"e0a087805a": {
+"veredicto": "ok",
+"motivo": "Son los principios constitucionales y legales básicos de actuación de la Administración pública recogidos en la Ley 5/2021.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"9d87a238ec": {
+"veredicto": "ok",
+"motivo": "La ley establece explícitamente que el interés superior del menor es el criterio rector en toda intervención pública.",
+"fuente_ok": true,
+"referencia": "Ley 4/2018, de identidad y expresión de género e igualdad social y no discrimina",
+"cita": "Toda intervención pública deberá estar presidida por el criterio rector de atención al interés superior de la persona menor",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"d5150ab7e5": {
+"veredicto": "ok",
+"motivo": "Zaragoza es la provincia más poblada de Aragón con gran diferencia, concentrando la mayor parte de la población.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"ee9f65ef48": {
+"veredicto": "ok",
+"motivo": "Zaragoza es actualmente la cuarta ciudad más poblada de España, situándose por detrás de Madrid, Barcelona y Valencia.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"8d75551332": {
+"veredicto": "ok",
+"motivo": "La modalidad de relación laboral especial de alta dirección es la correcta según el artículo 23 del Decreto Legislativo 2/2004.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"1ae365cb3c": {
+"veredicto": "ok",
+"motivo": "Aragón cuenta con 8 Áreas y Sectores de Salud según el Decreto 174/2010.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"f8d66077df": {
+"veredicto": "ok",
+"motivo": "El Título VIII del Estatuto de Autonomía de Aragón regula la Economía y Hacienda.",
+"fuente_ok": true,
+"referencia": "Ley Orgánica 5/2007, de reforma del Estatuto de Autonomía de Aragón · Título VII",
+"cita": "TÍTULO VIII Economía y Hacienda CAPÍTULO I Economía de la Comunidad Autónoma",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"2cd9b063b0": {
+"veredicto": "ok",
+"motivo": "Cinco Villas es efectivamente la comarca de mayor extensión de Aragón.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"378d4f6c06": {
+"veredicto": "ok",
+"motivo": "El Consejo de Dirección del SALUD es presidido por el Consejero del Departamento responsable en materia de salud.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"a19274a896": {
+"veredicto": "ok",
+"motivo": "El Director Gerente del SALUD es nombrado por Decreto del Gobierno de Aragón.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
+},
+"82691e2754": {
+"veredicto": "error",
+"motivo": "Las infracciones y sanciones se regulan en el Título VI de la Ley 6/2002 (artículos 40 a 44), no en el Capítulo V del Título V. Ninguna opción es correcta.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": "",
+"fecha": "2026-11-16"
+},
+"ba5de5b136": {
+"veredicto": "ok",
+"motivo": "El artículo 2 de la Ley de Salud de Aragón enumera trece principios rectores (de la letra a a la m).",
+"fuente_ok": true,
+"referencia": "Ley 6/2002, de 15 de abril, de Salud de Aragón · Artículo 2",
+"cita": "Los principios generales en los que se inspira la presente Ley son los siguientes: a) Concepción integral de la salud",
+"correcta_sugerida": null,
+"fecha": "2026-11-16"
 }
 }

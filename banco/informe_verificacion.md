@@ -1,12 +1,12 @@
-# Informe del verificador (2026-11-12)
+# Informe del verificador (2026-11-16)
 
-- Preguntas en el banco: 1822 · revisadas: 1191 · **publicables: 1105**
-- Posibles errores: 15 · dudosas: 50 · correctas pero sin texto de la norma para citar: 21
+- Preguntas en el banco: 1822 · revisadas: 1293 · **publicables: 1175**
+- Posibles errores: 19 · dudosas: 58 · correctas pero sin texto de la norma para citar: 41
 
 Las marcadas como posible error conviene revisarlas también en la web app.
 
 
-## Posibles errores (15)
+## Posibles errores (19)
 
 - **[Estatuto Marco del Personal Estatutario (Ley 55/2003)]** ¿A qué texto legal remite el artículo 79 de la Ley 55/2003 en materia de representación y negociación colectiva del personal estatutario? — marcada A) Al Texto Refundido del Estatuto Básico del Empleado Público (TREBEP)
   - El artículo 79 remite a la Constitución y a la Ley Orgánica 11/1985 de Libertad Sindical; es el artículo 78 el que remite a la normativa general de la función pública (actual TREBEP).
@@ -38,8 +38,16 @@ Las marcadas como posible error conviene revisarlas también en la web app.
   - La sonda de Moss es una sonda nasogástrica (o nasoentérica), no nasoesofágica. La opción B contiene un error anatómico en su nomenclatura.
 - **[Procedimiento Administrativo Común (Ley 39/2015)]** ¿Cuándo produce efectos, con carácter general, un acto administrativo válido? — marcada A) Desde el momento en que se notifica, salvo que la ley disponga otra cosa
   - Con carácter general, los actos administrativos producen efectos desde la fecha en que se dicten, no desde que se notifican (la notificación es un supuesto de demora de eficacia). Ninguna opción es correcta.
+- **[Estatuto de Autonomía - Títulos VII a IX]** Según el estatuto de autonomía de Aragón las Ferias internacionales que se celebren en Aragón, ¿en qué tipo de competencia se incluyen?: — marcada B) Competencia exclusiva autonómica · sugerida: C
+  - Según el artículo 77.10ª del Estatuto de Autonomía de Aragón, las ferias internacionales que se celebren en Aragón son de competencia ejecutiva, no exclusiva.
+- **[Ley de Salud de Aragón (Ley 6/2002)]** ¿Es necesario el consentimiento informado y escrito para cualquier intervención sanitaria? — marcada B) Sí, siempre es preciso el consentimiento informado y escrito
+  - La ley establece que el consentimiento será verbal por regla general, exigiéndose por escrito solo en intervenciones quirúrgicas o procedimientos invasivos, por lo que la afirmación de que siempre es escrito es falsa. Ninguna opción es correcta.
+- **[Ley de Salud de Aragón (Ley 6/2002)]** ¿Qué órgano de participación se regula en el Capítulo III del Título V de la Ley de Salud de Aragón? — marcada A) El Consejo de Salud de Aragón
+  - El Consejo de Salud de Aragón se regula en el Título III (De la participación ciudadana) de la Ley 6/2002, no en el Título V. El enunciado contiene un error.
+- **[Ley de Salud de Aragón (Ley 6/2002)]** ¿En qué capítulo de la Ley de Salud de Aragón se regulan las infracciones y sanciones? — marcada A) Capítulo V del Título V (artículos 40 a 44)
+  - Las infracciones y sanciones se regulan en el Título VI de la Ley 6/2002 (artículos 40 a 44), no en el Capítulo V del Título V. Ninguna opción es correcta.
 
-## Dudosas (50)
+## Dudosas (58)
 
 - **[Ley de Salud de Aragón (Ley 6/2002)]** Según el estatuto de autonomía de Aragón todas las personas tienen derecho a acceder a los servicios públicos de salud, en condiciones de: — marcada A) Igualdad, universalidad y calidad
   - El texto fuente proporcionado es la Ley de Salud de Aragón y no incluye el Estatuto de Autonomía para poder verificar la respuesta.
@@ -76,9 +84,11 @@ Las marcadas como posible error conviene revisarlas también en la web app.
 - **[La Piel]** ¿Cuál es la primera fase de la cicatrización? — marcada C) Maduración
   - La primera fase de la cicatrización es la inflamatoria (o hemostática), no la de maduración, que es la última. La plantilla oficial del tribunal es incorrecta.
 - **[Régimen Jurídico del Sector Público (Ley 40/2015)]** ¿Qué tipo de funcionamiento de los servicios públicos puede dar lugar a responsabilidad patrimonial de la Administración? — marcada B) Tanto el funcionamiento normal como el anormal de los servicios públicos
-  - El texto facilitado no contiene el artículo 32 de la Ley 40/2015, que establece la responsabilidad por funcionamiento normal o anormal.
+  - El texto proporcionado omite el artículo 32 de la Ley 40/2015, que establece que la responsabilidad patrimonial deriva del funcionamiento normal o anormal de los servicios públicos.
+- **[Fechas Clave y Plazos Administrativos]** ¿En qué fecha aprobó el Pleno del Congreso de los Diputados el proyecto de Constitución? — marcada A) 21 de julio de 1978
+  - El Congreso aprobó el proyecto el 21 de julio, pero el 31 de octubre también aprobó el dictamen definitivo, lo que hace la pregunta ambigua al estar ambas fechas en las opciones.
 - **[Constitución Española de 1978]** ¿Qué título de la Constitución regula el Gobierno y la Administración? — marcada B) Título IV
-  - El texto de la Constitución proporcionado no muestra el encabezado del Título IV para poder confirmar literalmente su denominación.
+  - El texto proporcionado omite el encabezado del Título IV de la Constitución, por lo que no se puede demostrar literalmente con la fuente dada.
 - **[Cirugía: Pre, Trans y Postoperatorio]** La apertura de los bordes de una herida quirúrgica suturada, con salida del contenido interno, se denomina: — marcada A) Dehiscencia
   - La apertura de los bordes es 'dehiscencia', pero la 'salida del contenido interno' define específicamente la 'evisceración'. Al no estar esta opción, la pregunta es técnicamente imprecisa y puede generar confusión.
 - **[Lavado de Manos]** El lavado de manos antiséptico, indicado antes de técnicas invasivas, tiene una duración aproximada de: — marcada B) 2-3 minutos
@@ -90,21 +100,25 @@ Las marcadas como posible error conviene revisarlas también en la web app.
 - **[Constitución Española de 1978]** ¿En nombre de quién proclama la Nación Española su voluntad al inicio del Preámbulo? — marcada A) En uso de su soberanía
   - El texto de la fuente no incluye el Preámbulo de la Constitución Española para verificar la afirmación.
 - **[Régimen Jurídico del Sector Público (Ley 40/2015)]** En caso de daños físicos o psíquicos a las personas, ¿desde cuándo empieza a computarse el plazo de un año para reclamar responsabilidad patrimonial? — marcada B) Desde la curación o la determinación del alcance de las secuelas
-  - El texto legal proporcionado no incluye el artículo que regula el plazo de prescripción (artículo 67 de la Ley 39/2015).
+  - El texto proporcionado no incluye el artículo 67 de la Ley 39/2015, que es la norma que regula el inicio del cómputo del plazo para reclamar por daños físicos.
 - **[Constitución Española de 1978]** Según el Capítulo Tercero del Título VIII de la Constitución Española de 1978, ¿cuál de las siguientes opciones es una competencia exclusiva del Estado?: — marcada D) Legislación sobre productos farmacéuticos
-  - Aunque la respuesta es correcta (art. 149.1.16 CE), el texto proporcionado no incluye dicho artículo para poder demostrarlo.
+  - La respuesta es correcta y de examen oficial (art. 149.1.16 CE), pero el texto de la fuente proporcionado no incluye dicho artículo para demostrarlo.
 - **[Sondas Digestivas]** El calibre de una sonda hace referencia a: — marcada B) El diámetro de la luz
   - Técnicamente, el calibre (escala French) mide el diámetro externo de la sonda, no el diámetro de la luz (interno), aunque suele darse por válida al ser la mejor opción.
 - **[Nombramientos y Tipos de Mayoría]** ¿Cómo se computa la mayoría simple? — marcada A) Más votos a favor que en contra, sin contar las abstenciones
   - Los artículos proporcionados mencionan la mayoría simple, pero no definen cómo se computa matemáticamente.
 - **[Contratación del Sector Público (Ley 9/2017)]** ¿Qué prohíbe expresamente la Ley 9/2017 en relación con los umbrales de los contratos menores? — marcada A) El fraccionamiento del objeto del contrato para eludir dichos umbrales
   - El texto proporcionado no incluye el artículo de la Ley 9/2017 que prohíbe el fraccionamiento de los contratos menores (art. 99.2 o 118.3).
+- **[Ley General de Sanidad (Ley 14/1986)]** ¿Qué instituto de investigación sanitaria fue creado por la Ley General de Sanidad? — marcada A) El Instituto de Salud Carlos III
+  - El texto proporcionado menciona la adscripción de centros al Instituto de Salud Carlos III, pero omite el artículo 111 que establece explícitamente su creación.
+- **[Estatuto Marco del Personal Estatutario (Ley 55/2003)]** ¿Cuál es el plazo de prescripción de las faltas leves del personal estatutario según la Ley 55/2003? — marcada A) 6 meses
+  - El texto proporcionado no incluye el artículo 74 de la Ley 55/2003, que es el que establece los plazos de prescripción de las faltas.
 - **[Termoterapia e Hidroterapia]** ¿Hasta qué proporción se debe llenar una bolsa de agua caliente? — marcada B) 3/4 partes
   - La mayoría de manuales de fundamentos de enfermería indican llenar la bolsa a 1/2 o 2/3 de su capacidad, por lo que la opción D suele ser la más aceptada en exámenes oficiales.
 - **[Calidad Asistencial]** Según Cotte, ¿cómo relaciona la calidad con percepción y expectativas? — marcada A) Calidad = Percepción − Expectativas
   - Aunque la fórmula Calidad = Percepción - Expectativas es correcta conceptualmente, la atribución al autor 'Cotte' es inusual y podría ser una errata de otro autor (como Kotler).
 - **[Contratación del Sector Público (Ley 9/2017)]** ¿Cuáles son los dos procedimientos de adjudicación ordinarios según la Ley 9/2017? — marcada A) El abierto y el restringido
-  - El fragmento legal aportado no incluye el artículo 131 de la Ley 9/2017, que define el abierto y restringido como procedimientos ordinarios.
+  - El texto proporcionado no incluye el artículo 131.2 de la Ley 9/2017, que define el procedimiento abierto y el restringido como los procedimientos ordinarios de adjudicación.
 - **[Estatuto Marco del Personal Estatutario (Ley 55/2003)]** ¿En qué capítulo de la Ley 55/2003 se regulan los derechos y deberes del personal estatutario? — marcada B) Capítulo IV (artículos 17 a 19)
   - La respuesta es correcta, pero el texto legal adjunto no indica que los artículos 17 y 18 pertenezcan al Capítulo IV.
 - **[Estatuto Marco del Personal Estatutario (Ley 55/2003)]** ¿En qué capítulo de la Ley 55/2003 se regula el régimen de incompatibilidades del personal estatutario? — marcada C) Capítulo XIII
@@ -120,11 +134,11 @@ Las marcadas como posible error conviene revisarlas también en la web app.
 - **[Recogida de Muestras]** La punción capilar en niños menores de 4 años se realiza generalmente en: — marcada D) Planta del pie
   - La plantilla oficial marca la D, pero los protocolos clínicos (como los de la OMS) recomiendan la punción en la planta del pie (talón) solo en menores de 1 año; en niños mayores se prefiere el pulpejo del dedo.
 - **[Transparencia y Acceso a la Información Pública]** ¿Cómo debe ser la información difundida en virtud de las obligaciones de publicidad activa? — marcada A) Obligatoria, gratuita y en condiciones de veracidad, accesibilidad y objetividad
-  - La opción A es correcta según la Ley 8/2015 de Aragón, pero el texto fuente proporcionado (Ley 19/2013 estatal) no contiene esa redacción literal para poder justificarla.
+  - El texto de la Ley 19/2013 proporcionado no menciona los principios de veracidad y objetividad, que son propios de normativas autonómicas como la Ley 8/2015 de Aragón.
 - **[Estatuto Marco del Personal Estatutario (Ley 55/2003)]** ¿Cuál es el plazo de prescripción de las faltas muy graves del personal estatutario según la Ley 55/2003? — marcada D) 4 años
-  - El texto de la fuente proporcionado no incluye el artículo 72 de la Ley 55/2003, que es el que establece los plazos de prescripción, por lo que no se puede verificar con la fuente dada.
+  - El texto de la fuente proporcionado omite el artículo 74 de la Ley 55/2003, necesario para confirmar el plazo de prescripción de las faltas muy graves.
 - **[Protección de Datos de Salud (RGPD y LOPDGDD)]** ¿En qué plazo debe responder, con carácter general, el responsable del tratamiento a una solicitud de ejercicio de derechos? — marcada A) Un mes, prorrogable dos meses más en casos complejos, informando de la prórroga
-  - El texto legal proporcionado no especifica el plazo de un mes, aunque este sí se recoge en el artículo 12.3 del RGPD.
+  - La respuesta es correcta según el RGPD, pero el texto de la fuente proporcionado no incluye el artículo que especifica los plazos de respuesta.
 - **[Cirugía: Pre, Trans y Postoperatorio]** ¿Cuándo se recomienda la ducha preoperatoria para disminuir la Infección Herida Quirúrgica (IHQ) según el Programa de Cirugía Segura en el Sistema Nacional de Salud?: — marcada A) La noche anterior
   - Las principales guías de prevención (como el Proyecto Infección Quirúrgica Zero) recomiendan la ducha preoperatoria 'la noche antes o el mismo día de la intervención', lo que hace que las opciones A y D puedan ser correctas y la pregunta resulte ambigua.
 - **[Procedimiento Administrativo Común (Ley 39/2015)]** ¿Qué recurso administrativo cabe contra un acto que NO pone fin a la vía administrativa?: — marcada A) Recurso de alzada
@@ -141,3 +155,13 @@ Las marcadas como posible error conviene revisarlas también en la web app.
   - El artículo 5 de la Ley 55/2003 clasifica al personal según el 'tipo de su nombramiento', no utiliza explícitamente la expresión 'relación jurídica'.
 - **[Fechas Clave y Plazos Administrativos]** ¿Cuál es el plazo general para interponer un recurso contencioso-administrativo frente a un acto expreso? — marcada B) 2 meses
   - El texto de la fuente proporcionado no incluye la Ley 29/1998, que es la que establece el plazo de 2 meses para el recurso contencioso-administrativo.
+- **[Fechas Clave y Plazos Administrativos]** En el procedimiento administrativo común, salvo que una norma fije otra cosa, ¿cuál es el plazo máximo para notificar la resolución expresa? — marcada B) 3 meses
+  - Aunque la respuesta es correcta (art. 21.3), el texto fuente proporcionado no incluye dicho artículo para confirmarlo, solo el relativo al recurso de alzada.
+- **[Constitución Española de 1978]** ¿Qué órgano vela por la supremacía de la Constitución y resuelve los recursos de inconstitucionalidad? — marcada B) El Tribunal Constitucional
+  - Los artículos de la Constitución proporcionados en la fuente no mencionan explícitamente que el Tribunal Constitucional resuelva los recursos de inconstitucionalidad (esto se regula en el art. 161, no incluido).
+- **[Contratación del Sector Público (Ley 9/2017)]** ¿Cuál es el porcentaje habitual de la garantía definitiva exigida en la contratación pública? — marcada A) El 5% del importe de adjudicación del contrato
+  - El texto legal proporcionado omite el artículo 107 de la Ley 9/2017, que es el que establece expresamente el porcentaje del 5% para la garantía definitiva.
+- **[Áreas y Sectores de Salud (Decreto 174/2010)]** La estructura y organización de las unidades clínicas hospitalarias serán aprobadas por: — marcada C) El Gerente del Sector
+  - Según el artículo 19.3 del Decreto 174/2010, la estructura es aprobada por la Dirección Gerencia del SALUD a propuesta del Gerente de Sector. La plantilla oficial parece errónea al dar por buena la C en lugar de la D.
+- **[Geografía y Población de Aragón]** La ciudad de Teruel es conocida por ser: — marcada B) La capital de provincia más pequeña de España
+  - El término 'más pequeña' es ambiguo; aunque Teruel es la capital de provincia menos poblada, en términos de superficie (extensión territorial) la capital más pequeña de España es Cádiz.
