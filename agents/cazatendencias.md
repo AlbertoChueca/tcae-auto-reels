@@ -1,11 +1,11 @@
-# Cuaderno de cazatendencias (2026-11-15)
+# Cuaderno de cazatendencias (2026-11-16)
 
-Esta semana coinciden hitos clínicos y administrativos clave para el opositor:
-• OPE La Rioja: reel de alerta rápida sobre plazos y cálculo de días hábiles según la Ley 39/2015.
-• Prematuros (17N): viñeta tipo test con la cifra exacta (<37 semanas) y constantes del recién nacido.
-• Antibióticos (18N): carrusel 'Mitos vs. Realidad' sobre resistencias bacterianas y lavado de manos.
-• Vacunación estacional: vídeo corto resolviendo si se pueden coadministrar vacunas en distintos brazos.
-• Diabetes (14N): quiz en stories sobre glucemia basal y signos cardinales (las 4 P).
+Esta semana de mediados de noviembre convergen hitos asistenciales y administrativos clave:
+• Convocatoria SERIS (La Rioja): aprovechar en reels de alerta de empleo público y plazos administrativos para captar nuevos opositores.
+• Día del Prematuro (17N): ideal para carruseles de test rápidos sobre semanas de gestación, test de Apgar y cuidados de incubadora.
+• Uso Prudente de Antibióticos (18N): perfecto para reels dinámicos sobre lavado de manos, precauciones de aislamiento y superbacterias.
+• Vacunación de otoño: microvídeos repasando diferencias entre vacunas atenuadas e inactivadas.
+• Diabetes (14N): publicaciones de casos prácticos sobre signos clínicos de hipoglucemia y dietas especiales.
 
 ## Hallazgos
 - Ninguno fiable hoy.
