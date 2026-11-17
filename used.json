@@ -790,5 +790,11 @@
 "topic": "geriatria",
 "fecha": "2026-11-17",
 "formato": "examen_real"
+},
+{
+"id": "049b14d4df",
+"topic": "educacionSanitaria",
+"fecha": "2026-11-17",
+"formato": "error_tipico"
 }
 ]
