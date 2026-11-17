@@ -784,5 +784,11 @@
 "topic": "proteccionDatosSanitarios",
 "fecha": "2026-11-16",
 "formato": "legislacion_30s"
+},
+{
+"id": "c5904bdf1d",
+"topic": "geriatria",
+"fecha": "2026-11-17",
+"formato": "examen_real"
 }
 ]

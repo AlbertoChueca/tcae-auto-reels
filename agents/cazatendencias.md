@@ -1,11 +1,9 @@
-# Cuaderno de cazatendencias (2026-11-16)
+# Cuaderno de cazatendencias (2026-11-17)
 
-Esta semana de mediados de noviembre convergen hitos asistenciales y administrativos clave:
-• Convocatoria SERIS (La Rioja): aprovechar en reels de alerta de empleo público y plazos administrativos para captar nuevos opositores.
-• Día del Prematuro (17N): ideal para carruseles de test rápidos sobre semanas de gestación, test de Apgar y cuidados de incubadora.
-• Uso Prudente de Antibióticos (18N): perfecto para reels dinámicos sobre lavado de manos, precauciones de aislamiento y superbacterias.
-• Vacunación de otoño: microvídeos repasando diferencias entre vacunas atenuadas e inactivadas.
-• Diabetes (14N): publicaciones de casos prácticos sobre signos clínicos de hipoglucemia y dietas especiales.
+Esta semana de noviembre reúne efemérides con alto peso en las preguntas oficiales de examen:
+• UPP y Prematuridad: aprovecha para publicar carruseles con casos prácticos sobre las escalas de Norton/Braden y los límites gestacionales del recién nacido pretérmino.
+• Antimicrobianos y Lavado de Manos: crea vídeos dinámicos repasando los 5 momentos del lavado de manos y los tipos de aislamiento.
+• EPOC y Oxigenoterapia: plantea un quiz interactivo en stories explicando por qué nunca se debe hiperoxigenar a un paciente con retención de CO2 y el uso del sistema Venturi.
 
 ## Hallazgos
 - Ninguno fiable hoy.
