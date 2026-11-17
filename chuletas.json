@@ -644,5 +644,20 @@
 "tiktok": "6afb34771a58fbecbe27db54"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-11-17",
+"slot": "18",
+"topic": "embarazoParto",
+"tema": "Embarazo y Parto",
+"subtema": "Fases y términos del parto",
+"quiz_id": "f564bf39fc",
+"imagenes": 7,
+"publicado": true,
+"destinos": {
+"instagram": "error: 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"AiKZntQb3coAnkzim4YCdMH\"}}",
+"tiktok": "6afba2bcbf73fea20cdf6458"
+},
+"dry_run": false
 }
 ]
