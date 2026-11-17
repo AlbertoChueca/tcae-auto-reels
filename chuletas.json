@@ -659,5 +659,20 @@
 "tiktok": "6afba2bcbf73fea20cdf6458"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-11-17",
+"slot": "8",
+"topic": "eliminaciones",
+"tema": "Eliminaciones",
+"subtema": "Alteraciones de la diuresis y micción",
+"quiz_id": "97c3e67a8a",
+"imagenes": 7,
+"publicado": true,
+"destinos": {
+"instagram": "error: 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"A2nsvrn2zRZvSL2zOl4XUB-\"}}",
+"tiktok": "6afc853c7430f7532037749f"
+},
+"dry_run": false
 }
 ]
