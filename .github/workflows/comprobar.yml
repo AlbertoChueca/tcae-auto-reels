@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write
+  issues: write        # avisos.py abre una incidencia si una red no está lista para publicar
 
 jobs:
   comprobar:
@@ -23,6 +24,7 @@ jobs:
       - name: Comprobar
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
           APP_PREGUNTAS: ${{ vars.APP_PREGUNTAS || '10.000' }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}

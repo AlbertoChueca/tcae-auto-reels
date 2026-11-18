@@ -9,6 +9,7 @@ import datetime, json, os, sys
 import questions as QB
 
 rows, critical = [], []
+redes = {}                                         # estado de cada red para avisos.py (incidencia en GitHub si falla)
 
 
 def ok(name, good, detail, crit=False):
@@ -28,8 +29,10 @@ if tok:
         need = {"instagram_basic", "instagram_content_publish", "instagram_manage_insights", "instagram_manage_comments"}
         miss = need - set(scopes or [])
         ok("Instagram", not miss, f"@{me['username']} · token {ttype}" + (f" · faltan permisos: {', '.join(sorted(miss))}" if miss else ""), True)
+        redes["instagram"] = "ok"
     except Exception as e:
         ok("Instagram", False, f"token no válido: {str(e)[:150]}", True)
+        redes["instagram"] = f"error: token no válido: {str(e)[:300]}"
 else:
     ok("Instagram", False, "falta el secreto IG_TOKEN", True)
 
@@ -40,6 +43,26 @@ if os.environ.get("ZERNIO_API_KEY"):
         acc = Z.accounts()
         ok("TikTok (Zernio)", "tiktok" in acc, "conectada" if "tiktok" in acc else "conecta la cuenta de TikTok en Zernio")
         ok("YouTube (Zernio)", "youtube" in acc, "conectado" if "youtube" in acc else "conecta el canal de YouTube en Zernio")
+        redes["tiktok"] = "ok" if "tiktok" in acc else "error: no hay cuenta de TikTok conectada en Zernio"
+        redes["youtube"] = "ok" if "youtube" in acc else "error: no hay canal de YouTube conectado en Zernio"
+        try:                                       # ¿el plan de Zernio da métricas? (con ellas el piloto aprende de TikTok)
+            import requests
+            pid = None
+            for line in open("log.jsonl"):
+                v = str((json.loads(line).get("publicado") or {}).get("tiktok_video") or "")
+                if v and not v.startswith("error"):
+                    pid = v
+            r = requests.get(f"{Z.API}/analytics", params={"postId": pid}, headers=Z._h(), timeout=40)
+            det = f"HTTP {r.status_code}"
+            if r.status_code == 200:
+                j = r.json(); a = j.get("analytics") or {}
+                det += " · último vídeo de TikTok: " + ", ".join(f"{k} {a.get(k)}" for k in ("views", "likes", "comments", "shares", "saves") if k in a)
+                det += f" · campos: {sorted(j)[:14]}"
+            else:
+                det += f" · {r.text[:160]}"
+            ok("Métricas de TikTok (Zernio)", r.status_code in (200, 202), det)
+        except Exception as e:
+            ok("Métricas de TikTok (Zernio)", False, str(e)[:150])
     except Exception as e:
         ok("Zernio", False, f"error: {str(e)[:150]}")
 else:
@@ -105,5 +128,10 @@ txt = f"# Estado ({datetime.date.today()})\n\n| comprobación | detalle |\n|---|
 open("estado.md", "w").write(txt); print(txt)
 if os.environ.get("GITHUB_STEP_SUMMARY"):
     open(os.environ["GITHUB_STEP_SUMMARY"], "a").write(txt)
+try:
+    import avisos
+    avisos.revisar(redes, "comprobación de conexiones")
+except Exception as e:
+    print("avisos omitidos:", str(e)[:150])
 if critical:
     sys.exit("Problemas críticos: " + ", ".join(critical))
