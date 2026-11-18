@@ -1,5 +1,5 @@
-# Cuaderno de directora_creativa (2026-11-17)
+# Cuaderno de directora_creativa (2026-11-18)
 
-- Seguir haciendo: Priorizar «flashcards_express», «pregunta_del_dia» y «simulacro_3» en estilos «cuaderno» y «noche» sin imagen (lideran con scores de 10.38 a 11.52 y más de 900 views).
-- Dejar de hacer: Producir reels con ilustraciones mientras sigan fallando técnicamente y rindiendo menos (máximo 445 views con imagen).
-- Probar: Diseños tipográficos puros de alto contraste imitando libretas de bolsillo de enfermería o plantillas oficiales.
+- Seguir haciendo: Priorizar formatos sin imagen («flashcards_express», «pregunta_del_dia», «simulacro_3») y estilos «cuaderno» o «noche», líderes absolutos en score (>10) y visualizaciones (>1.000).
+- Dejar de hacer: Insistir en ilustraciones complejas que rinden por debajo de 450 views y acumulan rechazos técnicos.
+- Probar: Diseños tipográficos minimalistas de alto contraste que simulen tarjetas de estudio reales de bolsillo.

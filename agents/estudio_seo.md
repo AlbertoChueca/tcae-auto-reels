@@ -1,5 +1,5 @@
-# Cuaderno de seo (2026-11-17)
+# Cuaderno de seo (2026-11-18)
 
-- Seguir haciendo: Incluir palabras clave nucleares («TCAE», «repaso», «simulacro», «fichas») en el gancho y primeras líneas del copy.
-- Dejar de hacer: Redactar descripciones genéricas sin mencionar la oposición ni la categoría profesional.
-- Probar: Incorporar siglas de servicios autonómicos de salud con convocatorias abiertas (SAS, SERMAS, SACYL) en el primer renglón del texto.
+- Seguir haciendo: Incorporar términos clave esenciales («TCAE», «repaso», «simulacro», «fichas») en gancho y copy.
+- Dejar de hacer: Textos genéricos sin mención explícita al examen de oposición o a la categoría profesional.
+- Probar: Incluir siglas de servicios de salud autonómicos con convocatorias activas (SAS, SERMAS, SACYL) en la primera línea del texto.

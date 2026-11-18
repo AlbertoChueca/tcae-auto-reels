@@ -796,5 +796,23 @@
 "topic": "educacionSanitaria",
 "fecha": "2026-11-17",
 "formato": "error_tipico"
+},
+{
+"id": "98863ce07f",
+"topic": "inmunidadVacunas",
+"fecha": "2026-11-18",
+"formato": "simulacro_3"
+},
+{
+"id": "2a7e4b5560",
+"topic": "respiratorio",
+"fecha": "2026-11-18",
+"formato": "simulacro_3"
+},
+{
+"id": "550810cd9a",
+"topic": "seguridad",
+"fecha": "2026-11-18",
+"formato": "simulacro_3"
 }
 ]

@@ -1,5 +1,5 @@
-# Cuaderno de embudo_app (2026-11-17)
+# Cuaderno de embudo_app (2026-11-18)
 
-- Seguir haciendo: Conectar el fallo del reel con la práctica del tema concreto en apruebatcae.com.
-- Dejar de hacer: Medir conversiones o visitas al perfil con las métricas actuales: los datos no bastan (figuran como None).
-- Probar: Llamada a la acción orientada a volumen oficial: «Practica este tema con más de 3.000 preguntas test explicadas en apruebatcae.com».
+- Seguir haciendo: Vincular la resolución de preguntas complejas con la práctica intensiva en apruebatcae.com.
+- Dejar de hacer: Intentar medir conversión directa o visitas al perfil; los datos no bastan (figuran como None).
+- Probar: CTA enfocada a volumen de examen oficial: «Practica miles de preguntas oficiales explicadas paso a paso en apruebatcae.com».

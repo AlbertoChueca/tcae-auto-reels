@@ -1,5 +1,5 @@
-# Cuaderno de revisora_visual (2026-11-17)
+# Cuaderno de revisora_visual (2026-11-18)
 
-- Seguir haciendo: Veto intransigente a degradados oscuros artificiales en la base y a guantes en tareas no estériles o sin contacto biológico.
-- Dejar de hacer: Tolerar carteles, notas o pizarras con textos ilegibles en segundo plano.
-- Probar: Filtro previo en dos fases: rechazo automático si la base no es un suelo limpio y uniforme; validación de EPI solo tras pasar el corte.
+- Seguir haciendo: Rechazo estricto a degradados artificiales basales, textos secundarios ilegibles e infracciones de EPIs (guantes en tareas limpias).
+- Dejar de hacer: Validar imágenes con cortes inferiores dudosos que arruinen la integración del reel.
+- Probar: Protocolo de filtro previo: descarte inmediato si la base no es un fondo plano continuo; revisión de higiene clínica en segundo término.

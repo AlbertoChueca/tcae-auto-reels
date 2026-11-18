@@ -1,6 +1,6 @@
 # Piloto automático Aprueba TCAE - qué está funcionando
 
-_Updated 2026-11-17 · 59 reels with results (3+ days old) · average score 7.32_
+_Updated 2026-11-18 · 59 reels with results (3+ days old) · average score 7.32_
 
 
 ## formato

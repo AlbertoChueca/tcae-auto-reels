@@ -1,5 +1,5 @@
-# Cuaderno de memoria (2026-11-17)
+# Cuaderno de memoria (2026-11-18)
 
-- Seguir haciendo: Potenciar «flashcards_express» en formato «cuaderno», indiscutible líder en retención (31 guardados, récord del canal).
-- Dejar de hacer: Vídeos expositivos continuos que impidan la autoevaluación activa.
-- Probar: Añadir orden de recuerdo activo explícito: «Pausa, di la opción en voz alta y comprueba antes de que gire la ficha».
+- Seguir haciendo: Potenciar «flashcards_express» en estilo «cuaderno», formato imbatible en retención y guardados (31 guardados, récord de la cuenta).
+- Dejar de hacer: Formatos continuos que revelen la respuesta sin dar tiempo a la recuperación activa.
+- Probar: Instrucción directa al inicio: «Pausa, responde mentalmente y comprueba si aciertas antes de que gire la tarjeta».

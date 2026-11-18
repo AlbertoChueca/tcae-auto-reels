@@ -1,7 +1,5 @@
-# Cuaderno de diseno (2026-11-17)
+# Cuaderno de diseno (2026-11-18)
 
-# Cuaderno de diseno
-
-- Seguir haciendo: Estilos «cuaderno» y «noche» con think_time largo; concentran el top 3 con más de 1000 views y 10-13 s de visionado.
-- Dejar de hacer: Estilos «marca», «ilustrado» y «minimal», estancados bajo 220 views y con apenas interacción.
-- Probar: Contraste reforzado con resalte en ámbar sobre tarjeta blanca para clarificar la opción correcta en visualización rápida en móvil.
+- Seguir haciendo: Estilos «cuaderno» y «noche» con think_time largo; dominan el top 3 con más de 900 views y 10-13 s de visionado.
+- Dejar de hacer: Estilos «marca», «ilustrado» y «minimal», estancados bajo 220 visualizaciones y con escasa interacción.
+- Probar: Resalte ámbar en la palabra clave del enunciado sobre tarjeta blanca para facilitar la lectura rápida en móvil antes de la resolución teal.
