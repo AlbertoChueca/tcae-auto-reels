@@ -224,9 +224,13 @@ def update_zernio(max_age=21, final_age=10):
             rows.append((pid, plat, e, age))
     got = pending = 0
     hdr = {"Authorization": f"Bearer {key}"}
+    import time
+    t0 = time.time()
     for pid, plat, e, age in rows[:120]:
+        if time.time() - t0 > 120:                         # tope de tiempo: nunca retrasa el reel
+            break
         try:
-            r = requests.get(f"{ZAPI}/analytics", params={"postId": pid}, headers=hdr, timeout=40)
+            r = requests.get(f"{ZAPI}/analytics", params={"postId": pid}, headers=hdr, timeout=20)
         except Exception as ex:
             print("tiktok: fallo de red:", str(ex)[:120], flush=True); break
         if r.status_code == 402 or (r.status_code == 403 and "addon" in r.text.lower()):

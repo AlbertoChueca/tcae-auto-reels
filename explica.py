@@ -308,7 +308,8 @@ STYLE = ("Flat vector illustration in a dark neon line-art style, like a modern 
          "gradients on the background, no photo-realism, no 3D. Any people are simple stylised figures with NO facial "
          "features. Composition for a vertical 9:16 video: subject in the middle and lower-middle of the frame, the top "
          "third is empty dark background. Absolutely no text, no letters, no numbers, no labels, no logos, no watermark, "
-         "no UI. No blood, no wounds, no needles piercing skin, no nudity.")
+         "no UI. No blood, no wounds, no needles piercing skin, no nudity. Draw only what the scene describes: no extra "
+         "people, no decorative icons.")
 
 
 def grade(img):
