@@ -674,5 +674,20 @@
 "tiktok": "6afc853c7430f7532037749f"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-11-18",
+"slot": "8",
+"topic": "sondasDigestivas",
+"tema": "Sondas Digestivas",
+"subtema": "Clasificación de sondas digestivas",
+"quiz_id": "f7987f77ab",
+"imagenes": 7,
+"publicado": true,
+"destinos": {
+"instagram": "error: 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"AcsOau40YqrQ65p7k_vDBiP\"}}",
+"tiktok": "6afdcfc3b6d9f295af5a98af"
+},
+"dry_run": false
 }
 ]
