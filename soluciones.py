@@ -24,6 +24,7 @@ DONE = os.path.join(HERE, "soluciones_hechas.json")
 DRY = os.environ.get("DRY_RUN", "false").lower() == "true"
 MAX_REPLIES = 80                                    # por reel y ejecución (límites de las APIs)
 DELAY_H = float(os.environ.get("RESPONDER_DESDE_H", "12"))
+DELAY_VISIBLE_H = float(os.environ.get("RESPONDER_VISIBLE_H", "1"))   # reels con la solución dentro: se contesta enseguida
 SLOT_TIME = {"manana": (8, 0), "mediodia": (14, 30), "noche": (21, 30), "manual": (23, 0)}
 
 
@@ -74,15 +75,21 @@ def recent_entries(max_days=7):
             continue
         if not e.get("solucion_texto") or not any(not str(v).startswith("error") for v in (e.get("publicado") or {}).values()):
             continue
+        e["_reto"] = is_reto(e)
         if e.get("ts"):
             ts = datetime.datetime.fromisoformat(e["ts"]).replace(tzinfo=datetime.timezone.utc)
         else:                                       # registros antiguos: hora aproximada del hueco
             h, m = SLOT_TIME.get(e.get("slot"), (23, 0))
             ts = datetime.datetime.fromisoformat(e["date"]).replace(hour=h, minute=m, tzinfo=ZoneInfo("Europe/Madrid"))
         age = (now - ts).total_seconds() / 3600
-        if DELAY_H <= age <= 24 * max_days:
+        if (DELAY_H if e["_reto"] else DELAY_VISIBLE_H) <= age <= 24 * max_days:
             out.append(e)
     return out
+
+
+def is_reto(e):
+    """Reel de reto (sin solución en el vídeo). Los registros antiguos no llevan el campo: eran reto si guardaron imagen."""
+    return bool(e.get("reto")) if "reto" in e else bool(e.get("soluciones"))
 
 
 def key_of(e):
@@ -264,7 +271,13 @@ def answer_all(e, platform, fetch, send, done_ids, with_at):
     rx = reactions(cs, e)
     out = []
     for c in cs:
-        msg = reply_text(judge(c["text"], e), e, rx.get(c["id"], ""))
+        j = judge(c["text"], e)
+        if j is None and not e.get("_reto", True):       # reel con la solución dentro y comentario que no es una respuesta:
+            msg = rx.get(c["id"], "")                    # solo la frase personal (la solución ya está en el vídeo)
+            if not msg:
+                out.append(c["id"]); continue
+        else:
+            msg = reply_text(j, e, rx.get(c["id"], ""))
         if with_at and c["user"]:
             msg = f"@{c['user']} " + msg
         print(f"  [{platform}] @{c['user']}: {c['text'][:60]!r} -> {msg[:140]}", flush=True)
@@ -302,7 +315,7 @@ def respond_all(done, rows):
         st["fecha"] = str(datetime.date.today())
         pub = e.get("publicado") or {}
         if has_ig and e.get("media_id"):
-            if not st.get("comentario"):
+            if not st.get("comentario") and e.get("_reto", True):
                 text = e["solucion_texto"] + "\n\n¿Acertaste? 👇 Practica más preguntas en apruebatcae.com (link en la bio)."
                 try:
                     st["comentario"] = "dry" if DRY else ig_comment(e["media_id"], text)
@@ -354,6 +367,7 @@ def daily_extras(day, done, rows):
                 except Exception as ex:
                     rows.append(f"- ❌ {key}: story fallida ({str(ex)[:150]})")
     tk = f"{day}_tiktok"
+    es = [e for e in es if e.get("soluciones")]          # solo los retos (los demás ya enseñan la solución en el vídeo)
     imgs = [p for e in es for p in (e.get("soluciones") or []) if os.path.exists(os.path.join(HERE, p))]
     if imgs and on("SOLUCIONES_TIKTOK") and os.environ.get("ZERNIO_API_KEY") and not done.get(tk, {}).get("id"):
         try:

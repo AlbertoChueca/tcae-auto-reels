@@ -100,6 +100,7 @@ jobs:
           TIKTOK: ${{ vars.TIKTOK || 'true' }}
           TIKTOK_CARRUSEL: ${{ vars.TIKTOK_CARRUSEL || 'false' }}
           SOLUCION_MANANA: ${{ vars.SOLUCION_MANANA || 'true' }}
+          RETO_CADA: ${{ vars.RETO_CADA || '5' }}            # 1 de cada 5 reels es un reto sin solución (20 %); el resto la enseña
           TIKTOK_STORY_BORRADOR: ${{ vars.TIKTOK_STORY_BORRADOR || 'true' }}
           YOUTUBE: ${{ vars.YOUTUBE || 'true' }}
           PUBLISH_MAX_WAIT_MIN: ${{ vars.PUBLISH_MAX_WAIT_MIN || '200' }}   # espera hasta la hora exacta del hueco

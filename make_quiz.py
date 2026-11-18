@@ -36,7 +36,9 @@ DEFAULT_STYLE = {"caption_scale": 1.0, "screen_hook": "", "follow_line": "Sígue
 TAGS_FIXED = ["#TCAE", "#oposicionesTCAE"]
 TAGS_ROT = ["#auxiliardeenfermeria", "#oposiciones", "#TCAEoposiciones", "#tecnicoencuidados"]
 T = themes.get("marca")
-HIDE = os.environ.get("SOLUCION_MANANA", "true").lower() != "false"
+# HIDE: ¿este reel es un RETO (sin solución; la IA contesta en 24 h)? Lo decide run_daily.py en cada reel: por defecto
+# 1 de cada 5 (variable RETO_CADA) es reto y los demás enseñan la solución. Aquí queda el valor para pruebas sueltas.
+HIDE = os.environ.get("SOLUCION_MANANA", "true").lower() not in ("false", "mezcla")
 REVEAL_FMTS = ("flashcards_express", "truco_memorizar")    # formatos que muestran la respuesta por diseño
 ASK_LINES = {"simulacro_3": "Deja tus tres letras en comentarios: nuestra IA te contesta con las soluciones en menos de 24 horas.",
              "mito_realidad": "¿Mito o realidad? Coméntalo: nuestra IA te contesta con la solución en menos de 24 horas.",
@@ -414,7 +416,7 @@ def caption_text(fmt, items, S, rng, st=None):
                "\n".join(f"{QB.LETTERS[k]}) {o}" for k, o in enumerate(P["op"]))
     tags = TAGS_FIXED + rng.sample(TAGS_ROT, 3)
     sol = "" if fmt == "flashcards_express" else (" Escribe tu respuesta en comentarios y nuestra IA te contestará personalmente con la solución en menos de 24 h 👇" if hides(fmt)
-                                                   else " La solución, al final del vídeo.")
+                                                   else " La solución sale al final del vídeo: comenta tu letra antes de verla y nuestra IA te contesta 👇")
     extra = "".join(f"{x}\n" for x in (S.get("save_caption"), S.get("tag_caption"), S.get("app_caption"),
                                         S.get("follow_caption"), S.get("seo_line")) if x)
     return (f"{S['caption_hook']}\n\n{body}\n\n{S['comment_prompt'].rstrip('.!')}.{sol}\n\n" + (extra + "\n" if extra else "")
@@ -654,7 +656,8 @@ def build(fmt, items, S, seed, out, arms=None, style=None, max_len=None, keep_vo
         score_row = Image.new("RGBA", (sum(p.width for p in ps) + 18 * (len(ps) - 1), ps[0].height), (0, 0, 0, 0)); x = 0
         for p in ps:
             score_row.alpha_composite(p, (x, 0)); x += p.width + 18
-    comment_lab = fx.pill("COMENTA: A, B, C O D", 40, T.pill_bg, T.pill_fg, padx=30, pady=12, outline=T.pill_outline)
+    comment_lab = fx.pill("COMENTA: A, B, C O D" if hides(fmt) else "COMENTA TU LETRA: LA IA TE CONTESTA", 40 if hides(fmt) else 36,
+                          T.pill_bg, T.pill_fg, padx=30, pady=12, outline=T.pill_outline)
     ask_pill = _two_line_pill("PUBLICA TU RESPUESTA", "LA IA TE CONTESTA CON LA SOLUCIÓN EN 24 H")
     ask_head = fx.headline("Escribe tus 3 letras" if fmt == "simulacro_3" else "¿Cuál es la tuya?", 104, 900, 3,
                            color=T.head_col, hot=T.head_hot, hot_words=("3", "tuya?"), stroke=T.head_stroke,
@@ -849,17 +852,33 @@ def build(fmt, items, S, seed, out, arms=None, style=None, max_len=None, keep_vo
             sol_imgs, sol_txt = solution_assets(fmt, items, S, out, bg, cards, stmt, expl, stamp_img, web_img)
         except Exception as e:
             print("soluciones: no se pudieron preparar:", str(e)[:200], flush=True)
+    elif fmt != "flashcards_express":                  # con la solución dentro: el texto sirve al bot para contestar
+        try:
+            sol_txt = solution_text(fmt, items, S)
+        except Exception as e:
+            print("soluciones: texto no preparado:", str(e)[:200], flush=True)
     return {"formato": fmt, "estilo": T.name, "ids": [Q["id"] for Q in items], "temas": [Q["tema"] for Q in items],
             "respuestas": [Q["letra"] for Q in items] if fmt != "flashcards_express" else [],
             "veredicto": S.get("veredicto"), "hook": S["screen_hook"], "hook_line": S["hook_line"],
             "duration": round(total, 1), "timeline": [(s_["kind"], round(s_["a"], 2)) for s_ in SEG],
             "thumb_ms": int(1200), "slides": slides, "story_base": story_base or (slides[0] if slides else None),
-            "soluciones": sol_imgs, "solucion_texto": sol_txt}
+            "soluciones": sol_imgs, "solucion_texto": sol_txt, "reto": hides(fmt)}
 
 
 def _short(txt, n=40):
     txt = (txt or "").strip()
     return txt if txt and len(txt.split()) <= n else ""
+
+
+def solution_text(fmt, items, S):
+    """Texto de la solución (el mismo que en los retos) para que el bot conteste a quien comenta su respuesta."""
+    P = items[0]
+    if fmt == "mito_realidad":
+        return f"✅ Solución: es {S['veredicto']}.\n\n{S.get('explicacion', '')}".strip()
+    if fmt == "simulacro_3":
+        return "✅ Soluciones del simulacro:\n" + "\n".join(f"{i + 1}. {Q['letra']}) {Q['op'][Q['ok']]}" for i, Q in enumerate(items))
+    ex_txt = S.get("trampa_porque") if fmt == "error_tipico" else (S.get("explicacion") or _short(P.get("explicacion"), 40))
+    return f"✅ Solución: {P['letra']}) {P['op'][P['ok']]}" + (f"\n\n{ex_txt}" if ex_txt else "")
 
 
 def solution_assets(fmt, items, S, out, bg, cards, stmt, expl, stamp_img, web_img):

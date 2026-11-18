@@ -1,62 +1,62 @@
 # Piloto automático Aprueba TCAE - qué está funcionando
 
-_Updated 2026-11-18 · 122 reels with results (3+ days old) · average score -0.00_
+_Updated 2026-11-18 · 164 reels with results (3+ days old) · average score -0.00_
 
 
 ## formato
 
 | option | reels | avg score |
 |---|---|---|
-| examen_real | 11 | 0.23 |
-| simulacro_3 | 20 | 0.23 |
-| flashcards_express | 14 | 0.22 |
-| caso_practico | 11 | 0.06 |
-| pregunta_del_dia | 40 | -0.03 |
-| error_tipico | 7 | -0.08 |
-| truco_memorizar | 3 | -0.15 |
-| legislacion_30s | 11 | -0.55 |
-| mito_realidad | 5 | -0.59 |
+| flashcards_express | 17 | 0.36 |
+| simulacro_3 | 26 | 0.31 |
+| caso_practico | 11 | 0.21 |
+| examen_real | 19 | 0.17 |
+| error_tipico | 7 | 0.06 |
+| truco_memorizar | 3 | 0.03 |
+| pregunta_del_dia | 65 | -0.19 |
+| mito_realidad | 5 | -0.44 |
+| legislacion_30s | 11 | -0.50 |
 
 ## estilo
 
 | option | reels | avg score |
 |---|---|---|
-| cuaderno | 29 | 0.43 |
-| examen | 15 | 0.14 |
-| noche | 33 | -0.08 |
-| marca | 8 | -0.14 |
-| clasico | 23 | -0.18 |
-| minimal | 10 | -0.40 |
+| cuaderno | 36 | 0.39 |
+| examen | 21 | 0.20 |
+| noche | 47 | -0.08 |
+| clasico | 30 | -0.17 |
+| minimal | 13 | -0.26 |
+| marca | 13 | -0.27 |
 | ilustrado | 4 | -0.66 |
 
 ## hook_style
 
 | option | reels | avg score |
 |---|---|---|
-| examen | 15 | 0.31 |
-| trampa | 19 | 0.07 |
-| repaso exprés | 20 | 0.02 |
-| reto | 18 | -0.00 |
-| terminos_confusos | 11 | -0.01 |
-| dilema_guardia | 19 | -0.02 |
-| curiosidad | 7 | -0.18 |
-| empatía | 13 | -0.36 |
+| examen | 24 | 0.21 |
+| trampa | 26 | 0.12 |
+| dilema_guardia | 20 | 0.09 |
+| repaso exprés | 26 | 0.08 |
+| reto | 23 | 0.03 |
+| terminos_confusos | 13 | -0.05 |
+| empatía | 19 | -0.37 |
+| curiosidad | 13 | -0.39 |
 
 ## bloque
 
 | option | reels | avg score |
 |---|---|---|
-| legislacion | 11 | 0.11 |
-| clinico | 45 | 0.10 |
-| mixto | 65 | -0.07 |
+| clinico | 59 | 0.14 |
+| mixto | 86 | -0.01 |
+| legislacion | 17 | -0.26 |
 
 ## think_time
 
 | option | reels | avg score |
 |---|---|---|
-| normal | 25 | 0.17 |
-| corto | 41 | -0.02 |
-| largo | 56 | -0.06 |
+| normal | 38 | 0.08 |
+| largo | 69 | -0.02 |
+| corto | 57 | -0.04 |
 
 ## instagram: visualizaciones medias por formato
 
@@ -92,13 +92,13 @@ _Updated 2026-11-18 · 122 reels with results (3+ days old) · average score -0.
 |---|---|---|
 | error_tipico | 1 | 987 |
 | truco_memorizar | 1 | 83 |
-| simulacro_3 | 5 | 56 |
-| flashcards_express | 4 | 38 |
+| simulacro_3 | 11 | 52 |
 | mito_realidad | 2 | 34 |
+| flashcards_express | 7 | 34 |
+| examen_real | 9 | 30 |
 | caso_practico | 4 | 28 |
-| pregunta_del_dia | 3 | 23 |
+| pregunta_del_dia | 28 | 16 |
 | legislacion_30s | 2 | 7 |
-| examen_real | 1 | 5 |
 
 ---
 # Playbook (actualizado 2026-10-26)

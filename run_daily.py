@@ -153,6 +153,36 @@ if HAS_AI:
     verify_fn, verify_f = verifier.verify_questions, verifier.verify_fichas
 STYLE_KEYS = ("follow_line", "share_line", "save_line", "reto_line", "series", "voice_speed", "music")
 
+def reto_now():
+    """¿Este reel es un RETO (sin solución; la IA contesta en 24 h)? Por defecto 1 de cada RETO_CADA reels (5 -> 20 %):
+    los demás enseñan la solución. SOLUCION_MANANA=false -> nunca; =siempre -> todos."""
+    v = os.environ.get("SOLUCION_MANANA", "true").lower()
+    if v == "false":
+        return False
+    if v == "siempre":
+        return True
+    every = max(1, int(os.environ.get("RETO_CADA") or "5"))
+    n = 0
+    try:
+        rows = [json.loads(l) for l in open("log.jsonl")]
+    except Exception:
+        rows = []
+    for e in reversed(rows):
+        if e.get("formato") == "explicado" or not any(not str(x).startswith("error") for x in (e.get("publicado") or {}).values()):
+            continue
+        if e.get("reto") if "reto" in e else bool(e.get("soluciones")):
+            break
+        n += 1
+    return n >= every - 1
+
+
+try:
+    import make_quiz
+    make_quiz.HIDE = reto_now()
+    print("diseño de hoy:", "RETO (sin solución; la IA contesta en 24 h)" if make_quiz.HIDE else "con la solución en el vídeo", flush=True)
+except Exception as e:
+    print("reto/solución: valor por defecto:", str(e)[:120], flush=True)
+
 meta, items, S, errors, src, image = None, None, None, [], None, None
 if explica_today() and (HAS_AI or os.environ.get("QUIZ_MOCK") == "1"):
     try:
@@ -292,7 +322,7 @@ if meta.get("soluciones") and any(not str(v).startswith("error") for v in result
     meta["soluciones"] = kept
 log({k: meta.get(k) for k in ("formato", "estilo", "series", "imagen", "concepto", "voice_speed", "music", "ids", "temas", "respuestas", "veredicto", "hook", "hook_line", "duration", "guion",
                               "voice", "review_score", "design_score", "arms", "location", "permalink", "media_id",
-                              "publicado", "soluciones", "solucion_texto", "ts", "topic", "subtema", "ilustraciones")})
+                              "publicado", "soluciones", "solucion_texto", "ts", "topic", "subtema", "ilustraciones", "reto")})
 alerta = False
 try:                                               # si una red falla por un problema de cuenta, abre una incidencia
     import avisos
