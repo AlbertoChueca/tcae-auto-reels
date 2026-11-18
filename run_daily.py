@@ -49,16 +49,12 @@ def recent_hooks(n=14):
 
 
 def already_published():
-    """Evita publicar dos veces el mismo hueco (p. ej. si alguien relanza el workflow)."""
+    """Evita publicar dos veces el mismo hueco (el workflow se despierta muchas veces al día)."""
     try:
-        for line in open("log.jsonl"):
-            e = json.loads(line)
-            if e.get("date") == str(today) and e.get("slot") == slot and any(
-                    not str(v).startswith("error") for v in (e.get("publicado") or {}).values()):
-                return True
+        import hueco
+        return hueco.done_today("reel", slot, str(today), hueco.window("reel", slot)[1] if slot in hueco.TARGETS["reel"] else None)
     except Exception:
-        pass
-    return False
+        return False
 
 
 def wait_until_slot():
@@ -80,7 +76,8 @@ def wait_until_slot():
 
 
 if slot in ("manana", "mediodia", "noche") and not dry and already_published() and os.environ.get("FORCE") != "true":
-    raise SystemExit(f"El hueco {slot} de hoy ya está publicado; no se repite")
+    print(f"El hueco {slot} de hoy ya está publicado; no se repite")
+    sys.exit(0)
 
 status = []
 if not HAS_AI:                                     # sin Gemini no hay verificador: nunca se publica nada sin verificar

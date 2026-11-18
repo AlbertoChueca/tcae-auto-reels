@@ -4,10 +4,9 @@ name: Chuleta diaria
 # Interruptor: variable CHULETA = true (por defecto) / false. Tema concreto a mano: campo "tema" (id del tema, p. ej. upp).
 on:
   schedule:
-    - cron: "0 6 * 3-10 *"           # 8:00 verano (CEST): chuleta de la mañana (sustituye al reel de las 8:00)
-    - cron: "0 7 * 1-3,10-12 *"      # 8:00 invierno (CET)
-    - cron: "0 16 * 3-10 *"          # 18:00 verano
-    - cron: "0 17 * 1-3,10-12 *"     # 18:00 invierno
+    # GitHub lanza los cron con horas de retraso: se despierta 3 veces por hora y hueco.py decide con la hora real de
+    # España si toca la chuleta de las 8:00 o la de las 18:00 (si llega antes, la prepara y espera a la hora exacta).
+    - cron: "13,33,53 * * * *"
   workflow_dispatch:
     inputs:
       dry_run:
@@ -29,20 +28,16 @@ concurrency:
 jobs:
   chuleta:
     runs-on: ubuntu-24.04
-    timeout-minutes: 30
+    timeout-minutes: 240    # incluye la espera hasta la hora exacta (hasta 3 h)
     steps:
-      - name: ¿Toca hoy?
+      - uses: actions/checkout@v5
+      - name: ¿Toca ahora?
         id: gate
         run: |
-          S="${{ github.event.schedule }}"
-          if [ -n "$S" ] && [ "${{ vars.CHULETA || 'true' }}" = "false" ]; then echo "go=no" >> "$GITHUB_OUTPUT"; exit 0; fi
-          if [ -z "$S" ]; then echo "go=yes" >> "$GITHUB_OUTPUT"; exit 0; fi
-          UTC_H=$(echo "$S" | awk '{print $2}')
-          OFF=$(TZ=Europe/Madrid date +%z | cut -c2-3 | sed 's/^0//')
-          L=$(( (UTC_H + OFF) % 24 ))
-          if [ $L -eq 8 ] || [ $L -eq 18 ]; then echo "go=yes" >> "$GITHUB_OUTPUT"; echo "slot=$L" >> "$GITHUB_OUTPUT"; else echo "go=no" >> "$GITHUB_OUTPUT"; fi
-      - uses: actions/checkout@v5
-        if: steps.gate.outputs.go == 'yes'
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then echo "go=yes" >> "$GITHUB_OUTPUT"; echo "slot=manual" >> "$GITHUB_OUTPUT"; exit 0; fi
+          if [ "${{ vars.CHULETA || 'true' }}" = "false" ]; then echo "go=no" >> "$GITHUB_OUTPUT"; exit 0; fi
+          python3 hueco.py chuleta
+          if grep -q "slot=skip" "$GITHUB_OUTPUT"; then echo "go=no" >> "$GITHUB_OUTPUT"; else echo "go=yes" >> "$GITHUB_OUTPUT"; fi
       - uses: actions/setup-python@v6
         if: steps.gate.outputs.go == 'yes'
         with:

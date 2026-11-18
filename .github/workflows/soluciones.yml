@@ -5,7 +5,7 @@ name: Soluciones
 # menos de 24 h". A las 13:00 además: story con la solución de cada reel de ayer y carrusel de TikTok.
 on:
   schedule:
-    - cron: "0 0,6-22/2 * * *"       # cada 2 h (UTC): 8:00-0:00 en verano, 7:00-1:00 en invierno
+    - cron: "37 * * * *"             # cada hora (GitHub se salta muchas: en la práctica, varias veces al día)
   workflow_dispatch:
     inputs:
       dia:

@@ -705,6 +705,17 @@ def main():
     cap = caption(c, P)
     open(os.path.join(out_dir, "descripcion.txt"), "w").write(cap)
     print(f"chuleta: {tema} · {c['subtema']} · {len(paths)} imágenes", flush=True)
+    if not dry and slot in ("8", "18"):                      # si va adelantada, espera a la hora exacta (España)
+        try:
+            import time
+            from zoneinfo import ZoneInfo
+            now_l = datetime.datetime.now(ZoneInfo("Europe/Madrid"))
+            secs = (now_l.replace(hour=int(slot), minute=0, second=0, microsecond=0) - now_l).total_seconds()
+            if 0 < secs <= float(os.environ.get("PUBLISH_MAX_WAIT_MIN") or "200") * 60:
+                print(f"chuleta lista: espero {secs / 60:.0f} min para publicarla a las {slot}:00", flush=True)
+                time.sleep(secs)
+        except Exception:
+            pass
     res = {} if dry else publish(paths, cap, c)
     print("publicación:", json.dumps(res, ensure_ascii=False), flush=True)
     ok = any(isinstance(v, str) and not v.startswith("error") for v in res.values())
