@@ -15,10 +15,15 @@ de las 8:00 se sustituyó por la chuleta de la mañana (el hueco `manana` sigue 
 con los fotogramas del reel se ha
 quitado porque duplicaba el vídeo: el carrusel de TikTok es ahora la chuleta (se puede reactivar con `TIKTOK_CARRUSEL`).
 
-El workflow arranca ~30 min antes (generar, verificar y revisar lleva 15-25 min) y publica en cuanto el reel está listo
-(normalmente entre las 14:10 y las 14:30, y entre las 21:10 y las 21:30). Esperar a la hora exacta gasta minutos; si lo
-prefieres, pon la variable `PUBLISH_MAX_WAIT_MIN` (p. ej. 15). El cambio de horario verano/invierno se gestiona solo. Si alguien relanza
-el workflow de un hueco ya publicado, no se publica dos veces (salvo `FORCE=true`).
+**Reloj propio (`hueco.py`).** El programador de GitHub lanza los workflows cuando puede: en este repositorio llegaban
+entre 4 y 9 horas tarde (el reel de las 21:30 salía hacia las 2 de la madrugada) y bastantes ni llegaban. Desde el 18 de
+noviembre de 2026 los workflows de reels y chuletas se despiertan 3 veces por hora y `hueco.py` decide, con la hora real
+de España, si hay algo pendiente: un hueco "toca" desde 3 h antes de su hora hasta 2 h después (2 h 30 las chuletas) si
+hoy aún no se ha publicado. Si llega antes, genera el contenido y **espera a la hora exacta**; si llega después, publica
+en cuanto está listo; fuera de la ventana, ese hueco se salta. Si no toca nada, termina en segundos. Las esperas no
+cuestan porque el repositorio es público (si algún día vuelve a ser privado, baja `PUBLISH_MAX_WAIT_MIN` y la
+frecuencia del cron). El cambio de hora verano/invierno se gestiona solo y un hueco nunca se publica dos veces.
+Para lanzar a mano el hueco que toque (o desde un reloj externo como cron-job.org): *Run workflow* con **programado**.
 
 ## Qué se publica en cada hueco (todo a la vez; si un destino falla, los demás siguen)
 | Red | Qué |
@@ -33,6 +38,15 @@ D?" y "La solución, en el reel de hoy" (sin desvelar la respuesta): lleva tráf
 Interruptores en **Variables**: `IG_STORY`, `TIKTOK`, `TIKTOK_CARRUSEL` (por defecto `false`), `TIKTOK_STORY_BORRADOR`,
 `YOUTUBE` → `true`, `false`, `mediodia` o `noche`. En TikTok la web se nombra tal cual (el enlace de la bio de TikTok no
 es clicable hasta tener seguidores suficientes).
+
+## 80 % con la solución dentro, 20 % de reto
+Desde el 18 de noviembre de 2026, **4 de cada 5 reels tipo test enseñan la solución y su explicación** en el vídeo y
+**1 de cada 5 es un reto** sin solución (variable `RETO_CADA`, por defecto `5`; `SOLUCION_MANANA=false` = ninguno,
+`=siempre` = todos). En los reels con solución, durante la cuenta atrás sale "COMENTA TU LETRA: LA IA TE CONTESTA" y el
+bot responde a quien comenta su respuesta (acierto o fallo + porqué) desde 1 h después de publicar
+(`RESPONDER_VISIBLE_H`); a los comentarios que no son una respuesta les contesta solo con una frase personal.
+Datos de TikTok (28 oct - 17 nov, 43 reels): los retos traen ~13 comentarios por reel y los reels con la respuesta
+~0, pero estos se guardan y comparten el doble (7,3 guardados y 3 compartidos frente a 3,3 y 1,3), con vistas parecidas.
 
 ## Reels de reto: "Publica tu respuesta y la IA te contesta con la solución en 24 h"
 Los reels de reto **no enseñan la respuesta**: tras la cuenta atrás sale "PUBLICA TU RESPUESTA · LA IA TE CONTESTA CON LA
