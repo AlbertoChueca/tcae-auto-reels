@@ -31,4 +31,4 @@ jobs:
         run: python comprobar.py
       - name: Guardar estado
         if: always()
-        run: python sincronizar.py "Estado $(date +%F)" estado.md
+        run: python sincronizar.py "Estado $(date +%F)" estado.md performance_tiktok.json

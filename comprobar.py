@@ -128,6 +128,12 @@ txt = f"# Estado ({datetime.date.today()})\n\n| comprobación | detalle |\n|---|
 open("estado.md", "w").write(txt); print(txt)
 if os.environ.get("GITHUB_STEP_SUMMARY"):
     open(os.environ["GITHUB_STEP_SUMMARY"], "a").write(txt)
+if os.environ.get("ZERNIO_API_KEY"):                # de paso, refresca las métricas de TikTok y YouTube
+    try:
+        import insights
+        m = insights.update_zernio(max_age=45, final_age=45); print(m); rows.append(f"| ℹ️ Métricas | {m} |")
+    except Exception as e:
+        print("métricas de TikTok omitidas:", str(e)[:150])
 try:
     import avisos
     avisos.revisar(redes, "comprobación de conexiones")
