@@ -2,6 +2,10 @@
 
     python run_daily.py <mediodia|noche|manual> [--dry-run]
 
+Tres noches por semana (variable EXPLICA_DIAS, por defecto martes, jueves y domingo) el reel de las 21:30 es un vídeo
+"EXPLICADO" (explica.py: divulgación animada con ilustraciones de neón). Si ese día no sale uno verificado, se publica
+el reel tipo test de siempre.
+
 Cada ejecución:
  1. lee los resultados reales de Instagram (insights) y los agentes reescriben sus cuadernos (1 vez al día);
  2. el piloto automático elige el experimento de hoy (formato, estilo de gancho, bloque del temario, tiempo para pensar);
@@ -129,6 +133,22 @@ if HAS_AI:
 
 chain = list(dict.fromkeys([arms.get("formato", "pregunta_del_dia"), "pregunta_del_dia", "examen_real", "simulacro_3"]))
 out = f"out/{today}_{slot}_{now.hour:02d}.mp4"
+
+
+def explica_today():
+    """¿Toca vídeo explicado? A mano (formato=explicado) o las noches de EXPLICA_DIAS (0 = lunes ... 6 = domingo)."""
+    if override == "explicado":
+        return True
+    if override != "auto" or slot != "noche":
+        return False
+    try:
+        from zoneinfo import ZoneInfo
+        wd = datetime.datetime.now(ZoneInfo("Europe/Madrid")).weekday()
+    except Exception:
+        wd = today.weekday()
+    return str(wd) in [d.strip() for d in os.environ.get("EXPLICA_DIAS", "1,3,6").split(",")]
+
+
 verify_fn = verify_f = None
 if HAS_AI:
     import verifier
@@ -136,7 +156,23 @@ if HAS_AI:
 STYLE_KEYS = ("follow_line", "share_line", "save_line", "reto_line", "series", "voice_speed", "music")
 
 meta, items, S, errors, src, image = None, None, None, [], None, None
-for fmt in chain:
+if explica_today() and (HAS_AI or os.environ.get("QUIZ_MOCK") == "1"):
+    try:
+        import explica
+        meta, S, caption = explica.make(out, seed)
+        items, src, review = [], "ia", {}
+        if HAS_AI:
+            import reviewer
+            caption, review = reviewer.review_video(out, S, caption)              # RejectReel -> reel tipo test
+            open(out.replace(".mp4", ".txt"), "w").write(caption)
+        meta.update(review_score=review.get("overall"), design_score=None, guion=src, series="Explicado",
+                    imagen=bool(meta.get("ilustraciones")), concepto=meta.get("subtema"), yt_title=S.get("yt_title"))
+        arms = {"formato": explica.FMT, "estilo": meta["estilo"]}
+    except Exception as e:
+        meta = None
+        errors.append(f"explicado: {str(e)[:300]}")
+        print(f"[explicado] no ha podido salir, sale el reel tipo test:\n{traceback.format_exc()[-1500:]}", flush=True)
+for fmt in ([] if meta else chain):
     try:
         if fmt == "flashcards_express":
             items = QB.pick_fichas(seed=f"{seed}-{fmt}", verify=verify_f)
@@ -215,6 +251,18 @@ if meta is None:
 caption = open(out.replace(".mp4", ".txt")).read()
 print(caption)
 if dry:
+    try:                                           # muestra ligera en el repositorio (carpeta muestras/) para revisarla
+        import subprocess
+        import explica as _ex
+        os.makedirs("muestras", exist_ok=True)
+        _ex.contact_sheet(out, "muestras/ultima_prueba.jpg", 8, 5)
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", out, "-vf", "scale=540:960", "-c:v", "libx264", "-preset",
+                        "veryfast", "-crf", "28", "-c:a", "aac", "-b:a", "64k", "-movflags", "+faststart",
+                        "muestras/ultima_prueba.mp4"], check=True)
+        open("muestras/ultima_prueba.txt", "w").write(f"{meta['formato']} · {meta['duration']} s · {meta['hook']}\n\n{caption}\n\n"
+                                                      + json.dumps((S or {}).get("guion") or {}, ensure_ascii=False, indent=1))
+    except Exception as e:
+        print("muestra no guardada:", str(e)[:200], flush=True)
     print("PRUEBA: no se publica")
     sys.exit(0)
 
@@ -226,6 +274,9 @@ meta.update(location=loc and loc["name"], publicado=results)
 print("publicado:", json.dumps(results, ensure_ascii=False), flush=True)
 if any(not str(v).startswith("error") for v in results.values()):
     QB.mark_used(items, meta["formato"])
+    if meta["formato"] == "explicado":
+        import explica
+        explica.mark_published(meta)
 if summary:
     with open(summary, "a") as f:
         f.write("\n### Publicación\n" + "".join(f"- {'✅' if not str(v).startswith('error') else '❌'} {k}: {v}\n"
@@ -243,6 +294,6 @@ if meta.get("soluciones") and any(not str(v).startswith("error") for v in result
     meta["soluciones"] = kept
 log({k: meta.get(k) for k in ("formato", "estilo", "series", "imagen", "concepto", "voice_speed", "music", "ids", "temas", "respuestas", "veredicto", "hook", "hook_line", "duration", "guion",
                               "voice", "review_score", "design_score", "arms", "location", "permalink", "media_id",
-                              "publicado", "soluciones", "solucion_texto", "ts")})
+                              "publicado", "soluciones", "solucion_texto", "ts", "topic", "subtema", "ilustraciones")})
 if all(str(v).startswith("error") for v in results.values()):
     raise SystemExit("No se pudo publicar en ninguna red")

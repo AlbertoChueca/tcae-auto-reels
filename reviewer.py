@@ -181,6 +181,13 @@ Devuelve JSON: {{"overall": number, "scores": {{...}}, "issues": [str], "changes
 # ------------------------------------------------------------------ 3. vídeo terminado
 def _design_note(S):
     """Qué diseño tiene este reel, para que el revisor no penalice lo que es a propósito."""
+    if S.get("_fmt") == "explicado":
+        return ("DISEÑO DE ESTE REEL (a propósito): es un vídeo EXPLICADO de divulgación animada, no un test. Ilustraciones de "
+                "neón sobre fondo oscuro, rótulos grandes que entran cuando la voz dice la palabra, subtítulos tipo karaoke "
+                "arriba, datos animados y un cierre 'pásaselo' + la web. No tiene pregunta ni solución: no lo puntúes. "
+                "Valora si el gancho atrapa en 1,5 s, si la historia se entiende sin sonido, el ritmo, la voz, la "
+                "sincronía de rótulos y subtítulos y si dan ganas de compartirlo. 'critical' también si una ilustración "
+                "muestra texto ilegible, algo desagradable o contradice claramente lo que dice la voz.")
     try:
         import make_quiz
         if make_quiz.hides(S.get("_fmt", "")):

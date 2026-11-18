@@ -17,7 +17,7 @@ from fx import W, H, FPS, SR, F900, AMBER, INK, WHITE, RED, eob, eo
 DUR = 12.0
 HANDLE = os.environ.get("IG_HANDLE", "@apruebatcae")
 ASK = {"mito_realidad": "¿MITO O REALIDAD?", "flashcards_express": "¿TE LA SABES?", "simulacro_3": "¿ACIERTAS LAS 3?",
-       "legislacion_30s": "¿TE LO SABES?", "caso_practico": "¿QUÉ HARÍAS TÚ?"}
+       "legislacion_30s": "¿TE LO SABES?", "caso_practico": "¿QUÉ HARÍAS TÚ?", "explicado": "¿SABES POR QUÉ?"}
 
 
 def _ring(remain, frac, size=170):
@@ -42,7 +42,8 @@ def build(base_png, out, fmt="pregunta_del_dia"):
     bgc = Image.blend(bgc, Image.new("RGBA", (W, H), (0, 0, 0, 255)), 0.25)
     sticker = fx.pill("NUEVO REEL · " + HANDLE, 40, AMBER, INK, padx=30, pady=12)
     ask = fx.headline(ASK.get(fmt, "¿A, B, C O D?"), 84, 980, 1, hot_words=())
-    sol = fx.pill("RESPONDE EN EL REEL DE HOY", 40, WHITE, INK, padx=30, pady=14)
+    sol = fx.pill("TE LO CONTAMOS EN EL REEL DE HOY" if fmt == "explicado" else "RESPONDE EN EL REEL DE HOY", 40, WHITE, INK,
+                  padx=30, pady=14)
     import marca
     web = fx.pill(marca.WEB, 32, (0, 0, 0, 120), WHITE, padx=22, pady=8, path=fx.F800)
     ask_y = 300 + ph + 30 + ask.height / 2 - 20             # medido: el titular nunca pisa la pegatina de abajo
