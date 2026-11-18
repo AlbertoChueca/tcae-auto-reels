@@ -1,8 +1,7 @@
-# Playbook (actualizado 2026-10-26)
+# Playbook (actualizado 2026-11-18)
 
-• Formatos clave: Priorizar 'simulacro_3' y 'examen_real'. Multiplican los guardados y la retención frente a preguntas aisladas.
-• Bloques temáticos: El temario 'clínico' y 'mixto' domina en visualizaciones y respuestas. Evitar 'legislación' aislada o normativa densa; si se aborda marco legal, debe vincularse a la práctica asistencial.
-• Ritmo y pausas: Usar 'think_time' corto o normal. El tiempo 'largo' aburre, reduce visualizaciones completas y castiga el algoritmo.
-• Estilo visual: Gran rendimiento de 'noche' (idóneo para sanitarios que repasan a turnos) y 'cuaderno' (rigor de estudio). Descartar el estilo 'marca' por resultar frío y corporativo.
-• Ganchos efectivos: Funcionan la alerta de 'trampa' y la 'curiosidad' concreta de examen oficial. Evitar ganchos genéricos o paternalistas.
-• Cierre y copy: Formular pregunta directa en los primeros segundos para forzar comentarios inmediatos ('¿A o B?') y añadir llamada al guardado para repasar antes de la fecha oficial.
+• Formatos clave: Priorizar 'examen_real' (líder en TikTok con mediana de 805 views y 25 comentarios) y 'simulacro_3' (máximo alcance en Instagram con 199 views). Introducir 'flashcards_express' estratégicamente: aunque bajan en comentarios, multiplican los guardados en ambas redes (8.6 en TT y 7.4 en IG).
+• Ganchos: Usar ganchos tipo 'examen' (865 mediana en TT) y 'dilema_guardia' (778 views y 6 guardados en IG). Evitar ganchos de 'empatía' y 'trampa' (caen a ~320 views en TT).
+• Temario: Enfocarse en 'clinico' (778 views en TT). Usar 'legislación' de forma dosificada: pocos vídeos (5), pero generan el mayor engagement relativo (23.2 comentarios y 8.6 guardados).
+• Estilo visual: Estandarizar 'cuaderno' (763 views y 7.6 guardados en TT; líder en guardados en IG). Reducir 'noche' en TT (cae a 361 views) y descartar 'minimal'.
+• Tiempo y dinámica: Configurar tiempo de pensar 'normal' (748 views en TT). Mantener formato 'reto' para forzar comentarios (13.5 com.), pero alternar con publicaciones 'con solución' o flashcards para maximizar guardados.

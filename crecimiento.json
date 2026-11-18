@@ -1,0 +1,54 @@
+{
+"semanas": {
+"2026-W47": {
+"fecha": "2026-11-18",
+"kpis": {
+"instagram": {
+"publicaciones": 16,
+"views": 1727,
+"mediana_views": 103,
+"interacciones": 79,
+"comentarios": 9,
+"guardados": 40,
+"compartidos": 0
+},
+"tiktok": {
+"publicaciones": 26,
+"views": 18075,
+"mediana_views": 734,
+"interacciones": 699,
+"comentarios": 121,
+"guardados": 172,
+"compartidos": 62
+},
+"youtube": {
+"publicaciones": 13,
+"views": 1553,
+"mediana_views": 43,
+"interacciones": 4,
+"comentarios": 0,
+"guardados": 0,
+"compartidos": 0
+}
+},
+"seguidores": {
+"instagram": 307,
+"tiktok": 806,
+"youtube": 7
+},
+"pausados": {
+"formato": [
+"error_tipico"
+],
+"estilo": []
+},
+"cambios": [
+"formato `error_tipico` en pausa esta semana: 6 vídeos, -0.59 respecto a un vídeo normal de su red",
+"gancho nuevo a prueba: `cifras_clave`",
+"gancho nuevo a prueba: `protocolo_planta`",
+"gancho retirado: `empatía`"
+],
+"diag": []
+}
+}
+}
