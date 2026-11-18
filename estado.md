@@ -2,10 +2,10 @@
 
 | comprobación | detalle |
 |---|---|
-| ❌ Instagram | token no válido: 400: {"error":{"message":"Error validating access token: The session has been invalidated because the user changed their password or Facebook has chan |
+| ✅ Instagram | @apruebatcae · token PAGE |
 | ✅ TikTok (Zernio) | conectada |
 | ✅ YouTube (Zernio) | conectado |
-| ✅ Métricas de TikTok (Zernio) | HTTP 202 · {"postId":"6afd07bf94d9a326d5bacb9a","status":"published","content":"¿Haces 3 de 3 en este mini simulacro de TCAE? ⏱️\n\n1. Las vacunas vivas atenuadas están co |
+| ✅ Métricas de TikTok (Zernio) | HTTP 200 · último vídeo de TikTok: views 323, likes 8, comments 6, shares 0, saves 1 · campos: ['analytics', 'content', 'isExternal', 'mediaItems', 'mediaType', 'platformAnalytics', 'platformPostUrl', 'postId', 'publishedAt', 'scheduledFor', 'status', 'syncStatus', 'thumbnailUrl'] |
 | ✅ Gemini texto | 49 modelos disponibles |
 | ✅ Gemini voz | gemini-2.5-flash-preview-tts, gemini-2.5-pro-preview-tts, gemini-3.1-flash-tts-preview |
 | ✅ Gemini imagen | gemini-2.5-flash-image, gemini-3-pro-image-preview, gemini-3-pro-image |
