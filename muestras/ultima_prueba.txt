@@ -1,92 +1,102 @@
-explicado · 47.1 s · Diferencias clave entre angina e infarto
+explicado · 50.1 s · ¿Angina o infarto? La diferencia en el dolor
 
-Angina vs. infarto: la diferencia que siempre cae en examen 🫀
+¿Sabes distinguir una angina de pecho de un infarto en planta? 🫀
 
-En la cardiopatía isquémica, la angina supone una isquemia transitoria sin muerte celular cuyo dolor dura unos minutos y cede con reposo. En cambio, el infarto produce necrosis por falta prolongada de riego y su dolor se prolonga 30 minutos o más.
+En la cardiopatía isquémica, la angina supone una isquemia transitoria y reversible: el dolor dura unos cuatro a cinco minutos y cede con reposo o nitroglicerina. En cambio, el infarto de miocardio produce necrosis celular, dura treinta minutos o más y no cede. Tras el infarto se deben evitar esfuerzos isométricos y duchas de contraste.
 
-💬 ¿Sabías distinguir isquemia de necrosis? Cuéntanos tu regla nemotécnica en comentarios.
+💬 ¿Habías visto en algún test la pregunta sobre la duración del dolor del infarto?
 📌 Guárdalo para repasar y pásaselo a tu compi de opo.
 
 Practica este tema gratis con tests, simulacros y flashcards de las oposiciones de TCAE en apruebatcae.com (link en la bio).
 
-#TCAE #oposicionesTCAE #auxiliardeenfermeria #oposiciones #TCAEoposiciones
+#TCAE #oposicionesTCAE #TCAEoposiciones #oposiciones #auxiliardeenfermeria
 
 {
- "subtema": "Angina de pecho frente a infarto",
- "titulo": "Diferencias clave entre angina e infarto",
+ "subtema": "Angina frente a infarto de miocardio",
+ "titulo": "¿Angina o infarto? La diferencia en el dolor",
  "escenas": [
   {
-   "voz": "Paciente con dolor opresivo en el pecho. ¿Es una angina o es un infarto?",
+   "voz": "Tu paciente en planta nota un dolor opresivo en el pecho que va al cuello.",
    "rotulos": [
     "DOLOR OPRESIVO"
    ],
    "tono": "alerta",
-   "dibujo": "A hospital room with a simple patient silhouette sitting on a medical bed, hand resting on chest, minimalist flat style.",
+   "dibujo": "A minimalist human silhouette sitting on a hospital bed pressing a hand against the chest in discomfort.",
    "dibujo_b": "",
    "dato": null
   },
   {
-   "voz": "En la angina el riego disminuye de forma transitoria: produce isquemia, pero sin muerte del tejido cardíaco.",
+   "voz": "Ocurre cuando las arterias coronarias se obstruyen y falta oxígeno en el miocardio.",
    "rotulos": [
-    "ISQUEMIA",
-    "SIN MUERTE"
+    "ARTERIAS CORONARIAS",
+    "FALTA OXÍGENO"
    ],
    "tono": "neutro",
-   "dibujo": "Schematic outline of a human heart with clean coronary vessels glowing softly, simple modern medical vector illustration.",
+   "dibujo": "A clean schematic cross section of a coronary artery with smooth normal blood flow.",
+   "dibujo_b": "The same coronary artery cross section narrowed and blocked by an atheroma plaque restricting flow.",
+   "dato": null
+  },
+  {
+   "voz": "En la angina es una isquemia reversible, pero en el infarto se produce necrosis del tejido cardíaco.",
+   "rotulos": [
+    "ISQUEMIA REVERSIBLE",
+    "NECROSIS"
+   ],
+   "tono": "alerta",
+   "dibujo": "A stylized human heart diagram showing a dark affected area of myocardial tissue representing cellular necrosis.",
    "dibujo_b": "",
    "dato": null
   },
   {
-   "voz": "En el infarto la interrupción es prolongada: provoca necrosis y el dolor dura treinta minutos o más sin ceder.",
+   "voz": "En la angina el dolor dura unos cuatro a cinco minutos y cede con reposo o nitroglicerina.",
    "rotulos": [
-    "NECROSIS"
+    "NITROGLICERINA"
    ],
    "tono": "dato",
-   "dibujo": "A classic analog hospital wall clock marking thirty minutes, clean background, medical clinic aesthetics.",
+   "dibujo": "A simple medical timer next to a small sublingual medication tablet icon.",
    "dibujo_b": "",
    "dato": {
     "tipo": "cifra",
-    "valor": "30",
-    "unidad": "MINUTOS O MÁS",
-    "etiqueta": "dolor en el infarto"
+    "valor": "4-5",
+    "unidad": "MINUTOS",
+    "etiqueta": "duración dolor en angina"
    }
   },
   {
-   "voz": "Tras un infarto colaboramos en sus cuidados: evitar esfuerzos isométricos, dieta pobre en sal y evitar duchas de contraste.",
+   "voz": "Tras el infarto, vigila evitar esfuerzos isométricos, ofrece dieta rica en fibra y evita duchas de contraste.",
    "rotulos": [
     "EVITAR ESFUERZOS",
-    "POBRE EN SAL",
     "DUCHAS DE CONTRASTE"
    ],
    "tono": "bien",
-   "dibujo": "A hospital bedside tray table holding a healthy meal plate with vegetables and a glass of water.",
+   "dibujo": "A hospital bedside tray showing a fiber rich meal beside a shower icon marked with restriction.",
    "dibujo_b": "",
    "dato": {
     "tipo": "lista",
     "items": [
-     "Evitar ejercicios isométricos",
-     "Evitar duchas de contraste"
+     "Evitar esfuerzos isométricos",
+     "Dieta rica en fibra",
+     "Evitar duchas contraste"
     ]
    }
   },
   {
-   "voz": "Recuerda para tu examen: la angina supone isquemia reversible, pero el infarto siempre produce necrosis.",
+   "voz": "Si el dolor dura treinta minutos o más y no cede con reposo, no es angina: es infarto.",
    "rotulos": [
-    "ISQUEMIA REVERSIBLE",
-    "INFARTO",
-    "NECROSIS"
+    "TREINTA MINUTOS",
+    "ES INFARTO"
    ],
-   "tono": "dato",
-   "dibujo": "A clinical notepad on an examination desk next to a stethoscope, minimalist flat design.",
+   "tono": "alerta",
+   "dibujo": "Two medical indicator cards side by side comparing a reversible warning symbol with a severe heart alert icon.",
    "dibujo_b": "",
    "dato": {
     "tipo": "versus",
-    "no": "ANGINA: NECROSIS",
-    "si": "INFARTO: NECROSIS"
+    "no": "ANGINA REVERSIBLE",
+    "si": "INFARTO CON NECROSIS"
    }
   }
  ],
- "caption_gancho": "¿Dudas entre angina e infarto en las preguntas de examen? 🫀",
- "caption_cuerpo": "En la cardiopatía isquémica, la angina supone una isquemia transitoria sin muerte celular cuyo dolor dura unos minutos y cede con reposo. En cambio, el infarto produce necrosis por falta prolongada de riego y su dolor se prolonga 30 minutos o más.",
- "pregunta_comentarios": "¿Te han preguntado en algún simulacro la duración del dolor en el infarto?"
+ "caption_gancho": "¿Sabes distinguir una angina de pecho de un infarto en planta? 🫀",
+ "caption_cuerpo": "En la cardiopatía isquémica, la angina supone una isquemia transitoria y reversible: el dolor dura unos cuatro a cinco minutos y cede con reposo o nitroglicerina. En cambio, el infarto de miocardio produce necrosis celular, dura treinta minutos o más y no cede. Tras el infarto se deben evitar esfuerzos isométricos y duchas de contraste.",
+ "pregunta_comentarios": "¿Habías visto en algún test la pregunta sobre la duración del dolor del infarto?"
 }
