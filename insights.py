@@ -178,8 +178,96 @@ def update(days=120):
     return msg
 
 
+# ------------------------------------------------------------------ TikTok y YouTube (analítica de Zernio)
+PERF_Z = os.path.join(HERE, "performance_tiktok.json")
+ZAPI = "https://zernio.com/api/v1"
+
+
+def _num(a, *names):
+    for n in names:
+        v = (a or {}).get(n)
+        if isinstance(v, (int, float)):
+            return v
+    return None
+
+
+def update_zernio(max_age=21, final_age=10):
+    """Resultados de TikTok y YouTube Shorts de cada reel (GET /analytics?postId= de Zernio) -> performance_tiktok.json.
+    Con ellos el piloto automático aprende también de TikTok, que es donde más crece la cuenta, y sigue aprendiendo
+    aunque Instagram esté caído. Cada vídeo se relee una vez al día hasta los `final_age` días. Si el plan de Zernio no
+    incluye analítica (HTTP 402) lo dice y no insiste hasta la semana siguiente."""
+    key = os.environ.get("ZERNIO_API_KEY")
+    if not key:
+        return "tiktok: sin ZERNIO_API_KEY"
+    perf = json.load(open(PERF_Z)) if os.path.exists(PERF_Z) else {}
+    today = datetime.date.today()
+    off = perf.get("_sin_acceso") or {}
+    if off.get("fecha") and (today - datetime.date.fromisoformat(off["fecha"])).days < 7:
+        return f"tiktok: Zernio sin analítica ({off.get('motivo', '')[:80]}); se vuelve a probar el {off['fecha']} + 7 días"
+    rows = []
+    p = os.path.join(HERE, "log.jsonl")
+    for line in open(p) if os.path.exists(p) else []:
+        try:
+            e = json.loads(line)
+            age = (today - datetime.date.fromisoformat(e["date"])).days
+        except Exception:
+            continue
+        if not 1 <= age <= max_age:
+            continue
+        for plat, k in (("tiktok", "tiktok_video"), ("youtube", "youtube_short")):
+            pid = str((e.get("publicado") or {}).get(k) or "")
+            if not pid or pid.startswith("error") or pid == "ok":
+                continue
+            old = perf.get(pid) or {}
+            if old.get("fecha") == str(today) or (old.get("views") is not None and old.get("edad", 0) >= final_age):
+                continue
+            rows.append((pid, plat, e, age))
+    got = pending = 0
+    hdr = {"Authorization": f"Bearer {key}"}
+    for pid, plat, e, age in rows[:120]:
+        try:
+            r = requests.get(f"{ZAPI}/analytics", params={"postId": pid}, headers=hdr, timeout=40)
+        except Exception as ex:
+            print("tiktok: fallo de red:", str(ex)[:120], flush=True); break
+        if r.status_code == 402 or (r.status_code == 403 and "addon" in r.text.lower()):
+            perf["_sin_acceso"] = {"fecha": str(today), "motivo": r.text[:200]}
+            json.dump(perf, open(PERF_Z, "w"), ensure_ascii=False, indent=0)
+            return ("tiktok: el plan de Zernio no incluye la analítica (complemento Analytics); sin ella el piloto automático "
+                    "solo aprende de Instagram")
+        if r.status_code == 429:
+            break
+        if r.status_code == 202:
+            pending += 1; continue
+        if r.status_code != 200:
+            print(f"tiktok: analítica de {pid} -> {r.status_code}: {r.text[:120]}", flush=True); continue
+        try:
+            j = r.json()
+        except Exception:
+            continue
+        a = j.get("analytics") or {}
+        pa = next((x for x in (j.get("platformAnalytics") or []) if (x.get("platform") or "").lower() == plat), None) or {}
+        if pa.get("analytics"):
+            a = {**a, **{k: v for k, v in pa["analytics"].items() if v is not None}}
+        views = _num(a, "views", "impressions", "reach")
+        if views is None:
+            pending += 1; continue
+        perf[pid] = {"red": plat, "date": e.get("date"), "slot": e.get("slot"), "formato": e.get("formato"), "estilo": e.get("estilo"),
+                     "hook": e.get("hook"), "guion": e.get("guion"), "arms": e.get("arms"), "duration": e.get("duration"),
+                     "views": views, "likes": _num(a, "likes") or 0, "comments": _num(a, "comments") or 0,
+                     "shares": _num(a, "shares") or 0, "saved": _num(a, "saves", "saved") or 0,
+                     "url": pa.get("platformPostUrl"), "edad": age, "fecha": str(today)}
+        got += 1
+    perf.pop("_sin_acceso", None)
+    json.dump(perf, open(PERF_Z, "w"), ensure_ascii=False, indent=0)
+    tk = [v for k, v in perf.items() if isinstance(v, dict) and v.get("red") == "tiktok" and v.get("views") is not None]
+    avg = round(sum(v["views"] for v in tk) / len(tk)) if tk else 0
+    return (f"tiktok/youtube: {got} vídeos actualizados hoy ({pending} aún sin datos) · {len(tk)} vídeos de TikTok con métricas, "
+            f"media {avg} visualizaciones")
+
+
 if __name__ == "__main__":
     print(update())
+    print(update_zernio())
 
 
 def recent_comments(days=14, per_post=50):

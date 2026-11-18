@@ -17,6 +17,7 @@ ARMS_FILE = os.path.join(HERE, "strategy_arms.json")
 REPORT = os.path.join(HERE, "strategy_report.md")
 PLAYBOOK = os.path.join(HERE, "playbook.md")
 PERF = os.path.join(HERE, "performance.json")
+PERF_Z = os.path.join(HERE, "performance_tiktok.json")
 EXPLORE = float(os.environ.get("EXPLORE_RATE", "0.15"))
 MIN_AGE_DAYS = 3
 
@@ -64,21 +65,40 @@ def reward(r):
     return None
 
 
+def reward_z(r):
+    """TikTok / YouTube (analítica de Zernio): visualizaciones + interacciones."""
+    views = r.get("views")
+    if not views:
+        return None
+    eng = (r.get("likes") or 0) + 3 * (r.get("comments") or 0) + 4 * (r.get("shares") or 0) + 5 * (r.get("saved") or 0)
+    return math.log1p(views) + 0.7 * math.log1p(eng)
+
+
 def _results():
-    try:
-        perf = json.load(open(PERF))
-    except Exception:
-        return []
-    today = datetime.date.today(); out = []
-    for r in perf.values():
+    """[(arms, puntuación, fila)] de Instagram, TikTok y YouTube. Cada red tiene su escala (en TikTok un vídeo normal
+    tiene muchas más visualizaciones), así que la puntuación de cada vídeo se mide contra la media de SU red: 0 = un
+    vídeo normal en esa red, +1 = una desviación típica mejor. Así las tres redes suman en el mismo aprendizaje."""
+    today = datetime.date.today(); groups = {}
+    for path, fn, red in ((PERF, reward, "instagram"), (PERF_Z, reward_z, None)):
         try:
-            if (today - datetime.date.fromisoformat(r["date"])).days < MIN_AGE_DAYS:
-                continue
+            perf = json.load(open(path))
         except Exception:
             continue
-        rw = reward(r)
-        if rw is not None and r.get("arms"):
-            out.append((r["arms"], rw, r))
+        for r in perf.values():
+            try:
+                if not isinstance(r, dict) or (today - datetime.date.fromisoformat(r["date"])).days < MIN_AGE_DAYS:
+                    continue
+            except Exception:
+                continue
+            rw = fn(r)
+            if rw is not None and r.get("arms"):
+                groups.setdefault(red or r.get("red") or "tiktok", []).append((r["arms"], rw, {**r, "red": red or r.get("red")}))
+    out = []
+    for red, rows in groups.items():
+        vals = [rw for _, rw, _ in rows]
+        mu = sum(vals) / len(vals)
+        sd = max((sum((v - mu) ** 2 for v in vals) / len(vals)) ** 0.5, 0.25) if len(vals) >= 4 else 1.0
+        out += [(a, (rw - mu) / sd, r) for a, rw, r in rows]
     return out
 
 
@@ -148,6 +168,13 @@ def write_report():
         lines.append(f"\n## {lev}\n\n| option | reels | avg score |\n|---|---|---|")
         for a, (k, m) in sorted(d.items(), key=lambda x: -(x[1][1] if x[1][1] is not None else -1e9)):
             lines.append(f"| {short(a)} | {k} | {'-' if m is None else f'{m:.2f}'} |")
+    by = {}
+    for _, _, r in _results():                             # qué formato funciona en cada red (visualizaciones medias)
+        by.setdefault(r.get("red") or "instagram", {}).setdefault(r.get("formato") or "?", []).append(r.get("views") or r.get("reach") or 0)
+    for red, d in by.items():
+        lines.append(f"\n## {red}: visualizaciones medias por formato\n\n| formato | vídeos | media |\n|---|---|---|")
+        for f, v in sorted(d.items(), key=lambda x: -sum(x[1]) / len(x[1])):
+            lines.append(f"| {f} | {len(v)} | {sum(v) / len(v):.0f} |")
     if os.path.exists(PLAYBOOK):
         lines.append("\n---\n" + open(PLAYBOOK).read())
     open(REPORT, "w").write("\n".join(lines) + "\n")
@@ -173,13 +200,14 @@ def weekly_strategist(force=False):
         return "strategist: waiting for more results"
     import gemini, reviewer
     rows = sorted(res, key=lambda x: -x[1])
-    table = "\n".join(f"- score {rw:.2f} | views {r.get('views')} | guardados {r.get('saved')} | compartidos {r.get('shares')} | "
+    table = "\n".join(f"- {r.get('red') or 'instagram'} | score {rw:+.2f} | views {r.get('views')} | guardados {r.get('saved')} | compartidos {r.get('shares')} | "
                       f"comentarios {r.get('comments') or r.get('comments_count')} | visitas perfil {r.get('profile_visits')} | "
                       f"\"{r.get('hook')}\" | " + ", ".join(f"{k}={short(v)}" for k, v in a.items())
                       for a, rw, r in rows[:40])
     A = arms()
     out = gemini.ask(f"""{reviewer.PRODUCER}
-Ahora eres el ESTRATEGA del canal. Resultados reales de nuestros reels (mejores primero) y opciones que probamos.
+Ahora eres el ESTRATEGA del canal. Resultados reales de nuestros reels en cada red (mejores primero; "score" = cuánto
+mejor o peor que un vídeo normal de ESA red, en desviaciones típicas) y opciones que probamos.
 RESULTADOS:
 {table}
 

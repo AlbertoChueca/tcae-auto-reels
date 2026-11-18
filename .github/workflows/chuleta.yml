@@ -20,6 +20,7 @@ on:
 
 permissions:
   contents: write
+  issues: write        # avisos.py abre una incidencia si una red deja de publicar
 
 concurrency:
   group: chuleta
@@ -54,6 +55,7 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
           ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
           APP_PREGUNTAS: ${{ vars.APP_PREGUNTAS || '10.000' }}
           IG_HANDLE: ${{ vars.IG_HANDLE || '@apruebatcae' }}

@@ -170,6 +170,14 @@ def reply_text(j, e, reaction=""):
         core = (random.choice(["✅ ¡Correcta!", "🎯 ¡Esa es!", "✅ ¡Bien!"]) if j[1] else
                 random.choice(["Esta vez no 😉", "¡Casi!", "Uy, esta tenía miga 😅"])) + f" Es la {head}."
     txt = " ".join(x for x in (reaction.strip(), core, why) if x)
+    # embudo a la app: en ~1 de cada 3 respuestas (si fuera en todas parecería spam) se recuerda dónde practicar el tema
+    if random.random() < float(os.environ.get("RESPUESTA_APP", "0.34")) and len(txt) < 700:
+        tema = (e.get("temas") or [""])[0]
+        txt += " " + random.choice([
+            f"Tienes más preguntas de {tema} para practicar gratis en apruebatcae.com 💪" if tema and len(tema) < 40 else
+            "Tienes más preguntas como esta para practicar gratis en apruebatcae.com 💪",
+            "Si quieres seguir practicando, en apruebatcae.com tienes tests y simulacros gratis 📚",
+            "Mañana hay pregunta nueva; mientras, puedes hacer un simulacro gratis en apruebatcae.com 😉"])
     return txt[:900]
 
 

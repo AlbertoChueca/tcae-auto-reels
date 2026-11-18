@@ -92,6 +92,7 @@ if not HAS_AI:                                     # sin Gemini no hay verificad
         raise SystemExit(msg)
 if HAS_AI:
     for name, fn in (("insights", lambda: __import__("insights").update()),
+                     ("tiktok", lambda: __import__("insights").update_zernio()),
                      ("agentes", lambda: __import__("agents").daily_learning())):
         try:
             msg = fn()
@@ -295,5 +296,13 @@ if meta.get("soluciones") and any(not str(v).startswith("error") for v in result
 log({k: meta.get(k) for k in ("formato", "estilo", "series", "imagen", "concepto", "voice_speed", "music", "ids", "temas", "respuestas", "veredicto", "hook", "hook_line", "duration", "guion",
                               "voice", "review_score", "design_score", "arms", "location", "permalink", "media_id",
                               "publicado", "soluciones", "solucion_texto", "ts", "topic", "subtema", "ilustraciones")})
+alerta = False
+try:                                               # si una red falla por un problema de cuenta, abre una incidencia
+    import avisos
+    alerta = avisos.revisar(results, f"reel de {slot} ({today})")
+except Exception as e:
+    print("avisos omitidos:", str(e)[:150], flush=True)
 if all(str(v).startswith("error") for v in results.values()):
     raise SystemExit("No se pudo publicar en ninguna red")
+if alerta:
+    raise SystemExit("Publicado, pero una red falla por un problema de cuenta: mira la incidencia abierta en GitHub (Issues)")

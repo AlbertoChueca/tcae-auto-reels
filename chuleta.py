@@ -715,8 +715,17 @@ def main():
     if os.environ.get("GITHUB_STEP_SUMMARY"):
         open(os.environ["GITHUB_STEP_SUMMARY"], "a").write(
             f"## Chuleta {today}\n- Tema: {tema} · {c['subtema']}\n- Imágenes: {len(paths)}\n- Publicación: {json.dumps(res, ensure_ascii=False)}\n")
+    alerta = False
+    if not dry:
+        try:                                               # red caída por un problema de cuenta -> incidencia en GitHub
+            import avisos
+            alerta = avisos.revisar(res, f"chuleta de las {slot} ({today})")
+        except Exception as e:
+            print("avisos omitidos:", str(e)[:150], flush=True)
     if not dry and not ok:
         raise SystemExit("la chuleta no se pudo publicar en ningún sitio")
+    if alerta:
+        raise SystemExit("Publicada, pero una red falla por un problema de cuenta: mira la incidencia abierta en GitHub (Issues)")
 
 
 if __name__ == "__main__":

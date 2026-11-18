@@ -29,6 +29,7 @@ on:
 
 permissions:
   contents: write
+  issues: write        # avisos.py abre una incidencia si una red deja de publicar
 
 concurrency:
   group: reels
@@ -91,6 +92,7 @@ jobs:
         if: steps.slot.outputs.slot != 'skip'
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
@@ -125,4 +127,4 @@ jobs:
 
       - name: Recordar preguntas usadas, verificaciones y aprendizajes
         if: always() && steps.slot.outputs.slot != 'skip'
-        run: python sincronizar.py "Reel ${{ steps.slot.outputs.slot }} $(date +%F)" used.json log.jsonl review_log.jsonl performance.json strategy_arms.json strategy_report.md playbook.md banco/verificacion.json banco/verificacion_fichas.json banco/informe_verificacion.md image_log.jsonl agents soluciones tendencias.json explicados.json muestras
+        run: python sincronizar.py "Reel ${{ steps.slot.outputs.slot }} $(date +%F)" used.json log.jsonl review_log.jsonl performance.json performance_tiktok.json strategy_arms.json strategy_report.md playbook.md banco/verificacion.json banco/verificacion_fichas.json banco/informe_verificacion.md image_log.jsonl agents soluciones tendencias.json explicados.json muestras
