@@ -700,5 +700,47 @@
 "motivo": "Es incorrecto afirmar que la ecografía no necesita preparación previa. Muchas ecografías (como la abdominal o la pélvica) requieren que el paciente esté en ayunas o con la vejiga llena.",
 "fuente_ok": false,
 "fecha": "2026-11-14"
+},
+"b6b7deee04": {
+"veredicto": "ok",
+"motivo": "La respuesta enumera correctamente los órganos anatómicos que componen el tubo digestivo en su orden natural.",
+"fuente_ok": false,
+"fecha": "2026-11-18"
+},
+"d4bb64a1c1": {
+"veredicto": "ok",
+"motivo": "Identifica con precisión las tres porciones anatómicas del intestino delgado y describe correctamente su función fisiológica principal.",
+"fuente_ok": false,
+"fecha": "2026-11-18"
+},
+"024d6ae416": {
+"veredicto": "ok",
+"motivo": "Enumera de forma exacta las regiones anatómicas estándar en las que se divide el estómago.",
+"fuente_ok": false,
+"fecha": "2026-11-18"
+},
+"c1e642d810": {
+"veredicto": "ok",
+"motivo": "Describe correctamente la anatomía macroscópica del páncreas y los nombres clásicos (epónimos) de sus conductos exocrinos.",
+"fuente_ok": false,
+"fecha": "2026-11-18"
+},
+"146aeffb7a": {
+"veredicto": "ok",
+"motivo": "Define con exactitud la función fisiológica de la bilis en el proceso de digestión y absorción de los lípidos.",
+"fuente_ok": false,
+"fecha": "2026-11-18"
+},
+"e8111fd590": {
+"veredicto": "ok",
+"motivo": "Clasifica adecuadamente los órganos y glándulas anejas que participan en la digestión pero no forman parte del tubo digestivo principal.",
+"fuente_ok": false,
+"fecha": "2026-11-18"
+},
+"63012e73f8": {
+"veredicto": "ok",
+"motivo": "Diferencia correctamente el tipo de tejido muscular y el control nervioso (voluntario e involuntario) de ambos esfínteres anales.",
+"fuente_ok": false,
+"fecha": "2026-11-18"
 }
 }

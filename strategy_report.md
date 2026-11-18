@@ -1,64 +1,62 @@
 # Piloto automático Aprueba TCAE - qué está funcionando
 
-_Updated 2026-11-18 · 102 reels with results (3+ days old) · average score 0.00_
+_Updated 2026-11-18 · 167 reels with results (3+ days old) · average score -0.00_
 
 
 ## formato
 
 | option | reels | avg score |
 |---|---|---|
-| examen_real | 10 | 0.40 |
-| flashcards_express | 10 | 0.28 |
-| caso_practico | 8 | 0.15 |
-| simulacro_3 | 17 | 0.15 |
-| pregunta_del_dia | 37 | -0.02 |
-| legislacion_30s | 9 | -0.35 |
-| truco_memorizar | 2 | -0.56 |
-| error_tipico | 6 | -0.59 |
-| mito_realidad | 3 | -0.68 |
+| flashcards_express | 17 | 0.36 |
+| simulacro_3 | 28 | 0.28 |
+| caso_practico | 12 | 0.18 |
+| examen_real | 19 | 0.18 |
+| error_tipico | 7 | 0.14 |
+| truco_memorizar | 3 | 0.04 |
+| pregunta_del_dia | 65 | -0.20 |
+| mito_realidad | 5 | -0.44 |
+| legislacion_30s | 11 | -0.46 |
 
 ## estilo
 
 | option | reels | avg score |
 |---|---|---|
-| cuaderno | 24 | 0.48 |
-| examen | 13 | -0.01 |
-| noche | 28 | -0.08 |
-| clasico | 19 | -0.14 |
-| marca | 6 | -0.27 |
-| minimal | 8 | -0.28 |
+| cuaderno | 36 | 0.42 |
+| examen | 23 | 0.14 |
+| noche | 47 | -0.08 |
+| clasico | 31 | -0.19 |
+| minimal | 13 | -0.22 |
+| marca | 13 | -0.26 |
 | ilustrado | 4 | -0.65 |
 
 ## hook_style
 
 | option | reels | avg score |
 |---|---|---|
-| examen | 13 | 0.41 |
-| dilema_guardia | 15 | 0.09 |
-| reto | 15 | 0.03 |
-| trampa | 17 | 0.03 |
-| repaso exprés | 18 | 0.02 |
-| terminos_confusos | 8 | -0.03 |
-| curiosidad | 6 | -0.35 |
-| cifras_clave | 0 | - |
-| protocolo_planta | 0 | - |
-| caso_urgencias | 0 | - |
+| examen | 24 | 0.24 |
+| dilema_guardia | 20 | 0.13 |
+| trampa | 27 | 0.08 |
+| repaso exprés | 28 | 0.06 |
+| reto | 23 | 0.02 |
+| terminos_confusos | 13 | -0.06 |
+| empatía | 19 | -0.35 |
+| curiosidad | 13 | -0.40 |
 
 ## bloque
 
 | option | reels | avg score |
 |---|---|---|
-| clinico | 37 | 0.17 |
-| legislacion | 10 | 0.13 |
-| mixto | 54 | -0.11 |
+| clinico | 59 | 0.16 |
+| mixto | 89 | -0.02 |
+| legislacion | 17 | -0.27 |
 
 ## think_time
 
 | option | reels | avg score |
 |---|---|---|
-| normal | 24 | 0.08 |
-| largo | 43 | -0.00 |
-| corto | 35 | -0.06 |
+| normal | 41 | 0.05 |
+| largo | 69 | 0.01 |
+| corto | 57 | -0.04 |
 
 ## instagram: visualizaciones medias por formato
 
@@ -88,12 +86,27 @@ _Updated 2026-11-18 · 102 reels with results (3+ days old) · average score 0.0
 | pregunta_del_dia | 12 | 489 |
 | error_tipico | 3 | 431 |
 
----
-# Playbook (actualizado 2026-11-18)
+## youtube: visualizaciones medias por formato
 
-• Formatos ganadores: 'examen_real' lidera en TikTok (mediana 805 views, 25 com., 12 guardados) y destaca en IG (167 views). 'simulacro_3' es el más visto en Instagram (mediana 199 views). 'flashcards_express' dispara los guardados en ambas redes (8.6 en TT, 7.4 en IG); usarlo para retención.
-• Ganchos: Priorizar gancho 'examen' (865 mediana en TT) y 'terminos_confusos' (199 en IG). 'dilema_guardia' rinde bien en vistas en TT (778) y guardados en IG (6.0). Descartar 'empatía' (123 views IG, 312 TT) y 'trampa' (323 en TT).
-• Temas: 'clinico' es la apuesta segura (778 views en TT). 'legislacion' tiene muestra baja (5 vídeos), pero revienta la interacción en TT (23.2 comentarios, 8.6 guardados); mantener con rigor.
-• Estilo visual: 'cuaderno' rige en ambas redes (763 views y 7.6 guardados en TT; 3.3 guardados en IG). Evitar 'minimal' (bajas vistas globales) y 'noche' (361 views TT).
-• Dinámica y tiempos: Tiempo 'normal' en TT (748 views, 5.9 guardados); 'corto' en IG (166 views). El formato 'reto' impulsa comentarios masivos (13.5 en TT), mientras 'con solución' multiplica guardados (7.3 en TT, 2.6 en IG).
+| formato | vídeos | media |
+|---|---|---|
+| error_tipico | 1 | 987 |
+| truco_memorizar | 1 | 83 |
+| simulacro_3 | 11 | 52 |
+| mito_realidad | 2 | 34 |
+| flashcards_express | 7 | 34 |
+| examen_real | 9 | 30 |
+| caso_practico | 4 | 28 |
+| pregunta_del_dia | 28 | 16 |
+| legislacion_30s | 2 | 7 |
+
+---
+# Playbook (actualizado 2026-10-26)
+
+• Formatos clave: Priorizar 'simulacro_3' y 'examen_real'. Multiplican los guardados y la retención frente a preguntas aisladas.
+• Bloques temáticos: El temario 'clínico' y 'mixto' domina en visualizaciones y respuestas. Evitar 'legislación' aislada o normativa densa; si se aborda marco legal, debe vincularse a la práctica asistencial.
+• Ritmo y pausas: Usar 'think_time' corto o normal. El tiempo 'largo' aburre, reduce visualizaciones completas y castiga el algoritmo.
+• Estilo visual: Gran rendimiento de 'noche' (idóneo para sanitarios que repasan a turnos) y 'cuaderno' (rigor de estudio). Descartar el estilo 'marca' por resultar frío y corporativo.
+• Ganchos efectivos: Funcionan la alerta de 'trampa' y la 'curiosidad' concreta de examen oficial. Evitar ganchos genéricos o paternalistas.
+• Cierre y copy: Formular pregunta directa en los primeros segundos para forzar comentarios inmediatos ('¿A o B?') y añadir llamada al guardado para repasar antes de la fecha oficial.
 

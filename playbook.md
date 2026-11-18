@@ -1,7 +1,8 @@
-# Playbook (actualizado 2026-11-18)
+# Playbook (actualizado 2026-10-26)
 
-• Formatos ganadores: 'examen_real' lidera en TikTok (mediana 805 views, 25 com., 12 guardados) y destaca en IG (167 views). 'simulacro_3' es el más visto en Instagram (mediana 199 views). 'flashcards_express' dispara los guardados en ambas redes (8.6 en TT, 7.4 en IG); usarlo para retención.
-• Ganchos: Priorizar gancho 'examen' (865 mediana en TT) y 'terminos_confusos' (199 en IG). 'dilema_guardia' rinde bien en vistas en TT (778) y guardados en IG (6.0). Descartar 'empatía' (123 views IG, 312 TT) y 'trampa' (323 en TT).
-• Temas: 'clinico' es la apuesta segura (778 views en TT). 'legislacion' tiene muestra baja (5 vídeos), pero revienta la interacción en TT (23.2 comentarios, 8.6 guardados); mantener con rigor.
-• Estilo visual: 'cuaderno' rige en ambas redes (763 views y 7.6 guardados en TT; 3.3 guardados en IG). Evitar 'minimal' (bajas vistas globales) y 'noche' (361 views TT).
-• Dinámica y tiempos: Tiempo 'normal' en TT (748 views, 5.9 guardados); 'corto' en IG (166 views). El formato 'reto' impulsa comentarios masivos (13.5 en TT), mientras 'con solución' multiplica guardados (7.3 en TT, 2.6 en IG).
+• Formatos clave: Priorizar 'simulacro_3' y 'examen_real'. Multiplican los guardados y la retención frente a preguntas aisladas.
+• Bloques temáticos: El temario 'clínico' y 'mixto' domina en visualizaciones y respuestas. Evitar 'legislación' aislada o normativa densa; si se aborda marco legal, debe vincularse a la práctica asistencial.
+• Ritmo y pausas: Usar 'think_time' corto o normal. El tiempo 'largo' aburre, reduce visualizaciones completas y castiga el algoritmo.
+• Estilo visual: Gran rendimiento de 'noche' (idóneo para sanitarios que repasan a turnos) y 'cuaderno' (rigor de estudio). Descartar el estilo 'marca' por resultar frío y corporativo.
+• Ganchos efectivos: Funcionan la alerta de 'trampa' y la 'curiosidad' concreta de examen oficial. Evitar ganchos genéricos o paternalistas.
+• Cierre y copy: Formular pregunta directa en los primeros segundos para forzar comentarios inmediatos ('¿A o B?') y añadir llamada al guardado para repasar antes de la fecha oficial.
