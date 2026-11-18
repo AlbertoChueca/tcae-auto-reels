@@ -209,6 +209,19 @@ def pauses(prev_weeks):
     return out, why
 
 
+def config_text():
+    cada = os.environ.get("RETO_CADA") or "5"
+    dias = {"0": "lunes", "1": "martes", "2": "miércoles", "3": "jueves", "4": "viernes", "5": "sábado", "6": "domingo"}
+    ex = ", ".join(dias.get(d.strip(), d) for d in (os.environ.get("EXPLICA_DIAS") or "1,3,6").split(",") if d.strip())
+    return (f"- Publicaciones al día (hora de España): chuleta a las 8:00, reel a las 14:30, chuleta a las 18:00 y reel a las 21:30 "
+            f"(14 chuletas y 14 reels por semana), en Instagram y TikTok; los reels también en YouTube.\n"
+            f"- Reels tipo test: 1 de cada {cada} es un reto sin solución (la IA contesta en 24 h) y el resto enseña la solución "
+            f"(desde el 18/11/2026; antes eran casi todos reto, así que los datos de 'con solución' son todavía pocos).\n"
+            f"- Vídeos explicados (divulgación animada): {ex} a las 21:30, desde el 19/11/2026.\n"
+            f"- Hasta el 18/11/2026 GitHub publicaba con 4-9 horas de retraso: los datos por hueco ('mediodia', 'noche', "
+            f"'manana') NO corresponden a esas horas reales y no sirven para proponer horarios.")
+
+
 def strategist(P, K, K_prev, old_pb, pausas_txt):
     """Agente estratega: playbooks + ganchos nuevos + resumen y sugerencias para el dueño."""
     import gemini, reviewer
@@ -255,6 +268,9 @@ RESULTADOS POR RED (todas las publicaciones medidas):
 
 COMENTARIOS RECIENTES (anónimos): {json.dumps([c['text'][:120] for c in comments[:60]], ensure_ascii=False)}
 
+CONFIGURACIÓN ACTUAL (lo que ya se hace; no lo propongas como novedad):
+{config_text()}
+
 CAMBIOS QUE YA HA DECIDIDO EL PILOTO AUTOMÁTICO ESTA SEMANA: {pausas_txt or 'ninguno'}
 ESTILOS DE GANCHO ACTUALES: {json.dumps([strategy.short(x) for x in A['hook_style']], ensure_ascii=False)}
 PLAYBOOK ANTERIOR:
@@ -267,10 +283,12 @@ Escribe, solo a partir de ESTOS datos (si una conclusión tiene pocos vídeos de
 - "explicados": lecciones para los vídeos explicados (máx. 90 palabras) o "" si aún no hay datos.
 - "new_options": como mucho 2 estilos de gancho NUEVOS, "nombre: descripción de una línea", inspirados en lo que
   funciona y distintos de los actuales. Nunca estadísticas inventadas ni promesas de aprobar.
-- "resumen": para el dueño de la cuenta (máx. 80 palabras, sin jerga): qué ha funcionado esta semana, qué no y qué se
-  va a hacer distinto la que viene.
-- "sugerencias": de 0 a 3 propuestas que necesitan su decisión (proporción de retos, nº de vídeos explicados o
-  chuletas, horarios), cada una con el dato que la respalda.
+- "resumen": para el dueño de la cuenta (máx. 80 palabras, sin jerga): qué ha funcionado esta semana y qué no. De lo que
+  viene, menciona SOLO lo que de verdad cambia (los cambios del piloto de arriba y que los guionistas siguen el playbook
+  nuevo); no prometas cambios de horario, de volumen ni de proporciones, porque eso no lo decide el piloto.
+- "sugerencias": de 0 a 3 propuestas que necesitan su decisión y que CAMBIEN la configuración actual (proporción de
+  retos, nº de vídeos explicados o de chuletas, horarios), cada una con el dato concreto que la respalda y diciendo de
+  qué valor a qué valor. Si los datos no justifican cambiar nada, devuelve una lista vacía.
 Devuelve JSON: {{"playbook": str, "chuletas": str, "explicados": str, "new_options": [{{"lever": "hook_style", "option": str}}],
 "resumen": str, "sugerencias": [str]}}""", 0.5)
     return out if isinstance(out, dict) else {}
@@ -345,7 +363,9 @@ def issue(key, body):
         import avisos
         title = f"📈 Informe semanal · {key}"
         opened = avisos._gh("GET", "/issues", params={"state": "open", "per_page": 100}) or []
-        if any(i.get("title") == title for i in opened):
+        same = next((i for i in opened if i.get("title") == title), None)
+        if same:                                             # revisión repetida: se actualiza el informe de esa semana
+            avisos._gh("PATCH", f"/issues/{same['number']}", json={"body": body[:60000]})
             return
         for i in opened:
             if str(i.get("title", "")).startswith("📈 Informe semanal") and "pull_request" not in i:
