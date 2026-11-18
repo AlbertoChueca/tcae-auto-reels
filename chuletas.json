@@ -689,5 +689,20 @@
 "tiktok": "6afdcfc3b6d9f295af5a98af"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-11-18",
+"slot": "18",
+"topic": "necesidadesHumanas",
+"tema": "Necesidades Humanas (Henderson y Maslow)",
+"subtema": "Necesidades de Henderson y Maslow",
+"quiz_id": "560f03d007",
+"imagenes": 7,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/Df5HTQtCZul/",
+"tiktok": "6afde9ace9fc15e57e9346d5"
+},
+"dry_run": false
 }
 ]
