@@ -31,6 +31,7 @@ on:
 permissions:
   contents: write
   issues: write        # avisos.py abre una incidencia si una red deja de publicar
+  actions: write       # despertar.py lanza el workflow que tenga algo pendiente
 
 concurrency:
   group: reels
@@ -48,6 +49,13 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.programado }}" != "true" ]; then echo "slot=manual" >> "$GITHUB_OUTPUT"; exit 0; fi
           python3 hueco.py reel
+
+      - name: Despertar lo pendiente de otros workflows
+        if: github.event_name == 'schedule'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          CHULETA: ${{ vars.CHULETA || 'true' }}
+        run: python3 despertar.py chuleta
 
       - uses: actions/setup-python@v6
         if: steps.slot.outputs.slot != 'skip'

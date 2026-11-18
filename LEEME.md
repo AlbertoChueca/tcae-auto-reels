@@ -24,6 +24,9 @@ en cuanto está listo; fuera de la ventana, ese hueco se salta. Si no toca nada,
 cuestan porque el repositorio es público (si algún día vuelve a ser privado, baja `PUBLISH_MAX_WAIT_MIN` y la
 frecuencia del cron). El cambio de hora verano/invierno se gestiona solo y un hueco nunca se publica dos veces.
 Para lanzar a mano el hueco que toque (o desde un reloj externo como cron-job.org): *Run workflow* con **programado**.
+Refuerzo (`despertar.py`): cualquier workflow programado que llegue (reels, chuleta o soluciones) comprueba si hay un
+reel o una chuleta pendientes y, si su workflow no está en marcha, lo lanza. Así basta con que GitHub entregue
+cualquiera de los ~7 avisos por hora para que nada se quede sin salir.
 
 ## Qué se publica en cada hueco (todo a la vez; si un destino falla, los demás siguen)
 | Red | Qué |

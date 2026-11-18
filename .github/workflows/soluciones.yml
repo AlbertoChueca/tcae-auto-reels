@@ -18,6 +18,7 @@ on:
 
 permissions:
   contents: write
+  actions: write       # despertar.py lanza el workflow que tenga algo pendiente
 
 concurrency:
   group: soluciones
@@ -33,6 +34,12 @@ jobs:
         run: echo "go=yes" >> "$GITHUB_OUTPUT"
       - uses: actions/checkout@v5
         if: steps.gate.outputs.go == 'yes'
+      - name: Despertar lo pendiente de otros workflows
+        if: github.event_name == 'schedule'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          CHULETA: ${{ vars.CHULETA || 'true' }}
+        run: python3 despertar.py reel chuleta
       - uses: actions/setup-python@v6
         if: steps.gate.outputs.go == 'yes'
         with:
