@@ -1,0 +1,92 @@
+explicado · 47.1 s · Diferencias clave entre angina e infarto
+
+Angina vs. infarto: la diferencia que siempre cae en examen 🫀
+
+En la cardiopatía isquémica, la angina supone una isquemia transitoria sin muerte celular cuyo dolor dura unos minutos y cede con reposo. En cambio, el infarto produce necrosis por falta prolongada de riego y su dolor se prolonga 30 minutos o más.
+
+💬 ¿Sabías distinguir isquemia de necrosis? Cuéntanos tu regla nemotécnica en comentarios.
+📌 Guárdalo para repasar y pásaselo a tu compi de opo.
+
+Practica este tema gratis con tests, simulacros y flashcards de las oposiciones de TCAE en apruebatcae.com (link en la bio).
+
+#TCAE #oposicionesTCAE #auxiliardeenfermeria #oposiciones #TCAEoposiciones
+
+{
+ "subtema": "Angina de pecho frente a infarto",
+ "titulo": "Diferencias clave entre angina e infarto",
+ "escenas": [
+  {
+   "voz": "Paciente con dolor opresivo en el pecho. ¿Es una angina o es un infarto?",
+   "rotulos": [
+    "DOLOR OPRESIVO"
+   ],
+   "tono": "alerta",
+   "dibujo": "A hospital room with a simple patient silhouette sitting on a medical bed, hand resting on chest, minimalist flat style.",
+   "dibujo_b": "",
+   "dato": null
+  },
+  {
+   "voz": "En la angina el riego disminuye de forma transitoria: produce isquemia, pero sin muerte del tejido cardíaco.",
+   "rotulos": [
+    "ISQUEMIA",
+    "SIN MUERTE"
+   ],
+   "tono": "neutro",
+   "dibujo": "Schematic outline of a human heart with clean coronary vessels glowing softly, simple modern medical vector illustration.",
+   "dibujo_b": "",
+   "dato": null
+  },
+  {
+   "voz": "En el infarto la interrupción es prolongada: provoca necrosis y el dolor dura treinta minutos o más sin ceder.",
+   "rotulos": [
+    "NECROSIS"
+   ],
+   "tono": "dato",
+   "dibujo": "A classic analog hospital wall clock marking thirty minutes, clean background, medical clinic aesthetics.",
+   "dibujo_b": "",
+   "dato": {
+    "tipo": "cifra",
+    "valor": "30",
+    "unidad": "MINUTOS O MÁS",
+    "etiqueta": "dolor en el infarto"
+   }
+  },
+  {
+   "voz": "Tras un infarto colaboramos en sus cuidados: evitar esfuerzos isométricos, dieta pobre en sal y evitar duchas de contraste.",
+   "rotulos": [
+    "EVITAR ESFUERZOS",
+    "POBRE EN SAL",
+    "DUCHAS DE CONTRASTE"
+   ],
+   "tono": "bien",
+   "dibujo": "A hospital bedside tray table holding a healthy meal plate with vegetables and a glass of water.",
+   "dibujo_b": "",
+   "dato": {
+    "tipo": "lista",
+    "items": [
+     "Evitar ejercicios isométricos",
+     "Evitar duchas de contraste"
+    ]
+   }
+  },
+  {
+   "voz": "Recuerda para tu examen: la angina supone isquemia reversible, pero el infarto siempre produce necrosis.",
+   "rotulos": [
+    "ISQUEMIA REVERSIBLE",
+    "INFARTO",
+    "NECROSIS"
+   ],
+   "tono": "dato",
+   "dibujo": "A clinical notepad on an examination desk next to a stethoscope, minimalist flat design.",
+   "dibujo_b": "",
+   "dato": {
+    "tipo": "versus",
+    "no": "ANGINA: NECROSIS",
+    "si": "INFARTO: NECROSIS"
+   }
+  }
+ ],
+ "caption_gancho": "¿Dudas entre angina e infarto en las preguntas de examen? 🫀",
+ "caption_cuerpo": "En la cardiopatía isquémica, la angina supone una isquemia transitoria sin muerte celular cuyo dolor dura unos minutos y cede con reposo. En cambio, el infarto produce necrosis por falta prolongada de riego y su dolor se prolonga 30 minutos o más.",
+ "pregunta_comentarios": "¿Te han preguntado en algún simulacro la duración del dolor en el infarto?"
+}
