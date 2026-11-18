@@ -97,19 +97,27 @@ SCHEMA = """{
 }"""
 
 GUIDE = """ESTRUCTURA (es lo que hace que estos vídeos se vean hasta el final):
-- Escena 1 = GANCHO: una situación concreta en segunda persona ("Entras en la habitación y...", "Te preguntan en el test
-  y dudas entre...") o una duda que todo opositor tiene. Máx. 14 palabras. Sin saludar ni presentarte.
+- Escena 1 = GANCHO: una situación concreta en SEGUNDA PERSONA y en presente, como si le estuviera pasando ahora
+  ("Entras en la habitación y tu paciente...", "Estás en el examen y dudas entre..."). Máx. 14 palabras. Sin saludar,
+  sin presentarte y sin "hoy vamos a ver".
 - Escenas 2-3 = QUÉ PASA Y POR QUÉ: el mecanismo, contado paso a paso y de forma visual.
 - Una escena con EL DATO CLAVE del material (una cifra, un tiempo, un orden): ponlo en "dato" SOLO si está en el material.
 - Una escena con QUÉ HACE LA TCAE (pasos o elementos concretos: "dato" tipo lista).
-- Última escena = IDEA PARA LLEVARSE, corta y redonda, con "dato" tipo versus (lo que NO es / lo que SÍ es).
-En total, entre 85 y 125 palabras de voz. Cada frase añade algo; nada de relleno ni de "en este vídeo te explico".
+- Última escena = IDEA PARA LLEVARSE, corta y redonda ("no es X: es Y"), con "dato" tipo versus: "no" = la idea
+  equivocada o lo que NO hay que hacer y "si" = la correcta, cada una entendible por sí sola en 1-4 palabras y sin
+  dos puntos (p. ej. no: "MÁS CREMAS", si: "MENOS PRESIÓN").
+Lo ideal son 6 escenas y entre 85 y 125 palabras de voz en total. Cada frase añade algo; nada de relleno ("en este
+vídeo te explico", "recuerda para tu examen").
 RÓTULOS: son el resumen visual. Palabras literales de la voz de esa escena, las que llevan la idea (un verbo, un
 término, una cifra). El primer rótulo de la escena 1 tiene que enganchar por sí solo.
-DIBUJOS: una escena, un objeto, un órgano o un lugar reconocible que ACOMPAÑE la idea (habitación de hospital, cama,
-carro de curas, lavabo, piel en corte esquemático, pulmones, termómetro...). Las personas, siempre figuras simples sin
-cara. No pidas dibujar una técnica o una postura exacta (puede quedar mal): mejor el objeto o la situación. Nunca
-texto, letras, números, sangre, heridas, agujas en la piel ni desnudos."""
+DIBUJOS: cada dibujo ENSEÑA lo que dice la voz en esa escena, no decora: el órgano o la zona del cuerpo en esquema
+con lo que le pasa resaltado (un vaso que se estrecha, una zona de piel aplastada contra el colchón, el aire entrando
+en los pulmones), el objeto que se usa o la situación en la habitación. Nada de libretas, escritorios u objetos de
+oficina. Las personas, siempre figuras simples sin cara. No pidas dibujar una técnica o una postura exacta (puede
+quedar mal): mejor el objeto, el órgano o la situación. Nunca texto, letras, números, sangre, heridas, agujas en la
+piel ni desnudos.
+DIBUJO_B: úsalo en 1 o 2 escenas en las que algo CAMBIA mientras habla la voz (el vaso abierto -> el vaso obstruido;
+la piel normal -> la piel enrojecida): "dibujo" es el antes y "dibujo_b" el después, con el mismo encuadre."""
 
 
 def write(tema, mat, notes=None, avoid=()):
@@ -459,7 +467,7 @@ class NeonBG:
         self.rings = [(rng.uniform(210, 250) + 95 * k, rng.uniform(0, 360), rng.choice([-1, 1]) * rng.uniform(8, 20),
                        rng.uniform(40, 110)) for k in range(3)]
 
-    def frame(self, lt, dur=6.0, switch=None, punch=0.0):
+    def frame(self, lt, dur=6.0, switch=None, punch=0.0, dimk=0.0):
         im = self.base.copy(); d = ImageDraw.Draw(im, "RGBA")
         cx, cy = W / 2, 900
         for r, a0, sp, span in self.rings:
@@ -471,22 +479,25 @@ class NeonBG:
 
 
 class SceneBG:
-    """Ilustración a pantalla completa con movimiento de cámara (zoom lento + un pequeño golpe cuando entra un rótulo)
-    y, si hay ilustración B, un fundido A -> B a mitad de la escena."""
+    """Ilustración a pantalla completa con movimiento de cámara (zoom lento + un pequeño golpe cuando entra un rótulo),
+    fundido A -> B si hay ilustración B y atenuado progresivo cuando entra un dato en pantalla."""
     S = 1.2
 
-    def __init__(self, a, b=None, k=0, dim=0.0):
-        self.a = self._prep(a, dim); self.b = self._prep(b, dim) if b is not None else None
+    def __init__(self, a, b=None, k=0, dim=False):
+        self.a = self._prep(a); self.b = self._prep(b) if b is not None else None
+        self.a_dim = self._dim(self.a) if dim else None
+        self.b_dim = self._dim(self.b) if (dim and self.b is not None) else None
         self.dir = 1 if k % 2 == 0 else -1
         self.pan = [(0, -1), (1, 0), (0, 1), (-1, 0)][k % 4]
 
-    def _prep(self, img, dim):
+    def _prep(self, img):
         im = grade(img)
         r = max(W * self.S / im.width, H * self.S / im.height)
-        im = im.resize((int(im.width * r) + 1, int(im.height * r) + 1), Image.LANCZOS)
-        if dim:
-            im = Image.blend(im.filter(ImageFilter.GaussianBlur(4)), Image.new("RGB", im.size, BG0), dim)
-        return im
+        return im.resize((int(im.width * r) + 1, int(im.height * r) + 1), Image.LANCZOS)
+
+    @staticmethod
+    def _dim(im):
+        return Image.blend(im.filter(ImageFilter.GaussianBlur(4)), Image.new("RGB", im.size, BG0), 0.55)
 
     def _view(self, src, lt, dur, punch):
         p = eio(lt / max(dur, 0.1))
@@ -497,11 +508,29 @@ class SceneBG:
         x0 = mx + self.pan[0] * mx * 0.5 * (p - 0.5); y0 = my + self.pan[1] * my * 0.35 * (p - 0.5)
         return src.crop((int(x0), int(y0), int(x0 + vw), int(y0 + vh))).resize((W, H), Image.BILINEAR)
 
-    def frame(self, lt, dur=6.0, switch=None, punch=0.0):
-        fr = self._view(self.a, lt, dur, punch)
+    def _mix(self, sharp, soft, lt, dur, punch, dimk):
+        if soft is None or dimk <= 0:
+            return self._view(sharp, lt, dur, punch)
+        if dimk >= 1:
+            return self._view(soft, lt, dur, punch)
+        return Image.blend(self._view(sharp, lt, dur, punch), self._view(soft, lt, dur, punch), dimk)
+
+    def frame(self, lt, dur=6.0, switch=None, punch=0.0, dimk=0.0):
+        fr = self._mix(self.a, self.a_dim, lt, dur, punch, dimk)
         if self.b is not None and switch is not None and lt > switch:
-            fr = Image.blend(fr, self._view(self.b, lt, dur, punch), eio((lt - switch) / 0.45))
+            fr = Image.blend(fr, self._mix(self.b, self.b_dim, lt, dur, punch, dimk), eio((lt - switch) / 0.45))
         return fr.convert("RGBA")
+
+
+def sweep():
+    """Barrido de luz diagonal (da vida a la ilustración al empezar cada escena)."""
+    def make():
+        w = 520
+        x = np.linspace(-1, 1, w, dtype=np.float32)[None, :]
+        a = (np.clip(1 - np.abs(x), 0, 1) ** 2.2 * 46).astype(np.uint8)
+        arr = np.zeros((H + 600, w, 4), np.uint8); arr[..., :3] = MINT; arr[..., 3] = np.broadcast_to(a, (H + 600, w))
+        return Image.fromarray(arr, "RGBA").rotate(16, Image.BILINEAR, expand=True)
+    return cached("sweep", make)
 
 
 def vignette():
@@ -788,7 +817,7 @@ def build(c, images, out, seed=0, tema=""):
     for i, s in enumerate(E):
         a_img, b_img = images[i] if i < len(images) else (None, None)
         if a_img is not None:
-            BGS.append(SceneBG(a_img, b_img, i, dim=0.5 if s["dato"] else 0.0))
+            BGS.append(SceneBG(a_img, b_img, i, dim=bool(s["dato"])))
         else:
             BGS.append(NeonBG(seed + i, TONE[s["tono"]] if s["tono"] != "neutro" else NEON))
     end_bg = NeonBG(seed + 99, NEON)
@@ -821,15 +850,19 @@ def build(c, images, out, seed=0, tema=""):
             j = max([x for x, tr in enumerate(rt) if tr <= tt], default=-1)
             punch = max(0.0, 1 - (tt - rt[j]) / 0.35) if j >= 0 else 0.0
             sw = (rt[1] - sg["a"] if len(rt) > 1 else dur * 0.5)
-            fr = BGS[i].frame(lt, dur, sw, punch)
+            d = s["dato"]
+            dimk = eio((tt - (sg["dt"][0] - 0.3)) / 0.45) if d else 0.0      # la ilustración se atenúa al entrar el dato
+            fr = BGS[i].frame(lt, dur, sw, punch, dimk)
             if i > 0 and lt < 0.28:                          # fundido rápido desde la escena anterior
                 pv = SEG[i - 1]
-                prev = BGS[i - 1].frame(pv["b"] - pv["a"] + lt, pv["b"] - pv["a"], None, 0.0)
+                prev = BGS[i - 1].frame(pv["b"] - pv["a"] + lt, pv["b"] - pv["a"], None, 0.0, 1.0 if E[i - 1]["dato"] else 0.0)
                 fr = Image.blend(prev, fr, eio(lt / 0.28))
+            if 0.15 < lt < 1.25 and isinstance(BGS[i], SceneBG):
+                sw_im = sweep(); px = -sw_im.width + (W + sw_im.width) * eio((lt - 0.15) / 1.1)
+                fr.alpha_composite(sw_im, (int(px), -300))
             fr.alpha_composite(vig)
             particles(fr, tt, seed)
             col = TONE[s["tono"]]
-            d = s["dato"]
             big = isinstance(BGS[i], NeonBG) and not d       # sin ilustración: el rótulo ocupa el centro
             if j >= 0:
                 im = neon_text(s["rotulos"][j], 150 if big else 116, col if j == len(rt) - 1 or s["tono"] != "neutro" else WHITE)

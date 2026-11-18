@@ -8,7 +8,7 @@ TikTok, para llevar opositores de TCAE de **toda España** a **apruebatcae.com**
 | 8:00 | chuleta de la mañana | Carrusel | Carrusel de fotos | — |
 | 14:30 | `mediodia` | Reel + story | Reel | Short |
 | 18:00 | chuleta de la tarde | Carrusel | Carrusel de fotos | — |
-| 21:30 | `noche` | Reel + story | Reel | Short |
+| 21:30 | `noche` | Reel + story (martes, jueves y domingo: **vídeo explicado**) | Reel | Short |
 
 Dos chuletas al día porque los carruseles se guardan unas 5 veces más que los reels (datos de octubre de 2026); el reel
 de las 8:00 se sustituyó por la chuleta de la mañana (el hueco `manana` sigue disponible a mano). El carrusel de TikTok
@@ -122,6 +122,38 @@ bonitos" en Instagram y en TikTok (modo foto). Workflow *Chuleta diaria* (`chule
   (`upp`, `piel`, `constantesVitales`...). Las imágenes se descargan en *Artifacts*.
 - **Apagar:** variable `CHULETA` = `false`. Coste de IA: 4 pegatinas + textos al día (unos céntimos).
 - Las imágenes se alojan en Zernio para que Instagram las descargue (sin Zernio, en el propio repositorio público).
+
+## Vídeos "explicados" (3 noches por semana, 21:30)
+Las noches de **martes, jueves y domingo** el reel de las 21:30 no es un test: es un **vídeo explicado** (`explica.py`),
+el formato de divulgación animada que mejor funciona ahora en redes, con los colores de la marca sobre fondo oscuro
+(teal neón, menta y dorado).
+- **Historia en 40-50 s:** situación en segunda persona ("Entras en la habitación y…") → qué pasa por dentro y por
+  qué → el dato clave → qué hace la TCAE → idea para llevarse ("no es X: es Y") → "pásaselo a tu compañera" + la web.
+- **En pantalla:** una ilustración de neón por escena con movimiento de cámara, rótulos grandes que entran justo
+  cuando la voz dice la palabra, subtítulos tipo karaoke arriba, cifras con contador, listas de pasos y tarjetas NO/SÍ.
+- **Rigor:** el guion sale solo del material de la app de ese tema y el verificador lo revisa frase a frase (voz,
+  rótulos, datos y descripción). Cada ilustración pasa otra revisión (sin texto, sin nada desagradable y sin
+  contradecir la voz) y un etalonaje a los colores de la marca; si una no sale, esa escena usa un fondo de neón
+  dibujado en código. Si no hay guion verificado o faltan ilustraciones, esa noche sale el reel tipo test.
+- **Temas:** solo temario sanitario, rotando por los que llevan más tiempo sin vídeo (los de actualidad primero);
+  no repite idea dentro de un tema (`explicados.json`).
+- **Cambiar los días:** variable `EXPLICA_DIAS` (0 = lunes … 6 = domingo; por defecto `1,3,6`; vacía = ninguno).
+  Sin ilustraciones de IA: `EXPLICA_IMAGENES=false`. **Probar uno:** *Reels diarios → Run workflow* con formato
+  `explicado` y "Solo generar el vídeo": deja una muestra ligera en la carpeta `muestras/` del repositorio.
+- Coste de IA: 6-9 ilustraciones por vídeo (céntimos), 3 veces por semana.
+
+## Avisos si una red deja de publicar (avisos.py)
+Si Instagram, TikTok o YouTube fallan por un problema de **cuenta** (token invalidado, cuenta desconectada), se abre
+una **incidencia en GitHub (pestaña Issues)** asignada a ti, con los pasos para arreglarlo: GitHub te manda un correo y
+una notificación. Además el workflow termina en rojo aunque las otras redes hayan publicado. Mientras siga fallando se
+añade un comentario al día y, cuando vuelve a funcionar, la incidencia se cierra sola. Para recibir los correos, en
+GitHub: *Settings → Notifications* con el correo activado para "Participating" (viene así por defecto).
+
+## Métricas de TikTok y YouTube
+`insights.update_zernio()` lee cada día los resultados de cada reel en TikTok y YouTube (analítica de Zernio) y los guarda
+en `performance_tiktok.json`. El piloto automático puntúa cada vídeo contra la media de **su** red, así aprende de las
+tres y no se queda ciego si Instagram falla. `strategy_report.md` incluye una tabla por red. Si el plan de Zernio no
+incluye la analítica, el resumen del workflow lo dice ("complemento Analytics") y todo sigue como antes.
 
 ## Cuenta generalista (toda España)
 Los textos, la voz, los hashtags y las descripciones hablan a opositores de TCAE de cualquier comunidad, sin nombrar

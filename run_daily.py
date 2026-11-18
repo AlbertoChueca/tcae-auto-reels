@@ -164,8 +164,8 @@ if explica_today() and (HAS_AI or os.environ.get("QUIZ_MOCK") == "1"):
         items, src, review = [], "ia", {}
         if HAS_AI:
             import reviewer
-            caption, review = reviewer.review_video(out, S, caption)              # RejectReel -> reel tipo test
-            open(out.replace(".mp4", ".txt"), "w").write(caption)
+            _, review = reviewer.review_video(out, S, caption)    # RejectReel -> reel tipo test. La descripción no se
+            # toca: ya está verificada frase a frase y el revisor podría colar una promesa ("siempre cae")
         meta.update(review_score=review.get("overall"), design_score=None, guion=src, series="Explicado",
                     imagen=bool(meta.get("ilustraciones")), concepto=meta.get("subtema"), yt_title=S.get("yt_title"))
         arms = {"formato": explica.FMT, "estilo": meta["estilo"]}
