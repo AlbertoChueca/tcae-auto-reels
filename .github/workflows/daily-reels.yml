@@ -23,6 +23,10 @@ on:
         description: "Solo generar el vídeo (no publicar)"
         type: boolean
         default: true
+      programado:
+        description: "Como si lo lanzara el reloj: publica el hueco que toque ahora (14:30 o 21:30) a su hora"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -42,7 +46,7 @@ jobs:
       - name: Elegir hueco
         id: slot
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then echo "slot=manual" >> "$GITHUB_OUTPUT"; exit 0; fi
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.programado }}" != "true" ]; then echo "slot=manual" >> "$GITHUB_OUTPUT"; exit 0; fi
           python3 hueco.py reel
 
       - uses: actions/setup-python@v6
@@ -90,7 +94,7 @@ jobs:
           GEMINI_VOICE: ${{ vars.GEMINI_VOICE || 'Sulafat' }}
           FORMAT_OVERRIDE: ${{ github.event_name == 'workflow_dispatch' && inputs.formato || 'auto' }}
           STYLE_OVERRIDE: ${{ github.event_name == 'workflow_dispatch' && inputs.estilo || 'auto' }}
-          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || false }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && !inputs.programado && inputs.dry_run || false }}
           IG_HANDLE: ${{ vars.IG_HANDLE || '@apruebatcae' }}
           IG_STORY: ${{ vars.IG_STORY || 'true' }}
           TIKTOK: ${{ vars.TIKTOK || 'true' }}

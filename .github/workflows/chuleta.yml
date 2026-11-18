@@ -13,6 +13,10 @@ on:
         description: "Solo generar las imágenes (no publicar)"
         type: boolean
         default: true
+      programado:
+        description: "Como si lo lanzara el reloj: publica la chuleta que toque ahora (8:00 o 18:00)"
+        type: boolean
+        default: false
       tema:
         description: "Tema (opcional, p. ej. upp, piel, constantesVitales). Vacío = el que toque"
         default: ""
@@ -34,7 +38,7 @@ jobs:
       - name: ¿Toca ahora?
         id: gate
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then echo "go=yes" >> "$GITHUB_OUTPUT"; echo "slot=manual" >> "$GITHUB_OUTPUT"; exit 0; fi
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.programado }}" != "true" ]; then echo "go=yes" >> "$GITHUB_OUTPUT"; echo "slot=manual" >> "$GITHUB_OUTPUT"; exit 0; fi
           if [ "${{ vars.CHULETA || 'true' }}" = "false" ]; then echo "go=no" >> "$GITHUB_OUTPUT"; exit 0; fi
           python3 hueco.py chuleta
           if grep -q "slot=skip" "$GITHUB_OUTPUT"; then echo "go=no" >> "$GITHUB_OUTPUT"; else echo "go=yes" >> "$GITHUB_OUTPUT"; fi
@@ -55,7 +59,7 @@ jobs:
           APP_PREGUNTAS: ${{ vars.APP_PREGUNTAS || '10.000' }}
           IG_HANDLE: ${{ vars.IG_HANDLE || '@apruebatcae' }}
           TIKTOK: ${{ vars.TIKTOK || 'true' }}
-          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || false }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && !inputs.programado && inputs.dry_run || false }}
           CHULETA_TEMA: ${{ github.event_name == 'workflow_dispatch' && inputs.tema || '' }}
           CHULETA_SLOT: ${{ steps.gate.outputs.slot || 'manual' }}
         run: python chuleta.py
