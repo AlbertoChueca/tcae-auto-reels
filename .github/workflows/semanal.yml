@@ -1,0 +1,48 @@
+name: Revisión semanal
+
+# Piloto automático, parte semanal (semanal.py): mide el crecimiento de la semana en Instagram, TikTok y YouTube, pausa los
+# formatos y estilos que rinden claramente peor, renueva los estilos de gancho, reescribe los playbooks de reels, chuletas
+# y explicados y abre la incidencia "Informe semanal" (te llega por correo).
+# Se hace una vez por semana (lunes): la lanza su propio cron o, si GitHub no lo entrega, cualquier aviso de reels o chuletas
+# (despertar.py). También se puede lanzar a mano.
+on:
+  schedule:
+    - cron: "23 5-12 * * 1,2"        # varios intentos (GitHub llega tarde); solo se hace una vez por semana
+  workflow_dispatch:
+    inputs:
+      forzar:
+        description: "Repetir la revisión aunque esta semana ya esté hecha"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: semanal
+  cancel-in-progress: false
+
+jobs:
+  semanal:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - run: pip install requests
+      - name: Revisar la semana
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GITHUB_TOKEN: ${{ github.token }}
+          INFORME_ISSUE: ${{ vars.INFORME_ISSUE || 'true' }}
+        run: |
+          python -c "import insights; print(insights.update()); print(insights.update_zernio())"
+          python semanal.py ${{ github.event_name == 'workflow_dispatch' && inputs.forzar && '--forzar' || '' }}
+      - name: Guardar
+        if: always()
+        run: python sincronizar.py "Revisión semanal $(date +%F)" performance.json performance_tiktok.json crecimiento.json informe_semanal.md playbook.md playbook_chuletas.md playbook_explicados.md strategy_arms.json strategy_report.md

@@ -48,7 +48,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
           CHULETA: ${{ vars.CHULETA || 'true' }}
-        run: python3 despertar.py reel
+        run: python3 despertar.py reel semanal
       - uses: actions/setup-python@v6
         if: steps.gate.outputs.go == 'yes'
         with:

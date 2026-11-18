@@ -144,17 +144,19 @@ def daily_learning(force=False):
         perf = json.load(open(os.path.join(HERE, "performance.json")))
     except Exception:
         perf = {}
-    rows = [r for r in perf.values() if r.get("hook")]
+    import strategy
+    res_all = [(rw, r) for _, rw, r in strategy._results() if r.get("hook")]      # Instagram + TikTok + YouTube
+    rows = [r for _, r in res_all]
     if len(rows) < 3:
         return "agentes: esperando resultados (hacen falta 3+ reels medidos)"
-    import strategy
-    rows.sort(key=lambda r: -(strategy.reward(r) or 0))
+    res_all.sort(key=lambda x: -x[0])
+    pick = res_all[:24] + res_all[-8:] if len(res_all) > 32 else res_all
     table = "\n".join(
-        f"- score {strategy.reward(r) or 0:.2f} | views {r.get('views')} | guardados {r.get('saved')} | compartidos {r.get('shares')} | "
+        f"- {r.get('red') or 'instagram'} | score {rw:+.2f} | views {r.get('views')} | guardados {r.get('saved')} | compartidos {r.get('shares')} | "
         f"comentarios {r.get('comments') or r.get('comments_count')} | visitas perfil {r.get('profile_visits')} | "
-        f"visionado {r.get('ig_reels_avg_watch_time')} ms | formato {r.get('formato')} | tema {r.get('temas')} | gancho: {r.get('hook')} | "
+        f"visionado {r.get('ig_reels_avg_watch_time')} ms | formato {r.get('formato')} | tema {r.get('temas') or r.get('tema')} | gancho: {r.get('hook')} | "
         + ", ".join(f"{k}={strategy.short(v)}" for k, v in (r.get("arms") or {}).items())
-        for r in rows[:30])
+        for rw, r in pick)
     comments = []
     try:
         import insights
@@ -168,7 +170,8 @@ def daily_learning(force=False):
 TCAE de toda España; público adulto). Roles:
 {json.dumps(ROLES, indent=1, ensure_ascii=False)}
 
-RESULTADOS REALES EN INSTAGRAM (mejores primero; score = views + guardados, compartidos, comentarios y visitas al perfil ponderados + visionado):
+RESULTADOS REALES EN INSTAGRAM, TIKTOK Y YOUTUBE (mejores primero y, al final, los peores; score = cuánto mejor o peor
+que un vídeo normal de ESA red, en desviaciones típicas; cuenta views, guardados, compartidos y comentarios):
 {table}
 
 COMENTARIOS RECIENTES (anónimos):

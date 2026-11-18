@@ -166,6 +166,18 @@ una notificación. Además el workflow termina en rojo aunque las otras redes ha
 añade un comentario al día y, cuando vuelve a funcionar, la incidencia se cierra sola. Para recibir los correos, en
 GitHub: *Settings → Notifications* con el correo activado para "Participating" (viene así por defecto).
 
+## Piloto automático: qué aprende solo y cada cuánto
+| Cada cuánto | Qué hace | Dónde |
+|---|---|---|
+| Cada reel | Elige formato, estilo visual, estilo de gancho, bloque del temario y tiempo para pensar con lo que mejor ha funcionado (muestreo de Thompson + 15 % de exploración). Aprende de **Instagram y TikTok** de los últimos 60 días; cada vídeo se compara con la media de su red. YouTube no cuenta (10-40 visualizaciones por vídeo es ruido). | `strategy.py` |
+| Cada día | Los 15 agentes reescriben sus cuadernos con los resultados de las dos redes y los comentarios. | `agents.py`, `estudio.py` |
+| Cada semana (lunes) | **Revisión semanal**: mide el crecimiento por red frente a la semana anterior (publicaciones, visualizaciones, comentarios, guardados, compartidos, seguidores); **pausa una semana** los 1-2 formatos o estilos que rinden claramente peor (≥ 6 vídeos, 0,45 desviaciones bajo lo normal y mal en todas las redes donde tienen datos; nunca más de 2 semanas seguidas); añade hasta 2 ganchos nuevos y retira el que pierde; reescribe los **playbooks** de reels, chuletas y explicados que usan los guionistas; y abre la incidencia **"Informe semanal"** (te llega por correo) con cifras, cambios y sugerencias. | `semanal.py`, workflow *Revisión semanal* |
+
+Si el formato pausado era la serie fija de un día (p. ej. "Martes de trampas"), ese día elige formato el piloto.
+Lo que el piloto **no** cambia solo y solo te sugiere en el informe: proporción de retos (`RETO_CADA`), nº de vídeos
+explicados (`EXPLICA_DIAS`), nº de chuletas y horarios. Histórico semanal en `crecimiento.json`; último informe en
+`informe_semanal.md`. Para no recibir la incidencia: variable `INFORME_ISSUE=false`.
+
 ## Métricas de TikTok y YouTube
 `insights.update_zernio()` lee cada día los resultados de cada reel en TikTok y YouTube (analítica de Zernio) y los guarda
 en `performance_tiktok.json`. El piloto automático puntúa cada vídeo contra la media de **su** red, así aprende de las

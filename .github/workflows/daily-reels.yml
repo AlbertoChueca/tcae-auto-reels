@@ -55,7 +55,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
           CHULETA: ${{ vars.CHULETA || 'true' }}
-        run: python3 despertar.py chuleta
+        run: python3 despertar.py chuleta semanal
 
       - uses: actions/setup-python@v6
         if: steps.slot.outputs.slot != 'skip'
@@ -127,4 +127,4 @@ jobs:
 
       - name: Recordar preguntas usadas, verificaciones y aprendizajes
         if: always() && steps.slot.outputs.slot != 'skip'
-        run: python sincronizar.py "Reel ${{ steps.slot.outputs.slot }} $(date +%F)" used.json log.jsonl review_log.jsonl performance.json performance_tiktok.json strategy_arms.json strategy_report.md playbook.md banco/verificacion.json banco/verificacion_fichas.json banco/informe_verificacion.md image_log.jsonl agents soluciones tendencias.json explicados.json muestras
+        run: python sincronizar.py "Reel ${{ steps.slot.outputs.slot }} $(date +%F)" used.json log.jsonl review_log.jsonl performance.json performance_tiktok.json strategy_report.md banco/verificacion.json banco/verificacion_fichas.json banco/informe_verificacion.md image_log.jsonl agents soluciones tendencias.json explicados.json muestras

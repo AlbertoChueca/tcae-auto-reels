@@ -191,6 +191,13 @@ def _num(a, *names):
     return None
 
 
+def _chuletas():
+    try:
+        return json.load(open(os.path.join(HERE, "chuletas.json")))
+    except Exception:
+        return []
+
+
 def update_zernio(max_age=21, final_age=10):
     """Resultados de TikTok y YouTube Shorts de cada reel (GET /analytics?postId= de Zernio) -> performance_tiktok.json.
     Con ellos el piloto automático aprende también de TikTok, que es donde más crece la cuenta, y sigue aprendiendo
@@ -222,6 +229,20 @@ def update_zernio(max_age=21, final_age=10):
             if old.get("fecha") == str(today) or (old.get("views") is not None and old.get("edad", 0) >= final_age):
                 continue
             rows.append((pid, plat, e, age))
+    for c in _chuletas():                                  # carruseles de TikTok (chuletas)
+        try:
+            age = (today - datetime.date.fromisoformat(c["fecha"])).days
+        except Exception:
+            continue
+        pid = str((c.get("destinos") or {}).get("tiktok") or "")
+        if not 1 <= age <= max_age or not pid or pid.startswith("error") or pid == "ok":
+            continue
+        old = perf.get(pid) or {}
+        if old.get("fecha") == str(today) or (old.get("views") is not None and old.get("edad", 0) >= final_age):
+            continue
+        rows.append((pid, "tiktok", {"date": c["fecha"], "slot": str(c.get("slot")), "formato": "chuleta", "hook": c.get("subtema"),
+                                     "tema": c.get("tema")}, age))
+    rows.sort(key=lambda x: x[3])                          # los más recientes primero (son los que cambian)
     got = pending = 0
     hdr = {"Authorization": f"Bearer {key}"}
     import time
@@ -257,6 +278,7 @@ def update_zernio(max_age=21, final_age=10):
             pending += 1; continue
         perf[pid] = {"red": plat, "date": e.get("date"), "slot": e.get("slot"), "formato": e.get("formato"), "estilo": e.get("estilo"),
                      "hook": e.get("hook"), "guion": e.get("guion"), "arms": e.get("arms"), "duration": e.get("duration"),
+                     "tema": e.get("tema") or (e.get("temas") or [None])[0],
                      "views": views, "likes": _num(a, "likes") or 0, "comments": _num(a, "comments") or 0,
                      "shares": _num(a, "shares") or 0, "saved": _num(a, "saves", "saved") or 0,
                      "url": pa.get("platformPostUrl"), "edad": age, "fecha": str(today)}

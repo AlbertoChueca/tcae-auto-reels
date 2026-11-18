@@ -131,6 +131,16 @@ SCHEMA = """{
 }"""
 
 
+def _playbook():
+    """Lo que la revisión semanal ha aprendido de las chuletas que más se guardan y comparten (solo estilo, no datos)."""
+    try:
+        import strategy
+        pb = strategy.playbook_of("chuletas")
+        return ("LO QUE MEJOR FUNCIONA EN NUESTRAS CHULETAS (úsalo para elegir subtema y titular; no añade datos al material):\n" + pb[:900]) if pb else ""
+    except Exception:
+        return ""
+
+
 def write(topic, tema, mat, notes=None, avoid=()):
     import gemini
     prompt = f"""{ROLE}
@@ -146,6 +156,7 @@ Reglas: cada frase debe poder comprobarse en el material; nada de "siempre/nunca
 mencionar comunidades autónomas; sin emojis dentro de las diapositivas (solo en la descripción); los términos tal y como
 aparecen en el material. Escribe SOLO lo que se lee, sin indicaciones de diseño.
 {("CORRIGE estos problemas que encontró el verificador en tu versión anterior: " + json.dumps(notes, ensure_ascii=False)) if notes else ""}
+{_playbook()}
 Devuelve JSON exactamente con esta forma:
 {SCHEMA}"""
     return gemini.ask(prompt, 0.7)

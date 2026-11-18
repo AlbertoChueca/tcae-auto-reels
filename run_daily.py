@@ -103,16 +103,20 @@ override = os.environ.get("FORMAT_OVERRIDE", "auto")
 style_override = os.environ.get("STYLE_OVERRIDE", "auto")
 try:
     import strategy
+    # La revisión semanal (semanal.py: pausas, ganchos nuevos, playbooks e informe) corre en su propio workflow.
+    strat_msg = "en pausa esta semana: " + json.dumps(strategy.paused(), ensure_ascii=False) if any(strategy.paused().values()) else ""
     fixed = {"formato": override} if override in strategy.DEFAULT_ARMS["formato"] else {}
     if slot == "mediodia" and not fixed:
         import estudio
         series_info = estudio.series_today(today)
-        fixed["formato"] = series_info["series_fmt"]          # cita fija del día: la gente sabe qué toca
+        if series_info["series_fmt"] in strategy.paused("formato"):
+            print(f"la serie de hoy ({series_info['series_name']}) está en pausa esta semana: elige el piloto automático", flush=True)
+            series_info = None
+        else:
+            fixed["formato"] = series_info["series_fmt"]      # cita fija del día: la gente sabe qué toca
     if style_override in strategy.DEFAULT_ARMS["estilo"]:
         fixed["estilo"] = style_override
     arms = strategy.choose(seed=f"{now:%Y-%m-%d-%H}-{slot}", fixed=fixed)
-    if HAS_AI and slot == "mediodia":
-        strat_msg = strategy.weekly_strategist()
     strategy.write_report()
     print("experimento:", {k: strategy.short(v) for k, v in arms.items()}, "|", strat_msg, flush=True)
 except Exception as e:

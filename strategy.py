@@ -20,6 +20,10 @@ PERF = os.path.join(HERE, "performance.json")
 PERF_Z = os.path.join(HERE, "performance_tiktok.json")
 EXPLORE = float(os.environ.get("EXPLORE_RATE", "0.15"))
 MIN_AGE_DAYS = 3
+MAX_AGE_DAYS = int(os.environ.get("PILOTO_DIAS", "60"))        # el piloto aprende de los últimos 60 días (la cuenta cambia)
+# Redes de las que aprende el piloto. YouTube Shorts queda fuera: con 10-40 visualizaciones por vídeo es ruido y
+# distorsionaba las decisiones (p. ej. hundía formatos que en TikTok van bien). Sigue saliendo en los informes.
+LEARN_FROM = [x.strip() for x in os.environ.get("PILOTO_REDES", "instagram,tiktok").split(",") if x.strip()]
 
 DEFAULT_ARMS = {
     "formato": ["pregunta_del_dia", "examen_real", "error_tipico", "truco_memorizar", "mito_realidad", "simulacro_3",
@@ -39,15 +43,38 @@ DEFAULT_ARMS = {
 THINK_SECONDS = {"corto": 5, "normal": 7, "largo": 9}
 
 
-def arms():
+def _file():
     try:
-        a = json.load(open(ARMS_FILE))
-        for k, v in DEFAULT_ARMS.items():
-            a.setdefault(k, v)
-        a["bloque"] = [b for b in a["bloque"] if b != "aragon"] or list(DEFAULT_ARMS["bloque"])   # cuenta generalista
-        return a
+        return json.load(open(ARMS_FILE))
     except Exception:
-        return {k: list(v) for k, v in DEFAULT_ARMS.items()}
+        return {}
+
+
+def arms():
+    """Opciones de cada palanca (solo listas: el archivo guarda además las pausas de la semana)."""
+    a = {k: v for k, v in _file().items() if isinstance(v, list)}
+    for k, v in DEFAULT_ARMS.items():
+        a.setdefault(k, list(v))
+    a["bloque"] = [b for b in a["bloque"] if b != "aragon"] or list(DEFAULT_ARMS["bloque"])   # cuenta generalista
+    return a
+
+
+def paused(lever=None):
+    """Formatos y estilos que la revisión semanal (semanal.py) ha dejado en pausa ESTA semana: {palanca: [opción]}."""
+    p = _file().get("pausados") or {}
+    y, w, _ = datetime.date.today().isocalendar()
+    if p.get("semana") != f"{y}-W{w:02d}":
+        p = {}
+    out = {k: [x for x in (p.get(k) or []) if isinstance(x, str)] for k in ("formato", "estilo")}
+    return out if lever is None else out.get(lever, [])
+
+
+def playbook_of(name):
+    """Playbook de 'chuletas' o 'explicados' (lo escribe la revisión semanal)."""
+    try:
+        return open(os.path.join(HERE, f"playbook_{name}.md")).read().strip()
+    except Exception:
+        return ""
 
 
 
@@ -86,9 +113,11 @@ def _results():
             continue
         for r in perf.values():
             try:
-                if not isinstance(r, dict) or (today - datetime.date.fromisoformat(r["date"])).days < MIN_AGE_DAYS:
+                if not isinstance(r, dict) or not MIN_AGE_DAYS <= (today - datetime.date.fromisoformat(r["date"])).days <= MAX_AGE_DAYS:
                     continue
             except Exception:
+                continue
+            if (red or r.get("red") or "tiktok") not in LEARN_FROM:
                 continue
             rw = fn(r)
             if rw is not None and r.get("arms"):
@@ -138,6 +167,9 @@ def choose(seed=None, fixed=None):
     for lev, d in st.items():
         if fixed and lev in fixed:
             pick[lev] = fixed[lev]; continue
+        off = set(paused(lev)) if lev in ("formato", "estilo") else set()
+        if off and len(d) - len(off & set(d)) >= 3:        # en pausa esta semana (revisión semanal)
+            d = {a: v for a, v in d.items() if a not in off}
         if lev in ("hook_style", "formato", "estilo"):
             banned = {r.get(lev) for r in recent}
             if len(d) - len(banned & set(d)) >= 2:
@@ -189,54 +221,7 @@ def playbook_text():
 
 
 def weekly_strategist(force=False):
-    """Once a week (Mondays): Gemini reads all results and writes the playbook; may add up to 2 new options."""
-    if not force and datetime.date.today().weekday() != 0:
-        return "strategist: not today"
-    if os.path.exists(PLAYBOOK) and not force:
-        if datetime.date.fromtimestamp(os.path.getmtime(PLAYBOOK)) == datetime.date.today():
-            return "strategist: already ran today"
-    res = _results()
-    if len(res) < 6:
-        return "strategist: waiting for more results"
-    import gemini, reviewer
-    rows = sorted(res, key=lambda x: -x[1])
-    table = "\n".join(f"- {r.get('red') or 'instagram'} | score {rw:+.2f} | views {r.get('views')} | guardados {r.get('saved')} | compartidos {r.get('shares')} | "
-                      f"comentarios {r.get('comments') or r.get('comments_count')} | visitas perfil {r.get('profile_visits')} | "
-                      f"\"{r.get('hook')}\" | " + ", ".join(f"{k}={short(v)}" for k, v in a.items())
-                      for a, rw, r in rows[:40])
-    A = arms()
-    out = gemini.ask(f"""{reviewer.PRODUCER}
-Ahora eres el ESTRATEGA del canal. Resultados reales de nuestros reels en cada red (mejores primero; "score" = cuánto
-mejor o peor que un vídeo normal de ESA red, en desviaciones típicas) y opciones que probamos.
-RESULTADOS:
-{table}
-
-OPCIONES ACTUALES:
-{json.dumps({k: [short(x) for x in v] for k, v in A.items()}, indent=1, ensure_ascii=False)}
-
-1) Escribe un PLAYBOOK (máx. 220 palabras, viñetas, español) con lecciones concretas: qué formatos, ganchos, bloques de
-   temario, tiempo para pensar y estilos de descripción funcionan mejor con NUESTRA audiencia, y qué evitar.
-2) Propón como mucho 2 NUEVOS estilos de gancho (solo hook_style), "nombre: descripción de una línea", distintos de los
-   actuales e inspirados en lo que funciona. Nunca estadísticas inventadas ni promesas de aprobar.
-Devuelve JSON: {{"playbook": str, "new_options": [{{"lever": "hook_style", "option": str}}]}}""", 0.5)
-    pb = (out.get("playbook") or "").strip()
-    if pb:
-        open(PLAYBOOK, "w").write(f"# Playbook (actualizado {datetime.date.today()})\n\n{pb}\n")
-    added = []
-    for o in (out.get("new_options") or [])[:2]:
-        lev, opt = o.get("lever"), (o.get("option") or "").strip()
-        if lev == "hook_style" and opt and short(opt) not in [short(x) for x in A[lev]] and len(A[lev]) < 10:
-            A[lev].append(opt); added.append(short(opt))
-    # retire clear losers so the pool stays focused (kept in file history)
-    st, mu, sd, _ = stats()
-    for lev in ("hook_style",):
-        ranked = [(a, n, m) for a, (n, m) in st[lev].items() if m is not None]
-        if len(A[lev]) > 4 and len(ranked) >= 4:          # at most one retirement per lever per week
-            best = max(m for _, _, m in ranked)
-            median = sorted(m for _, _, m in ranked)[len(ranked) // 2]
-            losers = [(m, a) for a, n, m in ranked
-                      if n >= 8 and m < median and m < best - 2.5 * sd / math.sqrt(n)]
-            if losers:
-                a = min(losers)[1]; A[lev].remove(a); added.append(f"retired {short(a)}")
-    json.dump(A, open(ARMS_FILE, "w"), indent=1)
-    return f"estratega: playbook actualizado; cambios: {', '.join(added) or 'none'}"
+    """La revisión semanal vive ahora en semanal.py (mide el crecimiento, pausa lo que no funciona, escribe los playbooks
+    y manda el informe). Se llama desde run_daily.py con el primer reel de cada semana."""
+    import semanal
+    return semanal.run(force)

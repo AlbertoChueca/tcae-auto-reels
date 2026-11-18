@@ -120,6 +120,16 @@ DIBUJO_B: úsalo en 1 o 2 escenas en las que algo CAMBIA mientras habla la voz (
 la piel normal -> la piel enrojecida): "dibujo" es el antes y "dibujo_b" el después, con el mismo encuadre."""
 
 
+def _playbook():
+    """Lo que la revisión semanal ha aprendido de los explicados que mejor funcionan (solo estilo, no datos)."""
+    try:
+        import strategy
+        pb = strategy.playbook_of("explicados")
+        return ("LO QUE MEJOR FUNCIONA EN NUESTROS VÍDEOS EXPLICADOS (para elegir idea y gancho; no añade datos al material):\n" + pb[:900]) if pb else ""
+    except Exception:
+        return ""
+
+
 def write(tema, mat, notes=None, avoid=()):
     import gemini
     try:
@@ -135,6 +145,7 @@ MATERIAL DE LA APP (lo ÚNICO que puedes afirmar; no añadas datos, cifras ni ej
 {("ACTUALIDAD (opcional, solo si encaja de verdad con la idea):" + chr(10) + hot) if hot else ""}
 {("IDEAS YA HECHAS de este tema (elige otra distinta): " + "; ".join(avoid)) if avoid else ""}
 {("CORRIGE estos problemas del intento anterior: " + json.dumps(notes, ensure_ascii=False)[:1200]) if notes else ""}
+{_playbook()}
 
 Elige dentro del tema UNA idea que tenga un PORQUÉ (un mecanismo, una causa, un orden con sentido) y que confunda en
 los test, y escribe el vídeo.

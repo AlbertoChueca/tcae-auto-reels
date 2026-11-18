@@ -12,7 +12,17 @@ import json, os, sys, urllib.request
 
 import hueco
 
-WF = {"reel": "daily-reels.yml", "chuleta": "chuleta.yml"}
+WF = {"reel": "daily-reels.yml", "chuleta": "chuleta.yml", "semanal": "semanal.yml"}
+
+
+def semanal_pendiente():
+    """¿Falta la revisión semanal de esta semana? (crecimiento.json guarda una entrada por semana ISO)."""
+    import datetime
+    y, w, _ = datetime.date.today().isocalendar()
+    try:
+        return f"{y}-W{w:02d}" not in (json.load(open(os.path.join(hueco.HERE, "crecimiento.json"))).get("semanas") or {})
+    except Exception:
+        return True
 
 
 def gh(method, path, body=None):
@@ -37,6 +47,12 @@ def main(kinds):
         print("despertar: sin GITHUB_TOKEN"); return
     for kind in kinds:
         try:
+            if kind == "semanal":
+                if semanal_pendiente() and not busy(WF[kind]):
+                    gh("POST", f"/actions/workflows/{WF[kind]}/dispatches",
+                       {"ref": os.environ.get("GITHUB_REF_NAME") or "main", "inputs": {"forzar": "false"}})
+                    print("despertar: lanzada la revisión semanal")
+                continue
             if kind == "chuleta" and os.environ.get("CHULETA", "true").lower() == "false":
                 continue
             slot, mins = hueco.due(kind)
