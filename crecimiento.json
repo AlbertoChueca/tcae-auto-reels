@@ -44,9 +44,7 @@
 },
 "cambios": [
 "formato `error_tipico` en pausa esta semana: 6 vídeos, -0.59 respecto a un vídeo normal de su red",
-"gancho nuevo a prueba: `cifras_clave`",
-"gancho nuevo a prueba: `protocolo_planta`",
-"gancho retirado: `empatía`"
+"gancho nuevo a prueba: `caso_urgencias`"
 ],
 "diag": []
 }

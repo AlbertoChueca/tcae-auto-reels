@@ -42,6 +42,7 @@ _Updated 2026-11-18 · 102 reels with results (3+ days old) · average score 0.0
 | curiosidad | 6 | -0.35 |
 | cifras_clave | 0 | - |
 | protocolo_planta | 0 | - |
+| caso_urgencias | 0 | - |
 
 ## bloque
 
@@ -90,9 +91,9 @@ _Updated 2026-11-18 · 102 reels with results (3+ days old) · average score 0.0
 ---
 # Playbook (actualizado 2026-11-18)
 
-• Formatos clave: Priorizar 'examen_real' (líder en TikTok con mediana de 805 views y 25 comentarios) y 'simulacro_3' (máximo alcance en Instagram con 199 views). Introducir 'flashcards_express' estratégicamente: aunque bajan en comentarios, multiplican los guardados en ambas redes (8.6 en TT y 7.4 en IG).
-• Ganchos: Usar ganchos tipo 'examen' (865 mediana en TT) y 'dilema_guardia' (778 views y 6 guardados en IG). Evitar ganchos de 'empatía' y 'trampa' (caen a ~320 views en TT).
-• Temario: Enfocarse en 'clinico' (778 views en TT). Usar 'legislación' de forma dosificada: pocos vídeos (5), pero generan el mayor engagement relativo (23.2 comentarios y 8.6 guardados).
-• Estilo visual: Estandarizar 'cuaderno' (763 views y 7.6 guardados en TT; líder en guardados en IG). Reducir 'noche' en TT (cae a 361 views) y descartar 'minimal'.
-• Tiempo y dinámica: Configurar tiempo de pensar 'normal' (748 views en TT). Mantener formato 'reto' para forzar comentarios (13.5 com.), pero alternar con publicaciones 'con solución' o flashcards para maximizar guardados.
+• Formatos ganadores: 'examen_real' lidera en TikTok (mediana 805 views, 25 com., 12 guardados) y destaca en IG (167 views). 'simulacro_3' es el más visto en Instagram (mediana 199 views). 'flashcards_express' dispara los guardados en ambas redes (8.6 en TT, 7.4 en IG); usarlo para retención.
+• Ganchos: Priorizar gancho 'examen' (865 mediana en TT) y 'terminos_confusos' (199 en IG). 'dilema_guardia' rinde bien en vistas en TT (778) y guardados en IG (6.0). Descartar 'empatía' (123 views IG, 312 TT) y 'trampa' (323 en TT).
+• Temas: 'clinico' es la apuesta segura (778 views en TT). 'legislacion' tiene muestra baja (5 vídeos), pero revienta la interacción en TT (23.2 comentarios, 8.6 guardados); mantener con rigor.
+• Estilo visual: 'cuaderno' rige en ambas redes (763 views y 7.6 guardados en TT; 3.3 guardados en IG). Evitar 'minimal' (bajas vistas globales) y 'noche' (361 views TT).
+• Dinámica y tiempos: Tiempo 'normal' en TT (748 views, 5.9 guardados); 'corto' en IG (166 views). El formato 'reto' impulsa comentarios masivos (13.5 en TT), mientras 'con solución' multiplica guardados (7.3 en TT, 2.6 en IG).
 
