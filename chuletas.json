@@ -704,5 +704,20 @@
 "tiktok": "6afde9ace9fc15e57e9346d5"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-11-19",
+"slot": "8",
+"topic": "cirugia",
+"tema": "Cirugía: Pre, Trans y Postoperatorio",
+"subtema": "Periodos quirúrgicos y cuidados",
+"quiz_id": "c3aaba556c",
+"imagenes": 7,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/Df6lbxYnN2F/",
+"tiktok": "6afeaa6c8e3d7f18cda9b161"
+},
+"dry_run": false
 }
 ]
