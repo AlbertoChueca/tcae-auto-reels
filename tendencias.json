@@ -1,16 +1,75 @@
 {
-"fecha": "2026-11-18",
-"fuentes_consultadas": 0,
+"fecha": "2026-11-19",
+"fuentes_consultadas": 7,
 "diag": {
 "modelo": "gemini-3.8-flash",
-"busquedas": 0,
-"fuentes": 0,
-"claves": [],
+"busquedas": 4,
+"fuentes": 7,
+"claves": [
+"groundingChunks",
+"groundingSupports",
+"searchEntryPoint",
+"webSearchQueries"
+],
 "cand_claves": [
 "content",
 "finishReason",
+"groundingMetadata",
 "index"
 ]
 },
-"items": []
+"items": [
+{
+"titulo": "Semana de Concienciación sobre el Uso Prudente de los Antibióticos",
+"dato": "Los antibióticos únicamente son eficaces para combatir las infecciones bacterianas y no curan infecciones causadas por virus como el resfriado común o la gripe.",
+"url": "https://www.sanidad.gob.es/campannas/campanas14/antibioticosDE.htm",
+"fecha": "2026-11-18",
+"temas": [
+"farmacologia",
+"seguridad",
+"lavadoManos"
+],
+"gancho": "¿Virus o bacteria? ¡Cuidado con el antibiótico en examen!",
+"por_que": "Tema recurrente en farmacología, seguridad asistencial e higiene de manos hospitalaria."
+},
+{
+"titulo": "Día Mundial de la Enfermedad Pulmonar Obstructiva Crónica (EPOC)",
+"dato": "La EPOC es una patología respiratoria que limita de forma persistente el flujo aéreo, engloba enfisema y bronquitis crónica, asociándose principalmente al consumo de tabaco.",
+"url": "https://www.saludcastillayleon.es/sanidad/cm/es/escuela-pacientes/dias-mundiales/dia-mundial-enfermedad-pulmonar-obstructiva-cronica-epoc",
+"fecha": "2026-11-18",
+"temas": [
+"respiratorio",
+"oxigenoterapia",
+"prevencionSalud"
+],
+"gancho": "¿Diferencias entre enfisema y bronquitis crónica en tu examen?",
+"por_que": "Imprescindible para repasar fisiopatología pulmonar y administración de oxigenoterapia a bajo flujo."
+},
+{
+"titulo": "Campaña de vacunación estacional de gripe y COVID-19",
+"dato": "Se recomienda la administración conjunta de vacunas de gripe y COVID-19 priorizando a personas mayores de 60 años, residentes de centros sociosanitarios y personal sanitario.",
+"url": "https://www.sanidad.gob.es/areas/promocionPrevencion/vacunaciones/gripe_covid19/home.htm",
+"fecha": "2026-11-05",
+"temas": [
+"inmunidadVacunas",
+"geriatria",
+"prevencionSalud"
+],
+"gancho": "¿Vacunas en campaña? Repasa la inmunidad en tu examen.",
+"por_que": "El calendario de vacunaciones y los grupos diana entran continuamente en convocatorias."
+},
+{
+"titulo": "25N: Día Internacional para la Eliminación de la Violencia contra la Mujer",
+"dato": "El sistema de salud constituye un entorno fundamental para la detección temprana, asistencia integral y actuación sanitaria coordinada ante casos de violencia de género.",
+"url": "https://violenciagenero.igualdad.gob.es",
+"fecha": "2026-11-25",
+"temas": [
+"bioetica",
+"principioIgualdad",
+"comunicacion"
+],
+"gancho": "Protocolo de maltrato sanitario: cae sí o sí en OPE.",
+"por_que": "La legislación en igualdad y la detección de maltrato son temas comunes obligatorios."
+}
+]
 }
