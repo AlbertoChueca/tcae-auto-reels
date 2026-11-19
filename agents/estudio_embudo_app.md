@@ -1,5 +1,5 @@
-# Cuaderno de embudo_app (2026-11-18)
+# Cuaderno de embudo_app (2026-11-19)
 
-- Seguir haciendo: Vincular la resolución de preguntas complejas con la práctica intensiva en apruebatcae.com.
-- Dejar de hacer: Intentar medir conversión directa o visitas al perfil; los datos no bastan (figuran como None).
-- Probar: CTA enfocada a volumen de examen oficial: «Practica miles de preguntas oficiales explicadas paso a paso en apruebatcae.com».
+- Seguir haciendo: Conectar la resolución de preguntas oficiales con la práctica en apruebatcae.com.
+- Dejar de hacer: Medir conversión o clics en perfil; los datos no bastan (figuran casi en su totalidad como None).
+- Probar: Llamada a la acción orientada al error: «Si fallaste esta, practica el bloque completo en apruebatcae.com».

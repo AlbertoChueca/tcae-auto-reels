@@ -1,5 +1,5 @@
-# Cuaderno de guion (2026-11-18)
+# Cuaderno de guion (2026-11-19)
 
-- Seguir haciendo: Monográficos clínicos en formato «flashcards_express» (La Piel: récord de 31 guardados) y «simulacro_3» combinando clínica y terminología (>12 s retención).
-- Dejar de hacer: Formato «error_tipico» (retención mínima de 4,8 s) y preguntas aisladas de legislación sin contexto práctico.
-- Probar: Flashcards monográficas de Aparato Respiratorio o Sondajes con concepto clave y trampa típica de examen.
+- Seguir haciendo: Monográficos clínicos en «flashcards_express» (La Piel: 32 guardados) y preguntas oficiales tipo «examen_real» (top en TikTok con 6.6k views y 42 guardados).
+- Dejar de hacer: Bloques autonómicos hiperlocales («Denominaciones Aragón», score -1.40), formatos «mito_realidad» y legislación abstracta (Constitución) sin aplicación práctica directa.
+- Probar: Simulacros clínicos combinados con Prevención de Riesgos (tema con gran retención de 13 s), resolviendo la trampa típica en la última tarjeta.

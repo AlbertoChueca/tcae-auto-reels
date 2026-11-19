@@ -1,5 +1,5 @@
-# Cuaderno de ilustradora (2026-11-18)
+# Cuaderno de ilustradora (2026-11-19)
 
-- Seguir haciendo: Entornos clínicos luminosos y materiales asépticos claros.
-- Dejar de hacer: Añadir viñeteados o degradados oscuros inferiores (causa del 100% de rechazos), ilustrar textos de fondo y pintar guantes para tareas limpias o administrativas.
-- Probar: Planos detalle cenitales de bandejas o bateas sobre fondos limpios continuos, evitando figuras humanas completas y suelos.
+- Seguir haciendo: Iluminación clínica clara y superficies asépticas realistas.
+- Dejar de hacer: Añadir viñeteados o degradados oscuros basales (causa reiterada de rechazo), textos en fondos y guantes en tareas limpias o administrativas.
+- Probar: Planos cenitales cerrados de instrumental en batea sobre fondo continuo sin suelo ni figuras humanas.

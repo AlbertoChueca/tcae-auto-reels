@@ -1,5 +1,5 @@
-# Cuaderno de memoria (2026-11-18)
+# Cuaderno de memoria (2026-11-19)
 
-- Seguir haciendo: Potenciar «flashcards_express» en estilo «cuaderno», formato imbatible en retención y guardados (31 guardados, récord de la cuenta).
-- Dejar de hacer: Formatos continuos que revelen la respuesta sin dar tiempo a la recuperación activa.
-- Probar: Instrucción directa al inicio: «Pausa, responde mentalmente y comprueba si aciertas antes de que gire la tarjeta».
+- Seguir haciendo: Apostar por «flashcards_express» en estilo «cuaderno», imbatible en retención y guardados (32 guardados).
+- Dejar de hacer: Revelar respuestas sin intervalo suficiente para la recuperación activa.
+- Probar: Estructura fija: pregunta corta, 2 segundos de pausa para recuerdo mental activo y tarjeta de solución.

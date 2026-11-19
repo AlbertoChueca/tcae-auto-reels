@@ -1,5 +1,5 @@
-# Cuaderno de revisora_visual (2026-11-18)
+# Cuaderno de revisora_visual (2026-11-19)
 
-- Seguir haciendo: Rechazo estricto a degradados artificiales basales, textos secundarios ilegibles e infracciones de EPIs (guantes en tareas limpias).
-- Dejar de hacer: Validar imágenes con cortes inferiores dudosos que arruinen la integración del reel.
-- Probar: Protocolo de filtro previo: descarte inmediato si la base no es un fondo plano continuo; revisión de higiene clínica en segundo término.
+- Seguir haciendo: Filtro estricto frente a degradados artificiales basales, textos secundarios e infracciones de EPIs (guantes en tareas sin fluidos).
+- Dejar de hacer: Aprobar imágenes con sombreados inferiores dudosos.
+- Probar: Check-list previo automático: descartar de inmediato si la base no es fondo puro o si hay texto ilustrado.
