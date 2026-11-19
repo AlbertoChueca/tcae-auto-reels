@@ -1,12 +1,12 @@
-# Informe del verificador (2026-11-16)
+# Informe del verificador (2026-11-19)
 
-- Preguntas en el banco: 1822 · revisadas: 1293 · **publicables: 1175**
-- Posibles errores: 19 · dudosas: 58 · correctas pero sin texto de la norma para citar: 41
+- Preguntas en el banco: 1822 · revisadas: 1371 · **publicables: 1216**
+- Posibles errores: 22 · dudosas: 48 · correctas pero sin texto de la norma para citar: 85
 
 Las marcadas como posible error conviene revisarlas también en la web app.
 
 
-## Posibles errores (19)
+## Posibles errores (22)
 
 - **[Estatuto Marco del Personal Estatutario (Ley 55/2003)]** ¿A qué texto legal remite el artículo 79 de la Ley 55/2003 en materia de representación y negociación colectiva del personal estatutario? — marcada A) Al Texto Refundido del Estatuto Básico del Empleado Público (TREBEP)
   - El artículo 79 remite a la Constitución y a la Ley Orgánica 11/1985 de Libertad Sindical; es el artículo 78 el que remite a la normativa general de la función pública (actual TREBEP).
@@ -46,33 +46,19 @@ Las marcadas como posible error conviene revisarlas también en la web app.
   - El Consejo de Salud de Aragón se regula en el Título III (De la participación ciudadana) de la Ley 6/2002, no en el Título V. El enunciado contiene un error.
 - **[Ley de Salud de Aragón (Ley 6/2002)]** ¿En qué capítulo de la Ley de Salud de Aragón se regulan las infracciones y sanciones? — marcada A) Capítulo V del Título V (artículos 40 a 44)
   - Las infracciones y sanciones se regulan en el Título VI de la Ley 6/2002 (artículos 40 a 44), no en el Capítulo V del Título V. Ninguna opción es correcta.
+- **[Ley de Salud de Aragón (Ley 6/2002)]** ¿En qué título de la Ley de Salud de Aragón se regula el ámbito subjetivo, es decir, quiénes son los titulares de derechos y deberes? — marcada B) Título II, 'De los ciudadanos' · sugerida: A
+  - El artículo 3, que define quiénes son los titulares de los derechos y deberes (ámbito subjetivo), se encuentra en el Título I (Disposiciones generales), no en el Título II.
+- **[Áreas y Sectores de Salud (Decreto 174/2010)]** ¿Cómo se denomina el órgano que dirige cada Área de Salud? — marcada B) El Consejo Rector · sugerida: Ninguna es correcta (debería ser Consejo de Dirección de Área)
+  - Según la Ley 6/2002 de Salud de Aragón y el Decreto 174/2010, el órgano de dirección del Área de Salud es el Consejo de Dirección de Área, no el Consejo Rector.
+- **[Ley de Salud de Aragón (Ley 6/2002)]** ¿A partir de qué edad puede un aragonés otorgar el documento de voluntades anticipadas, si es menor emancipado? — marcada B) 14 años · sugerida: C
+  - Contradicción legal: la emancipación requiere tener al menos 16 años. Un menor de 14 años puede otorgarlo por ser 'menor aragonés mayor de 14 años', pero no puede estar emancipado.
 
-## Dudosas (58)
+## Dudosas (48)
 
-- **[Ley de Salud de Aragón (Ley 6/2002)]** Según el estatuto de autonomía de Aragón todas las personas tienen derecho a acceder a los servicios públicos de salud, en condiciones de: — marcada A) Igualdad, universalidad y calidad
-  - El texto fuente proporcionado es la Ley de Salud de Aragón y no incluye el Estatuto de Autonomía para poder verificar la respuesta.
-- **[Nombramientos y Tipos de Mayoría]** ¿Cuál es la duración del mandato del Justicia de Aragón? — marcada B) 5 años
-  - Los artículos del Estatuto de Autonomía adjuntos mencionan al Justicia, pero no establecen la duración de su mandato de 5 años.
-- **[Constitución Española de 1978]** ¿Cuál es el plazo general para interponer un recurso de inconstitucionalidad desde la publicación de la norma impugnada? — marcada A) 3 meses
-  - El texto proporcionado no incluye el artículo de la Ley Orgánica del Tribunal Constitucional que establece el plazo de 3 meses.
 - **[Geriatría]** Un país se considera envejecido cuando su índice de envejecimiento es: — marcada C) Mayor del 11%
   - El término 'índice de envejecimiento' suele referirse a la relación entre mayores de 64 y menores de 15. Si se refiere a la tasa sobre el total, los umbrales varían según el autor (OMS, ONU), siendo a menudo >12% o >14%.
-- **[Transparencia y Acceso a la Información Pública]** En Aragón, ¿ante qué órgano puede reclamar un ciudadano si le deniegan el acceso a la información pública? — marcada A) Ante el Consejo de Transparencia de Aragón
-  - El texto proporcionado es la ley estatal y no incluye la normativa autonómica que confirme al Consejo de Transparencia de Aragón como órgano competente.
 - **[Limpieza y Desinfección]** ¿Cuál es el periodo de caducidad habitual de un material esterilizado envuelto en una bolsa de papel mixto (doble capa, papel-plástico)? — marcada C) 12 meses
   - La caducidad varía según el protocolo del centro; a menudo, una bolsa mixta simple se considera válida por 6 meses, generando ambigüedad con el término 'doble capa'.
-- **[Nombramientos y Tipos de Mayoría]** ¿Con qué mayoría son elegidos el Defensor del Pueblo por las Cortes Generales? — marcada B) Mayoría de tres quintos en cada Cámara
-  - El artículo 54 de la Constitución adjunto no especifica la mayoría de tres quintos; esto se regula en una ley orgánica no proporcionada.
-- **[Contratación del Sector Público (Ley 9/2017)]** ¿A partir de qué importe es obligatorio comunicar los datos de un contrato al Registro de Contratos del Sector Público? — marcada A) A partir de 5.000 euros
-  - El texto proporcionado no incluye el artículo de la Ley 9/2017 (art. 346.3) que establece el importe de 5.000 euros para el Registro de Contratos.
-- **[Constitución Española de 1978]** ¿Qué título de la Constitución regula el Poder Judicial? — marcada B) Título VI
-  - El texto de la fuente no incluye el encabezado del Título VI para confirmar explícitamente que regula el Poder Judicial.
-- **[Constitución Española de 1978]** ¿Qué título de la Constitución regula la Economía y la Hacienda? — marcada B) Título VII
-  - El texto proporcionado no incluye el encabezado del Título VII para confirmar que regula Economía y Hacienda.
-- **[Constitución Española de 1978]** Sin contar el Título Preliminar, ¿cuántos títulos numerados (del I al X) tiene la Constitución Española? — marcada C) Diez
-  - El texto proporcionado no demuestra el número total de títulos de la Constitución. Además, el enunciado revela la respuesta al decir '(del I al X)'.
-- **[Nombramientos y Tipos de Mayoría]** Si tras tres votaciones ningún candidato a Justicia de Aragón obtiene la mayoría de tres quintos exigida, ¿qué mayoría basta para las siguientes votaciones? — marcada B) Mayoría absoluta
-  - El texto proporcionado regula la investidura del Presidente de Aragón, no la elección del Justicia de Aragón.
 - **[Aparato Urinario]** La capacidad habitual de la vejiga urinaria es de aproximadamente: — marcada B) 200-300 ml
   - El término 'capacidad habitual' es ambiguo: el deseo miccional aparece a los 200-300 ml, pero la capacidad funcional normal es de 300-500 ml (como indica una de las propias fichas de la app).
 - **[Nutrición y Alimentación]** Es un aminoácido esencial: — marcada B) Alanina
@@ -95,20 +81,14 @@ Las marcadas como posible error conviene revisarlas también en la web app.
   - La duración del lavado antiséptico varía según la bibliografía; la OMS recomienda 40-60 segundos, mientras que algunos manuales clásicos de TCAE indican 2-3 minutos.
 - **[Instrumental Quirúrgico]** ¿Cómo se denomina a la parte que mantiene el instrumental quirúrgico cuando está trabado? — marcada C) Caja de traba
   - La plantilla oficial parece errónea: la parte que mantiene el instrumental trabado o cerrado es la 'cremallera', mientras que la 'caja de traba' es la articulación o bisagra.
-- **[Constitución Española de 1978]** ¿Cuántas Comunidades Autónomas integran actualmente el Estado español? — marcada B) 17
-  - Aunque la respuesta es correcta (17 CCAA), el texto de la fuente proporcionado no especifica esta cifra, por lo que no demuestra la respuesta.
 - **[Constitución Española de 1978]** ¿En nombre de quién proclama la Nación Española su voluntad al inicio del Preámbulo? — marcada A) En uso de su soberanía
-  - El texto de la fuente no incluye el Preámbulo de la Constitución Española para verificar la afirmación.
+  - El enunciado pregunta '¿En nombre de quién...?', pero la respuesta 'En uso de su soberanía' no responde gramaticalmente a esa pregunta, lo que hace que la formulación sea confusa.
 - **[Régimen Jurídico del Sector Público (Ley 40/2015)]** En caso de daños físicos o psíquicos a las personas, ¿desde cuándo empieza a computarse el plazo de un año para reclamar responsabilidad patrimonial? — marcada B) Desde la curación o la determinación del alcance de las secuelas
   - El texto proporcionado no incluye el artículo 67 de la Ley 39/2015, que es la norma que regula el inicio del cómputo del plazo para reclamar por daños físicos.
 - **[Constitución Española de 1978]** Según el Capítulo Tercero del Título VIII de la Constitución Española de 1978, ¿cuál de las siguientes opciones es una competencia exclusiva del Estado?: — marcada D) Legislación sobre productos farmacéuticos
   - La respuesta es correcta y de examen oficial (art. 149.1.16 CE), pero el texto de la fuente proporcionado no incluye dicho artículo para demostrarlo.
 - **[Sondas Digestivas]** El calibre de una sonda hace referencia a: — marcada B) El diámetro de la luz
   - Técnicamente, el calibre (escala French) mide el diámetro externo de la sonda, no el diámetro de la luz (interno), aunque suele darse por válida al ser la mejor opción.
-- **[Nombramientos y Tipos de Mayoría]** ¿Cómo se computa la mayoría simple? — marcada A) Más votos a favor que en contra, sin contar las abstenciones
-  - Los artículos proporcionados mencionan la mayoría simple, pero no definen cómo se computa matemáticamente.
-- **[Contratación del Sector Público (Ley 9/2017)]** ¿Qué prohíbe expresamente la Ley 9/2017 en relación con los umbrales de los contratos menores? — marcada A) El fraccionamiento del objeto del contrato para eludir dichos umbrales
-  - El texto proporcionado no incluye el artículo de la Ley 9/2017 que prohíbe el fraccionamiento de los contratos menores (art. 99.2 o 118.3).
 - **[Ley General de Sanidad (Ley 14/1986)]** ¿Qué instituto de investigación sanitaria fue creado por la Ley General de Sanidad? — marcada A) El Instituto de Salud Carlos III
   - El texto proporcionado menciona la adscripción de centros al Instituto de Salud Carlos III, pero omite el artículo 111 que establece explícitamente su creación.
 - **[Estatuto Marco del Personal Estatutario (Ley 55/2003)]** ¿Cuál es el plazo de prescripción de las faltas leves del personal estatutario según la Ley 55/2003? — marcada A) 6 meses
@@ -119,14 +99,8 @@ Las marcadas como posible error conviene revisarlas también en la web app.
   - Aunque la fórmula Calidad = Percepción - Expectativas es correcta conceptualmente, la atribución al autor 'Cotte' es inusual y podría ser una errata de otro autor (como Kotler).
 - **[Contratación del Sector Público (Ley 9/2017)]** ¿Cuáles son los dos procedimientos de adjudicación ordinarios según la Ley 9/2017? — marcada A) El abierto y el restringido
   - El texto proporcionado no incluye el artículo 131.2 de la Ley 9/2017, que define el procedimiento abierto y el restringido como los procedimientos ordinarios de adjudicación.
-- **[Estatuto Marco del Personal Estatutario (Ley 55/2003)]** ¿En qué capítulo de la Ley 55/2003 se regulan los derechos y deberes del personal estatutario? — marcada B) Capítulo IV (artículos 17 a 19)
-  - La respuesta es correcta, pero el texto legal adjunto no indica que los artículos 17 y 18 pertenezcan al Capítulo IV.
-- **[Estatuto Marco del Personal Estatutario (Ley 55/2003)]** ¿En qué capítulo de la Ley 55/2003 se regula el régimen de incompatibilidades del personal estatutario? — marcada C) Capítulo XIII
-  - El texto incluye el artículo 76 sobre incompatibilidades, pero no especifica que este se encuentre en el Capítulo XIII.
 - **[Geriatría]** ¿Cuál de las siguientes escalas se utiliza para valorar el riesgo de caídas en el anciano? — marcada B) Escala de Braden
   - La plantilla oficial marca la escala de Braden, que valora el riesgo de úlceras por presión. La escala correcta para el riesgo de caídas es la de Downton (opción C).
-- **[Estatuto Marco del Personal Estatutario (Ley 55/2003)]** El principio de libre circulación y la posibilidad de movilidad del personal estatutario en todo el Sistema Nacional de Salud se consagra en: — marcada A) El capítulo dedicado a la movilidad del personal
-  - El texto proporcionado menciona la movilidad en el artículo 38, pero no demuestra que exista un capítulo específico dedicado a ella.
 - **[Limpieza y Desinfección]** Los residuos de pacientes con Fiebre de Lassa o Ébola se clasifican como: — marcada A) Grupo II
   - La plantilla oficial parece errónea: los residuos de fiebres hemorrágicas como el Ébola son de alto riesgo infeccioso (Grupo III), no Grupo II.
 - **[Salud Laboral y Prevención de Riesgos]** Según el RD 486/1997, la temperatura en un entorno de trabajo sedentario, como un control de enfermería debe estar entre: — marcada C) 20 y 24 °C
@@ -144,17 +118,9 @@ Las marcadas como posible error conviene revisarlas también en la web app.
 - **[Procedimiento Administrativo Común (Ley 39/2015)]** ¿Qué recurso administrativo cabe contra un acto que NO pone fin a la vía administrativa?: — marcada A) Recurso de alzada
   - Aunque la respuesta A es correcta (art. 121 LPACAP), el texto de la fuente proporcionado omite dicho artículo y no permite demostrarla explícitamente.
 - **[Fechas Clave y Plazos Administrativos]** Tras el Dictamen de la Comisión Mixta Congreso-Senado, ¿en qué fecha se aprobó el texto definitivo en sesión plenaria conjunta de ambas Cámaras? — marcada A) 31 de octubre de 1978
-  - El enunciado contiene un error histórico: el 31 de octubre de 1978 el texto fue aprobado en sesiones plenarias separadas del Congreso y del Senado, no en sesión conjunta.
-- **[Constitución Española de 1978]** El artículo 43 de la Constitución, sobre el derecho a la salud, se encuentra dentro del capítulo: — marcada C) De los principios rectores de la política social y económica
-  - El texto legal proporcionado no demuestra explícitamente que el artículo 43 se encuentre dentro del Capítulo Tercero, por lo que no se puede verificar con la fuente dada.
-- **[Fechas Clave y Plazos Administrativos]** ¿En qué fecha se publicó en el BOE la primera reforma constitucional (artículo 13.2)? — marcada A) 28 de agosto de 1992
-  - El texto de la fuente menciona la Reforma de 27 de agosto de 1992, pero no especifica literalmente que su fecha de publicación en el BOE fuera el 28 de agosto.
-- **[Constitución Española de 1978]** ¿Qué títulos de la Constitución se corresponden respectivamente con los tres poderes clásicos del Estado (legislativo, ejecutivo y judicial)? — marcada A) Título III (Cortes Generales), Título IV (Gobierno) y Título VI (Poder Judicial)
-  - El texto legal proporcionado solo menciona el Título III, omitiendo los Títulos IV y VI necesarios para confirmar la respuesta completa.
+  - La fecha es correcta (31 de octubre de 1978), pero el enunciado contiene un error histórico: el texto se aprobó en sesiones separadas y simultáneas de cada Cámara, no en una 'sesión plenaria conjunta'.
 - **[Estatuto Marco del Personal Estatutario (Ley 55/2003)]** Según su relación jurídica, el personal estatutario se clasifica en: — marcada A) Fijo y temporal
   - El artículo 5 de la Ley 55/2003 clasifica al personal según el 'tipo de su nombramiento', no utiliza explícitamente la expresión 'relación jurídica'.
-- **[Fechas Clave y Plazos Administrativos]** ¿Cuál es el plazo general para interponer un recurso contencioso-administrativo frente a un acto expreso? — marcada B) 2 meses
-  - El texto de la fuente proporcionado no incluye la Ley 29/1998, que es la que establece el plazo de 2 meses para el recurso contencioso-administrativo.
 - **[Fechas Clave y Plazos Administrativos]** En el procedimiento administrativo común, salvo que una norma fije otra cosa, ¿cuál es el plazo máximo para notificar la resolución expresa? — marcada B) 3 meses
   - Aunque la respuesta es correcta (art. 21.3), el texto fuente proporcionado no incluye dicho artículo para confirmarlo, solo el relativo al recurso de alzada.
 - **[Constitución Española de 1978]** ¿Qué órgano vela por la supremacía de la Constitución y resuelve los recursos de inconstitucionalidad? — marcada B) El Tribunal Constitucional
@@ -165,3 +131,23 @@ Las marcadas como posible error conviene revisarlas también en la web app.
   - Según el artículo 19.3 del Decreto 174/2010, la estructura es aprobada por la Dirección Gerencia del SALUD a propuesta del Gerente de Sector. La plantilla oficial parece errónea al dar por buena la C en lugar de la D.
 - **[Geografía y Población de Aragón]** La ciudad de Teruel es conocida por ser: — marcada B) La capital de provincia más pequeña de España
   - El término 'más pequeña' es ambiguo; aunque Teruel es la capital de provincia menos poblada, en términos de superficie (extensión territorial) la capital más pequeña de España es Cádiz.
+- **[Geografía y Población de Aragón]** ¿Cuántos habitantes tiene aproximadamente Aragón según el censo de población de 2024? — marcada B) Unos 1,35 millones
+  - Las preguntas sobre cifras de población exactas están sujetas a cambios constantes y pueden quedar desactualizadas, por lo que se consideran dudosas según las instrucciones.
+- **[Salud Mental]** El Plan de Salud Mental de Aragón está basado en los siguientes principios generales, EXCEPTO: — marcada C) Avances Tecnológicos
+  - Aunque la plantilla oficial marque la C, 'Ámbito Urbano' tampoco es un principio general del Plan (el enfoque es comunitario y de equidad territorial), por lo que la pregunta podría estar mal transcrita o la plantilla ser errónea al tener dos opciones falsas.
+- **[Geografía y Población de Aragón]** ¿Cuál era la edad media de la población en Aragón en 2024 y cómo se compara con la media española?: — marcada C) 45,5 años, por encima de la media española (44,4 años)
+  - Al tratarse de cifras de población exactas de un año específico, no se puede confirmar con seguridad sin consultar los datos oficiales del INE.
+- **[Órganos de Gobierno y Administración CAA (Ley 5/2021)]** ¿Qué ley regula los órganos de Gobierno y estructura de la Comunidad Autónoma de Aragón? — marcada B) Ley 5/2021
+  - La Ley 5/2021 regula la Administración y el Sector Público Autonómico, pero los órganos de Gobierno (Presidente y Gobierno) se regulan por el Decreto Legislativo 1/2022, lo que hace el enunciado impreciso.
+- **[Ley General de Sanidad (Ley 14/1986)]** ¿En qué se dividen las Áreas de Salud según la LGS? — marcada B) En Zonas Básicas de Salud
+  - El texto proporcionado no incluye el artículo de la Ley General de Sanidad (artículo 56) que establece explícitamente que las Áreas de Salud se dividen en Zonas Básicas de Salud.
+- **[Geografía y Población de Aragón]** Según los datos finales de 2025, ¿cuál fue aproximadamente la tasa de desempleo en Aragón?: — marcada B) 7,7%
+  - La pregunta hace referencia a datos estadísticos de finales de 2025, una fecha futura, por lo que no es posible verificar su exactitud con la información actual.
+- **[Ley de Salud de Aragón (Ley 6/2002)]** ¿Qué derecho reconoce la Ley de Salud de Aragón que permite al paciente optar entre dos o más facultativos o centros asistenciales? — marcada B) El derecho a la libre elección de profesional sanitario, servicio y centro
+  - El texto proporcionado no incluye el artículo de la Ley de Salud de Aragón que reconoce el derecho a la libre elección de profesional y centro.
+- **[Fechas Clave y Plazos Administrativos]** ¿En qué fecha comenzó a perfilarse formalmente el proceso de transferencias sanitarias a Aragón? — marcada A) 13 de marzo de 2001
+  - La expresión 'comenzó a perfilarse formalmente' es ambigua y no se apoya en ningún texto legal proporcionado para confirmar una fecha tan específica.
+- **[Órganos de Gobierno y Administración CAA (Ley 5/2021)]** ¿En cuántos departamentos se organiza actualmente la Administración de Aragón según el Decreto de 12 de julio de 2024? — marcada C) 9
+  - La estructura orgánica del Gobierno de Aragón puede cambiar frecuentemente y no se dispone del texto del Decreto de 12 de julio de 2024 para confirmarlo con absoluta seguridad.
+- **[Limpieza y Desinfección]** Según la normativa aragonesa, el almacenamiento final de los residuos del Grupo III en un hospital, si no dispone de refrigeración, NO podrá exceder de: — marcada B) 24 horas
+  - Según el Decreto 29/1995 de Aragón, el almacenamiento de residuos del Grupo III sin refrigeración es de un máximo de 72 horas, por lo que la plantilla oficial podría ser errónea.

@@ -27,22 +27,22 @@
 "fecha": "2026-10-13"
 },
 "aca0895b14": {
-"veredicto": "dudosa",
-"motivo": "El texto fuente proporcionado es la Ley de Salud de Aragón y no incluye el Estatuto de Autonomía para poder verificar la respuesta.",
+"veredicto": "ok",
+"motivo": "El artículo 14.2 del Estatuto de Autonomía de Aragón reconoce expresamente el derecho a acceder a los servicios públicos de salud en condiciones de igualdad, universalidad y calidad.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-12"
+"fecha": "2026-11-19"
 },
 "7aae196175": {
-"veredicto": "dudosa",
-"motivo": "Los artículos del Estatuto de Autonomía adjuntos mencionan al Justicia, pero no establecen la duración de su mandato de 5 años.",
+"veredicto": "ok",
+"motivo": "El mandato del Justicia de Aragón es de cinco años, tal como establece su ley reguladora.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-12"
+"fecha": "2026-11-19"
 },
 "1a5a0409fc": {
 "veredicto": "ok",
@@ -216,13 +216,13 @@
 "fecha": "2026-10-13"
 },
 "103ca661f6": {
-"veredicto": "dudosa",
-"motivo": "El texto proporcionado no incluye el artículo de la Ley Orgánica del Tribunal Constitucional que establece el plazo de 3 meses.",
+"veredicto": "ok",
+"motivo": "El artículo 33 de la Ley Orgánica del Tribunal Constitucional establece el plazo general de tres meses para interponer el recurso de inconstitucionalidad.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-12"
+"fecha": "2026-11-19"
 },
 "1f1c62301d": {
 "veredicto": "ok",
@@ -549,13 +549,13 @@
 "fecha": "2026-10-13"
 },
 "689df886bb": {
-"veredicto": "dudosa",
-"motivo": "El texto proporcionado es la ley estatal y no incluye la normativa autonómica que confirme al Consejo de Transparencia de Aragón como órgano competente.",
+"veredicto": "ok",
+"motivo": "En Aragón, el órgano autonómico competente para resolver estas reclamaciones es el Consejo de Transparencia de Aragón, según su propia ley autonómica.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-12"
+"fecha": "2026-11-19"
 },
 "6447e42814": {
 "veredicto": "ok",
@@ -613,12 +613,12 @@
 },
 "951465215e": {
 "veredicto": "ok",
-"motivo": "La Ponencia constitucional estuvo formada por siete miembros, históricamente conocidos como los 'Padres de la Constitución'.",
+"motivo": "La Ponencia constitucional estuvo formada por siete diputados, históricamente conocidos como los 'Padres de la Constitución'.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-12"
+"fecha": "2026-11-19"
 },
 "b1d5e3d1eb": {
 "veredicto": "ok",
@@ -981,13 +981,13 @@
 "fecha": "2026-10-13"
 },
 "1377cc262e": {
-"veredicto": "dudosa",
-"motivo": "El artículo 54 de la Constitución adjunto no especifica la mayoría de tres quintos; esto se regula en una ley orgánica no proporcionada.",
+"veredicto": "ok",
+"motivo": "La Ley Orgánica del Defensor del Pueblo exige una mayoría de tres quintos tanto en el Congreso como en el Senado para su elección.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-12"
+"fecha": "2026-11-19"
 },
 "458e88c007": {
 "veredicto": "ok",
@@ -1044,13 +1044,13 @@
 "fecha": "2026-10-13"
 },
 "47bf377f6d": {
-"veredicto": "dudosa",
-"motivo": "El texto proporcionado no incluye el artículo de la Ley 9/2017 (art. 346.3) que establece el importe de 5.000 euros para el Registro de Contratos.",
+"veredicto": "ok",
+"motivo": "El artículo 346.3 de la Ley de Contratos del Sector Público establece la obligación de comunicar al Registro los contratos de importe igual o superior a 5.000 euros.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-12"
+"fecha": "2026-11-19"
 },
 "bead865b93": {
 "veredicto": "ok",
@@ -1116,13 +1116,13 @@
 "fecha": "2026-10-13"
 },
 "137d169b9f": {
-"veredicto": "dudosa",
-"motivo": "El texto de la fuente no incluye el encabezado del Título VI para confirmar explícitamente que regula el Poder Judicial.",
+"veredicto": "ok",
+"motivo": "El Título VI de la Constitución Española está dedicado a regular el Poder Judicial.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-12"
+"fecha": "2026-11-19"
 },
 "e62208af1d": {
 "veredicto": "ok",
@@ -1332,13 +1332,13 @@
 "fecha": "2026-10-13"
 },
 "9d0cc7646e": {
-"veredicto": "dudosa",
-"motivo": "El texto proporcionado no incluye el encabezado del Título VII para confirmar que regula Economía y Hacienda.",
+"veredicto": "ok",
+"motivo": "El Título VII de la Constitución Española se titula expresamente 'Economía y Hacienda'.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-12"
+"fecha": "2026-11-19"
 },
 "bbd06f8c55": {
 "veredicto": "ok",
@@ -1365,7 +1365,7 @@
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-12"
+"fecha": "2026-11-19"
 },
 "728be4f84a": {
 "veredicto": "ok",
@@ -1738,12 +1738,12 @@
 },
 "4463103860": {
 "veredicto": "ok",
-"motivo": "El Real Decreto 1475/2001 es efectivamente la norma que reguló el traspaso de las funciones y servicios del INSALUD a Aragón.",
+"motivo": "El Real Decreto 1475/2001 es la norma histórica que hizo efectivo el traspaso de las funciones del INSALUD a la Comunidad Autónoma de Aragón.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-12"
+"fecha": "2026-11-19"
 },
 "4da0bc5ef7": {
 "veredicto": "error",
@@ -1783,12 +1783,12 @@
 },
 "c36110f8a9": {
 "veredicto": "ok",
-"motivo": "Entre junio de 1977 y diciembre de 1978 transcurrieron 18 meses, lo que equivale a un año y medio.",
+"motivo": "Desde las elecciones de junio de 1977 hasta la entrada en vigor de la Constitución en diciembre de 1978 transcurrieron 18 meses, es decir, un año y medio.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-12"
+"fecha": "2026-11-19"
 },
 "4edbceb895": {
 "veredicto": "ok",
@@ -1872,13 +1872,13 @@
 "fecha": "2026-10-13"
 },
 "8245bd876b": {
-"veredicto": "dudosa",
-"motivo": "El texto proporcionado no demuestra el número total de títulos de la Constitución. Además, el enunciado revela la respuesta al decir '(del I al X)'.",
+"veredicto": "ok",
+"motivo": "La Constitución Española se estructura en un Título Preliminar y diez títulos numerados del I al X.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-12"
+"fecha": "2026-11-19"
 },
 "863995f46a": {
 "veredicto": "ok",
@@ -2170,12 +2170,12 @@
 },
 "f803623eb9": {
 "veredicto": "ok",
-"motivo": "La Ley 8/1996, de 2 de diciembre, es la norma autonómica que estableció la delimitación de las comarcas en Aragón.",
+"motivo": "La Ley 8/1996, de 2 de diciembre, es la norma autonómica que estableció la delimitación de las 33 comarcas en Aragón.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-12"
+"fecha": "2026-11-19"
 },
 "6433d65348": {
 "veredicto": "ok",
@@ -2277,13 +2277,13 @@
 "fecha": "2026-10-14"
 },
 "94b6c30a65": {
-"veredicto": "dudosa",
-"motivo": "El texto proporcionado regula la investidura del Presidente de Aragón, no la elección del Justicia de Aragón.",
+"veredicto": "ok",
+"motivo": "Según la Ley reguladora del Justicia de Aragón, tras tres votaciones sin alcanzar los tres quintos, basta la mayoría absoluta.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-12"
+"fecha": "2026-11-19"
 },
 "602de32617": {
 "veredicto": "ok",
@@ -2503,12 +2503,12 @@
 },
 "2f309928e3": {
 "veredicto": "ok",
-"motivo": "El Decreto 39/2024, de 28 de febrero, es la norma vigente que regula la estructura orgánica del Departamento de Sanidad de Aragón.",
+"motivo": "El Decreto 39/2024, de 28 de febrero, es la norma vigente que aprueba la estructura orgánica del Departamento de Sanidad y del SALUD en Aragón.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-12"
+"fecha": "2026-11-19"
 },
 "72e5c26846": {
 "veredicto": "ok",
@@ -4887,13 +4887,13 @@
 "fecha": "2026-10-22"
 },
 "4449ecb2a3": {
-"veredicto": "dudosa",
-"motivo": "Aunque la respuesta es correcta (17 CCAA), el texto de la fuente proporcionado no especifica esta cifra, por lo que no demuestra la respuesta.",
+"veredicto": "ok",
+"motivo": "El Estado español se organiza territorialmente en 17 Comunidades Autónomas y 2 Ciudades Autónomas (Ceuta y Melilla).",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-12"
+"fecha": "2026-11-19"
 },
 "e6a630275e": {
 "veredicto": "ok",
@@ -4924,12 +4924,12 @@
 },
 "ffdf21b0f9": {
 "veredicto": "ok",
-"motivo": "El 87,78% es el porcentaje histórico reconocido de votos afirmativos sobre el total de votantes en el referéndum constitucional.",
+"motivo": "El 87,78% de los votantes (que representaba casi el 59% del censo electoral) votó a favor de la Constitución en el referéndum de 1978.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-12"
+"fecha": "2026-11-19"
 },
 "ac509fdb95": {
 "veredicto": "ok",
@@ -5050,12 +5050,12 @@
 },
 "64913b8049": {
 "veredicto": "dudosa",
-"motivo": "El texto de la fuente no incluye el Preámbulo de la Constitución Española para verificar la afirmación.",
+"motivo": "El enunciado pregunta '¿En nombre de quién...?', pero la respuesta 'En uso de su soberanía' no responde gramaticalmente a esa pregunta, lo que hace que la formulación sea confusa.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-12"
+"fecha": "2026-11-19"
 },
 "1c51e829a3": {
 "veredicto": "ok",
@@ -6327,13 +6327,13 @@
 "fecha": "2026-10-29"
 },
 "6dbb168282": {
-"veredicto": "dudosa",
-"motivo": "Los artículos proporcionados mencionan la mayoría simple, pero no definen cómo se computa matemáticamente.",
+"veredicto": "ok",
+"motivo": "La mayoría simple se alcanza cuando los votos a favor superan a los votos en contra, sin computar las abstenciones.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-12"
+"fecha": "2026-11-19"
 },
 "92d6355820": {
 "veredicto": "ok",
@@ -6516,13 +6516,13 @@
 "fecha": "2026-10-29"
 },
 "b07d68353d": {
-"veredicto": "dudosa",
-"motivo": "El texto proporcionado no incluye el artículo de la Ley 9/2017 que prohíbe el fraccionamiento de los contratos menores (art. 99.2 o 118.3).",
+"veredicto": "ok",
+"motivo": "La Ley de Contratos del Sector Público prohíbe fraccionar el objeto del contrato para eludir los umbrales de los contratos menores.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-12"
+"fecha": "2026-11-19"
 },
 "c5904bdf1d": {
 "veredicto": "ok",
@@ -8181,13 +8181,13 @@
 "fecha": "2026-11-05"
 },
 "6a0ad8d87e": {
-"veredicto": "dudosa",
-"motivo": "La respuesta es correcta, pero el texto legal adjunto no indica que los artículos 17 y 18 pertenezcan al Capítulo IV.",
-"fuente_ok": false,
-"referencia": "",
-"cita": "",
+"veredicto": "ok",
+"motivo": "El Capítulo IV de la Ley 55/2003 (artículos 17 a 19) regula los derechos individuales, colectivos y los deberes del personal estatutario.",
+"fuente_ok": true,
+"referencia": "Ley 55/2003, del Estatuto Marco del personal estatutario · Artículo 17",
+"cita": "Artículo 17. Derechos individuales. 1. El personal estatutario de los servicios de salud ostenta los siguientes derechos:",
 "correcta_sugerida": null,
-"fecha": "2026-11-12"
+"fecha": "2026-11-19"
 },
 "ed57162e20": {
 "veredicto": "ok",
@@ -8586,13 +8586,13 @@
 "fecha": "2026-11-05"
 },
 "ddd2d5607e": {
-"veredicto": "dudosa",
-"motivo": "El texto incluye el artículo 76 sobre incompatibilidades, pero no especifica que este se encuentre en el Capítulo XIII.",
-"fuente_ok": false,
-"referencia": "",
-"cita": "",
+"veredicto": "ok",
+"motivo": "El régimen de incompatibilidades del personal estatutario se regula en el Capítulo XIII de la Ley 55/2003, a partir del artículo 76.",
+"fuente_ok": true,
+"referencia": "Ley 55/2003, del Estatuto Marco del personal estatutario · Artículo 76",
+"cita": "Artículo 76. Régimen general. Resultará de aplicación al personal estatutario el régimen de incompatibilidades establecido con carácter general para los funcionarios públicos",
 "correcta_sugerida": null,
-"fecha": "2026-11-12"
+"fecha": "2026-11-19"
 },
 "843e7d3e2a": {
 "veredicto": "dudosa",
@@ -8658,13 +8658,13 @@
 "fecha": "2026-11-05"
 },
 "f02e393d99": {
-"veredicto": "dudosa",
-"motivo": "El texto proporcionado menciona la movilidad en el artículo 38, pero no demuestra que exista un capítulo específico dedicado a ella.",
+"veredicto": "ok",
+"motivo": "La Ley 55/2003 dedica su Capítulo VIII a la movilidad del personal, consagrando el principio de libre circulación en el Sistema Nacional de Salud.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-12"
+"fecha": "2026-11-19"
 },
 "001d209948": {
 "veredicto": "ok",
@@ -8812,12 +8812,12 @@
 },
 "686adc9117": {
 "veredicto": "ok",
-"motivo": "La Ley General de Sanidad establece explícitamente el cierre temporal de hasta cinco años para infracciones muy graves.",
+"motivo": "La Ley General de Sanidad establece expresamente la posibilidad de acordar el cierre temporal de hasta cinco años para las infracciones muy graves.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-12"
+"fecha": "2026-11-19"
 },
 "09272ccf16": {
 "veredicto": "dudosa",
@@ -10252,12 +10252,12 @@
 },
 "fa91dc0ef8": {
 "veredicto": "dudosa",
-"motivo": "El enunciado contiene un error histórico: el 31 de octubre de 1978 el texto fue aprobado en sesiones plenarias separadas del Congreso y del Senado, no en sesión conjunta.",
+"motivo": "La fecha es correcta (31 de octubre de 1978), pero el enunciado contiene un error histórico: el texto se aprobó en sesiones separadas y simultáneas de cada Cámara, no en una 'sesión plenaria conjunta'.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-12"
+"fecha": "2026-11-19"
 },
 "287ab935df": {
 "veredicto": "error",
@@ -10440,13 +10440,13 @@
 "fecha": "2026-11-12"
 },
 "820993ddad": {
-"veredicto": "dudosa",
-"motivo": "El texto legal proporcionado no demuestra explícitamente que el artículo 43 se encuentre dentro del Capítulo Tercero, por lo que no se puede verificar con la fuente dada.",
+"veredicto": "ok",
+"motivo": "El artículo 43 de la Constitución se encuentra en el Capítulo III del Título I, dedicado a los principios rectores de la política social y económica.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-12"
+"fecha": "2026-11-19"
 },
 "624f472a63": {
 "veredicto": "ok",
@@ -10494,13 +10494,13 @@
 "fecha": "2026-11-12"
 },
 "2f1c5a4109": {
-"veredicto": "dudosa",
-"motivo": "El texto de la fuente menciona la Reforma de 27 de agosto de 1992, pero no especifica literalmente que su fecha de publicación en el BOE fuera el 28 de agosto.",
-"fuente_ok": false,
-"referencia": "",
-"cita": "",
+"veredicto": "ok",
+"motivo": "La primera reforma constitucional fue sancionada el 27 de agosto de 1992 y publicada en el BOE al día siguiente, el 28 de agosto de 1992.",
+"fuente_ok": true,
+"referencia": "Constitución Española de 1978 · Artículo 13",
+"cita": "Se modifica el apartado 2 por el art. único de la Reforma de 27 de agosto de 1992. Ref. BOE-A-1992-20403",
 "correcta_sugerida": null,
-"fecha": "2026-11-12"
+"fecha": "2026-11-19"
 },
 "dd20fbdc1f": {
 "veredicto": "ok",
@@ -10575,13 +10575,13 @@
 "fecha": "2026-11-12"
 },
 "56dd6bba65": {
-"veredicto": "dudosa",
-"motivo": "El texto legal proporcionado solo menciona el Título III, omitiendo los Títulos IV y VI necesarios para confirmar la respuesta completa.",
+"veredicto": "ok",
+"motivo": "Los Títulos III, IV y VI de la Constitución regulan respectivamente las Cortes Generales, el Gobierno y el Poder Judicial, correspondiendo a los tres poderes clásicos.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-12"
+"fecha": "2026-11-19"
 },
 "19f0aa51bc": {
 "veredicto": "dudosa",
@@ -10710,13 +10710,13 @@
 "fecha": "2026-11-12"
 },
 "b62ef4ed5a": {
-"veredicto": "dudosa",
-"motivo": "El texto de la fuente proporcionado no incluye la Ley 29/1998, que es la que establece el plazo de 2 meses para el recurso contencioso-administrativo.",
+"veredicto": "ok",
+"motivo": "Según la Ley 29/1998 de la Jurisdicción Contencioso-Administrativa, el plazo general para interponer este recurso contra actos expresos es de dos meses.",
 "fuente_ok": false,
 "referencia": "",
 "cita": "",
 "correcta_sugerida": null,
-"fecha": "2026-11-12"
+"fecha": "2026-11-19"
 },
 "379e678962": {
 "veredicto": "ok",
@@ -11635,5 +11635,707 @@
 "cita": "Los principios generales en los que se inspira la presente Ley son los siguientes: a) Concepción integral de la salud",
 "correcta_sugerida": null,
 "fecha": "2026-11-16"
+},
+"ded19d7bb4": {
+"veredicto": "ok",
+"motivo": "El Aneto, con 3.404 metros de altitud, es efectivamente el pico más alto de la cordillera de los Pirineos y de la comunidad de Aragón.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"ccd578ada7": {
+"veredicto": "dudosa",
+"motivo": "Las preguntas sobre cifras de población exactas están sujetas a cambios constantes y pueden quedar desactualizadas, por lo que se consideran dudosas según las instrucciones.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"4e70aced7b": {
+"veredicto": "ok",
+"motivo": "La variedad principal y característica de aceituna de la DOP Aceite del Bajo Aragón es efectivamente la Empeltre.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"bb0e968579": {
+"veredicto": "ok",
+"motivo": "La Ley 8/1996, de 2 de diciembre, de Delimitación Comarcal de Aragón, es la norma que estableció las 33 comarcas.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"8a2c21f4b6": {
+"veredicto": "ok",
+"motivo": "La Ley 6/2002 establece claramente que el representante legal da el consentimiento, escuchando al menor si es mayor de doce años.",
+"fuente_ok": true,
+"referencia": "Ley 6/2002, de 15 de abril, de Salud de Aragón · Artículo 14",
+"cita": "el consentimiento debe darlo el representante del menor, después de haber escuchado, en todo caso, su opinión si es mayor de doce años.",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"e56512bcdd": {
+"veredicto": "ok",
+"motivo": "Es correcto, las líneas asistenciales son Atención Primaria, Especializada, Sociosanitaria y Salud Mental; la atención a la infancia no es una línea organizativa estructural.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"2d9748dde9": {
+"veredicto": "dudosa",
+"motivo": "Aunque la plantilla oficial marque la C, 'Ámbito Urbano' tampoco es un principio general del Plan (el enfoque es comunitario y de equidad territorial), por lo que la pregunta podría estar mal transcrita o la plantilla ser errónea al tener dos opciones falsas.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"6d5a185682": {
+"veredicto": "ok",
+"motivo": "Es una pregunta específica de examen oficial y el dato de la contratación de 8 TCAEs está recogido literalmente en la estimación de recursos humanos del Plan de Salud Mental 2022-2025.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"a6d6b7fb8e": {
+"veredicto": "ok",
+"motivo": "El Título VII del Estatuto de Autonomía de Aragón se denomina expresamente 'Cooperación institucional y acción exterior'.",
+"fuente_ok": true,
+"referencia": "Ley Orgánica 5/2007, de reforma del Estatuto de Autonomía de Aragón · Título VII",
+"cita": "TÍTULO VII Cooperación institucional y acción exterior",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"c48a500655": {
+"veredicto": "ok",
+"motivo": "El Consejo de Salud de Sector es el órgano colegiado de participación comunitaria establecido para cada Sector Sanitario en Aragón.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"764542c609": {
+"veredicto": "ok",
+"motivo": "Las opciones B, C y D corresponden a competencias de otros órganos autonómicos, siendo la A la única función lógica y correcta para el Consejo Rector.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"c9c08cdc8b": {
+"veredicto": "ok",
+"motivo": "El artículo 25.1 de la Ley 5/2021 establece explícitamente la existencia de un presidente o presidenta en todo órgano colegiado.",
+"fuente_ok": true,
+"referencia": "Ley 5/2021, Artículo 25",
+"cita": "En todo órgano colegiado existirá un presidente o presidenta a quien le corresponderá: a) Ostentar la representación del órgano.",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"fc6bf5b8b1": {
+"veredicto": "ok",
+"motivo": "El título oficial de la norma confirma que la Ley de Salud de Aragón es la Ley 6/2002, de 15 de abril.",
+"fuente_ok": true,
+"referencia": "Ley 6/2002, de 15 de abril, de Salud de Aragón",
+"cita": "Ley 6/2002, de 15 de abril, de Salud de Aragón.",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"8e549a1ed8": {
+"veredicto": "ok",
+"motivo": "El artículo 12.1 de la Ley 6/2002 detalla exactamente los casos en los que el consentimiento debe realizarse por escrito, coincidiendo con la opción B.",
+"fuente_ok": true,
+"referencia": "Ley 6/2002, Artículo 12",
+"cita": "El consentimiento debe realizarse por escrito en los casos de intervenciones quirúrgicas, procedimientos diagnósticos invasivos y, en general, cuando se lleven a cabo procedimientos que puedan suponer riesgos",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"1192c50b4a": {
+"veredicto": "ok",
+"motivo": "Es un hecho histórico correcto que en 2002 se completaron las transferencias sanitarias del INSALUD a las comunidades autónomas que aún no las tenían, como Aragón.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"66fc3df563": {
+"veredicto": "ok",
+"motivo": "Al ser una pregunta de examen oficial y siendo la opción D claramente ajena a los principios de un plan de diversidad cultural, la respuesta es defendible.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"ebf2bae2d7": {
+"veredicto": "ok",
+"motivo": "El artículo 71.1 de la Ley 5/2021 define explícitamente a los vicepresidentes y consejeros como los órganos superiores de la Administración autonómica.",
+"fuente_ok": true,
+"referencia": "Ley 5/2021, Artículo 71",
+"cita": "Los vicepresidentes o vicepresidentas, en su caso, y las consejeras y consejeros, como titulares de los departamentos, son los órganos superiores de la Administración de la comunidad autónoma.",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"a99fd9eb3f": {
+"veredicto": "dudosa",
+"motivo": "Al tratarse de cifras de población exactas de un año específico, no se puede confirmar con seguridad sin consultar los datos oficiales del INE.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"6d77ba1547": {
+"veredicto": "ok",
+"motivo": "El Plan de Salud Mental de Aragón 2022-2025 cuenta efectivamente con 7 líneas estratégicas.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"9f4c441268": {
+"veredicto": "ok",
+"motivo": "Aragón cuenta con cuatro Denominaciones de Origen Protegidas de vino principales: Cariñena, Campo de Borja, Somontano y Calatayud.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"a39dadd77a": {
+"veredicto": "ok",
+"motivo": "La D.O. Calatayud es conocida por sus viñedos de altitud o alta montaña.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"b23e0eaac7": {
+"veredicto": "ok",
+"motivo": "La comarca del Somontano de Barbastro se encuentra en la provincia de Huesca.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"46fedbd1a9": {
+"veredicto": "ok",
+"motivo": "El burn-out no es una línea estratégica del Plan de Salud Mental de Aragón 2022-2025, mientras que adicciones, psicogeriatría y humanización sí forman parte de ellas.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"b05e795906": {
+"veredicto": "ok",
+"motivo": "La Ley Orgánica 5/1996 amplió las competencias de Aragón, lo que permitió iniciar el proceso de transferencias sanitarias.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"d221b48761": {
+"veredicto": "error",
+"motivo": "El artículo 3, que define quiénes son los titulares de los derechos y deberes (ámbito subjetivo), se encuentra en el Título I (Disposiciones generales), no en el Título II.",
+"fuente_ok": true,
+"referencia": "Ley 6/2002, de 15 de abril, de Salud de Aragón · Artículo 3",
+"cita": "Son titulares de los derechos y deberes contemplados en la presente Ley aquellas personas que tengan su residencia en los municipios de la Comunidad Autónoma de Aragón.",
+"correcta_sugerida": "A",
+"fecha": "2026-11-19"
+},
+"792bc3b1ea": {
+"veredicto": "ok",
+"motivo": "La Ley Trans de Aragón es la Ley 4/2018, de 19 de abril.",
+"fuente_ok": true,
+"referencia": "Ley 4/2018, de identidad y expresión de género e igualdad social y no discrimina",
+"cita": "Ley 4/2018, de 19 de abril, de Identidad y Expresión de Género e Igualdad Social y no Discriminación de la Comunidad Autónoma de Aragón.",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"7bd462a608": {
+"veredicto": "ok",
+"motivo": "El Decreto 39/2024 establece ocho Direcciones de Área como órganos centrales del Servicio Aragonés de Salud.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"7bd926bada": {
+"veredicto": "ok",
+"motivo": "La Ley 5/2021 establece explícitamente el principio de proporcionalidad y la elección de la medida menos restrictiva.",
+"fuente_ok": true,
+"referencia": "Ley 5/2021, Artículo 3",
+"cita": "Aplicar el principio de proporcionalidad y elegir la medida menos restrictiva.",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"384b88ae06": {
+"veredicto": "ok",
+"motivo": "La Ley 4/2007 define la mutilación genital femenina como la eliminación parcial o total de los genitales externos, incluso con consentimiento.",
+"fuente_ok": true,
+"referencia": "Ley 4/2007, Artículo 2",
+"cita": "procedimientos que implican una eliminación parcial o total de los genitales externos femeninos y/o lesiones causadas a los órganos genitales femeninos",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"9e1453e80a": {
+"veredicto": "ok",
+"motivo": "El Decreto 35/2010, de 9 de marzo, es la norma que regula el derecho a la segunda opinión médica en Aragón.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"4d157836a2": {
+"veredicto": "ok",
+"motivo": "Según el Decreto Legislativo 2/2004, el Presidente debe convocar sesión extraordinaria si lo solicita al menos un tercio de los miembros.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"9731d79206": {
+"veredicto": "ok",
+"motivo": "Las Zonas de Salud son la demarcación territorial básica donde desarrollan su actividad los Equipos de Atención Primaria.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"c815fad909": {
+"veredicto": "ok",
+"motivo": "La Ley 6/2002 de Salud de Aragón establece claramente que debe existir una única historia clínica por paciente en cada centro.",
+"fuente_ok": true,
+"referencia": "Ley 6/2002, Artículo 16",
+"cita": "En cada centro asistencial deberá existir una única historia clínica para cada paciente, correspondiendo a aquél la responsabilidad de su custodia.",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"06b07c1270": {
+"veredicto": "ok",
+"motivo": "La definición clásica de mobbing de Leymann, adoptada por organismos de prevención, exige una duración mínima de 6 meses. Es defendible y oficial.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"399cd7c4b3": {
+"veredicto": "ok",
+"motivo": "El Decreto 174/2010, de 21 de septiembre, es la norma que regula las áreas y sectores del Sistema de Salud de Aragón.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"000d1aecac": {
+"veredicto": "dudosa",
+"motivo": "La Ley 5/2021 regula la Administración y el Sector Público Autonómico, pero los órganos de Gobierno (Presidente y Gobierno) se regulan por el Decreto Legislativo 1/2022, lo que hace el enunciado impreciso.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"8adef20275": {
+"veredicto": "ok",
+"motivo": "El Decreto 174/2010 es el reglamento vigente que determina la estructura y funcionamiento de las áreas y sectores sanitarios en Aragón.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"f6b743143e": {
+"veredicto": "ok",
+"motivo": "El traspaso de las competencias sanitarias del INSALUD a la Comunidad Autónoma de Aragón se hizo efectivo el 1 de enero de 2002.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"9c4fb0aa2e": {
+"veredicto": "ok",
+"motivo": "El Director Gerente del SALUD ostenta la jefatura superior de todo el personal adscrito al organismo.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"7189f9fee3": {
+"veredicto": "ok",
+"motivo": "La Ley 2/1989, de 21 de abril, fue la norma fundacional que creó el Servicio Aragonés de Salud.",
+"fuente_ok": true,
+"referencia": "Ley 6/2002, de 15 de abril, de Salud de Aragón · Disposición derogatoria primera",
+"cita": "Ley 2/1989, de 21 de abril, del Servicio Aragonés de Salud, modificada por la Ley 8/1999, de 9 de abril.",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"1a2600cbb6": {
+"veredicto": "ok",
+"motivo": "El Real Decreto-ley 12/2022 introdujo importantes modificaciones en el Estatuto Marco para atajar la temporalidad en el Sistema Nacional de Salud.",
+"fuente_ok": true,
+"referencia": "Ley 55/2003, del Estatuto Marco del personal estatutario · Artículo 9 ter",
+"cita": "Se añade por el art. único.2 del Real Decreto-ley 12/2022, de 5 de julio de 2022.",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"3b73e5c768": {
+"veredicto": "ok",
+"motivo": "La Zona de Salud constituye el marco territorial y poblacional básico para la prestación de la atención primaria.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"fdc36daede": {
+"veredicto": "dudosa",
+"motivo": "El texto proporcionado no incluye el artículo de la Ley General de Sanidad (artículo 56) que establece explícitamente que las Áreas de Salud se dividen en Zonas Básicas de Salud.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"c7dd8d0e7a": {
+"veredicto": "dudosa",
+"motivo": "La pregunta hace referencia a datos estadísticos de finales de 2025, una fecha futura, por lo que no es posible verificar su exactitud con la información actual.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"ab3569c881": {
+"veredicto": "ok",
+"motivo": "La Ley 9/2017 establece expresamente la obligación de los órganos de contratación de designar un responsable del contrato para estas funciones.",
+"fuente_ok": true,
+"referencia": "Ley 9/2017, de Contratos del Sector Público, Artículo 62",
+"cita": "los órganos de contratación deberán designar un responsable del contrato al que corresponderá supervisar su ejecución y adoptar las decisiones",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"d53a72d64b": {
+"veredicto": "ok",
+"motivo": "El Decreto Legislativo 2/2004 establece que el Consejo de Dirección del SALUD debe reunirse como mínimo una vez al trimestre (cada tres meses).",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"0ef6fa8b58": {
+"veredicto": "ok",
+"motivo": "El Decreto Legislativo 2/2004 especifica claramente que el Director Gerente del Servicio Aragonés de Salud tiene rango de Director General.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"508879f8fd": {
+"veredicto": "dudosa",
+"motivo": "El texto proporcionado no incluye el artículo de la Ley de Salud de Aragón que reconoce el derecho a la libre elección de profesional y centro.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"2c43669995": {
+"veredicto": "ok",
+"motivo": "El Estatuto de Autonomía de Aragón define explícitamente al Consejo Consultivo como el supremo órgano consultivo de la Comunidad Autónoma.",
+"fuente_ok": true,
+"referencia": "Ley Orgánica 5/2007, de reforma del Estatuto de Autonomía de Aragón, Artículo 58",
+"cita": "El Consejo Consultivo de Aragón es el supremo órgano consultivo del Gobierno y la Administración de la Comunidad Autónoma.",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"aa7be8cc5b": {
+"veredicto": "ok",
+"motivo": "El título oficial de la norma confirma que la Ley 4/2007, de 22 de marzo, regula esta materia en el ámbito autonómico aragonés.",
+"fuente_ok": true,
+"referencia": "Ley 4/2007, de prevención y protección integral a las mujeres víctimas de violen",
+"cita": "Ley 4/2007, de 22 de marzo, de Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón.",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"ad5a0603f7": {
+"veredicto": "ok",
+"motivo": "La respuesta es correcta según la estructura orgánica del Departamento de Sanidad de Aragón.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"1a6cef7328": {
+"veredicto": "ok",
+"motivo": "La zona de salud es el marco territorial básico de la atención primaria según la normativa sanitaria.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"ca07cd4684": {
+"veredicto": "ok",
+"motivo": "El Plan Estratégico es el instrumento de planificación general previsto en la normativa autonómica de igualdad.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"654478b064": {
+"veredicto": "ok",
+"motivo": "Cariñena y Ainzón son municipios aragoneses autorizados para la producción de la D.O. Cava.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"808de1b65a": {
+"veredicto": "ok",
+"motivo": "El artículo 5 del Estatuto de Autonomía establece esta estructura territorial.",
+"fuente_ok": true,
+"referencia": "Ley Orgánica 5/2007, de reforma del Estatuto de Autonomía de Aragón, Artículo 5",
+"cita": "Aragón estructura su organización territorial en municipios, comarcas y provincias.",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"ebf177f562": {
+"veredicto": "ok",
+"motivo": "Los acuerdos de los órganos colegiados como el Consejo de Dirección se adoptan por mayoría de los presentes.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"a91f722dbe": {
+"veredicto": "ok",
+"motivo": "La fecha de aprobación de la Ley 7/2018 es el 28 de junio.",
+"fuente_ok": true,
+"referencia": "Ley 7/2018, de igualdad de oportunidades entre mujeres y hombres en Aragón, Títu",
+"cita": "Ley 7/2018, de 28 de junio, de igualdad de oportunidades entre mujeres y hombres en Aragón.",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"cf7c29adb8": {
+"veredicto": "ok",
+"motivo": "La Ley 8/2015, de 25 de marzo, es la Ley de Transparencia de Aragón.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"55ada5f6f7": {
+"veredicto": "ok",
+"motivo": "Aragón cuenta oficialmente con 731 municipios, por lo que la opción C es la correcta.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"0f7280a0e1": {
+"veredicto": "error",
+"motivo": "Según la Ley 6/2002 de Salud de Aragón y el Decreto 174/2010, el órgano de dirección del Área de Salud es el Consejo de Dirección de Área, no el Consejo Rector.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": "Ninguna es correcta (debería ser Consejo de Dirección de Área)",
+"fecha": "2026-11-19"
+},
+"08f46ffec1": {
+"veredicto": "ok",
+"motivo": "El Jamón de Teruel fue el primer jamón en España en obtener la Denominación de Origen (en 1984).",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"cdd157a158": {
+"veredicto": "ok",
+"motivo": "La Ley 8/2015 de Aragón regula la transparencia basándose en sus dos pilares: la publicidad activa y el derecho de acceso a la información pública.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"739da56360": {
+"veredicto": "ok",
+"motivo": "La D.O. Cariñena fue reconocida en 1932, siendo la denominación de origen vitivinícola más antigua de Aragón.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"7ed5d35255": {
+"veredicto": "ok",
+"motivo": "El Melocotón de Calanda se cultiva en la comarca del Bajo Aragón, que abarca municipios de las provincias de Teruel y Zaragoza.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"de0ecc5ff8": {
+"veredicto": "ok",
+"motivo": "El Consejo de Transparencia de Aragón es el órgano autonómico independiente encargado de resolver las reclamaciones sobre el derecho de acceso.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"fa282e3c86": {
+"veredicto": "ok",
+"motivo": "Pregunta de examen oficial con plantilla correcta; el río Ebro atraviesa la comunidad de noroeste a sureste actuando como eje vertebrador interior.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"e3c1a977a3": {
+"veredicto": "dudosa",
+"motivo": "La expresión 'comenzó a perfilarse formalmente' es ambigua y no se apoya en ningún texto legal proporcionado para confirmar una fecha tan específica.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"10da0852d4": {
+"veredicto": "ok",
+"motivo": "La respuesta coincide literalmente con lo establecido en el artículo 1.2 de la Ley General de Sanidad.",
+"fuente_ok": true,
+"referencia": "Ley 14/1986, General de Sanidad · Artículo uno",
+"cita": "Son titulares del derecho a la protección de la salud y a la atención sanitaria todos los españoles y los ciudadanos extranjeros que tengan establecida su residencia en el territorio nacional.",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"e0cd810ffb": {
+"veredicto": "error",
+"motivo": "Contradicción legal: la emancipación requiere tener al menos 16 años. Un menor de 14 años puede otorgarlo por ser 'menor aragonés mayor de 14 años', pero no puede estar emancipado.",
+"fuente_ok": true,
+"referencia": "Ley 6/2002, de 15 de abril, de Salud de Aragón · Artículo 15",
+"cita": "mayor de edad, menor emancipado o menor aragonés mayor de catorce años",
+"correcta_sugerida": "C",
+"fecha": "2026-11-19"
+},
+"05fd6831b3": {
+"veredicto": "ok",
+"motivo": "Al ser pregunta de examen oficial y ser defendible que el uso compulsivo de redes sociales se aborde en la línea de adicciones, se da por válida.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"46264e33cb": {
+"veredicto": "ok",
+"motivo": "El Moncayo es efectivamente el pico más alto del Sistema Ibérico, situado en el límite entre las provincias de Zaragoza y Soria.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"73821c9df7": {
+"veredicto": "dudosa",
+"motivo": "La estructura orgánica del Gobierno de Aragón puede cambiar frecuentemente y no se dispone del texto del Decreto de 12 de julio de 2024 para confirmarlo con absoluta seguridad.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"15ae8e56d7": {
+"veredicto": "ok",
+"motivo": "El Decreto Legislativo 2/2004 es la norma autonómica que aprueba el texto refundido de la Ley del Servicio Aragonés de Salud.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"9b835895de": {
+"veredicto": "dudosa",
+"motivo": "Según el Decreto 29/1995 de Aragón, el almacenamiento de residuos del Grupo III sin refrigeración es de un máximo de 72 horas, por lo que la plantilla oficial podría ser errónea.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"72e3176099": {
+"veredicto": "ok",
+"motivo": "El Decreto 39/2024 establece la Gerencia única de Atención Primaria como Dirección de Área del SALUD para todo el territorio aragonés.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"337caf8058": {
+"veredicto": "ok",
+"motivo": "El Texto Refundido de la Ley del Servicio Aragonés de Salud (DLeg 2/2004) fija la reunión del Consejo de Dirección al menos una vez al trimestre.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"497f20cf31": {
+"veredicto": "ok",
+"motivo": "El 061 Aragón es el servicio de urgencias y emergencias sanitarias encargado de la valoración y traslado de pacientes, incluidos los psiquiátricos agitados.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
+},
+"7d5270f3b9": {
+"veredicto": "ok",
+"motivo": "La Marca C'alial es el sello oficial de garantía de calidad diferenciada del Gobierno de Aragón para productos agroalimentarios.",
+"fuente_ok": false,
+"referencia": "",
+"cita": "",
+"correcta_sugerida": null,
+"fecha": "2026-11-19"
 }
 }
