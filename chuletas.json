@@ -764,5 +764,20 @@
 "tiktok": "6afff02c03cbe1df2ce7022c"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-11-20",
+"slot": "18",
+"topic": "constantesVitales",
+"tema": "Constantes Vitales",
+"subtema": "Alteraciones y patrones respiratorios",
+"quiz_id": "97250e65fa",
+"imagenes": 6,
+"publicado": true,
+"destinos": {
+"instagram": "error: 400: {\"error\":{\"message\":\"Media ID is not available\",\"code\":9007,\"type\":\"OAuthException\",\"error_subcode\":2207027,\"is_transient\":false,\"error_user_msg\":\"El archivo multimedia no está listo para publicar; espera un momento\",\"error_user_title\":\"No se puede publicar\",\"fbtrace_id\":\"Av3LN8chTvTJJnW1PP0TBq",
+"tiktok": "6b008b57143a5b0232864988"
+},
+"dry_run": false
 }
 ]
