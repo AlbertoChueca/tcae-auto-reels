@@ -1,5 +1,5 @@
-# Cuaderno de seo (2026-11-19)
+# Cuaderno de seo (2026-11-20)
 
-- Seguir haciendo: Usar términos clave probados («TCAE», «repaso», «fichas», «simulacro») en texto y gancho.
-- Dejar de hacer: Copys neutros o genéricos («¿Te la sabes?») sin palabra clave de oposición.
-- Probar: Incluir siglas de servicios de salud convocantes (SAS, SERMAS, SACYL) en el titular del reel.
+- Seguir haciendo: Incluir términos clave de búsqueda como «TCAE», «repaso», «simulacro» y «fichas» en titular y copy.
+- Dejar de hacer: Usar ganchos genéricos sin intención de búsqueda sanitaria («¿Te la sabes?»).
+- Probar: Integrar siglas de oposiciones sanitarias oficiales (SAS, SERMAS, SACyL) en la primera línea de la descripción.

@@ -1,5 +1,6 @@
-# Cuaderno de gancho (2026-11-19)
+# Cuaderno de gancho (2026-11-20)
 
-- Seguir haciendo: Ganchos directos de reto o examen oficial («4 fichas de repaso», «Cayó en el examen», «¿Te la sabes?», «¿Aciertas las 3?»), líderes en alcance (+3.91 score y hasta 6.6k views).
-- Dejar de hacer: Ganchos de empatía de turno («¿Estudias tras el turno? Pruébate», «Repaso rápido tras el turno») y narrativos («Dilema de guardia: no falles», peor resultado con score -2.50).
-- Probar: Fórmulas que unan autoridad y reto cuantitativo: «Cayó en examen: ¿aciertas las 3?» o «4 fichas que caen seguro en tu OPE».
+# Cuaderno de gancho
+- Seguir haciendo: Ganchos directos de examen oficial y reto cuantitativo («Cayó en el examen», «4 fichas de repaso», «¿Te la sabes?», «¿Aciertas las 3?»), líderes absolutos en vistas y guardados (+3.92 de score y 6.6k views).
+- Dejar de hacer: Enfoques narrativos o de empatía laboral («Dilema de guardia: no falles», «Debate de turno», «¿Estudias tras el turno?»), que copan los peores resultados (-1.25 a -2.57).
+- Probar: Fórmulas combinadas de autoridad oficial con reto rápido: «Pregunta oficial: ¿la aciertas en 10 segundos?».

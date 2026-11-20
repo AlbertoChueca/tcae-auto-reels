@@ -1,5 +1,6 @@
-# Cuaderno de diseno (2026-11-19)
+# Cuaderno de diseno (2026-11-20)
 
-- Seguir haciendo: Estilo «cuaderno» con fondo limpio y tarjetas blancas; domina el top de interacciones y reproducciones tanto en IG como en TikTok. Mantener think_time largo/normal (retención >12 s).
-- Dejar de hacer: Estilos «marca», «ilustrado» y «minimal», estancados en el fondo con menos de 100 views y scores bajo -1.25.
-- Probar: Resaltador ámbar sobre la palabra clave del enunciado en la tarjeta blanca para lectura instantánea en móvil antes de la resolución teal.
+# Cuaderno de diseno
+- Seguir haciendo: Estilo «cuaderno» con tarjetas blancas limpias y «think_time» largo o normal, dominante en retención (>13 s en IG) y mejores scores en ambas plataformas.
+- Dejar de hacer: Estilos «marca», «ilustrado» y «minimal» (los tres hundidos con menos de 100 views), así como «think_time» corto en fichas de estudio (empeora retención y score).
+- Probar: Destacar en ámbar únicamente la palabra trampa o clave del enunciado sobre la tarjeta blanca para facilitar lectura rápida en móvil antes de la resolución.

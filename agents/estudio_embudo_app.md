@@ -1,5 +1,5 @@
-# Cuaderno de embudo_app (2026-11-19)
+# Cuaderno de embudo_app (2026-11-20)
 
-- Seguir haciendo: Conectar la resolución de preguntas oficiales con la práctica en apruebatcae.com.
-- Dejar de hacer: Medir conversión o clics en perfil; los datos no bastan (figuran casi en su totalidad como None).
-- Probar: Llamada a la acción orientada al error: «Si fallaste esta, practica el bloque completo en apruebatcae.com».
+- Seguir haciendo: Relacionar la temática de cada reel con simulacros reales de examen.
+- Dejar de hacer: Medir atribución de tráfico o conversiones; los datos no bastan (visitas y seguidores figuran mayoritariamente como None).
+- Probar: CTA directo al fallo: «Si dudaste aquí, haz el test completo de este bloque en apruebatcae.com».

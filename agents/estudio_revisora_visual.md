@@ -1,5 +1,5 @@
-# Cuaderno de revisora_visual (2026-11-19)
+# Cuaderno de revisora_visual (2026-11-20)
 
-- Seguir haciendo: Filtro estricto frente a degradados artificiales basales, textos secundarios e infracciones de EPIs (guantes en tareas sin fluidos).
-- Dejar de hacer: Aprobar imágenes con sombreados inferiores dudosos.
-- Probar: Check-list previo automático: descartar de inmediato si la base no es fondo puro o si hay texto ilustrado.
+- Seguir haciendo: Bloqueo estricto a degradados artificiales basales, textos de fondo e infracciones de EPI (guantes para manipular papel).
+- Dejar de hacer: Iterar imágenes con transiciones dudosas en el tercio inferior.
+- Probar: Criterio de rechazo fulminante en 3 segundos: descartar directamente si el tercio inferior no es fondo liso perfecto.

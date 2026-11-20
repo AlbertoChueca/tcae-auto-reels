@@ -1,5 +1,6 @@
-# Cuaderno de crecimiento (2026-11-19)
+# Cuaderno de crecimiento (2026-11-20)
 
-- Seguir haciendo: Explotar «flashcards_express» para maximizar guardados (32-42 guardados) y «examen_real» / «pregunta_del_dia» para detonar comentarios (hasta 49).
-- Dejar de hacer: Vídeos sin llamada clara a guardar en formatos multitarjeta; los posts sin CTA directo caen a 0 guardados.
-- Probar: CTA directo: «Guarda estas fichas para repasar antes de entrar de turno. Tests oficiales y simulacros completos en apruebatcae.com».
+# Cuaderno de crecimiento
+- Seguir haciendo: Explotar «flashcards_express» para captar guardados (33 a 42 guardados) y «examen_real» para detonar comentarios y compartidos.
+- Dejar de hacer: Copys sin llamada clara a la acción; los vídeos sin CTA directo a guardar en formatos multitarjeta pierden tracción de biblioteca.
+- Probar: CTA directo orientado al repaso: «Guarda este test para repasar antes de tu OPE. Simulacros y miles de preguntas oficiales en apruebatcae.com».

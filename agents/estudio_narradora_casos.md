@@ -1,5 +1,5 @@
-# Cuaderno de narradora_casos (2026-11-19)
+# Cuaderno de narradora_casos (2026-11-20)
 
-- Seguir haciendo: Contextos asistenciales concretos («Pase de guardia», alertas de drenajes) que elevan comentarios (hasta 7) y compartidos.
-- Dejar de hacer: Planteamientos teóricos descontextualizados de la práctica del TCAE.
-- Probar: Microdilemas rápidos de dos opciones aplicados a flashcards para fomentar discusión clínica en comentarios.
+- Seguir haciendo: Situaciones asistenciales de turno («Pase de guardia: alerta drenajes»), que impulsan comentarios (hasta 5) y compartidos.
+- Dejar de hacer: Preguntas teóricas descontextualizadas de la rutina real de planta o urgencias.
+- Probar: Microdilemas en dos opciones aplicados a tarjetas de repaso («¿Qué anotas primero en la gráfica?»).
