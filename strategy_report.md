@@ -9,10 +9,10 @@ _Updated 2026-11-20 · 105 reels with results (3+ days old) · average score -0.
 |---|---|---|
 | examen_real | 11 | 0.41 |
 | flashcards_express | 10 | 0.25 |
-| caso_practico | 8 | 0.16 |
-| simulacro_3 | 17 | 0.15 |
-| pregunta_del_dia | 37 | -0.03 |
-| legislacion_30s | 10 | -0.30 |
+| caso_practico | 8 | 0.15 |
+| simulacro_3 | 17 | 0.14 |
+| pregunta_del_dia | 37 | -0.04 |
+| legislacion_30s | 10 | -0.29 |
 | error_tipico | 7 | -0.44 |
 | truco_memorizar | 2 | -0.60 |
 | mito_realidad | 3 | -0.72 |
@@ -26,7 +26,7 @@ _Updated 2026-11-20 · 105 reels with results (3+ days old) · average score -0.
 | noche | 28 | -0.10 |
 | clasico | 20 | -0.12 |
 | marca | 6 | -0.28 |
-| minimal | 8 | -0.30 |
+| minimal | 8 | -0.28 |
 | ilustrado | 4 | -0.67 |
 
 ## hook_style
@@ -34,7 +34,7 @@ _Updated 2026-11-20 · 105 reels with results (3+ days old) · average score -0.
 | option | reels | avg score |
 |---|---|---|
 | examen | 13 | 0.41 |
-| dilema_guardia | 16 | 0.11 |
+| dilema_guardia | 16 | 0.12 |
 | repaso exprés | 19 | 0.06 |
 | reto | 16 | 0.02 |
 | trampa | 17 | 0.01 |

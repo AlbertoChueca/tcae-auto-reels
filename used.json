@@ -850,5 +850,23 @@
 "topic": "pae",
 "fecha": "2026-11-20",
 "formato": "pregunta_del_dia"
+},
+{
+"id": "e095d916cd",
+"topic": "leyGeneralSanidad",
+"fecha": "2026-11-20",
+"formato": "simulacro_3"
+},
+{
+"id": "51c66367e7",
+"topic": "procedimientoAdministrativo",
+"fecha": "2026-11-20",
+"formato": "simulacro_3"
+},
+{
+"id": "4ba5a2b0c0",
+"topic": "constitucionEspanola",
+"fecha": "2026-11-20",
+"formato": "simulacro_3"
 }
 ]
