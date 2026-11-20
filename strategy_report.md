@@ -1,6 +1,6 @@
 # Piloto automático Aprueba TCAE - qué está funcionando
 
-_Updated 2026-11-20 · 105 reels with results (3+ days old) · average score 0.00_
+_Updated 2026-11-20 · 105 reels with results (3+ days old) · average score -0.00_
 
 
 ## formato
@@ -10,7 +10,7 @@ _Updated 2026-11-20 · 105 reels with results (3+ days old) · average score 0.0
 | examen_real | 11 | 0.41 |
 | flashcards_express | 10 | 0.25 |
 | caso_practico | 8 | 0.16 |
-| simulacro_3 | 17 | 0.14 |
+| simulacro_3 | 17 | 0.15 |
 | pregunta_del_dia | 37 | -0.03 |
 | legislacion_30s | 10 | -0.30 |
 | error_tipico | 7 | -0.44 |

@@ -844,5 +844,11 @@
 "topic": "inmunidadVacunas",
 "fecha": "2026-11-20",
 "formato": "mito_realidad"
+},
+{
+"id": "3ba704d164",
+"topic": "pae",
+"fecha": "2026-11-20",
+"formato": "pregunta_del_dia"
 }
 ]

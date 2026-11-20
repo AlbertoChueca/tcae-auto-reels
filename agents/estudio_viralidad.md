@@ -1,5 +1,5 @@
 # Cuaderno de viralidad (2026-11-20)
 
-- Seguir haciendo: Ganchos cuantitativos y retadores («4 fichas de repaso», «¿Aciertas las 3?»), únicos en generar compartidos (hasta 5).
-- Dejar de hacer: Ganchos pasivos o impersonales («Cayó en el examen») que quedan en 0 compartidos.
-- Probar: Retos de complicidad de turno: «Etiqueta a tu compi de noche: quien falle la 2ª, repone el carro».
+- Seguir haciendo: Ganchos cuantificados («4 fichas de repaso», «¿Aciertas las 3?»), únicos que alcanzan 5 compartidos y alta interacción.
+- Dejar de hacer: Ganchos pasivos («Cayó en el examen», «Pregunta clave») que terminan con 0 compartidos.
+- Probar: Llamada a la acción competitiva: «¿Pleno o repites turno? Comenta tus aciertos».

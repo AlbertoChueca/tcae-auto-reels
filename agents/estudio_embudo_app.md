@@ -1,5 +1,5 @@
 # Cuaderno de embudo_app (2026-11-20)
 
-- Seguir haciendo: Relacionar la temática de cada reel con simulacros reales de examen.
-- Dejar de hacer: Medir atribución de tráfico o conversiones; los datos no bastan (visitas y seguidores figuran mayoritariamente como None).
-- Probar: CTA directo al fallo: «Si dudaste aquí, haz el test completo de este bloque en apruebatcae.com».
+- Seguir haciendo: Conectar la duda generada en el reel con la batería de preguntas oficiales de apruebatcae.com.
+- Dejar de hacer: Intentar atribuir descargas o registros: los datos de visitas al perfil y seguidores son casi siempre «None» (insuficientes).
+- Probar: CTA directo al fallo: «Si has dudado en una, repasa el test completo en la app apruebatcae.com».

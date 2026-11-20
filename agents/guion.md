@@ -1,6 +1,7 @@
 # Cuaderno de guion (2026-11-20)
 
 # Cuaderno de guion
-- Seguir haciendo: Monográficos clínicos («La Piel», 33 guardados) y preguntas tipo «examen_real» o «pregunta_del_dia» con aplicación práctica inmediata (hasta 49 comentarios).
-- Dejar de hacer: Temas autonómicos ultraespecíficos («Denominaciones Aragón», score -1.40), formato «error_tipico» y teoría abstracta de legislación («Constitución Española») sin caso clínico asociado.
-- Probar: Guiones de «examen_real» centrados en explicar en una sola frase por qué la trampa más común del tribunal es incorrecta.
+
+- Seguir haciendo: Monográficos clínicos en «flashcards_express» (33 guardados) y preguntas directas de «examen_real» (top con 6.6k views y 49 comentarios). Integrar temas con gran retención como Salud Laboral/PRL y Respiratorio.
+- Dejar de hacer: Temarios autonómicos hiperlocales («Denominaciones Aragón», score -1.40), formato «mito_realidad» y legislación abstracta pura.
+- Probar: Preguntas clínicas con trampa habitual en la opción distractora, explicando en una sola frase por qué se descarta.
