@@ -749,5 +749,20 @@
 "tiktok": "6aff2c196b432141b21bece6"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-11-20",
+"slot": "8",
+"topic": "respiratorio",
+"tema": "Aparato Respiratorio",
+"subtema": "Términos que se confunden en respiratorio",
+"quiz_id": "83193fc0f0",
+"imagenes": 6,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/Df9EeDpkuqP/",
+"tiktok": "6afff02c03cbe1df2ce7022c"
+},
+"dry_run": false
 }
 ]
