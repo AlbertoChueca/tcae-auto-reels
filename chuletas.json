@@ -809,5 +809,20 @@
 "tiktok": "6b01ce42164bae20cd2423b9"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-11-21",
+"slot": "18",
+"topic": "muestras",
+"tema": "Recogida de Muestras",
+"subtema": "Estudios en muestras de heces",
+"quiz_id": "97d4f54d7e",
+"imagenes": 6,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/DgAuSZ8nweb/",
+"tiktok": "6b01cefd68162d6153091497"
+},
+"dry_run": false
 }
 ]
