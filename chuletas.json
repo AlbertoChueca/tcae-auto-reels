@@ -779,5 +779,20 @@
 "tiktok": "6b008b57143a5b0232864988"
 },
 "dry_run": false
+},
+{
+"fecha": "2026-11-21",
+"slot": "8",
+"topic": "aparatoUrinario",
+"tema": "Aparato Urinario",
+"subtema": "Anatomía de las vías urinarias",
+"quiz_id": "ac2dc82492",
+"imagenes": 6,
+"publicado": true,
+"destinos": {
+"instagram": "https://www.instagram.com/p/Df_uF1hF9VP/",
+"tiktok": "6b014b8ca19e05ac57d98292"
+},
+"dry_run": false
 }
 ]
