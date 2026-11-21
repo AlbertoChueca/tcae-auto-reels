@@ -1,6 +1,9 @@
-# Cuaderno de cazatendencias (2026-11-20)
+# Cuaderno de cazatendencias (2026-11-21)
 
-Esta semana la actualidad sanitaria viene marcada por la prevención invernal y los trámites de empleo. En redes sociales, aprovecha el Día de los Antibióticos (18 de noviembre) y la campaña de gripe con carruseles de farmacología básica y tipos de inmunidad (activa vs. pasiva). Para TikTok y Reels, el Día del Prematuro (17 de noviembre) permite repasar cuidados inmediatos del neonato, constantes y semanas de gestación. Por último, dinamiza las stories alertando del plazo de actualización de méritos del SESCAM y el avance del tribunal de Madrid; los recordatorios de plazos generan guardados masivos y disparan la interacción con opositores activos.
+Esta semana coinciden la campaña masiva de virus respiratorios y efemérides con alto peso en examen: RAM, EPOC, prematuridad y el 25N. Estrategias de contenido:
+• Reel test rápido: plantea una pregunta sobre oxigenoterapia a bajo flujo en EPOC explicando por qué no se administran concentraciones altas de O2.
+• Carrusel de viñetas: clasifica al recién nacido según edad gestacional y explica qué cuidados en incubadora corresponden al TCAE.
+• Story interactiva: cuestionario sobre los 5 momentos del lavado de manos de la OMS aprovechando la campaña europea contra las superbacterias.
 
 ## Hallazgos
 - Ninguno fiable hoy.
